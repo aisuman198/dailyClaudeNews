@@ -26,7 +26,21 @@ describe('summarizer.buildPrompt', () => {
     expect(p).toContain('関連リンク')
   })
 
-  it('includes fresh and recurring counts', () => {
+  it('forbids inference and speculative phrasing', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain('# 推論の禁止')
+    expect(p).toContain('とみられる')
+    expect(p).toContain('解釈表現は禁止')
+  })
+
+  it('asks for category-based chapters', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain('## カテゴリ別まとめ')
+    expect(p).toContain('### カテゴリ名')
+    expect(p).toContain('プロダクト・モデルリリース')
+  })
+
+  it('embeds fresh and recurring input section counts', () => {
     const p = buildPrompt([it1, it1], [it2])
     expect(p).toContain('新規話題（2件）')
     expect(p).toContain('継続話題（1件）')
@@ -39,11 +53,9 @@ describe('summarizer.buildPrompt', () => {
     expect(p).toContain('"occurrences": 5')
   })
 
-  it('mentions output format sections', () => {
+  it('does not request an editor note section', () => {
     const p = buildPrompt([it1], [it2])
-    expect(p).toContain('## 本日のハイライト')
-    expect(p).toContain('## 新規話題')
-    expect(p).toContain('## 継続話題')
-    expect(p).toContain('## 編集後記')
+    expect(p).not.toContain('## 編集後記')
+    expect(p).toContain('主観的セクションは作らない')
   })
 })
