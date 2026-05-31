@@ -30,6 +30,7 @@ const ISSUE_LABELS_DEF = [
   { name: 'category:timeout', color: 'FBCA04', description: 'タイムアウト系の失敗' },
   { name: 'category:rate-limit', color: 'FBCA04', description: 'Max 5h 上限など' },
   { name: 'category:fetch', color: 'D93F0B', description: 'ニュース取得失敗' },
+  { name: 'category:article-fetch', color: 'FBCA04', description: '記事本文の取得失敗' },
   { name: 'category:git', color: 'D93F0B', description: 'git 操作失敗' },
   { name: 'category:unknown', color: 'CCCCCC', description: '分類不能' },
 ]
@@ -42,31 +43,77 @@ async function ensureLabels(): Promise<void> {
   )
 }
 
-function buildIssueBody(ctx: { date: string; phase: Phase; error: Error; category: string }): string {
+function readRecentLog(): string | null {
+  try {
+    // require dynamic so tests don't have to mock the fs path
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const fs = require('node:fs') as typeof import('node:fs')
+    const path = require('node:path') as typeof import('node:path')
+    const home = process.env.HOME ?? ''
+    if (!home) return null
+    const logPath = path.join(home, 'Library/Logs/dailyClaudeNews/run.log')
+    if (!fs.existsSync(logPath)) return null
+    const content = fs.readFileSync(logPath, 'utf8')
+    const lines = content.trim().split('\n')
+    return lines.slice(-30).join('\n')
+  } catch {
+    return null
+  }
+}
+
+function detailsBlock(summary: string, content: string): string {
   return [
-    `## 概要`,
-    `- 失敗フェーズ: \`${ctx.phase}\``,
-    `- カテゴリ: \`${ctx.category}\``,
-    `- 初回発生日: ${ctx.date}`,
-    `- エラー: ${ctx.error.message}`,
-    '',
-    '## スタックトレース',
+    `<details>`,
+    `<summary>${summary}</summary>`,
+    ``,
     '```',
-    ctx.error.stack ?? '(stack なし)',
+    content,
     '```',
-    '',
-    `<sub>自動起票 by dailyClaudeNews notifier</sub>`,
+    ``,
+    `</details>`,
   ].join('\n')
 }
 
-function buildRecurrenceComment(ctx: { date: string; phase: Phase; error: Error }): string {
-  return [
-    `### 再発: ${ctx.date}`,
-    `- フェーズ: \`${ctx.phase}\``,
-    `- エラー: ${ctx.error.message.slice(0, 300)}`,
+function buildIssueBody(ctx: { date: string; phase: Phase; error: Error; category: string }): string {
+  const recentLog = readRecentLog()
+  const blocks: string[] = [
+    `## 概要`,
+    `- **失敗フェーズ**: \`${ctx.phase}\``,
+    `- **カテゴリ**: \`${ctx.category}\``,
+    `- **初回発生日**: ${ctx.date}`,
+    `- **エラーメッセージ**:`,
+    '```',
+    ctx.error.message,
+    '```',
     '',
-    `<sub>自動コメント by dailyClaudeNews notifier</sub>`,
-  ].join('\n')
+    detailsBlock('スタックトレース', ctx.error.stack ?? '(stack なし)'),
+    '',
+  ]
+  if (recentLog) {
+    blocks.push(detailsBlock(`直近のログ (run.log 末尾 30 行)`, recentLog), '')
+  }
+  blocks.push(`<sub>自動起票 by dailyClaudeNews notifier</sub>`)
+  return blocks.join('\n')
+}
+
+function buildRecurrenceComment(ctx: { date: string; phase: Phase; error: Error }): string {
+  const recentLog = readRecentLog()
+  const blocks: string[] = [
+    `### 再発: ${ctx.date}`,
+    `- **フェーズ**: \`${ctx.phase}\``,
+    `- **エラーメッセージ**:`,
+    '```',
+    ctx.error.message.slice(0, 500),
+    '```',
+    '',
+    detailsBlock('スタックトレース', ctx.error.stack ?? '(stack なし)'),
+    '',
+  ]
+  if (recentLog) {
+    blocks.push(detailsBlock(`直近のログ (run.log 末尾 30 行)`, recentLog), '')
+  }
+  blocks.push(`<sub>自動コメント by dailyClaudeNews notifier</sub>`)
+  return blocks.join('\n')
 }
 
 async function postOrUpdateIssue(
@@ -96,6 +143,11 @@ async function postOrUpdateIssue(
   } catch {
     return { action: 'skipped' }
   }
+}
+
+export const __test__ = {
+  buildIssueBody,
+  buildRecurrenceComment,
 }
 
 export async function notifyFailure(error: Error, ctx: { phase: Phase }): Promise<void> {

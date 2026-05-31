@@ -29,9 +29,14 @@ const SKIP_PATTERNS = [
   /5h/i,
   /5時間/,
   /usage limit/i,
+  /記事取得/,
 ]
 
-const SKIP_LABEL_PREFIXES = ['category:timeout', 'category:rate-limit']
+const SKIP_LABEL_PREFIXES = [
+  'category:timeout',
+  'category:rate-limit',
+  'category:article-fetch',
+]
 
 export function isFixable(title: string, labels: string[]): boolean {
   if (labels.some((l) => SKIP_LABEL_PREFIXES.some((p) => l.startsWith(p)))) {

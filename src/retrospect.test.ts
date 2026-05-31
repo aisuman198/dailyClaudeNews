@@ -45,4 +45,9 @@ describe('isFixable', () => {
     expect(isFixable('[dailyClaudeNews] write エラー', ['dailyClaudeNews', 'category:unknown'])).toBe(true)
     expect(isFixable('[dailyClaudeNews] git push 失敗', ['dailyClaudeNews', 'category:git'])).toBe(true)
   })
+
+  it('returns false for article-fetch category (timeouts on URL fetching)', () => {
+    expect(isFixable('[dailyClaudeNews] 記事取得タイムアウト', ['dailyClaudeNews', 'category:article-fetch'])).toBe(false)
+    expect(isFixable('[dailyClaudeNews] 記事取得失敗', ['dailyClaudeNews', 'category:article-fetch'])).toBe(false)
+  })
 })

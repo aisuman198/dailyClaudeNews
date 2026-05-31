@@ -22,6 +22,21 @@ describe('categorize', () => {
     expect(c.title).toBe('[dailyClaudeNews] timeout: fetch')
   })
 
+  it('article fetch timeout collapses to a single title regardless of URL', () => {
+    const a = categorize(new Error('Request timed out at https://example.com/a'), 'enrich-bodies')
+    const b = categorize(new Error('タイムアウト fetching https://other.test/very/different/path'), 'enrich-bodies')
+    expect(a.title).toBe('[dailyClaudeNews] 記事取得タイムアウト')
+    expect(b.title).toBe(a.title)
+    expect(a.category).toBe('article-fetch')
+    expect(a.labels).toContain('category:article-fetch')
+  })
+
+  it('article fetch non-timeout failure uses the article-fetch failure title', () => {
+    const c = categorize(new Error('socket hang up'), 'enrich-bodies')
+    expect(c.category).toBe('article-fetch')
+    expect(c.title).toBe('[dailyClaudeNews] 記事取得失敗')
+  })
+
   it('classifies rate-limit messages distinctly from timeout', () => {
     const c = categorize(new Error('Max usage limit exceeded (5h window)'), 'summarize')
     expect(c.category).toBe('rate-limit')
