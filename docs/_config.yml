@@ -1,0 +1,26 @@
+title: Daily Claude News
+description: 毎朝 9:00 JST に Claude Code が生成する AI 業界ニュースのまとめ
+lang: ja
+theme: jekyll-theme-minimal
+
+show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - design/
+  - README.md
+  - .DS_Store
+
+# Markdown プロセッサ
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false

@@ -59,6 +59,15 @@ describe('summarizer.buildPrompt', () => {
     expect(p).toContain('プロダクト・モデルリリース')
   })
 
+  it('requests card-style output (title link, sub meta, paragraph summary)', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain('カード形式')
+    expect(p).toContain('[元タイトル](URL)')
+    expect(p).toContain('<sub>')
+    expect(p).toContain('段落として')
+    expect(p).toContain('箇条書きにしない')
+  })
+
   it('embeds fresh and recurring input section counts', () => {
     const p = buildPrompt([it1, it1], [it2])
     expect(p).toContain('新規話題（2件）')

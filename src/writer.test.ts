@@ -40,6 +40,8 @@ describe('writer', () => {
     expect(content).toContain('model: claude-sonnet-4-6')
     expect(content).toContain('fresh_count: 3')
     expect(content).toContain('recurring_count: 2')
+    expect(content).toContain('layout: default')
+    expect(content).toContain('title: "2026-06-01 のニュース"')
     expect(content).toContain('## hello')
     expect(content.endsWith('\n')).toBe(true)
   })
