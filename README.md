@@ -78,35 +78,54 @@ SKIP_GIT_PUSH=true SAVE_DRAFT=true E2E_MAX_ARTICLES=2 node dist/index.js
 
 ### 5. launchd への登録
 
+2つのジョブを登録する:
+- **9:00 JST**: ニュースまとめ生成 (`com.aisuman198.dailyClaudeNews`)
+- **10:00 JST**: その日の Issue を振り返り、新規パターンには draft PR を作成 (`com.aisuman198.dailyClaudeNews-retrospect`)
+
 ```bash
-# plist を LaunchAgents にシンボリックリンク
+# シンボリックリンクを LaunchAgents に張る
 ln -sf "$(pwd)/launchd/com.aisuman198.dailyClaudeNews.plist" \
        ~/Library/LaunchAgents/com.aisuman198.dailyClaudeNews.plist
+ln -sf "$(pwd)/launchd/com.aisuman198.dailyClaudeNews-retrospect.plist" \
+       ~/Library/LaunchAgents/com.aisuman198.dailyClaudeNews-retrospect.plist
 
-# ロード（次回 9:00 JST から自動起動）
+# bootstrap
 launchctl bootstrap "gui/$(id -u)" \
   ~/Library/LaunchAgents/com.aisuman198.dailyClaudeNews.plist
+launchctl bootstrap "gui/$(id -u)" \
+  ~/Library/LaunchAgents/com.aisuman198.dailyClaudeNews-retrospect.plist
 
 # 状態確認
 launchctl list | grep dailyClaudeNews
 
 # 即時起動して試す
 launchctl start com.aisuman198.dailyClaudeNews
+launchctl start com.aisuman198.dailyClaudeNews-retrospect
 ```
 
 アンロード:
 ```bash
 launchctl bootout "gui/$(id -u)/com.aisuman198.dailyClaudeNews"
+launchctl bootout "gui/$(id -u)/com.aisuman198.dailyClaudeNews-retrospect"
 ```
 
 ## ログ
 
 | ログ | パス |
 |------|------|
-| アプリ標準出力 | `~/Library/Logs/dailyClaudeNews/run.log` |
-| アプリ標準エラー | `~/Library/Logs/dailyClaudeNews/run.error.log` |
-| launchd 標準出力 | `~/Library/Logs/dailyClaudeNews/launchd.out.log` |
-| launchd 標準エラー | `~/Library/Logs/dailyClaudeNews/launchd.err.log` |
+| メインアプリ標準出力 | `~/Library/Logs/dailyClaudeNews/run.log` |
+| メインアプリ標準エラー | `~/Library/Logs/dailyClaudeNews/run.error.log` |
+| Retrospect 標準出力 | `~/Library/Logs/dailyClaudeNews/retrospect.log` |
+| Retrospect 標準エラー | `~/Library/Logs/dailyClaudeNews/retrospect.error.log` |
+| launchd（メイン） | `~/Library/Logs/dailyClaudeNews/launchd.{out,err}.log` |
+| launchd（retrospect） | `~/Library/Logs/dailyClaudeNews/launchd.retrospect.{out,err}.log` |
+
+## Issue / PR 自動運用
+
+| 種別 | 起票タイミング | 内容 |
+|------|--------------|------|
+| Issue（失敗時） | 9:00 のメインジョブ失敗時 | `notifier` がエラーをカテゴリ分類（timeout / fetch / git / rate-limit / unknown）し、**同タイトルの open issue があれば「再発」コメントを追加、無ければ新規起票**。タイムアウトは `[dailyClaudeNews] timeout: <phase>` で統一されるので何度発生しても 1 件に集約される |
+| Draft PR（10:00 振り返り） | 当日に作成された Issue が過去にパターンが無く、かつ修正対象（timeout/rate-limit 以外）の場合 | `retrospect` がワークツリーを使い `auto/retrospect-<date>-issue-<N>` ブランチを切って空コミットを置き、Issue 内容を本文にコピーした **draft PR を自動作成**。macOS 通知でユーザーに伝える |
 
 ## トラブルシュート
 
