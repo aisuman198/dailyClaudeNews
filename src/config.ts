@@ -36,6 +36,7 @@ export const config = {
   errorIssueRepo: env('ERROR_ISSUE_REPO', 'aisuman198/dailyClaudeNews'),
   macosNotification: env('MACOS_NOTIFICATION', 'true').toLowerCase() === 'true',
   verbose: env('VERBOSE', 'false').toLowerCase() === 'true',
+  skipGitPush: env('SKIP_GIT_PUSH', 'false').toLowerCase() === 'true',
 } as const
 
 export const resolvePath = (relativeOrAbsolute: string): string =>

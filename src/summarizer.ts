@@ -2,7 +2,7 @@ import { spawn } from 'node:child_process'
 import { config } from './config.js'
 import type { NewsItem, SummarizeResult } from './types.js'
 
-const SYSTEM_PROMPT = `あなたは AI 業界ニュースを日本語で読みやすくまとめるエディターです。情報は正確に、推測は避け、不確実な点は明示してください。`
+const SYSTEM_PROMPT = `あなたは AI 業界ニュースを日本語で読みやすくまとめるエディターです。情報は正確に、推測は避け、不確実な点は明示してください。出力は前置き・挨拶・自己注釈・作業説明を一切含めず、いきなり「## 本日のハイライト」から始めてください。マークダウン本文のみを返してください。`
 
 function toJsonForPrompt(items: NewsItem[]): string {
   return JSON.stringify(

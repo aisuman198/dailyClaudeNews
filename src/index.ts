@@ -48,11 +48,15 @@ async function main(): Promise<void> {
 
     phase.current = 'git'
     const dateStr = formatDate(today)
-    await commitAndPush(
-      [filePath, config.historyStatePath],
-      `chore(daily): ${dateStr} のまとめ (新規 ${fresh.length} / 継続 ${recurring.length})`,
-    )
-    log(phase.current, 'push 完了')
+    if (config.skipGitPush) {
+      log(phase.current, 'SKIP_GIT_PUSH=true のため git push をスキップ')
+    } else {
+      await commitAndPush(
+        [filePath, config.historyStatePath],
+        `chore(daily): ${dateStr} のまとめ (新規 ${fresh.length} / 継続 ${recurring.length})`,
+      )
+      log(phase.current, 'push 完了')
+    }
 
     console.log(`完了: ${filePath} (model: ${modelUsed})`)
   } catch (err) {
