@@ -1,4 +1,5 @@
 import { spawn } from 'node:child_process'
+import type { Caution } from './cautionStore.js'
 import { config } from './config.js'
 import type { NewsItem, SummarizeResult } from './types.js'
 
@@ -43,10 +44,26 @@ const CATEGORY_GUIDE = [
   '- その他',
 ].join('\n')
 
-export function buildPrompt(fresh: NewsItem[], recurring: NewsItem[]): string {
+function formatCautionRules(cautions: Caution[]): string {
+  if (cautions.length === 0) return ''
+  const lines = [
+    `# 既知の用語表記ルール（必ず守ること）`,
+    `過去のレビューで蓄積されたルールです。以下の用語は必ずルール通りに表記してください。`,
+    ...cautions.map((c) => `- **${c.term}**: ${c.rule}`),
+    ``,
+  ]
+  return lines.join('\n')
+}
+
+export function buildPrompt(
+  fresh: NewsItem[],
+  recurring: NewsItem[],
+  knownCautions: Caution[] = [],
+): string {
   return [
     `以下の AI 業界ニュース一覧を、カテゴリ別に章立てしてまとめてください。`,
     ``,
+    formatCautionRules(knownCautions),
     `# 重複の最終判断（重要）`,
     `入力データは事前に機械的な重複排除を行っていますが、見出しや切り口が異なるだけで実質的に同じ話題のものが残っている可能性があります。同一の事実・発表・出来事を扱っていると判断したものは、最も情報量の多い1件にまとめ、他は「- 関連リンク: <URL>」として URL のみを併記してください。新規話題と継続話題の境界をまたぐ重複も同様に統合してください。`,
     ``,
@@ -149,11 +166,12 @@ function runClaude(prompt: string): Promise<string> {
 export async function summarize(
   fresh: NewsItem[],
   recurring: NewsItem[],
+  knownCautions: Caution[] = [],
 ): Promise<SummarizeResult> {
   if (fresh.length === 0 && recurring.length === 0) {
     throw new Error('summarize に渡されたニュースが0件です')
   }
-  const prompt = buildPrompt(fresh, recurring)
+  const prompt = buildPrompt(fresh, recurring, knownCautions)
   const markdown = (await runClaude(prompt)).trim()
   if (markdown.length === 0) {
     throw new Error('claude から空文字が返されました')

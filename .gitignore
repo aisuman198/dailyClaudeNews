@@ -26,3 +26,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# Debug: summarize 直後のドラフト（SAVE_DRAFT=true 時のみ生成）
+state/draft-*.md
+

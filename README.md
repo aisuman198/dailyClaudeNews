@@ -8,11 +8,14 @@ Mac launchd で毎朝 9:00 JST に起動し、Anthropic 公式サイトと Hacke
 launchd (毎朝 9:00 JST)
   → scripts/run.sh
     → node dist/index.js
-      → fetcher (Anthropic sitemap + HN API)
-      → deduper (URL正規化 + タイトル類似度)
-      → historyFilter (state/seen.json と照合)
-      → summarizer (claude -p)
-      → writer (docs/daily/YYYY-MM-DD.md)
+      → fetcher          (Anthropic sitemap + HN API)
+      → deduper          (URL正規化 + 3-gram Jaccard)
+      → historyFilter    (state/seen.json と照合)
+      → articleFetcher   (各記事を並列 fetch → 本文抽出)
+      → summarizer       (claude -p, 既知の cautions.json も参照)
+      → reviewer         (別人格の claude -p で推敲、構造変更禁止)
+      → writer           (docs/daily/YYYY-MM-DD.md)
+      → cautionStore     (新規発見した固有名詞ルール等を state/cautions.json に追加)
       → git commit & push
 ```
 
@@ -48,20 +51,30 @@ cp .env.example .env
 | 変数 | 用途 |
 |------|------|
 | `CLAUDE_MODEL` | 主モデル（デフォルト `claude-sonnet-4-6`） |
+| `REVIEWER_MODEL` | レビュー担当モデル（デフォルト `claude-sonnet-4-6`） |
+| `REVIEW_ENABLED` | レビューフェーズを有効にするか（デフォルト `true`） |
+| `CLAUDE_TIMEOUT_MS` | summarize / review の各 CLI タイムアウト（デフォルト 20分） |
 | `HN_KEYWORDS` | HN から拾うキーワード（カンマ区切り） |
 | `HISTORY_RETENTION_DAYS` | 継続話題として参照する日数（デフォルト 14） |
 | `DEDUP_TITLE_SIMILARITY` | 同run内重複判定の閾値（0.0〜1.0、デフォルト 0.85） |
 | `MACOS_NOTIFICATION` | 失敗時に macOS 通知を出すか（true/false） |
+| `SKIP_GIT_PUSH` | true なら git commit/push をスキップ（dry-run 用） |
+| `SAVE_DRAFT` | true なら summarize 直後の draft を `state/draft-YYYY-MM-DD.md` に保存（debug 用、git 管理対象外） |
+| `E2E_MAX_ARTICLES` | 1以上なら新規＋継続の合計件数をその数に絞る（E2E 動作確認用） |
 
 ### 4. 手動で動作確認
 
+本番設定で実行（24件＋reviewで約20分・Max を 2セッション消費）:
 ```bash
-npm run dev        # tsx で src/index.ts を直接実行
-# または
 node dist/index.js
 ```
 
-`docs/daily/YYYY-MM-DD.md` が生成され、`state/seen.json` が更新され、`git push` まで実行される。
+**E2E 動作確認** — 2 件だけ・git push 無し（数分で完了）:
+```bash
+SKIP_GIT_PUSH=true SAVE_DRAFT=true E2E_MAX_ARTICLES=2 node dist/index.js
+```
+
+`docs/daily/YYYY-MM-DD.md` が生成され、`state/seen.json` と `state/cautions.json` が更新される。
 
 ### 5. launchd への登録
 
@@ -118,9 +131,12 @@ npm run test:watch # ウォッチモード
 
 ## 既知の仕様
 
-- **Anthropic 公式 RSS は提供されていない**ため、sitemap.xml から `/news/` `/research/` `/engineering/` 配下の URL を `lastmod` で抽出している。タイトルは URL slug を整形した暫定値。より正確なタイトルが欲しい場合は各記事ページを fetch して `<title>` を読む実装に差し替える。
+- **Anthropic 公式 RSS は提供されていない**ため、sitemap.xml から `/news/` `/research/` `/engineering/` 配下の URL を `lastmod` で抽出している。タイトルは URL slug を整形した暫定値。
 - **Mac がシャットダウン/スリープ中は launchd の cron 起動が発火しない**（StartCalendarInterval は復帰なし）。確実に動かしたい場合は `pmset` で起動スケジュールを併用するか、別途クラウド実行を検討する。
 - **Claude Code Max の 5 時間ローリング上限**を超えた場合、当日の実行は失敗し GitHub Issue が起票される。翌日再試行で復旧する。
+- **記事本文取得**は Node 側で並列実行（max 8 並列、各 12 秒タイムアウト、HTML 限定、上限 3,500 文字）。fetch 失敗した記事は要約に「（本文取得失敗）」と明示される。
+- **推敲レビュー** は別人格の `claude -p` 呼び出しで実施される。観点は (1)不自然な日本語、(2)英語タイトルの訳、(3)固有名詞の翻訳ミス。発見した注意事項は `state/cautions.json` に蓄積され、翌日以降の summarize と review にフィードバックされる。
+- **本番1日あたりの Claude 使用量**: summarize ~12分・review ~6分。Max の 5 時間枠で十分カバーされる。
 
 ## ライセンス
 

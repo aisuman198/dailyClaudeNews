@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "term": "仿（Chinese character）",
+      "rule": "「Jellyfin仿」「Invidious仿」のように中国語字「仿（模倣の意）」を使わず、「クローン」「ライク」等の日本語表現を使う",
+      "firstSeenDate": "2026-05-31",
+      "lastSeenDate": "2026-05-31",
+      "occurrences": 1,
+      "examples": [
+        "中国語漢字「仿」が2箇所でクローンの意味に誤用されていた"
+      ]
+    },
+    {
+      "term": "文字化け（���）",
+      "rule": "出力テキストに文字化け（置換文字 ）が含まれていないか必ず確認する",
+      "firstSeenDate": "2026-05-31",
+      "lastSeenDate": "2026-05-31",
+      "occurrences": 1,
+      "examples": [
+        "Netflix記事の「単一のデータベースカラム」が「���一の…」と化けていた"
+      ]
+    },
+    {
+      "term": "ピッチデッキ",
+      "rule": "「デック」ではなく「デッキ」と表記する",
+      "firstSeenDate": "2026-05-31",
+      "lastSeenDate": "2026-05-31",
+      "occurrences": 1,
+      "examples": [
+        "「ピッチデック」と誤記されていたため修正"
+      ]
+    },
+    {
+      "term": "ファウンダー",
+      "rule": "「founder」の日本語表記は「ファウンダー」。「フォールダー」は誤り",
+      "firstSeenDate": "2026-05-31",
+      "lastSeenDate": "2026-05-31",
+      "occurrences": 1,
+      "examples": [
+        "第1記事本文に「フォールダーや営業担当」と誤記されていた"
+      ]
+    },
+    {
+      "term": "本文は途中で切れており",
+      "rule": "取得テキストの途中終了を説明する文の主語は「本文は」とする。「著者は〜切れており」は主語と述語が不一致",
+      "firstSeenDate": "2026-05-31",
+      "lastSeenDate": "2026-05-31",
+      "occurrences": 1,
+      "examples": [
+        "第2記事末尾「著者は本文の途中で切れており」の主語が不適切だったため修正"
+      ]
+    }
+  ]
+}

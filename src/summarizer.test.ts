@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import type { Caution } from './cautionStore.js'
 import { buildPrompt } from './summarizer.js'
 import type { NewsItem } from './types.js'
 
@@ -88,5 +89,25 @@ describe('summarizer.buildPrompt', () => {
     const p = buildPrompt([it1], [it2])
     expect(p).not.toContain('## 編集後記')
     expect(p).toContain('主観的セクションは作らない')
+  })
+
+  it('includes known caution rules when provided', () => {
+    const caution: Caution = {
+      term: 'OpenRouter',
+      rule: '原文ママで表記',
+      firstSeenDate: '2026-06-01',
+      lastSeenDate: '2026-06-01',
+      occurrences: 1,
+      examples: [],
+    }
+    const p = buildPrompt([it1], [it2], [caution])
+    expect(p).toContain('# 既知の用語表記ルール')
+    expect(p).toContain('OpenRouter')
+    expect(p).toContain('原文ママで表記')
+  })
+
+  it('omits the known cautions section when list is empty', () => {
+    const p = buildPrompt([it1], [it2], [])
+    expect(p).not.toContain('# 既知の用語表記ルール')
   })
 })

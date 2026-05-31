@@ -38,6 +38,8 @@ export type Phase =
   | 'history-filter'
   | 'enrich-bodies'
   | 'summarize'
+  | 'review'
   | 'write'
   | 'persist-history'
+  | 'persist-cautions'
   | 'git'
