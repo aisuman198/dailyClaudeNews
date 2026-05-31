@@ -33,6 +33,25 @@ describe('summarizer.buildPrompt', () => {
     expect(p).toContain('解釈表現は禁止')
   })
 
+  it('forbids escape phrases like "詳細は原文参照"', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain('詳細は原文参照')
+    expect(p).toContain('逃げ文句')
+    expect(p).toContain('禁止')
+  })
+
+  it('requests around 3 lines per summary', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain('約3行')
+  })
+
+  it('instructs to add Japanese translation for English titles', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain('# 日本語訳の付与')
+    expect(p).toContain('英語')
+    expect(p).toContain('- 訳:')
+  })
+
   it('asks for category-based chapters', () => {
     const p = buildPrompt([it1], [it2])
     expect(p).toContain('## カテゴリ別まとめ')
