@@ -15,7 +15,7 @@ const envNum = (key: string, fallback: number): number => {
 export const config = {
   model: env('CLAUDE_MODEL', 'claude-sonnet-4-6'),
   fallbackModel: env('CLAUDE_FALLBACK_MODEL', 'claude-haiku-4-5-20251001'),
-  claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 300_000),
+  claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 600_000),
 
   anthropicSitemap: env('ANTHROPIC_SITEMAP', 'https://www.anthropic.com/sitemap.xml'),
   anthropicLookbackDays: envNum('ANTHROPIC_LOOKBACK_DAYS', 7),

@@ -28,9 +28,9 @@ describe('summarizer.buildPrompt', () => {
 
   it('forbids inference and speculative phrasing', () => {
     const p = buildPrompt([it1], [it2])
-    expect(p).toContain('# 推論の禁止')
+    expect(p).toContain('# 出典の取得')
+    expect(p).toContain('bodyText')
     expect(p).toContain('とみられる')
-    expect(p).toContain('解釈表現は禁止')
   })
 
   it('forbids escape phrases like "詳細は原文参照"', () => {
@@ -40,9 +40,12 @@ describe('summarizer.buildPrompt', () => {
     expect(p).toContain('禁止')
   })
 
-  it('requests around 3 lines per summary', () => {
+  it('imposes no upper bound on summary length and uses pre-fetched bodyText', () => {
     const p = buildPrompt([it1], [it2])
-    expect(p).toContain('約3行')
+    expect(p).not.toContain('約3行')
+    expect(p).toContain('上限はありません')
+    expect(p).toContain('bodyText')
+    expect(p).toContain('本文取得失敗')
   })
 
   it('instructs to add Japanese translation for English titles', () => {

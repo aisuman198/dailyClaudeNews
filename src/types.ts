@@ -10,6 +10,7 @@ export type NewsItem = {
   mergedFrom?: string[]
   firstSeenDate?: string
   occurrences?: number
+  bodyText?: string
 }
 
 export type SeenEntry = {
@@ -35,6 +36,7 @@ export type Phase =
   | 'fetch'
   | 'dedupe'
   | 'history-filter'
+  | 'enrich-bodies'
   | 'summarize'
   | 'write'
   | 'persist-history'

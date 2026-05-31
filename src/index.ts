@@ -1,3 +1,4 @@
+import { enrichWithBodies } from './articleFetcher.js'
 import { config } from './config.js'
 import { dedupe } from './deduper.js'
 import { fetchAll } from './fetcher.js'
@@ -29,10 +30,16 @@ async function main(): Promise<void> {
     const { fresh, recurring } = split(items, seen)
     log(phase.current, `新規 ${fresh.length} 件 / 継続 ${recurring.length} 件 (履歴 ${seen.length} 件)`)
 
+    phase.current = 'enrich-bodies'
+    const [freshEnriched, recurringEnriched] = await Promise.all([
+      enrichWithBodies(fresh),
+      enrichWithBodies(recurring),
+    ])
+
     phase.current = 'summarize'
     const today = new Date()
     log(phase.current, `claude (${config.model}) 呼び出し`)
-    const { markdown, modelUsed } = await summarize(fresh, recurring)
+    const { markdown, modelUsed } = await summarize(freshEnriched, recurringEnriched)
 
     phase.current = 'write'
     const filePath = await write(markdown, today, {
