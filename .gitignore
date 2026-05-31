@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+dist/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code project state (per-user, must not be shared)
+.claude/
