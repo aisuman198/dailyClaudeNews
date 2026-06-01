@@ -3,6 +3,7 @@ import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { config } from './config.js'
 import { createDraftPr, listIssues, type GhIssue } from './issueClient.js'
+import { redact } from './redact.js'
 
 function todayJst(): string {
   const tz = 9 * 60 // JST offset in minutes
@@ -123,7 +124,7 @@ async function createDraftPrForIssue(issue: GhIssue, dateStr: string): Promise<s
     })
     return prUrl
   } catch (err) {
-    console.warn(`[retrospect] PR 作成失敗 (issue #${issue.number}): ${(err as Error).message}`)
+    console.warn(redact(`[retrospect] PR 作成失敗 (issue #${issue.number}): ${(err as Error).message}`))
     return null
   } finally {
     try {
@@ -136,7 +137,7 @@ async function createDraftPrForIssue(issue: GhIssue, dateStr: string): Promise<s
 
 async function main(): Promise<void> {
   const dateStr = todayJst()
-  console.log(`[${new Date().toISOString()}] [retrospect] 開始 (対象日: ${dateStr})`)
+  console.log(redact(`[${new Date().toISOString()}] [retrospect] 開始 (対象日: ${dateStr})`))
 
   let todays: GhIssue[]
   try {
@@ -147,13 +148,13 @@ async function main(): Promise<void> {
       labels: ['dailyClaudeNews'],
     })
   } catch (err) {
-    console.error(`[retrospect] issue 一覧取得失敗: ${(err as Error).message}`)
+    console.error(redact(`[retrospect] issue 一覧取得失敗: ${(err as Error).message}`))
     process.exit(1)
   }
 
-  console.log(`[retrospect] 当日の issue: ${todays.length} 件`)
+  console.log(redact(`[retrospect] 当日の issue: ${todays.length} 件`))
   if (todays.length === 0) {
-    console.log(`[retrospect] 何もすることがありません`)
+    console.log(redact(`[retrospect] 何もすることがありません`))
     return
   }
 
@@ -166,7 +167,7 @@ async function main(): Promise<void> {
       limit: 500,
     })
   } catch (err) {
-    console.error(`[retrospect] 全 issue 一覧取得失敗: ${(err as Error).message}`)
+    console.error(redact(`[retrospect] 全 issue 一覧取得失敗: ${(err as Error).message}`))
     process.exit(1)
   }
 
@@ -175,10 +176,10 @@ async function main(): Promise<void> {
   const historicalFps = new Set(historical.map((i) => fingerprint(i.title)))
 
   const novel = todays.filter((t) => !historicalFps.has(fingerprint(t.title)))
-  console.log(`[retrospect] 新規パターン: ${novel.length} 件 / 既知パターン: ${todays.length - novel.length} 件`)
+  console.log(redact(`[retrospect] 新規パターン: ${novel.length} 件 / 既知パターン: ${todays.length - novel.length} 件`))
 
   const fixable = novel.filter((i) => isFixable(i.title, i.labels.map((l) => l.name)))
-  console.log(`[retrospect] 修正候補（既知の非修正対象を除く）: ${fixable.length} 件`)
+  console.log(redact(`[retrospect] 修正候補（既知の非修正対象を除く）: ${fixable.length} 件`))
 
   if (fixable.length === 0) return
 
@@ -186,18 +187,18 @@ async function main(): Promise<void> {
     await notifyMacOs(`dailyClaudeNews 新規 issue`, `#${issue.number}: ${issue.title.slice(0, 100)}`)
     const prUrl = await createDraftPrForIssue(issue, dateStr)
     if (prUrl) {
-      console.log(`[retrospect] draft PR 作成: ${prUrl} (issue #${issue.number})`)
+      console.log(redact(`[retrospect] draft PR 作成: ${prUrl} (issue #${issue.number})`))
       await notifyMacOs(`修正 PR 作成`, prUrl)
     }
   }
 
-  console.log(`[retrospect] 完了`)
+  console.log(redact(`[retrospect] 完了`))
 }
 
 const invokedDirectly = import.meta.url === `file://${process.argv[1]}`
 if (invokedDirectly) {
   main().catch((err) => {
-    console.error(`[retrospect] 失敗: ${(err as Error).message}`)
+    console.error(redact(`[retrospect] 失敗: ${(err as Error).message}`))
     process.exit(1)
   })
 }

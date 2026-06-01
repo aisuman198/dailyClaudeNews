@@ -2,6 +2,7 @@ import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import { config, resolvePath } from './config.js'
 import { jaccardSimilarity, normalizeTitle, normalizeUrl } from './deduper.js'
+import { redact } from './redact.js'
 import type { NewsItem, SeenEntry, SeenStore } from './types.js'
 
 const TODAY = (): string => new Date().toISOString().slice(0, 10)
@@ -15,7 +16,7 @@ export async function loadSeen(): Promise<SeenEntry[]> {
     return parsed.entries
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === 'ENOENT') return []
-    if (config.verbose) console.warn(`seen.json 読み込み失敗、空で続行: ${(err as Error).message}`)
+    if (config.verbose) console.warn(redact(`seen.json 読み込み失敗、空で続行: ${(err as Error).message}`))
     return []
   }
 }

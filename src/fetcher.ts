@@ -1,5 +1,6 @@
 import { XMLParser } from 'fast-xml-parser'
 import { config } from './config.js'
+import { redact } from './redact.js'
 import type { NewsItem } from './types.js'
 
 const RSS_PARSER = new XMLParser({
@@ -129,7 +130,7 @@ export async function fetchAll(): Promise<NewsItem[]> {
     throw new Error(`全ソースの取得に失敗しました: ${errors.join(' / ')}`)
   }
   if (errors.length > 0 && config.verbose) {
-    console.warn(`一部のソース取得に失敗: ${errors.join(' / ')}`)
+    console.warn(redact(`一部のソース取得に失敗: ${errors.join(' / ')}`))
   }
   return items
 }

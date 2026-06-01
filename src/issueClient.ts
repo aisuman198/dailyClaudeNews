@@ -1,4 +1,5 @@
 import { spawn } from 'node:child_process'
+import { redact } from './redact.js'
 
 export type GhIssueLabel = { name: string }
 
@@ -58,8 +59,10 @@ export async function findOpenIssueByTitle(repo: string, title: string): Promise
 }
 
 export async function addIssueComment(repo: string, number: number, body: string): Promise<void> {
+  // パブリック出力 sink: redact 必須 (ルールは ~/.claude/CLAUDE.md 参照)
+  const safeBody = redact(body)
   await runGh(['issue', 'comment', String(number), '--repo', repo, '--body-file', '-'], {
-    stdin: body,
+    stdin: safeBody,
     timeoutMs: 20_000,
   })
 }
@@ -70,9 +73,13 @@ export async function createIssue(
   body: string,
   labels: string[],
 ): Promise<void> {
-  const args = ['issue', 'create', '--repo', repo, '--title', title, '--body-file', '-']
-  if (labels.length > 0) args.push('--label', labels.join(','))
-  await runGh(args, { stdin: body, timeoutMs: 30_000 })
+  // パブリック出力 sink: redact 必須 (ルールは ~/.claude/CLAUDE.md 参照)
+  const safeTitle = redact(title)
+  const safeBody = redact(body)
+  const safeLabels = labels.map((l) => redact(l))
+  const args = ['issue', 'create', '--repo', repo, '--title', safeTitle, '--body-file', '-']
+  if (safeLabels.length > 0) args.push('--label', safeLabels.join(','))
+  await runGh(args, { stdin: safeBody, timeoutMs: 30_000 })
 }
 
 export async function ensureLabelExists(repo: string, name: string, color: string, description: string): Promise<void> {
@@ -91,14 +98,17 @@ export async function createDraftPr(opts: {
   head: string
   base?: string
 }): Promise<string> {
+  // パブリック出力 sink: redact 必須 (ルールは ~/.claude/CLAUDE.md 参照)
+  const safeTitle = redact(opts.title)
+  const safeBody = redact(opts.body)
   const args = [
     'pr', 'create', '--draft',
     '--repo', opts.repo,
-    '--title', opts.title,
+    '--title', safeTitle,
     '--body-file', '-',
     '--head', opts.head,
     '--base', opts.base ?? 'main',
   ]
-  const out = await runGh(args, { stdin: opts.body, timeoutMs: 30_000 })
+  const out = await runGh(args, { stdin: safeBody, timeoutMs: 30_000 })
   return out.trim() // PR URL
 }

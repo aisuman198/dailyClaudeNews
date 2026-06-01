@@ -1,5 +1,6 @@
 import { spawn } from 'node:child_process'
 import { config } from './config.js'
+import { redact } from './redact.js'
 import type { Caution, NewCaution } from './cautionStore.js'
 
 const REVIEWER_SYSTEM_PROMPT = `あなたは AI 業界ニュースまとめのレビュー編集者です。前段のエディターが書いた日本語まとめを精査し、誤り・不自然な日本語・誤訳・固有名詞の翻訳ミスを修正したマークダウンと、次回以降に共有すべき注意事項を出力します。
@@ -172,7 +173,9 @@ export async function review(markdown: string, knownCautions: Caution[]): Promis
   // 必須見出しが欠落していれば draft をそのまま使う（新規発見の cautions は保持）
   if (!looksWellFormed(parsed.correctedMarkdown)) {
     console.warn(
-      `[review] 出力が不完全（必須見出しが欠落）。draft をそのまま採用します。新規 cautions ${parsed.newCautions.length} 件は保持。`,
+      redact(
+        `[review] 出力が不完全（必須見出しが欠落）。draft をそのまま採用します。新規 cautions ${parsed.newCautions.length} 件は保持。`,
+      ),
     )
     return { correctedMarkdown: markdown, newCautions: parsed.newCautions }
   }
