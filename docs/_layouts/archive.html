@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="{{ '/assets/css/daily.css' | relative_url }}">
+{% seo %}
+</head>
+<body>
+<div class="archive-wrap">
+  {{ content }}
+  <div class="archive-foot">
+    <button id="theme" style="background:none;border:1px solid var(--line);color:var(--fg);padding:7px 14px;border-radius:4px;cursor:pointer;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-family:inherit">☾ Light</button>
+  </div>
+</div>
+<script>
+(function(){
+  const saved = localStorage.getItem('dcn-theme');
+  if (saved === 'light' || saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', saved);
+  }
+  const btn = document.getElementById('theme');
+  const updateLabel = () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    if (btn) btn.textContent = cur === 'dark' ? '☾ Light' : '☀ Dark';
+  };
+  updateLabel();
+  if (btn) btn.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const nxt = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', nxt);
+    localStorage.setItem('dcn-theme', nxt);
+    updateLabel();
+  });
+})();
+</script>
+</body>
+</html>

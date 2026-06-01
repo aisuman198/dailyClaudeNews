@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<title>{{ page.title }} | Daily Claude News</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="{{ '/assets/css/daily.css' | relative_url }}">
+{% seo %}
+</head>
+<body>
+<div class="layout">
+  <aside>
+    <p class="kicker">Daily Edition</p>
+    <h1 class="brand"><a href="{{ '/' | relative_url }}">Claude<br>News</a></h1>
+    <p class="vol">VOL · {{ page.date | default: page.title }}</p>
+    <input class="search" id="q" placeholder="🔍 Search articles...">
+    <h2 class="sec">Sections</h2>
+    <nav class="toc" id="toc" aria-label="カテゴリ目次"></nav>
+    <a class="home" href="{{ '/' | relative_url }}">← Archive</a>
+    <div class="bottom">
+      <button id="theme">☾ Light</button>
+      <button id="expand-all">Expand All</button>
+    </div>
+  </aside>
+
+  <main>
+    <header class="masthead">
+      <p class="label">Anthropic & Claude Daily Digest</p>
+      <h1>AI Industry Digest</h1>
+      <p class="meta">
+        {{ page.date | default: page.title }}
+        ・ 🆕 {{ page.fresh_count | default: 0 }} NEW
+        ・ 🔁 {{ page.recurring_count | default: 0 }} RECURRING
+        ・ ED. {{ page.model | default: '—' }}
+      </p>
+    </header>
+
+    <p class="section-label">Today's Top Stories</p>
+    <div class="hero" id="hero"></div>
+
+    <div id="v4-rendered"></div>
+
+    <p class="footer">— END OF EDITION —</p>
+
+    <!-- Jekyll が render した markdown 本体。JS が読み取って v4 形式に変換 -->
+    <div id="raw-content" class="raw-content">{{ content }}</div>
+  </main>
+</div>
+<script src="{{ '/assets/js/daily.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+:root[data-theme="dark"]{
+  --bg:#15110e; --panel:#1c1814; --card:#221d18; --line:#332b22;
+  --fg:#ece6dd; --muted:#9b9285; --link:#e0b07a;
+  --accent:#d4a574; --accent2:#7da3d4;
+  --paper:#221d18;
+  --shadow:0 2px 12px rgba(0,0,0,.4);
+}
+:root[data-theme="light"]{
+  --bg:#faf8f3; --panel:#fffdf7; --card:#ffffff; --line:#e9e3d6;
+  --fg:#1c1917; --muted:#6b6b66; --link:#9f1239;
+  --accent:#9f1239; --accent2:#1e3a8a;
+  --paper:#ffffff;
+  --shadow:0 2px 12px rgba(0,0,0,.05);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;
+  line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:var(--link)}
+.serif{font-family:"Hiragino Mincho ProN","Yu Mincho",Georgia,"Times New Roman",serif}
+
+.layout{display:grid;grid-template-columns:280px 1fr;gap:0;min-height:100vh}
+
+/* ── Sidebar ──────────────────── */
+aside{position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--panel);
+  border-right:1px solid var(--line);padding:24px 18px;display:flex;flex-direction:column}
+aside .kicker{font-size:10px;letter-spacing:.4em;color:var(--accent);font-weight:600;margin:0 0 6px;text-transform:uppercase}
+aside .brand{font-family:"Hiragino Mincho ProN","Yu Mincho",Georgia,serif;
+  font-size:22px;margin:0 0 4px;font-weight:600;line-height:1.2;border-bottom:2px double var(--fg);padding-bottom:8px}
+aside .brand a{color:var(--fg);text-decoration:none}
+aside .vol{color:var(--muted);font-size:11px;letter-spacing:.15em;margin:8px 0 14px}
+aside .search{width:100%;padding:9px 12px;background:var(--bg);border:1px solid var(--line);
+  color:var(--fg);border-radius:4px;font-size:13px;font-family:inherit}
+aside .search:focus{outline:none;border-color:var(--accent)}
+aside h2.sec{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.25em;
+  margin:22px 0 8px;padding-top:14px;border-top:1px solid var(--line)}
+aside .toc{display:flex;flex-direction:column;gap:2px}
+aside .toc>.cat{display:flex;align-items:center;gap:8px;padding:6px 8px;text-decoration:none;color:var(--fg);
+  border-radius:4px;font-size:13px;cursor:pointer}
+aside .toc>.cat:hover{background:var(--card)}
+aside .toc>.cat .icon{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;
+  border-radius:4px;background:var(--card);border:1px solid var(--line);font-size:12px}
+aside .toc>.cat .count{margin-left:auto;color:var(--muted);font-size:10px;letter-spacing:.1em}
+aside .articles{margin:2px 0 6px 30px;display:flex;flex-direction:column;gap:1px}
+aside .articles a{font-size:11px;color:var(--muted);padding:2px 8px;text-decoration:none;
+  line-height:1.45;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-left:1px solid var(--line)}
+aside .articles a:hover{color:var(--fg);border-left-color:var(--accent)}
+aside .home{margin-top:14px;font-size:11px;color:var(--muted);text-decoration:none;letter-spacing:.1em;text-transform:uppercase}
+aside .home:hover{color:var(--accent)}
+.bottom{margin-top:auto;padding-top:18px;border-top:1px solid var(--line);display:flex;gap:8px}
+.bottom button{flex:1;background:none;border:1px solid var(--line);color:var(--fg);
+  padding:7px;border-radius:4px;cursor:pointer;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-family:inherit}
+.bottom button:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ── Main ──────────────────── */
+main{padding:36px 44px 80px;max-width:1100px}
+.masthead{border-bottom:3px double var(--fg);padding-bottom:18px;margin-bottom:28px;text-align:center}
+.masthead .label{font-size:10px;letter-spacing:.4em;color:var(--accent);font-weight:600;text-transform:uppercase}
+.masthead h1{font-family:"Hiragino Mincho ProN","Yu Mincho",Georgia,serif;
+  font-size:36px;margin:6px 0 4px;letter-spacing:.04em;font-weight:600}
+.masthead .meta{color:var(--muted);font-size:12px;letter-spacing:.08em}
+
+.section-label{font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:11px;letter-spacing:.3em;color:var(--accent);
+  text-transform:uppercase;border-top:1px solid var(--fg);padding-top:8px;margin:28px 0 14px;font-weight:600}
+
+/* ── Hero ──────────────────── */
+.hero{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px;margin:14px 0 36px}
+.hero .h-item{background:var(--paper);padding:20px;border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:var(--shadow)}
+.hero .h-item:first-child{grid-row:span 2;background:linear-gradient(180deg,var(--paper),transparent)}
+.hero .h-num{font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:38px;color:var(--accent);
+  line-height:1;margin-bottom:8px;font-weight:600}
+.hero .h-text{font-size:14px;line-height:1.6}
+.hero .h-item:first-child .h-text{font-size:18px;line-height:1.55;
+  font-family:"Hiragino Mincho ProN","Yu Mincho",serif}
+
+/* ── Category ──────────────────── */
+.cat{margin:46px 0 0;scroll-margin-top:20px}
+.cat-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--fg);padding-bottom:6px;margin-bottom:16px}
+.cat-icon{font-size:20px}
+.cat-name{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:20px;margin:0;font-weight:600}
+.cat-count{color:var(--muted);font-size:11px;margin-left:auto;letter-spacing:.2em}
+
+/* ── Cards ──────────────────── */
+.articles-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.cat[data-single="true"] .articles-grid{grid-template-columns:1fr}
+.cat[data-single="true"] .articles-grid .card{max-width:760px}
+.card{background:var(--paper);border:1px solid var(--line);padding:20px 22px;display:flex;flex-direction:column;
+  box-shadow:var(--shadow);scroll-margin-top:16px}
+.card.fade{display:none}
+.card-tagline{font-size:9px;letter-spacing:.25em;color:var(--accent);font-weight:600;text-transform:uppercase;margin:0 0 6px}
+.card h3{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:19px;margin:0 0 6px;line-height:1.45;font-weight:600}
+.card h3 a{color:var(--fg);text-decoration:none;border-bottom:1px solid transparent}
+.card h3 a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.card .trans{font-size:12px;color:var(--muted);margin:0 0 10px;font-style:italic;font-family:"Hiragino Mincho ProN",Georgia,serif}
+.card .byline{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:10px;color:var(--muted);
+  letter-spacing:.1em;margin:0 0 12px;padding-bottom:8px;border-bottom:1px dotted var(--line);text-transform:uppercase}
+.card .byline .sep{color:var(--line)}
+.card .byline .fresh{color:#22c55e;font-weight:700}
+.card .byline .recur{color:var(--accent2);font-weight:700}
+.card .byline .src{font-weight:600;color:var(--fg)}
+.card .lead{font-size:14px;line-height:1.75;margin:0 0 10px}
+.card .lead::first-letter{font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:34px;
+  float:left;line-height:1;padding:4px 8px 0 0;color:var(--accent);font-weight:600}
+details{margin-top:10px}
+details>summary{font-size:10px;letter-spacing:.25em;color:var(--accent);cursor:pointer;
+  text-transform:uppercase;font-weight:600;list-style:none;padding:8px 0;border-top:1px solid var(--line)}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ READ MORE"}
+details[open]>summary::before{content:"▾ HIDE"}
+details p{font-size:13px;margin:10px 0;color:var(--fg);opacity:.9}
+
+.empty{padding:30px;text-align:center;color:var(--muted);grid-column:1/-1;font-style:italic}
+.footer{text-align:center;margin-top:60px;color:var(--muted);font-size:10px;letter-spacing:.3em;text-transform:uppercase}
+
+.raw-content{display:none}
+
+@media (max-width:880px){
+  .layout{grid-template-columns:1fr}
+  aside{position:relative;height:auto}
+  main{padding:24px 20px 60px}
+  .hero{grid-template-columns:1fr}
+  .hero .h-item:first-child{grid-row:auto}
+  .articles-grid{grid-template-columns:1fr}
+  .masthead h1{font-size:28px}
+}
+
+/* ── Archive index ──────────────────── */
+.archive-wrap{max-width:760px;margin:0 auto;padding:40px 24px 80px}
+.archive-wrap h1{font-family:"Hiragino Mincho ProN","Yu Mincho",Georgia,serif;font-size:32px;
+  margin:0 0 6px;font-weight:600;text-align:center;letter-spacing:.04em}
+.archive-wrap .sub{color:var(--muted);text-align:center;margin:0 0 8px}
+.archive-wrap .source-info{color:var(--muted);text-align:center;font-size:13px;margin:0 0 26px;padding-bottom:18px;border-bottom:3px double var(--fg)}
+.archive-list{list-style:none;padding:0;margin:0}
+.archive-list li{padding:12px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.archive-list li:hover{background:var(--paper)}
+.archive-list a{color:var(--fg);text-decoration:none;font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:16px}
+.archive-list a:hover{color:var(--accent)}
+.archive-list .stat{color:var(--muted);font-size:12px;letter-spacing:.08em}
+.archive-foot{margin-top:40px;text-align:center;font-size:11px;color:var(--muted);letter-spacing:.15em}
