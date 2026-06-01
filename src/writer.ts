@@ -19,7 +19,7 @@ function frontmatter(fm: FrontmatterInput): string {
   return [
     '---',
     `title: "${fm.date} のニュース"`,
-    `layout: default`,
+    `layout: daily`,
     `date: ${fm.date}`,
     'generated_by: dailyClaudeNews v0.1',
     `model: ${fm.model}`,
