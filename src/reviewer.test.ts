@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Caution } from './cautionStore.js'
-import { buildReviewPrompt, CAUTIONS_BEGIN, CAUTIONS_END, parseReviewOutput } from './reviewer.js'
+import { buildReviewPrompt, CAUTIONS_BEGIN, CAUTIONS_END, looksWellFormed, parseReviewOutput } from './reviewer.js'
 
 const sampleMd = '## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n'
 const knownCaution: Caution = {
@@ -90,5 +90,24 @@ describe('reviewer.parseReviewOutput', () => {
     const raw = `MD\n${CAUTIONS_BEGIN}{"cautions":[{"term":"Foo"}]}${CAUTIONS_END}`
     const result = parseReviewOutput(raw)
     expect(result.newCautions[0]!.rule).toBe('原文ママで表記')
+  })
+})
+
+describe('reviewer.looksWellFormed', () => {
+  it('returns true when both required headings are present', () => {
+    expect(looksWellFormed('## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n\n### A\n')).toBe(true)
+  })
+
+  it('returns false when "## 本日のハイライト" is missing', () => {
+    expect(looksWellFormed('## カテゴリ別まとめ\n\n### A\n#### x\n')).toBe(false)
+  })
+
+  it('returns false when "## カテゴリ別まとめ" is missing', () => {
+    expect(looksWellFormed('## 本日のハイライト\n\n- foo\n\n### A\n#### x\n')).toBe(false)
+  })
+
+  it('returns false for the bug-shape output (meta preamble + no required headings)', () => {
+    const bug = `全セクションを通読します。3点の修正を確認しました。\n\n1. ...\n2. ...\n\n---\n\nけ・リファクタリングを...\n\n### 資金調達・買収・事業展開（4件）\n`
+    expect(looksWellFormed(bug)).toBe(false)
   })
 })

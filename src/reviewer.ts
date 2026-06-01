@@ -147,11 +147,27 @@ export function parseReviewOutput(raw: string): ReviewResult {
   }
 }
 
+const REQUIRED_HEADINGS = ['## 本日のハイライト', '## カテゴリ別まとめ']
+
+export function looksWellFormed(markdown: string): boolean {
+  return REQUIRED_HEADINGS.every((h) => markdown.includes(h))
+}
+
 export async function review(markdown: string, knownCautions: Caution[]): Promise<ReviewResult> {
   if (!config.reviewEnabled) {
     return { correctedMarkdown: markdown, newCautions: [] }
   }
   const prompt = buildReviewPrompt(markdown, knownCautions)
   const raw = await runReviewerClaude(prompt)
-  return parseReviewOutput(raw)
+  const parsed = parseReviewOutput(raw)
+
+  // 必須見出しが欠落していれば draft をそのまま使う（新規発見の cautions は保持）
+  if (!looksWellFormed(parsed.correctedMarkdown)) {
+    console.warn(
+      `[review] 出力が不完全（必須見出しが欠落）。draft をそのまま採用します。新規 cautions ${parsed.newCautions.length} 件は保持。`,
+    )
+    return { correctedMarkdown: markdown, newCautions: parsed.newCautions }
+  }
+
+  return parsed
 }
