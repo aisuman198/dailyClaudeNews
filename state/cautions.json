@@ -50,6 +50,36 @@
       "examples": [
         "第2記事末尾「著者は本文の途中で切れており」の主語が不適切だったため修正"
       ]
+    },
+    {
+      "term": "AI 雇用悲嘆",
+      "rule": "「AIによる雇用喪失の悲嘆」と自然な日本語に修正",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "「AI 雇用悲嘆」は複合語として不自然な訳行"
+      ]
+    },
+    {
+      "term": "Magnifica humanitas",
+      "rule": "回勅タイトルは小文字 h で表記（Magnifica humanitas）",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "ミラノオフィス記事で「Magnifica Humanitas」と大文字Hになっており同文書内で表記揺れ"
+      ]
+    },
+    {
+      "term": "リポジトリ",
+      "rule": "文字化け（U+FFFD）を修正して「リポジトリ」と表記",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "Speed of Prototyping 記事内で「リポ▢トリ」となっていた"
+      ]
     }
   ]
 }
