@@ -56,7 +56,8 @@ async function main(): Promise<void> {
       knownCautions,
     )
 
-    if (config.saveDraft) {
+    // draft は常時保存（診断用。state/draft-*.md は .gitignore で除外済み）
+    {
       const { promises: fs } = await import('node:fs')
       const path = await import('node:path')
       const draftPath = path.join('state', `draft-${formatDate(today)}.md`)
