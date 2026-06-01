@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Caution } from './cautionStore.js'
-import { buildReviewPrompt, CAUTIONS_BEGIN, CAUTIONS_END, looksWellFormed, parseReviewOutput } from './reviewer.js'
+import { buildReviewPrompt, CAUTIONS_BEGIN, CAUTIONS_END, looksWellFormed, parseReviewOutput, stripMojibakeFromMarkdown } from './reviewer.js'
 
 const sampleMd = '## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n'
 const knownCaution: Caution = {
@@ -90,6 +90,27 @@ describe('reviewer.parseReviewOutput', () => {
     const raw = `MD\n${CAUTIONS_BEGIN}{"cautions":[{"term":"Foo"}]}${CAUTIONS_END}`
     const result = parseReviewOutput(raw)
     expect(result.newCautions[0]!.rule).toBe('原文ママで表記')
+  })
+})
+
+describe('reviewer.stripMojibakeFromMarkdown', () => {
+  it('removes U+FFFD characters', () => {
+    expect(stripMojibakeFromMarkdown('イタリア�業との連携')).not.toContain('�')
+  })
+
+  it('removes runs of U+FFFD', () => {
+    expect(stripMojibakeFromMarkdown('単一の���ータベース')).not.toContain('�')
+  })
+
+  it('leaves clean markdown unchanged', () => {
+    const md = '## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n'
+    expect(stripMojibakeFromMarkdown(md)).toBe(md)
+  })
+
+  it('is applied inside parseReviewOutput', () => {
+    const raw = `## 本日のハイライト\n\n- イタリア�業との連携\n\n## カテゴリ別まとめ\n\n${CAUTIONS_BEGIN}{"cautions":[]}${CAUTIONS_END}`
+    const result = parseReviewOutput(raw)
+    expect(result.correctedMarkdown).not.toContain('�')
   })
 })
 

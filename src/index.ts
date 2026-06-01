@@ -6,6 +6,7 @@ import { fetchAll } from './fetcher.js'
 import { commitAndPush } from './git.js'
 import { loadSeen, persist, split } from './historyFilter.js'
 import { notifyFailure } from './notifier.js'
+import { prioritizeAndPad } from './priorityFilter.js'
 import { review } from './reviewer.js'
 import { summarize } from './summarizer.js'
 import type { Phase } from './types.js'
@@ -24,8 +25,15 @@ async function main(): Promise<void> {
     log(phase.current, `取得 ${raw.length} 件`)
 
     phase.current = 'dedupe'
-    const items = dedupe(raw)
-    log(phase.current, `${raw.length} → ${items.length} 件（同run内重複排除後）`)
+    const deduped = dedupe(raw)
+    log(phase.current, `${raw.length} → ${deduped.length} 件（同run内重複排除後）`)
+
+    phase.current = 'prioritize'
+    const { items, stats } = prioritizeAndPad(deduped)
+    log(
+      phase.current,
+      `優先 ${stats.priorityCount} 件 / 補充 ${stats.paddedCount} 件 / 計 ${stats.total} 件 (キーワード: ${config.priorityKeywords.join(',')})`,
+    )
 
     phase.current = 'history-filter'
     const seen = await loadSeen()

@@ -34,6 +34,7 @@ export function buildReviewPrompt(markdown: string, knownCautions: Caution[]): s
     `以下のマークダウンを精査し、修正版と新規注意事項を返してください。`,
     ``,
     `# レビュー観点`,
+    `0. **文字化け（U+FFFD = "�"、四角内の疑問符、3つ並びの "���" など）の検出と修正は最優先**。発見した箇所は、前後の文脈から元の文字を推定して置き換える（不明な場合は当該文字を削って自然な日本語にする）。出力に "�" を絶対に残さないこと。`,
     `1. **不自然な日本語、誤訳、誤字脱字、文章の流れの悪さ** を修正してください。`,
     `2. **英語タイトルの「- 訳:」行が原意を保ち適切か** を確認し、不適切なら修正してください。`,
     `3. **固有名詞（製品名・会社名・人名・サービス名）が日本語に翻訳されていないか** を確認してください。`,
@@ -121,13 +122,20 @@ function stripPreamble(text: string): string {
   return text.slice(idx).trim()
 }
 
+// 万一 reviewer の出力に U+FFFD が残った場合の最終クリーンアップ。
+// 文字化けの前後 1 文字も削ることで「�」を確実に消す。
+export function stripMojibakeFromMarkdown(s: string): string {
+  if (!s.includes('�')) return s
+  return s.replace(/.?�+.?/g, '')
+}
+
 export function parseReviewOutput(raw: string): ReviewResult {
   const beginIdx = raw.indexOf(CAUTIONS_BEGIN)
   const endIdx = raw.indexOf(CAUTIONS_END)
   if (beginIdx === -1 || endIdx === -1 || endIdx < beginIdx) {
-    return { correctedMarkdown: stripPreamble(raw), newCautions: [] }
+    return { correctedMarkdown: stripMojibakeFromMarkdown(stripPreamble(raw)), newCautions: [] }
   }
-  const correctedMarkdown = stripPreamble(raw.slice(0, beginIdx))
+  const correctedMarkdown = stripMojibakeFromMarkdown(stripPreamble(raw.slice(0, beginIdx)))
   const jsonText = raw.slice(beginIdx + CAUTIONS_BEGIN.length, endIdx).trim()
   try {
     const parsed = JSON.parse(jsonText) as { cautions?: NewCaution[] }

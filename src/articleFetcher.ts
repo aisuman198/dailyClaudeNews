@@ -21,6 +21,16 @@ function decodeEntities(s: string): string {
     })
 }
 
+// U+FFFD（REPLACEMENT CHARACTER）と、その前後にある可能性の高い不完全な部分を含めて
+// クリーンアップする。bodyText に文字化けが残ると Claude が出力に転写してしまうため。
+function stripMojibake(s: string): string {
+  // 連続する U+FFFD と、各 U+FFFD の隣にある単一文字も削る（破損部分の救済）
+  return s
+    .replace(/[\s\S]?�+[\s\S]?/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
 export function extractTextFromHtml(html: string): string {
   const stripped = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
@@ -33,9 +43,11 @@ export function extractTextFromHtml(html: string): string {
     .replace(/<aside[\s\S]*?<\/aside>/gi, ' ')
     .replace(/<form[\s\S]*?<\/form>/gi, ' ')
 
-  const text = decodeEntities(stripped.replace(/<[^>]+>/g, ' '))
-    .replace(/\s+/g, ' ')
-    .trim()
+  const text = stripMojibake(
+    decodeEntities(stripped.replace(/<[^>]+>/g, ' '))
+      .replace(/\s+/g, ' ')
+      .trim(),
+  )
   return text.slice(0, MAX_BODY_CHARS)
 }
 

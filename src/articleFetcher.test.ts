@@ -37,4 +37,17 @@ describe('extractTextFromHtml', () => {
     const text = extractTextFromHtml(html)
     expect(text).toBe('multi spaces and newlines here')
   })
+
+  it('strips U+FFFD replacement characters and adjacent broken bytes', () => {
+    const html = '<p>イタリア�業との連携</p>'
+    const text = extractTextFromHtml(html)
+    expect(text).not.toContain('�')
+    expect(text).not.toContain('�')
+  })
+
+  it('strips runs of multiple U+FFFD', () => {
+    const html = '<p>単一の���ータベース</p>'
+    const text = extractTextFromHtml(html)
+    expect(text).not.toContain('�')
+  })
 })
