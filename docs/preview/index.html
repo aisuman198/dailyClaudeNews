@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Pages 改善案プレビュー</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;
+  background:#f6f8fa;color:#1f2328;margin:0;line-height:1.7}
+.wrap{max-width:880px;margin:0 auto;padding:40px 24px 60px}
+h1{font-size:26px;margin:0 0 6px}
+.sub{color:#57606a;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:680px){.grid{grid-template-columns:1fr}}
+.card{display:block;background:#fff;border:1px solid #d0d7de;border-radius:10px;padding:20px 22px;
+  text-decoration:none;color:inherit;box-shadow:0 1px 3px rgba(0,0,0,.04);transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card .tag{font-size:11px;letter-spacing:.15em;color:#57606a;text-transform:uppercase;margin:0 0 8px}
+.card h2{margin:0 0 8px;font-size:18px}
+.card p{margin:0 0 10px;font-size:14px;color:#3d444c}
+.card .key{font-size:12px;color:#57606a}
+.card .key b{color:#1f2328;font-weight:600}
+.legend{margin:34px 0 0;padding:18px;background:#fff;border:1px solid #d0d7de;border-radius:10px}
+.legend h3{margin:0 0 8px;font-size:14px}
+.legend table{border-collapse:collapse;width:100%;font-size:13px}
+.legend td{padding:6px 10px;border-bottom:1px solid #eaeef2;vertical-align:top}
+.legend td:first-child{white-space:nowrap;color:#57606a;width:30%}
+.cur{background:#fff7e6;border-left:4px solid #f0a500;padding:14px 18px;border-radius:6px;margin-bottom:24px}
+.cur a{color:#0969da}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📰 Pages 改善案プレビュー</h1>
+  <p class="sub">2026-06-01 の同じデータを 3 つの異なるスタイルで描画した比較プレビューです。</p>
+
+  <div class="cur">
+    <b>現状:</b>
+    <a href="../daily/2026-06-01.html">/daily/2026-06-01.html</a>
+    （jekyll-theme-minimal による素のカード形式）
+  </div>
+
+  <div class="grid">
+    <a class="card" href="v1-icons-pills.html">
+      <p class="tag">VARIANT 01</p>
+      <h2>アイコン目次 + カラーピル</h2>
+      <p>現状の見た目を基準に、カテゴリ目次・色付きピル・折りたたみ本文を追加した最小改修ライン。</p>
+      <p class="key">
+        <b>長所:</b> 既存マークダウン互換性が高い、PR 不要で実装可能<br>
+        <b>短所:</b> 色味は控えめ・大幅な印象変化はなし
+      </p>
+    </a>
+
+    <a class="card" href="v2-dark-sidebar.html">
+      <p class="tag">VARIANT 02</p>
+      <h2>ダーク + サイドバー + 検索</h2>
+      <p>ダークテーマ既定（トグル可）。左固定サイドバーにカテゴリ&記事 TOC、クライアントサイド検索付き。グリッド表示で情報密度高。</p>
+      <p class="key">
+        <b>長所:</b> 一覧性が高い、検索でピンポイント取得、目に優しい<br>
+        <b>短所:</b> 専用 layout が必要、モバイルは縦並びに切替
+      </p>
+    </a>
+
+    <a class="card" href="v3-magazine.html">
+      <p class="tag">VARIANT 03</p>
+      <h2>マガジン風（雑誌レイアウト）</h2>
+      <p>明朝体タイトル、ヒーローカード3枚、2 段組記事、ドロップキャップなどで「読み物」感を強調したエディトリアル系デザイン。</p>
+      <p class="key">
+        <b>長所:</b> 通読体験が良い、印象が強い<br>
+        <b>短所:</b> 情報密度は控えめ、雑誌的すぎる場合あり
+      </p>
+    </a>
+  </div>
+
+  <div class="legend">
+    <h3>共通仕様 / 比較ポイント</h3>
+    <table>
+      <tr><td>データソース</td><td><code>data.js</code> に 2026-06-01 の 11 記事を JSON で格納。各バリアントは同データを描画。</td></tr>
+      <tr><td>本文の折りたたみ</td><td>3 バリアントすべてで対応（要約段落は常時表示・続きは <code>&lt;details&gt;</code>）。</td></tr>
+      <tr><td>レスポンシブ</td><td>すべて対応（スマホでも崩れない）。</td></tr>
+      <tr><td>新規 / 継続</td><td>すべてで色分け表示。v1=ピル、v2=細枠ピル、v3=活字スタイル。</td></tr>
+      <tr><td>ソース識別</td><td>すべてで Anthropic / Hacker News をアイコン or バッジで明示。</td></tr>
+      <tr><td>長文対策</td><td>Series H 等の長文記事は最初の段落＋summary 1 つを表示し、残りは折りたたみ。</td></tr>
+    </table>
+  </div>
+
+  <p style="margin-top:30px;color:#57606a;font-size:13px">
+    各案で気に入った要素を組み合わせる/特定の案を採用する/別案を試す、どれでも対応可能です。
+  </p>
+</div>
+</body>
+</html>

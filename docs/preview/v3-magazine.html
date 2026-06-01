@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>v3: マガジン風 | Preview</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{
+  --bg:#fafaf7; --fg:#1c1917; --muted:#6b6b66; --line:#e7e5e0;
+  --accent:#9f1239; --accent2:#1e3a8a;
+  --serif:"Hiragino Mincho ProN","Yu Mincho","Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);line-height:1.75}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 24px 90px}
+.masthead{border-bottom:3px double var(--fg);padding-bottom:18px;margin-bottom:30px;text-align:center}
+.masthead .kicker{font-size:11px;letter-spacing:.4em;color:var(--accent);font-weight:600;margin-bottom:6px}
+.masthead h1{font-family:var(--serif);font-size:42px;margin:0;letter-spacing:.05em}
+.masthead .date{color:var(--muted);font-size:13px;margin-top:6px}
+
+.section-label{font-family:var(--serif);font-size:11px;letter-spacing:.3em;color:var(--accent);
+  text-transform:uppercase;border-top:1px solid var(--fg);padding-top:8px;margin:36px 0 14px;font-weight:600}
+
+/* Hero highlights */
+.hero{display:grid;grid-template-columns:2fr 1fr 1fr;gap:18px;margin:18px 0 40px}
+.hero .h-item{background:#fff;padding:20px;border:1px solid var(--line);position:relative;display:flex;flex-direction:column}
+.hero .h-item:first-child{grid-row:span 2;background:linear-gradient(180deg,#fff,#fff7f0)}
+.hero .h-num{font-family:var(--serif);font-size:38px;color:var(--accent);line-height:1;margin-bottom:8px;font-weight:600}
+.hero .h-text{font-size:15px;line-height:1.55}
+.hero .h-item:first-child .h-text{font-size:19px;line-height:1.5;font-family:var(--serif)}
+
+/* Category */
+.cat{margin:50px 0 0}
+.cat-head{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--fg);padding-bottom:6px;margin-bottom:18px}
+.cat-icon{font-size:22px}
+.cat-name{font-family:var(--serif);font-size:22px;margin:0;font-weight:600}
+.cat-count{color:var(--muted);font-size:12px;margin-left:auto;letter-spacing:.2em}
+
+/* Articles in 2-col */
+.articles{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cat[data-single="true"] .articles{grid-template-columns:1fr}
+.card{padding:0 0 22px;border-bottom:1px solid var(--line)}
+.card:last-child{border-bottom:none}
+.card-tagline{font-size:10px;letter-spacing:.2em;color:var(--accent);font-weight:600;text-transform:uppercase;margin:0 0 6px}
+.card h3{font-family:var(--serif);font-size:21px;margin:0 0 6px;line-height:1.4}
+.card h3 a{color:var(--fg);text-decoration:none;border-bottom:1px solid transparent}
+.card h3 a:hover{border-bottom-color:var(--fg)}
+.card .trans{font-size:13px;color:var(--muted);margin:0 0 12px;font-style:italic}
+.card .lead{font-size:14px;line-height:1.7;margin:0 0 10px}
+.card .lead::first-letter{font-family:var(--serif);font-size:32px;float:left;line-height:1;padding:4px 8px 0 0;color:var(--accent)}
+.card .byline{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--muted);
+  letter-spacing:.08em;margin:0 0 10px;padding-bottom:8px;border-bottom:1px dotted var(--line)}
+.card .byline .sep{color:var(--line)}
+.card .byline .fresh{color:#15803d;font-weight:700}
+.card .byline .recur{color:var(--accent2);font-weight:700}
+
+details{margin-top:10px}
+details>summary{font-size:11px;letter-spacing:.2em;color:var(--accent);cursor:pointer;
+  text-transform:uppercase;font-weight:600;list-style:none;padding:6px 0;border-top:1px solid var(--line)}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ READ MORE"}
+details[open]>summary::before{content:"▾ HIDE"}
+details p{font-size:13px;margin:10px 0;color:#3a3a36}
+
+.footer{text-align:center;margin-top:60px;color:var(--muted);font-size:11px;letter-spacing:.2em}
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr}
+  .hero .h-item:first-child{grid-row:auto}
+  .articles{grid-template-columns:1fr}
+  .masthead h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="kicker">Daily Claude News</div>
+    <h1>AI Industry Digest</h1>
+    <div class="date">Vol.001 ・ 2026-06-01 ・ Editor: claude-sonnet-4-6</div>
+  </header>
+
+  <div class="section-label">Today's Top Stories</div>
+  <div class="hero" id="hero"></div>
+
+  <div id="main"></div>
+
+  <div class="footer">— END —</div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const d = window.NEWS_DATA;
+
+document.getElementById('hero').innerHTML = d.highlights.map((h,i)=>
+  `<div class="h-item">
+     <div class="h-num">${String(i+1).padStart(2,'0')}</div>
+     <div class="h-text">${h}</div>
+   </div>`).join('');
+
+document.getElementById('main').innerHTML = d.categories.map(c=>`
+  <section class="cat" data-single="${c.items.length===1}">
+    <div class="cat-head">
+      <span class="cat-icon">${c.icon}</span>
+      <h2 class="cat-name">${c.name}</h2>
+      <span class="cat-count">${String(c.items.length).padStart(2,'0')} STORIES</span>
+    </div>
+    <div class="articles">
+      ${c.items.map(card).join('')}
+    </div>
+  </section>
+`).join('');
+
+function card(it){
+  const srcLabel = it.source==='hacker-news' ? `HACKER NEWS · ${it.points||0}PT` : 'ANTHROPIC';
+  const stateCls = it.state==='新規' ? 'fresh' : 'recur';
+  const stateText = it.state==='新規' ? 'NEW' : `RECURRING · ${it.recurrence}TH`;
+  const body = (it.body||[]).length
+    ? `<details><summary></summary>${it.body.map(p=>`<p>${p}</p>`).join('')}</details>` : '';
+  return `<article class="card">
+    <div class="card-tagline">${it.source==='hacker-news'?'COMMUNITY':'OFFICIAL'}</div>
+    <h3><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></h3>
+    <p class="trans">${it.translation||''}</p>
+    <p class="byline">
+      <span>${srcLabel}</span><span class="sep">·</span>
+      <span>${it.date}</span><span class="sep">·</span>
+      <span class="${stateCls}">${stateText}</span>
+    </p>
+    <p class="lead">${it.summary}</p>
+    ${body}
+  </article>`;
+}
+</script>
+</body>
+</html>

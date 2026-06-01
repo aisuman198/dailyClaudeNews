@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>v2: ダーク + サイドバーTOC + 検索 | Preview</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root[data-theme="dark"]{
+  --bg:#0f1115; --panel:#171a21; --card:#1d2128; --line:#2a2f38;
+  --fg:#e6e9ef; --muted:#9aa3b2; --link:#7dd3fc; --accent:#a78bfa;
+  --shadow:0 1px 0 rgba(255,255,255,.02), 0 2px 8px rgba(0,0,0,.4);
+}
+:root[data-theme="light"]{
+  --bg:#f5f7fa; --panel:#ffffff; --card:#ffffff; --line:#e5e7eb;
+  --fg:#1f2328; --muted:#57606a; --link:#0969da; --accent:#7c3aed;
+  --shadow:0 1px 3px rgba(0,0,0,.06);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;line-height:1.7;}
+.layout{display:grid;grid-template-columns:260px 1fr;gap:0;min-height:100vh}
+aside{position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--panel);border-right:1px solid var(--line);padding:20px 16px}
+aside h2{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:22px 0 8px}
+aside h1{font-size:18px;margin:0 0 4px}
+.brand{color:var(--muted);font-size:12px;margin:0 0 10px}
+aside .search{width:100%;padding:8px 10px;background:var(--bg);border:1px solid var(--line);
+  color:var(--fg);border-radius:6px;font-size:13px}
+aside .toc a{display:flex;align-items:center;gap:8px;padding:6px 8px;text-decoration:none;color:var(--fg);
+  border-radius:6px;font-size:13px}
+aside .toc a:hover{background:var(--card)}
+aside .toc .count{margin-left:auto;color:var(--muted);font-size:11px}
+aside .articles{display:none}
+aside.with-articles .articles{display:block}
+aside .articles a{font-size:11px;color:var(--muted);padding:3px 8px 3px 30px;display:block;text-decoration:none;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+aside .articles a:hover{color:var(--fg)}
+.theme-toggle{margin-top:auto;background:none;border:1px solid var(--line);color:var(--fg);
+  padding:6px 10px;border-radius:6px;cursor:pointer;font-size:12px;width:100%}
+main{padding:32px 36px 80px;max-width:1100px}
+.page-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.page-head h1{margin:0;font-size:26px}
+.page-head .meta{color:var(--muted);font-size:13px}
+.highlights{background:linear-gradient(135deg,var(--accent)11,transparent);border:1px solid var(--line);
+  border-left:4px solid var(--accent);padding:16px 20px;border-radius:8px;margin:20px 0 32px}
+.highlights strong{display:block;margin-bottom:6px;color:var(--accent)}
+.highlights ul{margin:6px 0 0;padding-left:20px}
+.cat-section{margin:36px 0 0}
+.cat-section>h2{display:flex;align-items:center;gap:8px;margin:0 0 14px;font-size:18px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.cat-section>h2 .icon{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;font-size:14px}
+.cat-section>h2 .count{margin-left:8px;color:var(--muted);font-weight:400;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.card.fade{display:none}
+.card h3{margin:0 0 8px;font-size:15px;line-height:1.4}
+.card h3 a{color:var(--link);text-decoration:none}
+.card .trans{color:var(--muted);font-size:12px;margin:0 0 12px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.pill{padding:2px 8px;border-radius:999px;font-size:11px;border:1px solid var(--line);background:var(--bg);color:var(--muted)}
+.pill.acc{color:var(--accent);border-color:var(--accent)44}
+.pill.hn{color:#f97316;border-color:#f9731644}
+.pill.fresh{color:#22c55e;border-color:#22c55e44}
+.pill.recur{color:#3b82f6;border-color:#3b82f644}
+.summary{margin:0 0 8px;font-size:14px}
+details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
+details>summary{cursor:pointer;color:var(--link);font-size:12px;list-style:none}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ "}
+details[open]>summary::before{content:"▾ "}
+details p{font-size:13px;color:var(--fg);margin:8px 0}
+.empty{padding:30px;text-align:center;color:var(--muted);grid-column:1/-1}
+@media (max-width:780px){
+  .layout{grid-template-columns:1fr}
+  aside{position:relative;height:auto}
+  main{padding:20px}
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="aside">
+    <h1>Daily Claude News</h1>
+    <p class="brand">2026-06-01</p>
+    <input class="search" id="q" placeholder="🔍 タイトル・要約を検索...">
+    <h2>カテゴリ</h2>
+    <nav class="toc" id="toc"></nav>
+    <button class="theme-toggle" id="theme">🌗 ライトに切替</button>
+  </aside>
+  <main>
+    <div class="page-head">
+      <h1>本日のまとめ</h1>
+      <div class="meta">📅 2026-06-01 ・ 🆕 新規 0 ・ 🔁 継続 11 ・ 🤖 claude-sonnet-4-6</div>
+    </div>
+    <div class="highlights">
+      <strong>✨ 本日のハイライト</strong>
+      <ul id="highlights"></ul>
+    </div>
+    <div id="main"></div>
+  </main>
+</div>
+
+<script src="data.js"></script>
+<script>
+const root = document.documentElement;
+root.setAttribute('data-theme','dark');
+const themeBtn = document.getElementById('theme');
+themeBtn.onclick = () => {
+  const t = root.getAttribute('data-theme')==='dark' ? 'light':'dark';
+  root.setAttribute('data-theme',t);
+  themeBtn.textContent = t==='dark' ? '🌗 ライトに切替':'🌗 ダークに切替';
+};
+
+const d = window.NEWS_DATA;
+document.getElementById('highlights').innerHTML =
+  d.highlights.map(h=>`<li>${h}</li>`).join('');
+
+document.getElementById('toc').innerHTML = d.categories.map(c=>`
+  <a href="#cat-${c.key}">
+    <span style="background:${c.color}33;color:${c.color};padding:2px 6px;border-radius:4px;font-size:11px">${c.icon}</span>
+    <span>${c.name}</span>
+    <span class="count">${c.items.length}</span>
+  </a>
+  <div class="articles">
+    ${c.items.map(i=>`<a href="#a-${slug(i.title)}">${i.title}</a>`).join('')}
+  </div>
+`).join('');
+
+function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')}
+
+document.getElementById('main').innerHTML = d.categories.map(c=>`
+  <section class="cat-section" id="cat-${c.key}">
+    <h2>
+      <span class="icon" style="background:${c.color}33;color:${c.color}">${c.icon}</span>
+      ${c.name}<span class="count">${c.items.length} 件</span>
+    </h2>
+    <div class="grid">
+      ${c.items.map(card).join('')}
+    </div>
+  </section>`).join('');
+
+function card(it){
+  const srcCls = it.source==='hacker-news' ? 'hn' : 'acc';
+  const srcLabel = it.source==='hacker-news' ? '🔥 HN' : '🧠 Anthropic';
+  const stateCls = it.state==='新規' ? 'fresh' : 'recur';
+  const stateText = it.state==='新規' ? '🆕 新規' : `🔁 ×${it.recurrence}`;
+  const pt = it.points ? `<span class="pill">⭐ ${it.points}</span>` : '';
+  const body = (it.body||[]).length
+    ? `<details><summary>続きを読む</summary>${it.body.map(p=>`<p>${p}</p>`).join('')}</details>`
+    : '';
+  const text = (it.title+it.translation+it.summary+(it.body||[]).join('')).toLowerCase();
+  return `<article class="card" id="a-${slug(it.title)}" data-text="${text}">
+    <h3><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></h3>
+    <p class="trans">${it.translation||''}</p>
+    <div class="meta">
+      <span class="pill ${srcCls}">${srcLabel}</span>
+      ${pt}
+      <span class="pill">📅 ${it.date}</span>
+      <span class="pill ${stateCls}">${stateText}</span>
+    </div>
+    <p class="summary">${it.summary}</p>
+    ${body}
+  </article>`;
+}
+
+// 検索
+const q = document.getElementById('q');
+q.addEventListener('input', e => {
+  const v = e.target.value.toLowerCase().trim();
+  document.querySelectorAll('.card').forEach(el=>{
+    el.classList.toggle('fade', v && !el.dataset.text.includes(v));
+  });
+  document.querySelectorAll('.cat-section').forEach(sec=>{
+    const has = sec.querySelectorAll('.card:not(.fade)').length>0;
+    sec.style.display = has ? '' : 'none';
+  });
+});
+
+// サイドバー展開
+document.getElementById('aside').classList.add('with-articles');
+</script>
+</body>
+</html>
