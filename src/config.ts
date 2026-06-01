@@ -31,6 +31,13 @@ export const config = {
     .filter(Boolean),
 
   outputDir: env('OUTPUT_DIR', 'docs/daily'),
+  // 優先フィルタ: Anthropic/Codex 関連を抽出。閾値以下なら他記事で補充
+  priorityKeywords: env('PRIORITY_KEYWORDS', 'Anthropic,Claude,Codex')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean),
+  priorityMinNoPad: envNum('PRIORITY_MIN_NO_PAD', 5),
+  priorityPadTarget: envNum('PRIORITY_PAD_TARGET', 10),
   dedupTitleSimilarity: envNum('DEDUP_TITLE_SIMILARITY', 0.85),
   historyRetentionDays: envNum('HISTORY_RETENTION_DAYS', 14),
   historyStatePath: env('HISTORY_STATE_PATH', 'state/seen.json'),

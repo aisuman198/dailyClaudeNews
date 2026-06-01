@@ -35,6 +35,7 @@ export type Phase =
   | 'init'
   | 'fetch'
   | 'dedupe'
+  | 'prioritize'
   | 'history-filter'
   | 'enrich-bodies'
   | 'summarize'
