@@ -50,10 +50,21 @@ async function main(): Promise<void> {
     }
 
     phase.current = 'enrich-bodies'
-    const [freshEnriched, recurringEnriched] = await Promise.all([
+    const [freshAll, recurringAll] = await Promise.all([
       enrichWithBodies(fresh),
       enrichWithBodies(recurring),
     ])
+    // 本文取得に失敗した記事はリトライ後も bodyText 未設定。これらは表示しない (記事カードを出さない)。
+    const freshEnriched = freshAll.filter((it) => !!it.bodyText)
+    const recurringEnriched = recurringAll.filter((it) => !!it.bodyText)
+    const droppedFresh = freshAll.length - freshEnriched.length
+    const droppedRecurring = recurringAll.length - recurringEnriched.length
+    if (droppedFresh + droppedRecurring > 0) {
+      log(
+        phase.current,
+        `本文取得失敗で除外: 新規 ${droppedFresh} / 継続 ${droppedRecurring} 件 (残 新規 ${freshEnriched.length} / 継続 ${recurringEnriched.length})`,
+      )
+    }
 
     phase.current = 'summarize'
     const today = new Date()
@@ -90,8 +101,9 @@ async function main(): Promise<void> {
     phase.current = 'write'
     const filePath = await write(correctedMarkdown, today, {
       model: modelUsed,
-      freshCount: fresh.length,
-      recurringCount: recurring.length,
+      // 実際に表示される件数 (本文取得失敗で除外したものは含まない)
+      freshCount: freshEnriched.length,
+      recurringCount: recurringEnriched.length,
       heroImages,
     })
     log(phase.current, `書き込み: ${filePath}`)
@@ -111,7 +123,7 @@ async function main(): Promise<void> {
     } else {
       await commitAndPush(
         [filePath, config.historyStatePath, config.cautionsStatePath],
-        `chore(daily): ${dateStr} のまとめ (新規 ${fresh.length} / 継続 ${recurring.length})`,
+        `chore(daily): ${dateStr} のまとめ (新規 ${freshEnriched.length} / 継続 ${recurringEnriched.length})`,
       )
       log(phase.current, 'push 完了')
     }
