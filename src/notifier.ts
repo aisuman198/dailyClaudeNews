@@ -119,20 +119,43 @@ function buildRecurrenceComment(ctx: { date: string; phase: Phase; error: Error 
 async function postOrUpdateIssue(
   cat: ReturnType<typeof categorize>,
   ctx: { date: string; phase: Phase; error: Error },
-): Promise<{ action: 'created' | 'commented' | 'skipped'; issueNumber?: number }> {
-  if (!config.errorIssueRepo) return { action: 'skipped' }
+): Promise<{ action: 'created' | 'commented' | 'skipped'; issueNumber?: number; reason?: string }> {
+  if (!config.errorIssueRepo) {
+    return { action: 'skipped', reason: 'errorIssueRepo が未設定' }
+  }
 
+  // ラベル整備は失敗しても致命ではない
   try {
     await ensureLabels()
-    const existing = await findOpenIssueByTitle(config.errorIssueRepo, cat.title)
-    if (existing) {
+  } catch (err) {
+    console.error(`[notifier] ensureLabels 失敗（続行）: ${(err as Error).message}`)
+  }
+
+  // 既存 issue 検索
+  let existing
+  try {
+    existing = await findOpenIssueByTitle(config.errorIssueRepo, cat.title)
+  } catch (err) {
+    console.error(`[notifier] findOpenIssueByTitle 失敗: ${(err as Error).message}`)
+    // 検索失敗時は安全側に倒して新規起票を試みる
+    existing = null
+  }
+
+  if (existing) {
+    try {
       await addIssueComment(
         config.errorIssueRepo,
         existing.number,
         buildRecurrenceComment(ctx),
       )
       return { action: 'commented', issueNumber: existing.number }
+    } catch (err) {
+      console.error(`[notifier] addIssueComment 失敗 (#${existing.number}): ${(err as Error).message}`)
+      return { action: 'skipped', reason: `comment failed: ${(err as Error).message}` }
     }
+  }
+
+  try {
     await createIssue(
       config.errorIssueRepo,
       cat.title,
@@ -140,8 +163,9 @@ async function postOrUpdateIssue(
       cat.labels,
     )
     return { action: 'created' }
-  } catch {
-    return { action: 'skipped' }
+  } catch (err) {
+    console.error(`[notifier] createIssue 失敗: ${(err as Error).message}`)
+    return { action: 'skipped', reason: `create failed: ${(err as Error).message}` }
   }
 }
 
@@ -162,7 +186,8 @@ export async function notifyFailure(error: Error, ctx: { phase: Phase }): Promis
     ),
   ])
 
-  if (config.verbose) {
-    console.log(`[notifier] issue ${result.action}${result.issueNumber ? ` #${result.issueNumber}` : ''} (category: ${cat.category})`)
-  }
+  // 常にログ（verbose に依存しない）。失敗時は理由も併記
+  const issueRef = result.issueNumber ? ` #${result.issueNumber}` : ''
+  const reason = result.reason ? ` (${result.reason})` : ''
+  console.log(`[notifier] issue ${result.action}${issueRef} (category: ${cat.category})${reason}`)
 }

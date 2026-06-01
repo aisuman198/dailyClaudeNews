@@ -17,7 +17,7 @@ export const config = {
   fallbackModel: env('CLAUDE_FALLBACK_MODEL', 'claude-haiku-4-5-20251001'),
   reviewerModel: env('REVIEWER_MODEL', 'claude-sonnet-4-6'),
   reviewEnabled: env('REVIEW_ENABLED', 'true').toLowerCase() === 'true',
-  claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 1_200_000),
+  claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 1_800_000),
 
   anthropicSitemap: env('ANTHROPIC_SITEMAP', 'https://www.anthropic.com/sitemap.xml'),
   anthropicLookbackDays: envNum('ANTHROPIC_LOOKBACK_DAYS', 7),
