@@ -63,15 +63,33 @@ main{padding:36px 44px 80px;max-width:1100px}
 .section-label{font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:11px;letter-spacing:.3em;color:var(--accent);
   text-transform:uppercase;border-top:1px solid var(--fg);padding-top:8px;margin:28px 0 14px;font-weight:600}
 
-/* ── Hero ──────────────────── */
-.hero{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px;margin:14px 0 36px}
-.hero .h-item{background:var(--paper);padding:20px;border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:var(--shadow)}
-.hero .h-item:first-child{grid-row:span 2;background:linear-gradient(180deg,var(--paper),transparent)}
+/* ── Hero (固定サイズ + 背景画像対応) ──────────────────── */
+.hero{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:190px 190px;gap:14px;margin:14px 0 36px}
+.hero .h-item{position:relative;overflow:hidden;background:var(--paper);border:1px solid var(--line);
+  display:flex;flex-direction:column;box-shadow:var(--shadow);
+  background-size:cover;background-position:center;height:100%}
+.hero .h-item:first-child{grid-row:1 / 3;background:linear-gradient(180deg,var(--paper),transparent)}
+.hero .h-item.has-img{border-color:transparent}
+.hero .h-item.has-img::before{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.55) 55%,rgba(0,0,0,.9) 100%);
+}
+:root[data-theme="light"] .hero .h-item.has-img::before{
+  background:linear-gradient(180deg,rgba(0,0,0,.05) 0%,rgba(0,0,0,.45) 60%,rgba(0,0,0,.85) 100%);
+}
+.hero .h-inner{position:relative;z-index:1;padding:18px 20px;display:flex;flex-direction:column;
+  height:100%;justify-content:space-between}
 .hero .h-num{font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:38px;color:var(--accent);
-  line-height:1;margin-bottom:8px;font-weight:600}
-.hero .h-text{font-size:14px;line-height:1.6}
-.hero .h-item:first-child .h-text{font-size:18px;line-height:1.55;
-  font-family:"Hiragino Mincho ProN","Yu Mincho",serif}
+  line-height:1;margin-bottom:8px;font-weight:600;text-shadow:0 2px 6px rgba(0,0,0,.4)}
+.hero .h-item.has-img .h-num{color:#f5d9b0}
+.hero .h-source{font-size:9px;letter-spacing:.25em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:6px;font-weight:600}
+.hero .h-item.has-img .h-source{color:#f5d9b0;opacity:.85}
+.hero .h-text{font-size:14px;line-height:1.55;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.hero .h-item:first-child .h-text{font-size:17px;line-height:1.55;
+  font-family:"Hiragino Mincho ProN","Yu Mincho",serif;-webkit-line-clamp:6}
+.hero .h-item.has-img .h-text{color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.85),0 0 12px rgba(0,0,0,.4)}
 
 /* ── Category ──────────────────── */
 .cat{margin:46px 0 0;scroll-margin-top:20px}
@@ -118,8 +136,9 @@ details p{font-size:13px;margin:10px 0;color:var(--fg);opacity:.9}
   .layout{grid-template-columns:1fr}
   aside{position:relative;height:auto}
   main{padding:24px 20px 60px}
-  .hero{grid-template-columns:1fr}
-  .hero .h-item:first-child{grid-row:auto}
+  .hero{grid-template-columns:1fr;grid-template-rows:none}
+  .hero .h-item{height:200px}
+  .hero .h-item:first-child{grid-row:auto;height:260px}
   .articles-grid{grid-template-columns:1fr}
   .masthead h1{font-size:28px}
 }

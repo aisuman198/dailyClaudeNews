@@ -173,13 +173,24 @@ function parseDocument(raw){
   return { highlights, categories };
 }
 
-function renderHero(highlights){
-  return highlights.map((h, i) =>
-    `<div class="h-item">
-       <div class="h-num">${String(i+1).padStart(2,'0')}</div>
-       <div class="h-text">${h}</div>
-     </div>`
-  ).join('');
+function renderHero(highlights, heroImages, heroSources){
+  // heroImages: window.HERO_IMAGES (frontmatter から layout 経由)。長さ 3、各要素は URL 文字列 or null。
+  // heroSources: ハイライト→マッチした記事の source ラベル ('ANTHROPIC' / 'HACKER NEWS')
+  return highlights.map((h, i) => {
+    const img = (heroImages && heroImages[i]) ? heroImages[i] : null;
+    const src = (heroSources && heroSources[i]) ? heroSources[i] : '';
+    const styleAttr = img ? ` style="background-image:url('${escapeAttr(img)}')"` : '';
+    const cls = img ? 'h-item has-img' : 'h-item';
+    return `<div class="${cls}"${styleAttr}>
+       <div class="h-inner">
+         <div>
+           <div class="h-num">${String(i+1).padStart(2,'0')}</div>
+           ${src ? `<div class="h-source">${escapeHtml(src)}</div>` : ''}
+         </div>
+         <div class="h-text">${h}</div>
+       </div>
+     </div>`;
+  }).join('');
 }
 
 function renderSidebarToc(categories){
@@ -292,14 +303,41 @@ function setupSearch(){
   });
 }
 
+function findArticleForHighlight(highlight, categories){
+  const h = highlight.toLowerCase();
+  let best = null, bestScore = 0;
+  for (const c of categories) {
+    for (const it of c.items) {
+      const words = it.title.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+      let score = 0;
+      for (const w of words) if (h.includes(w)) score++;
+      if (score > bestScore) { bestScore = score; best = it; }
+    }
+  }
+  return bestScore > 0 ? best : null;
+}
+
+function sourceLabelFor(item){
+  if (!item || !item.meta) return '';
+  if (item.meta.source === 'hn') return 'HACKER NEWS';
+  if (item.meta.source === 'anthropic') return 'ANTHROPIC';
+  return '';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setupTheme();
   const raw = document.getElementById('raw-content');
   if (!raw) return;
   const parsed = parseDocument(raw);
 
+  const heroImages = (window.HERO_IMAGES && Array.isArray(window.HERO_IMAGES))
+    ? window.HERO_IMAGES : [];
+  const heroSources = parsed.highlights.map(h =>
+    sourceLabelFor(findArticleForHighlight(h, parsed.categories))
+  );
+
   const heroEl = document.getElementById('hero');
-  if (heroEl) heroEl.innerHTML = renderHero(parsed.highlights);
+  if (heroEl) heroEl.innerHTML = renderHero(parsed.highlights, heroImages, heroSources);
 
   const tocEl = document.getElementById('toc');
   if (tocEl) tocEl.innerHTML = renderSidebarToc(parsed.categories);
