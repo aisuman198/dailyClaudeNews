@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { extractOgImageFromHtml, extractTextFromHtml } from './articleFetcher.js'
 
 describe('extractTextFromHtml', () => {
@@ -102,5 +102,134 @@ describe('extractOgImageFromHtml', () => {
   it('decodes &amp; entity in URL', () => {
     const html = '<meta property="og:image" content="https://cdn.x/a.png?foo=1&amp;bar=2">'
     expect(extractOgImageFromHtml(html, base)).toBe('https://cdn.x/a.png?foo=1&bar=2')
+  })
+})
+
+describe('fetchArticle (retry + logging)', () => {
+  const URL = 'https://example.com/article'
+  const validHtml = `<html><head>
+    <meta property="og:image" content="https://cdn.example.com/cover.png">
+  </head><body><p>${'本文'.repeat(60)}</p></body></html>`
+
+  let warnSpy: ReturnType<typeof vi.spyOn>
+  let errorSpy: ReturnType<typeof vi.spyOn>
+
+  beforeEach(() => {
+    vi.resetModules()
+    process.env.FETCH_RETRY_BASE_DELAY_MS = '0' // テスト時はリトライ間隔を 0 に
+    warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {})
+  })
+
+  afterEach(() => {
+    vi.unstubAllGlobals()
+    vi.restoreAllMocks()
+    delete process.env.FETCH_RETRY_BASE_DELAY_MS
+  })
+
+  function mockOk(body: string): Response {
+    return new Response(body, { status: 200, headers: { 'content-type': 'text/html; charset=utf-8' } })
+  }
+  function mock5xx(): Response {
+    return new Response('Internal Server Error', { status: 503, headers: { 'content-type': 'text/html' } })
+  }
+  function mock404(): Response {
+    return new Response('Not Found', { status: 404, headers: { 'content-type': 'text/html' } })
+  }
+
+  it('returns text + ogImage on first-attempt success', async () => {
+    const fetchMock = vi.fn().mockResolvedValueOnce(mockOk(validHtml))
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    expect(r.text).toContain('本文')
+    expect(r.ogImage).toBe('https://cdn.example.com/cover.png')
+    expect(warnSpy).not.toHaveBeenCalled()
+    expect(errorSpy).not.toHaveBeenCalled()
+  })
+
+  it('retries on network error and succeeds on third attempt', async () => {
+    const fetchMock = vi.fn()
+      .mockRejectedValueOnce(new Error('ECONNRESET'))
+      .mockRejectedValueOnce(new Error('ETIMEDOUT'))
+      .mockResolvedValueOnce(mockOk(validHtml))
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(3)
+    expect(r.text).toContain('本文')
+    expect(warnSpy).toHaveBeenCalledTimes(2)
+    expect(warnSpy.mock.calls[0]![0]).toMatch(/attempt 1\/3.*ECONNRESET.*リトライ/)
+    expect(warnSpy.mock.calls[1]![0]).toMatch(/attempt 2\/3.*ETIMEDOUT.*リトライ/)
+    expect(errorSpy).not.toHaveBeenCalled()
+  })
+
+  it('retries on HTTP 5xx and succeeds eventually', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(mock5xx())
+      .mockResolvedValueOnce(mockOk(validHtml))
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(2)
+    expect(r.text).toContain('本文')
+    expect(warnSpy).toHaveBeenCalledTimes(1)
+    expect(warnSpy.mock.calls[0]![0]).toMatch(/HTTP 503/)
+  })
+
+  it('gives up after MAX_RETRIES + 1 failed attempts (logs error)', async () => {
+    const fetchMock = vi.fn()
+      .mockRejectedValueOnce(new Error('ECONNRESET'))
+      .mockRejectedValueOnce(new Error('ECONNRESET'))
+      .mockRejectedValueOnce(new Error('ECONNRESET'))
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(3)
+    expect(r.text).toBeNull()
+    expect(warnSpy).toHaveBeenCalledTimes(2)
+    expect(errorSpy).toHaveBeenCalledTimes(1)
+    expect(errorSpy.mock.calls[0]![0]).toMatch(/attempt 3\/3.*リトライ上限/)
+  })
+
+  it('does NOT retry on HTTP 4xx (non-retryable)', async () => {
+    const fetchMock = vi.fn().mockResolvedValueOnce(mock404())
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    expect(r.text).toBeNull()
+    expect(warnSpy).not.toHaveBeenCalled()
+    expect(errorSpy).toHaveBeenCalledTimes(1)
+    expect(errorSpy.mock.calls[0]![0]).toMatch(/HTTP 404.*リトライ不可/)
+  })
+
+  it('does NOT retry on non-html content-type', async () => {
+    const fetchMock = vi.fn().mockResolvedValueOnce(
+      new Response('{}', { status: 200, headers: { 'content-type': 'application/json' } }),
+    )
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    expect(r.text).toBeNull()
+    expect(errorSpy).toHaveBeenCalledTimes(1)
+    expect(errorSpy.mock.calls[0]![0]).toMatch(/non-html.*application\/json.*リトライ不可/)
+  })
+
+  it('does NOT retry when extracted text is too short but preserves og:image', async () => {
+    const shortHtml = `<html><head>
+      <meta property="og:image" content="https://cdn.example.com/short.png">
+    </head><body><p>短い</p></body></html>`
+    const fetchMock = vi.fn().mockResolvedValueOnce(mockOk(shortHtml))
+    vi.stubGlobal('fetch', fetchMock)
+    const { fetchArticle } = await import('./articleFetcher.js')
+    const r = await fetchArticle(URL)
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    expect(r.text).toBeNull()
+    expect(r.ogImage).toBe('https://cdn.example.com/short.png')
+    expect(errorSpy).toHaveBeenCalledTimes(1)
+    expect(errorSpy.mock.calls[0]![0]).toMatch(/text too short/)
   })
 })
