@@ -8,13 +8,16 @@ import { pickHeroImages } from './heroMatcher.js'
 import { loadSeen, persist, split } from './historyFilter.js'
 import { notifyFailure } from './notifier.js'
 import { prioritizeAndPad } from './priorityFilter.js'
+import { redact } from './redact.js'
 import { review } from './reviewer.js'
 import { summarize } from './summarizer.js'
 import type { Phase } from './types.js'
 import { formatDate, write } from './writer.js'
 
+// パブリック出力 sink (ログ): 必ず redact を通す。
+// ルールは ~/.claude/CLAUDE.md / 実装は ~/.claude/scripts/redact.cjs 参照。
 function log(phase: Phase, message: string): void {
-  console.log(`[${new Date().toISOString()}] [${phase}] ${message}`)
+  console.log(redact(`[${new Date().toISOString()}] [${phase}] ${message}`))
 }
 
 async function main(): Promise<void> {
@@ -116,15 +119,15 @@ async function main(): Promise<void> {
       log(phase.current, 'push 完了')
     }
 
-    console.log(`完了: ${filePath} (model: ${modelUsed})`)
+    console.log(redact(`完了: ${filePath} (model: ${modelUsed})`))
   } catch (err) {
     const e = err instanceof Error ? err : new Error(String(err))
-    console.error(`[${phase.current}] 失敗: ${e.message}`)
-    if (e.stack) console.error(e.stack)
+    console.error(redact(`[${phase.current}] 失敗: ${e.message}`))
+    if (e.stack) console.error(redact(e.stack))
     try {
       await notifyFailure(e, { phase: phase.current })
     } catch (notifyErr) {
-      console.error(`通知も失敗: ${(notifyErr as Error).message}`)
+      console.error(redact(`通知も失敗: ${(notifyErr as Error).message}`))
     }
     process.exit(1)
   }

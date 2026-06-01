@@ -2,6 +2,7 @@ import { spawn } from 'node:child_process'
 import { categorize } from './errorCategory.js'
 import { config } from './config.js'
 import { addIssueComment, createIssue, ensureLabelExists, findOpenIssueByTitle } from './issueClient.js'
+import { redact } from './redact.js'
 import type { Phase } from './types.js'
 
 function runSilently(cmd: string, args: string[], stdin?: string, timeoutMs = 15_000): Promise<void> {
@@ -55,7 +56,9 @@ function readRecentLog(): string | null {
     if (!fs.existsSync(logPath)) return null
     const content = fs.readFileSync(logPath, 'utf8')
     const lines = content.trim().split('\n')
-    return lines.slice(-30).join('\n')
+    // run.log にはフルパス・ユーザー名が混ざりうる。ここで第一防御線として redact する。
+    // (issue/comment 経由でも redact されるが、二重防御で確実に落とす。)
+    return redact(lines.slice(-30).join('\n'))
   } catch {
     return null
   }
@@ -128,7 +131,7 @@ async function postOrUpdateIssue(
   try {
     await ensureLabels()
   } catch (err) {
-    console.error(`[notifier] ensureLabels 失敗（続行）: ${(err as Error).message}`)
+    console.error(redact(`[notifier] ensureLabels 失敗（続行）: ${(err as Error).message}`))
   }
 
   // 既存 issue 検索
@@ -136,7 +139,7 @@ async function postOrUpdateIssue(
   try {
     existing = await findOpenIssueByTitle(config.errorIssueRepo, cat.title)
   } catch (err) {
-    console.error(`[notifier] findOpenIssueByTitle 失敗: ${(err as Error).message}`)
+    console.error(redact(`[notifier] findOpenIssueByTitle 失敗: ${(err as Error).message}`))
     // 検索失敗時は安全側に倒して新規起票を試みる
     existing = null
   }
@@ -150,7 +153,7 @@ async function postOrUpdateIssue(
       )
       return { action: 'commented', issueNumber: existing.number }
     } catch (err) {
-      console.error(`[notifier] addIssueComment 失敗 (#${existing.number}): ${(err as Error).message}`)
+      console.error(redact(`[notifier] addIssueComment 失敗 (#${existing.number}): ${(err as Error).message}`))
       return { action: 'skipped', reason: `comment failed: ${(err as Error).message}` }
     }
   }
@@ -164,7 +167,7 @@ async function postOrUpdateIssue(
     )
     return { action: 'created' }
   } catch (err) {
-    console.error(`[notifier] createIssue 失敗: ${(err as Error).message}`)
+    console.error(redact(`[notifier] createIssue 失敗: ${(err as Error).message}`))
     return { action: 'skipped', reason: `create failed: ${(err as Error).message}` }
   }
 }
@@ -189,5 +192,5 @@ export async function notifyFailure(error: Error, ctx: { phase: Phase }): Promis
   // 常にログ（verbose に依存しない）。失敗時は理由も併記
   const issueRef = result.issueNumber ? ` #${result.issueNumber}` : ''
   const reason = result.reason ? ` (${result.reason})` : ''
-  console.log(`[notifier] issue ${result.action}${issueRef} (category: ${cat.category})${reason}`)
+  console.log(redact(`[notifier] issue ${result.action}${issueRef} (category: ${cat.category})${reason}`))
 }

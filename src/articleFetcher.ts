@@ -1,4 +1,5 @@
 import { config } from './config.js'
+import { redact } from './redact.js'
 import type { NewsItem } from './types.js'
 
 const FETCH_TIMEOUT_MS = 12_000
@@ -138,7 +139,7 @@ export async function enrichWithBodies(items: NewsItem[]): Promise<NewsItem[]> {
     return next
   })
   if (config.verbose || true) {
-    console.log(`[enrich] 本文取得成功 ${bodyOk}/${items.length} 件 / og:image ${imgOk}/${items.length} 件`)
+    console.log(redact(`[enrich] 本文取得成功 ${bodyOk}/${items.length} 件 / og:image ${imgOk}/${items.length} 件`))
   }
   return enriched
 }

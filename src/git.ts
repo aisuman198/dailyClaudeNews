@@ -1,5 +1,6 @@
 import { spawn } from 'node:child_process'
 import { PROJECT_ROOT } from './config.js'
+import { redact } from './redact.js'
 
 function git(args: string[], timeoutMs = 30_000): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -25,16 +26,18 @@ export async function commitAndPush(paths: string[], message: string): Promise<v
 
   const status = await git(['status', '--porcelain'])
   if (status.trim().length === 0) {
-    console.log('変更が無いためコミットをスキップします')
+    console.log(redact('変更が無いためコミットをスキップします'))
     return
   }
 
-  await git(['commit', '-m', message])
+  // パブリック出力 sink: redact 必須 (ルールは ~/.claude/CLAUDE.md 参照)
+  const safeMessage = redact(message)
+  await git(['commit', '-m', safeMessage])
 
   try {
     await git(['push', 'origin', 'main'])
   } catch (err) {
-    console.warn(`push 失敗、pull --rebase してリトライ: ${(err as Error).message}`)
+    console.warn(redact(`push 失敗、pull --rebase してリトライ: ${(err as Error).message}`))
     await git(['pull', '--rebase', 'origin', 'main'])
     await git(['push', 'origin', 'main'])
   }
