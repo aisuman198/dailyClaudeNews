@@ -80,6 +80,16 @@
       "examples": [
         "Speed of Prototyping 記事内で「リポ▢トリ」となっていた"
       ]
+    },
+    {
+      "term": "調査",
+      "rule": "漢字「查」（U+67E5・簡体字中国語）が「査」（U+67FB・日本語）の代わりに混入するケースがある",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "研究セクションで「調查は」となっていた（U+FFFFとは異なる類似CJK文字の混入）"
+      ]
     }
   ]
 }
