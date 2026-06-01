@@ -90,6 +90,36 @@
       "examples": [
         "研究セクションで「調查は」となっていた（U+FFFFとは異なる類似CJK文字の混入）"
       ]
+    },
+    {
+      "term": "クラシファイア（classifier）",
+      "rule": "「ク???シファイア」と文字化けしやすい",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "Auto Mode記事の出力層クラシファイア説明箇所で発生"
+      ]
+    },
+    {
+      "term": "結果",
+      "rule": "「結??」と文字化けしやすい",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "Coding Agents記事のアンケート結果報告文で発生"
+      ]
+    },
+    {
+      "term": "明確",
+      "rule": "「??確」と文字化けしやすい",
+      "firstSeenDate": "2026-06-01",
+      "lastSeenDate": "2026-06-01",
+      "occurrences": 1,
+      "examples": [
+        "Less Coding記事のチケット説明確認箇所で発生"
+      ]
     }
   ]
 }
