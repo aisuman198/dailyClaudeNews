@@ -4,6 +4,7 @@ import { config } from './config.js'
 import { dedupe } from './deduper.js'
 import { fetchAll } from './fetcher.js'
 import { commitAndPush } from './git.js'
+import { pickHeroImages } from './heroMatcher.js'
 import { loadSeen, persist, split } from './historyFilter.js'
 import { notifyFailure } from './notifier.js'
 import { prioritizeAndPad } from './priorityFilter.js'
@@ -78,11 +79,20 @@ async function main(): Promise<void> {
     const { correctedMarkdown, newCautions } = await review(draftMarkdown, knownCautions)
     log(phase.current, `レビュー完了 / 新規注意 ${newCautions.length} 件`)
 
+    phase.current = 'pick-hero'
+    // enrich-bodies で og:image も同時に取得済み。
+    // ハイライト 3 本に対応する記事のスコアマッチで上位 3 URL を選ぶ。
+    const allEnriched = [...freshEnriched, ...recurringEnriched]
+    const heroImages = pickHeroImages(correctedMarkdown, allEnriched)
+    const heroResolved = heroImages.filter((u) => u !== null).length
+    log(phase.current, `ヒーロー画像 ${heroResolved}/${heroImages.length} 件 解決`)
+
     phase.current = 'write'
     const filePath = await write(correctedMarkdown, today, {
       model: modelUsed,
       freshCount: fresh.length,
       recurringCount: recurring.length,
+      heroImages,
     })
     log(phase.current, `書き込み: ${filePath}`)
 

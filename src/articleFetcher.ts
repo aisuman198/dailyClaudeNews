@@ -31,6 +31,29 @@ function stripMojibake(s: string): string {
     .trim()
 }
 
+// 記事 HTML から og:image または twitter:image の URL を抽出する。
+// 相対 URL は記事 URL を基準に絶対 URL 化する。見つからなければ null。
+export function extractOgImageFromHtml(html: string, baseUrl: string): string | null {
+  const patterns: RegExp[] = [
+    /<meta\s+[^>]*property=["']og:image(?::secure_url)?["'][^>]*content=["']([^"']+)["']/i,
+    /<meta\s+[^>]*content=["']([^"']+)["'][^>]*property=["']og:image(?::secure_url)?["']/i,
+    /<meta\s+[^>]*name=["']twitter:image(?::src)?["'][^>]*content=["']([^"']+)["']/i,
+    /<meta\s+[^>]*content=["']([^"']+)["'][^>]*name=["']twitter:image(?::src)?["']/i,
+  ]
+  for (const re of patterns) {
+    const m = html.match(re)
+    if (m && m[1]) {
+      const raw = decodeEntities(m[1].trim())
+      try {
+        return new URL(raw, baseUrl).toString()
+      } catch {
+        // 不正 URL は無視して次へ
+      }
+    }
+  }
+  return null
+}
+
 export function extractTextFromHtml(html: string): string {
   const stripped = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
@@ -51,7 +74,9 @@ export function extractTextFromHtml(html: string): string {
   return text.slice(0, MAX_BODY_CHARS)
 }
 
-async function fetchOne(url: string): Promise<string | null> {
+type FetchedArticle = { text: string | null; ogImage: string | null }
+
+async function fetchOne(url: string): Promise<FetchedArticle> {
   try {
     const ctrl = new AbortController()
     const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS)
@@ -65,14 +90,15 @@ async function fetchOne(url: string): Promise<string | null> {
     } finally {
       clearTimeout(timer)
     }
-    if (!res.ok) return null
+    if (!res.ok) return { text: null, ogImage: null }
     const ct = (res.headers.get('content-type') ?? '').toLowerCase()
-    if (!ct.includes('html')) return null
+    if (!ct.includes('html')) return { text: null, ogImage: null }
     const html = await res.text()
     const text = extractTextFromHtml(html)
-    return text.length >= 100 ? text : null
+    const ogImage = extractOgImageFromHtml(html, url)
+    return { text: text.length >= 100 ? text : null, ogImage }
   } catch {
-    return null
+    return { text: null, ogImage: null }
   }
 }
 
@@ -95,18 +121,24 @@ async function withConcurrency<T, R>(
 }
 
 export async function enrichWithBodies(items: NewsItem[]): Promise<NewsItem[]> {
-  const bodies = await withConcurrency(items, MAX_CONCURRENT, async (it) => fetchOne(it.url))
-  let okCount = 0
+  const fetched = await withConcurrency(items, MAX_CONCURRENT, async (it) => fetchOne(it.url))
+  let bodyOk = 0
+  let imgOk = 0
   const enriched = items.map((it, idx): NewsItem => {
-    const body = bodies[idx]
-    if (body) {
-      okCount++
-      return { ...it, bodyText: body }
+    const r = fetched[idx]
+    const next: NewsItem = { ...it }
+    if (r?.text) {
+      bodyOk++
+      next.bodyText = r.text
     }
-    return it
+    if (r?.ogImage) {
+      imgOk++
+      next.ogImage = r.ogImage
+    }
+    return next
   })
   if (config.verbose || true) {
-    console.log(`[enrich] 本文取得成功 ${okCount}/${items.length} 件`)
+    console.log(`[enrich] 本文取得成功 ${bodyOk}/${items.length} 件 / og:image ${imgOk}/${items.length} 件`)
   }
   return enriched
 }

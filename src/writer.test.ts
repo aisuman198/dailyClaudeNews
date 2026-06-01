@@ -57,4 +57,46 @@ describe('writer', () => {
     expect(content).toContain('second')
     expect(content).not.toContain('first')
   })
+
+  it('writes hero_images array when provided', async () => {
+    const { write } = await importFresh()
+    const file = await write('## hello', new Date(2026, 5, 1), {
+      model: 'm',
+      freshCount: 0,
+      recurringCount: 0,
+      heroImages: [
+        'https://cdn.anthropic.com/a.png',
+        null,
+        'https://cdn.anthropic.com/c.png',
+      ],
+    })
+    const content = await fs.readFile(file, 'utf8')
+    expect(content).toContain('hero_images:')
+    expect(content).toContain('  - "https://cdn.anthropic.com/a.png"')
+    expect(content).toContain('  - null')
+    expect(content).toContain('  - "https://cdn.anthropic.com/c.png"')
+  })
+
+  it('omits hero_images when not provided', async () => {
+    const { write } = await importFresh()
+    const file = await write('## hello', new Date(2026, 5, 1), {
+      model: 'm',
+      freshCount: 0,
+      recurringCount: 0,
+    })
+    const content = await fs.readFile(file, 'utf8')
+    expect(content).not.toContain('hero_images:')
+  })
+
+  it('escapes double quotes and backslashes in image URLs', async () => {
+    const { write } = await importFresh()
+    const file = await write('x', new Date(2026, 5, 1), {
+      model: 'm',
+      freshCount: 0,
+      recurringCount: 0,
+      heroImages: ['https://x/a"b\\c.png', null, null],
+    })
+    const content = await fs.readFile(file, 'utf8')
+    expect(content).toContain('  - "https://x/a\\"b\\\\c.png"')
+  })
 })

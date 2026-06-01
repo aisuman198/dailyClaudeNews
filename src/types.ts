@@ -11,6 +11,7 @@ export type NewsItem = {
   firstSeenDate?: string
   occurrences?: number
   bodyText?: string
+  ogImage?: string
 }
 
 export type SeenEntry = {
@@ -40,6 +41,7 @@ export type Phase =
   | 'enrich-bodies'
   | 'summarize'
   | 'review'
+  | 'pick-hero'
   | 'write'
   | 'persist-history'
   | 'persist-cautions'
