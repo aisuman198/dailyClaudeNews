@@ -149,10 +149,20 @@ details p{font-size:13px;margin:10px 0;color:var(--fg);opacity:.9}
   margin:0 0 6px;font-weight:600;text-align:center;letter-spacing:.04em}
 .archive-wrap .sub{color:var(--muted);text-align:center;margin:0 0 8px}
 .archive-wrap .source-info{color:var(--muted);text-align:center;font-size:13px;margin:0 0 26px;padding-bottom:18px;border-bottom:3px double var(--fg)}
-.archive-list{list-style:none;padding:0;margin:0}
-.archive-list li{padding:12px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.archive-list li:hover{background:var(--paper)}
-.archive-list a{color:var(--fg);text-decoration:none;font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:16px}
-.archive-list a:hover{color:var(--accent)}
-.archive-list .stat{color:var(--muted);font-size:12px;letter-spacing:.08em}
+.archive-list{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.archive-list li{padding:0;border-bottom:1px solid var(--line)}
+.archive-row{
+  display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  padding:14px 18px;color:var(--fg);text-decoration:none;
+  font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:16px;
+  border-left:3px solid transparent;
+  transition:background .12s ease,border-left-color .12s ease,color .12s ease;
+}
+.archive-row:hover,.archive-row:focus{
+  background:var(--paper);color:var(--accent);
+  border-left-color:var(--accent);outline:none;
+}
+.archive-row .date{font-weight:600}
+.archive-row .stat{color:var(--muted);font-size:12px;letter-spacing:.08em;font-family:inherit}
+.archive-row:hover .stat{color:var(--fg)}
 .archive-foot{margin-top:40px;text-align:center;font-size:11px;color:var(--muted);letter-spacing:.15em}

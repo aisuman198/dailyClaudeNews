@@ -21,8 +21,10 @@ layout: archive
 {% for page in daily_pages %}
   {% assign date = page.name | remove: '.md' %}
   <li>
-    <a href="{{ page.url | relative_url }}">{{ date }}</a>
-    <span class="stat">🆕 {{ page.fresh_count | default: '?' }} ・ 🔁 {{ page.recurring_count | default: '?' }}</span>
+    <a href="{{ page.url | relative_url }}" class="archive-row">
+      <span class="date">{{ date }}</span>
+      <span class="stat">🆕 {{ page.fresh_count | default: '?' }} ・ 🔁 {{ page.recurring_count | default: '?' }}</span>
+    </a>
   </li>
 {% endfor %}
 </ul>
