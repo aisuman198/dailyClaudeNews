@@ -13,10 +13,16 @@ type FrontmatterInput = {
   model: string
   freshCount: number
   recurringCount: number
+  heroImages?: (string | null)[]
+}
+
+function yamlString(s: string): string {
+  // ダブルクオート文字列。バックスラッシュとダブルクオートをエスケープ。
+  return '"' + s.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"'
 }
 
 function frontmatter(fm: FrontmatterInput): string {
-  return [
+  const lines: string[] = [
     '---',
     `title: "${fm.date} のニュース"`,
     `layout: daily`,
@@ -25,15 +31,26 @@ function frontmatter(fm: FrontmatterInput): string {
     `model: ${fm.model}`,
     `fresh_count: ${fm.freshCount}`,
     `recurring_count: ${fm.recurringCount}`,
-    '---',
-    '',
-  ].join('\n')
+  ]
+  if (fm.heroImages && fm.heroImages.length > 0) {
+    lines.push('hero_images:')
+    for (const u of fm.heroImages) {
+      lines.push(u ? `  - ${yamlString(u)}` : '  - null')
+    }
+  }
+  lines.push('---', '')
+  return lines.join('\n')
 }
 
 export async function write(
   markdown: string,
   date: Date,
-  meta: { model: string; freshCount: number; recurringCount: number },
+  meta: {
+    model: string
+    freshCount: number
+    recurringCount: number
+    heroImages?: (string | null)[]
+  },
 ): Promise<string> {
   const dateStr = formatDate(date)
   const outDir = resolvePath(config.outputDir)
