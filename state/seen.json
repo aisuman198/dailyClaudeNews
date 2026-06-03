@@ -5,50 +5,50 @@
       "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
       "normalizedTitle": "claude design anthropic labs",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/news/series-h",
       "normalizedTitle": "series h",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-opus-4-8",
       "normalizedTitle": "claude opus 4 8",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/news/milan-office-opening",
       "normalizedTitle": "milan office opening",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
       "normalizedTitle": "coding agents social sciences",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/engineering/claude-code-auto-mode",
       "normalizedTitle": "claude code auto mode",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 13
     },
     {
       "normalizedUrl": "https://anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
@@ -250,7 +250,28 @@
       "normalizedUrl": "https://anthropic.com/news/confidential-draft-s1-sec",
       "normalizedTitle": "confidential draft s1 sec",
       "firstSeenDate": "2026-06-02",
-      "lastSeenDate": "2026-06-02",
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 2
+    },
+    {
+      "normalizedUrl": "https://economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "normalizedTitle": "can the stockmarket swallow anthropic spacex and openai",
+      "firstSeenDate": "2026-06-03",
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://github.com/yujqiao/100cc",
+      "normalizedTitle": "show hn 100cc roll your own claude in 100 lines",
+      "firstSeenDate": "2026-06-03",
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/expanding-project-glasswing",
+      "normalizedTitle": "expanding project glasswing",
+      "firstSeenDate": "2026-06-03",
+      "lastSeenDate": "2026-06-03",
       "occurrences": 1
     }
   ]

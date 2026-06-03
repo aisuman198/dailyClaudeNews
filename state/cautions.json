@@ -120,6 +120,16 @@
       "examples": [
         "Less Coding記事のチケット説明確認箇所で発生"
       ]
+    },
+    {
+      "term": "chain-of-thought reasoning",
+      "rule": "「チェーン・オブ・ソート推論」と中黒区切りで表記する",
+      "firstSeenDate": "2026-06-03",
+      "lastSeenDate": "2026-06-03",
+      "occurrences": 1,
+      "examples": [
+        "「チェーンオブソートリーズニング」と区切りなしで記載されていたため修正"
+      ]
     }
   ]
 }
