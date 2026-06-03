@@ -44,6 +44,25 @@ async function ensureLabels(): Promise<void> {
   )
 }
 
+// errorCategory が動的に組み立てる `phase:<name>` ラベルが未定義だと
+// gh issue create が `could not add label` で落ちるので、使う前に都度確保する。
+const PHASE_LABEL_COLOR = 'C5DEF5' // 薄い水色（カテゴリと識別）
+async function ensureDynamicLabels(labels: string[]): Promise<void> {
+  const knownNames = new Set(ISSUE_LABELS_DEF.map((l) => l.name))
+  const phaseLabels = labels.filter((l) => l.startsWith('phase:') && !knownNames.has(l))
+  if (phaseLabels.length === 0) return
+  await Promise.all(
+    phaseLabels.map((name) =>
+      ensureLabelExists(
+        config.errorIssueRepo,
+        name,
+        PHASE_LABEL_COLOR,
+        `フェーズ: ${name.replace(/^phase:/, '')}`,
+      ),
+    ),
+  )
+}
+
 function readRecentLog(): string | null {
   try {
     // require dynamic so tests don't have to mock the fs path
@@ -127,9 +146,10 @@ async function postOrUpdateIssue(
     return { action: 'skipped', reason: 'errorIssueRepo が未設定' }
   }
 
-  // ラベル整備は失敗しても致命ではない
+  // ラベル整備は失敗しても致命ではない。
+  // 静的な category:* ラベル + 動的な phase:* ラベルを並行で確保する。
   try {
-    await ensureLabels()
+    await Promise.all([ensureLabels(), ensureDynamicLabels(cat.labels)])
   } catch (err) {
     console.error(redact(`[notifier] ensureLabels 失敗（続行）: ${(err as Error).message}`))
   }
