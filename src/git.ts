@@ -19,7 +19,28 @@ function git(args: string[], timeoutMs = 30_000): Promise<string> {
   })
 }
 
+// 想定外のブランチで自動ジョブが走ると、生成物 (docs/daily/*.md) が
+// feature ブランチに乗ったまま `git push origin main` が no-op で成功して
+// 「push 完了」とログだけ出る無音事故が起きうる (2026-06-05 に発生)。
+// commit する前にカレントブランチを検査し、main 以外なら例外で早期失敗させる。
+// 失敗時は notifier が issue を起票するため、翌朝までに必ず気付ける。
+export const EXPECTED_BRANCH = 'main'
+
+async function assertOnExpectedBranch(): Promise<void> {
+  const current = (await git(['rev-parse', '--abbrev-ref', 'HEAD'])).trim()
+  if (current !== EXPECTED_BRANCH) {
+    throw new Error(
+      `commitAndPush: 期待するブランチは '${EXPECTED_BRANCH}' ですが ` +
+        `'${current}' で実行されています。commit と push を中断しました。` +
+        `手動で 'git checkout ${EXPECTED_BRANCH}' に戻してから再実行してください。`,
+    )
+  }
+}
+
 export async function commitAndPush(paths: string[], message: string): Promise<void> {
+  // ブランチガード: 想定外ブランチでの誤 commit を防ぐ
+  await assertOnExpectedBranch()
+
   for (const p of paths) {
     await git(['add', p])
   }
