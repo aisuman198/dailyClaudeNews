@@ -1,6 +1,6 @@
 import type { Phase } from './types.js'
 
-export type ErrorCategory = 'timeout' | 'fetch' | 'article-fetch' | 'git' | 'rate-limit' | 'unknown'
+export type ErrorCategory = 'timeout' | 'fetch' | 'article-fetch' | 'git' | 'rate-limit' | 'verify-deploy' | 'unknown'
 
 export type Categorized = {
   category: ErrorCategory
@@ -23,6 +23,16 @@ export function categorize(error: Error, phase: Phase): Categorized {
         subkey: 'timeout',
         title: `[dailyClaudeNews] 記事取得タイムアウト`,
         labels: ['dailyClaudeNews', 'category:article-fetch', 'phase:enrich-bodies'],
+      }
+    }
+    // verify-deploy のタイムアウトは「Pages が時間内に公開されなかった」事象。
+    // Claude CLI 系の timeout と原因が全く別なので verify-deploy バケットに集約する。
+    if (phase === 'verify-deploy') {
+      return {
+        category: 'verify-deploy',
+        subkey: 'timeout',
+        title: `[dailyClaudeNews] verify-deploy 失敗 (GitHub Pages 公開未確認)`,
+        labels: ['dailyClaudeNews', 'category:verify-deploy', 'phase:verify-deploy'],
       }
     }
     // それ以外のタイムアウト（summarize / review / fetch / git 等）はフェーズで集約
@@ -67,6 +77,15 @@ export function categorize(error: Error, phase: Phase): Categorized {
       subkey: 'push',
       title: `[dailyClaudeNews] git push 失敗`,
       labels: ['dailyClaudeNews', 'category:git', `phase:${phase}`],
+    }
+  }
+
+  if (phase === 'verify-deploy') {
+    return {
+      category: 'verify-deploy',
+      subkey: 'pages-not-visible',
+      title: `[dailyClaudeNews] verify-deploy 失敗 (GitHub Pages 公開未確認)`,
+      labels: ['dailyClaudeNews', 'category:verify-deploy', `phase:${phase}`],
     }
   }
 

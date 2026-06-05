@@ -55,6 +55,17 @@ describe('categorize', () => {
     expect(c.title).toBe('[dailyClaudeNews] git push 失敗')
   })
 
+  it('classifies verify-deploy phase failures with stable title', () => {
+    const c = categorize(
+      new Error('verify-deploy: https://example.test/daily/2026-06-06.html がタイムアウト...'),
+      'verify-deploy',
+    )
+    expect(c.category).toBe('verify-deploy')
+    expect(c.title).toBe('[dailyClaudeNews] verify-deploy 失敗 (GitHub Pages 公開未確認)')
+    expect(c.labels).toContain('category:verify-deploy')
+    expect(c.labels).toContain('phase:verify-deploy')
+  })
+
   it('falls back to unknown for other errors', () => {
     const c = categorize(new Error('something weird'), 'write')
     expect(c.category).toBe('unknown')

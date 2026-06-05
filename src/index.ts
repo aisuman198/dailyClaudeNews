@@ -3,6 +3,7 @@ import { loadCautions, persistCautions } from './cautionStore.js'
 import { config } from './config.js'
 import { dedupe } from './deduper.js'
 import { fetchAll } from './fetcher.js'
+import { verifyDeployment } from './deploymentVerifier.js'
 import { commitAndPush } from './git.js'
 import { pickHeroImages } from './heroMatcher.js'
 import { loadSeen, persist, split } from './historyFilter.js'
@@ -129,6 +130,17 @@ async function main(): Promise<void> {
         `chore(daily): ${dateStr} のまとめ (新規 ${freshEnriched.length} / 継続 ${recurringEnriched.length})`,
       )
       log(phase.current, 'push 完了')
+    }
+
+    phase.current = 'verify-deploy'
+    if (config.skipGitPush) {
+      log(phase.current, 'SKIP_GIT_PUSH=true のため公開確認もスキップ')
+    } else if (!config.verifyDeploymentEnabled) {
+      log(phase.current, 'VERIFY_DEPLOYMENT_ENABLED=false のためスキップ')
+    } else {
+      log(phase.current, `${config.pagesBaseUrl}/daily/${dateStr}.html の公開を確認`)
+      await verifyDeployment(dateStr)
+      log(phase.current, 'OK')
     }
 
     console.log(redact(`完了: ${filePath} (model: ${modelUsed})`))

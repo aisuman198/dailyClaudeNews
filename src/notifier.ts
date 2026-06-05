@@ -33,6 +33,7 @@ const ISSUE_LABELS_DEF = [
   { name: 'category:fetch', color: 'D93F0B', description: 'ニュース取得失敗' },
   { name: 'category:article-fetch', color: 'FBCA04', description: '記事本文の取得失敗' },
   { name: 'category:git', color: 'D93F0B', description: 'git 操作失敗' },
+  { name: 'category:verify-deploy', color: 'D93F0B', description: 'GitHub Pages の公開確認失敗' },
   { name: 'category:unknown', color: 'CCCCCC', description: '分類不能' },
 ]
 

@@ -42,6 +42,11 @@ cp .env.example .env
 | `SKIP_GIT_PUSH` | true なら git commit/push をスキップ（dry-run 用） |
 | `SAVE_DRAFT` | true なら summarize 直後の draft を `state/draft-YYYY-MM-DD.md` に保存（debug 用、git 管理対象外） |
 | `E2E_MAX_ARTICLES` | 1以上なら新規＋継続の合計件数をその数に絞る（E2E 動作確認用） |
+| `VERIFY_DEPLOYMENT_ENABLED` | push 後に GitHub Pages 上で本日記事の公開を確認するか（デフォルト `true`） |
+| `PAGES_BASE_URL` | 公開確認に使う Pages の URL（デフォルト `https://aisuman198.github.io/dailyClaudeNews`） |
+| `VERIFY_DEPLOYMENT_INITIAL_DELAY_MS` | push 後の初期待機（デフォルト 60_000） |
+| `VERIFY_DEPLOYMENT_INTERVAL_MS` | ポーリング間隔（デフォルト 30_000） |
+| `VERIFY_DEPLOYMENT_TIMEOUT_MS` | 公開確認の最大待機時間（デフォルト 600_000 = 10 分） |
 
 ### 4. 手動で動作確認
 
