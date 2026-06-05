@@ -12,15 +12,15 @@
       "normalizedUrl": "https://anthropic.com/news/series-h",
       "normalizedTitle": "series h",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 14
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 15
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-opus-4-8",
       "normalizedTitle": "claude opus 4 8",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 14
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 15
     },
     {
       "normalizedUrl": "https://anthropic.com/news/milan-office-opening",
@@ -33,8 +33,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 14
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 15
     },
     {
       "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
@@ -250,8 +250,8 @@
       "normalizedUrl": "https://anthropic.com/news/confidential-draft-s1-sec",
       "normalizedTitle": "confidential draft s1 sec",
       "firstSeenDate": "2026-06-02",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 3
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 4
     },
     {
       "normalizedUrl": "https://economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
@@ -271,21 +271,56 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-project-glasswing",
       "normalizedTitle": "expanding project glasswing",
       "firstSeenDate": "2026-06-03",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 2
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 3
     },
     {
       "normalizedUrl": "https://anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
       "normalizedTitle": "ai enabled cyber threats mitre attack",
       "firstSeenDate": "2026-06-04",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 1
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://anthropic.com/news/services-track-partner-hub",
       "normalizedTitle": "services track partner hub",
       "firstSeenDate": "2026-06-04",
-      "lastSeenDate": "2026-06-04",
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 2
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/institute/recursive-self-improvement",
+      "normalizedTitle": "when ai builds itself our progress toward recursive self improvement",
+      "firstSeenDate": "2026-06-05",
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://github.com/anthropics/defending-code-reference-harness",
+      "normalizedTitle": "anthropic s open source framework for ai powered vulnerability discovery",
+      "firstSeenDate": "2026-06-05",
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
+      "normalizedTitle": "claude code and codex can have real time conversation via git",
+      "firstSeenDate": "2026-06-05",
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://boxes.dev/",
+      "normalizedTitle": "show hn boxes dev ditch localhost run claude code and codex in the cloud",
+      "firstSeenDate": "2026-06-05",
+      "lastSeenDate": "2026-06-05",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815",
+      "normalizedTitle": "nsa using anthropic s mythos for cyber attacks",
+      "firstSeenDate": "2026-06-05",
+      "lastSeenDate": "2026-06-05",
       "occurrences": 1
     }
   ]
