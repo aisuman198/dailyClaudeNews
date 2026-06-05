@@ -46,3 +46,4 @@ export type Phase =
   | 'persist-history'
   | 'persist-cautions'
   | 'git'
+  | 'verify-deploy'

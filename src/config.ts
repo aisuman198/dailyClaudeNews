@@ -49,6 +49,16 @@ export const config = {
   skipGitPush: env('SKIP_GIT_PUSH', 'false').toLowerCase() === 'true',
   saveDraft: env('SAVE_DRAFT', 'false').toLowerCase() === 'true',
   e2eMaxArticles: envNum('E2E_MAX_ARTICLES', 0),
+
+  // verify-deploy フェーズ: push 後に GitHub Pages 上で記事が公開されたか確認
+  pagesBaseUrl: env('PAGES_BASE_URL', 'https://aisuman198.github.io/dailyClaudeNews'),
+  verifyDeploymentEnabled: env('VERIFY_DEPLOYMENT_ENABLED', 'true').toLowerCase() === 'true',
+  // Jekyll の最初のビルド完了まで待つ初期待機 (ms)
+  verifyDeploymentInitialDelayMs: envNum('VERIFY_DEPLOYMENT_INITIAL_DELAY_MS', 60_000),
+  // ポーリング間隔 (ms)
+  verifyDeploymentIntervalMs: envNum('VERIFY_DEPLOYMENT_INTERVAL_MS', 30_000),
+  // 最大待機時間 (ms) — これを超えても出ない場合は失敗扱い
+  verifyDeploymentTimeoutMs: envNum('VERIFY_DEPLOYMENT_TIMEOUT_MS', 600_000),
 } as const
 
 export const resolvePath = (relativeOrAbsolute: string): string =>
