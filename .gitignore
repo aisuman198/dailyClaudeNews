@@ -29,3 +29,9 @@ _site/
 # Debug: summarize 直後のドラフト（SAVE_DRAFT=true 時のみ生成）
 state/draft-*.md
 
+# launchd: テンプレ (.plist.template) のみ版管理対象。
+# 生成済 .plist には各人の絶対パスが含まれるため非対象。
+# scripts/install-launchd.sh は ~/Library/LaunchAgents/ に直接書き出すが、
+# 念のため repo 内に派生 .plist が落ちた場合も追跡しないようにする。
+launchd/*.plist
+

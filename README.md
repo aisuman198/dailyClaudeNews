@@ -59,24 +59,18 @@ SKIP_GIT_PUSH=true SAVE_DRAFT=true E2E_MAX_ARTICLES=2 node dist/index.js
 
 ### 5. launchd への登録
 
-`launchd/` 配下の plist を `~/Library/LaunchAgents/` にシンボリックリンクで配置し、`launchctl bootstrap` で有効化する。plist 内の `Label` / `ProgramArguments` / 各種パスは自身の環境に合わせて事前に書き換えること。
+`launchd/*.plist.template` のプレースホルダ (`{{HOME}}` / `{{PROJECT_ROOT}}`) を実環境の絶対パスに置換して `~/Library/LaunchAgents/` に配置し、`launchctl bootstrap` するインストーラを用意してある。テンプレ方式により個人パスを版管理に含めない。
 
 ```bash
-# シンボリックリンクを LaunchAgents に張る + bootstrap
-for plist in launchd/*.plist; do
-  ln -sf "$(pwd)/$plist" "$HOME/Library/LaunchAgents/$(basename "$plist")"
-  launchctl bootstrap "gui/$(id -u)" "$HOME/Library/LaunchAgents/$(basename "$plist")"
-done
+./scripts/install-launchd.sh
 
 # 状態確認
 launchctl list | grep -i dailyclaudenews
 ```
 
-アンロード:
+アンインストール:
 ```bash
-for plist in "$HOME"/Library/LaunchAgents/*dailyClaudeNews*.plist; do
-  launchctl bootout "gui/$(id -u)/$(basename "$plist" .plist)"
-done
+./scripts/uninstall-launchd.sh
 ```
 
 ## ログ

@@ -3,10 +3,14 @@
 # - 当日作成された GitHub Issue を点検し
 # - 過去と同一パターンでない novel な issue があれば
 # - macOS 通知 + draft PR を自動作成する
+#
+# PROJECT_ROOT / HOME はスクリプトの実体位置と launchd 環境から導出する（個人パス非依存）
 
 set -u
 
-PROJECT_ROOT="/Users/shuichi/git/aisuman198/dailyClaudeNews"
+: "${HOME:?HOME が未設定です。launchd が gui ドメインで起動していることを確認してください}"
+
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LOG_DIR="${HOME}/Library/Logs/dailyClaudeNews"
 mkdir -p "${LOG_DIR}"
 
@@ -25,10 +29,9 @@ if [ -f "${PROJECT_ROOT}/.env" ]; then
   set +a
 fi
 
-export PATH="/Users/shuichi/.nodenv/shims:/Users/shuichi/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="${HOME}/.nodenv/shims:${HOME}/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export LANG="ja_JP.UTF-8"
 export LC_ALL="ja_JP.UTF-8"
-export HOME="/Users/shuichi"
 
 {
   echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === retrospect 起動 ==="
