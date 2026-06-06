@@ -33,8 +33,10 @@
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 15
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 16,
+      "bodyHash": "43a6b8b20067052d",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
@@ -328,7 +330,9 @@
       "normalizedTitle": "did claude increase bugs in rsync",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "2ce24025b21587de",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://blog.plover.com/2026/03/09",
@@ -342,98 +346,135 @@
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "dd0e2c807824b29b",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/measuring-agent-autonomy",
       "normalizedTitle": "measuring agent autonomy",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "98b940cd75e10489",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/values-wild",
       "normalizedTitle": "values wild",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "b23f89fbc5691420",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
       "normalizedTitle": "how ai is transforming work at anthropic",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "01b3ac29abc0a20e",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/assistant-axis",
       "normalizedTitle": "assistant axis",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "e85dea24995a2ca9",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/introspection",
       "normalizedTitle": "introspection",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "7f1c336763ebc7c0",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/estimating-productivity-gains",
       "normalizedTitle": "estimating productivity gains",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "0cfc40d3c31bd016",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/claude-personal-guidance",
       "normalizedTitle": "claude personal guidance",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "1de1a8fc2857c596",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/emergent-misalignment-reward-hacking",
       "normalizedTitle": "emergent misalignment reward hacking",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "9900cdbd3e814e2b",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
       "normalizedTitle": "emotion concepts function",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "bee302614b94cfed",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/next-generation-constitutional-classifiers",
       "normalizedTitle": "next generation constitutional classifiers",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "5107f5836867510b",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/automated-alignment-researchers",
       "normalizedTitle": "automated alignment researchers",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "56e18731b967f4b6",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/persona-selection-model",
       "normalizedTitle": "persona selection model",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "69d3103920b13766",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/natural-language-autoencoders",
       "normalizedTitle": "natural language autoencoders",
       "firstSeenDate": "2026-06-06",
       "lastSeenDate": "2026-06-06",
-      "occurrences": 1
+      "occurrences": 2,
+      "bodyHash": "981560de4ef5a91a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms",
+      "normalizedTitle": "s p 500 rejects spacex also blocking entry for openai and anthropic",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "bodyHash": "6e1ccb0291d158b3",
+      "bodyLength": 3500
     }
   ]
 }

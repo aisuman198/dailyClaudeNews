@@ -190,6 +190,46 @@
       "examples": [
         "ペルソナ選択モデル記事の括弧内表記で発生"
       ]
+    },
+    {
+      "term": "位置する（文字化け）",
+      "rule": "「位置す」直後の U+FFFD ×1 を「る」と復元する",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "Estimating Productivity Gains 節「位置す�」→「位置する」"
+      ]
+    },
+    {
+      "term": "How AI Is Transforming Work At Anthropic",
+      "rule": "記事リンクテキスト中の「Ai」は「AI」と大文字表記する",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "元テキストのリンク表示が「How Ai Is...」になっていたため修正"
+      ]
+    },
+    {
+      "term": "claude.ai（サービス名の大文字）",
+      "rule": "サービス名は「claude.ai」と小文字で表記し「Claude.ai」としない",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "Values Wild 節で「Claude.ai Free」と大文字 C になっていたため修正"
+      ]
+    },
+    {
+      "term": "Values Wild 訳の冗長表現",
+      "rule": "「実世界における価値観の発見と分析」の「の発見と分析」はタイトル部分から省き、サブタイトル側にまとめる",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "訳行で「発見と分析」が前後両方に重複していたため前半を「実世界における価値観」に短縮"
+      ]
     }
   ]
 }
