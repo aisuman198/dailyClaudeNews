@@ -99,6 +99,17 @@ cron は毎回起動時に worktree で:
 
 を実行する。worktree が存在しなければ `scripts/setup-cron-worktree.sh` が自動で作成する。`.env` は開発用 repo のものを worktree に symlink するため、秘密値は複製されない。push は `git push origin HEAD:main` で現在ブランチを必ず origin/main に向けるため、ローカル main ref が古くても silent miss しない。
 
+#### マージ済みブランチの自動 cleanup
+
+`scripts/cleanup-merged.sh` を launchd で 10 分間隔に走らせ、自分が author の merged PR の head ブランチがローカルに残っていれば自動削除する。`origin/main` に取り込み済 (`git merge-base --is-ancestor` 真) のものだけ削除するので、未マージ作業を間違って消すことはない。現在 checkout 中のブランチも対象外。同時に `git worktree prune` と `git remote prune origin` で stale な参照も掃除する。
+
+```bash
+# 手動で動作確認 (削除予定だけ表示)
+./scripts/cleanup-merged.sh --dry-run
+```
+
+`install-launchd.sh` が `launchd/*.plist.template` を一括で拾うため、追加のインストール手順は不要。ログは `~/Library/Logs/dailyClaudeNews/launchd.cleanup.{out,err}.log`。
+
 ## ログ
 
 | ログ | パス |
@@ -109,6 +120,7 @@ cron は毎回起動時に worktree で:
 | Retrospect 標準エラー | `~/Library/Logs/dailyClaudeNews/retrospect.error.log` |
 | launchd（メイン） | `~/Library/Logs/dailyClaudeNews/launchd.{out,err}.log` |
 | launchd（retrospect） | `~/Library/Logs/dailyClaudeNews/launchd.retrospect.{out,err}.log` |
+| launchd（cleanup） | `~/Library/Logs/dailyClaudeNews/launchd.cleanup.{out,err}.log` |
 
 ## トラブルシュート
 

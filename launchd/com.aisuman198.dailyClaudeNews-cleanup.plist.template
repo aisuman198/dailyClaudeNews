@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  このファイルはテンプレートです。プレースホルダ {{HOME}} / {{PROJECT_ROOT}} は
+  scripts/install-launchd.sh が実行時に各環境の絶対パスへ置換し、
+  ~/Library/LaunchAgents/ にレンダリング結果を配置します。
+
+  目的:
+  - GitHub 上で PR が merged になったタイミングに近い間隔で
+    scripts/cleanup-merged.sh を実行し、マージ済ローカルブランチを削除する。
+  - StartInterval=600 (10 分) は polling 頻度。Mac がスリープ中は実行されず、
+    起動直後にキャッチアップで 1 回走る (launchd の挙動)。
+  - 失敗してもログだけ残し、リトライしない (KeepAlive 無し)。
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.aisuman198.dailyClaudeNews-cleanup</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>{{PROJECT_ROOT}}/scripts/cleanup-merged.sh</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>600</integer>
+
+    <key>StandardOutPath</key>
+    <string>{{HOME}}/Library/Logs/dailyClaudeNews/launchd.cleanup.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>{{HOME}}/Library/Logs/dailyClaudeNews/launchd.cleanup.err.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>{{PROJECT_ROOT}}</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
