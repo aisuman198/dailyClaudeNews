@@ -12,6 +12,9 @@ export type NewsItem = {
   occurrences?: number
   bodyText?: string
   ogImage?: string
+  // 継続話題のうち、前回観測時から bodyText が変化した（追記/更新があった）ことを示すフラグ。
+  // summarizer はこれを参照して「更新あり」を強調できる。
+  bodyChanged?: boolean
 }
 
 export type SeenEntry = {
@@ -20,6 +23,11 @@ export type SeenEntry = {
   firstSeenDate: string
   lastSeenDate: string
   occurrences: number
+  // 本文 (bodyText) の SHA-256 prefix。前日との内容差分検出に使う。
+  // バージョン 1 で書かれた既存エントリは undefined のまま残る (後方互換)。
+  bodyHash?: string
+  // bodyText の文字数。ハッシュ衝突や微小ノイズの判定補助。
+  bodyLength?: number
 }
 
 export type SeenStore = {

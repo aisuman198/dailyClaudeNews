@@ -1,5 +1,5 @@
 #!/bin/bash
-# launchd から 10:00 JST に起動される retrospect ラッパー
+# launchd から 09:00 JST に起動される retrospect ラッパー
 # - 当日作成された GitHub Issue を点検し
 # - 過去と同一パターンでない novel な issue があれば
 # - macOS 通知 + draft PR を自動作成する
