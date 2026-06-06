@@ -65,7 +65,7 @@ SKIP_GIT_PUSH=true SAVE_DRAFT=true E2E_MAX_ARTICLES=2 node dist/index.js
 
 ### 5. launchd への登録
 
-`launchd/*.plist.template` のプレースホルダ (`{{HOME}}` / `{{PROJECT_ROOT}}`) を実環境の絶対パスに置換して `~/Library/LaunchAgents/` に配置し、`launchctl bootstrap` するインストーラを用意してある。テンプレ方式により個人パスを版管理に含めない。
+`launchd/*.plist.template` のプレースホルダ (`{{HOME}}` / `{{PROJECT_ROOT}}`) を実環境の絶対パスに置換して `~/Library/LaunchAgents/` に配置し、`launchctl bootstrap` するインストーラを用意してある。テンプレ方式により個人パスを版管理に含めない。同時に **cron 専用 git worktree** も自動的にセットアップされる。
 
 ```bash
 ./scripts/install-launchd.sh
@@ -74,10 +74,30 @@ SKIP_GIT_PUSH=true SAVE_DRAFT=true E2E_MAX_ARTICLES=2 node dist/index.js
 launchctl list | grep -i dailyclaudenews
 ```
 
-アンインストール:
+アンインストール (worktree は残す):
 ```bash
 ./scripts/uninstall-launchd.sh
+# cron 専用 worktree も含めて完全に消す場合:
+./scripts/uninstall-launchd.sh --purge-worktree
 ```
+
+#### cron 専用 worktree の仕組み
+
+開発用 working tree (`PROJECT_ROOT`) と cron が同じディレクトリを共有していると、開発作業中に main 以外のブランチに切り替えたまま忘れた状態で cron が走り、生成物が feature ブランチに乗ってしまう silent miss が発生しうる (実際に 2026-06-05 / 06 に観測)。これを構造的に防ぐため、cron は **専用の git worktree** で動く。
+
+```
+PROJECT_ROOT                                            # 開発用 (自由に branch / 編集 OK)
+~/Library/Application Support/dailyClaudeNews/worktree  # cron 専用 (ブランチ: cron-runner)
+```
+
+cron は毎回起動時に worktree で:
+
+1. `git fetch origin main`
+2. `git reset --hard origin/main` (開発側で何していようと完全クリーン)
+3. `npm ci && npm run build`
+4. `node dist/index.js`
+
+を実行する。worktree が存在しなければ `scripts/setup-cron-worktree.sh` が自動で作成する。`.env` は開発用 repo のものを worktree に symlink するため、秘密値は複製されない。push は `git push origin HEAD:main` で現在ブランチを必ず origin/main に向けるため、ローカル main ref が古くても silent miss しない。
 
 ## ログ
 

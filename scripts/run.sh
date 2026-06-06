@@ -1,38 +1,24 @@
 #!/bin/bash
 # launchd から起動されるラッパースクリプト
-# - プロジェクトディレクトリへ移動
-# - .env を読み込み
-# - PATH に node / claude / gh を追加
-# - node dist/index.js を実行し、ログを ~/Library/Logs/dailyClaudeNews/ に出力
 #
-# ハードコードしない方針:
-# - PROJECT_ROOT は本スクリプトの実体パスから導出
-# - HOME は launchd（gui ドメイン）が user account から渡してくれる前提
-#   念のため未設定なら起動失敗にする
+# 設計:
+#  - 開発側 working tree (PROJECT_ROOT) とは完全に分離した cron 専用 worktree で動く
+#  - 毎回 origin/main へ reset --hard してクリーン状態から開始する
+#    → 開発者が main 以外のブランチに切り替えたまま忘れていても影響ゼロ
+#  - npm ci で依存を揃え、npm run build で dist/ を最新化
+#  - .env は開発側 repo のものを worktree に symlink (秘密値を複製しない)
 
 set -u
 
 : "${HOME:?HOME が未設定です。launchd が gui ドメインで起動していることを確認してください}"
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+WORKTREE_PATH="${HOME}/Library/Application Support/dailyClaudeNews/worktree"
 LOG_DIR="${HOME}/Library/Logs/dailyClaudeNews"
 mkdir -p "${LOG_DIR}"
 
 LOG_FILE="${LOG_DIR}/run.log"
 ERR_FILE="${LOG_DIR}/run.error.log"
-
-cd "${PROJECT_ROOT}" || {
-  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] cd 失敗: ${PROJECT_ROOT}" >> "${ERR_FILE}"
-  exit 1
-}
-
-# .env があれば読み込む（存在しなくてもエラーにしない）
-if [ -f "${PROJECT_ROOT}/.env" ]; then
-  set -a
-  # shellcheck disable=SC1091
-  . "${PROJECT_ROOT}/.env"
-  set +a
-fi
 
 # launchd は最小限の PATH しか持たないので明示する。
 # nodenv / pyenv / homebrew のうち存在するものだけが利いて、無いパスは PATH 検索で
@@ -41,8 +27,47 @@ export PATH="${HOME}/.nodenv/shims:${HOME}/.local/bin:/usr/local/bin:/opt/homebr
 export LANG="ja_JP.UTF-8"
 export LC_ALL="ja_JP.UTF-8"
 
+# worktree が無ければ自動で作る (初回 / 何らかの理由で消えた場合)
+if [ ! -e "${WORKTREE_PATH}/.git" ]; then
+  {
+    echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] worktree 未作成 → setup-cron-worktree.sh を実行"
+    "${PROJECT_ROOT}/scripts/setup-cron-worktree.sh"
+  } >> "${LOG_FILE}" 2>> "${ERR_FILE}" || {
+    echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] setup-cron-worktree.sh 失敗" >> "${ERR_FILE}"
+    exit 1
+  }
+fi
+
+cd "${WORKTREE_PATH}" || {
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] cd 失敗: ${WORKTREE_PATH}" >> "${ERR_FILE}"
+  exit 1
+}
+
+# 開発側で何していようと毎回 origin/main の状態から始める
 {
-  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === dailyClaudeNews 起動 ==="
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === pre-run: fetch + reset to origin/main ==="
+  git fetch origin main
+  git reset --hard origin/main
+  git clean -fd dist/ 2>/dev/null || true
+  rm -f state/draft-*.md 2>/dev/null || true
+  npm ci --silent --no-audit --no-fund
+  npm run build
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === pre-run 完了 (HEAD: $(git rev-parse --short HEAD)) ==="
+} >> "${LOG_FILE}" 2>> "${ERR_FILE}" || {
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === pre-run 失敗 ===" >> "${ERR_FILE}"
+  exit 1
+}
+
+# .env は setup-cron-worktree.sh が PROJECT_ROOT/.env から symlink している
+if [ -f "${WORKTREE_PATH}/.env" ]; then
+  set -a
+  # shellcheck disable=SC1091
+  . "${WORKTREE_PATH}/.env"
+  set +a
+fi
+
+{
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === dailyClaudeNews 起動 (worktree: ${WORKTREE_PATH}) ==="
   node dist/index.js
   EXIT_CODE=$?
   echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] === 終了コード: ${EXIT_CODE} ==="

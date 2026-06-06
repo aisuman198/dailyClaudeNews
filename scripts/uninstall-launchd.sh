@@ -31,4 +31,17 @@ for plist in "${gen[@]}"; do
   echo "[uninstall-launchd] 削除: ${plist}"
 done
 
+# cron 専用 worktree を削除するかは破壊的なので明示オプションで
+WORKTREE_PATH="${HOME}/Library/Application Support/dailyClaudeNews/worktree"
+if [ "${1:-}" = "--purge-worktree" ] && [ -e "${WORKTREE_PATH}/.git" ]; then
+  echo "[uninstall-launchd] --purge-worktree: cron worktree も削除します"
+  git -C "${PROJECT_ROOT}" worktree remove --force "${WORKTREE_PATH}" 2>/dev/null || rm -rf "${WORKTREE_PATH}"
+  # cron-runner ブランチも削除 (origin にはそもそも push していない)
+  git -C "${PROJECT_ROOT}" branch -D cron-runner 2>/dev/null || true
+  echo "[uninstall-launchd] worktree 削除: ${WORKTREE_PATH}"
+fi
+
 echo "[uninstall-launchd] 完了"
+if [ "${1:-}" != "--purge-worktree" ]; then
+  echo "  (cron 専用 worktree '${WORKTREE_PATH}' は残しています。完全に消すには --purge-worktree)"
+fi
