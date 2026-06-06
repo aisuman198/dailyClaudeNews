@@ -160,6 +160,36 @@
       "examples": [
         "Glasswing 記事の「発見から���示」を「発見から開示」に修正"
       ]
+    },
+    {
+      "term": "コープレット (couplet)",
+      "rule": "couplet の音訳は「コープレット」",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "NLA 記事で「コーペット」と誤記されていた"
+      ]
+    },
+    {
+      "term": "アクティベーションキャッピング (activation capping)",
+      "rule": "「キャッピング」の「ピ」が文字化けしやすい",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "アシスタント軸記事で「キャッ??ング」と文字化け"
+      ]
+    },
+    {
+      "term": "プリトレーニング (pretraining)",
+      "rule": "「プリ???レーニング」パターンの文字化けに注意",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1,
+      "examples": [
+        "ペルソナ選択モデル記事の括弧内表記で発生"
+      ]
     }
   ]
 }

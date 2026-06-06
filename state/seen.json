@@ -61,8 +61,8 @@
       "normalizedUrl": "https://anthropic.com/news/chris-olah-pope-leo-encyclical",
       "normalizedTitle": "chris olah pope leo encyclical",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 11
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 12
     },
     {
       "normalizedUrl": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
@@ -292,15 +292,15 @@
       "normalizedUrl": "https://anthropic.com/institute/recursive-self-improvement",
       "normalizedTitle": "when ai builds itself our progress toward recursive self improvement",
       "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 1
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://github.com/anthropics/defending-code-reference-harness",
       "normalizedTitle": "anthropic s open source framework for ai powered vulnerability discovery",
       "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 1
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
@@ -321,6 +321,118 @@
       "normalizedTitle": "nsa using anthropic s mythos for cyber attacks",
       "firstSeenDate": "2026-06-05",
       "lastSeenDate": "2026-06-05",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://alexispurslane.github.io/rsync-analysis",
+      "normalizedTitle": "did claude increase bugs in rsync",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://blog.plover.com/2026/03/09",
+      "normalizedTitle": "programmers will document for claude but not for each other",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
+      "normalizedTitle": "making claude a chemist",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/measuring-agent-autonomy",
+      "normalizedTitle": "measuring agent autonomy",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/values-wild",
+      "normalizedTitle": "values wild",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+      "normalizedTitle": "how ai is transforming work at anthropic",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/assistant-axis",
+      "normalizedTitle": "assistant axis",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/introspection",
+      "normalizedTitle": "introspection",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/estimating-productivity-gains",
+      "normalizedTitle": "estimating productivity gains",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-personal-guidance",
+      "normalizedTitle": "claude personal guidance",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/emergent-misalignment-reward-hacking",
+      "normalizedTitle": "emergent misalignment reward hacking",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
+      "normalizedTitle": "emotion concepts function",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/next-generation-constitutional-classifiers",
+      "normalizedTitle": "next generation constitutional classifiers",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/automated-alignment-researchers",
+      "normalizedTitle": "automated alignment researchers",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/persona-selection-model",
+      "normalizedTitle": "persona selection model",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/natural-language-autoencoders",
+      "normalizedTitle": "natural language autoencoders",
+      "firstSeenDate": "2026-06-06",
+      "lastSeenDate": "2026-06-06",
       "occurrences": 1
     }
   ]
