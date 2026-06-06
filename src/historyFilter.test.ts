@@ -99,4 +99,90 @@ describe('historyFilter', () => {
     expect(saved.entries).toHaveLength(1)
     expect(saved.entries[0]!.occurrences).toBe(2)
   })
+
+  it('persist stores bodyHash and bodyLength when bodyText is present', async () => {
+    const { persist, hashBody } = await importFresh()
+    const body = 'これは本文の長いテキストです。'.repeat(30)
+    await persist([item({ url: 'https://a.test/x', title: 'with body', bodyText: body })])
+    const saved = JSON.parse(await fs.readFile(statePath, 'utf8')) as SeenStore
+    expect(saved.entries[0]!.bodyHash).toBe(hashBody(body))
+    expect(saved.entries[0]!.bodyLength).toBe(body.length)
+  })
+
+  it('persist retains prior bodyHash on a day when body fetch fails', async () => {
+    const { persist, hashBody } = await importFresh()
+    const body = 'first body text content abcdef'.repeat(20)
+    await persist([item({ url: 'https://a.test/x', title: 't', bodyText: body })])
+    // 翌日の取得失敗を模擬: bodyText 無しで persist
+    await persist([item({ url: 'https://a.test/x', title: 't' })])
+    const saved = JSON.parse(await fs.readFile(statePath, 'utf8')) as SeenStore
+    expect(saved.entries[0]!.bodyHash).toBe(hashBody(body))
+    expect(saved.entries[0]!.occurrences).toBe(2)
+  })
+
+  it('dropUnchangedRecurring removes items whose body hash matches stored hash', async () => {
+    const { persist, loadSeen, dropUnchangedRecurring } = await importFresh()
+    const body = 'unchanged body content '.repeat(30)
+    await persist([item({ url: 'https://a.test/same', title: 'same', bodyText: body })])
+    const seen = await loadSeen()
+    const { kept, dropped } = dropUnchangedRecurring(
+      [item({ url: 'https://a.test/same', title: 'same', bodyText: body })],
+      seen,
+    )
+    expect(kept).toHaveLength(0)
+    expect(dropped).toEqual(['https://a.test/same'])
+  })
+
+  it('dropUnchangedRecurring keeps items whose body hash changed and marks bodyChanged', async () => {
+    const { persist, loadSeen, dropUnchangedRecurring } = await importFresh()
+    const oldBody = 'first version of the article body '.repeat(30)
+    const newBody = oldBody + ' NEW PARAGRAPH WITH ADDITIONAL FACTS '.repeat(10)
+    await persist([item({ url: 'https://a.test/x', title: 't', bodyText: oldBody })])
+    const seen = await loadSeen()
+    const { kept, dropped } = dropUnchangedRecurring(
+      [item({ url: 'https://a.test/x', title: 't', bodyText: newBody })],
+      seen,
+    )
+    expect(dropped).toHaveLength(0)
+    expect(kept).toHaveLength(1)
+    expect(kept[0]!.bodyChanged).toBe(true)
+  })
+
+  it('dropUnchangedRecurring keeps items when seen has no bodyHash (legacy entries)', async () => {
+    const { loadSeen, dropUnchangedRecurring } = await importFresh()
+    // 旧形式 seen.json を直書き (bodyHash 無し)
+    const store: SeenStore = {
+      version: 1,
+      entries: [
+        {
+          normalizedUrl: 'https://a.test/legacy',
+          normalizedTitle: 'legacy',
+          firstSeenDate: '2026-06-01',
+          lastSeenDate: '2026-06-01',
+          occurrences: 1,
+        },
+      ],
+    }
+    await fs.writeFile(statePath, JSON.stringify(store), 'utf8')
+    const seen = await loadSeen()
+    const { kept, dropped } = dropUnchangedRecurring(
+      [item({ url: 'https://a.test/legacy', title: 'legacy', bodyText: 'whatever body' })],
+      seen,
+    )
+    expect(dropped).toHaveLength(0)
+    expect(kept).toHaveLength(1)
+    expect(kept[0]!.bodyChanged).toBeUndefined()
+  })
+
+  it('dropUnchangedRecurring keeps items without bodyText (fetch failed)', async () => {
+    const { persist, loadSeen, dropUnchangedRecurring } = await importFresh()
+    await persist([item({ url: 'https://a.test/x', title: 't', bodyText: 'body text content'.repeat(10) })])
+    const seen = await loadSeen()
+    const { kept, dropped } = dropUnchangedRecurring(
+      [item({ url: 'https://a.test/x', title: 't' })], // bodyText 無し
+      seen,
+    )
+    expect(dropped).toHaveLength(0)
+    expect(kept).toHaveLength(1)
+  })
 })

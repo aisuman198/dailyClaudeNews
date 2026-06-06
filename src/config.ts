@@ -41,6 +41,9 @@ export const config = {
   dedupTitleSimilarity: envNum('DEDUP_TITLE_SIMILARITY', 0.85),
   historyRetentionDays: envNum('HISTORY_RETENTION_DAYS', 14),
   historyStatePath: env('HISTORY_STATE_PATH', 'state/seen.json'),
+  // 継続話題のうち、bodyText のハッシュが前回観測時と同一なら出力対象から除外する。
+  // 新情報（本文の更新・追記）があった場合のみ継続話題として残す。
+  recurringDropUnchanged: env('RECURRING_DROP_UNCHANGED', 'true').toLowerCase() === 'true',
   cautionsStatePath: env('CAUTIONS_STATE_PATH', 'state/cautions.json'),
 
   errorIssueRepo: env('ERROR_ISSUE_REPO', 'aisuman198/dailyClaudeNews'),

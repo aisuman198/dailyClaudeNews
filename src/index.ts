@@ -1,12 +1,12 @@
 import { enrichWithBodies } from './articleFetcher.js'
 import { loadCautions, persistCautions } from './cautionStore.js'
 import { config } from './config.js'
-import { dedupe } from './deduper.js'
+import { dedupe, normalizeUrl } from './deduper.js'
 import { fetchAll } from './fetcher.js'
 import { verifyDeployment } from './deploymentVerifier.js'
 import { commitAndPush } from './git.js'
 import { pickHeroImages } from './heroMatcher.js'
-import { loadSeen, persist, split } from './historyFilter.js'
+import { dropUnchangedRecurring, loadSeen, persist, split } from './historyFilter.js'
 import { notifyFailure } from './notifier.js'
 import { prioritizeAndPad } from './priorityFilter.js'
 import { redact } from './redact.js'
@@ -60,13 +60,26 @@ async function main(): Promise<void> {
     ])
     // 本文取得に失敗した記事はリトライ後も bodyText 未設定。これらは表示しない (記事カードを出さない)。
     const freshEnriched = freshAll.filter((it) => !!it.bodyText)
-    const recurringEnriched = recurringAll.filter((it) => !!it.bodyText)
+    let recurringEnriched = recurringAll.filter((it) => !!it.bodyText)
     const droppedFresh = freshAll.length - freshEnriched.length
     const droppedRecurring = recurringAll.length - recurringEnriched.length
     if (droppedFresh + droppedRecurring > 0) {
       log(
         phase.current,
         `本文取得失敗で除外: 新規 ${droppedFresh} / 継続 ${droppedRecurring} 件 (残 新規 ${freshEnriched.length} / 継続 ${recurringEnriched.length})`,
+      )
+    }
+
+    // 継続話題のうち、bodyText が前回観測時と同一のもの (新情報なし) を除外する。
+    // RECURRING_DROP_UNCHANGED=false で無効化可能。
+    if (config.recurringDropUnchanged) {
+      const beforeCount = recurringEnriched.length
+      const { kept, dropped } = dropUnchangedRecurring(recurringEnriched, seen)
+      recurringEnriched = kept
+      const changedCount = recurringEnriched.filter((it) => it.bodyChanged).length
+      log(
+        phase.current,
+        `継続話題: 本文無変化のため ${dropped.length} 件除外 (残 ${recurringEnriched.length}/${beforeCount} 件、うち本文更新 ${changedCount} 件)`,
       )
     }
 
@@ -113,7 +126,18 @@ async function main(): Promise<void> {
     log(phase.current, `書き込み: ${filePath}`)
 
     phase.current = 'persist-history'
-    await persist(items)
+    // items は prioritize 直後の配列で bodyText 未取得。enrich で得た本文を URL で
+    // 突き合わせて付与し、seen.json に bodyHash を書き込めるようにする。
+    // (e2e 切り詰めで脱落した items は bodyText 無しのまま渡るが、URL は seen 入りする)
+    const bodyByUrl = new Map<string, string>()
+    for (const it of [...freshAll, ...recurringAll]) {
+      if (it.bodyText) bodyByUrl.set(normalizeUrl(it.url), it.bodyText)
+    }
+    const itemsForPersist = items.map((it) => {
+      const body = bodyByUrl.get(normalizeUrl(it.url))
+      return body ? { ...it, bodyText: body } : it
+    })
+    await persist(itemsForPersist)
     log(phase.current, '履歴を更新')
 
     phase.current = 'persist-cautions'
