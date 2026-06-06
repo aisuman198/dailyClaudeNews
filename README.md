@@ -49,7 +49,19 @@ cp .env.example .env
 | `VERIFY_DEPLOYMENT_INTERVAL_MS` | ポーリング間隔（デフォルト 30_000） |
 | `VERIFY_DEPLOYMENT_TIMEOUT_MS` | 公開確認の最大待機時間（デフォルト 600_000 = 10 分） |
 
-### 4. 手動で動作確認
+### 4. Git hooks (任意・推奨)
+
+`npm install` 時に `prepare` スクリプトが `git config core.hooksPath scripts/hooks` を自動設定する。これにより `scripts/hooks/` 配下の hook (現在は `post-merge` のみ) が有効になる。
+
+- **post-merge**: `git pull` で main に新しいマージコミットが入ったタイミングで、main にマージ済みのローカル feature ブランチを自動削除し、`git worktree prune` / `git remote prune origin` を実行する。`main` / `cron-runner` / 未マージの作業ブランチは常に対象外。
+
+確認:
+```bash
+git config --get core.hooksPath
+# → scripts/hooks
+```
+
+### 5. 手動で動作確認
 
 本番設定で実行:
 ```bash
@@ -63,7 +75,7 @@ SKIP_GIT_PUSH=true SAVE_DRAFT=true E2E_MAX_ARTICLES=2 node dist/index.js
 
 `docs/daily/YYYY-MM-DD.md` が生成され、`state/seen.json` と `state/cautions.json` が更新される。
 
-### 5. launchd への登録
+### 6. launchd への登録
 
 `launchd/*.plist.template` のプレースホルダ (`{{HOME}}` / `{{PROJECT_ROOT}}`) を実環境の絶対パスに置換して `~/Library/LaunchAgents/` に配置し、`launchctl bootstrap` するインストーラを用意してある。テンプレ方式により個人パスを版管理に含めない。同時に **cron 専用 git worktree** も自動的にセットアップされる。
 
