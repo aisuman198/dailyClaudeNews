@@ -39,6 +39,7 @@ cp .env.example .env
 | `HISTORY_RETENTION_DAYS` | 継続話題として参照する日数（デフォルト 14） |
 | `DEDUP_TITLE_SIMILARITY` | 同run内重複判定の閾値（0.0〜1.0、デフォルト 0.85） |
 | `MACOS_NOTIFICATION` | 失敗時に macOS 通知を出すか（true/false） |
+| `GIT_AUTHOR_NAME` / `GIT_AUTHOR_EMAIL` | 自動コミット時の Author（`.env.example` のプレースホルダを自分の値に置き換える。省略時は git config のグローバル値） |
 | `SKIP_GIT_PUSH` | true なら git commit/push をスキップ（dry-run 用） |
 | `SAVE_DRAFT` | true なら summarize 直後の draft を `state/draft-YYYY-MM-DD.md` に保存（debug 用、git 管理対象外） |
 | `E2E_MAX_ARTICLES` | 1以上なら新規＋継続の合計件数をその数に絞る（E2E 動作確認用） |
