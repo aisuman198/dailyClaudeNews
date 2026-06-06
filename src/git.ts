@@ -21,18 +21,22 @@ function git(args: string[], timeoutMs = 30_000): Promise<string> {
 
 // 想定外のブランチで自動ジョブが走ると、生成物 (docs/daily/*.md) が
 // feature ブランチに乗ったまま `git push origin main` が no-op で成功して
-// 「push 完了」とログだけ出る無音事故が起きうる (2026-06-05 に発生)。
-// commit する前にカレントブランチを検査し、main 以外なら例外で早期失敗させる。
+// 「push 完了」とログだけ出る無音事故が起きうる (2026-06-05, 2026-06-06 に発生)。
+// commit する前にカレントブランチを検査し、許可リスト外なら例外で早期失敗させる。
 // 失敗時は notifier が issue を起票するため、翌朝までに必ず気付ける。
-export const EXPECTED_BRANCH = 'main'
+//
+// 許可リストには以下を含める:
+//   - main          : 手動実行 / 開発時のスモークテスト用
+//   - cron-runner   : cron 専用 worktree のブランチ (scripts/setup-cron-worktree.sh 参照)
+export const EXPECTED_BRANCHES: readonly string[] = ['main', 'cron-runner']
 
 async function assertOnExpectedBranch(): Promise<void> {
   const current = (await git(['rev-parse', '--abbrev-ref', 'HEAD'])).trim()
-  if (current !== EXPECTED_BRANCH) {
+  if (!EXPECTED_BRANCHES.includes(current)) {
     throw new Error(
-      `commitAndPush: 期待するブランチは '${EXPECTED_BRANCH}' ですが ` +
+      `commitAndPush: 許可されたブランチは ${EXPECTED_BRANCHES.map((b) => `'${b}'`).join(' / ')} ですが ` +
         `'${current}' で実行されています。commit と push を中断しました。` +
-        `手動で 'git checkout ${EXPECTED_BRANCH}' に戻してから再実行してください。`,
+        `手動で 'git checkout main' に戻してから再実行してください。`,
     )
   }
 }
@@ -56,7 +60,10 @@ export async function commitAndPush(paths: string[], message: string): Promise<v
   await git(['commit', '-m', safeMessage])
 
   try {
-    await git(['push', 'origin', 'main'])
+    // HEAD:main で現在ブランチを必ず origin/main に向けて push する。
+    // 'origin main' (= main:main) だとローカル main ref が古いまま push 0 件で
+    // 「成功」して silent miss が起きるため、HEAD を明示する。
+    await git(['push', 'origin', 'HEAD:main'])
   } catch (err) {
     console.warn(redact(`push 失敗、pull --rebase してリトライ: ${(err as Error).message}`))
     // commit 後に push が失敗する典型は「remote が進んでいる」ケース。
@@ -66,7 +73,10 @@ export async function commitAndPush(paths: string[], message: string): Promise<v
     await withWorkingTreeStashed(async () => {
       await git(['pull', '--rebase', 'origin', 'main'])
     })
-    await git(['push', 'origin', 'main'])
+    // HEAD:main で現在ブランチを必ず origin/main に向けて push する。
+    // 'origin main' (= main:main) だとローカル main ref が古いまま push 0 件で
+    // 「成功」して silent miss が起きるため、HEAD を明示する。
+    await git(['push', 'origin', 'HEAD:main'])
   }
 }
 

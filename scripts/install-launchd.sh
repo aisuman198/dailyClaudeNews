@@ -21,6 +21,12 @@ DOMAIN="gui/$(id -u)"
 
 mkdir -p "${TARGET_DIR}"
 
+# cron 専用 worktree を先に bootstrap しておく (run.sh も初回 fallback で呼ぶが、
+# install 時点で揃えておけば初回 cron 実行が高速・確実になる)
+echo "[install-launchd] cron 専用 worktree をセットアップ"
+"${PROJECT_ROOT}/scripts/setup-cron-worktree.sh"
+echo
+
 shopt -s nullglob
 templates=("${TEMPLATE_DIR}"/*.plist.template)
 if [ ${#templates[@]} -eq 0 ]; then
