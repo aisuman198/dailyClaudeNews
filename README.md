@@ -9,8 +9,10 @@ Mac launchd で毎朝 8:00 JST に起動し、Anthropic 公式サイトと Hacke
 - macOS（Apple Silicon / Intel どちらも可）
 - Node.js 20+
 - Claude Code CLI（Max プランで認証済み）
-- `gh` CLI（OAuth 認証済み、`repo` スコープ）
-- リポジトリへの SSH push 権限
+- `gh` CLI（OAuth 認証済み、`repo` スコープ — PR 作成・マージで必須）
+- リポジトリへの SSH push 権限（daily ブランチへの push のみで OK）
+- リポジトリの **admin 権限**（PR squash merge を毎朝実行するため。
+  main の ruleset が「PR 必須・必須 review 1+」の場合は `gh pr merge --admin` でのバイパスを行う）
 
 ### 2. 依存インストール
 
@@ -109,7 +111,23 @@ cron は毎回起動時に worktree で:
 3. `npm ci && npm run build`
 4. `node dist/index.js`
 
-を実行する。worktree が存在しなければ `scripts/setup-cron-worktree.sh` が自動で作成する。`.env` は開発用 repo のものを worktree に symlink するため、秘密値は複製されない。push は `git push origin HEAD:main` で現在ブランチを必ず origin/main に向けるため、ローカル main ref が古くても silent miss しない。
+を実行する。worktree が存在しなければ `scripts/setup-cron-worktree.sh` が自動で作成する。`.env` は開発用 repo のものを worktree に symlink するため、秘密値は複製されない。
+
+#### main 保護下での PR 経由 push
+
+main の ruleset により直接 push が禁じられているため、`commitAndPush`
+(`src/git.ts`) は **daily ブランチ + PR + auto-merge** で更新を反映する:
+
+1. cron-runner で commit
+2. `git push --force-with-lease origin HEAD:refs/heads/daily/YYYY-MM-DD` — 同日内の
+   再試行に対応するため force-with-lease。force の対象は cron 自身が作った daily
+   ブランチに限定されるため、横から push されていたら fail して気付ける。
+3. open PR があれば再利用、無ければ `gh pr create --base main --head daily/...`
+4. `gh pr merge <#> --squash --delete-branch` — 失敗時は `--admin` で再試行
+   (`viewerPermission=ADMIN` 前提)
+
+PR は squash merge され、daily ブランチは自動削除される。次回起動時の
+`git reset --hard origin/main` でローカルは origin/main に同期される。
 
 ## ログ
 

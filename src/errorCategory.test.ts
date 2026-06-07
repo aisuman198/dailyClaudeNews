@@ -49,10 +49,36 @@ describe('categorize', () => {
     expect(c.title).toBe('[dailyClaudeNews] fetch 失敗')
   })
 
-  it('classifies git phase non-timeout failures as git', () => {
+  it('classifies git push failures as "git push 失敗"', () => {
     const c = categorize(new Error('git push origin main failed (1)'), 'git')
     expect(c.category).toBe('git')
     expect(c.title).toBe('[dailyClaudeNews] git push 失敗')
+  })
+
+  it('classifies PR create failures (gh pr create) as "PR 作成失敗"', () => {
+    const c = categorize(
+      new Error('gh pr create --base main --head daily/2026-06-07 failed (1): could not create pull request'),
+      'git',
+    )
+    expect(c.category).toBe('git')
+    expect(c.title).toBe('[dailyClaudeNews] PR 作成失敗')
+  })
+
+  it('classifies PR-number-parse failures as "PR 作成失敗"', () => {
+    const c = categorize(
+      new Error('PR 作成の出力から PR 番号を取得できませんでした: <unexpected output>'),
+      'git',
+    )
+    expect(c.title).toBe('[dailyClaudeNews] PR 作成失敗')
+  })
+
+  it('classifies PR merge failures as "PR merge 失敗"', () => {
+    const c = categorize(
+      new Error('gh pr merge 42 --squash --delete-branch failed (1): mergeable state is blocked'),
+      'git',
+    )
+    expect(c.category).toBe('git')
+    expect(c.title).toBe('[dailyClaudeNews] PR merge 失敗')
   })
 
   it('classifies verify-deploy phase failures with stable title', () => {
