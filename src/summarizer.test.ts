@@ -49,11 +49,13 @@ describe('summarizer.buildPrompt', () => {
     expect(p).toContain('本文取得失敗')
   })
 
-  it('instructs to add Japanese translation for English titles', () => {
+  it('puts Japanese translation in the title link and original as a subtitle for English titles', () => {
     const p = buildPrompt([it1], [it2])
-    expect(p).toContain('# 日本語訳の付与')
-    expect(p).toContain('英語')
-    expect(p).toContain('- 訳:')
+    expect(p).toContain('# 英語記事の表記')
+    expect(p).toContain('日本語で読めることを最優先')
+    expect(p).toContain('原題')
+    expect(p).toContain('<sub>**原題**:')
+    expect(p).not.toContain('- 訳:')
   })
 
   it('asks for category-based chapters', () => {
@@ -66,7 +68,7 @@ describe('summarizer.buildPrompt', () => {
   it('requests card-style output (title link, sub meta, paragraph summary)', () => {
     const p = buildPrompt([it1], [it2])
     expect(p).toContain('カード形式')
-    expect(p).toContain('[元タイトル](URL)')
+    expect(p).toContain('[タイトル](URL)')
     expect(p).toContain('<sub>')
     expect(p).toContain('段落として')
     expect(p).toContain('箇条書きにしない')
