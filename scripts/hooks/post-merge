@@ -1,0 +1,44 @@
+#!/bin/bash
+# post-merge: git pull / git merge 後に自動で呼ばれる Git hook。
+# main にマージ済みのローカル feature ブランチを削除し、stale な参照を掃除する。
+#
+# 設置方法:
+#   `git config core.hooksPath scripts/hooks` を一度設定する (npm install で自動設定)。
+#   このファイル自体は版管理対象。
+#
+# 動作:
+#   - HEAD が main の場合のみ走る (feature ブランチへの merge には干渉しない)
+#   - `git branch -d` で main に取り込み済の場合のみ削除 (未マージのブランチは安全)
+#   - main / cron-runner / 現在 HEAD と一致するブランチは常に除外
+#   - 最後に `git worktree prune` と `git remote prune origin` を実行
+
+set -u
+
+BRANCH="$(git symbolic-ref --short -q HEAD 2>/dev/null || echo '')"
+[ "${BRANCH}" = "main" ] || exit 0
+
+PROTECTED="^(main|cron-runner)$"
+CLEANED=0
+
+# git branch --merged main は HEAD=main 時に main に取り込み済みのブランチを列挙する。
+# 出力は "  feat/foo" / "* main" 形式なので、prefix の "* " と "  " を除去する。
+while read -r raw; do
+  b="${raw#\* }"
+  b="${b#  }"
+  [ -z "${b}" ] && continue
+  if [[ "${b}" =~ ${PROTECTED} ]]; then
+    continue
+  fi
+  if git branch -d "${b}" >/dev/null 2>&1; then
+    echo "[post-merge] deleted merged branch: ${b}"
+    CLEANED=$((CLEANED + 1))
+  fi
+done < <(git branch --merged main 2>/dev/null)
+
+git worktree prune 2>/dev/null || true
+git remote prune origin >/dev/null 2>&1 || true
+
+if [ "${CLEANED}" -gt 0 ]; then
+  echo "[post-merge] cleanup: ${CLEANED} branch(es) removed"
+fi
+exit 0
