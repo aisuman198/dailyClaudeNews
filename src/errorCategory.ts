@@ -72,6 +72,25 @@ export function categorize(error: Error, phase: Phase): Categorized {
   }
 
   if (phase === 'git') {
+    // git push / PR 作成 / PR merge を別バケットに分けることで、retrospect の
+    // 自動 dedup と issue タイトルの安定性を両立する。同じ「git phase の失敗」
+    // でも原因がそれぞれ別なので、ひとくくりにすると混乱する。
+    if (/pr merge|gh pr merge/i.test(msg)) {
+      return {
+        category: 'git',
+        subkey: 'pr-merge',
+        title: `[dailyClaudeNews] PR merge 失敗`,
+        labels: ['dailyClaudeNews', 'category:git', `phase:${phase}`],
+      }
+    }
+    if (/pr create|gh pr create|PR 作成|PR 番号を取得/i.test(msg)) {
+      return {
+        category: 'git',
+        subkey: 'pr-create',
+        title: `[dailyClaudeNews] PR 作成失敗`,
+        labels: ['dailyClaudeNews', 'category:git', `phase:${phase}`],
+      }
+    }
     return {
       category: 'git',
       subkey: 'push',
