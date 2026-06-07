@@ -75,17 +75,23 @@ export async function commitAndPush(paths: string[], message: string): Promise<v
   // main は ruleset で保護されている (PR 必須 / non_fast_forward 禁止) ため、
   // 直接 push せず daily/YYYY-MM-DD ブランチ経由で PR を作って squash merge する。
   //
-  //   1. daily ブランチへ push (--force-with-lease で同日再試行に対応)
+  //   1. daily ブランチへ push
   //   2. open PR があれば再利用、無ければ作成
   //   3. gh pr merge --squash --delete-branch (admin merge にフォールバック)
   //
-  // 同日内の典型的な再試行ケース:
-  //   - launchd の再起動 / 手動 retry: 同じ daily ブランチに force-with-lease で
-  //     上書きし、同じ PR を再利用する。force は cron 自身が作ったブランチへの
-  //     上書きに限定されるため、ローカル知らずに他者が push していたら fail する。
+  // push 方針: daily/YYYY-MM-DD ブランチは cron 専有 (人間も他ジョブも書き込まない)。
+  //   - 通常は plain push で成功する (前回 merge で remote 側は削除されている)
+  //   - 同日内の retry で残骸ブランチがあった場合は plain push が拒否されるので
+  //     --force でフォールバック。force-with-lease は使わない: 直前の merge で
+  //     remote 側が消えた直後の再 push が "stale info" で拒否される問題が起きる。
   const branch = dailyBranchName()
 
-  await git(['push', '--force-with-lease', 'origin', `HEAD:refs/heads/${branch}`])
+  try {
+    await git(['push', 'origin', `HEAD:refs/heads/${branch}`])
+  } catch (err) {
+    console.warn(redact(`daily ブランチへの plain push 失敗、--force で再試行: ${(err as Error).message}`))
+    await git(['push', '--force', 'origin', `HEAD:refs/heads/${branch}`])
+  }
 
   const listOut = await gh([
     'pr', 'list',
@@ -130,5 +136,19 @@ export async function commitAndPush(paths: string[], message: string): Promise<v
     console.warn(redact(`通常 merge 失敗、--admin で再試行: ${m}`))
     await gh(['pr', 'merge', String(prNumber), '--squash', '--delete-branch', '--admin'], 180_000)
     console.log(redact(`PR #${prNumber} を admin merge`))
+  }
+
+  // squash merge 後、ローカルブランチ (main / cron-runner) には元の非 squash の commit が
+  // 残ったまま、remote main は squash 後の別 SHA を指す状態になる。production の
+  // run.sh は次回起動時の `git reset --hard origin/main` で揃うので 1 run 内では
+  // 問題にならないが、同一プロセスから 2 回 commitAndPush を呼ぶと 2 度目の PR が
+  // 「remote 側にもう同じ変更がある」状態で衝突する。
+  // ここで origin/main に合わせ直すことで、複数回呼び出し / dev tree からの手動実行に
+  // 対しても安全に振る舞う。production の run.sh 起動時 reset と二重で安全側。
+  try {
+    await git(['fetch', 'origin', 'main'])
+    await git(['reset', '--hard', 'origin/main'])
+  } catch (err) {
+    console.warn(redact(`merge 後の origin/main 同期に失敗 (後続処理には影響しない): ${(err as Error).message}`))
   }
 }

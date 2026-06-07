@@ -119,9 +119,10 @@ main の ruleset により直接 push が禁じられているため、`commitAn
 (`src/git.ts`) は **daily ブランチ + PR + auto-merge** で更新を反映する:
 
 1. cron-runner で commit
-2. `git push --force-with-lease origin HEAD:refs/heads/daily/YYYY-MM-DD` — 同日内の
-   再試行に対応するため force-with-lease。force の対象は cron 自身が作った daily
-   ブランチに限定されるため、横から push されていたら fail して気付ける。
+2. `git push origin HEAD:refs/heads/daily/YYYY-MM-DD` — 通常は plain push。
+   同日 retry で残骸ブランチがあれば `--force` でフォールバック (daily ブランチは
+   cron 専有なので上書きしてよい)。`--force-with-lease` は使わない: 直前の merge で
+   remote 側が消えた直後の再 push が "stale info" で拒否されるため。
 3. open PR があれば再利用、無ければ `gh pr create --base main --head daily/...`
 4. `gh pr merge <#> --squash --delete-branch` — 失敗時は `--admin` で再試行
    (`viewerPermission=ADMIN` 前提)
