@@ -173,23 +173,27 @@ function parseDocument(raw){
   return { highlights, categories };
 }
 
-function renderHero(highlights, heroImages, heroSources){
+function renderHero(highlights, heroImages, heroSources, heroTargets){
   // heroImages: window.HERO_IMAGES (frontmatter から layout 経由)。長さ 3、各要素は URL 文字列 or null。
   // heroSources: ハイライト→マッチした記事の source ラベル ('ANTHROPIC' / 'HACKER NEWS')
+  // heroTargets: ハイライト→マッチした記事のカード id ('xxx') or '' (マッチなし)
   return highlights.map((h, i) => {
     const img = (heroImages && heroImages[i]) ? heroImages[i] : null;
     const src = (heroSources && heroSources[i]) ? heroSources[i] : '';
+    const tid = (heroTargets && heroTargets[i]) ? heroTargets[i] : '';
     const styleAttr = img ? ` style="background-image:url('${escapeAttr(img)}')"` : '';
     const cls = img ? 'h-item has-img' : 'h-item';
-    return `<div class="${cls}"${styleAttr}>
-       <div class="h-inner">
+    const inner = `<div class="h-inner">
          <div>
            <div class="h-num">${String(i+1).padStart(2,'0')}</div>
            ${src ? `<div class="h-source">${escapeHtml(src)}</div>` : ''}
          </div>
          <div class="h-text">${h}</div>
-       </div>
-     </div>`;
+       </div>`;
+    if (tid) {
+      return `<a class="${cls} h-link" href="#a-${escapeAttr(tid)}"${styleAttr} aria-label="このストーリーの記事へ移動">${inner}</a>`;
+    }
+    return `<div class="${cls}"${styleAttr}>${inner}</div>`;
   }).join('');
 }
 
@@ -397,12 +401,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const heroImages = (window.HERO_IMAGES && Array.isArray(window.HERO_IMAGES))
     ? window.HERO_IMAGES : [];
-  const heroSources = parsed.highlights.map(h =>
-    sourceLabelFor(findArticleForHighlight(h, parsed.categories))
-  );
+  // ハイライトごとに対応する記事を 1 回マッチさせ、source ラベルと target id の両方を取り出す。
+  const heroMatches = parsed.highlights.map(h => findArticleForHighlight(h, parsed.categories));
+  const heroSources = heroMatches.map(sourceLabelFor);
+  const heroTargets = heroMatches.map(it => it ? it.id : '');
 
   const heroEl = document.getElementById('hero');
-  if (heroEl) heroEl.innerHTML = renderHero(parsed.highlights, heroImages, heroSources);
+  if (heroEl) heroEl.innerHTML = renderHero(parsed.highlights, heroImages, heroSources, heroTargets);
 
   const tocEl = document.getElementById('toc');
   if (tocEl) tocEl.innerHTML = renderSidebarToc(parsed.categories);
