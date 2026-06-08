@@ -116,6 +116,28 @@ main{padding:36px 44px 80px;max-width:1100px}
 .card .byline .fresh{color:#22c55e;font-weight:700}
 .card .byline .recur{color:var(--accent2);font-weight:700}
 .card .byline .src{font-weight:600;color:var(--fg)}
+
+/* ── Share buttons ──────────────────── */
+.share{margin-left:auto;display:inline-flex;align-items:center;gap:4px}
+.share-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:26px;height:26px;padding:0;border:1px solid var(--line);background:transparent;
+  color:var(--muted);border-radius:4px;cursor:pointer;text-decoration:none;
+  transition:color .12s ease,border-color .12s ease,background .12s ease;
+}
+.share-btn:hover,.share-btn:focus-visible{color:var(--accent);border-color:var(--accent);background:var(--card);outline:none}
+.share-btn svg{width:14px;height:14px;display:block}
+/* Slack はカラーロゴを保持。hover で背景のみ強調 */
+.share-btn.slack:hover,.share-btn.slack:focus-visible{color:inherit}
+
+/* ── Toast ──────────────────── */
+.toast{
+  position:fixed;left:50%;bottom:32px;transform:translateX(-50%) translateY(20px);
+  background:var(--fg);color:var(--bg);padding:10px 18px;border-radius:6px;
+  font-size:12px;letter-spacing:.05em;box-shadow:var(--shadow);
+  opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:1000;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .card .lead{font-size:14px;line-height:1.75;margin:0 0 10px}
 .card .lead::first-letter{font-family:"Hiragino Mincho ProN",Georgia,serif;font-size:34px;
   float:left;line-height:1;padding:4px 8px 0 0;color:var(--accent);font-weight:600}

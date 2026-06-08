@@ -221,6 +221,27 @@ function renderCategories(categories){
   `).join('');
 }
 
+// SVG ロゴ (currentColor でテーマに追従)。
+// X: 公式の X ロゴ、Misskey: 公式マーク (mi-circle)、Slack: 公式 4 色ハッシュ。
+const SHARE_ICONS = {
+  x: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
+  misskey: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4 4.5C4 3.12 5.12 2 6.5 2S9 3.12 9 4.5v6.6l2.05-2.5a2.3 2.3 0 0 1 1.78-.85h.34c.7 0 1.36.32 1.79.86l2.04 2.49V4.5C17 3.12 18.12 2 19.5 2S22 3.12 22 4.5v15c0 1.38-1.12 2.5-2.5 2.5S17 20.88 17 19.5v-6.6l-1.93 2.35a2.3 2.3 0 0 1-1.78.85h-.58a2.3 2.3 0 0 1-1.78-.85L9 12.9v6.6C9 20.88 7.88 22 6.5 22S4 20.88 4 19.5z"/></svg>',
+  slack: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="#E01E5A" d="M5.04 15.165a2.522 2.522 0 0 1-2.52 2.523A2.522 2.522 0 0 1 0 15.165a2.52 2.52 0 0 1 2.52-2.52h2.52zm1.27 0a2.52 2.52 0 0 1 2.52-2.52 2.52 2.52 0 0 1 2.52 2.52v6.31A2.522 2.522 0 0 1 8.83 24a2.522 2.522 0 0 1-2.52-2.525z"/><path fill="#36C5F0" d="M8.83 5.042a2.522 2.522 0 0 1-2.52-2.522A2.522 2.522 0 0 1 8.83 0a2.522 2.522 0 0 1 2.52 2.52v2.522zm0 1.271a2.522 2.522 0 0 1 2.52 2.52 2.522 2.522 0 0 1-2.52 2.52H2.521A2.52 2.52 0 0 1 0 8.833a2.52 2.52 0 0 1 2.52-2.52z"/><path fill="#2EB67D" d="M18.956 8.833a2.52 2.52 0 0 1 2.52-2.52A2.52 2.52 0 0 1 24 8.833a2.52 2.52 0 0 1-2.524 2.52h-2.52zm-1.27 0a2.522 2.522 0 0 1-2.521 2.52 2.52 2.52 0 0 1-2.52-2.52V2.52A2.52 2.52 0 0 1 15.165 0a2.52 2.52 0 0 1 2.52 2.52z"/><path fill="#ECB22E" d="M15.165 18.958a2.52 2.52 0 0 1 2.52 2.52A2.52 2.52 0 0 1 15.165 24a2.522 2.522 0 0 1-2.52-2.522v-2.52zm0-1.27a2.52 2.52 0 0 1-2.52-2.523 2.522 2.522 0 0 1 2.52-2.52h6.314A2.52 2.52 0 0 1 24 15.165a2.52 2.52 0 0 1-2.521 2.523z"/></svg>',
+};
+
+function buildShareButtons(title, url){
+  if (!url) return '';
+  const text = title || '';
+  const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+  const miHref = `https://misskey-hub.net/share/?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}&visibility=public`;
+  const slackPayload = `${text} ${url}`;
+  return `<span class="share" role="group" aria-label="この記事を共有">
+    <a class="share-btn x" href="${escapeAttr(xHref)}" target="_blank" rel="noopener" title="X で共有" aria-label="X で共有">${SHARE_ICONS.x}</a>
+    <a class="share-btn misskey" href="${escapeAttr(miHref)}" target="_blank" rel="noopener" title="Misskey で共有" aria-label="Misskey で共有">${SHARE_ICONS.misskey}</a>
+    <button type="button" class="share-btn slack" data-slack-share="${escapeAttr(slackPayload)}" title="Slack 用にコピー" aria-label="Slack 用にコピー">${SHARE_ICONS.slack}</button>
+  </span>`;
+}
+
 function renderCard(it){
   const m = it.meta || {};
   const srcLabel = m.source === 'hn'
@@ -235,6 +256,7 @@ function renderCard(it){
     ? `<details><summary></summary>${it.body.map(p => `<p>${p}</p>`).join('')}</details>` : '';
   const searchText = [it.title, it.translation, it.lead, ...(it.body||[])].join(' ').toLowerCase();
   const transHtml = it.translation ? `<p class="trans">${escapeHtml(it.translation)}</p>` : '';
+  const shareHtml = buildShareButtons(it.title, it.url);
   return `<article class="card" id="a-${it.id}" data-text="${escapeAttr(searchText)}">
     <div class="card-tagline">${tagline}</div>
     <h3><a href="${escapeAttr(it.url)}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></h3>
@@ -243,6 +265,7 @@ function renderCard(it){
       ${srcLabel}<span class="sep">·</span>
       <span>${m.date || ''}</span><span class="sep">·</span>
       <span class="${stateCls}">${stateText}</span>
+      ${shareHtml}
     </p>
     <p class="lead">${it.lead}</p>
     ${body}
@@ -285,6 +308,48 @@ function setupExpandAll(){
     const open = opened < total;
     document.querySelectorAll('details').forEach(d => { d.open = open; });
     btn.textContent = open ? 'Collapse All' : 'Expand All';
+  });
+}
+
+function showToast(message){
+  let toast = document.getElementById('dcn-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'dcn-toast';
+    toast.className = 'toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add('show');
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
+async function copyToClipboard(text){
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  document.execCommand('copy');
+  document.body.removeChild(ta);
+}
+
+function setupShareButtons(){
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-slack-share]');
+    if (!btn) return;
+    e.preventDefault();
+    const payload = btn.getAttribute('data-slack-share') || '';
+    copyToClipboard(payload).then(
+      () => showToast('Slack 用にコピーしました'),
+      () => showToast('コピーに失敗しました')
+    );
   });
 }
 
@@ -347,6 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setupExpandAll();
   setupSearch();
+  setupShareButtons();
 });
 
 })();
