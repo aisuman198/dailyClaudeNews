@@ -33,8 +33,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 18,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 19,
       "bodyHash": "02acd62caa11babe",
       "bodyLength": 3500
     },
@@ -345,8 +345,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "dd0e2c807824b29b",
       "bodyLength": 3500
     },
@@ -354,17 +354,17 @@
       "normalizedUrl": "https://anthropic.com/research/measuring-agent-autonomy",
       "normalizedTitle": "measuring agent autonomy",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
-      "bodyHash": "98b940cd75e10489",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
+      "bodyHash": "14773f6a94fb83a8",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/values-wild",
       "normalizedTitle": "values wild",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "b23f89fbc5691420",
       "bodyLength": 3500
     },
@@ -372,8 +372,8 @@
       "normalizedUrl": "https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
       "normalizedTitle": "how ai is transforming work at anthropic",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "01b3ac29abc0a20e",
       "bodyLength": 3500
     },
@@ -381,8 +381,8 @@
       "normalizedUrl": "https://anthropic.com/research/assistant-axis",
       "normalizedTitle": "assistant axis",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "e85dea24995a2ca9",
       "bodyLength": 3500
     },
@@ -390,8 +390,8 @@
       "normalizedUrl": "https://anthropic.com/research/introspection",
       "normalizedTitle": "introspection",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "7f1c336763ebc7c0",
       "bodyLength": 3500
     },
@@ -399,8 +399,8 @@
       "normalizedUrl": "https://anthropic.com/research/estimating-productivity-gains",
       "normalizedTitle": "estimating productivity gains",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "c559c3e0924190de",
       "bodyLength": 3500
     },
@@ -408,8 +408,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-personal-guidance",
       "normalizedTitle": "claude personal guidance",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "1de1a8fc2857c596",
       "bodyLength": 3500
     },
@@ -417,17 +417,17 @@
       "normalizedUrl": "https://anthropic.com/research/emergent-misalignment-reward-hacking",
       "normalizedTitle": "emergent misalignment reward hacking",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
-      "bodyHash": "ebc19590625b7685",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
+      "bodyHash": "9900cdbd3e814e2b",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
       "normalizedTitle": "emotion concepts function",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "bee302614b94cfed",
       "bodyLength": 3500
     },
@@ -435,8 +435,8 @@
       "normalizedUrl": "https://anthropic.com/research/next-generation-constitutional-classifiers",
       "normalizedTitle": "next generation constitutional classifiers",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "5107f5836867510b",
       "bodyLength": 3500
     },
@@ -444,8 +444,8 @@
       "normalizedUrl": "https://anthropic.com/research/automated-alignment-researchers",
       "normalizedTitle": "automated alignment researchers",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 5,
       "bodyHash": "56e18731b967f4b6",
       "bodyLength": 3500
     },
@@ -507,9 +507,61 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-08",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 2,
+      "bodyHash": "e4d270bfc9296bea",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "normalizedTitle": "if claude fable stops helping you you ll never know",
+      "firstSeenDate": "2026-06-09",
+      "lastSeenDate": "2026-06-09",
       "occurrences": 1,
-      "bodyHash": "fd448257326ec268",
+      "bodyHash": "26988313c6476a47",
+      "bodyLength": 3047
+    },
+    {
+      "normalizedUrl": "https://techtrenches.dev/p/anthropic-kept-every-promise-it-could",
+      "normalizedTitle": "anthropic kept every promise it could afford",
+      "firstSeenDate": "2026-06-09",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 1,
+      "bodyHash": "efc24a7bc76e07f5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/i/status/2064399902684139852",
+      "normalizedTitle": "claude fable 5 will sabotage frontier llm research tasks",
+      "firstSeenDate": "2026-06-09",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://github.com/Kaelio/ktx",
+      "normalizedTitle": "show hn open source version of anthropic s internal analytics engine",
+      "firstSeenDate": "2026-06-09",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 1,
+      "bodyHash": "fa91604fcb35f96d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/OpenYabby/OpenYabby",
+      "normalizedTitle": "show hn openyabby voice controlled multi agent orchestrator for claude code",
+      "firstSeenDate": "2026-06-09",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 1,
+      "bodyHash": "17d12506760a6ae8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
+      "normalizedTitle": "claude fable 5 mythos 5",
+      "firstSeenDate": "2026-06-09",
+      "lastSeenDate": "2026-06-09",
+      "occurrences": 1,
+      "bodyHash": "54451976bae49e32",
       "bodyLength": 3500
     }
   ]
