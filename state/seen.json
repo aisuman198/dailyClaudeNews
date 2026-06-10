@@ -33,8 +33,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 19,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 20,
       "bodyHash": "02acd62caa11babe",
       "bodyLength": 3500
     },
@@ -345,8 +345,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "dd0e2c807824b29b",
       "bodyLength": 3500
     },
@@ -354,17 +354,17 @@
       "normalizedUrl": "https://anthropic.com/research/measuring-agent-autonomy",
       "normalizedTitle": "measuring agent autonomy",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
-      "bodyHash": "14773f6a94fb83a8",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
+      "bodyHash": "98b940cd75e10489",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/values-wild",
       "normalizedTitle": "values wild",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "b23f89fbc5691420",
       "bodyLength": 3500
     },
@@ -372,8 +372,8 @@
       "normalizedUrl": "https://anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
       "normalizedTitle": "how ai is transforming work at anthropic",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "01b3ac29abc0a20e",
       "bodyLength": 3500
     },
@@ -381,17 +381,17 @@
       "normalizedUrl": "https://anthropic.com/research/assistant-axis",
       "normalizedTitle": "assistant axis",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
-      "bodyHash": "e85dea24995a2ca9",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
+      "bodyHash": "298b8c6072aea89c",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/introspection",
       "normalizedTitle": "introspection",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "7f1c336763ebc7c0",
       "bodyLength": 3500
     },
@@ -399,8 +399,8 @@
       "normalizedUrl": "https://anthropic.com/research/estimating-productivity-gains",
       "normalizedTitle": "estimating productivity gains",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "c559c3e0924190de",
       "bodyLength": 3500
     },
@@ -408,8 +408,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-personal-guidance",
       "normalizedTitle": "claude personal guidance",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "1de1a8fc2857c596",
       "bodyLength": 3500
     },
@@ -417,17 +417,17 @@
       "normalizedUrl": "https://anthropic.com/research/emergent-misalignment-reward-hacking",
       "normalizedTitle": "emergent misalignment reward hacking",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
-      "bodyHash": "9900cdbd3e814e2b",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
+      "bodyHash": "ebc19590625b7685",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
       "normalizedTitle": "emotion concepts function",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "bee302614b94cfed",
       "bodyLength": 3500
     },
@@ -435,8 +435,8 @@
       "normalizedUrl": "https://anthropic.com/research/next-generation-constitutional-classifiers",
       "normalizedTitle": "next generation constitutional classifiers",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "5107f5836867510b",
       "bodyLength": 3500
     },
@@ -444,8 +444,8 @@
       "normalizedUrl": "https://anthropic.com/research/automated-alignment-researchers",
       "normalizedTitle": "automated alignment researchers",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 6,
       "bodyHash": "56e18731b967f4b6",
       "bodyLength": 3500
     },
@@ -507,8 +507,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 3,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -516,10 +516,10 @@
       "normalizedUrl": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
       "normalizedTitle": "if claude fable stops helping you you ll never know",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 1,
-      "bodyHash": "26988313c6476a47",
-      "bodyLength": 3047
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 2,
+      "bodyHash": "3da58eb630e2bb2b",
+      "bodyLength": 3074
     },
     {
       "normalizedUrl": "https://techtrenches.dev/p/anthropic-kept-every-promise-it-could",
@@ -559,9 +559,54 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 2,
       "bodyHash": "54451976bae49e32",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/29045",
+      "normalizedTitle": "claude desktop spawns 1 8 gb hyper v vm on every launch even for chat only use",
+      "firstSeenDate": "2026-06-10",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 1,
+      "bodyHash": "0f682905541d1cbf",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "normalizedTitle": "anthropic s model naming extrapolated",
+      "firstSeenDate": "2026-06-10",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 1,
+      "bodyHash": "894d991081542a38",
+      "bodyLength": 1234
+    },
+    {
+      "normalizedUrl": "https://github.com/grzegorz-raczek-unit8/claude-quota",
+      "normalizedTitle": "show hn macos menu bar gauges for your claude code quota",
+      "firstSeenDate": "2026-06-10",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 1,
+      "bodyHash": "b2d6f961e712a505",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "normalizedTitle": "anthropic requires 30 day data retention for fable and mythos",
+      "firstSeenDate": "2026-06-10",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 1,
+      "bodyHash": "507524bc8ae073fb",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable",
+      "normalizedTitle": "cybersecurity researchers aren t happy about the guardrails on anthropic s fable",
+      "firstSeenDate": "2026-06-10",
+      "lastSeenDate": "2026-06-10",
+      "occurrences": 1,
+      "bodyHash": "3f90f35784219ff5",
       "bodyLength": 3500
     }
   ]
