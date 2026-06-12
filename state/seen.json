@@ -33,8 +33,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 21,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 22,
       "bodyHash": "02acd62caa11babe",
       "bodyLength": 3500
     },
@@ -345,9 +345,9 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 7,
-      "bodyHash": "dd0e2c807824b29b",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 8,
+      "bodyHash": "6d5ee4dfca71aeba",
       "bodyLength": 3500
     },
     {
@@ -507,8 +507,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 5,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -559,8 +559,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 4,
       "bodyHash": "54451976bae49e32",
       "bodyLength": 3500
     },
@@ -613,17 +613,17 @@
       "normalizedUrl": "https://theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
       "normalizedTitle": "anthropic apologizes for invisible claude fable guardrails",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 1,
-      "bodyHash": "d6a159f125ba5bb5",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 2,
+      "bodyHash": "d2eca7badeb4be97",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
       "normalizedTitle": "claude fable 5 mid tier results on coding tasks",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 2,
       "bodyHash": "2dffe7b17bab3edf",
       "bodyLength": 3500
     },
@@ -631,8 +631,8 @@
       "normalizedUrl": "https://cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html",
       "normalizedTitle": "openai mulls slashing prices as it competes with anthropic for users",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 2,
       "bodyHash": "252dd47232e2d718",
       "bodyLength": 2581
     },
@@ -658,8 +658,8 @@
       "normalizedUrl": "https://anthropic.com/news/dxc-anthropic-alliance",
       "normalizedTitle": "dxc anthropic alliance",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 2,
       "bodyHash": "f0ab3b0bb180febd",
       "bodyLength": 3500
     },
@@ -667,9 +667,45 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 2,
       "bodyHash": "d91d9d2e072efa27",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive",
+      "normalizedTitle": "claude fable is relentlessly proactive",
+      "firstSeenDate": "2026-06-12",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 1,
+      "bodyHash": "ad63ac8fdd9b3c81",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "normalizedTitle": "show hn script to bulk delete claude chats from the web ui",
+      "firstSeenDate": "2026-06-12",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 1,
+      "bodyHash": "eecac44d62a97da7",
+      "bodyLength": 1898
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/tcs-anthropic-partnership",
+      "normalizedTitle": "tcs anthropic partnership",
+      "firstSeenDate": "2026-06-12",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 1,
+      "bodyHash": "9bfb7ffe5142804b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-public-record",
+      "normalizedTitle": "anthropic public record",
+      "firstSeenDate": "2026-06-12",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 1,
+      "bodyHash": "9c59258c56a7666a",
       "bodyLength": 3500
     }
   ]
