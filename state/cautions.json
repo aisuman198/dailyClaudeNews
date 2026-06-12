@@ -280,6 +280,26 @@
       "examples": [
         "オフラインClaude Code記事の見出し「の**��築**」が文字化けしていたため修正"
       ]
+    },
+    {
+      "term": "サリドマイド",
+      "rule": "文字化けパターンに追加：「サリド」+U+FFFD+「イド」→「サリドマイド」",
+      "firstSeenDate": "2026-06-12",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 1,
+      "examples": [
+        "化学記事内「サリド��イド禍」が文字化け"
+      ]
+    },
+    {
+      "term": "TCS（原題の大文字表記）",
+      "rule": "TCSは略称につき原題でも全大文字で表記：「Tcs」→「TCS」",
+      "firstSeenDate": "2026-06-12",
+      "lastSeenDate": "2026-06-12",
+      "occurrences": 1,
+      "examples": [
+        "原題行に「Tcs Anthropic Partnership」と混在"
+      ]
     }
   ]
 }
