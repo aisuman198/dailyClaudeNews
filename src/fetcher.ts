@@ -109,16 +109,89 @@ export async function fetchHackerNews(keywords: string[], maxItems: number): Pro
     }))
 }
 
+export async function fetchZenn(): Promise<NewsItem[]> {
+  const allItems: NewsItem[] = []
+  for (const topic of config.zennTopics) {
+    const url = `https://zenn.dev/topics/${topic}/feed`
+    const res = await fetchWithTimeout(url, FETCH_TIMEOUT_MS)
+    if (!res.ok) throw new Error(`Zenn RSS HTTP ${res.status} (topic=${topic})`)
+    const xml = await res.text()
+    const parsed = RSS_PARSER.parse(xml) as { feed?: { entry?: unknown } }
+    const rawEntries = parsed.feed?.entry
+    const entries = Array.isArray(rawEntries) ? rawEntries : rawEntries ? [rawEntries] : []
+    for (const e of entries) {
+      const entry = e as { title?: unknown; link?: unknown; published?: string; updated?: string }
+      const titleRaw = entry.title
+      const title = typeof titleRaw === 'object' && titleRaw !== null
+        ? String((titleRaw as Record<string, unknown>)['#text'] ?? '')
+        : String(titleRaw ?? '').trim()
+      const linkRaw = entry.link
+      const link = typeof linkRaw === 'object' && linkRaw !== null
+        ? String((linkRaw as Record<string, unknown>)['href'] ?? '')
+        : String(linkRaw ?? '').trim()
+      if (!title || !link) continue
+      const dateStr = entry.published ?? entry.updated ?? ''
+      const publishedAt = dateStr ? new Date(dateStr) : new Date()
+      allItems.push({ source: 'zenn', title, url: link, publishedAt })
+    }
+  }
+  // dedupe by URL within Zenn results, sort by date, cap
+  const seen = new Set<string>()
+  return allItems
+    .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
+    .filter((item) => {
+      if (seen.has(item.url)) return false
+      seen.add(item.url)
+      return true
+    })
+    .slice(0, config.zennMaxItems)
+}
+
+type QiitaItem = {
+  title?: string
+  url?: string
+  created_at?: string
+  likes_count?: number
+}
+
+export async function fetchQiita(): Promise<NewsItem[]> {
+  const allItems: NewsItem[] = []
+  for (const tag of config.qiitaTags) {
+    const url = `https://qiita.com/api/v2/tags/${encodeURIComponent(tag)}/items?sort=stock&per_page=${config.qiitaMaxItems}`
+    const res = await fetchWithTimeout(url, FETCH_TIMEOUT_MS)
+    if (!res.ok) throw new Error(`Qiita API HTTP ${res.status} (tag=${tag})`)
+    const items = (await res.json()) as QiitaItem[]
+    for (const item of items) {
+      if (!item.title || !item.url) continue
+      const publishedAt = item.created_at ? new Date(item.created_at) : new Date()
+      allItems.push({ source: 'qiita', title: item.title.trim(), url: item.url.trim(), publishedAt, score: item.likes_count })
+    }
+  }
+  // dedupe by URL within Qiita results, sort by score desc, cap
+  const seen = new Set<string>()
+  return allItems
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+    .filter((item) => {
+      if (seen.has(item.url)) return false
+      seen.add(item.url)
+      return true
+    })
+    .slice(0, config.qiitaMaxItems)
+}
+
 export async function fetchAll(): Promise<NewsItem[]> {
   const results = await Promise.allSettled([
     fetchAnthropicBlog(),
     fetchHackerNews(config.hnKeywords, config.hnMaxItems),
+    fetchZenn(),
+    fetchQiita(),
   ])
 
+  const labels = ['anthropic-blog', 'hacker-news', 'zenn', 'qiita']
   const items: NewsItem[] = []
   const errors: string[] = []
   for (const [idx, r] of results.entries()) {
-    const label = idx === 0 ? 'anthropic-blog' : 'hacker-news'
+    const label = labels[idx] ?? String(idx)
     if (r.status === 'fulfilled') {
       items.push(...r.value)
     } else {

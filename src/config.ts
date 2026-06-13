@@ -25,6 +25,11 @@ export const config = {
   hnTopStoriesApi: env('HN_TOP_STORIES_API', 'https://hacker-news.firebaseio.com/v0/topstories.json'),
   hnItemApi: env('HN_ITEM_API', 'https://hacker-news.firebaseio.com/v0/item'),
   hnMaxItems: envNum('HN_MAX_ITEMS', 100),
+  zennTopics: env('ZENN_TOPICS', 'claudecode,claude,anthropic').split(',').map((s) => s.trim()).filter(Boolean),
+  zennMaxItems: envNum('ZENN_MAX_ITEMS', 5),
+  qiitaTags: env('QIITA_TAGS', 'anthropic,claude').split(',').map((s) => s.trim()).filter(Boolean),
+  qiitaMaxItems: envNum('QIITA_MAX_ITEMS', 5),
+
   hnKeywords: env('HN_KEYWORDS', 'Claude,Anthropic,AI,LLM,GPT,Gemini')
     .split(',')
     .map((s) => s.trim())
