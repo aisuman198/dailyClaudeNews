@@ -1,4 +1,4 @@
-export type NewsSource = 'anthropic-blog' | 'hacker-news'
+export type NewsSource = 'anthropic-blog' | 'hacker-news' | 'zenn' | 'qiita'
 
 export type NewsItem = {
   source: NewsSource

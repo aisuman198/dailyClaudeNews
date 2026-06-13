@@ -8,6 +8,8 @@ const TRACKING_PARAMS = new Set([
 
 const SOURCE_PRIORITY: Record<NewsSource, number> = {
   'anthropic-blog': 100,
+  'zenn': 50,
+  'qiita': 50,
   'hacker-news': 10,
 }
 
