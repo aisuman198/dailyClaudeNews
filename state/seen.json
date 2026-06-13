@@ -345,8 +345,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 8,
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 9,
       "bodyHash": "6d5ee4dfca71aeba",
       "bodyLength": 3500
     },
@@ -507,8 +507,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 6,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -559,9 +559,9 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 4,
-      "bodyHash": "54451976bae49e32",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 5,
+      "bodyHash": "0dd20f6f4576276f",
       "bodyLength": 3500
     },
     {
@@ -658,8 +658,8 @@
       "normalizedUrl": "https://anthropic.com/news/dxc-anthropic-alliance",
       "normalizedTitle": "dxc anthropic alliance",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 3,
       "bodyHash": "f0ab3b0bb180febd",
       "bodyLength": 3500
     },
@@ -667,8 +667,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 3,
       "bodyHash": "d91d9d2e072efa27",
       "bodyLength": 3500
     },
@@ -694,18 +694,86 @@
       "normalizedUrl": "https://anthropic.com/news/tcs-anthropic-partnership",
       "normalizedTitle": "tcs anthropic partnership",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 1,
-      "bodyHash": "9bfb7ffe5142804b",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 2,
+      "bodyHash": "f6e7e7733f9622ac",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-public-record",
       "normalizedTitle": "anthropic public record",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-12",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 2,
       "bodyHash": "9c59258c56a7666a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "normalizedTitle": "amazon ceo s talks with u s officials triggered crackdown on anthropic models",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+      "normalizedTitle": "shepherd s dog a game by fable",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/lhjjjk4/items/4263fd1ece95fafd8f5f",
+      "normalizedTitle": "aiデイリーダイジェスト 2026年6月14日 anthropic fable 5 mythos 5の強制停止 openaiへの州司法長官調査 ai幻覚問題",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "bodyHash": "22b817125b97371e",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/f8974940833ddc6bef5a",
+      "normalizedTitle": "claude code v2 1 176 モデル制御の抜け穴修正とバグ修正まとめ",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "bodyHash": "d612d40c447cc4ee",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/1e3c86d0d2adfa24103b",
+      "normalizedTitle": "claude mythos 5 fable 5 アクセス一時停止 影響と対応策まとめ",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "bodyHash": "81cd600cede926be",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/ed4312c9a468f9d9e6c7",
+      "normalizedTitle": "claude api 最新動向まとめ fable 5登場 モデル廃止 破壊的変更を完全解説",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "bodyHash": "c426595ee6cab391",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/618da2497af1c1bf0f91",
+      "normalizedTitle": "claude codeのネスト型サブエージェント入門 最大5階層の設計とトークン設計の勘所",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "bodyHash": "9f20b6e6b2781c96",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/fable-mythos-access",
+      "normalizedTitle": "fable mythos access",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "bodyHash": "ff2ea828c92cae8b",
       "bodyLength": 3500
     }
   ]
