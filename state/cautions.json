@@ -300,6 +300,16 @@
       "examples": [
         "原題行に「Tcs Anthropic Partnership」と混在"
       ]
+    },
+    {
+      "term": "が存在することを把握した",
+      "rule": "「の存在を把握した」の方が自然な日本語",
+      "firstSeenDate": "2026-06-13",
+      "lastSeenDate": "2026-06-13",
+      "occurrences": 1,
+      "examples": [
+        "冗長な名詞節「が存在することを」を名詞句「の存在を」に修正"
+      ]
     }
   ]
 }
