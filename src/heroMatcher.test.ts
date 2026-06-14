@@ -100,6 +100,27 @@ describe('heroMatcher.pickHeroArticles', () => {
   it('returns empty when no highlights', () => {
     expect(pickHeroArticles('## カテゴリ別まとめ\n', items)).toEqual([])
   })
+
+  it('prefers Japanese title match over same-score English-only article (regression: TCS vs Fable)', () => {
+    // 2026-06-13 のバグ再現: highlight[0] が TCS提携なのに Fable記事が選ばれていた。
+    // 英語トークン "anthropic","claude" で両者が同点になるが、
+    // 日本語バイグラムで TCS 記事（提携・発表・規制産業向け）が高スコアになるべき。
+    const tcsArticle = mkItem({
+      title: 'TCSとAnthropicが規制産業向けにClaudeを提供する提携を発表',
+      url: 'https://www.anthropic.com/news/tcs',
+    })
+    const fableArticle = mkItem({
+      title: 'Anthropicが Claude Fable の不可視ガードレールについて謝罪',
+      url: 'https://www.theverge.com/fable',
+    })
+    const md = `## 本日のハイライト
+- AnthropicがTCS（タタ・コンサルタンシー）との提携を発表。TCS社員5万人（56カ国）へのClaude提供と、金融・医療・公共セクター等の規制産業向け製品構築を開始する
+
+## カテゴリ別まとめ
+`
+    const picked = pickHeroArticles(md, [fableArticle, tcsArticle])
+    expect(picked[0]?.url).toBe('https://www.anthropic.com/news/tcs')
+  })
 })
 
 describe('heroMatcher.pickHeroImages', () => {
