@@ -25,14 +25,25 @@ export function extractHighlights(markdown: string): string[] {
  */
 function score(item: NewsItem, highlight: string): number {
   const h = highlight.toLowerCase()
-  const tokens = (item.title.toLowerCase().match(/[a-z0-9]+/g) ?? []).filter(
-    (w) => w.length >= 4,
-  )
-  if (tokens.length === 0) return 0
+  const title = item.title.toLowerCase()
   let s = 0
+
+  // English alphanumeric tokens (≥4 chars)
+  const tokens = (title.match(/[a-z0-9]+/g) ?? []).filter((w) => w.length >= 4)
   for (const w of tokens) {
     if (h.includes(w)) s++
   }
+
+  // CJK bigrams — Japanese highlights can't be differentiated by English tokens alone
+  // when multiple articles share common terms like "claude" or "anthropic".
+  // Extract consecutive CJK character pairs from the title and check if they appear in the highlight.
+  const cjkSegments = title.match(/[぀-鿿＀-￯]+/g) ?? []
+  for (const seg of cjkSegments) {
+    for (let i = 0; i < seg.length - 1; i++) {
+      if (h.includes(seg.slice(i, i + 2))) s++
+    }
+  }
+
   return s
 }
 
