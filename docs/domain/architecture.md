@@ -2,7 +2,7 @@
 
 **作成日**: 2026-06-01
 **対象**: dailyClaudeNews v0.1
-**前提**: [Claude CLI ヘッドレス仕様調査](./claude-cli-headless-spec.md)
+**前提**: [Claude CLI ヘッドレス仕様調査](../flow/claude-cli-headless-spec.md)（フロー情報）
 
 ---
 
@@ -378,15 +378,6 @@ SSH 認証で push されるため秘密情報を環境変数で持つ必要は�
 
 ## 8. 後続タスクへの引き継ぎ
 
-| 後続タスク | このドキュメントから取り込むべき内容 |
-|------------|-------------------------------------|
-| T006 fetcher 実装 | §2.2 のインターフェース、HN フィルタ仕様 |
-| T006a deduper 実装【新規】 | §2.3 の正規化規則と類似度判定 |
-| T006b historyFilter 実装【新規】 | §2.4 の SeenEntry スキーマと N 日ローテーション |
-| T007 summarizer 実装 | §2.5 のフラグ一覧、プロンプト構造、`fresh`/`recurring` の扱い |
-| T008 writer 実装 | §2.6 のフロントマター形式 |
-| T009 notifier 実装 | §2.7 の gh / osascript コマンド |
-| T010 index 実装 | §2.8 / §2.9 / §4 のフェーズ管理とエラー方針 |
-| T011 run.sh | §1 のラッパー責務（PATH 設定、ログリダイレクト） |
-| T012 launchd plist | §1 の StartCalendarInterval 設定 |
-| T014 テスト | §6 のモック方針 |
+開発タスク（T006 以降）への引き継ぎ事項は、開発時の一時情報のため
+[フロー情報: アーキテクチャ設計の後続タスク引き継ぎ](../flow/architecture-task-handoff.md)
+に分離した。

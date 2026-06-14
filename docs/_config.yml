@@ -15,7 +15,8 @@ defaults:
       layout: default
 
 exclude:
-  - design/
+  - domain/
+  - flow/
   - README.md
   - .DS_Store
 
