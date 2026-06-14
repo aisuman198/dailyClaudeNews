@@ -36,14 +36,21 @@ function slug(s){
   return s.toLowerCase().replace(/[^a-z0-9一-龯ぁ-んァ-ヶー]+/g,'-').replace(/(^-|-$)/g,'').slice(0,80);
 }
 
+// 取得元ラベルの定義は sources.js（DCN_SOURCES）に集約。
+// 未知の source は sourceLabel() が throw する（「SOURCE」へはフォールバックしない）。
+const { sourceLabel, isCommunitySource } = (typeof DCN_SOURCES !== 'undefined')
+  ? DCN_SOURCES
+  : {};
+
 function parseMeta(s){
-  const out = { source: '', sourceLabel: '', points: null, date: '', state: '', recurrence: 0 };
+  // メタ行フォーマット: `source ・ Npt（任意） ・ YYYY-MM-DD ・ 状態（任意）`
+  // pt / 日付 / 状態 をパターンで判定し、それ以外の最初のトークンを source スラッグとして拾う。
+  // 既知/未知の判定はここでは行わず、表示時に sourceLabel() が担う。
+  const out = { source: '', points: null, date: '', state: '', recurrence: 0 };
   if (!s) return out;
   const parts = s.split(/[・·]/).map(x => x.trim()).filter(Boolean);
   for (const p of parts) {
-    if (p === 'hacker-news') { out.source='hn'; out.sourceLabel='HACKER NEWS'; }
-    else if (p === 'anthropic-blog') { out.source='anthropic'; out.sourceLabel='ANTHROPIC'; }
-    else if (/^(\d+)\s*pt$/i.test(p)) { out.points = parseInt(p, 10); }
+    if (/^(\d+)\s*pt$/i.test(p)) { out.points = parseInt(p, 10); }
     else if (/^\d{4}-\d{2}-\d{2}$/.test(p)) { out.date = p; }
     else if (p.includes('継続')) {
       out.state = 'recur';
@@ -51,6 +58,8 @@ function parseMeta(s){
       if (m) out.recurrence = parseInt(m[1], 10);
     } else if (p.includes('新規')) {
       out.state = 'fresh';
+    } else if (!out.source) {
+      out.source = p;
     }
   }
   return out;
@@ -233,6 +242,13 @@ const SHARE_ICONS = {
   slack: '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="#E01E5A" d="M5.04 15.165a2.522 2.522 0 0 1-2.52 2.523A2.522 2.522 0 0 1 0 15.165a2.52 2.52 0 0 1 2.52-2.52h2.52zm1.27 0a2.52 2.52 0 0 1 2.52-2.52 2.52 2.52 0 0 1 2.52 2.52v6.31A2.522 2.522 0 0 1 8.83 24a2.522 2.522 0 0 1-2.52-2.525z"/><path fill="#36C5F0" d="M8.83 5.042a2.522 2.522 0 0 1-2.52-2.522A2.522 2.522 0 0 1 8.83 0a2.522 2.522 0 0 1 2.52 2.52v2.522zm0 1.271a2.522 2.522 0 0 1 2.52 2.52 2.522 2.522 0 0 1-2.52 2.52H2.521A2.52 2.52 0 0 1 0 8.833a2.52 2.52 0 0 1 2.52-2.52z"/><path fill="#2EB67D" d="M18.956 8.833a2.52 2.52 0 0 1 2.52-2.52A2.52 2.52 0 0 1 24 8.833a2.52 2.52 0 0 1-2.524 2.52h-2.52zm-1.27 0a2.522 2.522 0 0 1-2.521 2.52 2.52 2.52 0 0 1-2.52-2.52V2.52A2.52 2.52 0 0 1 15.165 0a2.52 2.52 0 0 1 2.52 2.52z"/><path fill="#ECB22E" d="M15.165 18.958a2.52 2.52 0 0 1 2.52 2.52A2.52 2.52 0 0 1 15.165 24a2.522 2.522 0 0 1-2.52-2.522v-2.52zm0-1.27a2.52 2.52 0 0 1-2.52-2.523 2.522 2.522 0 0 1 2.52-2.52h6.314A2.52 2.52 0 0 1 24 15.165a2.52 2.52 0 0 1-2.521 2.523z"/></svg>',
 };
 
+// 記事カードへの GitHub Pages 上のパーマリンク（共有先）。
+// 共有では元記事ではなく、このサイトの該当記事アンカーへ誘導する。
+function articlePermalink(id){
+  const base = location.origin + location.pathname;
+  return id ? `${base}#a-${id}` : base;
+}
+
 function buildShareButtons(title, url){
   if (!url) return '';
   const text = title || '';
@@ -248,19 +264,16 @@ function buildShareButtons(title, url){
 
 function renderCard(it){
   const m = it.meta || {};
-  const srcLabel = m.source === 'hn'
-    ? `<span class="src">HACKER NEWS</span>${m.points ? ` · ${m.points}PT` : ''}`
-    : m.source === 'anthropic'
-      ? `<span class="src">ANTHROPIC</span>`
-      : '<span class="src">SOURCE</span>';
-  const tagline = m.source === 'hn' ? 'COMMUNITY' : 'OFFICIAL';
+  // 未知の source なら sourceLabel() が throw する（フォールバックしない）。
+  const srcLabel = `<span class="src">${escapeHtml(sourceLabel(m.source))}</span>${m.points ? ` · ${m.points}PT` : ''}`;
+  const tagline = isCommunitySource(m.source) ? 'COMMUNITY' : 'OFFICIAL';
   const stateCls = m.state === 'fresh' ? 'fresh' : 'recur';
   const stateText = m.state === 'fresh' ? 'NEW' : `RECURRING · ${m.recurrence || 0}TH`;
   const body = (it.body || []).length
     ? `<details><summary></summary>${it.body.map(p => `<p>${p}</p>`).join('')}</details>` : '';
   const searchText = [it.title, it.translation, it.lead, ...(it.body||[])].join(' ').toLowerCase();
   const transHtml = it.translation ? `<p class="trans">${escapeHtml(it.translation)}</p>` : '';
-  const shareHtml = buildShareButtons(it.title, it.url);
+  const shareHtml = buildShareButtons(it.title, articlePermalink(it.id));
   return `<article class="card" id="a-${it.id}" data-text="${escapeAttr(searchText)}">
     <div class="card-tagline">${tagline}</div>
     <h3><a href="${escapeAttr(it.url)}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></h3>
@@ -387,10 +400,8 @@ function findArticleForHighlight(highlight, categories){
 }
 
 function sourceLabelFor(item){
-  if (!item || !item.meta) return '';
-  if (item.meta.source === 'hn') return 'HACKER NEWS';
-  if (item.meta.source === 'anthropic') return 'ANTHROPIC';
-  return '';
+  if (!item || !item.meta || !item.meta.source) return '';
+  return sourceLabel(item.meta.source);
 }
 
 document.addEventListener('DOMContentLoaded', () => {

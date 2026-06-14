@@ -50,6 +50,7 @@
   // frontmatter の hero_images を JS から参照可能に。未定義時は空配列。
   window.HERO_IMAGES = {{ page.hero_images | default: empty | jsonify }};
 </script>
+<script src="{{ '/assets/js/sources.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/daily.js' | relative_url }}"></script>
 </body>
 </html>

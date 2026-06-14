@@ -1,4 +1,10 @@
-export type NewsSource = 'anthropic-blog' | 'hacker-news' | 'zenn' | 'qiita'
+// 取得元サービスの一覧（実行時にも参照できる単一の真実）。
+// 新しいニュースソースを追加したら、ここに足したうえで
+// docs/assets/js/sources.js の SOURCE_LABELS にも表示名を追加すること。
+// 追加漏れは src/sources.test.ts（contract test）が検出する。
+export const NEWS_SOURCES = ['anthropic-blog', 'hacker-news', 'zenn', 'qiita'] as const
+
+export type NewsSource = (typeof NEWS_SOURCES)[number]
 
 export type NewsItem = {
   source: NewsSource
