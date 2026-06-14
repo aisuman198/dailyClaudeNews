@@ -393,18 +393,60 @@ function sourceLabelFor(item){
   return '';
 }
 
+// URL 末尾スラッシュ・ハッシュを無視して比較するための正規化。
+function normUrl(u){
+  if (!u) return '';
+  return String(u).replace(/#.*$/, '').replace(/\/+$/, '');
+}
+
+// article_url から記事カードを特定する (案A: hero_matches 経由のマッチング)。
+function findCardByUrl(url, categories){
+  const target = normUrl(url);
+  if (!target) return null;
+  for (const c of categories) {
+    for (const it of c.items) {
+      if (normUrl(it.url) === target) return it;
+    }
+  }
+  return null;
+}
+
+// hero_matches (frontmatter) があれば article_url でカードを特定する。
+// なければ従来の findArticleForHighlight (クライアント側マッチング) にフォールバックする。
+// 返り値: highlights と同順の (card | null) 配列。
+function resolveHeroMatches(highlights, categories){
+  const fm = window.HERO_MATCHES;
+  if (Array.isArray(fm) && fm.length > 0) {
+    return highlights.map((h, i) => {
+      const m = fm[i];
+      if (m && m.article_url) {
+        const card = findCardByUrl(m.article_url, categories);
+        if (card) return card;
+      }
+      // hero_matches にエントリがあるが article_url が null / カード不在の場合のみ
+      // フォールバックする (旧ページや部分欠損への保険)。
+      return findArticleForHighlight(h, categories);
+    });
+  }
+  // hero_matches 未定義 (旧ページ) は従来ロジック。
+  return highlights.map(h => findArticleForHighlight(h, categories));
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setupTheme();
   const raw = document.getElementById('raw-content');
   if (!raw) return;
   const parsed = parseDocument(raw);
 
-  const heroImages = (window.HERO_IMAGES && Array.isArray(window.HERO_IMAGES))
-    ? window.HERO_IMAGES : [];
-  // ハイライトごとに対応する記事を 1 回マッチさせ、source ラベルと target id の両方を取り出す。
-  const heroMatches = parsed.highlights.map(h => findArticleForHighlight(h, parsed.categories));
-  const heroSources = heroMatches.map(sourceLabelFor);
-  const heroTargets = heroMatches.map(it => it ? it.id : '');
+  // ハイライトごとに対応する記事カードを解決する (案A: hero_matches 優先、旧ページはフォールバック)。
+  const heroCards = resolveHeroMatches(parsed.highlights, parsed.categories);
+  const heroSources = heroCards.map(sourceLabelFor);
+  const heroTargets = heroCards.map(it => it ? it.id : '');
+  // og:image は hero_matches の og_image を最優先し、無ければ HERO_IMAGES[i] / カードのなし にフォールバック。
+  const fm = Array.isArray(window.HERO_MATCHES) ? window.HERO_MATCHES : [];
+  const legacyImages = Array.isArray(window.HERO_IMAGES) ? window.HERO_IMAGES : [];
+  const heroImages = parsed.highlights.map((_, i) =>
+    (fm[i] && fm[i].og_image) ? fm[i].og_image : (legacyImages[i] || null));
 
   const heroEl = document.getElementById('hero');
   if (heroEl) heroEl.innerHTML = renderHero(parsed.highlights, heroImages, heroSources, heroTargets);

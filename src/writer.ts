@@ -1,6 +1,7 @@
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import { config, resolvePath } from './config.js'
+import type { HeroMatch } from './heroMatcher.js'
 
 const pad = (n: number): string => String(n).padStart(2, '0')
 
@@ -14,6 +15,7 @@ type FrontmatterInput = {
   freshCount: number
   recurringCount: number
   heroImages?: (string | null)[]
+  heroMatches?: HeroMatch[]
 }
 
 function yamlString(s: string): string {
@@ -38,6 +40,16 @@ function frontmatter(fm: FrontmatterInput): string {
       lines.push(u ? `  - ${yamlString(u)}` : '  - null')
     }
   }
+  // hero_matches: highlight ↔ 記事 の対応関係を単一の真実として出力する (案A)。
+  // クライアント (daily.js) はこの article_url でカードを特定し、マッチング再計算を避ける。
+  if (fm.heroMatches && fm.heroMatches.length > 0) {
+    lines.push('hero_matches:')
+    for (const m of fm.heroMatches) {
+      lines.push(`  - highlight: ${yamlString(m.highlight)}`)
+      lines.push(`    article_url: ${m.articleUrl ? yamlString(m.articleUrl) : 'null'}`)
+      lines.push(`    og_image: ${m.ogImage ? yamlString(m.ogImage) : 'null'}`)
+    }
+  }
   lines.push('---', '')
   return lines.join('\n')
 }
@@ -50,6 +62,7 @@ export async function write(
     freshCount: number
     recurringCount: number
     heroImages?: (string | null)[]
+    heroMatches?: HeroMatch[]
   },
 ): Promise<string> {
   const dateStr = formatDate(date)
