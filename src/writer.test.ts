@@ -88,6 +88,41 @@ describe('writer', () => {
     expect(content).not.toContain('hero_images:')
   })
 
+  it('writes hero_matches block when provided', async () => {
+    const { write } = await importFresh()
+    const file = await write('## hello', new Date(2026, 5, 1), {
+      model: 'm',
+      freshCount: 0,
+      recurringCount: 0,
+      heroMatches: [
+        {
+          highlight: 'TCSとAnthropicが提携を発表',
+          articleUrl: 'https://www.anthropic.com/news/tcs',
+          ogImage: 'https://cdn.anthropic.com/tcs.png',
+        },
+        { highlight: '無関係な話題', articleUrl: null, ogImage: null },
+      ],
+    })
+    const content = await fs.readFile(file, 'utf8')
+    expect(content).toContain('hero_matches:')
+    expect(content).toContain('  - highlight: "TCSとAnthropicが提携を発表"')
+    expect(content).toContain('    article_url: "https://www.anthropic.com/news/tcs"')
+    expect(content).toContain('    og_image: "https://cdn.anthropic.com/tcs.png"')
+    expect(content).toContain('    article_url: null')
+    expect(content).toContain('    og_image: null')
+  })
+
+  it('omits hero_matches when not provided', async () => {
+    const { write } = await importFresh()
+    const file = await write('## hello', new Date(2026, 5, 1), {
+      model: 'm',
+      freshCount: 0,
+      recurringCount: 0,
+    })
+    const content = await fs.readFile(file, 'utf8')
+    expect(content).not.toContain('hero_matches:')
+  })
+
   it('escapes double quotes and backslashes in image URLs', async () => {
     const { write } = await importFresh()
     const file = await write('x', new Date(2026, 5, 1), {

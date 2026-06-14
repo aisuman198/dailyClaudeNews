@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { extractHighlights, pickHeroArticles, pickHeroImages } from './heroMatcher.js'
+import {
+  extractHighlights,
+  pickHeroArticles,
+  pickHeroImages,
+  pickHeroMatches,
+} from './heroMatcher.js'
 import type { NewsItem } from './types.js'
 
 const sampleMd = `## 本日のハイライト
@@ -151,5 +156,67 @@ describe('heroMatcher.pickHeroImages', () => {
 
   it('returns [null, null, null] when no highlights', () => {
     expect(pickHeroImages('', [])).toEqual([null, null, null])
+  })
+})
+
+describe('heroMatcher.pickHeroMatches', () => {
+  const items = [
+    mkItem({
+      title: 'Series H',
+      url: 'https://www.anthropic.com/news/series-h',
+      ogImage: 'https://cdn.anthropic.com/series-h.png',
+    }),
+    mkItem({
+      title: 'Dynamic Workflows in Claude Code',
+      url: 'https://claude.com/blog/dynamic-workflows',
+      // no ogImage
+    }),
+    mkItem({
+      title: 'Claude Design Anthropic Labs',
+      url: 'https://www.anthropic.com/news/claude-design-anthropic-labs',
+      ogImage: 'https://cdn.anthropic.com/design.png',
+    }),
+  ]
+
+  it('returns one HeroMatch per highlight in order, with article_url + og_image', () => {
+    expect(pickHeroMatches(sampleMd, items)).toEqual([
+      {
+        highlight: 'Anthropic が Series H で 650 億ドルを調達、評価額 9,650 億ドル突破',
+        articleUrl: 'https://www.anthropic.com/news/series-h',
+        ogImage: 'https://cdn.anthropic.com/series-h.png',
+      },
+      {
+        highlight: 'Claude Code に Dynamic Workflows 機能が research preview として公開',
+        articleUrl: 'https://claude.com/blog/dynamic-workflows',
+        ogImage: null,
+      },
+      {
+        highlight: 'Anthropic Labs の新製品 Claude Design が research preview 公開',
+        articleUrl: 'https://www.anthropic.com/news/claude-design-anthropic-labs',
+        ogImage: 'https://cdn.anthropic.com/design.png',
+      },
+    ])
+  })
+
+  it('keeps highlight with null article when no article matches (score 0)', () => {
+    const md = '## 本日のハイライト\n- 完全に無関係な話題\n\n## カテゴリ別まとめ\n'
+    expect(pickHeroMatches(md, items)).toEqual([
+      { highlight: '完全に無関係な話題', articleUrl: null, ogImage: null },
+    ])
+  })
+
+  it('does not assign the same article to two highlights', () => {
+    const dupItems = [
+      mkItem({ title: 'Dynamic Workflows in Claude Code', url: 'https://x/a', ogImage: 'https://x/a.png' }),
+    ]
+    const md =
+      '## 本日のハイライト\n- Dynamic Workflows news\n- More Dynamic Workflows update\n\n## カテゴリ別まとめ\n'
+    const matches = pickHeroMatches(md, dupItems)
+    expect(matches[0]!.articleUrl).toBe('https://x/a')
+    expect(matches[1]!.articleUrl).toBeNull()
+  })
+
+  it('returns empty array when no highlights', () => {
+    expect(pickHeroMatches('## カテゴリ別まとめ\n', items)).toEqual([])
   })
 })

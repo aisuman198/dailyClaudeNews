@@ -47,8 +47,11 @@
   </main>
 </div>
 <script>
-  // frontmatter の hero_images を JS から参照可能に。未定義時は空配列。
+  // frontmatter の hero_images / hero_matches を JS から参照可能に。未定義時は空配列。
   window.HERO_IMAGES = {{ page.hero_images | default: empty | jsonify }};
+  // hero_matches: highlight ↔ 記事 の確定済み対応 (案A)。これがあれば daily.js は
+  // article_url でカードを特定し、クライアント側マッチングを再計算しない。
+  window.HERO_MATCHES = {{ page.hero_matches | default: empty | jsonify }};
 </script>
 <script src="{{ '/assets/js/daily.js' | relative_url }}"></script>
 </body>

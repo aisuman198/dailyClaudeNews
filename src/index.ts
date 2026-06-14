@@ -5,7 +5,7 @@ import { dedupe, normalizeUrl } from './deduper.js'
 import { fetchAll } from './fetcher.js'
 import { verifyDeployment } from './deploymentVerifier.js'
 import { commitAndPush } from './git.js'
-import { pickHeroImages } from './heroMatcher.js'
+import { pickHeroImages, pickHeroMatches } from './heroMatcher.js'
 import { dropUnchangedRecurring, loadSeen, persist, split } from './historyFilter.js'
 import { notifyFailure } from './notifier.js'
 import { prioritizeAndPad } from './priorityFilter.js'
@@ -111,9 +111,12 @@ async function main(): Promise<void> {
     // enrich-bodies で og:image も同時に取得済み。
     // ハイライト 3 本に対応する記事のスコアマッチで上位 3 URL を選ぶ。
     const allEnriched = [...freshEnriched, ...recurringEnriched]
-    const heroImages = pickHeroImages(correctedMarkdown, allEnriched)
+    // hero_matches: highlight ↔ 記事 の対応を単一の真実として確定する (案A)。
+    // hero_images は heroMatches から導出し、後方互換のため引き続き出力する。
+    const heroMatches = pickHeroMatches(correctedMarkdown, allEnriched)
+    const heroImages = heroMatches.map((m) => m.ogImage)
     const heroResolved = heroImages.filter((u) => u !== null).length
-    log(phase.current, `ヒーロー画像 ${heroResolved}/${heroImages.length} 件 解決`)
+    log(phase.current, `ヒーロー対応 ${heroMatches.length} 件 / 画像 ${heroResolved} 件 解決`)
 
     phase.current = 'write'
     const filePath = await write(correctedMarkdown, today, {
@@ -122,6 +125,7 @@ async function main(): Promise<void> {
       freshCount: freshEnriched.length,
       recurringCount: recurringEnriched.length,
       heroImages,
+      heroMatches,
     })
     log(phase.current, `書き込み: ${filePath}`)
 
