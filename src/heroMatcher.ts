@@ -87,3 +87,51 @@ export function pickHeroImages(markdown: string, items: NewsItem[]): (string | n
   }
   return out
 }
+
+/**
+ * ハイライトと記事の対応関係 (HeroMatch)。
+ * 「どの highlight がどの記事に対応するか」を単一の真実としてサーバー側で確定し、
+ * frontmatter (hero_matches) 経由でクライアントに渡す。
+ * これによりクライアント側 (daily.js) が独自にマッチングを再計算する必要がなくなり、
+ * サーバー/クライアント間のアルゴリズム乖離 (OGP画像とリンク先の不一致) を防ぐ。
+ *
+ * 設計: docs/design/domain-model.md 第7節「案A」
+ */
+export type HeroMatch = {
+  /** ハイライト本文 */
+  highlight: string
+  /** マッチした記事 URL。マッチなしは null */
+  articleUrl: string | null
+  /** マッチした記事の og:image。マッチなし or 未取得は null */
+  ogImage: string | null
+}
+
+/**
+ * ハイライトごとの HeroMatch を返す。
+ * - highlights の順序を保持し、各 highlight に対応する記事 (or マッチなし) を 1 件ずつ対応させる。
+ * - pickHeroArticles と同じスコアリング・重複排除ロジックを共有する。
+ */
+export function pickHeroMatches(markdown: string, items: NewsItem[]): HeroMatch[] {
+  const highlights = extractHighlights(markdown)
+  const usedUrls = new Set<string>()
+  const matches: HeroMatch[] = []
+  for (const h of highlights) {
+    let best: NewsItem | null = null
+    let bestScore = 0
+    for (const it of items) {
+      if (usedUrls.has(it.url)) continue
+      const s = score(it, h)
+      if (s > bestScore) {
+        bestScore = s
+        best = it
+      }
+    }
+    if (best && bestScore > 0) {
+      usedUrls.add(best.url)
+      matches.push({ highlight: h, articleUrl: best.url, ogImage: best.ogImage ?? null })
+    } else {
+      matches.push({ highlight: h, articleUrl: null, ogImage: null })
+    }
+  }
+  return matches
+}

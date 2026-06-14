@@ -89,17 +89,25 @@ LLMが発見した固有名詞の表記ルールを蓄積し、次回以降の�
 
 ### 2-4. HeroMatch（ハイライト-記事対応）
 
-**現状は明示的な型が存在しない**。これが 2026-06-14 のヒーローマッチングバグの根本原因の一つ。バグの詳細な分析と修正案はフロー情報として
-[ヒーローマッチング設計問題と修正案（2026-06-14）](../flow/hero-matching-design-issue.md)
-に分離した。
+ハイライト1行と記事の対応関係を表す明示的なエンティティ。
 
-概念的には次の対応関係を表す：
+```typescript
+type HeroMatch = {
+  highlight: string          // ハイライトテキスト
+  articleUrl: string | null  // マッチした記事URL（マッチなしは null）
+  ogImage: string | null     // マッチした記事の og:image
+}
+```
 
 ```
 highlight[i] ←→ NewsItem  （1対1、最大3ペア）
 ```
 
-この対応関係が確定するのは `pick-hero` フェーズだが、その結果（`ogImage` のURLのみ）しかフロントエンドに渡っておらず、「どのhighlightがどのNewsItemに対応するか」という情報は失われる。
+対応関係は `pick-hero` フェーズが確定し、`heroMatcher.ts` の `pickHeroMatches()` が `HeroMatch[]` を生成する。`writer.ts` がこれを frontmatter の `hero_matches` として保存し、クライアント（`daily.js`）は `article_url` でカードを特定する。これによりマッチングロジックがサーバー1箇所に集約される。
+
+> **背景**: かつて `HeroMatch` は型として存在せず、frontmatter には `ogImage` URL のみが渡り、対応関係がクライアントで再計算されていた。これが 2026-06-14 のヒーローマッチングバグの根本原因だった。当時の分析・修正案の比較・採用判断（案A採用）の経緯はフロー情報
+> [ヒーローマッチング設計問題と修正案（2026-06-14）](../flow/hero-matching-design-issue.md)
+> を参照。
 
 ---
 

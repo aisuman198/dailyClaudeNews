@@ -138,10 +138,29 @@ function score(item: NewsItem, highlight: string): number {
 
 ## 3. 今後の設計方針（決定事項）
 
-> **この欄はレビュー後に更新する**
+**2026-06-14 レビュー結果: 案A を採用**（実装: [feat/hero-matches-frontmatter (#45)](https://github.com/aisuman198/dailyClaudeNews/pull/45)）
 
 | 観点 | 採用案 | 理由 |
 |-----|--------|------|
-| HeroMatch設計 | （レビュー待ち） | |
-| 既存ページの扱い | （レビュー待ち） | |
-| 後方互換性 | （レビュー待ち） | |
+| HeroMatch設計 | **案A**: `HeroMatch` を型として定義し、frontmatter に `hero_matches` を保存 | 対応関係の単一の真実をサーバー側に集約し、クライアント側のアルゴリズム乖離を原理的に排除する |
+| クライアント実装 | `daily.js` は `window.HERO_MATCHES` の `article_url` でカードを特定。`findArticleForHighlight()` はフォールバック専用に縮退 | スコアリングに依存しない確実な対応付け |
+| 既存ページの扱い | 既存の `.md`（`hero_images` のみ）は再ラン不要。`daily.js` は `hero_matches` 不在時に旧ロジックへフォールバック | 過去ページを壊さない |
+| 後方互換性 | `writer.ts` は `hero_matches` と `hero_images` の両方を出力する | レイアウト・JS の段階的移行を可能にする |
+
+### 案A の実装方針
+
+```typescript
+type HeroMatch = {
+  highlight: string          // ハイライトテキスト
+  articleUrl: string | null  // マッチした記事URL（マッチなしは null）
+  ogImage: string | null     // マッチした記事の og:image
+}
+```
+
+- `heroMatcher.ts`: `pickHeroMatches(markdown, items): HeroMatch[]` を追加（既存の `pickHeroArticles` を再利用）
+- `writer.ts`: frontmatter に `hero_matches`（互換のため `hero_images` も）を書き込む
+- `daily.html`: `window.HERO_MATCHES` を注入
+- `daily.js`: `HERO_MATCHES` があれば `article_url` でカードを特定。なければ旧 `findArticleForHighlight()` にフォールバック
+
+> 確定した HeroMatch のエンティティ定義は、マスタ情報
+> [ドメインモデル設計書 §2-4](../domain/domain-model.md) に反映済み。
