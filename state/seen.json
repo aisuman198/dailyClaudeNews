@@ -345,8 +345,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 9,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 10,
       "bodyHash": "6d5ee4dfca71aeba",
       "bodyLength": 3500
     },
@@ -507,8 +507,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 6,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 7,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -559,8 +559,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 6,
       "bodyHash": "0dd20f6f4576276f",
       "bodyLength": 3500
     },
@@ -658,8 +658,8 @@
       "normalizedUrl": "https://anthropic.com/news/dxc-anthropic-alliance",
       "normalizedTitle": "dxc anthropic alliance",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 4,
       "bodyHash": "f0ab3b0bb180febd",
       "bodyLength": 3500
     },
@@ -667,8 +667,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 4,
       "bodyHash": "d91d9d2e072efa27",
       "bodyLength": 3500
     },
@@ -694,8 +694,8 @@
       "normalizedUrl": "https://anthropic.com/news/tcs-anthropic-partnership",
       "normalizedTitle": "tcs anthropic partnership",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 3,
       "bodyHash": "f6e7e7733f9622ac",
       "bodyLength": 3500
     },
@@ -703,8 +703,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-public-record",
       "normalizedTitle": "anthropic public record",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 3,
       "bodyHash": "9c59258c56a7666a",
       "bodyLength": 3500
     },
@@ -726,8 +726,8 @@
       "normalizedUrl": "https://qiita.com/lhjjjk4/items/4263fd1ece95fafd8f5f",
       "normalizedTitle": "aiデイリーダイジェスト 2026年6月14日 anthropic fable 5 mythos 5の強制停止 openaiへの州司法長官調査 ai幻覚問題",
       "firstSeenDate": "2026-06-13",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 2,
       "bodyHash": "22b817125b97371e",
       "bodyLength": 3500
     },
@@ -771,9 +771,61 @@
       "normalizedUrl": "https://anthropic.com/news/fable-mythos-access",
       "normalizedTitle": "fable mythos access",
       "firstSeenDate": "2026-06-13",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 2,
       "bodyHash": "ff2ea828c92cae8b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "normalizedTitle": "why is claude turning into an a hole",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "c753f917abd22699",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://verysane.ai/p/did-anthropic-ask-for-this",
+      "normalizedTitle": "did anthropic ask for this",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "8fc2d7394ff947a5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
+      "normalizedTitle": "anthropic staff to meet white house officials next week",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yurukusa/items/386a6d1e13cbece3d409",
+      "normalizedTitle": "claude codeのサブエージェントが暴走して枠を焼き尽くす事故 止める1つのhookと 消えた成果の復旧",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "bbb78938bde1b058",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yoshiyakato/items/df0069fa5866be5d53c8",
+      "normalizedTitle": "anthropic fable 5 mythos 5 全面停止事件が示したもの",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "74be168e00597af7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Iud7n/items/0c567e9a23147ec99839",
+      "normalizedTitle": "イベントレポ code with claude tokyo 2026 で学んだaiエージェント開発の最前線",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "87f8e6c69bb008dc",
       "bodyLength": 3500
     }
   ]
