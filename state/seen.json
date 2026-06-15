@@ -95,32 +95,11 @@
       "occurrences": 10
     },
     {
-      "normalizedUrl": "https://unessays.substack.com/p/talk-is-cheap",
-      "normalizedTitle": "talk is cheap the operational impact of llm use",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 8
-    },
-    {
       "normalizedUrl": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing",
       "normalizedTitle": "with claude less coding more testing",
       "firstSeenDate": "2026-05-31",
       "lastSeenDate": "2026-06-01",
       "occurrences": 11
-    },
-    {
-      "normalizedUrl": "https://news.bloomberglaw.com/daily-labor-report/connecticuts-lamont-signs-ai-law-with-employer-notice-mandate",
-      "normalizedTitle": "ct gov signs ai law to notify employees",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://openrouter.ai/announcements/series-b",
-      "normalizedTitle": "openrouter raises 113m series b",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 6
     },
     {
       "normalizedUrl": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans",
@@ -144,60 +123,11 @@
       "occurrences": 7
     },
     {
-      "normalizedUrl": "https://fortune.com/2026/05/27/ai-cfos-women-hyperscalers-nvidia-meta-microsoft-openai-ipo",
-      "normalizedTitle": "five giant hyperscalers and nvidia share a surprising trait female cfos",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://openenvelope.org/docs/schema",
-      "normalizedTitle": "show hn open envelope an open schema for defining ai agent teams",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
-      "normalizedTitle": "ai models are free private and will never say no",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 6
-    },
-    {
       "normalizedUrl": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
       "normalizedTitle": "dynamic workflows in claude code",
       "firstSeenDate": "2026-05-31",
       "lastSeenDate": "2026-06-01",
       "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://github.com/jmaczan/tiny-vllm",
-      "normalizedTitle": "show hn tiny vllm high performance llm inference engine in c and cuda",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
-      "normalizedTitle": "netflix wiz creates app to slash ai bills then open sources it",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://nexo.sh/posts/agentpack",
-      "normalizedTitle": "show hn agentpack isolated config layers for claude code codex and opencode",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://news.uchicago.edu/story/song-ai-generated-uchicago-scientists-create-browser-extension-check",
-      "normalizedTitle": "is that song ai generated uchicago scientists create tool to check",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 4
     },
     {
       "normalizedUrl": "https://ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
@@ -345,8 +275,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 10,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 11,
       "bodyHash": "6d5ee4dfca71aeba",
       "bodyLength": 3500
     },
@@ -426,8 +356,8 @@
       "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
       "normalizedTitle": "emotion concepts function",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 7,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 8,
       "bodyHash": "bee302614b94cfed",
       "bodyLength": 3500
     },
@@ -507,8 +437,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 7,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 8,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -559,8 +489,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 6,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 7,
       "bodyHash": "0dd20f6f4576276f",
       "bodyLength": 3500
     },
@@ -658,8 +588,8 @@
       "normalizedUrl": "https://anthropic.com/news/dxc-anthropic-alliance",
       "normalizedTitle": "dxc anthropic alliance",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 5,
       "bodyHash": "f0ab3b0bb180febd",
       "bodyLength": 3500
     },
@@ -667,8 +597,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 5,
       "bodyHash": "d91d9d2e072efa27",
       "bodyLength": 3500
     },
@@ -694,8 +624,8 @@
       "normalizedUrl": "https://anthropic.com/news/tcs-anthropic-partnership",
       "normalizedTitle": "tcs anthropic partnership",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 4,
       "bodyHash": "f6e7e7733f9622ac",
       "bodyLength": 3500
     },
@@ -703,8 +633,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-public-record",
       "normalizedTitle": "anthropic public record",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 4,
       "bodyHash": "9c59258c56a7666a",
       "bodyLength": 3500
     },
@@ -771,8 +701,8 @@
       "normalizedUrl": "https://anthropic.com/news/fable-mythos-access",
       "normalizedTitle": "fable mythos access",
       "firstSeenDate": "2026-06-13",
-      "lastSeenDate": "2026-06-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 3,
       "bodyHash": "ff2ea828c92cae8b",
       "bodyLength": 3500
     },
@@ -827,6 +757,58 @@
       "occurrences": 1,
       "bodyHash": "87f8e6c69bb008dc",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "normalizedTitle": "apple foundation models",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "06379d6ea65d42e8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://stratechery.com/2026/anthropics-safety-superpower",
+      "normalizedTitle": "anthropic s safety superpower",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "50ee143e784cc278",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+      "normalizedTitle": "the ai price war is here piling pressure on openai and anthropic",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Yukidarusan/items/1838d137bdc91c409269",
+      "normalizedTitle": "2026 6 claude fable 5 が使えなくなった件を調べてみた",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "0577ba1b0e6b7a1e",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yurukusa/items/c36c582cf75a44c56155",
+      "normalizedTitle": "claude code の6 15課金分離 自分の jsonl ログから 影響額 m を実測する",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "b4dd621ad4a612a8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Kanade_dev/items/c775be0dd4f86e8b74f8",
+      "normalizedTitle": "anthropic fable 5とmythos 5 3日で消えた史上最高モデル",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "c1e68a2d392c7975",
+      "bodyLength": 1558
     }
   ]
 }
