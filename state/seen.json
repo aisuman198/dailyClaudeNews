@@ -67,111 +67,6 @@
       "occurrences": 12
     },
     {
-      "normalizedUrl": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
-      "normalizedTitle": "the speed of prototyping in the age of ai",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://github.com/pewdiepie-archdaemon/odysseus",
-      "normalizedTitle": "odysseus self hosted ai workspace",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://thoughts.hmmz.org/2026-05-31.html",
-      "normalizedTitle": "the solution might be cancelling my ai subscription",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises",
-      "normalizedTitle": "accenture to acquire ookla",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing",
-      "normalizedTitle": "with claude less coding more testing",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 11
-    },
-    {
-      "normalizedUrl": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans",
-      "normalizedTitle": "meta launches instagram facebook and whatsapp subscriptions",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://jackmaguire.org/blog/ai-job-grief",
-      "normalizedTitle": "ai job grief a psychological crisis hitting tech workers",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://amnesty.org/en/documents/pol40/0996/2026/en",
-      "normalizedTitle": "unlawful by design exposing the human rights costs of generative ai",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 7
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-      "normalizedTitle": "dynamic workflows in claude code",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
-      "normalizedTitle": "what if remote working not ai is to blame for weak junior hiring",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://github.com/RsyncProject/rsync/issues/934",
-      "normalizedTitle": "remove all llm generated commits before people get hurt by this nonsense",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://elidedbranches.com/",
-      "normalizedTitle": "guidelines for respectful use of ai",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://github.com/pssah4/vault-operator",
-      "normalizedTitle": "karpathy llm wiki pattern integrated into obsidian agenic workflow",
-      "firstSeenDate": "2026-06-01",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
-      "normalizedTitle": "chatgpt for google sheets is vulnerable to data exfiltration and phishing",
-      "firstSeenDate": "2026-06-01",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://cate.cero-ai.com/blog/ui-problem-ai-coding-agents",
-      "normalizedTitle": "the ui problem of ai coding agents",
-      "firstSeenDate": "2026-06-01",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 2
-    },
-    {
       "normalizedUrl": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
       "normalizedTitle": "ai agent guidelines for cs336 at stanford",
       "firstSeenDate": "2026-06-02",
@@ -275,8 +170,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 11,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 12,
       "bodyHash": "6d5ee4dfca71aeba",
       "bodyLength": 3500
     },
@@ -356,8 +251,8 @@
       "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
       "normalizedTitle": "emotion concepts function",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 8,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 9,
       "bodyHash": "bee302614b94cfed",
       "bodyLength": 3500
     },
@@ -437,8 +332,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 8,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 9,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -489,8 +384,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 7,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 8,
       "bodyHash": "0dd20f6f4576276f",
       "bodyLength": 3500
     },
@@ -588,8 +483,8 @@
       "normalizedUrl": "https://anthropic.com/news/dxc-anthropic-alliance",
       "normalizedTitle": "dxc anthropic alliance",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 6,
       "bodyHash": "f0ab3b0bb180febd",
       "bodyLength": 3500
     },
@@ -597,8 +492,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 6,
       "bodyHash": "d91d9d2e072efa27",
       "bodyLength": 3500
     },
@@ -624,17 +519,17 @@
       "normalizedUrl": "https://anthropic.com/news/tcs-anthropic-partnership",
       "normalizedTitle": "tcs anthropic partnership",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 4,
-      "bodyHash": "f6e7e7733f9622ac",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 5,
+      "bodyHash": "1c5b28528c9f1ec6",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-public-record",
       "normalizedTitle": "anthropic public record",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 5,
       "bodyHash": "9c59258c56a7666a",
       "bodyLength": 3500
     },
@@ -701,8 +596,8 @@
       "normalizedUrl": "https://anthropic.com/news/fable-mythos-access",
       "normalizedTitle": "fable mythos access",
       "firstSeenDate": "2026-06-13",
-      "lastSeenDate": "2026-06-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 4,
       "bodyHash": "ff2ea828c92cae8b",
       "bodyLength": 3500
     },
@@ -809,6 +704,78 @@
       "occurrences": 1,
       "bodyHash": "c1e68a2d392c7975",
       "bodyLength": 1558
+    },
+    {
+      "normalizedUrl": "https://status.claude.com/incidents/xmhsglsz3h3w",
+      "normalizedTitle": "claude elevated errors across many models resolved",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "4122e0caa514ba73",
+      "bodyLength": 1320
+    },
+    {
+      "normalizedUrl": "https://howardchen.substack.com/p/deepseek-v4-pro-at-5-the-cost-of",
+      "normalizedTitle": "deepseek v4 pro at 5 the cost of claude what it takes to close the gap",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "086f46ca24855efd",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://hyperdimensional.co/p/leviathan-waking",
+      "normalizedTitle": "leviathan waking on anthropic usg and a new era in ai governance",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "1398dcdbc16b1fc7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
+      "normalizedTitle": "claude code expertise",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "df2bb68ccf30de21",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/9f78b0e3dec2aae45dfe",
+      "normalizedTitle": "claude apiで複数モデル同時障害 sonnet opusで最大10 エラー率上昇の全容",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "1317545f7cee653f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/202b244a34a46b998eb9",
+      "normalizedTitle": "claude connectorsでspotify uber連携 個人アプリ15種のセットアップ完全ガイド",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "2aff17d5a24da166",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/152a5a72dce27fb1e0d0",
+      "normalizedTitle": "claude code v2 1 178 tool param value 権限構文とセキュリティ改善",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "42b6ec2dde82a802",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/core-views-on-ai-safety",
+      "normalizedTitle": "core views on ai safety",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "abc940d1ecb570f9",
+      "bodyLength": 3500
     }
   ]
 }
