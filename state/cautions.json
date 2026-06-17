@@ -360,6 +360,26 @@
       "examples": [
         "TCS記事の人名表記でピリオドが欠落していた"
       ]
+    },
+    {
+      "term": "選定した（選定??た）",
+      "rule": "「し」（ひらがな1文字）がU+FFFD×2に化けるパターン：「選定した」→「選定??た」",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "examples": [
+        "核セーフガード記事の本文「選定??た核リスク指標リスト」"
+      ]
+    },
+    {
+      "term": "中黒「・」→ U+FFFD×2（??）",
+      "rule": "subタグ内の区切り文字「・」がU+FFFD×2に化けるパターン",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "examples": [
+        "settings.json記事のsubタグ「2pt ?? 2026-06-16」"
+      ]
     }
   ]
 }

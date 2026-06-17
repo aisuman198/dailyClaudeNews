@@ -53,25 +53,11 @@
       "occurrences": 13
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "normalizedTitle": "kiyoung choi representative director anthropic korea",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/chris-olah-pope-leo-encyclical",
       "normalizedTitle": "chris olah pope leo encyclical",
       "firstSeenDate": "2026-05-31",
       "lastSeenDate": "2026-06-06",
       "occurrences": 12
-    },
-    {
-      "normalizedUrl": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
-      "normalizedTitle": "ai agent guidelines for cs336 at stanford",
-      "firstSeenDate": "2026-06-02",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 1
     },
     {
       "normalizedUrl": "https://anthropic.com/news/confidential-draft-s1-sec",
@@ -776,6 +762,202 @@
       "occurrences": 1,
       "bodyHash": "abc940d1ecb570f9",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/the-founders-playbook",
+      "normalizedTitle": "the founder s playbook building an ai native startup",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "2a49726f591e6436",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://openrouter.ai/blog/insights/royale-last-agent-standing",
+      "normalizedTitle": "a robot is sprinting towards you do you want it running on claude or grok",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "ef51fa75c312c618",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+      "normalizedTitle": "the hacker sent by anthropic to calm the government s nerves about ai safety",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/d3faece85a5361e890c7",
+      "normalizedTitle": "claude code の許可プロンプトを9割減らす settings json 最適化レシピ allow deny の優先順位と bash パターン記法のハマりどころ 2026",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "f7c453e64915f8c0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "normalizedTitle": "seoul office partnerships korean ai ecosystem",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "4c2fb5e857de6e8c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
+      "normalizedTitle": "frontier red team",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "38ecedf31b59eb12",
+      "bodyLength": 1500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/mythos-preview",
+      "normalizedTitle": "mythos preview",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "242cd77e2e5023c6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
+      "normalizedTitle": "nuclear safeguards for ai",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "5151dcbbd1af560b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/n-days",
+      "normalizedTitle": "n days",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "5aebef8a2fd69ff0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/attack-navigator",
+      "normalizedTitle": "attack navigator",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "dc385e3e0ab03a6d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/exploit-evals",
+      "normalizedTitle": "exploit evals",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "ca0d2e604e74e663",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/exploit",
+      "normalizedTitle": "exploit",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "86ec3f725b37bfc2",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/zero-days",
+      "normalizedTitle": "zero days",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "2dfbf41d7d6d06c5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/property-based-testing",
+      "normalizedTitle": "property based testing",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "8344c93dd4480d8b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
+      "normalizedTitle": "cyber toolkits update",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "f98d01b12cf77ce6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/critical-infrastructure-defense",
+      "normalizedTitle": "critical infrastructure defense",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "a3c2e0ba747c6d27",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/smart-contracts",
+      "normalizedTitle": "smart contracts",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "ed3b31d55ae07293",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+      "normalizedTitle": "developing nuclear safeguards for ai through public private partnership",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "9e1f040a18d66bf9",
+      "bodyLength": 2866
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits",
+      "normalizedTitle": "cyber toolkits",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "c7b47298faffa5a0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/f57719af9020f64340f1",
+      "normalizedTitle": "aiが自分でゼロデイ発見 anthropic mythosの衝撃と非公開の理由を徹底解説",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "703b414b7ed0ea63",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/okssusucha/items/89b442f6cf4311c99283",
+      "normalizedTitle": "claude code 2 1 178の権限ルールはツール引数までマッチできる",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "8804d212c6c39db9",
+      "bodyLength": 3471
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/aa08e8d2c5cf5aa0e731",
+      "normalizedTitle": "claude code v2 1 178 v2 1 179 tool param value でパラメータ単位の権限制御 毎日changelog解説",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "cb09ff1aa4cd4db4",
+      "bodyLength": 3309
     }
   ]
 }
