@@ -380,6 +380,66 @@
       "examples": [
         "settings.json記事のsubタグ「2pt ?? 2026-06-16」"
       ]
+    },
+    {
+      "term": "引用内英文未訳",
+      "rule": "日本語記事内の引用文は日本語に統一する",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "KiYoung Choiの発言後半「Korean organizations are building...」が英語のまま残っていたため翻訳"
+      ]
+    },
+    {
+      "term": "「K韓国」タイプミス",
+      "rule": "「韓国科学技術情報通信部」の直前に誤った「K」が混入しないよう注意",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「AnthropicはK韓国科学技術情報通信部」の「K」を削除"
+      ]
+    },
+    {
+      "term": "韓火ソリューションズ（Hanwha）",
+      "rule": "企業名は「韓火ソリューションズ」、英語表記は「Hanwha」",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「韓化ソリューションズ」→「韓火ソリューションズ」、「Hanwaha」→「Hanwha」に修正"
+      ]
+    },
+    {
+      "term": "バイオインフォマティクス表記不統一",
+      "rule": "同一記事内では「バイオインフォマティクス」に統一する",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「生物情報科学の人間専門家」を「バイオインフォマティクスの人間専門家」に統一"
+      ]
+    },
+    {
+      "term": "タイミングに→タイミングで",
+      "rule": "時機を表す場合は「タイミングで」が自然な日本語",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「タイミングに会話履歴が消える」→「タイミングで会話履歴が消える」"
+      ]
+    },
+    {
+      "term": "PC使用中のモバイルへ",
+      "rule": "時間的条件は「PCを使用中に」と助詞を正しく配置する",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「PC使用中のモバイルへのプッシュ通知」→「PCを使用中にモバイルへのプッシュ通知」"
+      ]
     }
   ]
 }
