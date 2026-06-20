@@ -440,6 +440,26 @@
       "examples": [
         "「PC使用中のモバイルへのプッシュ通知」→「PCを使用中にモバイルへのプッシュ通知」"
       ]
+    },
+    {
+      "term": "Korea市場",
+      "rule": "英語地名を日本語文中に混在させない。「韓国市場」と表記する",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "examples": [
+        "記事見出し「ソウルオフィスをオープンしKorea市場での展開を拡大」内で発見"
+      ]
+    },
+    {
+      "term": "Korean Ai Ecosystem（原題内）",
+      "rule": "原題スラグ由来の「Ai」は「AI」と大文字表記する",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "examples": [
+        "原題フィールド「Seoul Office Partnerships Korean Ai Ecosystem」で再発。既存ルールと同パターンの新規記事"
+      ]
     }
   ]
 }
