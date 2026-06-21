@@ -460,6 +460,26 @@
       "examples": [
         "原題フィールド「Seoul Office Partnerships Korean Ai Ecosystem」で再発。既存ルールと同パターンの新規記事"
       ]
+    },
+    {
+      "term": "停止（止）",
+      "rule": "「止」がU+FFFFDに化けるパターン：「停止」→「停���」",
+      "firstSeenDate": "2026-06-21",
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 1,
+      "examples": [
+        "第2層見出し内で「停止」が「停���」に文字化けしていたため修正"
+      ]
+    },
+    {
+      "term": "のみへの使用に制限され",
+      "rule": "「のみへの使用に制限され」は不自然。「のみに使用が制限され」と表記する",
+      "firstSeenDate": "2026-06-21",
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 1,
+      "examples": [
+        "Personaのデータ使用制限を述べる文で助詞が不自然だったため修正"
+      ]
     }
   ]
 }

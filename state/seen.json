@@ -11,43 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "normalizedTitle": "chris olah pope leo encyclical",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-06",
-      "occurrences": 12
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/institute/recursive-self-improvement",
-      "normalizedTitle": "when ai builds itself our progress toward recursive self improvement",
-      "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-06",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://github.com/anthropics/defending-code-reference-harness",
-      "normalizedTitle": "anthropic s open source framework for ai powered vulnerability discovery",
-      "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-06",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://alexispurslane.github.io/rsync-analysis",
-      "normalizedTitle": "did claude increase bugs in rsync",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-06",
-      "occurrences": 2,
-      "bodyHash": "2ce24025b21587de",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://blog.plover.com/2026/03/09",
-      "normalizedTitle": "programmers will document for claude but not for each other",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-06",
-      "occurrences": 1
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
@@ -171,15 +134,6 @@
       "lastSeenDate": "2026-06-07",
       "occurrences": 3,
       "bodyHash": "981560de4ef5a91a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms",
-      "normalizedTitle": "s p 500 rejects spacex also blocking entry for openai and anthropic",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-06",
-      "occurrences": 1,
-      "bodyHash": "6e1ccb0291d158b3",
       "bodyLength": 3500
     },
     {
@@ -617,8 +571,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
       "normalizedTitle": "claude code expertise",
       "firstSeenDate": "2026-06-16",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 4,
       "bodyHash": "df2bb68ccf30de21",
       "bodyLength": 3500
     },
@@ -696,8 +650,8 @@
       "normalizedUrl": "https://anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
       "normalizedTitle": "seoul office partnerships korean ai ecosystem",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "70e5c131cd4091c2",
       "bodyLength": 3500
     },
@@ -705,8 +659,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
       "normalizedTitle": "frontier red team",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "76f2157e27bbc067",
       "bodyLength": 1445
     },
@@ -714,8 +668,8 @@
       "normalizedUrl": "https://anthropic.com/research/mythos-preview",
       "normalizedTitle": "mythos preview",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "242cd77e2e5023c6",
       "bodyLength": 3500
     },
@@ -723,8 +677,8 @@
       "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
       "normalizedTitle": "nuclear safeguards for ai",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "5151dcbbd1af560b",
       "bodyLength": 3500
     },
@@ -732,8 +686,8 @@
       "normalizedUrl": "https://anthropic.com/research/n-days",
       "normalizedTitle": "n days",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "5aebef8a2fd69ff0",
       "bodyLength": 3500
     },
@@ -741,8 +695,8 @@
       "normalizedUrl": "https://anthropic.com/research/attack-navigator",
       "normalizedTitle": "attack navigator",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "dc385e3e0ab03a6d",
       "bodyLength": 3500
     },
@@ -750,8 +704,8 @@
       "normalizedUrl": "https://anthropic.com/research/exploit-evals",
       "normalizedTitle": "exploit evals",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "ca0d2e604e74e663",
       "bodyLength": 3500
     },
@@ -759,8 +713,8 @@
       "normalizedUrl": "https://anthropic.com/research/exploit",
       "normalizedTitle": "exploit",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "86ec3f725b37bfc2",
       "bodyLength": 3500
     },
@@ -768,8 +722,8 @@
       "normalizedUrl": "https://anthropic.com/research/zero-days",
       "normalizedTitle": "zero days",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "c1fe3f6ac84b6b95",
       "bodyLength": 3500
     },
@@ -777,8 +731,8 @@
       "normalizedUrl": "https://anthropic.com/research/property-based-testing",
       "normalizedTitle": "property based testing",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "8344c93dd4480d8b",
       "bodyLength": 3500
     },
@@ -786,8 +740,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
       "normalizedTitle": "cyber toolkits update",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "f98d01b12cf77ce6",
       "bodyLength": 3500
     },
@@ -795,8 +749,8 @@
       "normalizedUrl": "https://anthropic.com/research/critical-infrastructure-defense",
       "normalizedTitle": "critical infrastructure defense",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 5,
       "bodyHash": "a3c2e0ba747c6d27",
       "bodyLength": 3500
     },
@@ -867,8 +821,8 @@
       "normalizedUrl": "https://anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
       "normalizedTitle": "evaluating claude for bioinformatics with biomysterybench",
       "firstSeenDate": "2026-06-18",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 4,
       "bodyHash": "a1c6e81fc8802fe5",
       "bodyLength": 3500
     },
@@ -876,8 +830,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-fetch-phase-two",
       "normalizedTitle": "project fetch phase two",
       "firstSeenDate": "2026-06-18",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 4,
       "bodyHash": "53fa84174e237373",
       "bodyLength": 3500
     },
@@ -971,8 +925,8 @@
       "normalizedUrl": "https://qiita.com/ochtum/items/0ac42a915e0a54808a62",
       "normalizedTitle": "主要5社のaiエコシステム概要 openai anthropic google github microsoftを俯瞰する",
       "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 2,
       "bodyHash": "7d9e9c7d9fe91cd7",
       "bodyLength": 3500
     },
@@ -980,8 +934,8 @@
       "normalizedUrl": "https://qiita.com/moha0918_/items/9cafe58f1e98d3af2599",
       "normalizedTitle": "claude code v2 1 185 ストール表示が10秒 20秒に 毎日changelog解説",
       "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 2,
       "bodyHash": "0672178c37c82ea4",
       "bodyLength": 2094
     },
@@ -989,9 +943,36 @@
       "normalizedUrl": "https://qiita.com/kai_kou/items/337eb235da9b9a081836",
       "normalizedTitle": "claude code managed agents入門 スケジュール実行とcli統合の実装ガイド",
       "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 2,
+      "bodyHash": "9ed06e8607b7d359",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "normalizedTitle": "identity verification on claude",
+      "firstSeenDate": "2026-06-21",
+      "lastSeenDate": "2026-06-21",
       "occurrences": 1,
-      "bodyHash": "86240988b85c456e",
+      "bodyHash": "f4a898122a27da06",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/nikitadoudikov/claude-pulse",
+      "normalizedTitle": "show hn pulse dashboard for claude code approve tool calls from your phone",
+      "firstSeenDate": "2026-06-21",
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 1,
+      "bodyHash": "7a213a1770e38404",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/59177cb0dcf75bff1846",
+      "normalizedTitle": "claude code auto modeを安全に回す 破壊的コマンドを止める3層防御",
+      "firstSeenDate": "2026-06-21",
+      "lastSeenDate": "2026-06-21",
+      "occurrences": 1,
+      "bodyHash": "465ce681447cd46c",
       "bodyLength": 3500
     }
   ]
