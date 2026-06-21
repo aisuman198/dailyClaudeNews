@@ -13,3 +13,4 @@
 | [claude-cli-headless-spec.md](./claude-cli-headless-spec.md) | Claude CLI ヘッドレスモードの仕様調査結果（T003、2026-06-01） |
 | [architecture-task-handoff.md](./architecture-task-handoff.md) | アーキテクチャ設計から後続実装タスクへの引き継ぎ（T006以降） |
 | [hero-matching-design-issue.md](./hero-matching-design-issue.md) | ヒーローマッチングバグの分析・修正案・未決事項（2026-06-14） |
+| [future-enhancements.md](./future-enhancements.md) | 将来の拡張余地（T005 設計時点の構想・一部実現済み） |

@@ -369,10 +369,10 @@ SSH 認証で push されるため秘密情報を環境変数で持つ必要は�
 
 ## 7. 将来の拡張余地
 
-- 追加ソース: arXiv、Anthropic Discord、X/Twitter（API 課金が必要）
-- 出力形式: GitHub Pages 化（`docs/` を Pages のソースに設定）
-- 差分検出: 前日のまとめと類似していたら通知のみ送り push しないオプション
-- Slack 通知: 成功時にチャンネル投稿（Webhook URL を `.env` に追加するだけ）
+将来の拡張アイデア（追加ソース・出力形式・差分検出・Slack 通知など）は、
+いずれも未決定の構想であり時間が経てば古くなるため、
+[フロー情報: 将来の拡張余地](../flow/future-enhancements.md)
+に分離した。
 
 ---
 
