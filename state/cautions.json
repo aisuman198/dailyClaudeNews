@@ -310,6 +310,156 @@
       "examples": [
         "冗長な名詞節「が存在することを」を名詞句「の存在を」に修正"
       ]
+    },
+    {
+      "term": "会話記録（会話記録）",
+      "rule": "「記録」の「録」がU+FFFDに化けるパターンに注意",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "examples": [
+        "「会話記録を走査」が「会話記��を走査」と文字化けしていた"
+      ]
+    },
+    {
+      "term": "指摘している（して���る）",
+      "rule": "「している」の「い」がU+FFFD×3に化けるパターンに注意",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "examples": [
+        "「指摘している」が「指摘して���る」と文字化けしていた"
+      ]
+    },
+    {
+      "term": "Claude Cowork",
+      "rule": "Anthropic の公式サービス名として確認できない表記。Claude.com・Claude Console・Claude for Work 等の誤記の可能性がある",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "examples": [
+        "障害の影響範囲の列挙中に登場。次回以降、元ソースで正式名称を確認すること"
+      ]
+    },
+    {
+      "term": "1命令あたりに",
+      "rule": "「あたり」の後に格助詞「に」を重ねない。「1命令あたり〜」が自然な形",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "examples": [
+        "研究記事の要約中「1命令あたりに Claude が行う作業量」を修正"
+      ]
+    },
+    {
+      "term": "N Chandrasekaran",
+      "rule": "イニシャルの後にピリオドを付ける：N. Chandrasekaran",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "examples": [
+        "TCS記事の人名表記でピリオドが欠落していた"
+      ]
+    },
+    {
+      "term": "選定した（選定??た）",
+      "rule": "「し」（ひらがな1文字）がU+FFFD×2に化けるパターン：「選定した」→「選定??た」",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "examples": [
+        "核セーフガード記事の本文「選定??た核リスク指標リスト」"
+      ]
+    },
+    {
+      "term": "中黒「・」→ U+FFFD×2（??）",
+      "rule": "subタグ内の区切り文字「・」がU+FFFD×2に化けるパターン",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "examples": [
+        "settings.json記事のsubタグ「2pt ?? 2026-06-16」"
+      ]
+    },
+    {
+      "term": "引用内英文未訳",
+      "rule": "日本語記事内の引用文は日本語に統一する",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "KiYoung Choiの発言後半「Korean organizations are building...」が英語のまま残っていたため翻訳"
+      ]
+    },
+    {
+      "term": "「K韓国」タイプミス",
+      "rule": "「韓国科学技術情報通信部」の直前に誤った「K」が混入しないよう注意",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「AnthropicはK韓国科学技術情報通信部」の「K」を削除"
+      ]
+    },
+    {
+      "term": "韓火ソリューションズ（Hanwha）",
+      "rule": "企業名は「韓火ソリューションズ」、英語表記は「Hanwha」",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「韓化ソリューションズ」→「韓火ソリューションズ」、「Hanwaha」→「Hanwha」に修正"
+      ]
+    },
+    {
+      "term": "バイオインフォマティクス表記不統一",
+      "rule": "同一記事内では「バイオインフォマティクス」に統一する",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「生物情報科学の人間専門家」を「バイオインフォマティクスの人間専門家」に統一"
+      ]
+    },
+    {
+      "term": "タイミングに→タイミングで",
+      "rule": "時機を表す場合は「タイミングで」が自然な日本語",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「タイミングに会話履歴が消える」→「タイミングで会話履歴が消える」"
+      ]
+    },
+    {
+      "term": "PC使用中のモバイルへ",
+      "rule": "時間的条件は「PCを使用中に」と助詞を正しく配置する",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "examples": [
+        "「PC使用中のモバイルへのプッシュ通知」→「PCを使用中にモバイルへのプッシュ通知」"
+      ]
+    },
+    {
+      "term": "Korea市場",
+      "rule": "英語地名を日本語文中に混在させない。「韓国市場」と表記する",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "examples": [
+        "記事見出し「ソウルオフィスをオープンしKorea市場での展開を拡大」内で発見"
+      ]
+    },
+    {
+      "term": "Korean Ai Ecosystem（原題内）",
+      "rule": "原題スラグ由来の「Ai」は「AI」と大文字表記する",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "examples": [
+        "原題フィールド「Seoul Office Partnerships Korean Ai Ecosystem」で再発。既存ルールと同パターンの新規記事"
+      ]
     }
   ]
 }

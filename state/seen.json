@@ -2,34 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
-      "normalizedTitle": "claude design anthropic labs",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 14
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/series-h",
-      "normalizedTitle": "series h",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 15
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-opus-4-8",
-      "normalizedTitle": "claude opus 4 8",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 15
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/milan-office-opening",
-      "normalizedTitle": "milan office opening",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-04",
-      "occurrences": 14
-    },
-    {
       "normalizedUrl": "https://anthropic.com/engineering/how-we-contain-claude",
       "normalizedTitle": "how we contain claude",
       "firstSeenDate": "2026-05-31",
@@ -39,256 +11,11 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
-      "normalizedTitle": "coding agents social sciences",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-03",
-      "occurrences": 13
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/engineering/claude-code-auto-mode",
-      "normalizedTitle": "claude code auto mode",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-03",
-      "occurrences": 13
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "normalizedTitle": "kiyoung choi representative director anthropic korea",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 12
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/chris-olah-pope-leo-encyclical",
       "normalizedTitle": "chris olah pope leo encyclical",
       "firstSeenDate": "2026-05-31",
       "lastSeenDate": "2026-06-06",
       "occurrences": 12
-    },
-    {
-      "normalizedUrl": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
-      "normalizedTitle": "the speed of prototyping in the age of ai",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://github.com/pewdiepie-archdaemon/odysseus",
-      "normalizedTitle": "odysseus self hosted ai workspace",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://thoughts.hmmz.org/2026-05-31.html",
-      "normalizedTitle": "the solution might be cancelling my ai subscription",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises",
-      "normalizedTitle": "accenture to acquire ookla",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://unessays.substack.com/p/talk-is-cheap",
-      "normalizedTitle": "talk is cheap the operational impact of llm use",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing",
-      "normalizedTitle": "with claude less coding more testing",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 11
-    },
-    {
-      "normalizedUrl": "https://news.bloomberglaw.com/daily-labor-report/connecticuts-lamont-signs-ai-law-with-employer-notice-mandate",
-      "normalizedTitle": "ct gov signs ai law to notify employees",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://openrouter.ai/announcements/series-b",
-      "normalizedTitle": "openrouter raises 113m series b",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 6
-    },
-    {
-      "normalizedUrl": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans",
-      "normalizedTitle": "meta launches instagram facebook and whatsapp subscriptions",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://jackmaguire.org/blog/ai-job-grief",
-      "normalizedTitle": "ai job grief a psychological crisis hitting tech workers",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 10
-    },
-    {
-      "normalizedUrl": "https://amnesty.org/en/documents/pol40/0996/2026/en",
-      "normalizedTitle": "unlawful by design exposing the human rights costs of generative ai",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 7
-    },
-    {
-      "normalizedUrl": "https://fortune.com/2026/05/27/ai-cfos-women-hyperscalers-nvidia-meta-microsoft-openai-ipo",
-      "normalizedTitle": "five giant hyperscalers and nvidia share a surprising trait female cfos",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://openenvelope.org/docs/schema",
-      "normalizedTitle": "show hn open envelope an open schema for defining ai agent teams",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks",
-      "normalizedTitle": "ai models are free private and will never say no",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 6
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-      "normalizedTitle": "dynamic workflows in claude code",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 8
-    },
-    {
-      "normalizedUrl": "https://github.com/jmaczan/tiny-vllm",
-      "normalizedTitle": "show hn tiny vllm high performance llm inference engine in c and cuda",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
-      "normalizedTitle": "netflix wiz creates app to slash ai bills then open sources it",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://nexo.sh/posts/agentpack",
-      "normalizedTitle": "show hn agentpack isolated config layers for claude code codex and opencode",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://news.uchicago.edu/story/song-ai-generated-uchicago-scientists-create-browser-extension-check",
-      "normalizedTitle": "is that song ai generated uchicago scientists create tool to check",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-05-31",
-      "occurrences": 4
-    },
-    {
-      "normalizedUrl": "https://ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
-      "normalizedTitle": "what if remote working not ai is to blame for weak junior hiring",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 5
-    },
-    {
-      "normalizedUrl": "https://github.com/RsyncProject/rsync/issues/934",
-      "normalizedTitle": "remove all llm generated commits before people get hurt by this nonsense",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://elidedbranches.com/",
-      "normalizedTitle": "guidelines for respectful use of ai",
-      "firstSeenDate": "2026-05-31",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://github.com/pssah4/vault-operator",
-      "normalizedTitle": "karpathy llm wiki pattern integrated into obsidian agenic workflow",
-      "firstSeenDate": "2026-06-01",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
-      "normalizedTitle": "chatgpt for google sheets is vulnerable to data exfiltration and phishing",
-      "firstSeenDate": "2026-06-01",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://cate.cero-ai.com/blog/ui-problem-ai-coding-agents",
-      "normalizedTitle": "the ui problem of ai coding agents",
-      "firstSeenDate": "2026-06-01",
-      "lastSeenDate": "2026-06-01",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
-      "normalizedTitle": "ai agent guidelines for cs336 at stanford",
-      "firstSeenDate": "2026-06-02",
-      "lastSeenDate": "2026-06-02",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/confidential-draft-s1-sec",
-      "normalizedTitle": "confidential draft s1 sec",
-      "firstSeenDate": "2026-06-02",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 4
-    },
-    {
-      "normalizedUrl": "https://economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "normalizedTitle": "can the stockmarket swallow anthropic spacex and openai",
-      "firstSeenDate": "2026-06-03",
-      "lastSeenDate": "2026-06-03",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://github.com/yujqiao/100cc",
-      "normalizedTitle": "show hn 100cc roll your own claude in 100 lines",
-      "firstSeenDate": "2026-06-03",
-      "lastSeenDate": "2026-06-03",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/expanding-project-glasswing",
-      "normalizedTitle": "expanding project glasswing",
-      "firstSeenDate": "2026-06-03",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "normalizedTitle": "ai enabled cyber threats mitre attack",
-      "firstSeenDate": "2026-06-04",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/services-track-partner-hub",
-      "normalizedTitle": "services track partner hub",
-      "firstSeenDate": "2026-06-04",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 2
     },
     {
       "normalizedUrl": "https://anthropic.com/institute/recursive-self-improvement",
@@ -303,27 +30,6 @@
       "firstSeenDate": "2026-06-05",
       "lastSeenDate": "2026-06-06",
       "occurrences": 2
-    },
-    {
-      "normalizedUrl": "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
-      "normalizedTitle": "claude code and codex can have real time conversation via git",
-      "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://boxes.dev/",
-      "normalizedTitle": "show hn boxes dev ditch localhost run claude code and codex in the cloud",
-      "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815",
-      "normalizedTitle": "nsa using anthropic s mythos for cyber attacks",
-      "firstSeenDate": "2026-06-05",
-      "lastSeenDate": "2026-06-05",
-      "occurrences": 1
     },
     {
       "normalizedUrl": "https://alexispurslane.github.io/rsync-analysis",
@@ -345,8 +51,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 9,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 12,
       "bodyHash": "6d5ee4dfca71aeba",
       "bodyLength": 3500
     },
@@ -426,8 +132,8 @@
       "normalizedUrl": "https://anthropic.com/research/emotion-concepts-function",
       "normalizedTitle": "emotion concepts function",
       "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-11",
-      "occurrences": 7,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 9,
       "bodyHash": "bee302614b94cfed",
       "bodyLength": 3500
     },
@@ -507,8 +213,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 6,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 9,
       "bodyHash": "e4d270bfc9296bea",
       "bodyLength": 3500
     },
@@ -559,8 +265,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 8,
       "bodyHash": "0dd20f6f4576276f",
       "bodyLength": 3500
     },
@@ -658,8 +364,8 @@
       "normalizedUrl": "https://anthropic.com/news/dxc-anthropic-alliance",
       "normalizedTitle": "dxc anthropic alliance",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 6,
       "bodyHash": "f0ab3b0bb180febd",
       "bodyLength": 3500
     },
@@ -667,8 +373,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-06-11",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 3,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 6,
       "bodyHash": "d91d9d2e072efa27",
       "bodyLength": 3500
     },
@@ -694,17 +400,17 @@
       "normalizedUrl": "https://anthropic.com/news/tcs-anthropic-partnership",
       "normalizedTitle": "tcs anthropic partnership",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 2,
-      "bodyHash": "f6e7e7733f9622ac",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 5,
+      "bodyHash": "1c5b28528c9f1ec6",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-public-record",
       "normalizedTitle": "anthropic public record",
       "firstSeenDate": "2026-06-12",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 2,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 5,
       "bodyHash": "9c59258c56a7666a",
       "bodyLength": 3500
     },
@@ -726,8 +432,8 @@
       "normalizedUrl": "https://qiita.com/lhjjjk4/items/4263fd1ece95fafd8f5f",
       "normalizedTitle": "aiデイリーダイジェスト 2026年6月14日 anthropic fable 5 mythos 5の強制停止 openaiへの州司法長官調査 ai幻覚問題",
       "firstSeenDate": "2026-06-13",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 2,
       "bodyHash": "22b817125b97371e",
       "bodyLength": 3500
     },
@@ -771,9 +477,521 @@
       "normalizedUrl": "https://anthropic.com/news/fable-mythos-access",
       "normalizedTitle": "fable mythos access",
       "firstSeenDate": "2026-06-13",
-      "lastSeenDate": "2026-06-13",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 4,
       "bodyHash": "ff2ea828c92cae8b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "normalizedTitle": "why is claude turning into an a hole",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "c753f917abd22699",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://verysane.ai/p/did-anthropic-ask-for-this",
+      "normalizedTitle": "did anthropic ask for this",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "8fc2d7394ff947a5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14",
+      "normalizedTitle": "anthropic staff to meet white house officials next week",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yurukusa/items/386a6d1e13cbece3d409",
+      "normalizedTitle": "claude codeのサブエージェントが暴走して枠を焼き尽くす事故 止める1つのhookと 消えた成果の復旧",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "bbb78938bde1b058",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yoshiyakato/items/df0069fa5866be5d53c8",
+      "normalizedTitle": "anthropic fable 5 mythos 5 全面停止事件が示したもの",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "74be168e00597af7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Iud7n/items/0c567e9a23147ec99839",
+      "normalizedTitle": "イベントレポ code with claude tokyo 2026 で学んだaiエージェント開発の最前線",
+      "firstSeenDate": "2026-06-14",
+      "lastSeenDate": "2026-06-14",
+      "occurrences": 1,
+      "bodyHash": "87f8e6c69bb008dc",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "normalizedTitle": "apple foundation models",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "06379d6ea65d42e8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://stratechery.com/2026/anthropics-safety-superpower",
+      "normalizedTitle": "anthropic s safety superpower",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "50ee143e784cc278",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+      "normalizedTitle": "the ai price war is here piling pressure on openai and anthropic",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Yukidarusan/items/1838d137bdc91c409269",
+      "normalizedTitle": "2026 6 claude fable 5 が使えなくなった件を調べてみた",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "0577ba1b0e6b7a1e",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yurukusa/items/c36c582cf75a44c56155",
+      "normalizedTitle": "claude code の6 15課金分離 自分の jsonl ログから 影響額 m を実測する",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "b4dd621ad4a612a8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Kanade_dev/items/c775be0dd4f86e8b74f8",
+      "normalizedTitle": "anthropic fable 5とmythos 5 3日で消えた史上最高モデル",
+      "firstSeenDate": "2026-06-15",
+      "lastSeenDate": "2026-06-15",
+      "occurrences": 1,
+      "bodyHash": "c1e68a2d392c7975",
+      "bodyLength": 1558
+    },
+    {
+      "normalizedUrl": "https://status.claude.com/incidents/xmhsglsz3h3w",
+      "normalizedTitle": "claude elevated errors across many models resolved",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "4122e0caa514ba73",
+      "bodyLength": 1320
+    },
+    {
+      "normalizedUrl": "https://howardchen.substack.com/p/deepseek-v4-pro-at-5-the-cost-of",
+      "normalizedTitle": "deepseek v4 pro at 5 the cost of claude what it takes to close the gap",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "086f46ca24855efd",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://hyperdimensional.co/p/leviathan-waking",
+      "normalizedTitle": "leviathan waking on anthropic usg and a new era in ai governance",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "1398dcdbc16b1fc7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
+      "normalizedTitle": "claude code expertise",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 3,
+      "bodyHash": "df2bb68ccf30de21",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/9f78b0e3dec2aae45dfe",
+      "normalizedTitle": "claude apiで複数モデル同時障害 sonnet opusで最大10 エラー率上昇の全容",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "1317545f7cee653f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/202b244a34a46b998eb9",
+      "normalizedTitle": "claude connectorsでspotify uber連携 個人アプリ15種のセットアップ完全ガイド",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "2aff17d5a24da166",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/152a5a72dce27fb1e0d0",
+      "normalizedTitle": "claude code v2 1 178 tool param value 権限構文とセキュリティ改善",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "42b6ec2dde82a802",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/core-views-on-ai-safety",
+      "normalizedTitle": "core views on ai safety",
+      "firstSeenDate": "2026-06-16",
+      "lastSeenDate": "2026-06-16",
+      "occurrences": 1,
+      "bodyHash": "abc940d1ecb570f9",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/the-founders-playbook",
+      "normalizedTitle": "the founder s playbook building an ai native startup",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 2,
+      "bodyHash": "64e9f302db0e868e",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://openrouter.ai/blog/insights/royale-last-agent-standing",
+      "normalizedTitle": "a robot is sprinting towards you do you want it running on claude or grok",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "ef51fa75c312c618",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+      "normalizedTitle": "the hacker sent by anthropic to calm the government s nerves about ai safety",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 2
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/d3faece85a5361e890c7",
+      "normalizedTitle": "claude code の許可プロンプトを9割減らす settings json 最適化レシピ allow deny の優先順位と bash パターン記法のハマりどころ 2026",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "f7c453e64915f8c0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "normalizedTitle": "seoul office partnerships korean ai ecosystem",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "70e5c131cd4091c2",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
+      "normalizedTitle": "frontier red team",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "76f2157e27bbc067",
+      "bodyLength": 1445
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/mythos-preview",
+      "normalizedTitle": "mythos preview",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "242cd77e2e5023c6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
+      "normalizedTitle": "nuclear safeguards for ai",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "5151dcbbd1af560b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/n-days",
+      "normalizedTitle": "n days",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "5aebef8a2fd69ff0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/attack-navigator",
+      "normalizedTitle": "attack navigator",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "dc385e3e0ab03a6d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/exploit-evals",
+      "normalizedTitle": "exploit evals",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "ca0d2e604e74e663",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/exploit",
+      "normalizedTitle": "exploit",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "86ec3f725b37bfc2",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/zero-days",
+      "normalizedTitle": "zero days",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "c1fe3f6ac84b6b95",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/property-based-testing",
+      "normalizedTitle": "property based testing",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "8344c93dd4480d8b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
+      "normalizedTitle": "cyber toolkits update",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "f98d01b12cf77ce6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/critical-infrastructure-defense",
+      "normalizedTitle": "critical infrastructure defense",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 4,
+      "bodyHash": "a3c2e0ba747c6d27",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/smart-contracts",
+      "normalizedTitle": "smart contracts",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 2,
+      "bodyHash": "ed3b31d55ae07293",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+      "normalizedTitle": "developing nuclear safeguards for ai through public private partnership",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "9e1f040a18d66bf9",
+      "bodyLength": 2866
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits",
+      "normalizedTitle": "cyber toolkits",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "c7b47298faffa5a0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/f57719af9020f64340f1",
+      "normalizedTitle": "aiが自分でゼロデイ発見 anthropic mythosの衝撃と非公開の理由を徹底解説",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "703b414b7ed0ea63",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/okssusucha/items/89b442f6cf4311c99283",
+      "normalizedTitle": "claude code 2 1 178の権限ルールはツール引数までマッチできる",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "8804d212c6c39db9",
+      "bodyLength": 3471
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/aa08e8d2c5cf5aa0e731",
+      "normalizedTitle": "claude code v2 1 178 v2 1 179 tool param value でパラメータ単位の権限制御 毎日changelog解説",
+      "firstSeenDate": "2026-06-17",
+      "lastSeenDate": "2026-06-17",
+      "occurrences": 1,
+      "bodyHash": "cb09ff1aa4cd4db4",
+      "bodyLength": 3309
+    },
+    {
+      "normalizedUrl": "https://wired.com/story/sk-telecom-anthropic-mythos-export-controls",
+      "normalizedTitle": "the korean telecom giant at the center of anthropic s mythos controversy",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-19",
+      "occurrences": 2,
+      "bodyHash": "c38a845ba85988c9",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "normalizedTitle": "evaluating claude for bioinformatics with biomysterybench",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 3,
+      "bodyHash": "a1c6e81fc8802fe5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/project-fetch-phase-two",
+      "normalizedTitle": "project fetch phase two",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 3,
+      "bodyHash": "53fa84174e237373",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/5dbedcdd25053ee70eb5",
+      "normalizedTitle": "claude code v2 1 181 の新機能 バグ修正まとめ config 構文と重大バグ修正",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "bodyHash": "1833c10e664795f4",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/YushiYamamoto/items/dec0bf1e3c8556de9eb7",
+      "normalizedTitle": "claude fable 5 api移行チェックリスト 拒否処理 adaptive thinking常時オン データ保持30日の実装対応",
+      "firstSeenDate": "2026-06-18",
+      "lastSeenDate": "2026-06-18",
+      "occurrences": 1,
+      "bodyHash": "e9e1d5d6adddcf48",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "normalizedTitle": "john jumper to join anthropic",
+      "firstSeenDate": "2026-06-19",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 2,
+      "bodyHash": "4763274c7186899a",
+      "bodyLength": 2875
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/74e97e0f8be8174d312e",
+      "normalizedTitle": "claude code v2 1 181 v2 1 183 auto modeが破壊的コマンドを止める 毎日changelog解説",
+      "firstSeenDate": "2026-06-19",
+      "lastSeenDate": "2026-06-19",
+      "occurrences": 1,
+      "bodyHash": "23cadfa61efc7122",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/f2a4da4cd2e99718d66f",
+      "normalizedTitle": "claude code v2 1 183 autoモードの破壊的コマンド自動ブロックと安全性強化",
+      "firstSeenDate": "2026-06-19",
+      "lastSeenDate": "2026-06-19",
+      "occurrences": 1,
+      "bodyHash": "a7c319e30458f8d1",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/86a5cc9e0ab776447a87",
+      "normalizedTitle": "claude code dynamic workflows でコードベース全体をセキュリティ監査する",
+      "firstSeenDate": "2026-06-19",
+      "lastSeenDate": "2026-06-19",
+      "occurrences": 1,
+      "bodyHash": "91ec923a7f1e36f3",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/bdb9605b05a81c81e97f",
+      "normalizedTitle": "claude fable 5 mythos 5 エクスポート制限の衝撃 セキュリティとai規制 企業対応ガイド",
+      "firstSeenDate": "2026-06-19",
+      "lastSeenDate": "2026-06-19",
+      "occurrences": 1,
+      "bodyHash": "f8e4f5f0cdbd0fc5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20",
+      "normalizedTitle": "ubisoft co founder claude guillemot has died in a plane crash",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
+      "normalizedTitle": "us scientist john jumper to leave google deepmind for anthropic",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/pekopugu/items/00d94a49438d121efd64",
+      "normalizedTitle": "ai 人間 チーム開発挑戦記 claude codeを 相棒 にして 休日の時間で16本の記事と1つのaiエージェントを作った話",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "bodyHash": "5595b932fd433873",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ochtum/items/0ac42a915e0a54808a62",
+      "normalizedTitle": "主要5社のaiエコシステム概要 openai anthropic google github microsoftを俯瞰する",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "bodyHash": "7d9e9c7d9fe91cd7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/9cafe58f1e98d3af2599",
+      "normalizedTitle": "claude code v2 1 185 ストール表示が10秒 20秒に 毎日changelog解説",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "bodyHash": "0672178c37c82ea4",
+      "bodyLength": 2094
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/337eb235da9b9a081836",
+      "normalizedTitle": "claude code managed agents入門 スケジュール実行とcli統合の実装ガイド",
+      "firstSeenDate": "2026-06-20",
+      "lastSeenDate": "2026-06-20",
+      "occurrences": 1,
+      "bodyHash": "86240988b85c456e",
       "bodyLength": 3500
     }
   ]
