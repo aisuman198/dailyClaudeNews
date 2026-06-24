@@ -480,6 +480,36 @@
       "examples": [
         "Personaのデータ使用制限を述べる文で助詞が不自然だったため修正"
       ]
+    },
+    {
+      "term": "低桁数百万ドル",
+      "rule": "「一桁台前半の数百万ドル規模」と表記する",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "examples": [
+        "「low single-digit millions」の日本語表現として「低桁数百万」は不自然"
+      ]
+    },
+    {
+      "term": "NVMe の SSD 価値",
+      "rule": "複合名詞は「NVMe SSD の価値」と助詞を整理する",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "examples": [
+        "「NVMe の SSD 価値」は「の」の連鎖が冗長で不自然"
+      ]
+    },
+    {
+      "term": "懸念される会話",
+      "rule": "「懸念のある会話」と表記する",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "examples": [
+        "「懸念される＋名詞」より「懸念のある＋名詞」が自然な修飾形"
+      ]
     }
   ]
 }
