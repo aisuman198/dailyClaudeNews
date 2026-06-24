@@ -30,6 +30,7 @@ const ISSUE_LABELS_DEF = [
   { name: 'dailyClaudeNews', color: '0E8A16', description: 'dailyClaudeNews 自動投稿' },
   { name: 'category:timeout', color: 'FBCA04', description: 'タイムアウト系の失敗' },
   { name: 'category:rate-limit', color: 'FBCA04', description: 'Max 5h 上限など' },
+  { name: 'category:auth', color: 'B60205', description: 'claude 認証失敗（要再ログイン）' },
   { name: 'category:fetch', color: 'D93F0B', description: 'ニュース取得失敗' },
   { name: 'category:article-fetch', color: 'FBCA04', description: '記事本文の取得失敗' },
   { name: 'category:git', color: 'D93F0B', description: 'git 操作失敗' },

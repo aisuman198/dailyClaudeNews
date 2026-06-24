@@ -48,6 +48,7 @@ export type SummarizeResult = {
 
 export type Phase =
   | 'init'
+  | 'auth-check'
   | 'fetch'
   | 'dedupe'
   | 'prioritize'

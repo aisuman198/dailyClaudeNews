@@ -49,6 +49,8 @@ const SKIP_LABEL_PREFIXES = [
   'category:timeout',
   'category:rate-limit',
   'category:article-fetch',
+  // 認証失敗はコードでは直せず再ログインが必要。自動修正 PR の対象から外す。
+  'category:auth',
 ]
 
 export function isFixable(title: string, labels: string[]): boolean {
