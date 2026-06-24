@@ -1,6 +1,6 @@
 import type { Phase } from './types.js'
 
-export type ErrorCategory = 'timeout' | 'fetch' | 'article-fetch' | 'git' | 'rate-limit' | 'verify-deploy' | 'unknown'
+export type ErrorCategory = 'timeout' | 'fetch' | 'article-fetch' | 'git' | 'rate-limit' | 'auth' | 'verify-deploy' | 'unknown'
 
 export type Categorized = {
   category: ErrorCategory
@@ -11,6 +11,24 @@ export type Categorized = {
 
 const TIMEOUT_PATTERNS = [/タイムアウト/, /timeout/i, /timed out/i]
 const RATE_LIMIT_PATTERNS = [/rate limit/i, /quota/i, /5時間/, /usage limit/i, /5h/i]
+
+// claude CLI の認証失敗。OAuth/サブスクトークンの失効が主因で、コードでは直せず
+// `claude auth login` での再ログインが必要なため、専用カテゴリに分けて
+// retrospect の自動修正 PR 対象から外す（[[project_summarize_auth_dependency]]）。
+// 記事取得等の HTTP 401 と衝突しないよう、bare な "401" ではなく claude 固有の
+// 文言にマッチさせる。
+const AUTH_PATTERNS = [
+  /failed to authenticate/i,
+  /invalid authentication credentials/i,
+  /authentication[_ ]error/i,
+  /oauth token (has )?expired/i,
+  /please run .{0,30}\/login/i,
+  /401 unauthorized/i,
+]
+
+export function isAuthError(message: string): boolean {
+  return AUTH_PATTERNS.some((p) => p.test(message ?? ''))
+}
 
 export function categorize(error: Error, phase: Phase): Categorized {
   const msg = error.message ?? ''
@@ -50,6 +68,17 @@ export function categorize(error: Error, phase: Phase): Categorized {
       subkey: 'failure',
       title: `[dailyClaudeNews] 記事取得失敗`,
       labels: ['dailyClaudeNews', 'category:article-fetch', `phase:${phase}`],
+    }
+  }
+
+  if (isAuthError(msg)) {
+    // フェーズに依らず単一 issue に集約する（auth-check / summarize / review の
+    // どこで踏んでも原因と対処は同じ「再ログイン」）。
+    return {
+      category: 'auth',
+      subkey: 'auth',
+      title: `[dailyClaudeNews] claude 認証エラー (要再ログイン)`,
+      labels: ['dailyClaudeNews', 'category:auth', `phase:${phase}`],
     }
   }
 

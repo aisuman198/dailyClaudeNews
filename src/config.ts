@@ -18,6 +18,8 @@ export const config = {
   reviewerModel: env('REVIEWER_MODEL', 'claude-sonnet-4-6'),
   reviewEnabled: env('REVIEW_ENABLED', 'true').toLowerCase() === 'true',
   claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 1_800_000),
+  // パイプライン開始前の認証プリフライト用の短いタイムアウト。
+  authCheckTimeoutMs: envNum('AUTH_CHECK_TIMEOUT_MS', 120_000),
 
   anthropicSitemap: env('ANTHROPIC_SITEMAP', 'https://www.anthropic.com/sitemap.xml'),
   anthropicLookbackDays: envNum('ANTHROPIC_LOOKBACK_DAYS', 7),

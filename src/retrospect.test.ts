@@ -81,4 +81,8 @@ describe('isFixable', () => {
     expect(isFixable('[dailyClaudeNews] 記事取得タイムアウト', ['dailyClaudeNews', 'category:article-fetch'])).toBe(false)
     expect(isFixable('[dailyClaudeNews] 記事取得失敗', ['dailyClaudeNews', 'category:article-fetch'])).toBe(false)
   })
+
+  it('returns false for auth category (要再ログイン。コードでは直せない)', () => {
+    expect(isFixable('[dailyClaudeNews] claude 認証エラー (要再ログイン)', ['dailyClaudeNews', 'category:auth'])).toBe(false)
+  })
 })

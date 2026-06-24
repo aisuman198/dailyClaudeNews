@@ -1,4 +1,5 @@
 import { enrichWithBodies } from './articleFetcher.js'
+import { checkClaudeAuth } from './authCheck.js'
 import { loadCautions, persistCautions } from './cautionStore.js'
 import { config } from './config.js'
 import { dedupe, normalizeUrl } from './deduper.js'
@@ -24,6 +25,22 @@ function log(phase: Phase, message: string): void {
 async function main(): Promise<void> {
   const phase: { current: Phase } = { current: 'init' }
   try {
+    // 認証プリフライト: 高コストな fetch/enrich/summarize に入る前に claude が
+    // 実際に認証できるか確認する。失効していたら早期に投げ、notifier 経由で
+    // 「要再ログイン」issue + macOS 通知を出してパイプラインの空振りを防ぐ。
+    phase.current = 'auth-check'
+    log(phase.current, 'claude 認証を事前確認')
+    const auth = await checkClaudeAuth()
+    if (auth.ok) {
+      log(phase.current, 'OK')
+    } else if (auth.isAuth) {
+      throw new Error(`claude 認証に失敗しました。再ログインが必要です (claude auth login): ${auth.detail}`)
+    } else {
+      // 認証以外の一時的失敗 (タイムアウト等) で本処理まで止めない。後続で本当に
+      // 失敗すれば既存のフェーズ別ハンドリングが拾う。
+      log(phase.current, `認証プローブ失敗だが認証エラーではないため続行: ${auth.detail.slice(0, 200)}`)
+    }
+
     phase.current = 'fetch'
     log(phase.current, '開始')
     const raw = await fetchAll()
