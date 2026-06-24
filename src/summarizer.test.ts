@@ -1,7 +1,31 @@
-import { describe, expect, it } from 'vitest'
+import { EventEmitter } from 'node:events'
+import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { Caution } from './cautionStore.js'
-import { buildPrompt } from './summarizer.js'
+import { buildPrompt, summarize } from './summarizer.js'
 import type { NewsItem } from './types.js'
+
+const spawnMock = vi.hoisted(() => vi.fn())
+vi.mock('node:child_process', () => ({ spawn: spawnMock }))
+
+// spawn の戻り値を模した擬似 child。ハンドラ登録後に stdout/stderr/exit を発火する。
+function fakeChild(opts: { stdout?: string; stderr?: string; code?: number }) {
+  const child = new EventEmitter() as EventEmitter & {
+    stdout: EventEmitter
+    stderr: EventEmitter
+    stdin: { end: () => void }
+    kill: () => void
+  }
+  child.stdout = new EventEmitter()
+  child.stderr = new EventEmitter()
+  child.stdin = { end: () => {} }
+  child.kill = () => {}
+  setImmediate(() => {
+    if (opts.stdout) child.stdout.emit('data', Buffer.from(opts.stdout))
+    if (opts.stderr) child.stderr.emit('data', Buffer.from(opts.stderr))
+    child.emit('exit', opts.code ?? 0)
+  })
+  return child
+}
 
 const it1: NewsItem = {
   source: 'anthropic-blog',
@@ -111,5 +135,27 @@ describe('summarizer.buildPrompt', () => {
   it('omits the known cautions section when list is empty', () => {
     const p = buildPrompt([it1], [it2], [])
     expect(p).not.toContain('# 既知の用語表記ルール')
+  })
+})
+
+describe('summarizer.runClaude エラーの可視化', () => {
+  beforeEach(() => spawnMock.mockReset())
+
+  it('claude が stdout に出すエラー本文 (例: 401) を例外メッセージに含める', async () => {
+    // claude CLI は -p モードで認証エラー等を stdout に書き、stderr は空。
+    // 旧実装は stderr だけ拾い "終了コード 1: " と原因不明になっていた。
+    spawnMock.mockImplementation(() =>
+      fakeChild({
+        stdout: 'Failed to authenticate. API Error: 401 Invalid authentication credentials\n',
+        stderr: '',
+        code: 1,
+      }),
+    )
+    await expect(summarize([it1], [it2])).rejects.toThrow(/401 Invalid authentication credentials/)
+  })
+
+  it('終了コードも例外メッセージに含める', async () => {
+    spawnMock.mockImplementation(() => fakeChild({ stdout: 'boom', code: 1 }))
+    await expect(summarize([it1], [it2])).rejects.toThrow(/終了コード 1/)
   })
 })
