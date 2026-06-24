@@ -119,51 +119,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/persona-selection-model",
-      "normalizedTitle": "persona selection model",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 4,
-      "bodyHash": "69d3103920b13766",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/natural-language-autoencoders",
-      "normalizedTitle": "natural language autoencoders",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-07",
-      "occurrences": 3,
-      "bodyHash": "981560de4ef5a91a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/65697",
-      "normalizedTitle": "anthropic please ship an official claude desktop for linux",
-      "firstSeenDate": "2026-06-07",
-      "lastSeenDate": "2026-06-07",
-      "occurrences": 1,
-      "bodyHash": "680cac0add8c3244",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index",
-      "normalizedTitle": "i design with claude more than figma now",
-      "firstSeenDate": "2026-06-07",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 2,
-      "bodyHash": "32c06891220f94b5",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
-      "normalizedTitle": "microsoft hacked to deliver malware to claude and gemini users",
-      "firstSeenDate": "2026-06-08",
-      "lastSeenDate": "2026-06-08",
-      "occurrences": 1,
-      "bodyHash": "ef29ababe3bbd498",
-      "bodyLength": 1602
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
@@ -180,40 +135,6 @@
       "occurrences": 2,
       "bodyHash": "3da58eb630e2bb2b",
       "bodyLength": 3074
-    },
-    {
-      "normalizedUrl": "https://techtrenches.dev/p/anthropic-kept-every-promise-it-could",
-      "normalizedTitle": "anthropic kept every promise it could afford",
-      "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 1,
-      "bodyHash": "efc24a7bc76e07f5",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://twitter.com/i/status/2064399902684139852",
-      "normalizedTitle": "claude fable 5 will sabotage frontier llm research tasks",
-      "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://github.com/Kaelio/ktx",
-      "normalizedTitle": "show hn open source version of anthropic s internal analytics engine",
-      "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 1,
-      "bodyHash": "fa91604fcb35f96d",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/OpenYabby/OpenYabby",
-      "normalizedTitle": "show hn openyabby voice controlled multi agent orchestrator for claude code",
-      "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-09",
-      "occurrences": 1,
-      "bodyHash": "17d12506760a6ae8",
-      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
@@ -571,8 +492,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
       "normalizedTitle": "claude code expertise",
       "firstSeenDate": "2026-06-16",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 5,
       "bodyHash": "df2bb68ccf30de21",
       "bodyLength": 3500
     },
@@ -650,8 +571,8 @@
       "normalizedUrl": "https://anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
       "normalizedTitle": "seoul office partnerships korean ai ecosystem",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 6,
       "bodyHash": "70e5c131cd4091c2",
       "bodyLength": 3500
     },
@@ -677,9 +598,9 @@
       "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
       "normalizedTitle": "nuclear safeguards for ai",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 5,
-      "bodyHash": "5151dcbbd1af560b",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 6,
+      "bodyHash": "896bb0269fc7a8d4",
       "bodyLength": 3500
     },
     {
@@ -821,8 +742,8 @@
       "normalizedUrl": "https://anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
       "normalizedTitle": "evaluating claude for bioinformatics with biomysterybench",
       "firstSeenDate": "2026-06-18",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 5,
       "bodyHash": "a1c6e81fc8802fe5",
       "bodyLength": 3500
     },
@@ -830,8 +751,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-fetch-phase-two",
       "normalizedTitle": "project fetch phase two",
       "firstSeenDate": "2026-06-18",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 4,
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 5,
       "bodyHash": "53fa84174e237373",
       "bodyLength": 3500
     },
@@ -973,6 +894,58 @@
       "lastSeenDate": "2026-06-21",
       "occurrences": 1,
       "bodyHash": "465ce681447cd46c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "normalizedTitle": "nsa lost access to mythos amid anthropic dispute",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+      "normalizedTitle": "openai codex bombards ssds with needless write operations",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "bodyHash": "34e3e820ffa9a25c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/7f8023942ae65745b02b",
+      "normalizedTitle": "claude code v2 1 187 sandbox credentials で認証情報漏洩リスクを防ぐ新機能と多数のバグ修正",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "bodyHash": "403084b2dbf0731d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/81k-economics",
+      "normalizedTitle": "81k economics",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "bodyHash": "090b4b7b3471f673",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
+      "normalizedTitle": "introducing claude tag",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "bodyHash": "72a33e882394069c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/gates-foundation-partnership",
+      "normalizedTitle": "gates foundation partnership",
+      "firstSeenDate": "2026-06-24",
+      "lastSeenDate": "2026-06-24",
+      "occurrences": 1,
+      "bodyHash": "6fb3bf201f526c0c",
       "bodyLength": 3500
     }
   ]
