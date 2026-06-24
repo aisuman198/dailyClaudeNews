@@ -158,7 +158,11 @@ function runClaude(prompt: string): Promise<string> {
         return
       }
       if (code !== 0) {
-        reject(new Error(`claude 終了コード ${code}: ${stderr.slice(0, 500)}`))
+        // claude CLI は -p モードでエラー本文 (例: "Failed to authenticate. API
+        // Error: 401 ...") を stdout に出すことがある。stderr だけ見ると空になり
+        // "終了コード 1: " と原因不明の issue になるため、両方を拾って原因を残す。
+        const detail = [stderr.trim(), stdout.trim()].filter(Boolean).join(' / ').slice(0, 500)
+        reject(new Error(`claude 終了コード ${code}: ${detail}`))
         return
       }
       resolve(stdout)

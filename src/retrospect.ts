@@ -5,10 +5,22 @@ import { config } from './config.js'
 import { createDraftPr, listIssues, type GhIssue } from './issueClient.js'
 import { redact } from './redact.js'
 
-function todayJst(): string {
+export function todayJst(now: Date = new Date()): string {
   const tz = 9 * 60 // JST offset in minutes
-  const now = new Date(Date.now() + tz * 60_000)
-  return now.toISOString().slice(0, 10)
+  const shifted = new Date(now.getTime() + tz * 60_000)
+  return shifted.toISOString().slice(0, 10)
+}
+
+// 当日 (JST) に起票された issue を検索するクエリ。
+//
+// run ジョブは JST 08:00 に issue を起票するため、その createdAt は UTC では前日
+// 23:xx になる (例: issue #58 = 2026-06-22T23:00:29Z = JST 06-23 08:00)。
+// retrospect は JST 09:00 に走るが、`created:>=2026-06-23` のような日付のみの
+// 指定を GitHub Search API は UTC 00:00 基準で解釈するため、UTC 前日 23:xx の
+// issue がヒットせず取りこぼしていた。タイムゾーン付き ISO 8601 (+09:00) で
+// 「JST 当日 0:00 以降」を明示することで取りこぼしを防ぐ。
+export function todaysIssueSearch(now: Date = new Date()): string {
+  return `created:>=${todayJst(now)}T00:00:00+09:00`
 }
 
 const DATE_RE = /\d{4}-\d{2}-\d{2}/g
@@ -144,7 +156,7 @@ async function main(): Promise<void> {
     todays = await listIssues({
       repo: config.errorIssueRepo,
       state: 'all',
-      search: `created:>=${dateStr}`,
+      search: todaysIssueSearch(),
       labels: ['dailyClaudeNews'],
     })
   } catch (err) {
