@@ -101,24 +101,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/next-generation-constitutional-classifiers",
-      "normalizedTitle": "next generation constitutional classifiers",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-10",
-      "occurrences": 6,
-      "bodyHash": "5107f5836867510b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/automated-alignment-researchers",
-      "normalizedTitle": "automated alignment researchers",
-      "firstSeenDate": "2026-06-06",
-      "lastSeenDate": "2026-06-10",
-      "occurrences": 6,
-      "bodyHash": "56e18731b967f4b6",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/agents-in-biology",
       "normalizedTitle": "agents in biology",
       "firstSeenDate": "2026-06-08",
@@ -128,48 +110,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
-      "normalizedTitle": "if claude fable stops helping you you ll never know",
-      "firstSeenDate": "2026-06-09",
-      "lastSeenDate": "2026-06-10",
-      "occurrences": 2,
-      "bodyHash": "3da58eb630e2bb2b",
-      "bodyLength": 3074
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-06-09",
       "lastSeenDate": "2026-06-16",
       "occurrences": 8,
       "bodyHash": "0dd20f6f4576276f",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/29045",
-      "normalizedTitle": "claude desktop spawns 1 8 gb hyper v vm on every launch even for chat only use",
-      "firstSeenDate": "2026-06-10",
-      "lastSeenDate": "2026-06-10",
-      "occurrences": 1,
-      "bodyHash": "0f682905541d1cbf",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
-      "normalizedTitle": "anthropic s model naming extrapolated",
-      "firstSeenDate": "2026-06-10",
-      "lastSeenDate": "2026-06-10",
-      "occurrences": 1,
-      "bodyHash": "894d991081542a38",
-      "bodyLength": 1234
-    },
-    {
-      "normalizedUrl": "https://github.com/grzegorz-raczek-unit8/claude-quota",
-      "normalizedTitle": "show hn macos menu bar gauges for your claude code quota",
-      "firstSeenDate": "2026-06-10",
-      "lastSeenDate": "2026-06-10",
-      "occurrences": 1,
-      "bodyHash": "b2d6f961e712a505",
       "bodyLength": 3500
     },
     {
@@ -492,8 +438,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
       "normalizedTitle": "claude code expertise",
       "firstSeenDate": "2026-06-16",
-      "lastSeenDate": "2026-06-24",
-      "occurrences": 5,
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 6,
       "bodyHash": "df2bb68ccf30de21",
       "bodyLength": 3500
     },
@@ -598,8 +544,8 @@
       "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
       "normalizedTitle": "nuclear safeguards for ai",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-24",
-      "occurrences": 6,
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 7,
       "bodyHash": "896bb0269fc7a8d4",
       "bodyLength": 3500
     },
@@ -916,8 +862,8 @@
       "normalizedUrl": "https://qiita.com/picnic/items/7f8023942ae65745b02b",
       "normalizedTitle": "claude code v2 1 187 sandbox credentials で認証情報漏洩リスクを防ぐ新機能と多数のバグ修正",
       "firstSeenDate": "2026-06-24",
-      "lastSeenDate": "2026-06-24",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 2,
       "bodyHash": "403084b2dbf0731d",
       "bodyLength": 3500
     },
@@ -925,8 +871,8 @@
       "normalizedUrl": "https://anthropic.com/research/81k-economics",
       "normalizedTitle": "81k economics",
       "firstSeenDate": "2026-06-24",
-      "lastSeenDate": "2026-06-24",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 2,
       "bodyHash": "090b4b7b3471f673",
       "bodyLength": 3500
     },
@@ -934,8 +880,8 @@
       "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
       "normalizedTitle": "introducing claude tag",
       "firstSeenDate": "2026-06-24",
-      "lastSeenDate": "2026-06-24",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 2,
       "bodyHash": "72a33e882394069c",
       "bodyLength": 3500
     },
@@ -943,10 +889,35 @@
       "normalizedUrl": "https://anthropic.com/news/gates-foundation-partnership",
       "normalizedTitle": "gates foundation partnership",
       "firstSeenDate": "2026-06-24",
-      "lastSeenDate": "2026-06-24",
-      "occurrences": 1,
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 2,
       "bodyHash": "6fb3bf201f526c0c",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "normalizedTitle": "anthropic says alibaba illicitly extracted claude ai model capabilities",
+      "firstSeenDate": "2026-06-25",
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/leomarokun/items/1e299daebd089b26786d",
+      "normalizedTitle": "claude code のトークン消費を実測したら ほとんどは本当にキャッシュだった",
+      "firstSeenDate": "2026-06-25",
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 1,
+      "bodyHash": "067a973cc971f511",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/f64cef66531e691d05c4",
+      "normalizedTitle": "claude code v2 1 190 v2 1 191 clear を rewind で巻き戻せる 毎日changelog解説",
+      "firstSeenDate": "2026-06-25",
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 1,
+      "bodyHash": "6de79fba041eafa7",
+      "bodyLength": 2689
     }
   ]
 }

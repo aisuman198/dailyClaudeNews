@@ -510,6 +510,36 @@
       "examples": [
         "「懸念される＋名詞」より「懸念のある＋名詞」が自然な修飾形"
       ]
+    },
+    {
+      "term": "Previously",
+      "rule": "日本語文中に英語副詞を混在させない。「以前は」と訳す",
+      "firstSeenDate": "2026-06-25",
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 1,
+      "examples": [
+        "「Previously、Recently-denied タブで〜」の Previously が英語のまま混入"
+      ]
+    },
+    {
+      "term": "恒久化されるようになった",
+      "rule": "「停止状態が永続するようになった」と自然な日本語に言い換える",
+      "firstSeenDate": "2026-06-25",
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 1,
+      "examples": [
+        "「停止した際に恒久化されるようになった」が不自然な表現"
+      ]
+    },
+    {
+      "term": "再プロンプトされなくなった",
+      "rule": "「再度確認を求められなくなった」と自然な日本語に言い換える",
+      "firstSeenDate": "2026-06-25",
+      "lastSeenDate": "2026-06-25",
+      "occurrences": 1,
+      "examples": [
+        "「再プロンプトされなくなった」は英語動詞の直訳調で不自然"
+      ]
     }
   ]
 }
