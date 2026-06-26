@@ -540,6 +540,26 @@
       "examples": [
         "「再プロンプトされなくなった」は英語動詞の直訳調で不自然"
       ]
+    },
+    {
+      "term": "リリース（文字化け）",
+      "rule": "「リリー」直後のU+FFFDは「ス」と復元して「リリース」と表記する",
+      "firstSeenDate": "2026-06-26",
+      "lastSeenDate": "2026-06-26",
+      "occurrences": 1,
+      "examples": [
+        "SDK記事の「リリー���）」を「リリース）」に修正"
+      ]
+    },
+    {
+      "term": "DXC（原題の大文字表記）",
+      "rule": "DXCは略称につき原題でも全大文字で表記：「Dxc」→「DXC」",
+      "firstSeenDate": "2026-06-26",
+      "lastSeenDate": "2026-06-26",
+      "occurrences": 1,
+      "examples": [
+        "原題「Dxc Anthropic Alliance」をTCSルールと同様に修正"
+      ]
     }
   ]
 }
