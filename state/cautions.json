@@ -560,6 +560,26 @@
       "examples": [
         "原題「Dxc Anthropic Alliance」をTCSルールと同様に修正"
       ]
+    },
+    {
+      "term": "ソフトウェアエンジニアリング（文字化け）",
+      "rule": "「ソフトウェアエン」直後の U+FFFD×3 を「ジニ」と復元して「ソフトウェアエンジニアリング」と表記",
+      "firstSeenDate": "2026-06-27",
+      "lastSeenDate": "2026-06-27",
+      "occurrences": 1,
+      "examples": [
+        "TCS記事本文で「ソフトウェアエン���ニアリング」と化けていた"
+      ]
+    },
+    {
+      "term": "使って（文字化け）",
+      "rule": "「使」直後の U+FFFD×3 を「っ」と復元して「使って」と表記",
+      "firstSeenDate": "2026-06-27",
+      "lastSeenDate": "2026-06-27",
+      "occurrences": 1,
+      "examples": [
+        "Alibaba攻撃記事本文で「使���て」と化けていた"
+      ]
     }
   ]
 }
