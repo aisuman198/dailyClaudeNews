@@ -580,6 +580,26 @@
       "examples": [
         "Alibaba攻撃記事本文で「使���て」と化けていた"
       ]
+    },
+    {
+      "term": "ツール（「ツ」の文字化け）",
+      "rule": "U+FFFD×2が片仮名「ツ」(U+30C4)に化けるパターン",
+      "firstSeenDate": "2026-06-29",
+      "lastSeenDate": "2026-06-29",
+      "occurrences": 1,
+      "examples": [
+        "changelog表のv0.2.53行「ツール」冒頭が「��ール」に化けていた"
+      ]
+    },
+    {
+      "term": "チケット（「チ」の文字化け）",
+      "rule": "U+FFFD×2が片仮名「チ」(U+30C1)に化けるパターン",
+      "firstSeenDate": "2026-06-29",
+      "lastSeenDate": "2026-06-29",
+      "occurrences": 1,
+      "examples": [
+        "81k記事の引用内「チケット」冒頭が「��ケット」に化けていた"
+      ]
     }
   ]
 }
