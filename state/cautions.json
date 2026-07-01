@@ -620,6 +620,36 @@
       "examples": [
         "記事タイトルがトークン増加（実態と逆方向）と誤訳されていた"
       ]
+    },
+    {
+      "term": "閉鎖ウェイトモデル",
+      "rule": "クローズドウェイトモデルと表記する",
+      "firstSeenDate": "2026-07-01",
+      "lastSeenDate": "2026-07-01",
+      "occurrences": 1,
+      "examples": [
+        "closed-weight modelを「閉鎖」と誤訳（「閉鎖」はshutdownの意）"
+      ]
+    },
+    {
+      "term": "進めて**る**（bold記号混入）",
+      "rule": "「い」脱落＋不正なbold記号混入は「進めている」と復元",
+      "firstSeenDate": "2026-07-01",
+      "lastSeenDate": "2026-07-01",
+      "occurrences": 1,
+      "examples": [
+        "U+FFFD以外の形式の文字化け：bold記号が「い」を置換するパターン"
+      ]
+    },
+    {
+      "term": "自???のタスク",
+      "rule": "「自分のタスク」と復元する",
+      "firstSeenDate": "2026-07-01",
+      "lastSeenDate": "2026-07-01",
+      "occurrences": 1,
+      "examples": [
+        "経済指数レポート内、U+FFFD×3が「分」に対応"
+      ]
     }
   ]
 }
