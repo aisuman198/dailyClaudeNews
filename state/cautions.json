@@ -650,6 +650,26 @@
       "examples": [
         "経済指数レポート内、U+FFFD×3が「分」に対応"
       ]
+    },
+    {
+      "term": "引用内英文（--bare モード記事）",
+      "rule": "日本語記事内の引用文は日本語に統一する",
+      "firstSeenDate": "2026-07-02",
+      "lastSeenDate": "2026-07-02",
+      "occurrences": 1,
+      "examples": [
+        "公式ドキュメントからの英文引用をそのまま掲載していたため日本語に翻訳"
+      ]
+    },
+    {
+      "term": "Claude Cloud",
+      "rule": "Anthropic 公式製品名として未確認",
+      "firstSeenDate": "2026-07-02",
+      "lastSeenDate": "2026-07-02",
+      "occurrences": 1,
+      "examples": [
+        "'Claude Cloud のスケジュール実行環境'の表記。claude.ai や Claude for Work 等の誤記の可能性あり"
+      ]
     }
   ]
 }
