@@ -670,6 +670,36 @@
       "examples": [
         "'Claude Cloud のスケジュール実行環境'の表記。claude.ai や Claude for Work 等の誤記の可能性あり"
       ]
+    },
+    {
+      "term": "フィードバック",
+      "rule": "「フィードバーク」は誤記。常に「フィードバック」と表記する",
+      "firstSeenDate": "2026-07-03",
+      "lastSeenDate": "2026-07-03",
+      "occurrences": 1,
+      "examples": [
+        "Fable Safeguards記事内で「フィードバーク」と誤記されていたため修正"
+      ]
+    },
+    {
+      "term": "トークナイザー（長音符）",
+      "rule": "記事タイトルと本文で「トークナイザ」「トークナイザー」が混在しないよう「トークナイザー」に統一する",
+      "firstSeenDate": "2026-07-03",
+      "lastSeenDate": "2026-07-03",
+      "occurrences": 1,
+      "examples": [
+        "Sonnet 5記事のタイトルが「トークナイザ」、本文が「トークナイザー」で不統一だったため修正"
+      ]
+    },
+    {
+      "term": "レンジをはみ出している",
+      "rule": "「レンジを超えている」と表記する",
+      "firstSeenDate": "2026-07-03",
+      "lastSeenDate": "2026-07-03",
+      "occurrences": 1,
+      "examples": [
+        "Sonnet 5記事本文の「レンジをはみ出している」は口語的なため修正"
+      ]
     }
   ]
 }
