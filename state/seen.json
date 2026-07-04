@@ -77,8 +77,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
       "normalizedTitle": "frontier red team",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 9,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 10,
       "bodyHash": "42cf4a5ca456c1a3",
       "bodyLength": 1531
     },
@@ -173,15 +173,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://wired.com/story/sk-telecom-anthropic-mythos-export-controls",
-      "normalizedTitle": "the korean telecom giant at the center of anthropic s mythos controversy",
-      "firstSeenDate": "2026-06-18",
-      "lastSeenDate": "2026-06-19",
-      "occurrences": 2,
-      "bodyHash": "c38a845ba85988c9",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
       "normalizedTitle": "evaluating claude for bioinformatics with biomysterybench",
       "firstSeenDate": "2026-06-18",
@@ -207,42 +198,6 @@
       "occurrences": 2,
       "bodyHash": "4763274c7186899a",
       "bodyLength": 2875
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/74e97e0f8be8174d312e",
-      "normalizedTitle": "claude code v2 1 181 v2 1 183 auto modeが破壊的コマンドを止める 毎日changelog解説",
-      "firstSeenDate": "2026-06-19",
-      "lastSeenDate": "2026-06-19",
-      "occurrences": 1,
-      "bodyHash": "23cadfa61efc7122",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/f2a4da4cd2e99718d66f",
-      "normalizedTitle": "claude code v2 1 183 autoモードの破壊的コマンド自動ブロックと安全性強化",
-      "firstSeenDate": "2026-06-19",
-      "lastSeenDate": "2026-06-19",
-      "occurrences": 1,
-      "bodyHash": "a7c319e30458f8d1",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/86a5cc9e0ab776447a87",
-      "normalizedTitle": "claude code dynamic workflows でコードベース全体をセキュリティ監査する",
-      "firstSeenDate": "2026-06-19",
-      "lastSeenDate": "2026-06-19",
-      "occurrences": 1,
-      "bodyHash": "91ec923a7f1e36f3",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/bdb9605b05a81c81e97f",
-      "normalizedTitle": "claude fable 5 mythos 5 エクスポート制限の衝撃 セキュリティとai規制 企業対応ガイド",
-      "firstSeenDate": "2026-06-19",
-      "lastSeenDate": "2026-06-19",
-      "occurrences": 1,
-      "bodyHash": "f8e4f5f0cdbd0fc5",
-      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20",
@@ -681,8 +636,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 5,
       "bodyHash": "6408eb9f26f234d0",
       "bodyLength": 3500
     },
@@ -690,8 +645,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-science-ai-workbench",
       "normalizedTitle": "claude science ai workbench",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 5,
       "bodyHash": "ee2aab90dbbbcc99",
       "bodyLength": 3500
     },
@@ -744,8 +699,8 @@
       "normalizedUrl": "https://anthropic.com/news/redeploying-fable-5",
       "normalizedTitle": "redeploying fable 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 4,
       "bodyHash": "cbf4a86843a3e61e",
       "bodyLength": 3500
     },
@@ -753,8 +708,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 4,
       "bodyHash": "9cd57e6569af2ce6",
       "bodyLength": 3500
     },
@@ -859,8 +814,8 @@
       "normalizedUrl": "https://qiita.com/picnic/items/de6307758cea4cd88a06",
       "normalizedTitle": "claude code v2 1 199の変更点まとめ サブエージェント安定性とデーモン不具合の修正",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 2,
       "bodyHash": "64af462256c639b2",
       "bodyLength": 3500
     },
@@ -868,8 +823,8 @@
       "normalizedUrl": "https://qiita.com/okssusucha/items/993ddff0fdd4ed46a721",
       "normalizedTitle": "claude sonnet 5 単価据え置きでも新トークナイザで請求が約3割増える",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 2,
       "bodyHash": "7575a5ec7fefea4b",
       "bodyLength": 3500
     },
@@ -877,8 +832,8 @@
       "normalizedUrl": "https://anthropic.com/news/visible-extended-thinking",
       "normalizedTitle": "visible extended thinking",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 2,
       "bodyHash": "9594a887b3e7c09c",
       "bodyLength": 3500
     },
@@ -886,8 +841,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropics-responsible-scaling-policy",
       "normalizedTitle": "anthropics responsible scaling policy",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 2,
       "bodyHash": "8a7467c6fb4bea2d",
       "bodyLength": 3500
     },
@@ -895,8 +850,8 @@
       "normalizedUrl": "https://anthropic.com/news/fable-safeguards-jailbreak-framework",
       "normalizedTitle": "fable safeguards jailbreak framework",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 2,
       "bodyHash": "9e0a2c2962bc5a99",
       "bodyLength": 3500
     },
@@ -907,6 +862,60 @@
       "lastSeenDate": "2026-07-03",
       "occurrences": 1,
       "bodyHash": "3cff867093185c94",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/74066",
+      "normalizedTitle": "potential session cache leakage between workspace instances or consumer accounts",
+      "firstSeenDate": "2026-07-04",
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 1,
+      "bodyHash": "1db95965646c69f9",
+      "bodyLength": 2968
+    },
+    {
+      "normalizedUrl": "https://github.com/openai/codex/issues/30364",
+      "normalizedTitle": "gpt 5 5 codex reasoning token clustering may be leading to degraded performance",
+      "firstSeenDate": "2026-07-04",
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 1,
+      "bodyHash": "ce7c2420c6e259d1",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://old.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by",
+      "normalizedTitle": "possible evidence of literal prompt injection by anthropic",
+      "firstSeenDate": "2026-07-04",
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 1,
+      "bodyHash": "ea9f4d6e7cd57090",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/4b2d4e08c5e57b41adfc",
+      "normalizedTitle": "claude code 2 1 200 manual化 中身は1行も変わっていなかった",
+      "firstSeenDate": "2026-07-04",
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 1,
+      "bodyHash": "d6123d59c13b47d7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/2b6d8006507658fc9807",
+      "normalizedTitle": "anthropic ゲイツ財団2億ドル提携 aiは世界の格差を本当に救えるのか",
+      "firstSeenDate": "2026-07-04",
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 1,
+      "bodyHash": "1e51e967fc74d966",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/1ebed59f44d724638f02",
+      "normalizedTitle": "claude code v2 1 199 v2 1 200 サブエージェントが黙って失敗しなくなった 毎日changelog解説",
+      "firstSeenDate": "2026-07-04",
+      "lastSeenDate": "2026-07-04",
+      "occurrences": 1,
+      "bodyHash": "75911dec731580ce",
       "bodyLength": 3500
     }
   ]
