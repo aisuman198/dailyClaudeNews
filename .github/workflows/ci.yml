@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'docs/**'
+      - 'state/**'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'docs/**'
+      - 'state/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint (tsc --noEmit)
+        run: npm run lint
+
+      # redact.test.ts はローカル共有スクリプト ~/.claude/scripts/redact.cjs に
+      # 依存する sink contract test のため、CI ランナーでは実行できず除外する。
+      # CI で実行可能にする対応は別タスクで実施予定。
+      - name: Test
+        run: npx vitest run --exclude src/redact.test.ts
