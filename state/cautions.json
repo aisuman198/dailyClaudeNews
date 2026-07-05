@@ -720,6 +720,26 @@
       "examples": [
         "ゲイツ財団記事内の病名列挙で「前子癇」と記載されていた（非標準表記の可能性あり）"
       ]
+    },
+    {
+      "term": "起動し（起動���）",
+      "rule": "「し」（U+3057、UTF-8で3バイト）がU+FFFD×3に化けるパターン",
+      "firstSeenDate": "2026-07-05",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 1,
+      "examples": [
+        "/rewind記事「起動���、セッション内の〜」で発見"
+      ]
+    },
+    {
+      "term": "リポジトリに対して",
+      "rule": "助詞「に」の脱落に注意",
+      "firstSeenDate": "2026-07-05",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 1,
+      "examples": [
+        "handoff記事「リポジトリ対して検証済み」で発見"
+      ]
     }
   ]
 }

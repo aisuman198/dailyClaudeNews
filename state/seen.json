@@ -77,8 +77,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
       "normalizedTitle": "frontier red team",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 10,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 11,
       "bodyHash": "42cf4a5ca456c1a3",
       "bodyLength": 1531
     },
@@ -188,38 +188,6 @@
       "lastSeenDate": "2026-06-29",
       "occurrences": 9,
       "bodyHash": "53fa84174e237373",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-      "normalizedTitle": "john jumper to join anthropic",
-      "firstSeenDate": "2026-06-19",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 2,
-      "bodyHash": "4763274c7186899a",
-      "bodyLength": 2875
-    },
-    {
-      "normalizedUrl": "https://reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20",
-      "normalizedTitle": "ubisoft co founder claude guillemot has died in a plane crash",
-      "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19",
-      "normalizedTitle": "us scientist john jumper to leave google deepmind for anthropic",
-      "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/pekopugu/items/00d94a49438d121efd64",
-      "normalizedTitle": "ai 人間 チーム開発挑戦記 claude codeを 相棒 にして 休日の時間で16本の記事と1つのaiエージェントを作った話",
-      "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-20",
-      "occurrences": 1,
-      "bodyHash": "5595b932fd433873",
       "bodyLength": 3500
     },
     {
@@ -636,8 +604,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 6,
       "bodyHash": "6408eb9f26f234d0",
       "bodyLength": 3500
     },
@@ -645,8 +613,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-science-ai-workbench",
       "normalizedTitle": "claude science ai workbench",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 6,
       "bodyHash": "ee2aab90dbbbcc99",
       "bodyLength": 3500
     },
@@ -699,8 +667,8 @@
       "normalizedUrl": "https://anthropic.com/news/redeploying-fable-5",
       "normalizedTitle": "redeploying fable 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 5,
       "bodyHash": "cbf4a86843a3e61e",
       "bodyLength": 3500
     },
@@ -708,8 +676,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 5,
       "bodyHash": "9cd57e6569af2ce6",
       "bodyLength": 3500
     },
@@ -832,8 +800,8 @@
       "normalizedUrl": "https://anthropic.com/news/visible-extended-thinking",
       "normalizedTitle": "visible extended thinking",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 3,
       "bodyHash": "9594a887b3e7c09c",
       "bodyLength": 3500
     },
@@ -841,8 +809,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropics-responsible-scaling-policy",
       "normalizedTitle": "anthropics responsible scaling policy",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 3,
       "bodyHash": "8a7467c6fb4bea2d",
       "bodyLength": 3500
     },
@@ -850,8 +818,8 @@
       "normalizedUrl": "https://anthropic.com/news/fable-safeguards-jailbreak-framework",
       "normalizedTitle": "fable safeguards jailbreak framework",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 3,
       "bodyHash": "9e0a2c2962bc5a99",
       "bodyLength": 3500
     },
@@ -877,9 +845,9 @@
       "normalizedUrl": "https://github.com/openai/codex/issues/30364",
       "normalizedTitle": "gpt 5 5 codex reasoning token clustering may be leading to degraded performance",
       "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 1,
-      "bodyHash": "ce7c2420c6e259d1",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 2,
+      "bodyHash": "c41b23dcfcc24699",
       "bodyLength": 3500
     },
     {
@@ -895,8 +863,8 @@
       "normalizedUrl": "https://qiita.com/kai_kou/items/4b2d4e08c5e57b41adfc",
       "normalizedTitle": "claude code 2 1 200 manual化 中身は1行も変わっていなかった",
       "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 2,
       "bodyHash": "d6123d59c13b47d7",
       "bodyLength": 3500
     },
@@ -916,6 +884,42 @@
       "lastSeenDate": "2026-07-04",
       "occurrences": 1,
       "bodyHash": "75911dec731580ce",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/ostikwhy-blip/claude-code-handoff-skill",
+      "normalizedTitle": "show hn handoff a verified context bridge between claude code sessions",
+      "firstSeenDate": "2026-07-05",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 1,
+      "bodyHash": "4530eff420255a92",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/6fc5910d8bdf6343498b",
+      "normalizedTitle": "claude code v2 1 201 sonnet 5 が会話途中の system role をやめる 毎日changelog解説",
+      "firstSeenDate": "2026-07-05",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 1,
+      "bodyHash": "005a1dce4082d67f",
+      "bodyLength": 2814
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kosments/items/67f48350482903134f9d",
+      "normalizedTitle": "続 まずはこれだけ覚えよう neovim claude codeで実現する vs code不要の キーボード完結 開発フロー",
+      "firstSeenDate": "2026-07-05",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 1,
+      "bodyHash": "f40729d5a64a31ec",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/8de3522685678446fd0c",
+      "normalizedTitle": "claude codeの rewind 事故った3時間を1コマンドで巻き戻せる仕組みだった",
+      "firstSeenDate": "2026-07-05",
+      "lastSeenDate": "2026-07-05",
+      "occurrences": 1,
+      "bodyHash": "8313a538e94f2afe",
       "bodyLength": 3500
     }
   ]
