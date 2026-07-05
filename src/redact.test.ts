@@ -5,8 +5,10 @@
  *   - 共有モジュールに正しく接続できている
  *   - 主な機密パターンが伏字化される (smoke test)
  *   - 各 sink のソースに redact() 呼び出しがある (sink contract)
+ *   - CI 用フィクスチャ (fixtures/claude-scripts/redact.cjs) が正本とドリフトしていない
  */
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
+import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
@@ -97,4 +99,34 @@ describe('sink contract: パブリック出力関数で redact() が呼ばれて
       ).toBe(true)
     })
   }
+})
+
+/**
+ * CI 用フィクスチャ (fixtures/claude-scripts/redact.cjs) は
+ * 正本 ~/.claude/scripts/redact.cjs のバイト単位ミラー。
+ * ローカル環境 (正本が存在する場合) でのみドリフトを検知する。
+ * CI 環境には正本が存在しないため、このテストは自動的に skip される。
+ */
+const globalRedactPath = path.join(os.homedir(), '.claude/scripts/redact.cjs')
+const fixtureRedactPath = path.join(__dirname, '..', 'fixtures', 'claude-scripts', 'redact.cjs')
+const hasGlobalRedact = existsSync(globalRedactPath)
+
+describe('CI フィクスチャ: fixtures/claude-scripts/redact.cjs のドリフト検知', () => {
+  it('フィクスチャファイルが存在する', () => {
+    expect(
+      existsSync(fixtureRedactPath),
+      `fixtures/claude-scripts/redact.cjs が見つからない (${fixtureRedactPath})。` +
+        ' CI で sink contract test を動かすためのフィクスチャが消失している可能性がある。',
+    ).toBe(true)
+  })
+
+  it.runIf(hasGlobalRedact)('正本 ~/.claude/scripts/redact.cjs とフィクスチャの内容が完全一致する', () => {
+    const globalContent = readFileSync(globalRedactPath, 'utf8')
+    const fixtureContent = readFileSync(fixtureRedactPath, 'utf8')
+    expect(
+      fixtureContent,
+      '正本 ~/.claude/scripts/redact.cjs が更新されています。' +
+        ' `npm run sync:redact-fixture` を実行してフィクスチャを同期してください。',
+    ).toBe(globalContent)
+  })
 })

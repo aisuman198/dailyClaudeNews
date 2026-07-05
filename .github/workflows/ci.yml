@@ -32,7 +32,11 @@ jobs:
         run: npm run lint
 
       # redact.test.ts はローカル共有スクリプト ~/.claude/scripts/redact.cjs に
-      # 依存する sink contract test のため、CI ランナーでは実行できず除外する。
-      # CI で実行可能にする対応は別タスクで実施予定。
+      # 依存する sink contract test / smoke test を含むが、CI ランナーには
+      # ホームディレクトリの共有スクリプトが存在しない。そのため、正本の
+      # ミラーである fixtures/claude-scripts/redact.cjs を CLAUDE_SCRIPTS_DIR
+      # 経由で参照させることで、除外せずに CI 上でも実行する。
       - name: Test
-        run: npx vitest run --exclude src/redact.test.ts
+        run: npm test
+        env:
+          CLAUDE_SCRIPTS_DIR: ${{ github.workspace }}/fixtures/claude-scripts
