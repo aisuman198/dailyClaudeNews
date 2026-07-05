@@ -15,7 +15,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit",
-    "prepare": "git config core.hooksPath scripts/hooks 2>/dev/null || true"
+    "prepare": "git config core.hooksPath scripts/hooks 2>/dev/null || true",
+    "sync:redact-fixture": "cp \"$HOME/.claude/scripts/redact.cjs\" fixtures/claude-scripts/redact.cjs"
   },
   "dependencies": {
     "fast-xml-parser": "^4.5.0"
