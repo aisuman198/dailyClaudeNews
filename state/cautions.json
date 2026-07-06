@@ -740,6 +740,16 @@
       "examples": [
         "handoff記事「リポジトリ対して検証済み」で発見"
       ]
+    },
+    {
+      "term": "読点欠落（連用形接続）",
+      "rule": "「〜を使い、PRごとに」のように連用形で節をつなぐ際は読点を入れる",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "examples": [
+        "「Code タブを使いPRごとに」で読点が抜けていた（worktree記事）"
+      ]
     }
   ]
 }
