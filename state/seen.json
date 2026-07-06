@@ -77,8 +77,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
       "normalizedTitle": "frontier red team",
       "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 11,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 12,
       "bodyHash": "42cf4a5ca456c1a3",
       "bodyLength": 1531
     },
@@ -98,15 +98,6 @@
       "lastSeenDate": "2026-06-25",
       "occurrences": 7,
       "bodyHash": "896bb0269fc7a8d4",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/n-days",
-      "normalizedTitle": "n days",
-      "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 5,
-      "bodyHash": "5aebef8a2fd69ff0",
       "bodyLength": 3500
     },
     {
@@ -137,33 +128,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/zero-days",
-      "normalizedTitle": "zero days",
-      "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 5,
-      "bodyHash": "c1fe3f6ac84b6b95",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/property-based-testing",
-      "normalizedTitle": "property based testing",
-      "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 5,
-      "bodyHash": "8344c93dd4480d8b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
-      "normalizedTitle": "cyber toolkits update",
-      "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 5,
-      "bodyHash": "f98d01b12cf77ce6",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/critical-infrastructure-defense",
       "normalizedTitle": "critical infrastructure defense",
       "firstSeenDate": "2026-06-17",
@@ -188,60 +152,6 @@
       "lastSeenDate": "2026-06-29",
       "occurrences": 9,
       "bodyHash": "53fa84174e237373",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ochtum/items/0ac42a915e0a54808a62",
-      "normalizedTitle": "主要5社のaiエコシステム概要 openai anthropic google github microsoftを俯瞰する",
-      "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 2,
-      "bodyHash": "7d9e9c7d9fe91cd7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/9cafe58f1e98d3af2599",
-      "normalizedTitle": "claude code v2 1 185 ストール表示が10秒 20秒に 毎日changelog解説",
-      "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 2,
-      "bodyHash": "0672178c37c82ea4",
-      "bodyLength": 2094
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/337eb235da9b9a081836",
-      "normalizedTitle": "claude code managed agents入門 スケジュール実行とcli統合の実装ガイド",
-      "firstSeenDate": "2026-06-20",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 2,
-      "bodyHash": "9ed06e8607b7d359",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
-      "normalizedTitle": "identity verification on claude",
-      "firstSeenDate": "2026-06-21",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 1,
-      "bodyHash": "f4a898122a27da06",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/nikitadoudikov/claude-pulse",
-      "normalizedTitle": "show hn pulse dashboard for claude code approve tool calls from your phone",
-      "firstSeenDate": "2026-06-21",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 1,
-      "bodyHash": "7a213a1770e38404",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/59177cb0dcf75bff1846",
-      "normalizedTitle": "claude code auto modeを安全に回す 破壊的コマンドを止める3層防御",
-      "firstSeenDate": "2026-06-21",
-      "lastSeenDate": "2026-06-21",
-      "occurrences": 1,
-      "bodyHash": "465ce681447cd46c",
       "bodyLength": 3500
     },
     {
@@ -604,8 +514,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 7,
       "bodyHash": "6408eb9f26f234d0",
       "bodyLength": 3500
     },
@@ -613,8 +523,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-science-ai-workbench",
       "normalizedTitle": "claude science ai workbench",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 7,
       "bodyHash": "ee2aab90dbbbcc99",
       "bodyLength": 3500
     },
@@ -667,8 +577,8 @@
       "normalizedUrl": "https://anthropic.com/news/redeploying-fable-5",
       "normalizedTitle": "redeploying fable 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 6,
       "bodyHash": "cbf4a86843a3e61e",
       "bodyLength": 3500
     },
@@ -676,8 +586,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 6,
       "bodyHash": "9cd57e6569af2ce6",
       "bodyLength": 3500
     },
@@ -800,8 +710,8 @@
       "normalizedUrl": "https://anthropic.com/news/visible-extended-thinking",
       "normalizedTitle": "visible extended thinking",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 4,
       "bodyHash": "9594a887b3e7c09c",
       "bodyLength": 3500
     },
@@ -809,8 +719,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropics-responsible-scaling-policy",
       "normalizedTitle": "anthropics responsible scaling policy",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 4,
       "bodyHash": "8a7467c6fb4bea2d",
       "bodyLength": 3500
     },
@@ -818,8 +728,8 @@
       "normalizedUrl": "https://anthropic.com/news/fable-safeguards-jailbreak-framework",
       "normalizedTitle": "fable safeguards jailbreak framework",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 4,
       "bodyHash": "9e0a2c2962bc5a99",
       "bodyLength": 3500
     },
@@ -920,6 +830,60 @@
       "lastSeenDate": "2026-07-05",
       "occurrences": 1,
       "bodyHash": "8313a538e94f2afe",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "normalizedTitle": "gpt 5 6 sol ultra will be in codex",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "bodyHash": "eb4bbba7c6221b33",
+      "bodyLength": 2190
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yuta0709dev/items/74a77195e37e50bda29c",
+      "normalizedTitle": "claude codeでworktree作成時にmise trustを自動実行する",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "bodyHash": "50f2dad56dc2a4ee",
+      "bodyLength": 2064
+    },
+    {
+      "normalizedUrl": "https://qiita.com/esars_/items/6ba0d0b3bb5ca9dc80d7",
+      "normalizedTitle": "i passed claude certified architect foundations exam and what i wish i knew",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "bodyHash": "e22949b0369fdc86",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/alberta-government-claude-cybersecurity",
+      "normalizedTitle": "alberta government claude cybersecurity",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "bodyHash": "c0c6bab273c83c8e",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/global-workspace",
+      "normalizedTitle": "global workspace",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "bodyHash": "8e93b74ecdb4865b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/y-morimatsu/items/4a7229d9f6a302c85cfb",
+      "normalizedTitle": "loop engineering とは anthropic が示す プロンプトを書く から ループを設計する への転換",
+      "firstSeenDate": "2026-07-06",
+      "lastSeenDate": "2026-07-06",
+      "occurrences": 1,
+      "bodyHash": "b3e370fbafbaac12",
       "bodyLength": 3500
     }
   ]
