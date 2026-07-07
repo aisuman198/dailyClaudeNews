@@ -514,8 +514,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 7,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 8,
       "bodyHash": "6408eb9f26f234d0",
       "bodyLength": 3500
     },
@@ -523,8 +523,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-science-ai-workbench",
       "normalizedTitle": "claude science ai workbench",
       "firstSeenDate": "2026-06-30",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 7,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 8,
       "bodyHash": "ee2aab90dbbbcc99",
       "bodyLength": 3500
     },
@@ -577,8 +577,8 @@
       "normalizedUrl": "https://anthropic.com/news/redeploying-fable-5",
       "normalizedTitle": "redeploying fable 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 7,
       "bodyHash": "cbf4a86843a3e61e",
       "bodyLength": 3500
     },
@@ -586,8 +586,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-fable-5-mythos-5",
       "normalizedTitle": "claude fable 5 mythos 5",
       "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 7,
       "bodyHash": "9cd57e6569af2ce6",
       "bodyLength": 3500
     },
@@ -710,8 +710,8 @@
       "normalizedUrl": "https://anthropic.com/news/visible-extended-thinking",
       "normalizedTitle": "visible extended thinking",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 5,
       "bodyHash": "9594a887b3e7c09c",
       "bodyLength": 3500
     },
@@ -719,8 +719,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropics-responsible-scaling-policy",
       "normalizedTitle": "anthropics responsible scaling policy",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 5,
       "bodyHash": "8a7467c6fb4bea2d",
       "bodyLength": 3500
     },
@@ -728,8 +728,8 @@
       "normalizedUrl": "https://anthropic.com/news/fable-safeguards-jailbreak-framework",
       "normalizedTitle": "fable safeguards jailbreak framework",
       "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 5,
       "bodyHash": "9e0a2c2962bc5a99",
       "bodyLength": 3500
     },
@@ -863,17 +863,17 @@
       "normalizedUrl": "https://anthropic.com/news/alberta-government-claude-cybersecurity",
       "normalizedTitle": "alberta government claude cybersecurity",
       "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 1,
-      "bodyHash": "c0c6bab273c83c8e",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 2,
+      "bodyHash": "6202aec40bc31ba3",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/global-workspace",
       "normalizedTitle": "global workspace",
       "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 2,
       "bodyHash": "8e93b74ecdb4865b",
       "bodyLength": 3500
     },
@@ -884,6 +884,78 @@
       "lastSeenDate": "2026-07-06",
       "occurrences": 1,
       "bodyHash": "b3e370fbafbaac12",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/rowboatlabs/rowboat",
+      "normalizedTitle": "show hn rowboat open source local first alternative to claude desktop",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "8b3c5ae2567e9936",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/features/making-of-claude-code",
+      "normalizedTitle": "the making of claude code",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "0cd10e838206083f",
+      "bodyLength": 698
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/bcd8b890eb0f4c224365",
+      "normalizedTitle": "claude code v2 1 202 v2 1 203 バックグラウンドエージェント総ざらい修正 毎日changelog解説",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "64ba9089418c4205",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yoshiyakato/items/52d74a8d728586c492f9",
+      "normalizedTitle": "anthropic fable 5 mythos 5 全面停止事件 第3報 なぜfable 5は戻ってきたのか",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "1583c0b55a3ff8b8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/shoka-jp/items/3aef5199c7d67d126d7e",
+      "normalizedTitle": "claude fable 5 ガチ検証 opusの2倍の価格 どの仕事なら元が取れるのか試した",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "b7e41d6424b035d7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-personal-guidance",
+      "normalizedTitle": "claude personal guidance",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "1de1a8fc2857c596",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/building-safeguards-for-claude",
+      "normalizedTitle": "building safeguards for claude",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "0edc2aa0c2f6cbba",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/3aac141e62f89d932a16",
+      "normalizedTitle": "claude code artifacts 動かせる条件はプランの他に4つあった",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "bodyHash": "59f724eada088d0d",
       "bodyLength": 3500
     }
   ]
