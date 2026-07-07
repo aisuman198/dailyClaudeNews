@@ -750,6 +750,46 @@
       "examples": [
         "「Code タブを使いPRごとに」で読点が抜けていた（worktree記事）"
       ]
+    },
+    {
+      "term": "ルトニック（Lutnick）",
+      "rule": "Howard Lutnick の日本語表記は「ルトニック」",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "examples": [
+        "「ラトニック商務長官」と誤表記されていたため2箇所修正"
+      ]
+    },
+    {
+      "term": "ツール��用いて（U+FFFD→を）",
+      "rule": "「ツール」直後のU+FFDFを「を」と復元",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "examples": [
+        "研究記事の本文冒頭「分析ツール」直後に混入"
+      ]
+    },
+    {
+      "term": "サイバーセキュリティ脆弱性（U+FFFD→脆）",
+      "rule": "「サイバーセキュリティ」直後のU+FFDFを「脆」と復元",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "examples": [
+        "アルバータ州記事の####見出し内に混入"
+      ]
+    },
+    {
+      "term": "freefable.org 公開書簡（助詞脱落）",
+      "rule": "「freefable.org」と「公開書簡」の間に助詞「で」を補完",
+      "firstSeenDate": "2026-07-07",
+      "lastSeenDate": "2026-07-07",
+      "occurrences": 1,
+      "examples": [
+        "「freefable.org 公開書簡が公開され」→「freefable.org で公開書簡が公開され」"
+      ]
     }
   ]
 }
