@@ -59,8 +59,8 @@
       "normalizedUrl": "https://anthropic.com/news/core-views-on-ai-safety",
       "normalizedTitle": "core views on ai safety",
       "firstSeenDate": "2026-06-16",
-      "lastSeenDate": "2026-07-02",
-      "occurrences": 8,
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 9,
       "bodyHash": "3d570bfe15849bd7",
       "bodyLength": 3500
     },
@@ -956,6 +956,186 @@
       "lastSeenDate": "2026-07-07",
       "occurrences": 1,
       "bodyHash": "59f724eada088d0d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+      "normalizedTitle": "the classifiers anthropic puts in front of fable are too zealous",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "b3e41748d9443eb9",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/dekart-xyz/geosql",
+      "normalizedTitle": "geosql a claude codex skill for geospatial data",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "97f8b3a1e5cf3d31",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://abralo.com/",
+      "normalizedTitle": "show hn abralo free easy way to run several claude code agents in one window",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "e1ba02ad64378d21",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/sgrs38/items/5dc277ed4ecc00a5498b",
+      "normalizedTitle": "claude code の記事24本を集めて数えた とりあえずこれやっとけ",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "d6cfb0dab1f323de",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/off-switch-dual-use",
+      "normalizedTitle": "off switch dual use",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "08508b723201a118",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+      "normalizedTitle": "strategic warning for ai risk progress and insights from our frontier red team",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "d265124832772b35",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-policy-responses",
+      "normalizedTitle": "economic policy responses",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "103159852865d54c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/agentic-misalignment",
+      "normalizedTitle": "agentic misalignment",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "5efa8023c5143c4d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
+      "normalizedTitle": "frontier threats red teaming for ai safety",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "278bf012c629d19a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/charting-a-path-to-ai-accountability",
+      "normalizedTitle": "charting a path to ai accountability",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "8beeee803c5af21c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "normalizedTitle": "anthropic economic index january 2026 report",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "9b6eb89b635be897",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/tracing-thoughts-language-model",
+      "normalizedTitle": "tracing thoughts language model",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "9ef4b3420fe2056c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/alignment-faking",
+      "normalizedTitle": "alignment faking",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "9b0b529330d04e50",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/AI-fluency-index",
+      "normalizedTitle": "ai fluency index",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "495d1d9d19c24768",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/2028-ai-leadership",
+      "normalizedTitle": "2028 ai leadership",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "a7167f138a1f60cb",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/labor-market-impacts",
+      "normalizedTitle": "labor market impacts",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "36cd6a0b1e063ce7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-primitives",
+      "normalizedTitle": "economic index primitives",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "869e467e5a3588c0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/estimating-productivity-gains",
+      "normalizedTitle": "estimating productivity gains",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "c559c3e0924190de",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/6b07151a020d40ff6657",
+      "normalizedTitle": "claude code v2 1 204 v2 1 205 自動モードの安全弁が増える 毎日changelog解説",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "612f13987afa7614",
+      "bodyLength": 3317
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/90b07be747c7966124a1",
+      "normalizedTitle": "claude code v2 1 203 204で判明したapiキー誤送信バグとバックグラウンド機能の大型修正",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "bodyHash": "f9612e557667a475",
       "bodyLength": 3500
     }
   ]
