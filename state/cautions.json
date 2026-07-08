@@ -790,6 +790,16 @@
       "examples": [
         "「freefable.org 公開書簡が公開され」→「freefable.org で公開書簡が公開され」"
       ]
+    },
+    {
+      "term": "社会的影響（セクションヘッダー）",
+      "rule": "「影」がU+FFDFに化けるパターンに注意。「社会影響」「社会的影響」の「影」が欠落する",
+      "firstSeenDate": "2026-07-08",
+      "lastSeenDate": "2026-07-08",
+      "occurrences": 1,
+      "examples": [
+        "「社会��響」→「社会的影響」と復元（影がU+FFDFに化けていた）"
+      ]
     }
   ]
 }
