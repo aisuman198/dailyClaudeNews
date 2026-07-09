@@ -800,6 +800,36 @@
       "examples": [
         "「社会��響」→「社会的影響」と復元（影がU+FFDFに化けていた）"
       ]
+    },
+    {
+      "term": "費用が禁止的に高くなる",
+      "rule": "prohibitively expensive の直訳は不自然。「コストが法外に高くなる」と表記する",
+      "firstSeenDate": "2026-07-09",
+      "lastSeenDate": "2026-07-09",
+      "occurrences": 1,
+      "examples": [
+        "GRAM記事で「費用が禁止的に高くなる」と訳されていたため修正"
+      ]
+    },
+    {
+      "term": "ペインリネームAI機能",
+      "rule": "「AI pane rename feature」の訳として不自然。「ペイン名変更AI機能」と表記する",
+      "firstSeenDate": "2026-07-09",
+      "lastSeenDate": "2026-07-09",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code記事で「ペインリネームAI機能」と訳されていたため修正"
+      ]
+    },
+    {
+      "term": "Claudeの挙動の対応する変化",
+      "rule": "「Claudeの挙動に対応した変化」が自然な日本語",
+      "firstSeenDate": "2026-07-09",
+      "lastSeenDate": "2026-07-09",
+      "occurrences": 1,
+      "examples": [
+        "Golden Gate Claude記事で助詞・係り受けが不自然だったため修正"
+      ]
     }
   ]
 }
