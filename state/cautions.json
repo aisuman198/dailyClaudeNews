@@ -830,6 +830,36 @@
       "examples": [
         "Golden Gate Claude記事で助詞・係り受けが不自然だったため修正"
       ]
+    },
+    {
+      "term": "genuinely usable",
+      "rule": "引用内の英語表現は日本語に統一する",
+      "firstSeenDate": "2026-07-10",
+      "lastSeenDate": "2026-07-10",
+      "occurrences": 1,
+      "examples": [
+        "「Grok は価格帯で genuinely usable な選択肢」を「十分実用的な選択肢」に修正"
+      ]
+    },
+    {
+      "term": "Subagent（大文字）",
+      "rule": "Anthropic 公式ドキュメント準拠で小文字 subagent と表記",
+      "firstSeenDate": "2026-07-10",
+      "lastSeenDate": "2026-07-10",
+      "occurrences": 1,
+      "examples": [
+        "「Subagent 間連携」→「subagent 間連携」"
+      ]
+    },
+    {
+      "term": "本文中の英語記事タイトル",
+      "rule": "本文中に埋め込まれた英語記事タイトルも日本語に訳し、固有名詞は原文表記を保持",
+      "firstSeenDate": "2026-07-10",
+      "lastSeenDate": "2026-07-10",
+      "occurrences": 1,
+      "examples": [
+        "Golden Gate 記事内「UST is bringing Claude...」「Ben Bernanke appointed...」を日本語化"
+      ]
     }
   ]
 }
