@@ -860,6 +860,16 @@
       "examples": [
         "Golden Gate 記事内「UST is bringing Claude...」「Ben Bernanke appointed...」を日本語化"
       ]
+    },
+    {
+      "term": "一定期間が経過するまで（助詞文字化け）",
+      "rule": "U+FFFD×2が助詞「が」に化けるパターン：「一定期間が経過するまで」",
+      "firstSeenDate": "2026-07-11",
+      "lastSeenDate": "2026-07-11",
+      "occurrences": 1,
+      "examples": [
+        "Files API記事末尾「一定期間��経過するまで」を「一定期間が経過するまで」に修正"
+      ]
     }
   ]
 }
