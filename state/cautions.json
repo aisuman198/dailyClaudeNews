@@ -870,6 +870,46 @@
       "examples": [
         "Files API記事末尾「一定期間��経過するまで」を「一定期間が経過するまで」に修正"
       ]
+    },
+    {
+      "term": "倍（文字化け新パターン）",
+      "rule": "「倍」（U+500D）がU+FFFD×3に化けるパターンを既知リストに追加",
+      "firstSeenDate": "2026-07-12",
+      "lastSeenDate": "2026-07-12",
+      "occurrences": 1,
+      "examples": [
+        "「N ???になるため」→「N 倍になるため」に修正"
+      ]
+    },
+    {
+      "term": "正の（文字化け）",
+      "rule": "「と??相関が高い」の??はU+FFFD×2で「正の」に相当すると推定",
+      "firstSeenDate": "2026-07-12",
+      "lastSeenDate": "2026-07-12",
+      "occurrences": 1,
+      "examples": [
+        "「GDP 一人当たりと正の相関が高い」に復元"
+      ]
+    },
+    {
+      "term": "Claude Fable 5",
+      "rule": "公開モデル名として未確認。同記事がSonnet 4.5と比較しており「claude-sonnet-5」の誤記の可能性あり",
+      "firstSeenDate": "2026-07-12",
+      "lastSeenDate": "2026-07-12",
+      "occurrences": 1,
+      "examples": [
+        "Systima記事本文中の「Claude Fable 5 では差が約3.3倍に縮小」"
+      ]
+    },
+    {
+      "term": "専門家とLLM専門家",
+      "rule": "同記事内前段で「ドメイン専門家」と表記しているため「ドメイン専門家とLLM専門家」に統一",
+      "firstSeenDate": "2026-07-12",
+      "lastSeenDate": "2026-07-12",
+      "occurrences": 1,
+      "examples": [
+        "AI安全性レッドチーミング記事の手法説明部分"
+      ]
     }
   ]
 }
