@@ -164,24 +164,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/sakutto-panda/items/620152bb67fd47b3c1c3",
-      "normalizedTitle": "6 15当日撤回 claude agent sdk claude p のサブスク別枠化は何だったのか",
-      "firstSeenDate": "2026-06-28",
-      "lastSeenDate": "2026-06-28",
-      "occurrences": 1,
-      "bodyHash": "7fabce77597ab3d9",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/6fc806ec57620d989243",
-      "normalizedTitle": "claude managed agents セルフホストサンドボックス入門 自社インフラでツール実行",
-      "firstSeenDate": "2026-06-28",
-      "lastSeenDate": "2026-06-28",
-      "occurrences": 1,
-      "bodyHash": "9ff920c3a7019882",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://qiita.com/moha0918_/items/8bd90fc2c1391c4769a1",
       "normalizedTitle": "claude code v0 2 21 v2 1 195 cliからマルチエージェント基盤への全履歴 毎日changelog解説",
       "firstSeenDate": "2026-06-29",
@@ -660,8 +642,8 @@
       "normalizedUrl": "https://anthropic.com/research/global-workspace",
       "normalizedTitle": "global workspace",
       "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-07",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 3,
       "bodyHash": "8e93b74ecdb4865b",
       "bodyLength": 3500
     },
@@ -786,17 +768,17 @@
       "normalizedUrl": "https://anthropic.com/research/off-switch-dual-use",
       "normalizedTitle": "off switch dual use",
       "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 5,
-      "bodyHash": "0dfc3f026c7fd7fb",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 6,
+      "bodyHash": "0cdaebff243826a2",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
       "normalizedTitle": "strategic warning for ai risk progress and insights from our frontier red team",
       "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 6,
       "bodyHash": "d265124832772b35",
       "bodyLength": 3500
     },
@@ -813,8 +795,8 @@
       "normalizedUrl": "https://anthropic.com/research/agentic-misalignment",
       "normalizedTitle": "agentic misalignment",
       "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 6,
       "bodyHash": "5efa8023c5143c4d",
       "bodyLength": 3500
     },
@@ -937,8 +919,8 @@
       "normalizedUrl": "https://anthropic.com/news/golden-gate-claude",
       "normalizedTitle": "golden gate claude",
       "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 5,
       "bodyHash": "b2c73e6d2117d34a",
       "bodyLength": 3306
     },
@@ -946,8 +928,8 @@
       "normalizedUrl": "https://anthropic.com/news/the-long-term-benefit-trust",
       "normalizedTitle": "the long term benefit trust",
       "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 5,
       "bodyHash": "e6775bc444887b0d",
       "bodyLength": 3500
     },
@@ -955,8 +937,8 @@
       "normalizedUrl": "https://anthropic.com/news/ben-bernanke",
       "normalizedTitle": "ben bernanke",
       "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 5,
       "bodyHash": "6fc8154e3adc8039",
       "bodyLength": 3500
     },
@@ -964,8 +946,8 @@
       "normalizedUrl": "https://anthropic.com/news/hard-questions",
       "normalizedTitle": "hard questions",
       "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 5,
       "bodyHash": "9e156fbd1491d917",
       "bodyLength": 3500
     },
@@ -982,8 +964,8 @@
       "normalizedUrl": "https://anthropic.com/news/reflect-with-claude",
       "normalizedTitle": "reflect with claude",
       "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 5,
       "bodyHash": "898b06da14f5a12d",
       "bodyLength": 3500
     },
@@ -1054,8 +1036,8 @@
       "normalizedUrl": "https://anthropic.com/news/ust-claude",
       "normalizedTitle": "ust claude",
       "firstSeenDate": "2026-07-10",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 4,
       "bodyHash": "6cadc2dec98db1a5",
       "bodyLength": 3500
     },
@@ -1126,8 +1108,8 @@
       "normalizedUrl": "https://qiita.com/sakutto-panda/items/47a2b51bf6c4f513ec49",
       "normalizedTitle": "2026 6 30 claude sonnet 5リリース 1mコンテキスト標準化 temperature廃止 実質3割の値上げも",
       "firstSeenDate": "2026-07-12",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 2,
       "bodyHash": "5e382471fad7d44f",
       "bodyLength": 3500
     },
@@ -1162,10 +1144,100 @@
       "normalizedUrl": "https://qiita.com/nomurasan/items/3441beb4aac67b49400d",
       "normalizedTitle": "claude codeのcache createとcache readを実測して分かった3つのこと",
       "firstSeenDate": "2026-07-12",
-      "lastSeenDate": "2026-07-12",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 2,
       "bodyHash": "c4377390c847a490",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://raymyers.org/post/zed-creator-calls-spade-a-spade",
+      "normalizedTitle": "zig creator calls spade a spade anthropic blows smoke",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "b37bca87844a9ccd",
+      "bodyLength": 150
+    },
+    {
+      "normalizedUrl": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
+      "normalizedTitle": "show hn i implemented a neural network in sql",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "928bde5b1da3c613",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/thephw/claude-meseeks",
+      "normalizedTitle": "claude is just mr meeseeks",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "534d9351289c18cf",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://missionlocal.org/2026/07/anthropic-sf-affordability-ipo-housing-evictions-rent",
+      "normalizedTitle": "65k to work at anthropic debate ensues amid ipo wave",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "03b89433d4c25628",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
+      "normalizedTitle": "claude values models languages",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "ca371a6f46b1edac",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-plays-robotics",
+      "normalizedTitle": "claude plays robotics",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "d924777ad1e2f0c1",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work",
+      "normalizedTitle": "claude for creative work",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "af45984740feb078",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "normalizedTitle": "theo hourmouzis general manager australia new zealand",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "ebad1a92b8cc8c50",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
+      "normalizedTitle": "claude design anthropic labs",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "78fd3937a200283c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/0d8a716b5afb95d017ab",
+      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 13",
+      "firstSeenDate": "2026-07-13",
+      "lastSeenDate": "2026-07-13",
+      "occurrences": 1,
+      "bodyHash": "5f22fabf75a1373b",
+      "bodyLength": 1772
     }
   ]
 }
