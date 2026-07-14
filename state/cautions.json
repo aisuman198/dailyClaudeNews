@@ -930,6 +930,66 @@
       "examples": [
         "求人記事のPaula Dozsa引用文で「生き残れる???どうかだ」と出力されていた"
       ]
+    },
+    {
+      "term": "発表時点で連携が発表されたエコシステムパートナー",
+      "rule": "「発表」の重複を避ける。「発表時点で連携を発表したエコシステムパートナー」と表記する",
+      "firstSeenDate": "2026-07-14",
+      "lastSeenDate": "2026-07-14",
+      "occurrences": 1,
+      "examples": [
+        "Claude for Teachers記事内で同一文に「発表」が2回重複していた"
+      ]
+    },
+    {
+      "term": "個別的な",
+      "rule": "修飾語は「個別の」を使う。「個別的な」は冗長な形容で不自然",
+      "firstSeenDate": "2026-07-14",
+      "lastSeenDate": "2026-07-14",
+      "occurrences": 1,
+      "examples": [
+        "TeachFXの説明で「個別的な授業フィードバック」と記述されていた"
+      ]
+    },
+    {
+      "term": "〜に充てる（機関の活動）",
+      "rule": "研究機関が資金・クレジットを用途に割り当てる文脈では「充てる」より「活用する」が自然",
+      "firstSeenDate": "2026-07-14",
+      "lastSeenDate": "2026-07-14",
+      "occurrences": 1,
+      "examples": [
+        "Vector Instituteの説明で「研究に充てる」と記述されていた"
+      ]
+    },
+    {
+      "term": "〜の開発と評価に使用する（機関の活動）",
+      "rule": "研究機関が行う活動の述語は「使用する」より「取り組む」が自然",
+      "firstSeenDate": "2026-07-14",
+      "lastSeenDate": "2026-07-14",
+      "occurrences": 1,
+      "examples": [
+        "CHEO研究所の説明で「開発と評価に使用する」と記述されていた"
+      ]
+    },
+    {
+      "term": "結論している",
+      "rule": "論文の結論を述べる際は「結論づけている」が自然な日本語",
+      "firstSeenDate": "2026-07-14",
+      "lastSeenDate": "2026-07-14",
+      "occurrences": 1,
+      "examples": [
+        "Microsoft CLI研究記事の末尾で「と結論している」と記述されていた"
+      ]
+    },
+    {
+      "term": "localhostの外、任意の外部サイト",
+      "rule": "「localhostの外」は不自然。「localhost以外の任意の外部サイト」と表記する",
+      "firstSeenDate": "2026-07-14",
+      "lastSeenDate": "2026-07-14",
+      "occurrences": 1,
+      "examples": [
+        "ブラウザ安全設計記事で「localhostの外、任意の外部サイト」と記述されていた"
+      ]
     }
   ]
 }
