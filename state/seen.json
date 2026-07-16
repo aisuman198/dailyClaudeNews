@@ -137,33 +137,6 @@
       "bodyLength": 2699
     },
     {
-      "normalizedUrl": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
-      "normalizedTitle": "claude fable 5 promotional access",
-      "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-01",
-      "occurrences": 1,
-      "bodyHash": "5ebf69cf1a48cb50",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/181b45d5e97df7012263",
-      "normalizedTitle": "claude code v2 1 198 背景エージェントがdraft prまで自走 毎日changelog解説",
-      "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-01",
-      "occurrences": 1,
-      "bodyHash": "1c473a7209d31587",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/lhjjjk4/items/064b2cec24a941e56f54",
-      "normalizedTitle": "ai daily digest 2026年7月2日 meta compute claude sonnet 5 コーディングエージェント革命",
-      "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-01",
-      "occurrences": 1,
-      "bodyHash": "1220c74be4f3d610",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/redeploying-fable-5",
       "normalizedTitle": "redeploying fable 5",
       "firstSeenDate": "2026-07-01",
@@ -179,24 +152,6 @@
       "lastSeenDate": "2026-07-07",
       "occurrences": 7,
       "bodyHash": "9cd57e6569af2ce6",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yurukusa/items/0179abc75e7d0b8dbebe",
-      "normalizedTitle": "あなたがこう言った は本当にあなたが言ったか claude codeが捏造した出力と指示を jsonlの構造で1分で見分ける",
-      "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-01",
-      "occurrences": 1,
-      "bodyHash": "fc573422413e705c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/htani0817/items/b1f303c90ccb8274c2a0",
-      "normalizedTitle": "2026年6月 claude sonnet 5がリリース opus級のエージェント性能とコスト効率まとめ",
-      "firstSeenDate": "2026-07-01",
-      "lastSeenDate": "2026-07-01",
-      "occurrences": 1,
-      "bodyHash": "b54b7ef55bd64fe9",
       "bodyLength": 3500
     },
     {
@@ -462,8 +417,8 @@
       "normalizedUrl": "https://anthropic.com/research/global-workspace",
       "normalizedTitle": "global workspace",
       "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 6,
       "bodyHash": "8e93b74ecdb4865b",
       "bodyLength": 3500
     },
@@ -615,8 +570,8 @@
       "normalizedUrl": "https://anthropic.com/research/agentic-misalignment",
       "normalizedTitle": "agentic misalignment",
       "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 8,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 9,
       "bodyHash": "5efa8023c5143c4d",
       "bodyLength": 3500
     },
@@ -856,8 +811,8 @@
       "normalizedUrl": "https://anthropic.com/news/ust-claude",
       "normalizedTitle": "ust claude",
       "firstSeenDate": "2026-07-10",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 7,
       "bodyHash": "6cadc2dec98db1a5",
       "bodyLength": 3500
     },
@@ -1009,26 +964,26 @@
       "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
       "normalizedTitle": "claude values models languages",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 3,
-      "bodyHash": "05a00dbaa2a1b54e",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 4,
+      "bodyHash": "ca371a6f46b1edac",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/claude-plays-robotics",
       "normalizedTitle": "claude plays robotics",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 3,
-      "bodyHash": "4a9a0b076a55706b",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 4,
+      "bodyHash": "d924777ad1e2f0c1",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work",
       "normalizedTitle": "claude for creative work",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 4,
       "bodyHash": "af45984740feb078",
       "bodyLength": 3500
     },
@@ -1036,8 +991,8 @@
       "normalizedUrl": "https://anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
       "normalizedTitle": "theo hourmouzis general manager australia new zealand",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 4,
       "bodyHash": "ebad1a92b8cc8c50",
       "bodyLength": 3500
     },
@@ -1045,8 +1000,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
       "normalizedTitle": "claude design anthropic labs",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 4,
       "bodyHash": "78fd3937a200283c",
       "bodyLength": 3500
     },
@@ -1090,8 +1045,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 3,
       "bodyHash": "fec2eaf1997b8054",
       "bodyLength": 3500
     },
@@ -1099,8 +1054,8 @@
       "normalizedUrl": "https://anthropic.com/news/canadian-ai-research",
       "normalizedTitle": "canadian ai research",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 3,
       "bodyHash": "a6e23851ed64cbb9",
       "bodyLength": 3500
     },
@@ -1108,8 +1063,8 @@
       "normalizedUrl": "https://anthropic.com/research/how-canada-uses-claude",
       "normalizedTitle": "how canada uses claude",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 3,
       "bodyHash": "380bc403c812a368",
       "bodyLength": 3500
     },
@@ -1144,8 +1099,8 @@
       "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
       "normalizedTitle": "introducing claude tag",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 2,
       "bodyHash": "bc4da699aa812d69",
       "bodyLength": 3500
     },
@@ -1153,8 +1108,8 @@
       "normalizedUrl": "https://qiita.com/moha0918_/items/2b9faf5b4ab771d4496a",
       "normalizedTitle": "claude code v2 1 210 write path 権限ルールに起動時警告 毎日changelog解説",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 2,
       "bodyHash": "4b2ac57ecbe5e35e",
       "bodyLength": 3500
     },
@@ -1162,8 +1117,8 @@
       "normalizedUrl": "https://anthropic.com/news/finance-agents",
       "normalizedTitle": "finance agents",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-15",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 2,
       "bodyHash": "92f31fc83f4253ba",
       "bodyLength": 3500
     },
@@ -1183,6 +1138,51 @@
       "lastSeenDate": "2026-07-15",
       "occurrences": 1,
       "bodyHash": "5713410fedaabf9f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "normalizedTitle": "100 ai music video claude fable 5 vs gpt 5 6 sol",
+      "firstSeenDate": "2026-07-16",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 1,
+      "bodyHash": "cddd144d57b33bf8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/c8b144e3ba36744b964b",
+      "normalizedTitle": "claude code v2 1 211 bedrock vertexのキャッシュ課金バグが直る 毎日changelog解説",
+      "firstSeenDate": "2026-07-16",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 1,
+      "bodyHash": "07bf9af4d7d4ecb9",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/masakazuimai/items/6bf65b08e0dbd7720723",
+      "normalizedTitle": "claude codeのサブエージェントが だいたい完成 で帰ってくる問題と 委譲プロンプトのテンプレート",
+      "firstSeenDate": "2026-07-16",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 1,
+      "bodyHash": "7c56ca5ea2333802",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/fabaa6f75da6cf7c2742",
+      "normalizedTitle": "claude code v2 1 211 権限プレビュー偽装対策とbedrock課金バグを修正",
+      "firstSeenDate": "2026-07-16",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 1,
+      "bodyHash": "da168ae32aa0dae3",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/778d6017d7c9eae69ae7",
+      "normalizedTitle": "claude opus 4 7でエラー率上昇中 anthropic障害3件まとめと対応策",
+      "firstSeenDate": "2026-07-16",
+      "lastSeenDate": "2026-07-16",
+      "occurrences": 1,
+      "bodyHash": "526e50390a5499c2",
       "bodyLength": 3500
     }
   ]
