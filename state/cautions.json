@@ -1040,6 +1040,16 @@
       "examples": [
         "「に対して反する」は冗長。「に反する」が標準形"
       ]
+    },
+    {
+      "term": "Hugging Face",
+      "rule": "社名は公式表記「Hugging Face」（スペースあり���を使用する",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "examples": [
+        "「HuggingFace」と誤記されていた箇所を修正"
+      ]
     }
   ]
 }

@@ -56,24 +56,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/picnic/items/de6307758cea4cd88a06",
-      "normalizedTitle": "claude code v2 1 199の変更点まとめ サブエージェント安定性とデーモン不具合の修正",
-      "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 2,
-      "bodyHash": "64af462256c639b2",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/okssusucha/items/993ddff0fdd4ed46a721",
-      "normalizedTitle": "claude sonnet 5 単価据え置きでも新トークナイザで請求が約3割増える",
-      "firstSeenDate": "2026-07-03",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 2,
-      "bodyHash": "7575a5ec7fefea4b",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/visible-extended-thinking",
       "normalizedTitle": "visible extended thinking",
       "firstSeenDate": "2026-07-03",
@@ -101,15 +83,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/74066",
-      "normalizedTitle": "potential session cache leakage between workspace instances or consumer accounts",
-      "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 1,
-      "bodyHash": "1db95965646c69f9",
-      "bodyLength": 2968
-    },
-    {
       "normalizedUrl": "https://github.com/openai/codex/issues/30364",
       "normalizedTitle": "gpt 5 5 codex reasoning token clustering may be leading to degraded performance",
       "firstSeenDate": "2026-07-04",
@@ -119,39 +92,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://old.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by",
-      "normalizedTitle": "possible evidence of literal prompt injection by anthropic",
-      "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 1,
-      "bodyHash": "ea9f4d6e7cd57090",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://qiita.com/kai_kou/items/4b2d4e08c5e57b41adfc",
       "normalizedTitle": "claude code 2 1 200 manual化 中身は1行も変わっていなかった",
       "firstSeenDate": "2026-07-04",
       "lastSeenDate": "2026-07-05",
       "occurrences": 2,
       "bodyHash": "d6123d59c13b47d7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/2b6d8006507658fc9807",
-      "normalizedTitle": "anthropic ゲイツ財団2億ドル提携 aiは世界の格差を本当に救えるのか",
-      "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 1,
-      "bodyHash": "1e51e967fc74d966",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/1ebed59f44d724638f02",
-      "normalizedTitle": "claude code v2 1 199 v2 1 200 サブエージェントが黙って失敗しなくなった 毎日changelog解説",
-      "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-04",
-      "occurrences": 1,
-      "bodyHash": "75911dec731580ce",
       "bodyLength": 3500
     },
     {
@@ -230,8 +176,8 @@
       "normalizedUrl": "https://anthropic.com/research/global-workspace",
       "normalizedTitle": "global workspace",
       "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 8,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 9,
       "bodyHash": "8e93b74ecdb4865b",
       "bodyLength": 3500
     },
@@ -383,9 +329,9 @@
       "normalizedUrl": "https://anthropic.com/research/agentic-misalignment",
       "normalizedTitle": "agentic misalignment",
       "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 11,
-      "bodyHash": "0f188d5f8bb4bff8",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 12,
+      "bodyHash": "5efa8023c5143c4d",
       "bodyLength": 3500
     },
     {
@@ -777,8 +723,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
       "normalizedTitle": "claude values models languages",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 7,
       "bodyHash": "ca371a6f46b1edac",
       "bodyLength": 3500
     },
@@ -786,17 +732,17 @@
       "normalizedUrl": "https://anthropic.com/research/claude-plays-robotics",
       "normalizedTitle": "claude plays robotics",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 6,
-      "bodyHash": "4a9a0b076a55706b",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 7,
+      "bodyHash": "d924777ad1e2f0c1",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work",
       "normalizedTitle": "claude for creative work",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 7,
       "bodyHash": "af45984740feb078",
       "bodyLength": 3500
     },
@@ -804,8 +750,8 @@
       "normalizedUrl": "https://anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
       "normalizedTitle": "theo hourmouzis general manager australia new zealand",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 7,
       "bodyHash": "ebad1a92b8cc8c50",
       "bodyLength": 3500
     },
@@ -813,8 +759,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
       "normalizedTitle": "claude design anthropic labs",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 7,
       "bodyHash": "78fd3937a200283c",
       "bodyLength": 3500
     },
@@ -858,8 +804,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 6,
       "bodyHash": "fec2eaf1997b8054",
       "bodyLength": 3500
     },
@@ -867,8 +813,8 @@
       "normalizedUrl": "https://anthropic.com/news/canadian-ai-research",
       "normalizedTitle": "canadian ai research",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 6,
       "bodyHash": "a6e23851ed64cbb9",
       "bodyLength": 3500
     },
@@ -876,8 +822,8 @@
       "normalizedUrl": "https://anthropic.com/research/how-canada-uses-claude",
       "normalizedTitle": "how canada uses claude",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 6,
       "bodyHash": "380bc403c812a368",
       "bodyLength": 3500
     },
@@ -912,8 +858,8 @@
       "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
       "normalizedTitle": "introducing claude tag",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 5,
       "bodyHash": "bc4da699aa812d69",
       "bodyLength": 3500
     },
@@ -930,8 +876,8 @@
       "normalizedUrl": "https://anthropic.com/news/finance-agents",
       "normalizedTitle": "finance agents",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 5,
       "bodyHash": "92f31fc83f4253ba",
       "bodyLength": 3500
     },
@@ -1036,8 +982,8 @@
       "normalizedUrl": "https://ykdojo.github.io/claude-controls-mac",
       "normalizedTitle": "setting up your spare mac for claude code to control a step by step guide",
       "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 2,
       "bodyHash": "85cc56c0b79943e0",
       "bodyLength": 3500
     },
@@ -1045,8 +991,8 @@
       "normalizedUrl": "https://qiita.com/moha0918_/items/6c6646ec2759b63216c5",
       "normalizedTitle": "claude code v2 1 214 permission チェックの穴が一斉に塞がる 毎日changelog解説",
       "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 2,
       "bodyHash": "cd0db9962455eeb3",
       "bodyLength": 3500
     },
@@ -1075,6 +1021,60 @@
       "lastSeenDate": "2026-07-18",
       "occurrences": 1,
       "bodyHash": "4c8b60ffd9e47cc2",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+      "normalizedTitle": "claude code uses bun written in rust now",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "bodyHash": "1234c89b23c85199",
+      "bodyLength": 2601
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/ai-code-migration",
+      "normalizedTitle": "anthropic runs large scale code migrations with claude code",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "bodyHash": "e6f13fb7ae78a3cc",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/amalshehu/pexels-skill",
+      "normalizedTitle": "claude code skill for searching royalty free stock photos via the pexels api",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "bodyHash": "0990df587fb52493",
+      "bodyLength": 1555
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/cec53cc700e513ac13d7",
+      "normalizedTitle": "claude code v2 1 215 verify code review の自動実行が止まる 毎日changelog解説",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "bodyHash": "b8d785f4d09df2a4",
+      "bodyLength": 2218
+    },
+    {
+      "normalizedUrl": "https://qiita.com/lhjjjk4/items/3754abea83272df41620",
+      "normalizedTitle": "ai daily digest 2026年7月20日 gpt 5 6世界展開 claude fable 5復活 meta muse spark 1 1投入",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "bodyHash": "2357290d587a1fbf",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/lhjjjk4/items/7813161ed6673a57b742",
+      "normalizedTitle": "ai daily digest 2026年7月20日 gpt 5 6全面公開 claude fable 5復活 自己検証型コーディングエージェント登場",
+      "firstSeenDate": "2026-07-19",
+      "lastSeenDate": "2026-07-19",
+      "occurrences": 1,
+      "bodyHash": "8b6351e277e7ce98",
       "bodyLength": 3500
     }
   ]
