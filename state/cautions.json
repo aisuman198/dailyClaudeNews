@@ -1050,6 +1050,36 @@
       "examples": [
         "「HuggingFace」と誤記されていた箇所を修正"
       ]
+    },
+    {
+      "term": "Anthropic's (Potential) Unravelling",
+      "rule": "「崩壊・解体」のニュアンスを保持して訳す",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "examples": [
+        "「競争環境分析」と意味が大幅に薄められていた誤訳。「（潜在的な）崩壊」に修正"
+      ]
+    },
+    {
+      "term": "メンタルヘルス（ヘの文字化け）",
+      "rule": "カタカナ「ヘ」(U+30D8, UTF-8: E3 83 98 = 3バイト)がU+FFFD×3に化けるパターン",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "examples": [
+        "CAMH説明内「メンタル???ルスセンター」→「メンタルヘルスセンター」に修正"
+      ]
+    },
+    {
+      "term": "フロンティアモデルの到達",
+      "rule": "目的地を示す場合は「への到達」と助詞「へ」を補う",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "examples": [
+        "「フロンティアモデルの到達が〜可能」→「への到達が〜可能」に修正（助詞欠落）"
+      ]
     }
   ]
 }

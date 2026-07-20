@@ -83,60 +83,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://github.com/openai/codex/issues/30364",
-      "normalizedTitle": "gpt 5 5 codex reasoning token clustering may be leading to degraded performance",
-      "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 2,
-      "bodyHash": "c41b23dcfcc24699",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/4b2d4e08c5e57b41adfc",
-      "normalizedTitle": "claude code 2 1 200 manual化 中身は1行も変わっていなかった",
-      "firstSeenDate": "2026-07-04",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 2,
-      "bodyHash": "d6123d59c13b47d7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/ostikwhy-blip/claude-code-handoff-skill",
-      "normalizedTitle": "show hn handoff a verified context bridge between claude code sessions",
-      "firstSeenDate": "2026-07-05",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 1,
-      "bodyHash": "4530eff420255a92",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/6fc5910d8bdf6343498b",
-      "normalizedTitle": "claude code v2 1 201 sonnet 5 が会話途中の system role をやめる 毎日changelog解説",
-      "firstSeenDate": "2026-07-05",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 1,
-      "bodyHash": "005a1dce4082d67f",
-      "bodyLength": 2814
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kosments/items/67f48350482903134f9d",
-      "normalizedTitle": "続 まずはこれだけ覚えよう neovim claude codeで実現する vs code不要の キーボード完結 開発フロー",
-      "firstSeenDate": "2026-07-05",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 1,
-      "bodyHash": "f40729d5a64a31ec",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/8de3522685678446fd0c",
-      "normalizedTitle": "claude codeの rewind 事故った3時間を1コマンドで巻き戻せる仕組みだった",
-      "firstSeenDate": "2026-07-05",
-      "lastSeenDate": "2026-07-05",
-      "occurrences": 1,
-      "bodyHash": "8313a538e94f2afe",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
       "normalizedTitle": "gpt 5 6 sol ultra will be in codex",
       "firstSeenDate": "2026-07-06",
@@ -804,8 +750,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 7,
       "bodyHash": "fec2eaf1997b8054",
       "bodyLength": 3500
     },
@@ -813,17 +759,17 @@
       "normalizedUrl": "https://anthropic.com/news/canadian-ai-research",
       "normalizedTitle": "canadian ai research",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 6,
-      "bodyHash": "a6e23851ed64cbb9",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 7,
+      "bodyHash": "65c7a848b2e02818",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://anthropic.com/research/how-canada-uses-claude",
       "normalizedTitle": "how canada uses claude",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 7,
       "bodyHash": "380bc403c812a368",
       "bodyLength": 3500
     },
@@ -858,8 +804,8 @@
       "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
       "normalizedTitle": "introducing claude tag",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 6,
       "bodyHash": "bc4da699aa812d69",
       "bodyLength": 3500
     },
@@ -876,8 +822,8 @@
       "normalizedUrl": "https://anthropic.com/news/finance-agents",
       "normalizedTitle": "finance agents",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 6,
       "bodyHash": "92f31fc83f4253ba",
       "bodyLength": 3500
     },
@@ -1027,8 +973,8 @@
       "normalizedUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
       "normalizedTitle": "claude code uses bun written in rust now",
       "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 2,
       "bodyHash": "1234c89b23c85199",
       "bodyLength": 2601
     },
@@ -1075,6 +1021,51 @@
       "lastSeenDate": "2026-07-19",
       "occurrences": 1,
       "bodyHash": "8b6351e277e7ce98",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "normalizedTitle": "claude fable produced a counterexample to the jacobian conjecture",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "bodyHash": "e50358d1243dbc04",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://emergingtrajectories.com/lh/frontier-lab-economics",
+      "normalizedTitle": "kimi k3 qwen 3 8 and anthropic s potential unravelling",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "bodyHash": "d798f00aa08b319f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/rare-disease-research-grants",
+      "normalizedTitle": "rare disease research grants",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "bodyHash": "cd85b238e4f77c66",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ynakayama/items/c198ca2a7e288d49beb8",
+      "normalizedTitle": "claude code の claude md と claude rules を使い分ける",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "bodyHash": "85ad708a4db3bb2e",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/d64230d1302b4bb30660",
+      "normalizedTitle": "claude agent sdk でカスタム ai エージェントを自作する実装手順とハマりどころ 2026",
+      "firstSeenDate": "2026-07-20",
+      "lastSeenDate": "2026-07-20",
+      "occurrences": 1,
+      "bodyHash": "b5e470a1c08a36ca",
       "bodyLength": 3500
     }
   ]
