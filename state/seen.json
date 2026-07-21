@@ -11,15 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/team/frontier-red-team",
-      "normalizedTitle": "frontier red team",
-      "firstSeenDate": "2026-06-17",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 12,
-      "bodyHash": "42cf4a5ca456c1a3",
-      "bodyLength": 1531
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-06-30",
@@ -83,33 +74,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
-      "normalizedTitle": "gpt 5 6 sol ultra will be in codex",
-      "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 1,
-      "bodyHash": "eb4bbba7c6221b33",
-      "bodyLength": 2190
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yuta0709dev/items/74a77195e37e50bda29c",
-      "normalizedTitle": "claude codeでworktree作成時にmise trustを自動実行する",
-      "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 1,
-      "bodyHash": "50f2dad56dc2a4ee",
-      "bodyLength": 2064
-    },
-    {
-      "normalizedUrl": "https://qiita.com/esars_/items/6ba0d0b3bb5ca9dc80d7",
-      "normalizedTitle": "i passed claude certified architect foundations exam and what i wish i knew",
-      "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 1,
-      "bodyHash": "e22949b0369fdc86",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/alberta-government-claude-cybersecurity",
       "normalizedTitle": "alberta government claude cybersecurity",
       "firstSeenDate": "2026-07-06",
@@ -125,15 +89,6 @@
       "lastSeenDate": "2026-07-19",
       "occurrences": 9,
       "bodyHash": "8e93b74ecdb4865b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/y-morimatsu/items/4a7229d9f6a302c85cfb",
-      "normalizedTitle": "loop engineering とは anthropic が示す プロンプトを書く から ループを設計する への転換",
-      "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-06",
-      "occurrences": 1,
-      "bodyHash": "b3e370fbafbaac12",
       "bodyLength": 3500
     },
     {
@@ -750,8 +705,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 7,
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 8,
       "bodyHash": "fec2eaf1997b8054",
       "bodyLength": 3500
     },
@@ -759,9 +714,9 @@
       "normalizedUrl": "https://anthropic.com/news/canadian-ai-research",
       "normalizedTitle": "canadian ai research",
       "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 7,
-      "bodyHash": "65c7a848b2e02818",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 8,
+      "bodyHash": "a6e23851ed64cbb9",
       "bodyLength": 3500
     },
     {
@@ -804,8 +759,8 @@
       "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
       "normalizedTitle": "introducing claude tag",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 7,
       "bodyHash": "bc4da699aa812d69",
       "bodyLength": 3500
     },
@@ -822,8 +777,8 @@
       "normalizedUrl": "https://anthropic.com/news/finance-agents",
       "normalizedTitle": "finance agents",
       "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 6,
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 7,
       "bodyHash": "92f31fc83f4253ba",
       "bodyLength": 3500
     },
@@ -1045,8 +1000,8 @@
       "normalizedUrl": "https://anthropic.com/news/rare-disease-research-grants",
       "normalizedTitle": "rare disease research grants",
       "firstSeenDate": "2026-07-20",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 2,
       "bodyHash": "cd85b238e4f77c66",
       "bodyLength": 3500
     },
@@ -1067,6 +1022,51 @@
       "occurrences": 1,
       "bodyHash": "b5e470a1c08a36ca",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "normalizedTitle": "claude is not a compiler",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "bodyHash": "844d5bae759d925a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "normalizedTitle": "judge approves 1 5b anthropic settlement for pirated books used to train claude",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "bodyHash": "89814f901d27562f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "normalizedTitle": "drawing the mona lisa with gpt 5 6 claude gemini and grok",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "bodyHash": "1727626b95e255d1",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/2ad6f36fd302017b9267",
+      "normalizedTitle": "claude code v2 1 216 v2 1 217 サブエージェントの無制限増殖に上限 毎日changelog解説",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "bodyHash": "e6cee21fb155e35d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/7e7eb1c49ae1184a2942",
+      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 22",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "bodyHash": "de16ff89814af8f4",
+      "bodyLength": 2633
     }
   ]
 }
