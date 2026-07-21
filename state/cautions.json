@@ -1080,6 +1080,46 @@
       "examples": [
         "「フロンティアモデルの到達が〜可能」→「への到達が〜可能」に修正（助詞欠落）"
       ]
+    },
+    {
+      "term": "チップ幅",
+      "rule": "描画ツールのtip widthはU+FFFD×2→「チ」の文字化けパターンで「チップ幅」と復元",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "examples": [
+        "「��ップ幅」をU+FFFD×2→チで「チップ幅」に修正"
+      ]
+    },
+    {
+      "term": "CAMHは〜が",
+      "rule": "主題「CAMHは」と主語「〜が」が重複する二重主語構造は「CAMHでは」と助詞を「は」→「では」に変えて整理する",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "examples": [
+        "「CAMHはKrembil Centreが〜使用する」が不自然なため修正"
+      ]
+    },
+    {
+      "term": "機関の活動にClaudeを使用する",
+      "rule": "「機関がClaudeを使用する」パターンの述語は「活用する」が自然（「取り組む」はClaudeが目的語の場合に非文になるため）",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "examples": [
+        "Mila・CAMH段落の「Claudeを使用する」を「活用する」に統一"
+      ]
+    },
+    {
+      "term": "本文は途中で切れており（Université Laval）",
+      "rule": "取得テキストの途中終了を表す主語は「本文は」を文頭に置く",
+      "firstSeenDate": "2026-07-21",
+      "lastSeenDate": "2026-07-21",
+      "occurrences": 1,
+      "examples": [
+        "「Université Lavalとのパートナーシップ詳細は本文が途中で切れており」の主語配置を修正"
+      ]
     }
   ]
 }
