@@ -1120,6 +1120,36 @@
       "examples": [
         "「Université Lavalとのパートナーシップ詳細は本文が途中で切れており」の主語配置を修正"
       ]
+    },
+    {
+      "term": "パイプライン（「プ」の文字化け）",
+      "rule": "「パイ???ライン」→「パイプライン」と復元する。U+FFFD×3が片仮名「プ」(U+30D7, UTF-8: E3 83 97)に化けるパターン",
+      "firstSeenDate": "2026-07-22",
+      "lastSeenDate": "2026-07-22",
+      "occurrences": 1,
+      "examples": [
+        "小規模事業者向けClause記事内「パイ???ライン動向」を修正"
+      ]
+    },
+    {
+      "term": "コマンド（「ド」の文字化け）",
+      "rule": "「コマン???」→「コマンド」と復元する。U+FFFD×3が片仮名「ド」(U+30C9, UTF-8: E3 83 89)に化けるパターン",
+      "firstSeenDate": "2026-07-22",
+      "lastSeenDate": "2026-07-22",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code v2.1.218記事内「Bash コマン???は」を修正"
+      ]
+    },
+    {
+      "term": "Claude Mythos Preview",
+      "rule": "Anthropic公式モデル名として未確認の表記。Claude Fable 5・Claude Cloud・Claude Coworkと同様のパターン",
+      "firstSeenDate": "2026-07-22",
+      "lastSeenDate": "2026-07-22",
+      "occurrences": 1,
+      "examples": [
+        "Public First Action寄付記事内に登場。Project Glasswingも同様に未確認"
+      ]
     }
   ]
 }
