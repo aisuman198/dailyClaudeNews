@@ -20,39 +20,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
-      "normalizedTitle": "the classifiers anthropic puts in front of fable are too zealous",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "b3e41748d9443eb9",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/dekart-xyz/geosql",
-      "normalizedTitle": "geosql a claude codex skill for geospatial data",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "97f8b3a1e5cf3d31",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://abralo.com/",
       "normalizedTitle": "show hn abralo free easy way to run several claude code agents in one window",
       "firstSeenDate": "2026-07-08",
       "lastSeenDate": "2026-07-10",
       "occurrences": 3,
       "bodyHash": "e1ba02ad64378d21",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/sgrs38/items/5dc277ed4ecc00a5498b",
-      "normalizedTitle": "claude code の記事24本を集めて数えた とりあえずこれやっとけ",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "d6cfb0dab1f323de",
       "bodyLength": 3500
     },
     {
@@ -134,69 +107,6 @@
       "lastSeenDate": "2026-07-09",
       "occurrences": 2,
       "bodyHash": "9b0b529330d04e50",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/AI-fluency-index",
-      "normalizedTitle": "ai fluency index",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "495d1d9d19c24768",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/2028-ai-leadership",
-      "normalizedTitle": "2028 ai leadership",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "a7167f138a1f60cb",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/labor-market-impacts",
-      "normalizedTitle": "labor market impacts",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "36cd6a0b1e063ce7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/economic-index-primitives",
-      "normalizedTitle": "economic index primitives",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "869e467e5a3588c0",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/estimating-productivity-gains",
-      "normalizedTitle": "estimating productivity gains",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "c559c3e0924190de",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/6b07151a020d40ff6657",
-      "normalizedTitle": "claude code v2 1 204 v2 1 205 自動モードの安全弁が増える 毎日changelog解説",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "612f13987afa7614",
-      "bodyLength": 3317
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/90b07be747c7966124a1",
-      "normalizedTitle": "claude code v2 1 203 204で判明したapiキー誤送信バグとバックグラウンド機能の大型修正",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-08",
-      "occurrences": 1,
-      "bodyHash": "f9612e557667a475",
       "bodyLength": 3500
     },
     {
@@ -516,8 +426,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
       "normalizedTitle": "claude design anthropic labs",
       "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 8,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 9,
       "bodyHash": "78fd3937a200283c",
       "bodyLength": 3500
     },
@@ -928,8 +838,8 @@
       "normalizedUrl": "https://qiita.com/moha0918_/items/6375e58106fbc7c4c42d",
       "normalizedTitle": "claude code v2 1 218 code review がバックグラウンド化 毎日changelog解説",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "a409c37400bac2fc",
       "bodyLength": 3500
     },
@@ -937,8 +847,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-connector",
       "normalizedTitle": "anthropic economic index connector",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "b0e9b162ba3995c8",
       "bodyLength": 2602
     },
@@ -946,8 +856,8 @@
       "normalizedUrl": "https://anthropic.com/news/economic-futures-research-fund-agenda",
       "normalizedTitle": "economic futures research fund agenda",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "b3babe847f76dc67",
       "bodyLength": 3500
     },
@@ -982,8 +892,8 @@
       "normalizedUrl": "https://anthropic.com/news/donation-public-first-action",
       "normalizedTitle": "donation public first action",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "b295129c87abbb2a",
       "bodyLength": 3500
     },
@@ -1000,8 +910,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "6408eb9f26f234d0",
       "bodyLength": 3500
     },
@@ -1009,8 +919,8 @@
       "normalizedUrl": "https://anthropic.com/news/skills",
       "normalizedTitle": "skills",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "8172a06c5879aa92",
       "bodyLength": 3500
     },
@@ -1018,8 +928,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-4-5",
       "normalizedTitle": "claude sonnet 4 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "1bcdbb9d8abdc10d",
       "bodyLength": 3500
     },
@@ -1027,8 +937,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-haiku-4-5",
       "normalizedTitle": "claude haiku 4 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "0f61726d4149775f",
       "bodyLength": 3500
     },
@@ -1036,9 +946,63 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-small-business",
       "normalizedTitle": "claude for small business",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 2,
       "bodyHash": "6dd06b62b9f4b203",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/izeigerman/claude-thermos",
+      "normalizedTitle": "show hn claude thermos keeps your claude session warm for you",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "bodyHash": "91b175bdb43c8dd6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work-dev",
+      "normalizedTitle": "claude for creative work dev",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "bodyHash": "fd55d4775f86c3fd",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/cf3b8986a965465f169e",
+      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 24",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "bodyHash": "4b7e3f1e96fb2c37",
+      "bodyLength": 3016
+    },
+    {
+      "normalizedUrl": "https://qiita.com/shominai2024/items/c0323c9473d9b1c8ed11",
+      "normalizedTitle": "claude design 使用感 ゼロから始めるaiシステム開発 28",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "bodyHash": "3d503b5e75d84823",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/4a4a496f2bab52868f5a",
+      "normalizedTitle": "claude codeがデスクトップアプリに pc閉じても動く新機能routinesとは",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "bodyHash": "2814b223f8d127c9",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-opus-4-7",
+      "normalizedTitle": "claude opus 4 7",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "bodyHash": "81a09103f8249984",
       "bodyLength": 3500
     }
   ]
