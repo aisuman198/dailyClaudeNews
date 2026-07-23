@@ -1150,6 +1150,16 @@
       "examples": [
         "Public First Action寄付記事内に登場。Project Glasswingも同様に未確認"
       ]
+    },
+    {
+      "term": "約 10 数種類",
+      "rule": "「約」と「数（概数）」の重複を避け「十数種類」と表記する",
+      "firstSeenDate": "2026-07-23",
+      "lastSeenDate": "2026-07-23",
+      "occurrences": 1,
+      "examples": [
+        "Claude Designレビュー記事の「約 10 数種類のテンプレート」で冗長な表現が使われていた"
+      ]
     }
   ]
 }
