@@ -1170,6 +1170,16 @@
       "examples": [
         "「元米国AI・暗号資産担当政府チーフ」→「担当官」に修正"
       ]
+    },
+    {
+      "term": "Ravi Kumar S.",
+      "rule": "末尾イニシャルの後にピリオドを付ける",
+      "firstSeenDate": "2026-07-27",
+      "lastSeenDate": "2026-07-27",
+      "occurrences": 1,
+      "examples": [
+        "「Ravi Kumar S」→「Ravi Kumar S.」（N Chandrasekaran ルールの新例）"
+      ]
     }
   ]
 }
