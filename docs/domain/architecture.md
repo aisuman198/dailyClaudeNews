@@ -84,7 +84,7 @@ export type SummarizeResult = {
 - `fetchAll(): Promise<NewsItem[]>` ← 上記2つを `Promise.all` で並列実行し結合
 
 実装方針:
-- Node 20 標準の `fetch` を使用（追加依存なし）。
+- Node 24 標準の `fetch` を使用（追加依存なし）。
 - RSS パースは `fast-xml-parser`（軽量、依存ほぼなし）。
 - HN は `topstories.json` → 各 ID を `item/<id>.json` で取得（並列、上限 30 件）。`HN_KEYWORDS` のいずれかをタイトル/URL に含むものだけフィルタ。
 - 各 source のフェッチ失敗は他を巻き込まない（`Promise.allSettled` 相当の扱い）。

@@ -7,7 +7,7 @@ Mac launchd で毎朝 8:00 JST に起動し、Anthropic 公式サイトと Hacke
 ### 1. 前提
 
 - macOS（Apple Silicon / Intel どちらも可）
-- Node.js 20+
+- Node.js 24+（`.node-version` は 24.18.0 を指定）
 - Claude Code CLI（Max プランで認証済み）
 - `gh` CLI（OAuth 認証済み、`repo` スコープ — PR 作成・マージで必須）
 - リポジトリへの SSH push 権限（daily ブランチへの push のみで OK）
