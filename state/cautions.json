@@ -1180,6 +1180,26 @@
       "examples": [
         "「Ravi Kumar S」→「Ravi Kumar S.」（N Chandrasekaran ルールの新例）"
       ]
+    },
+    {
+      "term": "コントリビューション受け付け",
+      "rule": "「コントリビューションの受け付け」と助詞「の」を補う",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "examples": [
+        "研究発表セクション末尾で「の」が脱落していた"
+      ]
+    },
+    {
+      "term": "Claude において同様のインシデントの2回目",
+      "rule": "「Claude における同様のインシデントが2回目」と助詞・助動詞を整える",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "examples": [
+        "安全性セクションで「において〜の2回目」という接続が不自然だった"
+      ]
     }
   ]
 }

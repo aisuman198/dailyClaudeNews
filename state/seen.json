@@ -11,24 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/off-switch-dual-use",
-      "normalizedTitle": "off switch dual use",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 6,
-      "bodyHash": "0cdaebff243826a2",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
-      "normalizedTitle": "strategic warning for ai risk progress and insights from our frontier red team",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 6,
-      "bodyHash": "d265124832772b35",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/agentic-misalignment",
       "normalizedTitle": "agentic misalignment",
       "firstSeenDate": "2026-07-08",
@@ -74,15 +56,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/reflect-with-claude",
-      "normalizedTitle": "reflect with claude",
-      "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 5,
-      "bodyHash": "898b06da14f5a12d",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/ust-claude",
       "normalizedTitle": "ust claude",
       "firstSeenDate": "2026-07-10",
@@ -92,57 +65,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/sakutto-panda/items/47a2b51bf6c4f513ec49",
-      "normalizedTitle": "2026 6 30 claude sonnet 5リリース 1mコンテキスト標準化 temperature廃止 実質3割の値上げも",
-      "firstSeenDate": "2026-07-12",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 2,
-      "bodyHash": "5e382471fad7d44f",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/nomurasan/items/3441beb4aac67b49400d",
-      "normalizedTitle": "claude codeのcache createとcache readを実測して分かった3つのこと",
-      "firstSeenDate": "2026-07-12",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 2,
-      "bodyHash": "c4377390c847a490",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://raymyers.org/post/zed-creator-calls-spade-a-spade",
-      "normalizedTitle": "zig creator calls spade a spade anthropic blows smoke",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 1,
-      "bodyHash": "b37bca87844a9ccd",
-      "bodyLength": 150
-    },
-    {
       "normalizedUrl": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
       "normalizedTitle": "show hn i implemented a neural network in sql",
       "firstSeenDate": "2026-07-13",
       "lastSeenDate": "2026-07-14",
       "occurrences": 2,
       "bodyHash": "005c9bf040237d2a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/thephw/claude-meseeks",
-      "normalizedTitle": "claude is just mr meeseeks",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 1,
-      "bodyHash": "534d9351289c18cf",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://missionlocal.org/2026/07/anthropic-sf-affordability-ipo-housing-evictions-rent",
-      "normalizedTitle": "65k to work at anthropic debate ensues amid ipo wave",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 1,
-      "bodyHash": "03b89433d4c25628",
       "bodyLength": 3500
     },
     {
@@ -189,15 +117,6 @@
       "occurrences": 11,
       "bodyHash": "78fd3937a200283c",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/0d8a716b5afb95d017ab",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 13",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-13",
-      "occurrences": 1,
-      "bodyHash": "5f22fabf75a1373b",
-      "bodyLength": 1772
     },
     {
       "normalizedUrl": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
@@ -606,8 +525,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-connector",
       "normalizedTitle": "anthropic economic index connector",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "473b42575c1c893a",
       "bodyLength": 2188
     },
@@ -615,8 +534,8 @@
       "normalizedUrl": "https://anthropic.com/news/economic-futures-research-fund-agenda",
       "normalizedTitle": "economic futures research fund agenda",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "fb3c1b14d2db4b9d",
       "bodyLength": 3500
     },
@@ -651,8 +570,8 @@
       "normalizedUrl": "https://anthropic.com/news/donation-public-first-action",
       "normalizedTitle": "donation public first action",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "b295129c87abbb2a",
       "bodyLength": 3500
     },
@@ -669,8 +588,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "6408eb9f26f234d0",
       "bodyLength": 3500
     },
@@ -678,8 +597,8 @@
       "normalizedUrl": "https://anthropic.com/news/skills",
       "normalizedTitle": "skills",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "8172a06c5879aa92",
       "bodyLength": 3500
     },
@@ -687,8 +606,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-4-5",
       "normalizedTitle": "claude sonnet 4 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "1bcdbb9d8abdc10d",
       "bodyLength": 3500
     },
@@ -696,8 +615,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-haiku-4-5",
       "normalizedTitle": "claude haiku 4 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 5,
       "bodyHash": "0f61726d4149775f",
       "bodyLength": 3500
     },
@@ -759,8 +678,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-opus-4-7",
       "normalizedTitle": "claude opus 4 7",
       "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 4,
       "bodyHash": "81a09103f8249984",
       "bodyLength": 3500
     },
@@ -831,8 +750,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-opus-5",
       "normalizedTitle": "claude opus 5",
       "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 3,
       "bodyHash": "3e8c0914502c37c2",
       "bodyLength": 3500
     },
@@ -840,8 +759,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-pilot",
       "normalizedTitle": "project pilot",
       "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 3,
       "bodyHash": "2848e05b91e633bd",
       "bodyLength": 3500
     },
@@ -876,8 +795,8 @@
       "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
       "normalizedTitle": "position open weights models",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 2,
       "bodyHash": "25ad27a2fb59c1d3",
       "bodyLength": 3500
     },
@@ -885,8 +804,8 @@
       "normalizedUrl": "https://anthropic.com/news/cognizant-anthropic",
       "normalizedTitle": "cognizant anthropic",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 2,
       "bodyHash": "6717764cd379a0bb",
       "bodyLength": 3500
     },
@@ -894,10 +813,73 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/0190bdc5581f0bad9634",
       "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 28",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 2,
       "bodyHash": "5bb233275a72944a",
       "bodyLength": 2308
+    },
+    {
+      "normalizedUrl": "https://github.com/anthropics/cryptography-research-demo",
+      "normalizedTitle": "anthropic publishes a practical key recovery attack on hawk 256",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "3fe0466e75895815",
+      "bodyLength": 1311
+    },
+    {
+      "normalizedUrl": "https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a",
+      "normalizedTitle": "最後に検証して はもう書かなくていい claude opus 5 でプロンプトの常識が逆転した4つのこと",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "71916b819505fe1a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://lifehacker.com/tech/your-claude-chats-may-have-been-exposed-on-google",
+      "normalizedTitle": "claude may have leaked your chats to the public",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "bdf7ca03a5324d22",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://bun.com/docs/runtime/templating/init",
+      "normalizedTitle": "bun init automatically creates a claude md file by default",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "dd64ba936d12a8ca",
+      "bodyLength": 2510
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Adachit-1411/items/3dd6bc76c81aa6918b84",
+      "normalizedTitle": "claude opus 5登場 ベンチマーク分析 価格 fable 5 gpt 5 6との徹底比較",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "dc3957139c1e6566",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
+      "normalizedTitle": "discovering cryptographic weaknesses",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "689ce95a57812f32",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/y-morimatsu/items/3741f01dcc47100816a5",
+      "normalizedTitle": "claude opus 5 とは fable 5 級の知能を半額で を opus 4 8 や他モデルとのコスト 性能比較で読み解く",
+      "firstSeenDate": "2026-07-28",
+      "lastSeenDate": "2026-07-28",
+      "occurrences": 1,
+      "bodyHash": "057ca846b04f7ce6",
+      "bodyLength": 3500
     }
   ]
 }
