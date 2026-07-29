@@ -1200,6 +1200,36 @@
       "examples": [
         "安全性セクションで「において〜の2回目」という接続が不自然だった"
       ]
+    },
+    {
+      "term": "Anthropic API",
+      "rule": "「Anthropic」と「API」の間にスペースを入れて表記",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "examples": [
+        "「AnthropicAPI」とスペースなしで記載されていた"
+      ]
+    },
+    {
+      "term": "PT時刻の換算",
+      "rule": "PDT（UTC-7）換算では21:26 UTCは14:26 PTとなる",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "examples": [
+        "「1:26 PT」と誤記されていた（正：14:26 PT）"
+      ]
+    },
+    {
+      "term": "産出した（AI出力の表現）",
+      "rule": "AIが分析結果を出した文脈では「生成した」が自然",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "examples": [
+        "「産出した暗号解析結果」→「生成した暗号解析結果」と修正"
+      ]
     }
   ]
 }
