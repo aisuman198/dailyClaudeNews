@@ -38,39 +38,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/ben-bernanke",
-      "normalizedTitle": "ben bernanke",
-      "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 6,
-      "bodyHash": "6fc8154e3adc8039",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/hard-questions",
-      "normalizedTitle": "hard questions",
-      "firstSeenDate": "2026-07-09",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 6,
-      "bodyHash": "9e156fbd1491d917",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/ust-claude",
       "normalizedTitle": "ust claude",
       "firstSeenDate": "2026-07-10",
       "lastSeenDate": "2026-07-16",
       "occurrences": 7,
       "bodyHash": "6cadc2dec98db1a5",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-      "normalizedTitle": "show hn i implemented a neural network in sql",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 2,
-      "bodyHash": "005c9bf040237d2a",
       "bodyLength": 3500
     },
     {
@@ -119,24 +92,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "normalizedTitle": "how to stop claude from saying load bearing",
-      "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 1,
-      "bodyHash": "e76403840966cd48",
-      "bodyLength": 2236
-    },
-    {
-      "normalizedUrl": "https://arxiv.org/abs/2607.01418",
-      "normalizedTitle": "a study of microsoft s early 2026 rollout of claude code and github copilot cli",
-      "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 1,
-      "bodyHash": "6866b9ab04c66c0b",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://qiita.com/moha0918_/items/7701fef6ec098243ba32",
       "normalizedTitle": "claude code v2 1 208 v2 1 209 長時間セッションのメモリリーク一掃 毎日changelog解説",
       "firstSeenDate": "2026-07-14",
@@ -170,24 +125,6 @@
       "lastSeenDate": "2026-07-20",
       "occurrences": 7,
       "bodyHash": "380bc403c812a368",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/okssusucha/items/38e4d55f3ca6b454b632",
-      "normalizedTitle": "claude code 外部サイトを操作する内蔵ブラウザの安全設計を読む",
-      "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 1,
-      "bodyHash": "60a3c535a455ef72",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/2b9a4f334a4b3af5c9a7",
-      "normalizedTitle": "claude code のカスタムスラッシュコマンド claude commands で定型作業をテンプレ化する実装手順 arguments frontmatter スコープの3つのハマりどころ 2026",
-      "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-14",
-      "occurrences": 1,
-      "bodyHash": "b34f83f8617bcb6f",
       "bodyLength": 3500
     },
     {
@@ -534,8 +471,8 @@
       "normalizedUrl": "https://anthropic.com/news/economic-futures-research-fund-agenda",
       "normalizedTitle": "economic futures research fund agenda",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 6,
       "bodyHash": "fb3c1b14d2db4b9d",
       "bodyLength": 3500
     },
@@ -678,8 +615,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-opus-4-7",
       "normalizedTitle": "claude opus 4 7",
       "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 5,
       "bodyHash": "81a09103f8249984",
       "bodyLength": 3500
     },
@@ -750,8 +687,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-opus-5",
       "normalizedTitle": "claude opus 5",
       "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 4,
       "bodyHash": "3e8c0914502c37c2",
       "bodyLength": 3500
     },
@@ -759,8 +696,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-pilot",
       "normalizedTitle": "project pilot",
       "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 4,
       "bodyHash": "2848e05b91e633bd",
       "bodyLength": 3500
     },
@@ -795,8 +732,8 @@
       "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
       "normalizedTitle": "position open weights models",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 3,
       "bodyHash": "25ad27a2fb59c1d3",
       "bodyLength": 3500
     },
@@ -804,8 +741,8 @@
       "normalizedUrl": "https://anthropic.com/news/cognizant-anthropic",
       "normalizedTitle": "cognizant anthropic",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 3,
       "bodyHash": "6717764cd379a0bb",
       "bodyLength": 3500
     },
@@ -867,8 +804,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 1,
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 2,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
     },
@@ -879,6 +816,76 @@
       "lastSeenDate": "2026-07-28",
       "occurrences": 1,
       "bodyHash": "057ca846b04f7ce6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "normalizedTitle": "claude elevated errors across all models",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "451df61ddb195fef",
+      "bodyLength": 1066
+    },
+    {
+      "normalizedUrl": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results",
+      "normalizedTitle": "some thoughts about anthropic s new cryptanalysis results",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "7ec6b9e534ff5675",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "normalizedTitle": "gpt 5 6 vs claude fable 5 for physical ai which performs best",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "f6e1eb5350e188c8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://techdirt.com/2026/07/29/anthropic-says-its-against-a-ban-on-open-weight-models-it-just-wants-to-ban-everything-that-makes-them-good",
+      "normalizedTitle": "anthropic doesn t want open weight models banned just all that makes them good",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://propublica.org/article/anthropic-mythos-microsoft-software-vulnerabilities",
+      "normalizedTitle": "microsoft struggling with ai discovered security bugs",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "86e7fcea32729a7b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/ca6a0f582af7c721cf89",
+      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 30",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "3a45f721bfca25c0",
+      "bodyLength": 2136
+    },
+    {
+      "normalizedUrl": "https://qiita.com/htani0817/items/e04d11bc834c993f7ff6",
+      "normalizedTitle": "2026年7月 claude opus 5がリリース fable 5級の性能を半額で api変更点まとめ",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "fe5d9f058d849660",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/5393b05cc80e1e2d09eb",
+      "normalizedTitle": "claude opus 5 sonnet 5リリースと知るべき破壊的変更まとめ",
+      "firstSeenDate": "2026-07-29",
+      "lastSeenDate": "2026-07-29",
+      "occurrences": 1,
+      "bodyHash": "132e5d0fd65085aa",
       "bodyLength": 3500
     }
   ]
