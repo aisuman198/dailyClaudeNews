@@ -85,3 +85,87 @@ describe('notifier internals', () => {
     expect(body).not.toContain('run.log 末尾')
   })
 })
+
+describe('notifyFailure: Discord (エラー用チャンネル) への連携', () => {
+  beforeEach(() => {
+    process.env.MACOS_NOTIFICATION = 'false'
+    process.env.ERROR_ISSUE_REPO = 'owner/repo'
+  })
+
+  it('新規起票した issue の URL を Discord に渡す', async () => {
+    const notifyDiscordFailure = vi.fn(async () => ({ ok: true as const }))
+    const issueUrl = 'https://github.com/owner/repo/issues/7'
+
+    vi.doMock('./discord.js', () => ({ notifyDiscordFailure }))
+    vi.doMock('./issueClient.js', () => ({
+      ensureLabelExists: vi.fn(async () => {}),
+      findOpenIssueByTitle: vi.fn(async () => null),
+      addIssueComment: vi.fn(async () => {}),
+      createIssue: vi.fn(async () => issueUrl),
+    }))
+
+    const { notifyFailure } = await loadNotifier()
+    await notifyFailure(new Error('claude タイムアウト (1800000ms)'), { phase: 'summarize' })
+
+    expect(notifyDiscordFailure).toHaveBeenCalledTimes(1)
+    const ctx = notifyDiscordFailure.mock.calls[0][0] as { issueUrl: string | null; phase: string; category: string }
+    expect(ctx.issueUrl).toBe(issueUrl)
+    expect(ctx.phase).toBe('summarize')
+    expect(ctx.category).toBe('timeout')
+  })
+
+  it('再発時は既存 issue の URL を渡す', async () => {
+    const notifyDiscordFailure = vi.fn(async () => ({ ok: true as const }))
+    const existingUrl = 'https://github.com/owner/repo/issues/3'
+
+    vi.doMock('./discord.js', () => ({ notifyDiscordFailure }))
+    vi.doMock('./issueClient.js', () => ({
+      ensureLabelExists: vi.fn(async () => {}),
+      findOpenIssueByTitle: vi.fn(async () => ({ number: 3, url: existingUrl })),
+      addIssueComment: vi.fn(async () => {}),
+      createIssue: vi.fn(async () => ''),
+    }))
+
+    const { notifyFailure } = await loadNotifier()
+    await notifyFailure(new Error('fetch に失敗'), { phase: 'fetch' })
+
+    const ctx = notifyDiscordFailure.mock.calls[0][0] as { issueUrl: string | null }
+    expect(ctx.issueUrl).toBe(existingUrl)
+  })
+
+  it('issue 起票に失敗しても Discord には issueUrl:null で通知する', async () => {
+    const notifyDiscordFailure = vi.fn(async () => ({ ok: true as const }))
+
+    vi.doMock('./discord.js', () => ({ notifyDiscordFailure }))
+    vi.doMock('./issueClient.js', () => ({
+      ensureLabelExists: vi.fn(async () => {}),
+      findOpenIssueByTitle: vi.fn(async () => null),
+      addIssueComment: vi.fn(async () => {}),
+      createIssue: vi.fn(async () => {
+        throw new Error('gh issue create: HTTP 403')
+      }),
+    }))
+
+    const { notifyFailure } = await loadNotifier()
+    await notifyFailure(new Error('git push に失敗'), { phase: 'git' })
+
+    const ctx = notifyDiscordFailure.mock.calls[0][0] as { issueUrl: string | null }
+    expect(ctx.issueUrl).toBeNull()
+  })
+
+  it('Discord 投稿が失敗しても notifyFailure は例外を投げない', async () => {
+    const notifyDiscordFailure = vi.fn(async () => ({ ok: false as const, reason: 'HTTP 500' }))
+
+    vi.doMock('./discord.js', () => ({ notifyDiscordFailure }))
+    vi.doMock('./issueClient.js', () => ({
+      ensureLabelExists: vi.fn(async () => {}),
+      findOpenIssueByTitle: vi.fn(async () => null),
+      addIssueComment: vi.fn(async () => {}),
+      createIssue: vi.fn(async () => 'https://github.com/owner/repo/issues/9'),
+    }))
+
+    const { notifyFailure } = await loadNotifier()
+    await expect(notifyFailure(new Error('boom'), { phase: 'write' })).resolves.toBeUndefined()
+  })
+})
+
