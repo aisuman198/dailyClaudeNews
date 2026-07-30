@@ -1230,6 +1230,26 @@
       "examples": [
         "「産出した暗号解析結果」→「生成した暗号解析結果」と修正"
       ]
+    },
+    {
+      "term": "OpenClaw",
+      "rule": "Ski記事に登場するツール名として原文ママ保持したが実在未確認",
+      "firstSeenDate": "2026-07-30",
+      "lastSeenDate": "2026-07-30",
+      "occurrences": 1,
+      "examples": [
+        "「Ski」記事の対応ツール列挙中に登場。公式サイト等で確認できず"
+      ]
+    },
+    {
+      "term": "Opus 4.8",
+      "rule": "Anthropicの既知モデルラインに存在しないバージョン番号として要確認",
+      "firstSeenDate": "2026-07-30",
+      "lastSeenDate": "2026-07-30",
+      "occurrences": 1,
+      "examples": [
+        "Opus5プロンプティング記事とComputeruse記事の2箇所に登場。Opus4.5/4.7の誤記の可能性あり"
+      ]
     }
   ]
 }
