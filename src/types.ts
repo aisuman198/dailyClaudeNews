@@ -62,3 +62,4 @@ export type Phase =
   | 'persist-cautions'
   | 'git'
   | 'verify-deploy'
+  | 'notify'

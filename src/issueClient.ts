@@ -67,19 +67,24 @@ export async function addIssueComment(repo: string, number: number, body: string
   })
 }
 
+/** 起票した issue の URL を返す（Discord 通知にリンクを載せるため）。 */
 export async function createIssue(
   repo: string,
   title: string,
   body: string,
   labels: string[],
-): Promise<void> {
+): Promise<string> {
   // パブリック出力 sink: redact 必須 (ルールは ~/.claude/CLAUDE.md 参照)
   const safeTitle = redact(title)
   const safeBody = redact(body)
   const safeLabels = labels.map((l) => redact(l))
   const args = ['issue', 'create', '--repo', repo, '--title', safeTitle, '--body-file', '-']
   if (safeLabels.length > 0) args.push('--label', safeLabels.join(','))
-  await runGh(args, { stdin: safeBody, timeoutMs: 30_000 })
+  const out = await runGh(args, { stdin: safeBody, timeoutMs: 30_000 })
+  // gh issue create は作成した issue の URL を stdout に出す。
+  // 前後に他の行が混ざっても拾えるよう URL 行だけを抜き出す。
+  const url = out.split('\n').map((l) => l.trim()).find((l) => /^https?:\/\//.test(l))
+  return url ?? ''
 }
 
 export async function ensureLabelExists(repo: string, name: string, color: string, description: string): Promise<void> {

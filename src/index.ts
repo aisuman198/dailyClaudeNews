@@ -4,7 +4,8 @@ import { loadCautions, persistCautions } from './cautionStore.js'
 import { config } from './config.js'
 import { dedupe, normalizeUrl } from './deduper.js'
 import { fetchAll } from './fetcher.js'
-import { verifyDeployment } from './deploymentVerifier.js'
+import { buildVerifyUrl, verifyDeployment } from './deploymentVerifier.js'
+import { notifyDiscordSuccess } from './discord.js'
 import { commitAndPush } from './git.js'
 import { pickHeroImages, pickHeroMatches } from './heroMatcher.js'
 import { dropUnchangedRecurring, loadSeen, persist, split } from './historyFilter.js'
@@ -186,6 +187,28 @@ async function main(): Promise<void> {
       log(phase.current, `${config.pagesBaseUrl}/daily/${dateStr}.html の公開を確認`)
       await verifyDeployment(dateStr)
       log(phase.current, 'OK')
+    }
+
+    phase.current = 'notify'
+    if (config.skipGitPush) {
+      // push していない = 公開 URL が存在しないので、共有しても踏めない。
+      log(phase.current, 'SKIP_GIT_PUSH=true のため Discord への記事共有をスキップ')
+    } else {
+      const articleUrl = buildVerifyUrl(dateStr)
+      const discord = await notifyDiscordSuccess({
+        date: dateStr,
+        articleUrl,
+        freshCount: freshEnriched.length,
+        recurringCount: recurringEnriched.length,
+        model: modelUsed,
+      })
+      // 通知の失敗で実行全体を失敗扱いにはしない（記事の公開自体は成功しているため）。
+      log(
+        phase.current,
+        discord.ok
+          ? `Discord (news) に記事を共有: ${articleUrl}`
+          : `Discord (news) 投稿スキップ/失敗: ${discord.reason}`,
+      )
     }
 
     console.log(redact(`完了: ${filePath} (model: ${modelUsed})`))

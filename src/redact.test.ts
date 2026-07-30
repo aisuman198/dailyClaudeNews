@@ -50,6 +50,7 @@ const SINKS: SinkSpec[] = [
   { file: 'issueClient.ts', signature: 'export async function addIssueComment(', label: 'GitHub Issue コメント' },
   { file: 'issueClient.ts', signature: 'export async function createDraftPr(', label: 'GitHub Draft PR 作成' },
   { file: 'git.ts',         signature: 'export async function commitAndPush(',  label: 'Git commit + push' },
+  { file: 'discord.ts',     signature: 'export async function postToDiscord(',  label: 'Discord Webhook 投稿' },
   { file: 'index.ts',       signature: 'function log(',                          label: 'メインパイプラインのフェーズログ' },
   { file: 'notifier.ts',    signature: 'function readRecentLog(',                label: 'issue body 添付用 run.log 読み出し' },
 ]

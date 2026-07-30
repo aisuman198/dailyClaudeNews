@@ -41,6 +41,10 @@ cp .env.example .env
 | `HISTORY_RETENTION_DAYS` | 継続話題として参照する日数（デフォルト 14） |
 | `DEDUP_TITLE_SIMILARITY` | 同run内重複判定の閾値（0.0〜1.0、デフォルト 0.85） |
 | `MACOS_NOTIFICATION` | 失敗時に macOS 通知を出すか（true/false） |
+| `DISCORD_NOTIFICATION` | Discord への投稿全体の ON/OFF（デフォルト `true`） |
+| `DISCORD_ERROR_WEBHOOK_URL` | **失敗時**に「エラーが出た旨 + GitHub issue のリンク」を投稿する Webhook |
+| `DISCORD_NEWS_WEBHOOK_URL` | **成功時**に「公開した記事の URL」を投稿する Webhook（エラーとは別チャンネル） |
+| `DISCORD_TIMEOUT_MS` | Webhook 送信のタイムアウト（デフォルト 15_000） |
 | `GIT_AUTHOR_NAME` / `GIT_AUTHOR_EMAIL` | 自動コミット時の Author（`.env.example` のプレースホルダを自分の値に置き換える。省略時は git config のグローバル値） |
 | `SKIP_GIT_PUSH` | true なら git commit/push をスキップ（dry-run 用） |
 | `SAVE_DRAFT` | true なら summarize 直後の draft を `state/draft-YYYY-MM-DD.md` に保存（debug 用、git 管理対象外） |
@@ -129,6 +133,27 @@ main の ruleset により直接 push が禁じられているため、`commitAn
 
 PR は squash merge され、daily ブランチは自動削除される。次回起動時の
 `git reset --hard origin/main` でローカルは origin/main に同期される。
+
+## Discord 通知
+
+定期実行の結果を Discord に投稿する。**エラー通知と記事共有は別チャンネル**（別 Webhook URL）。
+
+| タイミング | 投稿先 | 内容 |
+|-----------|--------|------|
+| 失敗時 | `DISCORD_ERROR_WEBHOOK_URL` | エラーが発生した旨・失敗フェーズ・カテゴリ・エラーメッセージ + **GitHub issue のリンク** |
+| 成功時 | `DISCORD_NEWS_WEBHOOK_URL` | 公開した記事の URL（`PAGES_BASE_URL/daily/YYYY-MM-DD.html`）と新規/継続の件数 |
+
+- 失敗通知のリンク先は notifier が起票（または再発コメント）した issue。同じ失敗が続く場合は
+  既存 issue にコメントが付き、通知には**その既存 issue の URL**が載る。issue 起票自体に失敗した
+  場合も「起票できませんでした」と明記して通知だけは飛ばす。
+- 成功通知は `verify-deploy`（GitHub Pages 上での公開確認）の後に投稿するので、リンクは必ず踏める。
+  `SKIP_GIT_PUSH=true` の dry-run ではスキップされる。
+- **Discord への投稿失敗で実行全体を失敗扱いにはしない。** 記事の公開自体は成功しているのに
+  通知失敗で終了コード 1 → 誤検知の error issue、という事故を防ぐため。結果は run.log に残る。
+- Webhook URL 未設定 / `DISCORD_NOTIFICATION=false` なら投稿はスキップされる（他の動作は変わらない）。
+
+Webhook は Discord のチャンネル設定 → 連携サービス → ウェブフック から発行し、`.env` に置く
+（URL は秘密情報。コミットしないこと）。
 
 ## ログ
 

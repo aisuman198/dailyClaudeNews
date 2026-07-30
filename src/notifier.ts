@@ -1,6 +1,7 @@
 import { spawn } from 'node:child_process'
 import { categorize } from './errorCategory.js'
 import { config } from './config.js'
+import { notifyDiscordFailure } from './discord.js'
 import { addIssueComment, createIssue, ensureLabelExists, findOpenIssueByTitle } from './issueClient.js'
 import { redact } from './redact.js'
 import type { Phase } from './types.js'
@@ -143,7 +144,12 @@ function buildRecurrenceComment(ctx: { date: string; phase: Phase; error: Error 
 async function postOrUpdateIssue(
   cat: ReturnType<typeof categorize>,
   ctx: { date: string; phase: Phase; error: Error },
-): Promise<{ action: 'created' | 'commented' | 'skipped'; issueNumber?: number; reason?: string }> {
+): Promise<{
+  action: 'created' | 'commented' | 'skipped'
+  issueNumber?: number
+  issueUrl?: string
+  reason?: string
+}> {
   if (!config.errorIssueRepo) {
     return { action: 'skipped', reason: 'errorIssueRepo が未設定' }
   }
@@ -173,21 +179,22 @@ async function postOrUpdateIssue(
         existing.number,
         buildRecurrenceComment(ctx),
       )
-      return { action: 'commented', issueNumber: existing.number }
+      return { action: 'commented', issueNumber: existing.number, issueUrl: existing.url }
     } catch (err) {
       console.error(redact(`[notifier] addIssueComment 失敗 (#${existing.number}): ${(err as Error).message}`))
-      return { action: 'skipped', reason: `comment failed: ${(err as Error).message}` }
+      // コメントは失敗したが issue 自体は存在するので、リンクは通知に載せる。
+      return { action: 'skipped', issueNumber: existing.number, issueUrl: existing.url, reason: `comment failed: ${(err as Error).message}` }
     }
   }
 
   try {
-    await createIssue(
+    const issueUrl = await createIssue(
       config.errorIssueRepo,
       cat.title,
       buildIssueBody({ ...ctx, category: cat.category }),
       cat.labels,
     )
-    return { action: 'created' }
+    return { action: 'created', issueUrl }
   } catch (err) {
     console.error(redact(`[notifier] createIssue 失敗: ${(err as Error).message}`))
     return { action: 'skipped', reason: `create failed: ${(err as Error).message}` }
@@ -215,4 +222,21 @@ export async function notifyFailure(error: Error, ctx: { phase: Phase }): Promis
   const issueRef = result.issueNumber ? ` #${result.issueNumber}` : ''
   const reason = result.reason ? ` (${result.reason})` : ''
   console.log(redact(`[notifier] issue ${result.action}${issueRef} (category: ${cat.category})${reason}`))
+
+  // Discord (エラー用チャンネル) へ「エラーが出た旨 + issue リンク」を投稿する。
+  // issue URL を載せたいので、issue 起票の後に実行する。通知の失敗はログのみ。
+  const discord = await notifyDiscordFailure({
+    date: today,
+    phase: ctx.phase,
+    category: cat.category,
+    error,
+    issueUrl: result.issueUrl || null,
+  })
+  console.log(
+    redact(
+      discord.ok
+        ? '[notifier] Discord (error) 投稿: OK'
+        : `[notifier] Discord (error) 投稿スキップ/失敗: ${discord.reason}`,
+    ),
+  )
 }

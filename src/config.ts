@@ -55,6 +55,14 @@ export const config = {
 
   errorIssueRepo: env('ERROR_ISSUE_REPO', 'aisuman198/dailyClaudeNews'),
   macosNotification: env('MACOS_NOTIFICATION', 'true').toLowerCase() === 'true',
+
+  // === Discord 通知 ===
+  // エラーと記事共有で投稿先チャンネルを分けるため、Webhook URL も別々に持つ。
+  // 未設定なら該当の通知だけがスキップされる（パイプラインは落とさない）。
+  discordNotification: env('DISCORD_NOTIFICATION', 'true').toLowerCase() === 'true',
+  discordErrorWebhookUrl: env('DISCORD_ERROR_WEBHOOK_URL', ''),
+  discordNewsWebhookUrl: env('DISCORD_NEWS_WEBHOOK_URL', ''),
+  discordTimeoutMs: envNum('DISCORD_TIMEOUT_MS', 15_000),
   verbose: env('VERBOSE', 'false').toLowerCase() === 'true',
   skipGitPush: env('SKIP_GIT_PUSH', 'false').toLowerCase() === 'true',
   saveDraft: env('SAVE_DRAFT', 'false').toLowerCase() === 'true',
