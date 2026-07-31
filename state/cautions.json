@@ -1250,6 +1250,16 @@
       "examples": [
         "Opus5プロンプティング記事とComputeruse記事の2箇所に登場。Opus4.5/4.7の誤記の可能性あり"
       ]
+    },
+    {
+      "term": "定義的な（形容詞）",
+      "rule": "「この時代の定義的な課題」→「この時代を定義する課題」と動詞形に直す",
+      "firstSeenDate": "2026-07-31",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 1,
+      "examples": [
+        "Ravi Kumar引用文内の形容詞「定義的な」が不自然な日本語"
+      ]
     }
   ]
 }
