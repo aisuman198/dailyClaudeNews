@@ -20,15 +20,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/ust-claude",
-      "normalizedTitle": "ust claude",
-      "firstSeenDate": "2026-07-10",
-      "lastSeenDate": "2026-07-16",
-      "occurrences": 7,
-      "bodyHash": "6cadc2dec98db1a5",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
       "normalizedTitle": "claude values models languages",
       "firstSeenDate": "2026-07-13",
@@ -110,15 +101,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/2b9faf5b4ab771d4496a",
-      "normalizedTitle": "claude code v2 1 210 write path 権限ルールに起動時警告 毎日changelog解説",
-      "firstSeenDate": "2026-07-15",
-      "lastSeenDate": "2026-07-16",
-      "occurrences": 2,
-      "bodyHash": "4b2ac57ecbe5e35e",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/finance-agents",
       "normalizedTitle": "finance agents",
       "firstSeenDate": "2026-07-15",
@@ -152,24 +134,6 @@
       "lastSeenDate": "2026-07-17",
       "occurrences": 2,
       "bodyHash": "7c56ca5ea2333802",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/fabaa6f75da6cf7c2742",
-      "normalizedTitle": "claude code v2 1 211 権限プレビュー偽装対策とbedrock課金バグを修正",
-      "firstSeenDate": "2026-07-16",
-      "lastSeenDate": "2026-07-16",
-      "occurrences": 1,
-      "bodyHash": "da168ae32aa0dae3",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/778d6017d7c9eae69ae7",
-      "normalizedTitle": "claude opus 4 7でエラー率上昇中 anthropic障害3件まとめと対応策",
-      "firstSeenDate": "2026-07-16",
-      "lastSeenDate": "2026-07-16",
-      "occurrences": 1,
-      "bodyHash": "526e50390a5499c2",
       "bodyLength": 3500
     },
     {
@@ -633,8 +597,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-opus-5",
       "normalizedTitle": "claude opus 5",
       "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 5,
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 6,
       "bodyHash": "3e8c0914502c37c2",
       "bodyLength": 3500
     },
@@ -678,8 +642,8 @@
       "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
       "normalizedTitle": "position open weights models",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 4,
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 5,
       "bodyHash": "25ad27a2fb59c1d3",
       "bodyLength": 3500
     },
@@ -687,9 +651,9 @@
       "normalizedUrl": "https://anthropic.com/news/cognizant-anthropic",
       "normalizedTitle": "cognizant anthropic",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 4,
-      "bodyHash": "6717764cd379a0bb",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 5,
+      "bodyHash": "ac6d8af57dca149a",
       "bodyLength": 3500
     },
     {
@@ -750,8 +714,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 3,
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 4,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
     },
@@ -904,6 +868,51 @@
       "lastSeenDate": "2026-07-30",
       "occurrences": 1,
       "bodyHash": "0dc7e8b179bc1b70",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/e96397a8ad93bca4ce25",
+      "normalizedTitle": "claude opus 5 リリース総まとめ 1mコンテキストと破壊的変更2件",
+      "firstSeenDate": "2026-07-31",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 1,
+      "bodyHash": "48f2c7aab72881bf",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ynakayama/items/d486fc70c8a29f5f765c",
+      "normalizedTitle": "さくらの ai engine の anthropic 互換 api で ai digest を動かす",
+      "firstSeenDate": "2026-07-31",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 1,
+      "bodyHash": "8295abe6ae5a51a1",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/tkurume/items/a3a5af52443aac0ccbaf",
+      "normalizedTitle": "claude max 週間上限まで残り4 別枠 の fable 5 はどこまで動くのか実測してみた",
+      "firstSeenDate": "2026-07-31",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 1,
+      "bodyHash": "436b53c558eb1a77",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/25bf5a49324c4b34ad1f",
+      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 31",
+      "firstSeenDate": "2026-07-31",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 1,
+      "bodyHash": "3284e0339beaeaa1",
+      "bodyLength": 1669
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "normalizedTitle": "investigating incidents cybersecurity evals",
+      "firstSeenDate": "2026-07-31",
+      "lastSeenDate": "2026-07-31",
+      "occurrences": 1,
+      "bodyHash": "d19eef2ef53415d0",
       "bodyLength": 3500
     }
   ]
