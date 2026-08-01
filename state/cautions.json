@@ -1260,6 +1260,36 @@
       "examples": [
         "Ravi Kumar引用文内の形容詞「定義的な」が不自然な日本語"
       ]
+    },
+    {
+      "term": "PaPoo",
+      "rule": "固有名詞として原文ママ保持したが実在未確認のプラットフォーム名",
+      "firstSeenDate": "2026-08-01",
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 1,
+      "examples": [
+        "第1記事本文に「PaPooへ投稿した」と登場。公式サービス名として要確認"
+      ]
+    },
+    {
+      "term": "GPT-5.6",
+      "rule": "OpenAI公式モデル名として未確認のバージョン番号",
+      "firstSeenDate": "2026-08-01",
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 1,
+      "examples": [
+        "第2記事に「GPT-5.6をSol・Terra・Lunaの3層で提供」と登場"
+      ]
+    },
+    {
+      "term": "Fable 5",
+      "rule": "「Claude Fable 5」と同カテゴリ（公式モデル名未確認）だが「Fable 5」単体での表記",
+      "firstSeenDate": "2026-08-01",
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 1,
+      "examples": [
+        "第2記事に「Opus 5をFable 5に近い能力を半額で提供」と登場"
+      ]
     }
   ]
 }

@@ -110,67 +110,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-      "normalizedTitle": "100 ai music video claude fable 5 vs gpt 5 6 sol",
-      "firstSeenDate": "2026-07-16",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 2,
-      "bodyHash": "cddd144d57b33bf8",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/c8b144e3ba36744b964b",
-      "normalizedTitle": "claude code v2 1 211 bedrock vertexのキャッシュ課金バグが直る 毎日changelog解説",
-      "firstSeenDate": "2026-07-16",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 2,
-      "bodyHash": "07bf9af4d7d4ecb9",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/masakazuimai/items/6bf65b08e0dbd7720723",
-      "normalizedTitle": "claude codeのサブエージェントが だいたい完成 で帰ってくる問題と 委譲プロンプトのテンプレート",
-      "firstSeenDate": "2026-07-16",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 2,
-      "bodyHash": "7c56ca5ea2333802",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature",
-      "normalizedTitle": "claude code anatomy of a misfeature",
-      "firstSeenDate": "2026-07-17",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 1,
-      "bodyHash": "962992134d0612aa",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-      "normalizedTitle": "meta in talks to lease computing power to anthropic in potential 10b deal",
-      "firstSeenDate": "2026-07-17",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/9be8047b5f9980465623",
-      "normalizedTitle": "claude code v2 1 212 暴走ループにセッション上限 毎日changelog解説",
-      "firstSeenDate": "2026-07-17",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 1,
-      "bodyHash": "4acefcf52524e937",
-      "bodyLength": 3449
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/add203914888f26a1658",
-      "normalizedTitle": "claude code v2 1 212の fork仕様変更とセキュリティ修正まとめ",
-      "firstSeenDate": "2026-07-17",
-      "lastSeenDate": "2026-07-17",
-      "occurrences": 1,
-      "bodyHash": "fc766c242398e2db",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://ykdojo.github.io/claude-controls-mac",
       "normalizedTitle": "setting up your spare mac for claude code to control a step by step guide",
       "firstSeenDate": "2026-07-18",
@@ -642,8 +581,8 @@
       "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
       "normalizedTitle": "position open weights models",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 6,
       "bodyHash": "25ad27a2fb59c1d3",
       "bodyLength": 3500
     },
@@ -651,8 +590,8 @@
       "normalizedUrl": "https://anthropic.com/news/cognizant-anthropic",
       "normalizedTitle": "cognizant anthropic",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 6,
       "bodyHash": "ac6d8af57dca149a",
       "bodyLength": 3500
     },
@@ -714,8 +653,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 5,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
     },
@@ -910,9 +849,36 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 2,
       "bodyHash": "d19eef2ef53415d0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/38267a9233217c3c14f2",
+      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 08 01",
+      "firstSeenDate": "2026-08-01",
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 1,
+      "bodyHash": "655c760fdb854337",
+      "bodyLength": 3325
+    },
+    {
+      "normalizedUrl": "https://qiita.com/mhamadajp/items/1ded79a46c857cb45174",
+      "normalizedTitle": "claude opus 5から読む 生成ai競争の次のステージ 性能競争から コスト 信頼性 運用設計 へ",
+      "firstSeenDate": "2026-08-01",
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 1,
+      "bodyHash": "5b2ad5a5ef557ba2",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/2dbd4c592dae70c005df",
+      "normalizedTitle": "claude api のストリーミング sse 実装 content block delta の型分岐漏れと partial json 結合 3つのハマりどころ 2026",
+      "firstSeenDate": "2026-08-01",
+      "lastSeenDate": "2026-08-01",
+      "occurrences": 1,
+      "bodyHash": "6cffe91c8cf7a5e9",
       "bodyLength": 3500
     }
   ]
