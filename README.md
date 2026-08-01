@@ -117,6 +117,8 @@ cron は毎回起動時に worktree で:
 
 を実行する。worktree が存在しなければ `scripts/setup-cron-worktree.sh` が自動で作成する。`.env` は開発用 repo のものを worktree に symlink するため、秘密値は複製されない。
 
+symlink の接続は `scripts/link-env.sh` が担当し、worktree セットアップ時だけでなく **毎回の実行前にも** 呼ばれる。worktree を作った後に `.env` を新規作成した場合でも次回実行時に自動で接続されるため、`.env` が読まれないまま全設定が既定値で走る事故は起きない。それでも `.env` を読めなかった場合は `run.error.log` に警告を残す。
+
 #### main 保護下での PR 経由 push
 
 main の ruleset により直接 push が禁じられているため、`commitAndPush`

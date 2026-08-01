@@ -47,11 +47,10 @@ else
   fi
 fi
 
-# .env は開発側 repo のものを symlink で共有する (worktree 側にコピーすると同期漏れの元)
-if [ -f "${PROJECT_ROOT}/.env" ] && [ ! -e "${WORKTREE_PATH}/.env" ]; then
-  ln -s "${PROJECT_ROOT}/.env" "${WORKTREE_PATH}/.env"
-  echo "[setup-cron-worktree] .env を symlink で接続"
-fi
+# .env は開発側 repo のものを symlink で共有する (worktree 側にコピーすると同期漏れの元)。
+# 接続ロジックは run.sh からも毎回呼ぶため link-env.sh に一本化してある。
+# この時点で開発側に .env が無くても異常ではない (後から作れば run.sh が接続する)。
+"${PROJECT_ROOT}/scripts/link-env.sh" "${PROJECT_ROOT}" "${WORKTREE_PATH}" || true
 
 echo "[setup-cron-worktree] npm ci (worktree)"
 ( cd "${WORKTREE_PATH}" && npm ci --silent --no-audit --no-fund )
