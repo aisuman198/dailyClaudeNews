@@ -128,33 +128,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/lhjjjk4/items/b1a1ffb0d8ddb62057fe",
-      "normalizedTitle": "ai daily digest 2026 07 19 appleがopenaiを提訴 metaがanthropicに最大1000億ドルの計算資源 claude fable 5がlmsysで首位に",
-      "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 1,
-      "bodyHash": "44ced5149b630036",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/bae2dd474405eaa87513",
-      "normalizedTitle": "claude code v2 1 214の権限脆弱性修正とhooks破壊的変更を解説",
-      "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 1,
-      "bodyHash": "7ba5c1b3d3f143e2",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/1d0678415be8bf3fb89d",
-      "normalizedTitle": "claude code の agent skills claude skills skill md を自作する実装手順 スラッシュコマンド サブエージェントとの違いと 発火しない 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-18",
-      "occurrences": 1,
-      "bodyHash": "4c8b60ffd9e47cc2",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
       "normalizedTitle": "claude code uses bun written in rust now",
       "firstSeenDate": "2026-07-19",
@@ -581,8 +554,8 @@
       "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
       "normalizedTitle": "position open weights models",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 7,
       "bodyHash": "25ad27a2fb59c1d3",
       "bodyLength": 3500
     },
@@ -590,8 +563,8 @@
       "normalizedUrl": "https://anthropic.com/news/cognizant-anthropic",
       "normalizedTitle": "cognizant anthropic",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 7,
       "bodyHash": "ac6d8af57dca149a",
       "bodyLength": 3500
     },
@@ -653,8 +626,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 6,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
     },
@@ -849,8 +822,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 3,
       "bodyHash": "d19eef2ef53415d0",
       "bodyLength": 3500
     },
@@ -880,6 +853,33 @@
       "occurrences": 1,
       "bodyHash": "6cffe91c8cf7a5e9",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/021dbf83592fceddf5a6",
+      "normalizedTitle": "claude code の claude md 階層読み込みと import 実装 優先順位 循環参照 相対パスの3つのハマりどころ 2026",
+      "firstSeenDate": "2026-08-02",
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 1,
+      "bodyHash": "577fbc275a43bd4f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/7ca06efa526d080d176a",
+      "normalizedTitle": "claude opus 5とgpt 5 6徹底比較 agent sdkでハーネス自作まで最新ai動向",
+      "firstSeenDate": "2026-08-02",
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 1,
+      "bodyHash": "be44e106c4c29f53",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/2b38a652ec3f4b990d54",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 02",
+      "firstSeenDate": "2026-08-02",
+      "lastSeenDate": "2026-08-02",
+      "occurrences": 1,
+      "bodyHash": "bf2482663f1ab6a5",
+      "bodyLength": 3328
     }
   ]
 }
