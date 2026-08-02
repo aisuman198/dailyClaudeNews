@@ -58,12 +58,22 @@ cd "${WORKTREE_PATH}" || {
   exit 1
 }
 
-# .env は setup-cron-worktree.sh が PROJECT_ROOT/.env から symlink している
+# .env は開発側 repo のものを worktree へ symlink して共有する。
+# worktree 作成後に .env を新規作成した場合、セットアップ時には symlink を張れていないため
+# 毎回ここで接続状態を確認して張り直す。張られていないと全設定が既定値のまま実行され、
+# Discord 通知などが「未設定」として黙ってスキップされる。
+"${PROJECT_ROOT}/scripts/link-env.sh" "${PROJECT_ROOT}" "${WORKTREE_PATH}" \
+  >> "${LOG_FILE}" 2>> "${ERR_FILE}" || true
+
 if [ -f "${WORKTREE_PATH}/.env" ]; then
   set -a
   # shellcheck disable=SC1091
   . "${WORKTREE_PATH}/.env"
   set +a
+else
+  # 致命的ではない (既定値で動く) が、意図しない設定で走り続けるのを防ぐため必ず記録する。
+  echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] 警告: .env を読み込めませんでした。全設定を既定値で実行します" \
+    | tee -a "${ERR_FILE}" >> "${LOG_FILE}"
 fi
 
 {
