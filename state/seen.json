@@ -2,60 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/research/global-workspace",
-      "normalizedTitle": "global workspace",
-      "firstSeenDate": "2026-07-06",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 9,
-      "bodyHash": "8e93b74ecdb4865b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/agentic-misalignment",
-      "normalizedTitle": "agentic misalignment",
-      "firstSeenDate": "2026-07-08",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 12,
-      "bodyHash": "5efa8023c5143c4d",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
-      "normalizedTitle": "claude values models languages",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 7,
-      "bodyHash": "ca371a6f46b1edac",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/claude-plays-robotics",
-      "normalizedTitle": "claude plays robotics",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 7,
-      "bodyHash": "d924777ad1e2f0c1",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work",
-      "normalizedTitle": "claude for creative work",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 7,
-      "bodyHash": "af45984740feb078",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
-      "normalizedTitle": "theo hourmouzis general manager australia new zealand",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 7,
-      "bodyHash": "ebad1a92b8cc8c50",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
       "normalizedTitle": "claude design anthropic labs",
       "firstSeenDate": "2026-07-13",
@@ -110,24 +56,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://ykdojo.github.io/claude-controls-mac",
-      "normalizedTitle": "setting up your spare mac for claude code to control a step by step guide",
-      "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 2,
-      "bodyHash": "85cc56c0b79943e0",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/6c6646ec2759b63216c5",
-      "normalizedTitle": "claude code v2 1 214 permission チェックの穴が一斉に塞がる 毎日changelog解説",
-      "firstSeenDate": "2026-07-18",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 2,
-      "bodyHash": "cd0db9962455eeb3",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
       "normalizedTitle": "claude code uses bun written in rust now",
       "firstSeenDate": "2026-07-19",
@@ -135,51 +63,6 @@
       "occurrences": 2,
       "bodyHash": "1234c89b23c85199",
       "bodyLength": 2601
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/ai-code-migration",
-      "normalizedTitle": "anthropic runs large scale code migrations with claude code",
-      "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 1,
-      "bodyHash": "e6f13fb7ae78a3cc",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/amalshehu/pexels-skill",
-      "normalizedTitle": "claude code skill for searching royalty free stock photos via the pexels api",
-      "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 1,
-      "bodyHash": "0990df587fb52493",
-      "bodyLength": 1555
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/cec53cc700e513ac13d7",
-      "normalizedTitle": "claude code v2 1 215 verify code review の自動実行が止まる 毎日changelog解説",
-      "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 1,
-      "bodyHash": "b8d785f4d09df2a4",
-      "bodyLength": 2218
-    },
-    {
-      "normalizedUrl": "https://qiita.com/lhjjjk4/items/3754abea83272df41620",
-      "normalizedTitle": "ai daily digest 2026年7月20日 gpt 5 6世界展開 claude fable 5復活 meta muse spark 1 1投入",
-      "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 1,
-      "bodyHash": "2357290d587a1fbf",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/lhjjjk4/items/7813161ed6673a57b742",
-      "normalizedTitle": "ai daily digest 2026年7月20日 gpt 5 6全面公開 claude fable 5復活 自己検証型コーディングエージェント登場",
-      "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-19",
-      "occurrences": 1,
-      "bodyHash": "8b6351e277e7ce98",
-      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://xcancel.com/__alpoge__/status/2079028340955197566",
@@ -554,8 +437,8 @@
       "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
       "normalizedTitle": "position open weights models",
       "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-08-02",
-      "occurrences": 7,
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 8,
       "bodyHash": "25ad27a2fb59c1d3",
       "bodyLength": 3500
     },
@@ -626,8 +509,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-08-02",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 7,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
     },
@@ -822,9 +705,9 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-02",
-      "occurrences": 3,
-      "bodyHash": "d19eef2ef53415d0",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 4,
+      "bodyHash": "547728726ed4dc77",
       "bodyLength": 3500
     },
     {
@@ -880,6 +763,51 @@
       "occurrences": 1,
       "bodyHash": "bf2482663f1ab6a5",
       "bodyLength": 3328
+    },
+    {
+      "normalizedUrl": "https://qiita.com/pbtakaya/items/c281973a91302028ad71",
+      "normalizedTitle": "claude fable 5を1ヶ月使ってみたので claudeモデルの違いと使い分けをまとめてみた",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "bodyHash": "feed08d592cb53d6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ynakayama/items/beadd112dbf4788daa20",
+      "normalizedTitle": "ai digest v1 1 をリリースして anthropic 互換 api と外部入力の扱いを改善した",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "bodyHash": "5e59d4b9845f2be3",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/DeepTama/items/075b66cd7332870a042a",
+      "normalizedTitle": "図解で解説 claude certified architect ccar f 試験ガイド",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "bodyHash": "b668bd1adaf6c1a0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
+      "normalizedTitle": "claude for nonprofits",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "bodyHash": "3a3db0e695a51887",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/cb8415790b536aab471a",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 03",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "bodyHash": "1061fcf9877375fb",
+      "bodyLength": 3195
     }
   ]
 }
