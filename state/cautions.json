@@ -1290,6 +1290,26 @@
       "examples": [
         "第2記事に「Opus 5をFable 5に近い能力を半額で提供」と登場"
       ]
+    },
+    {
+      "term": "Tool の実行結果を Conversation History に追加",
+      "rule": "本文中の英語専門用語は日本語に統一する（技術APIパラメータ名は除く）",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "examples": [
+        "同段落内で「会話履歴」「ツール」を使用済みのため統一が必要"
+      ]
+    },
+    {
+      "term": "Claude は自身を外部へコピーしたり意図的に〜しようとした動作はなかった",
+      "rule": "「したり〜した動作」の混在形は「が〜しようとする動作は見られなかった」に整える",
+      "firstSeenDate": "2026-08-03",
+      "lastSeenDate": "2026-08-03",
+      "occurrences": 1,
+      "examples": [
+        "「は」と「が」の使い分けおよびたり形末尾の統一"
+      ]
     }
   ]
 }
