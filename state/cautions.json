@@ -1310,6 +1310,46 @@
       "examples": [
         "「は」と「が」の使い分けおよびたり形末尾の統一"
       ]
+    },
+    {
+      "term": "共同リードした",
+      "rule": "英語動詞ハイブリッドを避け「共同で主導した」と表記",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "examples": [
+        "「カリフォルニア州フロンティアAI作業部会を共同リードした」で使用"
+      ]
+    },
+    {
+      "term": "信託を辞した",
+      "rule": "目的語を明確にし「受託者を辞した」と表記",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "examples": [
+        "Long-Term Benefit Trust の受託者退任を説明する箇所"
+      ]
+    },
+    {
+      "term": "1位は〜のみが上位に位置する",
+      "rule": "主語と述語が混乱する構造。「〜より上位にあるのは〜のみである」と整理",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "examples": [
+        "article 3 で grill-me より上位のスキルを説明する文"
+      ]
+    },
+    {
+      "term": "〜に対して（目的・テーマを示す文脈）",
+      "rule": "計画・設計「について」質問する文脈では「に対して」より「について」が自然",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "examples": [
+        "grill-meのスキル説明文"
+      ]
     }
   ]
 }
