@@ -29,15 +29,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/how-canada-uses-claude",
-      "normalizedTitle": "how canada uses claude",
-      "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 7,
-      "bodyHash": "380bc403c812a368",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/introducing-claude-tag",
       "normalizedTitle": "introducing claude tag",
       "firstSeenDate": "2026-07-15",
@@ -56,57 +47,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
-      "normalizedTitle": "claude code uses bun written in rust now",
-      "firstSeenDate": "2026-07-19",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 2,
-      "bodyHash": "1234c89b23c85199",
-      "bodyLength": 2601
-    },
-    {
-      "normalizedUrl": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-      "normalizedTitle": "claude fable produced a counterexample to the jacobian conjecture",
-      "firstSeenDate": "2026-07-20",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 1,
-      "bodyHash": "e50358d1243dbc04",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://emergingtrajectories.com/lh/frontier-lab-economics",
-      "normalizedTitle": "kimi k3 qwen 3 8 and anthropic s potential unravelling",
-      "firstSeenDate": "2026-07-20",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 1,
-      "bodyHash": "d798f00aa08b319f",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/rare-disease-research-grants",
       "normalizedTitle": "rare disease research grants",
       "firstSeenDate": "2026-07-20",
       "lastSeenDate": "2026-07-21",
       "occurrences": 2,
       "bodyHash": "cd85b238e4f77c66",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ynakayama/items/c198ca2a7e288d49beb8",
-      "normalizedTitle": "claude code の claude md と claude rules を使い分ける",
-      "firstSeenDate": "2026-07-20",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 1,
-      "bodyHash": "85ad708a4db3bb2e",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/d64230d1302b4bb30660",
-      "normalizedTitle": "claude agent sdk でカスタム ai エージェントを自作する実装手順とハマりどころ 2026",
-      "firstSeenDate": "2026-07-20",
-      "lastSeenDate": "2026-07-20",
-      "occurrences": 1,
-      "bodyHash": "b5e470a1c08a36ca",
       "bodyLength": 3500
     },
     {
@@ -509,8 +455,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 7,
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 8,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
     },
@@ -705,8 +651,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 5,
       "bodyHash": "547728726ed4dc77",
       "bodyLength": 3500
     },
@@ -795,8 +741,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
       "normalizedTitle": "claude for nonprofits",
       "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 2,
       "bodyHash": "3a3db0e695a51887",
       "bodyLength": 3500
     },
@@ -808,6 +754,42 @@
       "occurrences": 1,
       "bodyHash": "1061fcf9877375fb",
       "bodyLength": 3195
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Skillselion/items/93e31d78fc1726ea1c85",
+      "normalizedTitle": "matt pocockのgrill meがanthropic公式スキルを抜き claude codeスキル総合2位に 8月4日データ",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "bodyHash": "14908c68683ccd43",
+      "bodyLength": 3270
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/4a520c01ae3e04f211e4",
+      "normalizedTitle": "claude code v2 1 221 zsh の で権限チェックが素通りしていた 毎日changelog解説",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "bodyHash": "43c86fa227db53fd",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
+      "normalizedTitle": "tino cuellar",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "bodyHash": "9e34d4b427f74a8a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/c01e7988cb6c943ee1fb",
+      "normalizedTitle": "claude code v2 1 221必須アップデート bash権限バイパスを修正",
+      "firstSeenDate": "2026-08-04",
+      "lastSeenDate": "2026-08-04",
+      "occurrences": 1,
+      "bodyHash": "9ad02423ad064de7",
+      "bodyLength": 3500
     }
   ]
 }
