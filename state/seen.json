@@ -11,24 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
-      "normalizedTitle": "claude for teachers",
-      "firstSeenDate": "2026-07-14",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 9,
-      "bodyHash": "fec2eaf1997b8054",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
-      "normalizedTitle": "judge approves 1 5b anthropic settlement for pirated books used to train claude",
-      "firstSeenDate": "2026-07-21",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 2,
-      "bodyHash": "90e54ac06f8b2505",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://qiita.com/moha0918_/items/6375e58106fbc7c4c42d",
       "normalizedTitle": "claude code v2 1 218 code review がバックグラウンド化 毎日changelog解説",
       "firstSeenDate": "2026-07-22",
@@ -56,48 +38,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/homhom44/items/9ebe7abd9aec61dfc2bf",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 23",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
-      "bodyHash": "855c5ffa808cb8bd",
-      "bodyLength": 2589
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/4d467229dd1d0d4bb96d",
-      "normalizedTitle": "claude code v2 1 217 でサブエージェントの挙動が大きく変更された話",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
-      "bodyHash": "81151dc7a9f08726",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ryuhei-kiso/items/b0954846f66d66b6ff20",
-      "normalizedTitle": "claude code が入力前に送る 38 000 トークンの 実際の支払い を測る",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
-      "bodyHash": "798bb2169d8f8a9d",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/donation-public-first-action",
       "normalizedTitle": "donation public first action",
       "firstSeenDate": "2026-07-22",
       "lastSeenDate": "2026-07-28",
       "occurrences": 5,
       "bodyHash": "b295129c87abbb2a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-opus-4-8",
-      "normalizedTitle": "claude opus 4 8",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-22",
-      "occurrences": 1,
-      "bodyHash": "8bdf91bedd3710be",
       "bodyLength": 3500
     },
     {
@@ -579,8 +525,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-06",
+      "occurrences": 7,
       "bodyHash": "547728726ed4dc77",
       "bodyLength": 3500
     },
@@ -669,8 +615,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
       "normalizedTitle": "claude for nonprofits",
       "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-06",
+      "occurrences": 4,
       "bodyHash": "3a3db0e695a51887",
       "bodyLength": 3500
     },
@@ -705,8 +651,8 @@
       "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
       "normalizedTitle": "tino cuellar",
       "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-06",
+      "occurrences": 3,
       "bodyHash": "9e34d4b427f74a8a",
       "bodyLength": 3500
     },
@@ -763,6 +709,33 @@
       "occurrences": 1,
       "bodyHash": "8c99c82faf510482",
       "bodyLength": 3134
+    },
+    {
+      "normalizedUrl": "https://qiita.com/TaichiYamasaki/items/c75b139044362e18fa68",
+      "normalizedTitle": "google公式の cloud run mcp で claude code にデプロイさせてみた",
+      "firstSeenDate": "2026-08-06",
+      "lastSeenDate": "2026-08-06",
+      "occurrences": 1,
+      "bodyHash": "83aa6ea6e5d20f2b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/70ec9480a6b3a235ce01",
+      "normalizedTitle": "claude code v2 1 223 bash permission のバイパスが塞がる 毎日changelog解説",
+      "firstSeenDate": "2026-08-06",
+      "lastSeenDate": "2026-08-06",
+      "occurrences": 1,
+      "bodyHash": "8a6d74f3ec91369a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/9d1d0412fc196a843e44",
+      "normalizedTitle": "claude code v2 1 223のセキュリティ修正とコンテキスト管理変更まとめ",
+      "firstSeenDate": "2026-08-06",
+      "lastSeenDate": "2026-08-06",
+      "occurrences": 1,
+      "bodyHash": "acb851f879a4035c",
+      "bodyLength": 3500
     }
   ]
 }
