@@ -11,15 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/6375e58106fbc7c4c42d",
-      "normalizedTitle": "claude code v2 1 218 code review がバックグラウンド化 毎日changelog解説",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-23",
-      "occurrences": 2,
-      "bodyHash": "a409c37400bac2fc",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-connector",
       "normalizedTitle": "anthropic economic index connector",
       "firstSeenDate": "2026-07-22",
@@ -92,48 +83,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://github.com/izeigerman/claude-thermos",
-      "normalizedTitle": "show hn claude thermos keeps your claude session warm for you",
-      "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-23",
-      "occurrences": 1,
-      "bodyHash": "91b175bdb43c8dd6",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work-dev",
       "normalizedTitle": "claude for creative work dev",
       "firstSeenDate": "2026-07-23",
       "lastSeenDate": "2026-07-26",
       "occurrences": 2,
       "bodyHash": "fd55d4775f86c3fd",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/cf3b8986a965465f169e",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 24",
-      "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-23",
-      "occurrences": 1,
-      "bodyHash": "4b7e3f1e96fb2c37",
-      "bodyLength": 3016
-    },
-    {
-      "normalizedUrl": "https://qiita.com/shominai2024/items/c0323c9473d9b1c8ed11",
-      "normalizedTitle": "claude design 使用感 ゼロから始めるaiシステム開発 28",
-      "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-23",
-      "occurrences": 1,
-      "bodyHash": "3d503b5e75d84823",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/4a4a496f2bab52868f5a",
-      "normalizedTitle": "claude codeがデスクトップアプリに pc閉じても動く新機能routinesとは",
-      "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-23",
-      "occurrences": 1,
-      "bodyHash": "2814b223f8d127c9",
       "bodyLength": 3500
     },
     {
@@ -525,8 +480,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-06",
-      "occurrences": 7,
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 8,
       "bodyHash": "547728726ed4dc77",
       "bodyLength": 3500
     },
@@ -615,8 +570,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
       "normalizedTitle": "claude for nonprofits",
       "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-06",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 5,
       "bodyHash": "3a3db0e695a51887",
       "bodyLength": 3500
     },
@@ -651,8 +606,8 @@
       "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
       "normalizedTitle": "tino cuellar",
       "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-06",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 4,
       "bodyHash": "9e34d4b427f74a8a",
       "bodyLength": 3500
     },
@@ -735,6 +690,60 @@
       "lastSeenDate": "2026-08-06",
       "occurrences": 1,
       "bodyHash": "acb851f879a4035c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
+      "normalizedTitle": "lost my phone at the office claude suggested tracking bluetooth signal strength",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "bodyHash": "f7d4e0e75a05101c",
+      "bodyLength": 1156
+    },
+    {
+      "normalizedUrl": "https://cnn.com/2026/08/04/tech/ai-anthropic-openai-security-breach-intl-hnk",
+      "normalizedTitle": "ai agents fake identities target real people in new security incident",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "bodyHash": "f45d367393f1be8a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/ClaudeDevs/status/2085794862608318627",
+      "normalizedTitle": "claude code starting august 14 auto mode will be the default permission mode",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "bodyHash": "0ec0ddfdeb9f9e84",
+      "bodyLength": 2494
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/8d9bb54bff914f7017cd",
+      "normalizedTitle": "claude code v2 1 224 セッション間 sendmessage が解禁 毎日changelog解説",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "bodyHash": "c764c02ce914c994",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Skillselion/items/f872237e1c49725f3366",
+      "normalizedTitle": "claude codeスキルは作者ごとインストールされる時代に 検索急上昇1位は人名だった 8月7日データ",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "bodyHash": "e2888f5f168d6c49",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "normalizedTitle": "improving fable 5 s biology safeguards",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "bodyHash": "713b7f3827789fdf",
       "bodyLength": 3500
     }
   ]
