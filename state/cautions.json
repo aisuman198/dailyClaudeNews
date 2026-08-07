@@ -1370,6 +1370,36 @@
       "examples": [
         "目的語なしで「が〜に抑制するようになった」は文法的に不完全"
       ]
+    },
+    {
+      "term": "Mythos 5",
+      "rule": "Anthropic公式モデル名として未確認。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "examples": [
+        "「Claude Mythos Preview」既知注意の類似表記として本日初登場"
+      ]
+    },
+    {
+      "term": "GPT-5.6-Sol",
+      "rule": "「GPT-5.6」（既知注意）の新サフィックス形。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "examples": [
+        "「-Sol」サフィックスを伴う未確認OpenAIモデル名が初登場"
+      ]
+    },
+    {
+      "term": "Opus 5",
+      "rule": "Anthropicの既知モデルラインに存在しないバージョン番号として要確認。原文ママで保持",
+      "firstSeenDate": "2026-08-07",
+      "lastSeenDate": "2026-08-07",
+      "occurrences": 1,
+      "examples": [
+        "Fable 5記事のフォールバック先として言及された未確認モデル名"
+      ]
     }
   ]
 }
