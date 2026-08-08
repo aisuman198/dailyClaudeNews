@@ -1400,6 +1400,16 @@
       "examples": [
         "Fable 5記事のフォールバック先として言及された未確認モデル名"
       ]
+    },
+    {
+      "term": "Messages API を話し",
+      "rule": "「APIを話す」は英語の技術的比喩の直訳で日本語として不自然。「利用し」に修正",
+      "firstSeenDate": "2026-08-08",
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 1,
+      "examples": [
+        "Routingセクション「Anthropic の Messages API を話し」を「利用し」に修正"
+      ]
     }
   ]
 }
