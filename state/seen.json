@@ -480,8 +480,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 8,
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 9,
       "bodyHash": "547728726ed4dc77",
       "bodyLength": 3500
     },
@@ -570,8 +570,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
       "normalizedTitle": "claude for nonprofits",
       "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 6,
       "bodyHash": "3a3db0e695a51887",
       "bodyLength": 3500
     },
@@ -606,8 +606,8 @@
       "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
       "normalizedTitle": "tino cuellar",
       "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 5,
       "bodyHash": "9e34d4b427f74a8a",
       "bodyLength": 3500
     },
@@ -696,10 +696,10 @@
       "normalizedUrl": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
       "normalizedTitle": "lost my phone at the office claude suggested tracking bluetooth signal strength",
       "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 1,
-      "bodyHash": "f7d4e0e75a05101c",
-      "bodyLength": 1156
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 2,
+      "bodyHash": "f7b12bae7af9a715",
+      "bodyLength": 981
     },
     {
       "normalizedUrl": "https://cnn.com/2026/08/04/tech/ai-anthropic-openai-security-breach-intl-hnk",
@@ -741,9 +741,54 @@
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 2,
       "bodyHash": "713b7f3827789fdf",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://code.claude.com/docs/en/cross-session-messaging",
+      "normalizedTitle": "message your other claude code sessions",
+      "firstSeenDate": "2026-08-08",
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 1,
+      "bodyHash": "f181db8f3d191800",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/0b6db0c810a280d5b1bc",
+      "normalizedTitle": "claude code v2 1 225 v2 1 226 ヘッドレスの claude code oauth token が奪われる不具合 毎日changelog解説",
+      "firstSeenDate": "2026-08-08",
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 1,
+      "bodyHash": "953328b42828454c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/0175ee85a6d90bbf4c35",
+      "normalizedTitle": "92 が使っても成果は7 anthropic claude corps 225億円の中身",
+      "firstSeenDate": "2026-08-08",
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 1,
+      "bodyHash": "6420750836c08ae7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/50969c7f3381f83eaa36",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 08",
+      "firstSeenDate": "2026-08-08",
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 1,
+      "bodyHash": "0126e5bb9c0e5ae1",
+      "bodyLength": 2937
+    },
+    {
+      "normalizedUrl": "https://qiita.com/RP4nda13/items/d9249816995b6467356a",
+      "normalizedTitle": "claude apps gatewayをawsに構築してclaude codeの認証とコスト管理を一元化してみた",
+      "firstSeenDate": "2026-08-08",
+      "lastSeenDate": "2026-08-08",
+      "occurrences": 1,
+      "bodyHash": "0ddc2ef6031af095",
       "bodyLength": 3500
     }
   ]
