@@ -480,8 +480,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 9,
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 10,
       "bodyHash": "547728726ed4dc77",
       "bodyLength": 3500
     },
@@ -570,8 +570,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
       "normalizedTitle": "claude for nonprofits",
       "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 7,
       "bodyHash": "3a3db0e695a51887",
       "bodyLength": 3500
     },
@@ -606,8 +606,8 @@
       "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
       "normalizedTitle": "tino cuellar",
       "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 6,
       "bodyHash": "9e34d4b427f74a8a",
       "bodyLength": 3500
     },
@@ -741,8 +741,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 3,
       "bodyHash": "713b7f3827789fdf",
       "bodyLength": 3500
     },
@@ -750,8 +750,8 @@
       "normalizedUrl": "https://code.claude.com/docs/en/cross-session-messaging",
       "normalizedTitle": "message your other claude code sessions",
       "firstSeenDate": "2026-08-08",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 2,
       "bodyHash": "f181db8f3d191800",
       "bodyLength": 3500
     },
@@ -789,6 +789,42 @@
       "lastSeenDate": "2026-08-08",
       "occurrences": 1,
       "bodyHash": "0ddc2ef6031af095",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://youtube.com/watch?v=68X8yEatepQ",
+      "normalizedTitle": "70 of ai revenue comes from openai and anthropic video",
+      "firstSeenDate": "2026-08-09",
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 1,
+      "bodyHash": "ac4e0c21aae5410f",
+      "bodyLength": 206
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/b8c4847a09ff64695e3d",
+      "normalizedTitle": "claude opus 5とchatgpt voiceで変わるaiエージェント活用の勘所",
+      "firstSeenDate": "2026-08-09",
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 1,
+      "bodyHash": "d46f4f33eb95fcc8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/1bfd20376294fb6f3ba5",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 09",
+      "firstSeenDate": "2026-08-09",
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 1,
+      "bodyHash": "e20c5b9d80c0b693",
+      "bodyLength": 1715
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/43f323290eb3f524263c",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 09",
+      "firstSeenDate": "2026-08-09",
+      "lastSeenDate": "2026-08-09",
+      "occurrences": 1,
+      "bodyHash": "7d51e6c51154e6ed",
       "bodyLength": 3500
     }
   ]
