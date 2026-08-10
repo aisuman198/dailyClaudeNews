@@ -1430,6 +1430,36 @@
       "examples": [
         "エージェントフレームワーク名として登場。Vercel AI SDK等の誤記の可能性あり"
       ]
+    },
+    {
+      "term": "Claude Tag",
+      "rule": "Anthropicサポートページが出典だが既知リストに未掲載の製品名。原文ママで保持",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "examples": [
+        "マーキング適用対象の列挙に登場する新製品名"
+      ]
+    },
+    {
+      "term": "GPT-5.4",
+      "rule": "OpenAI公式モデル名として未確認のバージョン番号（GPT-5.6と同パターン）。原文ママで保持",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "examples": [
+        "知識カットオフ記事の末尾に事例として登場"
+      ]
+    },
+    {
+      "term": "Microsoft Foundry",
+      "rule": "通常は「Azure AI Foundry」と呼称される。略称・誤記の可能性あり。原文ママで保持",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "examples": [
+        "AIコンテンツマーキング記事のアクセス経路列挙に登場"
+      ]
     }
   ]
 }
