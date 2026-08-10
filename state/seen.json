@@ -41,9 +41,9 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-28",
-      "occurrences": 5,
-      "bodyHash": "6408eb9f26f234d0",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 6,
+      "bodyHash": "c9fbd01283e595dd",
       "bodyLength": 3500
     },
     {
@@ -74,24 +74,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-for-small-business",
-      "normalizedTitle": "claude for small business",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 3,
-      "bodyHash": "6dd06b62b9f4b203",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-for-creative-work-dev",
-      "normalizedTitle": "claude for creative work dev",
-      "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 2,
-      "bodyHash": "fd55d4775f86c3fd",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-opus-4-7",
       "normalizedTitle": "claude opus 4 7",
       "firstSeenDate": "2026-07-23",
@@ -101,66 +83,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "normalizedTitle": "the new rules of context engineering for claude 5 generation models",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 1,
-      "bodyHash": "b96c001a64670b97",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://status.claude.com/incidents/zftg3gqkmv18",
-      "normalizedTitle": "elevated errors for opus 5",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 1,
-      "bodyHash": "187a2e0c6ccbe2cc",
-      "bodyLength": 755
-    },
-    {
-      "normalizedUrl": "https://asteriskmag.com/issues/15/rust-and-boll",
-      "normalizedTitle": "anthropic should learn from those cotton picking socialists",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 1,
-      "bodyHash": "309346cdb4124137",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://twitter.com/DavidSacks/status/2081470576653406328",
-      "normalizedTitle": "anthropic versus the entire tech industry",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 1,
-      "bodyHash": "7cb121e5115bb8c5",
-      "bodyLength": 2428
-    },
-    {
       "normalizedUrl": "https://qiita.com/sakutto-panda/items/461753e9940277a23a29",
       "normalizedTitle": "claude opus 5リリース fable 5に迫る性能を半額で thinkingデフォルトon化で破壊的変更も",
       "firstSeenDate": "2026-07-26",
       "lastSeenDate": "2026-07-27",
       "occurrences": 2,
       "bodyHash": "ab6e0521ebdf3a2e",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/faaa3d738bbffa2b62c9",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 27",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 1,
-      "bodyHash": "4dd68f2d95d4d850",
-      "bodyLength": 2400
-    },
-    {
-      "normalizedUrl": "https://qiita.com/emi_ndk/items/6b8be2242d13ed1a3af6",
-      "normalizedTitle": "半額モデルが本家を逆転 43 3 対33 7 claude opus 5が壊した 上位ほど賢い の常識",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-26",
-      "occurrences": 1,
-      "bodyHash": "9d0bc80508ec0092",
       "bodyLength": 3500
     },
     {
@@ -606,8 +534,8 @@
       "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
       "normalizedTitle": "tino cuellar",
       "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-09",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 7,
       "bodyHash": "9e34d4b427f74a8a",
       "bodyLength": 3500
     },
@@ -741,8 +669,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-09",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 4,
       "bodyHash": "713b7f3827789fdf",
       "bodyLength": 3500
     },
@@ -804,8 +732,8 @@
       "normalizedUrl": "https://qiita.com/picnic/items/b8c4847a09ff64695e3d",
       "normalizedTitle": "claude opus 5とchatgpt voiceで変わるaiエージェント活用の勘所",
       "firstSeenDate": "2026-08-09",
-      "lastSeenDate": "2026-08-09",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 2,
       "bodyHash": "d46f4f33eb95fcc8",
       "bodyLength": 3500
     },
@@ -826,6 +754,60 @@
       "occurrences": 1,
       "bodyHash": "7d51e6c51154e6ed",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+      "normalizedTitle": "exploring claude gpt knowledge cutoffs and pre training timelines",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "bodyHash": "261620f567f3cb10",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "normalizedTitle": "how claude marks ai generated content",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "bodyHash": "ac8d917cce75e45a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/jarredsumner/status/2086869681785500011",
+      "normalizedTitle": "claude moves bound of the riemann hypothesis from 41 6 to 67 2",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "bodyHash": "14d84f257becb812",
+      "bodyLength": 1897
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
+      "normalizedTitle": "riemann zeta",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "bodyHash": "765b136216be952b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/akira_papa_AI/items/aaf1d90a6b4f90969f17",
+      "normalizedTitle": "claude codeのスキル skill md で自分専用の コマンド を1つ作る 毎回おなじ指示を打ち直すのをやめる",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "bodyHash": "b9f7ee5f7b66906a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/b81158796648dd16c06d",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 10",
+      "firstSeenDate": "2026-08-10",
+      "lastSeenDate": "2026-08-10",
+      "occurrences": 1,
+      "bodyHash": "dd25b3fbffe21ee6",
+      "bodyLength": 2285
     }
   ]
 }
