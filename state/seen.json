@@ -2,15 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-design-anthropic-labs",
-      "normalizedTitle": "claude design anthropic labs",
-      "firstSeenDate": "2026-07-13",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 11,
-      "bodyHash": "78fd3937a200283c",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-connector",
       "normalizedTitle": "anthropic economic index connector",
       "firstSeenDate": "2026-07-22",
@@ -41,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 7,
       "bodyHash": "c9fbd01283e595dd",
       "bodyLength": 3500
     },
@@ -83,15 +74,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/sakutto-panda/items/461753e9940277a23a29",
-      "normalizedTitle": "claude opus 5リリース fable 5に迫る性能を半額で thinkingデフォルトon化で破壊的変更も",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 2,
-      "bodyHash": "ab6e0521ebdf3a2e",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-opus-5",
       "normalizedTitle": "claude opus 5",
       "firstSeenDate": "2026-07-26",
@@ -107,33 +89,6 @@
       "lastSeenDate": "2026-07-30",
       "occurrences": 5,
       "bodyHash": "2848e05b91e633bd",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://status.claude.com/incidents/mfdtrknpxghq",
-      "normalizedTitle": "elevated errors on claude opus 5",
-      "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 1,
-      "bodyHash": "9075c6a3dc9cef57",
-      "bodyLength": 458
-    },
-    {
-      "normalizedUrl": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "normalizedTitle": "claude shared chats and artifacts may have ended up on google",
-      "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 1,
-      "bodyHash": "1e569aa834a04390",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
-      "normalizedTitle": "sam altman says we are in the singularity this is the moment",
-      "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-07-27",
-      "occurrences": 1,
-      "bodyHash": "d2fc3f6a5e336c62",
       "bodyLength": 3500
     },
     {
@@ -669,8 +624,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 5,
       "bodyHash": "713b7f3827789fdf",
       "bodyLength": 3500
     },
@@ -759,17 +714,17 @@
       "normalizedUrl": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
       "normalizedTitle": "exploring claude gpt knowledge cutoffs and pre training timelines",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 1,
-      "bodyHash": "261620f567f3cb10",
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 2,
+      "bodyHash": "a138b06c9334ce97",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
       "normalizedTitle": "how claude marks ai generated content",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 2,
       "bodyHash": "ac8d917cce75e45a",
       "bodyLength": 3500
     },
@@ -786,8 +741,8 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 2,
       "bodyHash": "765b136216be952b",
       "bodyLength": 3500
     },
@@ -808,6 +763,51 @@
       "occurrences": 1,
       "bodyHash": "dd25b3fbffe21ee6",
       "bodyLength": 2285
+    },
+    {
+      "normalizedUrl": "https://twitter.com/_can1357/status/2087228354399265125",
+      "normalizedTitle": "openai and anthropic hidden cot leaks when given deep think tool",
+      "firstSeenDate": "2026-08-11",
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 1,
+      "bodyHash": "56e5790d18de8c0d",
+      "bodyLength": 1784
+    },
+    {
+      "normalizedUrl": "https://qiita.com/locallab/items/9d57c80c36f5e951bd3b",
+      "normalizedTitle": "claude code openrouter free models コスト 0 で ai 駆動開発を始める5つの設定",
+      "firstSeenDate": "2026-08-11",
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 1,
+      "bodyHash": "04fc07f774647122",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/alphajinsei/items/b8e54e2c6a860df8808f",
+      "normalizedTitle": "claude certification 全冠した",
+      "firstSeenDate": "2026-08-11",
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 1,
+      "bodyHash": "41d3bdf21966eda6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/abfa28096475adba1def",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 12",
+      "firstSeenDate": "2026-08-11",
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 1,
+      "bodyHash": "5220c5063a351ba4",
+      "bodyLength": 1590
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
+      "normalizedTitle": "building effective agents",
+      "firstSeenDate": "2026-08-11",
+      "lastSeenDate": "2026-08-11",
+      "occurrences": 1,
+      "bodyHash": "96fec2d5a7202735",
+      "bodyLength": 3500
     }
   ]
 }
