@@ -14,18 +14,9 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-08-12",
-      "occurrences": 8,
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 9,
       "bodyHash": "c9fbd01283e595dd",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-opus-4-7",
-      "normalizedTitle": "claude opus 4 7",
-      "firstSeenDate": "2026-07-23",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 5,
-      "bodyHash": "81a09103f8249984",
       "bodyLength": 3500
     },
     {
@@ -71,76 +62,6 @@
       "lastSeenDate": "2026-08-04",
       "occurrences": 8,
       "bodyHash": "689ce95a57812f32",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://status.claude.com/incidents/q2kg8n613kr3",
-      "normalizedTitle": "claude elevated errors across all models",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "451df61ddb195fef",
-      "bodyLength": 1066
-    },
-    {
-      "normalizedUrl": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results",
-      "normalizedTitle": "some thoughts about anthropic s new cryptanalysis results",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "7ec6b9e534ff5675",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-      "normalizedTitle": "gpt 5 6 vs claude fable 5 for physical ai which performs best",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "f6e1eb5350e188c8",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://techdirt.com/2026/07/29/anthropic-says-its-against-a-ban-on-open-weight-models-it-just-wants-to-ban-everything-that-makes-them-good",
-      "normalizedTitle": "anthropic doesn t want open weight models banned just all that makes them good",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://propublica.org/article/anthropic-mythos-microsoft-software-vulnerabilities",
-      "normalizedTitle": "microsoft struggling with ai discovered security bugs",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "86e7fcea32729a7b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/ca6a0f582af7c721cf89",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 30",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "3a45f721bfca25c0",
-      "bodyLength": 2136
-    },
-    {
-      "normalizedUrl": "https://qiita.com/htani0817/items/e04d11bc834c993f7ff6",
-      "normalizedTitle": "2026年7月 claude opus 5がリリース fable 5級の性能を半額で api変更点まとめ",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "fe5d9f058d849660",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/5393b05cc80e1e2d09eb",
-      "normalizedTitle": "claude opus 5 sonnet 5リリースと知るべき破壊的変更まとめ",
-      "firstSeenDate": "2026-07-29",
-      "lastSeenDate": "2026-07-29",
-      "occurrences": 1,
-      "bodyHash": "132e5d0fd65085aa",
       "bodyLength": 3500
     },
     {
@@ -516,8 +437,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-12",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 7,
       "bodyHash": "713b7f3827789fdf",
       "bodyLength": 3500
     },
@@ -633,8 +554,8 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-12",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 4,
       "bodyHash": "765b136216be952b",
       "bodyLength": 3500
     },
@@ -696,8 +617,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
       "normalizedTitle": "building effective agents",
       "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 3,
       "bodyHash": "96fec2d5a7202735",
       "bodyLength": 3500
     },
@@ -714,10 +635,10 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-12",
-      "occurrences": 1,
-      "bodyHash": "9c7d8960539a8cd5",
-      "bodyLength": 3208
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 2,
+      "bodyHash": "a3b3c0d3258a6782",
+      "bodyLength": 3265
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/e20692ced34c7a82eaec",
@@ -735,6 +656,69 @@
       "lastSeenDate": "2026-08-12",
       "occurrences": 1,
       "bodyHash": "de9e4d8221ed7236",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+      "normalizedTitle": "can i use my outputs to train an ai model",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "d0dd6802a2955bd6",
+      "bodyLength": 2866
+    },
+    {
+      "normalizedUrl": "https://alignment.anthropic.com/2026/conceptual-reasoning-index",
+      "normalizedTitle": "the conceptual reasoning index",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "222e16cea542ba03",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Tomo27/items/e2e7f22dd94c827c2086",
+      "normalizedTitle": "claude skills完全ガイド2 自分だけのskillsを作る編",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "853eb1870793a238",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/e0970dd96706c59e6b69",
+      "normalizedTitle": "claude code v2 1 231 slack の mcp oauth が redirect uri で弾かれる問題を修正 毎日changelog解説",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "33096514d12544a6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/akira_papa_AI/items/bca6f7770272b9090daf",
+      "normalizedTitle": "claude codeの continue で前回の続きから会話を再開する 同じ説明をやり直さず10分で試す",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "b85a9086a44a1ec0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kawamon-idealive/items/c988e28cc2319462bf18",
+      "normalizedTitle": "生成aiのapiはどう動いてる claude apiで学ぶ基本の仕組み",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "107b65f2dadf9022",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
+      "normalizedTitle": "multiagent systems",
+      "firstSeenDate": "2026-08-13",
+      "lastSeenDate": "2026-08-13",
+      "occurrences": 1,
+      "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     }
   ]
