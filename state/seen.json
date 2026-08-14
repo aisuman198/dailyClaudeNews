@@ -2,20 +2,11 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/news/economic-futures-research-fund-agenda",
-      "normalizedTitle": "economic futures research fund agenda",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 7,
-      "bodyHash": "fb3c1b14d2db4b9d",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-08-13",
-      "occurrences": 9,
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 10,
       "bodyHash": "c9fbd01283e595dd",
       "bodyLength": 3500
     },
@@ -26,15 +17,6 @@
       "lastSeenDate": "2026-07-31",
       "occurrences": 6,
       "bodyHash": "3e8c0914502c37c2",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/project-pilot",
-      "normalizedTitle": "project pilot",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 5,
-      "bodyHash": "2848e05b91e633bd",
       "bodyLength": 3500
     },
     {
@@ -62,78 +44,6 @@
       "lastSeenDate": "2026-08-04",
       "occurrences": 8,
       "bodyHash": "689ce95a57812f32",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/YoanWai/agent-manager",
-      "normalizedTitle": "agent manager a tmux tui for running claude code codex and opencode",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "53c89a8699bcb992",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/hamzarehmandeveloper/claude-account",
-      "normalizedTitle": "show hn claude account switch claude code accounts without logging in again",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "ee3673eca007bbf3",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/jqit_suwa/items/cea574550613de33a114",
-      "normalizedTitle": "claude md は21セクションか 8行か 公式ドキュメントで決着をつけた",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "1ff1ab6ed1609cce",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://heyski.io/",
-      "normalizedTitle": "show hn ski voice coding for claude code codex and more on device free",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "e84b136c47c80932",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/anat0m1a/liblzraven",
-      "normalizedTitle": "i asked claude to reimplement apple s lzraven codec in c conformance tested",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "c3d769ce35da65cd",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/y-morimatsu/items/93e33ebe2fd1c361be3b",
-      "normalizedTitle": "claude opus 5 のプロンプティング術とは 足す より 引く で使いこなす公式ガイド解説",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "0af2b1e27478e82c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/AlohaYos/items/fa3de0f7e6b1711207ec",
-      "normalizedTitle": "claude の computer use が opus 5 で tool call could not be parsed になった話",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "c5c10996d316ca0c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/d27e69f93db70f4c064e",
-      "normalizedTitle": "claude api で発生した複数モデル障害から学ぶフェイルオーバー設計",
-      "firstSeenDate": "2026-07-30",
-      "lastSeenDate": "2026-07-30",
-      "occurrences": 1,
-      "bodyHash": "0dc7e8b179bc1b70",
       "bodyLength": 3500
     },
     {
@@ -554,9 +464,9 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-13",
-      "occurrences": 4,
-      "bodyHash": "765b136216be952b",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 5,
+      "bodyHash": "2528324c6e98d3f8",
       "bodyLength": 3500
     },
     {
@@ -617,8 +527,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
       "normalizedTitle": "building effective agents",
       "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-13",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 4,
       "bodyHash": "96fec2d5a7202735",
       "bodyLength": 3500
     },
@@ -635,8 +545,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-13",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 3,
       "bodyHash": "a3b3c0d3258a6782",
       "bodyLength": 3265
     },
@@ -716,10 +626,62 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-13",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 2,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "normalizedTitle": "maximizing the value of your claude code sessions",
+      "firstSeenDate": "2026-08-14",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 1,
+      "bodyHash": "71494a94dab7a4ad",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+      "normalizedTitle": "anthropic risk august 2026 pdf",
+      "firstSeenDate": "2026-08-14",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/s-sakano/items/1804eca911022c4d63a8",
+      "normalizedTitle": "claude designで家計簿アプリをデザインし そのままclaude codeで実装してみた",
+      "firstSeenDate": "2026-08-14",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 1,
+      "bodyHash": "b0ce3c10d81758b4",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
+      "normalizedTitle": "claude text watermark",
+      "firstSeenDate": "2026-08-14",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 1,
+      "bodyHash": "6b07fd69b7268f5b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/ec718a60bd314c5d8c90",
+      "normalizedTitle": "claude code v2 1 232まとめ powershell権限バイパス等の重大修正と新機能",
+      "firstSeenDate": "2026-08-14",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 1,
+      "bodyHash": "0bccd8d61f25b3d5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/3edbe42a107e43829788",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 14",
+      "firstSeenDate": "2026-08-14",
+      "lastSeenDate": "2026-08-14",
+      "occurrences": 1,
+      "bodyHash": "f3c9b1e69b978c2d",
+      "bodyLength": 1963
     }
   ]
 }
