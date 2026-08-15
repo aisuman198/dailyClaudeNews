@@ -5,18 +5,9 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 10,
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 11,
       "bodyHash": "c9fbd01283e595dd",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-opus-5",
-      "normalizedTitle": "claude opus 5",
-      "firstSeenDate": "2026-07-26",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 6,
-      "bodyHash": "3e8c0914502c37c2",
       "bodyLength": 3500
     },
     {
@@ -45,42 +36,6 @@
       "occurrences": 8,
       "bodyHash": "689ce95a57812f32",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/e96397a8ad93bca4ce25",
-      "normalizedTitle": "claude opus 5 リリース総まとめ 1mコンテキストと破壊的変更2件",
-      "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 1,
-      "bodyHash": "48f2c7aab72881bf",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ynakayama/items/d486fc70c8a29f5f765c",
-      "normalizedTitle": "さくらの ai engine の anthropic 互換 api で ai digest を動かす",
-      "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 1,
-      "bodyHash": "8295abe6ae5a51a1",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/tkurume/items/a3a5af52443aac0ccbaf",
-      "normalizedTitle": "claude max 週間上限まで残り4 別枠 の fable 5 はどこまで動くのか実測してみた",
-      "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 1,
-      "bodyHash": "436b53c558eb1a77",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/25bf5a49324c4b34ad1f",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 07 31",
-      "firstSeenDate": "2026-07-31",
-      "lastSeenDate": "2026-07-31",
-      "occurrences": 1,
-      "bodyHash": "3284e0339beaeaa1",
-      "bodyLength": 1669
     },
     {
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
@@ -464,9 +419,9 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 5,
-      "bodyHash": "2528324c6e98d3f8",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 6,
+      "bodyHash": "cc43daca85a95461",
       "bodyLength": 3500
     },
     {
@@ -527,8 +482,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
       "normalizedTitle": "building effective agents",
       "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 5,
       "bodyHash": "96fec2d5a7202735",
       "bodyLength": 3500
     },
@@ -545,8 +500,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 4,
       "bodyHash": "a3b3c0d3258a6782",
       "bodyLength": 3265
     },
@@ -626,8 +581,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 3,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -635,8 +590,8 @@
       "normalizedUrl": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
       "normalizedTitle": "maximizing the value of your claude code sessions",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 2,
       "bodyHash": "71494a94dab7a4ad",
       "bodyLength": 3500
     },
@@ -660,28 +615,55 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 1,
-      "bodyHash": "6b07fd69b7268f5b",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 2,
+      "bodyHash": "f5a90ae8b1962309",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/ec718a60bd314c5d8c90",
       "normalizedTitle": "claude code v2 1 232まとめ powershell権限バイパス等の重大修正と新機能",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 1,
-      "bodyHash": "0bccd8d61f25b3d5",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 2,
+      "bodyHash": "d9edaf133b9fda89",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://qiita.com/homhom44/items/3edbe42a107e43829788",
       "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 14",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 2,
       "bodyHash": "f3c9b1e69b978c2d",
       "bodyLength": 1963
+    },
+    {
+      "normalizedUrl": "https://github.com/christensen143/claude-trofeo-hud",
+      "normalizedTitle": "show hn live claude usage hud for a 38 thermalright trofeo vision lcd",
+      "firstSeenDate": "2026-08-15",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 1,
+      "bodyHash": "431a47df4ce5488c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "normalizedTitle": "anthropic shares details about how claude s new watermarks will work",
+      "firstSeenDate": "2026-08-15",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 1,
+      "bodyHash": "eccbfae947f06a8d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moha0918_/items/6bc03320b1d2873318db",
+      "normalizedTitle": "claude code v2 1 232 サブエージェントの fork がデフォルトon 毎日changelog解説",
+      "firstSeenDate": "2026-08-15",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 1,
+      "bodyHash": "3b53c3d8e78933ac",
+      "bodyLength": 3500
     }
   ]
 }
