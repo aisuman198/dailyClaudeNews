@@ -1490,6 +1490,16 @@
       "examples": [
         "Citations記事で「anthropic SDK は 0.42 系以降が必要」と小文字表記されていたため修正"
       ]
+    },
+    {
+      "term": "This isn't [X], it's [Y]",
+      "rule": "引用例パターンの先頭文字「T」が脱落しないよう注意",
+      "firstSeenDate": "2026-08-15",
+      "lastSeenDate": "2026-08-15",
+      "occurrences": 1,
+      "examples": [
+        "「his isn't [X], it's [Y]」と誤記されていた箇所を「This isn't [X], it's [Y]」に修正"
+      ]
     }
   ]
 }
