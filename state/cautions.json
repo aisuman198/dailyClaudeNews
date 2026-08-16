@@ -1500,6 +1500,16 @@
       "examples": [
         "「his isn't [X], it's [Y]」と誤記されていた箇所を「This isn't [X], it's [Y]」に修正"
       ]
+    },
+    {
+      "term": "さくらの AI Engine",
+      "rule": "「さくらの」と「AI」の間にスペースを入れて表記",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "examples": [
+        "本文2箇所でスペースなし（記事タイトルは正しい形式）"
+      ]
     }
   ]
 }
