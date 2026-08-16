@@ -5,8 +5,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
       "normalizedTitle": "claude sonnet 5",
       "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 11,
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 12,
       "bodyHash": "c9fbd01283e595dd",
       "bodyLength": 3500
     },
@@ -44,33 +44,6 @@
       "lastSeenDate": "2026-08-09",
       "occurrences": 10,
       "bodyHash": "547728726ed4dc77",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/38267a9233217c3c14f2",
-      "normalizedTitle": "claude anthropic 関連ニュースまとめ 2026 08 01",
-      "firstSeenDate": "2026-08-01",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 1,
-      "bodyHash": "655c760fdb854337",
-      "bodyLength": 3325
-    },
-    {
-      "normalizedUrl": "https://qiita.com/mhamadajp/items/1ded79a46c857cb45174",
-      "normalizedTitle": "claude opus 5から読む 生成ai競争の次のステージ 性能競争から コスト 信頼性 運用設計 へ",
-      "firstSeenDate": "2026-08-01",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 1,
-      "bodyHash": "5b2ad5a5ef557ba2",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/2dbd4c592dae70c005df",
-      "normalizedTitle": "claude api のストリーミング sse 実装 content block delta の型分岐漏れと partial json 結合 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-08-01",
-      "lastSeenDate": "2026-08-01",
-      "occurrences": 1,
-      "bodyHash": "6cffe91c8cf7a5e9",
       "bodyLength": 3500
     },
     {
@@ -419,8 +392,8 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 7,
       "bodyHash": "cc43daca85a95461",
       "bodyLength": 3500
     },
@@ -482,8 +455,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
       "normalizedTitle": "building effective agents",
       "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 6,
       "bodyHash": "96fec2d5a7202735",
       "bodyLength": 3500
     },
@@ -500,8 +473,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 5,
       "bodyHash": "a3b3c0d3258a6782",
       "bodyLength": 3265
     },
@@ -581,8 +554,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 4,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -615,8 +588,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 3,
       "bodyHash": "f5a90ae8b1962309",
       "bodyLength": 3500
     },
@@ -664,6 +637,76 @@
       "occurrences": 1,
       "bodyHash": "3b53c3d8e78933ac",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "normalizedTitle": "claude system prompts",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "2dd775d6e69b469e",
+      "bodyLength": 1623
+    },
+    {
+      "normalizedUrl": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "normalizedTitle": "anthropic s watermark text adulteration in claude is a perversion of writing",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "a3b3f60884603b59",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
+      "normalizedTitle": "anthropic ipo valuation hinges on 190 200b 2028 revenue forecast",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+      "normalizedTitle": "anthropic ceo says the way for ai to win over the public is to cure cancer",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "29c368baedcd9d34",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/TaichiYamasaki/items/959378ebb76eda594807",
+      "normalizedTitle": "openai anthropic 向けに書いたコードを さくらのai engine に差し替えだけで載せてみた",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "d106741f880c05e7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Tadataka_Takahashi/items/5ab03ce9b1d8c98dcc61",
+      "normalizedTitle": "備忘録 claude managed agentsを本番寄りに使う前に整理する effort webhooks initial events memory betaを見る",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "2d386eb97573afb6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/akira_papa_AI/items/911807011d56ccf7ec6e",
+      "normalizedTitle": "claude codeのインストールから最初の1タスクまで はじめてのaiエージェントを10分で動かす",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "517424538ebd4100",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/68fd97a6545847860218",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 16",
+      "firstSeenDate": "2026-08-16",
+      "lastSeenDate": "2026-08-16",
+      "occurrences": 1,
+      "bodyHash": "e1c9e44d0a328b85",
+      "bodyLength": 1923
     }
   ]
 }
