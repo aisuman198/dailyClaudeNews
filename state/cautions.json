@@ -1510,6 +1510,36 @@
       "examples": [
         "本文2箇所でスペースなし（記事タイトルは正しい形式）"
       ]
+    },
+    {
+      "term": "設計されている（ファンドの設立表現）",
+      "rule": "資金ファンドの目的を説明する場合は「設計されている」より「設立されている」が自然",
+      "firstSeenDate": "2026-08-17",
+      "lastSeenDate": "2026-08-17",
+      "occurrences": 1,
+      "examples": [
+        "Economic Futures Research Fundの説明で「設計されている」を使用していたため「設立されている」に修正"
+      ]
+    },
+    {
+      "term": "本文中の英語記事タイトル（watermark記事内3件）",
+      "rule": "本文中に埋め込まれた英語記事タイトルは日本語に訳す（既知ルールの適用）",
+      "firstSeenDate": "2026-08-17",
+      "lastSeenDate": "2026-08-17",
+      "occurrences": 1,
+      "examples": [
+        "「How Claude Marks AI-Generated Content」「How Claude's Text Watermark Works」「How AI Text Watermarking Works」の3件を日本語訳に変換"
+      ]
+    },
+    {
+      "term": "引用内固有名詞の前後スペース",
+      "rule": "引用符内であっても固有名詞（Claude等）の前後には半角スペースを入れる",
+      "firstSeenDate": "2026-08-17",
+      "lastSeenDate": "2026-08-17",
+      "occurrences": 1,
+      "examples": [
+        "「あるClaudeが別のClaudeに向けて」→「ある Claude が別の Claude に向けて」"
+      ]
     }
   ]
 }
