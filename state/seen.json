@@ -11,15 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/position-open-weights-models",
-      "normalizedTitle": "position open weights models",
-      "firstSeenDate": "2026-07-27",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 8,
-      "bodyHash": "25ad27a2fb59c1d3",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-07-28",
@@ -38,33 +29,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/pbtakaya/items/c281973a91302028ad71",
-      "normalizedTitle": "claude fable 5を1ヶ月使ってみたので claudeモデルの違いと使い分けをまとめてみた",
-      "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 1,
-      "bodyHash": "feed08d592cb53d6",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ynakayama/items/beadd112dbf4788daa20",
-      "normalizedTitle": "ai digest v1 1 をリリースして anthropic 互換 api と外部入力の扱いを改善した",
-      "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 1,
-      "bodyHash": "5e59d4b9845f2be3",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/DeepTama/items/075b66cd7332870a042a",
-      "normalizedTitle": "図解で解説 claude certified architect ccar f 試験ガイド",
-      "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 1,
-      "bodyHash": "b668bd1adaf6c1a0",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-for-nonprofits",
       "normalizedTitle": "claude for nonprofits",
       "firstSeenDate": "2026-08-03",
@@ -72,15 +36,6 @@
       "occurrences": 7,
       "bodyHash": "3a3db0e695a51887",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/cb8415790b536aab471a",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 03",
-      "firstSeenDate": "2026-08-03",
-      "lastSeenDate": "2026-08-03",
-      "occurrences": 1,
-      "bodyHash": "1061fcf9877375fb",
-      "bodyLength": 3195
     },
     {
       "normalizedUrl": "https://qiita.com/Skillselion/items/93e31d78fc1726ea1c85",
@@ -356,9 +311,9 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-17",
-      "occurrences": 8,
-      "bodyHash": "cc43daca85a95461",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 9,
+      "bodyHash": "2528324c6e98d3f8",
       "bodyLength": 3500
     },
     {
@@ -437,10 +392,10 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-17",
-      "occurrences": 6,
-      "bodyHash": "53d0ed2929d0ee33",
-      "bodyLength": 3265
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 7,
+      "bodyHash": "f9f511e22351a800",
+      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/e20692ced34c7a82eaec",
@@ -518,8 +473,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-17",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 6,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -552,8 +507,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-17",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 5,
       "bodyHash": "f5a90ae8b1962309",
       "bodyLength": 3500
     },
@@ -724,6 +679,87 @@
       "lastSeenDate": "2026-08-17",
       "occurrences": 1,
       "bodyHash": "0e0f5624b1ca2d05",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
+      "normalizedTitle": "claude code may august 2026 weekly limits promotion",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "2ab04938b8bc4852",
+      "bodyLength": 2557
+    },
+    {
+      "normalizedUrl": "https://twitter.com/kuberwastaken/status/2089377982536388964",
+      "normalizedTitle": "claude writing a macos driver for my obscure hp printer built only for windows",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "6fa799e7571e9fb0",
+      "bodyLength": 1069
+    },
+    {
+      "normalizedUrl": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "normalizedTitle": "degraded performance for multiple models",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "631a0a80d6558016",
+      "bodyLength": 1094
+    },
+    {
+      "normalizedUrl": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
+      "normalizedTitle": "claude code teaching macos to natively print to the hp laser 1008a",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "84a82fb9085fbeb0",
+      "bodyLength": 501
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
+      "normalizedTitle": "claude accelerates protein design",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "b47fc7a65a294922",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/d535617f98f8331e0d1e",
+      "normalizedTitle": "claude opus 5 sonnet 5等の複数モデルで障害発生 エラー率上昇の顛末と対応",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "3050f6c643c5d4f1",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/db6ce6c0252a6ebb634b",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 19",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "553a124967ac4536",
+      "bodyLength": 2223
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/4f42b70fe11c9a2bac03",
+      "normalizedTitle": "claude code v2 1 234アップデート解説 ntlm認証情報漏洩対策など",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "2953678c6b60dcbc",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/vivinko/items/bdda0fcdeb53e45e5471",
+      "normalizedTitle": "claude windowsアプリを2アカウントで同時起動する user data dirでログイン環境を分ける",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "bodyHash": "67c0504df2070134",
       "bodyLength": 3500
     }
   ]
