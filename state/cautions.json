@@ -1540,6 +1540,26 @@
       "examples": [
         "「あるClaudeが別のClaudeに向けて」→「ある Claude が別の Claude に向けて」"
       ]
+    },
+    {
+      "term": "Claude によるタンパク質設計と分析化学の加速",
+      "rule": "原題「Claude Accelerates Protein Design」に対応する訳は「Claude によるタンパク質設計の加速」。原題にない「分析化学の加速」を追加しない",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "examples": [
+        "記事カードのタイトルに原題にない内容が追記されていた"
+      ]
+    },
+    {
+      "term": "educated guess",
+      "rule": "日本語文中の英語句は日本語に統一する。「根拠のある推測」と訳す",
+      "firstSeenDate": "2026-08-18",
+      "lastSeenDate": "2026-08-18",
+      "occurrences": 1,
+      "examples": [
+        "Windows ドライバー記事の本文中で英語句のまま使用されていた"
+      ]
     }
   ]
 }
