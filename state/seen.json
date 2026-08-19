@@ -11,15 +11,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
-      "normalizedTitle": "discovering cryptographic weaknesses",
-      "firstSeenDate": "2026-07-28",
-      "lastSeenDate": "2026-08-04",
-      "occurrences": 8,
-      "bodyHash": "689ce95a57812f32",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-07-31",
@@ -38,39 +29,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/Skillselion/items/93e31d78fc1726ea1c85",
-      "normalizedTitle": "matt pocockのgrill meがanthropic公式スキルを抜き claude codeスキル総合2位に 8月4日データ",
-      "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-04",
-      "occurrences": 1,
-      "bodyHash": "14908c68683ccd43",
-      "bodyLength": 3270
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/4a520c01ae3e04f211e4",
-      "normalizedTitle": "claude code v2 1 221 zsh の で権限チェックが素通りしていた 毎日changelog解説",
-      "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-04",
-      "occurrences": 1,
-      "bodyHash": "43c86fa227db53fd",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
       "normalizedTitle": "tino cuellar",
       "firstSeenDate": "2026-08-04",
       "lastSeenDate": "2026-08-10",
       "occurrences": 7,
       "bodyHash": "9e34d4b427f74a8a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/c01e7988cb6c943ee1fb",
-      "normalizedTitle": "claude code v2 1 221必須アップデート bash権限バイパスを修正",
-      "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-04",
-      "occurrences": 1,
-      "bodyHash": "9ad02423ad064de7",
       "bodyLength": 3500
     },
     {
@@ -311,9 +275,9 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 9,
-      "bodyHash": "2528324c6e98d3f8",
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 10,
+      "bodyHash": "cc43daca85a95461",
       "bodyLength": 3500
     },
     {
@@ -392,8 +356,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 7,
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 8,
       "bodyHash": "f9f511e22351a800",
       "bodyLength": 3500
     },
@@ -473,8 +437,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 7,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -507,8 +471,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 6,
       "bodyHash": "f5a90ae8b1962309",
       "bodyLength": 3500
     },
@@ -694,10 +658,10 @@
       "normalizedUrl": "https://twitter.com/kuberwastaken/status/2089377982536388964",
       "normalizedTitle": "claude writing a macos driver for my obscure hp printer built only for windows",
       "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "6fa799e7571e9fb0",
-      "bodyLength": 1069
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 2,
+      "bodyHash": "30caf94678abd732",
+      "bodyLength": 1342
     },
     {
       "normalizedUrl": "https://status.claude.com/incidents/q7txxvbsftgq",
@@ -721,8 +685,8 @@
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 2,
       "bodyHash": "b47fc7a65a294922",
       "bodyLength": 3500
     },
@@ -760,6 +724,51 @@
       "lastSeenDate": "2026-08-18",
       "occurrences": 1,
       "bodyHash": "67c0504df2070134",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/6235",
+      "normalizedTitle": "anthropic refuses to support agents md",
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 1,
+      "bodyHash": "83ecf544a2a9c146",
+      "bodyLength": 1602
+    },
+    {
+      "normalizedUrl": "https://qiita.com/lhjjjk4/items/cf5431f07fd5e73a18a9",
+      "normalizedTitle": "ai daily digest 2026 08 20 anthropic 65b samsung 15 値上げ wrc2026",
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 1,
+      "bodyHash": "c8b12c9481b4e48b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/572977c7ad8226fa2274",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 20",
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 1,
+      "bodyHash": "0079c86927c5da7b",
+      "bodyLength": 1419
+    },
+    {
+      "normalizedUrl": "https://qiita.com/megmogmog1965/items/4b668265025cf97ea843",
+      "normalizedTitle": "claude code に綺麗な日本語を書かせたい",
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 1,
+      "bodyHash": "4b8822d385ebf644",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/8a8fedd55552da4bc86c",
+      "normalizedTitle": "claude code v2 1 235 権限プロンプトの安全性修正と機能改善まとめ",
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "occurrences": 1,
+      "bodyHash": "7bcbb07558ba5c25",
       "bodyLength": 3500
     }
   ]
