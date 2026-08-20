@@ -38,51 +38,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://businessinsider.com/anthropic-in-house-silicon-chip-team-claude-2026-8",
-      "normalizedTitle": "anthropic is building its own chip",
-      "firstSeenDate": "2026-08-05",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 1,
-      "bodyHash": "76b30e0fa698233d",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/e124c85649184c8a6922",
-      "normalizedTitle": "claude code v2 1 222 worktree 隔離の穴が塞がる 毎日changelog解説",
-      "firstSeenDate": "2026-08-05",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 1,
-      "bodyHash": "12b5fe29dafcffd8",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/ecb5e56ea22829aea4c8",
-      "normalizedTitle": "claude opus 5の30 2 信じていい数字はどっち arc agi 3の衝撃",
-      "firstSeenDate": "2026-08-05",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 1,
-      "bodyHash": "a7c80f0c07d91c1a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/fcad8dcb9b23ec163e25",
-      "normalizedTitle": "claude opus 5 sonnet 5等マルチモデル障害 本番運用者が今すぐ見るべき対応",
-      "firstSeenDate": "2026-08-05",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 1,
-      "bodyHash": "8a075b0c446ffa86",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Skillselion/items/cc6f1a9e6d843f9066bd",
-      "normalizedTitle": "claude codeスキル成長ランキング上位100のうち92本が たった3つの発行元のものだった 8月5日データ",
-      "firstSeenDate": "2026-08-05",
-      "lastSeenDate": "2026-08-05",
-      "occurrences": 1,
-      "bodyHash": "8c99c82faf510482",
-      "bodyLength": 3134
-    },
-    {
       "normalizedUrl": "https://qiita.com/TaichiYamasaki/items/c75b139044362e18fa68",
       "normalizedTitle": "google公式の cloud run mcp で claude code にデプロイさせてみた",
       "firstSeenDate": "2026-08-06",
@@ -275,8 +230,8 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 10,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 11,
       "bodyHash": "cc43daca85a95461",
       "bodyLength": 3500
     },
@@ -356,9 +311,9 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 8,
-      "bodyHash": "f9f511e22351a800",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 9,
+      "bodyHash": "4bf5eca14d44aa42",
       "bodyLength": 3500
     },
     {
@@ -437,8 +392,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 7,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 8,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -471,8 +426,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 6,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 7,
       "bodyHash": "f5a90ae8b1962309",
       "bodyLength": 3500
     },
@@ -685,8 +640,8 @@
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 3,
       "bodyHash": "b47fc7a65a294922",
       "bodyLength": 3500
     },
@@ -730,8 +685,8 @@
       "normalizedUrl": "https://github.com/anthropics/claude-code/issues/6235",
       "normalizedTitle": "anthropic refuses to support agents md",
       "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 2,
       "bodyHash": "83ecf544a2a9c146",
       "bodyLength": 1602
     },
@@ -739,8 +694,8 @@
       "normalizedUrl": "https://qiita.com/lhjjjk4/items/cf5431f07fd5e73a18a9",
       "normalizedTitle": "ai daily digest 2026 08 20 anthropic 65b samsung 15 値上げ wrc2026",
       "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 2,
       "bodyHash": "c8b12c9481b4e48b",
       "bodyLength": 3500
     },
@@ -748,8 +703,8 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/572977c7ad8226fa2274",
       "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 20",
       "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 2,
       "bodyHash": "0079c86927c5da7b",
       "bodyLength": 1419
     },
@@ -757,8 +712,8 @@
       "normalizedUrl": "https://qiita.com/megmogmog1965/items/4b668265025cf97ea843",
       "normalizedTitle": "claude code に綺麗な日本語を書かせたい",
       "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 2,
       "bodyHash": "4b8822d385ebf644",
       "bodyLength": 3500
     },
@@ -766,10 +721,37 @@
       "normalizedUrl": "https://qiita.com/picnic/items/8a8fedd55552da4bc86c",
       "normalizedTitle": "claude code v2 1 235 権限プロンプトの安全性修正と機能改善まとめ",
       "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 2,
       "bodyHash": "7bcbb07558ba5c25",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/zachahn/vomit",
+      "normalizedTitle": "vomit clean up claude 5 s token output with a separate llm",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "bodyHash": "7571d8027671d28b",
+      "bodyLength": 2800
+    },
+    {
+      "normalizedUrl": "https://mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "normalizedTitle": "hacking with claude on a 27 smart watch",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "bodyHash": "2a500ea45201ce55",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/7ef9024b07a2c5a57a74",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 20",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "bodyHash": "7b6b6e27956a5349",
+      "bodyLength": 3090
     }
   ]
 }

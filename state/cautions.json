@@ -1580,6 +1580,56 @@
       "examples": [
         "「京東物流の実前線倉庫」→「京東物流の実際の前線倉庫」に修正"
       ]
+    },
+    {
+      "term": "GPT-OSS 20B",
+      "rule": "原文ママで保持、次回以降も未確認モデル名として扱う",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "examples": [
+        "Vomit記事内でLlama.app経由の初期推奨LLMとして言及。OpenAI命名規則と異なる未確認名称"
+      ]
+    },
+    {
+      "term": "AgentsView",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "examples": [
+        "Vomit記事内でClaude元メッセージ確認用の代替ツールとして言及。実在未確認の製品名"
+      ]
+    },
+    {
+      "term": "OpenCode",
+      "rule": "原文ママで保持、AIコーディングツール名として未確認",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "examples": [
+        "PineTime記事内でオープンウェイトモデル実行環境として言及。Open RouterやOpen VSX等の誤記の可能性あり"
+      ]
+    },
+    {
+      "term": "Fable（単体）",
+      "rule": "原文ママで保持。「Claude Fable 5」（既知リスト）とは別に、Claude Codeを指す単体呼称として使われるパターンを追加",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "examples": [
+        "PineTime記事でオープンウェイトモデルとの対比文脈で「Fableであれば〜」と使用"
+      ]
+    },
+    {
+      "term": "OKF フォーマット",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-08-20",
+      "lastSeenDate": "2026-08-20",
+      "occurrences": 1,
+      "examples": [
+        "Qiita記事内でSQLite FTS5と組み合わせるAIメモリ実装フォーマットとして言及。略称の正式名称未確認"
+      ]
     }
   ]
 }
