@@ -38,33 +38,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://qiita.com/TaichiYamasaki/items/c75b139044362e18fa68",
-      "normalizedTitle": "google公式の cloud run mcp で claude code にデプロイさせてみた",
-      "firstSeenDate": "2026-08-06",
-      "lastSeenDate": "2026-08-06",
-      "occurrences": 1,
-      "bodyHash": "83aa6ea6e5d20f2b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/70ec9480a6b3a235ce01",
-      "normalizedTitle": "claude code v2 1 223 bash permission のバイパスが塞がる 毎日changelog解説",
-      "firstSeenDate": "2026-08-06",
-      "lastSeenDate": "2026-08-06",
-      "occurrences": 1,
-      "bodyHash": "8a6d74f3ec91369a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/9d1d0412fc196a843e44",
-      "normalizedTitle": "claude code v2 1 223のセキュリティ修正とコンテキスト管理変更まとめ",
-      "firstSeenDate": "2026-08-06",
-      "lastSeenDate": "2026-08-06",
-      "occurrences": 1,
-      "bodyHash": "acb851f879a4035c",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
       "normalizedTitle": "lost my phone at the office claude suggested tracking bluetooth signal strength",
       "firstSeenDate": "2026-08-07",
@@ -392,8 +365,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 8,
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 9,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -426,8 +399,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 7,
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 8,
       "bodyHash": "f5a90ae8b1962309",
       "bodyLength": 3500
     },
@@ -640,8 +613,8 @@
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 4,
       "bodyHash": "b47fc7a65a294922",
       "bodyLength": 3500
     },
@@ -752,6 +725,69 @@
       "occurrences": 1,
       "bodyHash": "7b6b6e27956a5349",
       "bodyLength": 3090
+    },
+    {
+      "normalizedUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "normalizedTitle": "claudette make claude stop talking like a buzzfeed article",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "8f51a4fdd0d1417b",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+      "normalizedTitle": "quick impressions a week of using codex more than claude",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "7afd4b345f01942a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "normalizedTitle": "bringing the cybersecurity capabilities of claude mythos 5 to more defenders",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "8873ff5239c8e658",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/proliferate-ai/proliferate",
+      "normalizedTitle": "show hn proliferate open source self hostable codex for any coding agent",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "2ea07d01d446c522",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/shinji_bank/items/d374470edf72431d986a",
+      "normalizedTitle": "自作mcpサーバで tool poisoning を試す claude codeを騙してみた",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "4c8c38cccfa254df",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/e2b9a324815c7ef21782",
+      "normalizedTitle": "claude code v2 1 238 メモリ無限増大の修正とmcp認証まわりの破壊的変更",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "86b0c49c15d46693",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kenimo49/items/e176fc126248a899646c",
+      "normalizedTitle": "claude codeでsonnet 4 6とopus 4 7を60日並走した 4割はsonnetが勝った",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "bodyHash": "007519197ef2b70c",
+      "bodyLength": 3500
     }
   ]
 }
