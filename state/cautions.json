@@ -1630,6 +1630,56 @@
       "examples": [
         "Qiita記事内でSQLite FTS5と組み合わせるAIメモリ実装フォーマットとして言及。略称の正式名称未確認"
       ]
+    },
+    {
+      "term": "verbatim",
+      "rule": "日本語本文中の英語副詞は日本語に統一する（既知ルール適用）。「verbatim（そのまま）で出力する」→「そのまま出力する」",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "examples": [
+        "NoBuzz記事の動作説明文中に英語副詞verbatimが混入"
+      ]
+    },
+    {
+      "term": "manager モード説明文の述語欠落",
+      "rule": "列挙内の各項目に述語を補い文法的に完結させる。「の長さで、」→「の長さでまとめたもの、」",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "examples": [
+        "NoBuzz記事のモード別出力説明でmanager項の述語が欠落"
+      ]
+    },
+    {
+      "term": "自セッション",
+      "rule": "「自セッション」は非標準。「自分のセッションで」と表記する",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "examples": [
+        "Codex比較記事の「自セッションから作成したスキル」で使用"
+      ]
+    },
+    {
+      "term": "Opus 4.7（claude-opus-4-7）",
+      "rule": "Anthropicの既知モデルラインに未掲載のバージョン番号（Opus 4.8/Opus 5と同パターン）。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "examples": [
+        "Sonnet vs Opus 60日記事のモデルIDとして登場"
+      ]
+    },
+    {
+      "term": "Claude Security",
+      "rule": "Anthropic公式製品名として既知リストに未掲載（Claude Cowork・Claude Cloud等と同パターン）。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-08-21",
+      "lastSeenDate": "2026-08-21",
+      "occurrences": 1,
+      "examples": [
+        "Mythos 5記事で統合先として登場"
+      ]
     }
   ]
 }
