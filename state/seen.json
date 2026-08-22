@@ -47,42 +47,6 @@
       "bodyLength": 981
     },
     {
-      "normalizedUrl": "https://cnn.com/2026/08/04/tech/ai-anthropic-openai-security-breach-intl-hnk",
-      "normalizedTitle": "ai agents fake identities target real people in new security incident",
-      "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 1,
-      "bodyHash": "f45d367393f1be8a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://twitter.com/ClaudeDevs/status/2085794862608318627",
-      "normalizedTitle": "claude code starting august 14 auto mode will be the default permission mode",
-      "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 1,
-      "bodyHash": "0ec0ddfdeb9f9e84",
-      "bodyLength": 2494
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/8d9bb54bff914f7017cd",
-      "normalizedTitle": "claude code v2 1 224 セッション間 sendmessage が解禁 毎日changelog解説",
-      "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 1,
-      "bodyHash": "c764c02ce914c994",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Skillselion/items/f872237e1c49725f3366",
-      "normalizedTitle": "claude codeスキルは作者ごとインストールされる時代に 検索急上昇1位は人名だった 8月7日データ",
-      "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-07",
-      "occurrences": 1,
-      "bodyHash": "e2888f5f168d6c49",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
@@ -613,8 +577,8 @@
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 5,
       "bodyHash": "b47fc7a65a294922",
       "bodyLength": 3500
     },
@@ -730,17 +694,17 @@
       "normalizedUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
       "normalizedTitle": "claudette make claude stop talking like a buzzfeed article",
       "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
-      "bodyHash": "8f51a4fdd0d1417b",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 2,
+      "bodyHash": "c1d1587bd54015bc",
       "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
       "normalizedTitle": "quick impressions a week of using codex more than claude",
       "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 2,
       "bodyHash": "7afd4b345f01942a",
       "bodyLength": 3500
     },
@@ -766,8 +730,8 @@
       "normalizedUrl": "https://qiita.com/shinji_bank/items/d374470edf72431d986a",
       "normalizedTitle": "自作mcpサーバで tool poisoning を試す claude codeを騙してみた",
       "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 2,
       "bodyHash": "4c8c38cccfa254df",
       "bodyLength": 3500
     },
@@ -787,6 +751,42 @@
       "lastSeenDate": "2026-08-21",
       "occurrences": 1,
       "bodyHash": "007519197ef2b70c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://twitter.com/argofowl/status/2091150597374537729",
+      "normalizedTitle": "anthropic appears to be a b testing reduced effort levels in claude code",
+      "firstSeenDate": "2026-08-22",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 1,
+      "bodyHash": "9c6fc6e782a4b68c",
+      "bodyLength": 1561
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
+      "normalizedTitle": "claude code v2 1 239 bedrock二重課金バグ修正とpython sdk移行コマンド追加",
+      "firstSeenDate": "2026-08-22",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 1,
+      "bodyHash": "1d9927a5c4421b07",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/e308e5450508149fe883",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 22",
+      "firstSeenDate": "2026-08-22",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 1,
+      "bodyHash": "6ed8a0ccd11a00f6",
+      "bodyLength": 1648
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/b86ff8d0cb945da5194b",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 22",
+      "firstSeenDate": "2026-08-22",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 1,
+      "bodyHash": "ec6d9f232a7680d8",
       "bodyLength": 3500
     }
   ]

@@ -1680,6 +1680,26 @@
       "examples": [
         "Mythos 5記事で統合先として登場"
       ]
+    },
+    {
+      "term": "記事カードタイトル内のローマ字・日本語間スペース欠落",
+      "rule": "英字（製品名・略称）と日本語の間には半角スペースを入れる",
+      "firstSeenDate": "2026-08-22",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 1,
+      "examples": [
+        "「Bedrock二重課金」「Python SDK移行」「Claude Code開発者」「Anthropicニュース」でスペース欠落を修正"
+      ]
+    },
+    {
+      "term": "展開されて（読点欠落）",
+      "rule": "「〜されて」の後に別節が続く場合は読点を入れる",
+      "firstSeenDate": "2026-08-22",
+      "lastSeenDate": "2026-08-22",
+      "occurrences": 1,
+      "examples": [
+        "「展開されて新規インストールでは」→「展開され、新規インストールでは」"
+      ]
     }
   ]
 }
