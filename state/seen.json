@@ -38,15 +38,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
-      "normalizedTitle": "lost my phone at the office claude suggested tracking bluetooth signal strength",
-      "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 2,
-      "bodyHash": "f7b12bae7af9a715",
-      "bodyLength": 981
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
@@ -62,42 +53,6 @@
       "lastSeenDate": "2026-08-09",
       "occurrences": 2,
       "bodyHash": "f181db8f3d191800",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/0b6db0c810a280d5b1bc",
-      "normalizedTitle": "claude code v2 1 225 v2 1 226 ヘッドレスの claude code oauth token が奪われる不具合 毎日changelog解説",
-      "firstSeenDate": "2026-08-08",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 1,
-      "bodyHash": "953328b42828454c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/0175ee85a6d90bbf4c35",
-      "normalizedTitle": "92 が使っても成果は7 anthropic claude corps 225億円の中身",
-      "firstSeenDate": "2026-08-08",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 1,
-      "bodyHash": "6420750836c08ae7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/50969c7f3381f83eaa36",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 08",
-      "firstSeenDate": "2026-08-08",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 1,
-      "bodyHash": "0126e5bb9c0e5ae1",
-      "bodyLength": 2937
-    },
-    {
-      "normalizedUrl": "https://qiita.com/RP4nda13/items/d9249816995b6467356a",
-      "normalizedTitle": "claude apps gatewayをawsに構築してclaude codeの認証とコスト管理を一元化してみた",
-      "firstSeenDate": "2026-08-08",
-      "lastSeenDate": "2026-08-08",
-      "occurrences": 1,
-      "bodyHash": "0ddc2ef6031af095",
       "bodyLength": 3500
     },
     {
@@ -577,8 +532,8 @@
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 5,
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 6,
       "bodyHash": "b47fc7a65a294922",
       "bodyLength": 3500
     },
@@ -703,8 +658,8 @@
       "normalizedUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
       "normalizedTitle": "quick impressions a week of using codex more than claude",
       "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 3,
       "bodyHash": "7afd4b345f01942a",
       "bodyLength": 3500
     },
@@ -766,8 +721,8 @@
       "normalizedUrl": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
       "normalizedTitle": "claude code v2 1 239 bedrock二重課金バグ修正とpython sdk移行コマンド追加",
       "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 2,
       "bodyHash": "1d9927a5c4421b07",
       "bodyLength": 3500
     },
@@ -775,8 +730,8 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/e308e5450508149fe883",
       "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 22",
       "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 2,
       "bodyHash": "6ed8a0ccd11a00f6",
       "bodyLength": 1648
     },
@@ -784,9 +739,34 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/b86ff8d0cb945da5194b",
       "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 22",
       "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 2,
       "bodyHash": "ec6d9f232a7680d8",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "normalizedTitle": "anthropic s best ai model struggles to attract users as cheaper tools thrive",
+      "firstSeenDate": "2026-08-23",
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://startupfortune.com/a-paris-developers-open-source-tool-already-strips-anthropics-new-claude-watermark",
+      "normalizedTitle": "developer s open source tool strips anthropic s new claude watermark",
+      "firstSeenDate": "2026-08-23",
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 1,
+      "bodyHash": "5e3f198f38606a20",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/phandinhloccb/items/582f7e9535434b4602b8",
+      "normalizedTitle": "claude certified architect foundationを取得して4ヶ月 学習から実務への活用まで",
+      "firstSeenDate": "2026-08-23",
+      "lastSeenDate": "2026-08-23",
+      "occurrences": 1,
+      "bodyHash": "3e0bd26112784c61",
       "bodyLength": 3500
     }
   ]
