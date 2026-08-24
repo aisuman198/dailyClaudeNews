@@ -1710,6 +1710,26 @@
       "examples": [
         "ハイライト第1箇条で「Article 50」と英語のままだったため修正"
       ]
+    },
+    {
+      "term": "Anthropic Economic Research チーム（本文の表記）",
+      "rule": "カード見出しで「経済研究チーム」（日本語訳）を使う場合、本文も「経済研究チーム」に統一する",
+      "firstSeenDate": "2026-08-24",
+      "lastSeenDate": "2026-08-24",
+      "occurrences": 1,
+      "examples": [
+        "本文が「Economic Research チーム」のままで見出し訳と不一致"
+      ]
+    },
+    {
+      "term": "anthropic SDK（カードタイトル冒頭の小文字）",
+      "rule": "カード見出しに含まれる社名 Anthropic も大文字で表記する",
+      "firstSeenDate": "2026-08-24",
+      "lastSeenDate": "2026-08-24",
+      "occurrences": 1,
+      "examples": [
+        "####タイトル内「anthropic SDK」を「Anthropic SDK」に修正"
+      ]
     }
   ]
 }
