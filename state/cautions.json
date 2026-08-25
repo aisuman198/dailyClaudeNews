@@ -1730,6 +1730,26 @@
       "examples": [
         "####タイトル内「anthropic SDK」を「Anthropic SDK」に修正"
       ]
+    },
+    {
+      "term": "Claude.ai（大文字）",
+      "rule": "サービス名は「claude.ai」と小文字で表記する（既知ルール適用）",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "examples": [
+        "第2回レポート本文「匿名 Claude.ai 会話」・初回レポート本文「Claude.ai 上の数百万件」の2箇所で大文字表記が混入"
+      ]
+    },
+    {
+      "term": "占め前回から微増（述語欠落）",
+      "rule": "連用形で節をつなぐ際は読点を補い述語を明示する",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "examples": [
+        "第4回レポート本文「占め前回から微増。」→「占め、前回から微増した。」に修正"
+      ]
     }
   ]
 }

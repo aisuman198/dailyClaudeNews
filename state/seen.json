@@ -11,30 +11,12 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/tino-cuellar",
-      "normalizedTitle": "tino cuellar",
-      "firstSeenDate": "2026-08-04",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 7,
-      "bodyHash": "9e34d4b427f74a8a",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
       "lastSeenDate": "2026-08-24",
       "occurrences": 8,
       "bodyHash": "713b7f3827789fdf",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/b8c4847a09ff64695e3d",
-      "normalizedTitle": "claude opus 5とchatgpt voiceで変わるaiエージェント活用の勘所",
-      "firstSeenDate": "2026-08-09",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 2,
-      "bodyHash": "d46f4f33eb95fcc8",
       "bodyLength": 3500
     },
     {
@@ -56,15 +38,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://twitter.com/jarredsumner/status/2086869681785500011",
-      "normalizedTitle": "claude moves bound of the riemann hypothesis from 41 6 to 67 2",
-      "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 1,
-      "bodyHash": "14d84f257becb812",
-      "bodyLength": 1897
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
@@ -72,24 +45,6 @@
       "occurrences": 11,
       "bodyHash": "cc43daca85a95461",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/akira_papa_AI/items/aaf1d90a6b4f90969f17",
-      "normalizedTitle": "claude codeのスキル skill md で自分専用の コマンド を1つ作る 毎回おなじ指示を打ち直すのをやめる",
-      "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 1,
-      "bodyHash": "b9f7ee5f7b66906a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/b81158796648dd16c06d",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 10",
-      "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-10",
-      "occurrences": 1,
-      "bodyHash": "dd25b3fbffe21ee6",
-      "bodyLength": 2285
     },
     {
       "normalizedUrl": "https://twitter.com/_can1357/status/2087228354399265125",
@@ -694,8 +649,8 @@
       "normalizedUrl": "https://ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
       "normalizedTitle": "anthropic s best ai model struggles to attract users as cheaper tools thrive",
       "firstSeenDate": "2026-08-23",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 2
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 3
     },
     {
       "normalizedUrl": "https://startupfortune.com/a-paris-developers-open-source-tool-already-strips-anthropics-new-claude-watermark",
@@ -777,6 +732,175 @@
       "occurrences": 1,
       "bodyHash": "eb6ad5ca81e57037",
       "bodyLength": 1790
+    },
+    {
+      "normalizedUrl": "https://reuters.com/business/media-telecom/anthropic-expected-tell-investors-it-sees-over-30-trillion-potential-revenue-wsj-2026-08-25",
+      "normalizedTitle": "anthropic expected to tell investors it sees over 30t in potential revenue",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/wellbeing-research-grants",
+      "normalizedTitle": "wellbeing research grants",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "ffc645a281f017e5",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-connector",
+      "normalizedTitle": "anthropic economic index connector",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "3dbcc08b4dcf08d5",
+      "bodyLength": 2582
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+      "normalizedTitle": "anthropic economic index insights from claude sonnet 3 7",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "4aacb7497196f650",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/economic-futures-research-fund-agenda",
+      "normalizedTitle": "economic futures research fund agenda",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "b7ac4bdb311acc03",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/economic-futures-uk-europe",
+      "normalizedTitle": "economic futures uk europe",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "fb04bb3d09867729",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/the-anthropic-economic-index",
+      "normalizedTitle": "the anthropic economic index",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "e42a83d0d3f99662",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/81k-economics",
+      "normalizedTitle": "81k economics",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "aa57aac4d006792a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "normalizedTitle": "anthropic economic index january 2026 report",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "444e28fef5d05830",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-september-2025-report",
+      "normalizedTitle": "anthropic economic index september 2025 report",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "68df3aaf00190997",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
+      "normalizedTitle": "claude code expertise",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "b3d6e0f82d7669c0",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
+      "normalizedTitle": "coding agents social sciences",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "411aa60c61276781",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-geography",
+      "normalizedTitle": "economic index geography",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "c29a9835f88b38a6",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
+      "normalizedTitle": "economic index june 2026 report",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "965cf21bd8f1274f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-march-2026-report",
+      "normalizedTitle": "economic index march 2026 report",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "a450e5a64f4bad67",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-primitives",
+      "normalizedTitle": "economic index primitives",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "039f8ec35e69c01c",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/18a1cc9c54a77605c0ea",
+      "normalizedTitle": "claude code v2 1 245 glibc 2 44環境での起動クラッシュを修正",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "9160a8e6985b1ea3",
+      "bodyLength": 3316
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/51247eaa8f7437b014b3",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 25",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "9d41f7837fe752c5",
+      "bodyLength": 1928
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/e79c75cffda44e56dd34",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 25",
+      "firstSeenDate": "2026-08-25",
+      "lastSeenDate": "2026-08-25",
+      "occurrences": 1,
+      "bodyHash": "8e731e6cffc949fc",
+      "bodyLength": 3313
     }
   ]
 }
