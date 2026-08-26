@@ -1750,6 +1750,26 @@
       "examples": [
         "第4回レポート本文「占め前回から微増。」→「占め、前回から微増した。」に修正"
       ]
+    },
+    {
+      "term": "ソリシテーション",
+      "rule": "solicitation の音訳は「ソリシテーション」（ソル→ソリ）",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "examples": [
+        "2024年米国選挙記事で「ソルシテーション」と誤音訳されていた"
+      ]
+    },
+    {
+      "term": "bodyText（英語のまま）",
+      "rule": "記事本文を指す場合は「本文は」と日本語で表記する",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "examples": [
+        "クロスコーダー記事で「bodyText は〜」と英語のまま使われていた"
+      ]
     }
   ]
 }

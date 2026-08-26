@@ -20,24 +20,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
-      "normalizedTitle": "exploring claude gpt knowledge cutoffs and pre training timelines",
-      "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-11",
-      "occurrences": 2,
-      "bodyHash": "a138b06c9334ce97",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-      "normalizedTitle": "how claude marks ai generated content",
-      "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-11",
-      "occurrences": 2,
-      "bodyHash": "ac8d917cce75e45a",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-08-10",
@@ -45,42 +27,6 @@
       "occurrences": 11,
       "bodyHash": "cc43daca85a95461",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://twitter.com/_can1357/status/2087228354399265125",
-      "normalizedTitle": "openai and anthropic hidden cot leaks when given deep think tool",
-      "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-11",
-      "occurrences": 1,
-      "bodyHash": "56e5790d18de8c0d",
-      "bodyLength": 1784
-    },
-    {
-      "normalizedUrl": "https://qiita.com/locallab/items/9d57c80c36f5e951bd3b",
-      "normalizedTitle": "claude code openrouter free models コスト 0 で ai 駆動開発を始める5つの設定",
-      "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-11",
-      "occurrences": 1,
-      "bodyHash": "04fc07f774647122",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/alphajinsei/items/b8e54e2c6a860df8808f",
-      "normalizedTitle": "claude certification 全冠した",
-      "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-11",
-      "occurrences": 1,
-      "bodyHash": "41d3bdf21966eda6",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/abfa28096475adba1def",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 12",
-      "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-11",
-      "occurrences": 1,
-      "bodyHash": "5220c5063a351ba4",
-      "bodyLength": 1590
     },
     {
       "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
@@ -879,8 +825,8 @@
       "normalizedUrl": "https://qiita.com/picnic/items/18a1cc9c54a77605c0ea",
       "normalizedTitle": "claude code v2 1 245 glibc 2 44環境での起動クラッシュを修正",
       "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 2,
       "bodyHash": "9160a8e6985b1ea3",
       "bodyLength": 3316
     },
@@ -901,6 +847,177 @@
       "occurrences": 1,
       "bodyHash": "8e731e6cffc949fc",
       "bodyLength": 3313
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-plays-robotics",
+      "normalizedTitle": "claude plays robotics",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "d2a05bf4b8b6af29",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+      "normalizedTitle": "anthropic signs pledge to americas youth investing in ai education",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "b5a2134193d14139",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
+      "normalizedTitle": "nuclear safeguards for ai",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "da049da8953a9660",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/usage-policy-update",
+      "normalizedTitle": "usage policy update",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "468265854d753107",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/persona-vectors",
+      "normalizedTitle": "persona vectors",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "92a8caf022993435",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
+      "normalizedTitle": "lawrence livermore national laboratory expands claude for enterprise to empower scientists and",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "2302ae4528f019a7",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+      "normalizedTitle": "detecting and countering malicious uses of claude march 2025",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "5a0d395b11e8962a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/constitutional-classifiers",
+      "normalizedTitle": "constitutional classifiers",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "1237480520f5bd36",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
+      "normalizedTitle": "our approach to understanding and addressing ai harms",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "ca001824b5cbf1fc",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/crosscoder-model-diffing",
+      "normalizedTitle": "crosscoder model diffing",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "db858be9d4f5c6e3",
+      "bodyLength": 1403
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/us-elections-readiness",
+      "normalizedTitle": "us elections readiness",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "6ec92f7f274e99d2",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/challenges-in-red-teaming-ai-systems",
+      "normalizedTitle": "challenges in red teaming ai systems",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "91e81477ac8d76fe",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/measuring-model-persuasiveness",
+      "normalizedTitle": "measuring model persuasiveness",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "b32bfc8b307c8a9d",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/accenture-aws-anthropic",
+      "normalizedTitle": "accenture aws anthropic",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "6b48217820791b0d",
+      "bodyLength": 2605
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/skt-partnership-announcement",
+      "normalizedTitle": "skt partnership announcement",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "5fc2355f48a455fa",
+      "bodyLength": 2791
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/cbdf74a39fe26a9292d1",
+      "normalizedTitle": "claude code v2 1 246まとめ bash権限警告とapiキー漏洩修正など40件超の改善",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "f41145dcb76f8877",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yumicat/items/82234f3c77a707d46b52",
+      "normalizedTitle": "claude skillsとは何か mcp rules サブエージェントとの違いと 自作skillの作り方",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "7b7b083c419a3704",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/f7f056d26e81801be663",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 26",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "92ab5eea37b19f75",
+      "bodyLength": 2334
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/94f4f17767e20b2f98a4",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 26",
+      "firstSeenDate": "2026-08-26",
+      "lastSeenDate": "2026-08-26",
+      "occurrences": 1,
+      "bodyHash": "da72aef63b5cb118",
+      "bodyLength": 2779
     }
   ]
 }
