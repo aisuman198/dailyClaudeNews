@@ -18,6 +18,8 @@ export const config = {
   reviewerModel: env('REVIEWER_MODEL', 'claude-sonnet-4-6'),
   reviewEnabled: env('REVIEW_ENABLED', 'true').toLowerCase() === 'true',
   claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 1_800_000),
+  // summarize の出力が不完全 (先頭欠落など) だったときに何回まで呼び直すか。
+  summarizeMaxAttempts: envNum('SUMMARIZE_MAX_ATTEMPTS', 2),
   // パイプライン開始前の認証プリフライト用の短いタイムアウト。
   authCheckTimeoutMs: envNum('AUTH_CHECK_TIMEOUT_MS', 120_000),
 

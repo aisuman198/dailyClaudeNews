@@ -1,6 +1,8 @@
 import { spawn } from 'node:child_process'
 import type { Caution } from './cautionStore.js'
 import { config } from './config.js'
+import { missingHeadings } from './markdownShape.js'
+import { redact } from './redact.js'
 import type { NewsItem, SummarizeResult } from './types.js'
 
 const SYSTEM_PROMPT = `あなたは AI 業界ニュースを日本語で読みやすくまとめるエディターです。
@@ -181,9 +183,25 @@ export async function summarize(
     throw new Error('summarize に渡されたニュースが0件です')
   }
   const prompt = buildPrompt(fresh, recurring, knownCautions)
-  const markdown = (await runClaude(prompt)).trim()
-  if (markdown.length === 0) {
-    throw new Error('claude から空文字が返されました')
+  const maxAttempts = Math.max(1, config.summarizeMaxAttempts)
+  let lastReason = ''
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const markdown = (await runClaude(prompt)).trim()
+    if (markdown.length === 0) {
+      lastReason = 'claude から空文字が返された'
+    } else {
+      const missing = missingHeadings(markdown)
+      if (missing.length === 0) {
+        return { markdown, modelUsed: config.model }
+      }
+      // 出力が長すぎると claude が最終メッセージだけを stdout に出し、先頭が
+      // 落ちることがある。この形の draft は review 側のフォールバック
+      // (looksWellFormed) も救えないので、公開する前に呼び直す。
+      lastReason = `必須見出しが欠落 (${missing.join(' / ')})`
+    }
+    console.warn(redact(`[summarize] 出力が不完全 (${attempt}/${maxAttempts}): ${lastReason}`))
   }
-  return { markdown, modelUsed: config.model }
+
+  throw new Error(`summarize の出力が ${maxAttempts} 回とも不完全でした: ${lastReason}`)
 }

@@ -1,5 +1,6 @@
 import { spawn } from 'node:child_process'
 import { config } from './config.js'
+import { looksWellFormed } from './markdownShape.js'
 import { redact } from './redact.js'
 import type { Caution, NewCaution } from './cautionStore.js'
 
@@ -156,11 +157,7 @@ export function parseReviewOutput(raw: string): ReviewResult {
   }
 }
 
-const REQUIRED_HEADINGS = ['## 本日のハイライト', '## カテゴリ別まとめ']
-
-export function looksWellFormed(markdown: string): boolean {
-  return REQUIRED_HEADINGS.every((h) => markdown.includes(h))
-}
+export { looksWellFormed }
 
 export async function review(markdown: string, knownCautions: Caution[]): Promise<ReviewResult> {
   if (!config.reviewEnabled) {
