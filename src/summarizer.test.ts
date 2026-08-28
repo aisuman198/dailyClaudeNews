@@ -159,3 +159,50 @@ describe('summarizer.runClaude エラーの可視化', () => {
     await expect(summarize([it1], [it2])).rejects.toThrow(/終了コード 1/)
   })
 })
+
+describe('summarizer.summarize 出力の骨格チェック', () => {
+  beforeEach(() => spawnMock.mockReset())
+
+  const wellFormed = '## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n\n### A\n\n#### [x](https://e.com)\n'
+  // 2026-08-28 に実際に起きた形: 先頭が落ち、記事本文の箇条書きから始まっている
+  const truncated = '- SendFeedback ツール（v2.1.247）: セッション中の問題を Claude が下書きし\n\n---\n\n#### [x](https://e.com)\n'
+
+  it('骨格の揃った出力はそのまま採用し、呼び直さない', async () => {
+    spawnMock.mockImplementation(() => fakeChild({ stdout: wellFormed }))
+    const result = await summarize([it1], [it2])
+    expect(result.markdown).toContain('## 本日のハイライト')
+    expect(spawnMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('必須見出しが欠落した出力は破棄して claude を呼び直す', async () => {
+    spawnMock
+      .mockImplementationOnce(() => fakeChild({ stdout: truncated }))
+      .mockImplementationOnce(() => fakeChild({ stdout: wellFormed }))
+    const result = await summarize([it1], [it2])
+    expect(result.markdown).toBe(wellFormed.trim())
+    expect(spawnMock).toHaveBeenCalledTimes(2)
+  })
+
+  it('再試行しても骨格が揃わなければ例外にする（壊れたまま公開しない）', async () => {
+    spawnMock.mockImplementation(() => fakeChild({ stdout: truncated }))
+    await expect(summarize([it1], [it2])).rejects.toThrow(/必須見出しが欠落/)
+    expect(spawnMock).toHaveBeenCalledTimes(2)
+  })
+
+  it('空文字が返ったときも呼び直す', async () => {
+    spawnMock
+      .mockImplementationOnce(() => fakeChild({ stdout: '' }))
+      .mockImplementationOnce(() => fakeChild({ stdout: wellFormed }))
+    const result = await summarize([it1], [it2])
+    expect(result.markdown).toBe(wellFormed.trim())
+    expect(spawnMock).toHaveBeenCalledTimes(2)
+  })
+
+  it('認証エラーなど終了コード非0はリトライせず即座に失敗する', async () => {
+    spawnMock.mockImplementation(() =>
+      fakeChild({ stdout: 'Failed to authenticate. API Error: 401', code: 1 }),
+    )
+    await expect(summarize([it1], [it2])).rejects.toThrow(/終了コード 1/)
+    expect(spawnMock).toHaveBeenCalledTimes(1)
+  })
+})
