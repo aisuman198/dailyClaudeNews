@@ -6,9 +6,11 @@ import type { NewsItem } from './types.js'
 
 const spawnMock = vi.hoisted(() => vi.fn())
 vi.mock('node:child_process', () => ({ spawn: spawnMock }))
+// 骨格チェックに落ちた出力のダンプがテスト実行で state/ に実ファイルを作らないようにする
+vi.mock('node:fs', () => ({ writeFileSync: vi.fn() }))
 
 // spawn の戻り値を模した擬似 child。ハンドラ登録後に stdout/stderr/exit を発火する。
-function fakeChild(opts: { stdout?: string; stderr?: string; code?: number }) {
+function fakeChild(opts: { stdout?: string; stdoutChunks?: string[]; stderr?: string; code?: number }) {
   const child = new EventEmitter() as EventEmitter & {
     stdout: EventEmitter
     stderr: EventEmitter
@@ -21,10 +23,44 @@ function fakeChild(opts: { stdout?: string; stderr?: string; code?: number }) {
   child.kill = () => {}
   setImmediate(() => {
     if (opts.stdout) child.stdout.emit('data', Buffer.from(opts.stdout))
+    for (const c of opts.stdoutChunks ?? []) child.stdout.emit('data', Buffer.from(c))
     if (opts.stderr) child.stderr.emit('data', Buffer.from(opts.stderr))
     child.emit('exit', opts.code ?? 0)
   })
   return child
+}
+
+
+// claude CLI の stream-json 出力を模す。text ブロックは assistant イベントとして
+// 1 つずつ流れ、間に thinking ブロックが割り込むことがある。
+function streamJson(
+  blocks: Array<{ type: 'text' | 'thinking'; text: string }>,
+  result: Record<string, unknown> = {},
+): string {
+  const lines = blocks.map((b) =>
+    JSON.stringify({
+      type: 'assistant',
+      message: {
+        content: [b.type === 'text' ? { type: 'text', text: b.text } : { type: 'thinking', thinking: b.text }],
+      },
+    }),
+  )
+  lines.push(
+    JSON.stringify({
+      type: 'result',
+      subtype: 'success',
+      is_error: false,
+      num_turns: 1,
+      usage: { output_tokens_details: { thinking_tokens: 0 } },
+      ...result,
+    }),
+  )
+  return `${lines.join('\n')}\n`
+}
+
+/** text ブロック 1 つだけの正常応答 */
+function singleText(markdown: string): string {
+  return streamJson([{ type: 'text', text: markdown }])
 }
 
 const it1: NewsItem = {
@@ -168,7 +204,7 @@ describe('summarizer.summarize 出力の骨格チェック', () => {
   const truncated = '- SendFeedback ツール（v2.1.247）: セッション中の問題を Claude が下書きし\n\n---\n\n#### [x](https://e.com)\n'
 
   it('骨格の揃った出力はそのまま採用し、呼び直さない', async () => {
-    spawnMock.mockImplementation(() => fakeChild({ stdout: wellFormed }))
+    spawnMock.mockImplementation(() => fakeChild({ stdout: singleText(wellFormed) }))
     const result = await summarize([it1], [it2])
     expect(result.markdown).toContain('## 本日のハイライト')
     expect(spawnMock).toHaveBeenCalledTimes(1)
@@ -176,15 +212,15 @@ describe('summarizer.summarize 出力の骨格チェック', () => {
 
   it('必須見出しが欠落した出力は破棄して claude を呼び直す', async () => {
     spawnMock
-      .mockImplementationOnce(() => fakeChild({ stdout: truncated }))
-      .mockImplementationOnce(() => fakeChild({ stdout: wellFormed }))
+      .mockImplementationOnce(() => fakeChild({ stdout: singleText(truncated) }))
+      .mockImplementationOnce(() => fakeChild({ stdout: singleText(wellFormed) }))
     const result = await summarize([it1], [it2])
     expect(result.markdown).toBe(wellFormed.trim())
     expect(spawnMock).toHaveBeenCalledTimes(2)
   })
 
   it('再試行しても骨格が揃わなければ例外にする（壊れたまま公開しない）', async () => {
-    spawnMock.mockImplementation(() => fakeChild({ stdout: truncated }))
+    spawnMock.mockImplementation(() => fakeChild({ stdout: singleText(truncated) }))
     await expect(summarize([it1], [it2])).rejects.toThrow(/必須見出しが欠落/)
     expect(spawnMock).toHaveBeenCalledTimes(2)
   })
@@ -192,7 +228,7 @@ describe('summarizer.summarize 出力の骨格チェック', () => {
   it('空文字が返ったときも呼び直す', async () => {
     spawnMock
       .mockImplementationOnce(() => fakeChild({ stdout: '' }))
-      .mockImplementationOnce(() => fakeChild({ stdout: wellFormed }))
+      .mockImplementationOnce(() => fakeChild({ stdout: singleText(wellFormed) }))
     const result = await summarize([it1], [it2])
     expect(result.markdown).toBe(wellFormed.trim())
     expect(spawnMock).toHaveBeenCalledTimes(2)
@@ -204,5 +240,54 @@ describe('summarizer.summarize 出力の骨格チェック', () => {
     )
     await expect(summarize([it1], [it2])).rejects.toThrow(/終了コード 1/)
     expect(spawnMock).toHaveBeenCalledTimes(1)
+  })
+})
+
+describe('summarizer.runClaude stream-json の取りこぼし防止', () => {
+  beforeEach(() => spawnMock.mockReset())
+
+  it('分割された text ブロックを出現順にすべて連結する', async () => {
+    // 2026-08-28 の事故: 出力の途中に thinking が挟まって text ブロックが分割され、
+    // result (= 最後の text ブロック) だけを読んでいたため前半が丸ごと消えていた。
+    spawnMock.mockImplementation(() =>
+      fakeChild({
+        stdout: streamJson([
+          { type: 'text', text: '## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n\n### A\n\n' },
+          { type: 'thinking', text: '残りの記事をどう並べるか検討する' },
+          { type: 'text', text: '#### [前半の記事](https://e.com/1)\n\n本文1\n\n---\n\n' },
+          { type: 'thinking', text: 'さらに検討する' },
+          { type: 'text', text: '#### [後半の記事](https://e.com/2)\n\n本文2\n\n---\n' },
+        ]),
+      }),
+    )
+    const result = await summarize([it1], [it2])
+    expect(result.markdown).toContain('## 本日のハイライト')
+    expect(result.markdown).toContain('前半の記事')
+    expect(result.markdown).toContain('後半の記事')
+    // thinking の中身は本文に混ざらない
+    expect(result.markdown).not.toContain('検討する')
+    expect(spawnMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('チャンクが行の途中で切れても JSON を取りこぼさない', async () => {
+    const full = streamJson([
+      { type: 'text', text: '## 本日のハイライト\n\n- foo\n\n## カテゴリ別まとめ\n\n### A\n' },
+    ])
+    const cut = Math.floor(full.length / 2)
+    spawnMock.mockImplementation(() => fakeChild({ stdoutChunks: [full.slice(0, cut), full.slice(cut)] }))
+    const result = await summarize([it1], [it2])
+    expect(result.markdown).toContain('## カテゴリ別まとめ')
+  })
+
+  it('result イベントが is_error のときは例外にする', async () => {
+    spawnMock.mockImplementation(() =>
+      fakeChild({
+        stdout: streamJson([{ type: 'text', text: '## 本日のハイライト\n\n## カテゴリ別まとめ\n' }], {
+          is_error: true,
+          subtype: 'error_during_execution',
+        }),
+      }),
+    )
+    await expect(summarize([it1], [it2])).rejects.toThrow(/error_during_execution/)
   })
 })
