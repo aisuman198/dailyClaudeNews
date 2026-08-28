@@ -1790,6 +1790,26 @@
       "examples": [
         "原題「Anthropic Codepath Partnership」の「Codepath」を「CodePath」に修正"
       ]
+    },
+    {
+      "term": "閉鎖した安全性ギャップの割合",
+      "rule": "「閉鎖した」は施設等の閉鎖を意味するため不自然。「解消した安全性ギャップの割合」に修正",
+      "firstSeenDate": "2026-08-28",
+      "lastSeenDate": "2026-08-28",
+      "occurrences": 1,
+      "examples": [
+        "研究記事の成功指標の表現で使用"
+      ]
+    },
+    {
+      "term": "最大 8 時間の時間を与えられた",
+      "rule": "「時間の時間」は冗長。「最大 8 時間を与えられた」に修正",
+      "firstSeenDate": "2026-08-28",
+      "lastSeenDate": "2026-08-28",
+      "occurrences": 1,
+      "examples": [
+        "人間研究者との比較文で時間が重複"
+      ]
     }
   ]
 }
