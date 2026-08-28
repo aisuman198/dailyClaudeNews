@@ -1,4 +1,7 @@
 import { spawn } from 'node:child_process'
+import { writeFileSync } from 'node:fs'
+import path from 'node:path'
+import { StringDecoder } from 'node:string_decoder'
 import type { Caution } from './cautionStore.js'
 import { config } from './config.js'
 import { missingHeadings } from './markdownShape.js'
@@ -125,11 +128,29 @@ export function buildPrompt(
   ].join('\n')
 }
 
-function runClaude(prompt: string): Promise<string> {
+export type ClaudeRunResult = {
+  /** assistant イベントの text ブロックを出現順に連結した本文 */
+  text: string
+  numTurns?: number
+  thinkingTokens?: number
+}
+
+/**
+ * claude CLI を stream-json で走らせ、text ブロックを **すべて** 連結して返す。
+ *
+ * --output-format text / json が返す `result` は「最後の text ブロック」だけで、
+ * 出力の途中に thinking が挟まると text ブロックが分割されるため前半が丸ごと
+ * 失われる。2026-08-28 はこれで 21 件中 18 件が消え、記事本文の途中から始まる
+ * まとめが公開された (thinking_tokens 26,145 / num_turns 1 / stop_reason end_turn
+ * = モデルは正常に完走していた)。stream-json なら分割された text を取りこぼさない。
+ */
+function runClaude(prompt: string): Promise<ClaudeRunResult> {
   return new Promise((resolve, reject) => {
     const args = [
       '-p',
-      '--output-format', 'text',
+      // stream-json は --verbose とセットで指定する
+      '--output-format', 'stream-json',
+      '--verbose',
       '--no-session-persistence',
       // 本文は事前に Node 側で取得済み。Claude はツール不要
       '--tools', '',
@@ -139,15 +160,60 @@ function runClaude(prompt: string): Promise<string> {
     ]
     const child = spawn('claude', args, { stdio: ['pipe', 'pipe', 'pipe'] })
 
-    let stdout = ''
+    const textParts: string[] = []
+    let numTurns: number | undefined
+    let thinkingTokens: number | undefined
+    let resultError = ''
+    // JSON 以外の行 (CLI の警告や認証エラー本文) は原因調査のために貯めておく
+    let nonJsonOut = ''
     let stderr = ''
+    let pending = ''
     let killedForTimeout = false
+    // マルチバイト文字がチャンク境界で割れると JSON.parse が落ちるためデコーダを挟む
+    const decoder = new StringDecoder('utf8')
+
     const timer = setTimeout(() => {
       killedForTimeout = true
       child.kill('SIGKILL')
     }, config.claudeTimeoutMs)
 
-    child.stdout.on('data', (chunk: Buffer) => { stdout += chunk.toString('utf8') })
+    const handleLine = (line: string) => {
+      const trimmed = line.trim()
+      if (trimmed.length === 0) return
+      let ev: Record<string, unknown>
+      try {
+        ev = JSON.parse(trimmed) as Record<string, unknown>
+      } catch {
+        nonJsonOut += `${trimmed}\n`
+        return
+      }
+      const message = ev.message as { content?: unknown } | undefined
+      if (ev.type === 'assistant' && Array.isArray(message?.content)) {
+        for (const block of message.content as Array<{ type?: string; text?: string }>) {
+          if (block?.type === 'text' && typeof block.text === 'string') {
+            textParts.push(block.text)
+          }
+        }
+        return
+      }
+      if (ev.type === 'result') {
+        numTurns = typeof ev.num_turns === 'number' ? ev.num_turns : undefined
+        const usage = ev.usage as { output_tokens_details?: { thinking_tokens?: number } } | undefined
+        thinkingTokens = usage?.output_tokens_details?.thinking_tokens
+        if (ev.is_error === true) {
+          resultError = String(ev.result ?? ev.subtype ?? 'unknown')
+        }
+      }
+    }
+
+    const consume = (text: string) => {
+      pending += text
+      const lines = pending.split('\n')
+      pending = lines.pop() ?? ''
+      for (const line of lines) handleLine(line)
+    }
+
+    child.stdout.on('data', (chunk: Buffer) => consume(decoder.write(chunk)))
     child.stderr.on('data', (chunk: Buffer) => { stderr += chunk.toString('utf8') })
     child.on('error', (err) => {
       clearTimeout(timer)
@@ -155,6 +221,9 @@ function runClaude(prompt: string): Promise<string> {
     })
     child.on('exit', (code) => {
       clearTimeout(timer)
+      consume(decoder.end())
+      if (pending.length > 0) handleLine(pending)
+
       if (killedForTimeout) {
         reject(new Error(`claude タイムアウト (${config.claudeTimeoutMs}ms)`))
         return
@@ -163,15 +232,33 @@ function runClaude(prompt: string): Promise<string> {
         // claude CLI は -p モードでエラー本文 (例: "Failed to authenticate. API
         // Error: 401 ...") を stdout に出すことがある。stderr だけ見ると空になり
         // "終了コード 1: " と原因不明の issue になるため、両方を拾って原因を残す。
-        const detail = [stderr.trim(), stdout.trim()].filter(Boolean).join(' / ').slice(0, 500)
+        const detail = [stderr.trim(), nonJsonOut.trim(), resultError]
+          .filter(Boolean)
+          .join(' / ')
+          .slice(0, 500)
         reject(new Error(`claude 終了コード ${code}: ${detail}`))
         return
       }
-      resolve(stdout)
+      if (resultError) {
+        reject(new Error(`claude がエラーを返しました: ${resultError.slice(0, 500)}`))
+        return
+      }
+      resolve({ text: textParts.join(''), numTurns, thinkingTokens })
     })
 
     child.stdin.end(prompt)
   })
+}
+
+/** 骨格チェックに落ちた出力を原因調査用に残す (失敗しても本処理は続行する)。 */
+function saveRejectedOutput(markdown: string, attempt: number): string | undefined {
+  try {
+    const dumpPath = path.join('state', `raw-summarize-${Date.now()}-${attempt}.md`)
+    writeFileSync(dumpPath, markdown, 'utf8')
+    return dumpPath
+  } catch {
+    return undefined
+  }
 }
 
 export async function summarize(
@@ -187,7 +274,8 @@ export async function summarize(
   let lastReason = ''
 
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-    const markdown = (await runClaude(prompt)).trim()
+    const { text, numTurns, thinkingTokens } = await runClaude(prompt)
+    const markdown = text.trim()
     if (markdown.length === 0) {
       lastReason = 'claude から空文字が返された'
     } else {
@@ -195,12 +283,18 @@ export async function summarize(
       if (missing.length === 0) {
         return { markdown, modelUsed: config.model }
       }
-      // 出力が長すぎると claude が最終メッセージだけを stdout に出し、先頭が
-      // 落ちることがある。この形の draft は review 側のフォールバック
-      // (looksWellFormed) も救えないので、公開する前に呼び直す。
+      // text ブロックの取りこぼしは stream-json で解消したはずだが、モデルが
+      // 指示どおりの骨格を出さないことはありうる。壊れたまま公開しない。
       lastReason = `必須見出しが欠落 (${missing.join(' / ')})`
     }
-    console.warn(redact(`[summarize] 出力が不完全 (${attempt}/${maxAttempts}): ${lastReason}`))
+    const dumpPath = saveRejectedOutput(markdown, attempt)
+    console.warn(
+      redact(
+        `[summarize] 出力が不完全 (${attempt}/${maxAttempts}): ${lastReason} ` +
+          `(chars=${markdown.length} num_turns=${numTurns} thinking_tokens=${thinkingTokens})` +
+          (dumpPath ? ` / 生出力: ${dumpPath}` : ''),
+      ),
+    )
   }
 
   throw new Error(`summarize の出力が ${maxAttempts} 回とも不完全でした: ${lastReason}`)
