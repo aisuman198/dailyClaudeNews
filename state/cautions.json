@@ -1772,13 +1772,23 @@
       ]
     },
     {
-      "term": "一定時間あたり",
-      "rule": "サブスクリプションの利用量上限を指す文脈では「一定期間あたり」が適切",
-      "firstSeenDate": "2026-08-27",
-      "lastSeenDate": "2026-08-27",
+      "term": "MOU（原題の大文字表記）",
+      "rule": "略称 MOU は全大文字で表記する。TCS/DXC と同パターン",
+      "firstSeenDate": "2026-08-28",
+      "lastSeenDate": "2026-08-28",
       "occurrences": 1,
       "examples": [
-        "「月額固定で一定時間あたりの利用量」の「時間」を「期間」に修正"
+        "原題「Anthropic Rwanda Mou」の「Mou」を「MOU」に修正"
+      ]
+    },
+    {
+      "term": "CodePath（原題ブランド名の大文字）",
+      "rule": "ブランド名 CodePath は P も大文字で表記する",
+      "firstSeenDate": "2026-08-28",
+      "lastSeenDate": "2026-08-28",
+      "occurrences": 1,
+      "examples": [
+        "原題「Anthropic Codepath Partnership」の「Codepath」を「CodePath」に修正"
       ]
     }
   ]
