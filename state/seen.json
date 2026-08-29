@@ -50,8 +50,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 11,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 12,
       "bodyHash": "84ae765e4df6d3b7",
       "bodyLength": 3500
     },
@@ -62,22 +62,6 @@
       "lastSeenDate": "2026-08-15",
       "occurrences": 2,
       "bodyHash": "71494a94dab7a4ad",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
-      "normalizedTitle": "anthropic risk august 2026 pdf",
-      "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/s-sakano/items/1804eca911022c4d63a8",
-      "normalizedTitle": "claude designで家計簿アプリをデザインし そのままclaude codeで実装してみた",
-      "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-14",
-      "occurrences": 1,
-      "bodyHash": "b0ce3c10d81758b4",
       "bodyLength": 3500
     },
     {
@@ -949,8 +933,8 @@
       "normalizedUrl": "https://nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "normalizedTitle": "judge rules trump administration s blacklisting of anthropic was illegal",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3
     },
     {
       "normalizedUrl": "https://github.com/kelviq/tare",
@@ -979,8 +963,8 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
       "normalizedTitle": "expanding support for scientists",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "c9d39833a3ef5247",
       "bodyLength": 3442
     },
@@ -988,8 +972,8 @@
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "189b420458f26162",
       "bodyLength": 3500
     },
@@ -1042,8 +1026,8 @@
       "normalizedUrl": "https://anthropic.com/news/ai-for-science-program",
       "normalizedTitle": "ai for science program",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "9dd68014e813f0f2",
       "bodyLength": 2867
     },
@@ -1051,8 +1035,8 @@
       "normalizedUrl": "https://anthropic.com/news/advancing-claude-for-education",
       "normalizedTitle": "advancing claude for education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "eba6a6ef516c1525",
       "bodyLength": 3500
     },
@@ -1060,8 +1044,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-life-sciences",
       "normalizedTitle": "claude for life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "72f6987ad3b481bb",
       "bodyLength": 3500
     },
@@ -1069,8 +1053,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
       "normalizedTitle": "anthropic and iceland announce one of the world s first national ai education pilots",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "5f7a1387d7698c96",
       "bodyLength": 3500
     },
@@ -1078,8 +1062,8 @@
       "normalizedUrl": "https://anthropic.com/news/healthcare-life-sciences",
       "normalizedTitle": "healthcare life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "b68b1dc2d9475a1d",
       "bodyLength": 3500
     },
@@ -1087,8 +1071,8 @@
       "normalizedUrl": "https://anthropic.com/news/accelerating-scientific-research",
       "normalizedTitle": "accelerating scientific research",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "fcc80c9f46bb1c69",
       "bodyLength": 3500
     },
@@ -1096,8 +1080,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-teach-for-all",
       "normalizedTitle": "anthropic teach for all",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "704859f811fa512d",
       "bodyLength": 3500
     },
@@ -1105,8 +1089,8 @@
       "normalizedUrl": "https://anthropic.com/news/rwandan-government-partnership-ai-education",
       "normalizedTitle": "rwandan government partnership ai education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "8279672195c92bb1",
       "bodyLength": 3500
     },
@@ -1114,8 +1098,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
       "normalizedTitle": "anthropic partners with allen institute and howard hughes medical institute",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "35af5cc98d2fd5a6",
       "bodyLength": 3500
     },
@@ -1123,8 +1107,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-codepath-partnership",
       "normalizedTitle": "anthropic codepath partnership",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 3,
       "bodyHash": "cc16aed86acda4b4",
       "bodyLength": 3500
     },
@@ -1159,8 +1143,8 @@
       "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "normalizedTitle": "automated researchers mitigate alignment failures",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 2,
       "bodyHash": "957ff92126116656",
       "bodyLength": 3500
     },
@@ -1168,9 +1152,63 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 2,
       "bodyHash": "8b8c6233a8601e39",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "normalizedTitle": "warp builds self improving agents on claude",
+      "firstSeenDate": "2026-08-29",
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 1,
+      "bodyHash": "bd979c902082ce6a",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/metabirdsdev/items/0abd98e104c84ab75811",
+      "normalizedTitle": "blender初心者でも大丈夫 claude desktop blender公式mcpで3dモデルを作成 threedive aiで公開する",
+      "firstSeenDate": "2026-08-29",
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 1,
+      "bodyHash": "3763e603b348f74f",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/71af4e891b2f8f1e7943",
+      "normalizedTitle": "claude codeを 自走 させる4つの道具 goal loop cron workflow の使い分け",
+      "firstSeenDate": "2026-08-29",
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 1,
+      "bodyHash": "a9d7e0db86291100",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/d5f4f1d4586f70512310",
+      "normalizedTitle": "claude codeのフックがこの半年で別物になった 追加された13イベントと新しい書き方",
+      "firstSeenDate": "2026-08-29",
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 1,
+      "bodyHash": "8263597500e45204",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/7636068d678804fbda26",
+      "normalizedTitle": "claude codeのセッション同士が会話しはじめた sendmessage listagents 完全ガイド",
+      "firstSeenDate": "2026-08-29",
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 1,
+      "bodyHash": "ce17e2ccb1876046",
+      "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/0acc467e15b9c2b69288",
+      "normalizedTitle": "claude code v2 1 248 v2 1 251 リリースノートまとめ",
+      "firstSeenDate": "2026-08-29",
+      "lastSeenDate": "2026-08-29",
+      "occurrences": 1,
+      "bodyHash": "8a9e432b89fe2653",
       "bodyLength": 3500
     }
   ]
