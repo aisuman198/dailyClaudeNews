@@ -26,7 +26,7 @@ export const config = {
   articleBodyMaxChars: envNum('ARTICLE_BODY_MAX_CHARS', 20_000),
   // summarize プロンプトに載せる本文の合計上限。記事数が多い日に
   // プロンプトがコンテキスト長を超えて summarize ごと落ちるのを防ぐ。
-  summarizeBodyBudgetChars: envNum('SUMMARIZE_BODY_BUDGET_CHARS', 150_000),
+  summarizeBodyTotalMaxChars: envNum('SUMMARIZE_BODY_TOTAL_MAX_CHARS', 150_000),
   // パイプライン開始前の認証プリフライト用の短いタイムアウト。
   authCheckTimeoutMs: envNum('AUTH_CHECK_TIMEOUT_MS', 120_000),
 

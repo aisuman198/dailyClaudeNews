@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { TRUNCATION_NOTE, fitBodiesToBudget, truncateBody } from './bodyText.js'
+import { TRUNCATION_NOTE, fitBodiesToTotalLimit, truncateBody } from './bodyText.js'
 
 describe('truncateBody', () => {
   it('上限以内の本文はそのまま返す（注記も付けない）', () => {
@@ -42,21 +42,21 @@ describe('truncateBody', () => {
   })
 })
 
-describe('fitBodiesToBudget', () => {
+describe('fitBodiesToTotalLimit', () => {
   const item = (bodyText: string) => ({ bodyText })
 
-  it('合計が予算以内なら何も削らない', () => {
+  it('合計が上限以内なら何も削らない', () => {
     const items = [item('あ'.repeat(100)), item('い'.repeat(100))]
-    const r = fitBodiesToBudget(items, 1_000)
+    const r = fitBodiesToTotalLimit(items, 1_000)
     expect(r.shrunk).toBe(0)
     expect(r.items).toBe(items)
     expect(r.totalChars).toBe(200)
   })
 
-  it('予算超過時は長い記事だけを削り、短い記事は丸ごと残す', () => {
+  it('合計上限を超えたときは長い記事だけを削り、短い記事は丸ごと残す', () => {
     const short = item('あ'.repeat(50))
     const long = item('い'.repeat(5_000))
-    const r = fitBodiesToBudget([short, long], 1_000)
+    const r = fitBodiesToTotalLimit([short, long], 1_000)
     expect(r.shrunk).toBe(1)
     expect(r.items[0]!.bodyText).toBe(short.bodyText)
     expect(r.items[1]!.bodyText).toContain(TRUNCATION_NOTE)
@@ -66,7 +66,7 @@ describe('fitBodiesToBudget', () => {
 
   it('元の配列の順序を保つ', () => {
     const items = [item('あ'.repeat(5_000)), item('い'.repeat(10)), item('う'.repeat(5_000))]
-    const r = fitBodiesToBudget(items, 1_000)
+    const r = fitBodiesToTotalLimit(items, 1_000)
     expect(r.items).toHaveLength(3)
     expect(r.items[1]!.bodyText).toBe('い'.repeat(10))
     expect(r.items[0]!.bodyText).toContain('あ')
@@ -74,13 +74,13 @@ describe('fitBodiesToBudget', () => {
   })
 
   it('本文が無い記事があっても落ちない', () => {
-    const r = fitBodiesToBudget([{ bodyText: undefined }, item('あ'.repeat(5_000))], 1_000)
+    const r = fitBodiesToTotalLimit([{ bodyText: undefined }, item('あ'.repeat(5_000))], 1_000)
     expect(r.items[0]!.bodyText).toBeUndefined()
-    // 予算は本文部分に対するもの。切り詰めた記事には注記 (+ 区切りの空白) が付く
+    // 合計上限は本文部分に対するもの。切り詰めた記事には注記 (+ 区切りの空白) が付く
     expect(r.totalChars).toBeLessThanOrEqual(1_000 + TRUNCATION_NOTE.length + 1)
   })
 
   it('空配列は何もしない', () => {
-    expect(fitBodiesToBudget([], 1_000)).toEqual({ items: [], shrunk: 0, totalChars: 0 })
+    expect(fitBodiesToTotalLimit([], 1_000)).toEqual({ items: [], shrunk: 0, totalChars: 0 })
   })
 })

@@ -2,7 +2,7 @@ import { spawn } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { StringDecoder } from 'node:string_decoder'
-import { TRUNCATION_NOTE, fitBodiesToBudget } from './bodyText.js'
+import { TRUNCATION_NOTE, fitBodiesToTotalLimit } from './bodyText.js'
 import type { Caution } from './cautionStore.js'
 import { config } from './config.js'
 import { missingHeadings } from './markdownShape.js'
@@ -273,15 +273,15 @@ export async function summarize(
     throw new Error('summarize に渡されたニュースが0件です')
   }
   // 1記事あたりの上限 (ARTICLE_BODY_MAX_CHARS) を上げた分、記事数が多い日は
-  // プロンプト全体がコンテキスト長を超えうる。合計予算を超える分だけ削る。
-  const budget = config.summarizeBodyBudgetChars
-  const fit = fitBodiesToBudget([...fresh, ...recurring], budget)
+  // プロンプト全体がコンテキスト長を超えうる。本文の合計上限を超える分だけ削る。
+  const totalLimit = config.summarizeBodyTotalMaxChars
+  const fit = fitBodiesToTotalLimit([...fresh, ...recurring], totalLimit)
   const fittedFresh = fit.items.slice(0, fresh.length)
   const fittedRecurring = fit.items.slice(fresh.length)
   if (fit.shrunk > 0) {
     console.warn(
       redact(
-        `[summarize] 本文合計が予算 ${budget} 文字を超えたため ${fit.shrunk} 件を切り詰め ` +
+        `[summarize] 本文の合計が上限 ${totalLimit} 文字を超えたため ${fit.shrunk} 件を切り詰め ` +
           `(切り詰め後 ${fit.totalChars} 文字)`,
       ),
     )

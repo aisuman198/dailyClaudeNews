@@ -182,7 +182,7 @@ describe('summarizer.buildPrompt', () => {
   })
 })
 
-describe('summarizer.summarize 本文の合計予算', () => {
+describe('summarizer.summarize 本文の合計上限', () => {
   beforeEach(() => spawnMock.mockReset())
 
   const withBody = (base: NewsItem, bodyText: string): NewsItem => ({ ...base, bodyText })
@@ -211,7 +211,7 @@ describe('summarizer.summarize 本文の合計予算', () => {
   // ときだけ入力データ側にも現れるので、出現回数で判定する。
   const noteCount = (prompt: string) => prompt.split(TRUNCATION_NOTE).length - 1
 
-  it('予算に収まる本文はそのままプロンプトへ載せる', async () => {
+  it('合計上限に収まる本文はそのままプロンプトへ載せる', async () => {
     const sink = { prompt: '' }
     spawnMock.mockImplementation(() => capturingChild(sink))
     const body = 'あ'.repeat(2_000)
@@ -220,10 +220,10 @@ describe('summarizer.summarize 本文の合計予算', () => {
     expect(noteCount(sink.prompt)).toBe(1)
   })
 
-  it('合計が予算を超える場合は超過分だけ切り詰めてから渡す', async () => {
+  it('合計が上限を超える場合は超過分だけ切り詰めてから渡す', async () => {
     const sink = { prompt: '' }
     spawnMock.mockImplementation(() => capturingChild(sink))
-    // 既定予算 150,000 文字を超える本文を 2 件渡す
+    // 既定の合計上限 150,000 文字を超える本文を 2 件渡す
     const huge = 'あ'.repeat(100_000)
     await summarize([withBody(it1, huge)], [withBody(it2, huge)])
     expect(noteCount(sink.prompt)).toBeGreaterThan(1)

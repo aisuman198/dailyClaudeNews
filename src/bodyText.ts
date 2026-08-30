@@ -45,29 +45,29 @@ type HasBody = { bodyText?: string }
 
 export type FitResult<T> = {
   items: T[]
-  /** 予算超過のために切り詰めた記事数 */
+  /** 合計上限を超えたため切り詰めた記事数 */
   shrunk: number
   /** 切り詰め後の bodyText 合計文字数 */
   totalChars: number
 }
 
 /**
- * 記事本文の合計が `budget` 文字を超えないように、超過分だけを切り詰める。
+ * 記事本文の合計が `totalLimit` 文字を超えないように、超過分だけを切り詰める。
  *
  * 1記事あたりの上限を上げると、記事数が多い日にプロンプトがモデルの
  * コンテキスト長を超えて summarize ごと落ちうる。短い記事は丸ごと残し、
  * 長い記事だけを均等枠まで削ることで、全体量を抑えつつ削る量を最小にする。
  */
-export function fitBodiesToBudget<T extends HasBody>(items: T[], budget: number): FitResult<T> {
+export function fitBodiesToTotalLimit<T extends HasBody>(items: T[], totalLimit: number): FitResult<T> {
   const totalChars = items.reduce((n, it) => n + (it.bodyText?.length ?? 0), 0)
-  if (items.length === 0 || budget <= 0 || totalChars <= budget) {
+  if (items.length === 0 || totalLimit <= 0 || totalChars <= totalLimit) {
     return { items, shrunk: 0, totalChars }
   }
 
   // 短い記事から順に「均等割り当て」を配る。使い切らなかった枠は後続へ回るので、
   // 結果として長い記事だけが削られる。
   const limits = new Map<T, number>()
-  let remaining = budget
+  let remaining = totalLimit
   let seats = items.length
   const shortestFirst = [...items].sort((a, b) => (a.bodyText?.length ?? 0) - (b.bodyText?.length ?? 0))
   for (const it of shortestFirst) {
