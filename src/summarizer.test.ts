@@ -1,5 +1,6 @@
 import { EventEmitter } from 'node:events'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { TRUNCATION_NOTE } from './bodyText.js'
 import type { Caution } from './cautionStore.js'
 import { buildPrompt, summarize } from './summarizer.js'
 import type { NewsItem } from './types.js'
@@ -171,6 +172,62 @@ describe('summarizer.buildPrompt', () => {
   it('omits the known cautions section when list is empty', () => {
     const p = buildPrompt([it1], [it2], [])
     expect(p).not.toContain('# 既知の用語表記ルール')
+  })
+
+  it('打ち切り注記がある記事だけ「以降は未取得」と書かせ、他では書かせない', () => {
+    const p = buildPrompt([it1], [it2])
+    expect(p).toContain(TRUNCATION_NOTE)
+    expect(p).toContain('（本文が長いため、以降は未取得）')
+    expect(p).toContain('この注記が無い記事の要約に「本文が途中で切れている」旨を書いてはいけません')
+  })
+})
+
+describe('summarizer.summarize 本文の合計上限', () => {
+  beforeEach(() => spawnMock.mockReset())
+
+  const withBody = (base: NewsItem, bodyText: string): NewsItem => ({ ...base, bodyText })
+  const ok = '## 本日のハイライト\n- a\n\n## カテゴリ別まとめ\n### その他（1件）\n'
+
+  /** stdin に流れたプロンプトを捕まえる擬似 child */
+  function capturingChild(sink: { prompt: string }) {
+    const child = new EventEmitter() as EventEmitter & {
+      stdout: EventEmitter
+      stderr: EventEmitter
+      stdin: { end: (p?: string) => void }
+      kill: () => void
+    }
+    child.stdout = new EventEmitter()
+    child.stderr = new EventEmitter()
+    child.stdin = { end: (prompt?: string) => { sink.prompt = prompt ?? '' } }
+    child.kill = () => {}
+    setImmediate(() => {
+      child.stdout.emit('data', Buffer.from(singleText(ok)))
+      child.emit('exit', 0)
+    })
+    return child
+  }
+
+  // プロンプトには注記の扱いを説明する指示文が 1 回含まれる。本文が切り詰められた
+  // ときだけ入力データ側にも現れるので、出現回数で判定する。
+  const noteCount = (prompt: string) => prompt.split(TRUNCATION_NOTE).length - 1
+
+  it('合計上限に収まる本文はそのままプロンプトへ載せる', async () => {
+    const sink = { prompt: '' }
+    spawnMock.mockImplementation(() => capturingChild(sink))
+    const body = 'あ'.repeat(2_000)
+    await summarize([withBody(it1, body)], [])
+    expect(sink.prompt).toContain(body)
+    expect(noteCount(sink.prompt)).toBe(1)
+  })
+
+  it('合計が上限を超える場合は超過分だけ切り詰めてから渡す', async () => {
+    const sink = { prompt: '' }
+    spawnMock.mockImplementation(() => capturingChild(sink))
+    // 既定の合計上限 150,000 文字を超える本文を 2 件渡す
+    const huge = 'あ'.repeat(100_000)
+    await summarize([withBody(it1, huge)], [withBody(it2, huge)])
+    expect(noteCount(sink.prompt)).toBeGreaterThan(1)
+    expect(sink.prompt).not.toContain(huge)
   })
 })
 

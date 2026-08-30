@@ -1,10 +1,10 @@
+import { truncateBody } from './bodyText.js'
 import { config } from './config.js'
 import { redact } from './redact.js'
 import type { NewsItem } from './types.js'
 
 const FETCH_TIMEOUT_MS = 12_000
 const MAX_CONCURRENT = 8
-const MAX_BODY_CHARS = 3_500
 const MAX_RETRIES = 2 // initial 1 + retry 2 = 計 3 試行
 const RETRY_BASE_DELAY_MS = Number(process.env.FETCH_RETRY_BASE_DELAY_MS ?? 500)
 
@@ -57,6 +57,27 @@ export function extractOgImageFromHtml(html: string, baseUrl: string): string | 
   return null
 }
 
+// 記事末尾に付く定型 UI 文言。1記事の上限を 3,500 → 12,000 文字へ広げたことで
+// これらがプロンプトに載るようになったため、本文の後ろから切り落とす。
+// 誤爆で本文を削らないよう、本文の後半に現れた場合だけ有効にする。
+const TRAILING_BOILERPLATE = [
+  'Register as a new user and use Qiita more conveniently',
+  'Go to list of users who liked',
+  'Deleted articles cannot be recovered',
+]
+
+/** 記事末尾の定型 UI 文言を落とす。見つからなければそのまま返す。 */
+export function stripTrailingBoilerplate(text: string): string {
+  // 同じ文言はページ上部 (いいねボタン等) にも出るため、後半に現れた分だけを探す。
+  const from = Math.floor(text.length * 0.5)
+  let cut = text.length
+  for (const marker of TRAILING_BOILERPLATE) {
+    const idx = text.indexOf(marker, from)
+    if (idx !== -1 && idx < cut) cut = idx
+  }
+  return cut === text.length ? text : text.slice(0, cut).trimEnd()
+}
+
 export function extractTextFromHtml(html: string): string {
   const stripped = html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
@@ -74,7 +95,9 @@ export function extractTextFromHtml(html: string): string {
       .replace(/\s+/g, ' ')
       .trim(),
   )
-  return text.slice(0, MAX_BODY_CHARS)
+  // 上限は ARTICLE_BODY_MAX_CHARS。ここで削った分は要約にも載らないため、
+  // 削る場合は文の区切りまで戻し、切ったことが分かる注記を付ける (bodyText.ts)。
+  return truncateBody(stripTrailingBoilerplate(text), config.articleBodyMaxChars)
 }
 
 type FetchedArticle = { text: string | null; ogImage: string | null }

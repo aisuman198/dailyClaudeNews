@@ -2,6 +2,7 @@ import { spawn } from 'node:child_process'
 import { writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { StringDecoder } from 'node:string_decoder'
+import { TRUNCATION_NOTE, fitBodiesToTotalLimit } from './bodyText.js'
 import type { Caution } from './cautionStore.js'
 import { config } from './config.js'
 import { missingHeadings } from './markdownShape.js'
@@ -13,6 +14,7 @@ const SYSTEM_PROMPT = `あなたは AI 業界ニュースを日本語で読み�
 【出典の扱い】
 - 入力 JSON の \`bodyText\` フィールドに記事本文が抽出されたテキストとして与えられます。要約は **bodyText に書かれた事実のみ** に基づいて作成してください。
 - bodyText が存在しない、または「本文取得失敗」と注記されている記事は、要約冒頭に「（本文取得失敗）」と明示し、タイトルから読み取れる範囲だけで簡潔に述べてください。
+- bodyText の末尾に「${TRUNCATION_NOTE}」がある記事だけは、本文がそこで打ち切られています。取得できた範囲の事実で要約を書き、末尾に「（本文が長いため、以降は未取得）」と1文だけ添えてください。この注記が無い記事には、本文が切れている旨を書いてはいけません。
 - bodyText に書かれていない情報（具体的な金額・性能数値・人物名・戦略意図など）を補ったり推測してはいけません。
 - 「とみられる」「示唆している」「期待される」「示している」「思われる」等の推測・解釈表現は禁止です。記事内に書かれた事実だけを淡々と述べてください。
 
@@ -80,6 +82,7 @@ export function buildPrompt(
     `# 出典の取得（重要）`,
     `各記事の本文は入力 JSON の \`bodyText\` フィールドに事前抽出済みです。要約は **bodyText に書かれた事実のみ** に基づき作成してください。bodyText に書かれていない事実を補ったり、解釈・推測表現（「とみられる」「示唆」「期待される」「示している」など）を使ってはいけません。`,
     `bodyText が \`"本文取得失敗"\` の記事は、要約冒頭に「（本文取得失敗）」と明示し、タイトルから読み取れる範囲だけで簡潔に述べてください。`,
+    `bodyText の末尾に「${TRUNCATION_NOTE}」がある記事は、本文がそこで打ち切られています。取得できた範囲だけで要約を書き、末尾に「（本文が長いため、以降は未取得）」と1文だけ添えてください。**この注記が無い記事の要約に「本文が途中で切れている」旨を書いてはいけません**（本文は最後まで取得できています）。`,
     ``,
     `# 要約の書き方`,
     `- **要約の行数・文字数に上限はありません**。本文の重要な事実（背景・経緯・数値・引用・影響範囲・反応など）を漏らさず書いてください。`,
@@ -269,7 +272,21 @@ export async function summarize(
   if (fresh.length === 0 && recurring.length === 0) {
     throw new Error('summarize に渡されたニュースが0件です')
   }
-  const prompt = buildPrompt(fresh, recurring, knownCautions)
+  // 1記事あたりの上限 (ARTICLE_BODY_MAX_CHARS) を上げた分、記事数が多い日は
+  // プロンプト全体がコンテキスト長を超えうる。本文の合計上限を超える分だけ削る。
+  const totalLimit = config.summarizeBodyTotalMaxChars
+  const fit = fitBodiesToTotalLimit([...fresh, ...recurring], totalLimit)
+  const fittedFresh = fit.items.slice(0, fresh.length)
+  const fittedRecurring = fit.items.slice(fresh.length)
+  if (fit.shrunk > 0) {
+    console.warn(
+      redact(
+        `[summarize] 本文の合計が上限 ${totalLimit} 文字を超えたため ${fit.shrunk} 件を切り詰め ` +
+          `(切り詰め後 ${fit.totalChars} 文字)`,
+      ),
+    )
+  }
+  const prompt = buildPrompt(fittedFresh, fittedRecurring, knownCautions)
   const maxAttempts = Math.max(1, config.summarizeMaxAttempts)
   let lastReason = ''
 

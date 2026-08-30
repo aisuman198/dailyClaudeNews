@@ -37,6 +37,8 @@ cp .env.example .env
 | `REVIEWER_MODEL` | レビュー担当モデル |
 | `REVIEW_ENABLED` | レビューフェーズを有効にするか（デフォルト `true`） |
 | `CLAUDE_TIMEOUT_MS` | summarize / review の各 CLI タイムアウト（デフォルト 20分） |
+| `ARTICLE_BODY_MAX_CHARS` | 1記事あたりの本文取得上限（デフォルト 20_000 文字）。超えた分は文の区切りまで戻して切り、打ち切り注記を付ける |
+| `SUMMARIZE_BODY_TOTAL_MAX_CHARS` | summarize プロンプトに載せる本文の合計上限（デフォルト 150_000 文字）。超過時は長い記事だけを削る |
 | `HN_KEYWORDS` | HN から拾うキーワード（カンマ区切り） |
 | `HISTORY_RETENTION_DAYS` | 継続話題として参照する日数（デフォルト 14） |
 | `DEDUP_TITLE_SIMILARITY` | 同run内重複判定の閾値（0.0〜1.0、デフォルト 0.85） |

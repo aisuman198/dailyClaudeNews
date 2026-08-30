@@ -20,6 +20,13 @@ export const config = {
   claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 1_800_000),
   // summarize の出力が不完全 (先頭欠落など) だったときに何回まで呼び直すか。
   summarizeMaxAttempts: envNum('SUMMARIZE_MAX_ATTEMPTS', 2),
+  // 1記事あたりの本文 (bodyText) 上限。ここで削られた分は要約に載らないため、
+  // 実際の記事が丸ごと入る長さを取る (Qiita の解説記事 5,000〜7,000 文字 /
+  // Anthropic の発表記事 16,500 文字)。
+  articleBodyMaxChars: envNum('ARTICLE_BODY_MAX_CHARS', 20_000),
+  // summarize プロンプトに載せる本文の合計上限。記事数が多い日に
+  // プロンプトがコンテキスト長を超えて summarize ごと落ちるのを防ぐ。
+  summarizeBodyTotalMaxChars: envNum('SUMMARIZE_BODY_TOTAL_MAX_CHARS', 150_000),
   // パイプライン開始前の認証プリフライト用の短いタイムアウト。
   authCheckTimeoutMs: envNum('AUTH_CHECK_TIMEOUT_MS', 120_000),
 
