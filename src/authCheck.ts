@@ -22,7 +22,7 @@ export function checkClaudeAuth(): Promise<AuthCheckResult> {
       '--output-format', 'text',
       '--no-session-persistence',
       '--tools', '',
-      '--model', config.model,
+      '--model', config.authCheckModel,
     ]
     const child = spawn('claude', args, { stdio: ['pipe', 'pipe', 'pipe'] })
 
