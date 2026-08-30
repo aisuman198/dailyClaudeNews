@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { extractOgImageFromHtml, extractTextFromHtml } from './articleFetcher.js'
+import { extractOgImageFromHtml, extractTextFromHtml, stripTrailingBoilerplate } from './articleFetcher.js'
+import { TRUNCATION_NOTE } from './bodyText.js'
 
 describe('extractTextFromHtml', () => {
   it('strips scripts, styles, and tags', () => {
@@ -26,10 +27,20 @@ describe('extractTextFromHtml', () => {
     expect(text).toContain("'quote'")
   })
 
-  it('caps body length to a sane upper bound', () => {
-    const html = '<p>' + 'あ'.repeat(10_000) + '</p>'
+  it('実記事が丸ごと収まる長さ (既定 20,000 文字) までは切り詰めない', () => {
+    // 2026-08-30: 上限 3,500 文字で Qiita の解説記事 (5,500〜7,100 文字) が
+    // 37〜51% 削られ、要約が「本文は途中で切れており」で終わる事故が起きた。
+    const html = '<p>' + 'あ'.repeat(17_000) + '</p>'
     const text = extractTextFromHtml(html)
-    expect(text.length).toBeLessThanOrEqual(3_500)
+    expect(text).not.toContain(TRUNCATION_NOTE)
+    expect(text.length).toBe(17_000)
+  })
+
+  it('上限を超える本文は打ち切り注記を付けて切り詰める', () => {
+    const html = '<p>' + 'あ'.repeat(30_000) + '</p>'
+    const text = extractTextFromHtml(html)
+    expect(text).toContain(TRUNCATION_NOTE)
+    expect(text.replace(TRUNCATION_NOTE, '').trim().length).toBeLessThanOrEqual(20_000)
   })
 
   it('collapses whitespace', () => {
@@ -49,6 +60,36 @@ describe('extractTextFromHtml', () => {
     const html = '<p>単一の���ータベース</p>'
     const text = extractTextFromHtml(html)
     expect(text).not.toContain('�')
+  })
+})
+
+describe('stripTrailingBoilerplate', () => {
+  it('記事末尾の Qiita 定型 UI 文言を落とす', () => {
+    const body = '本文の中身。'.repeat(50)
+    const text = `${body} Register as a new user and use Qiita more conveniently Sign up Login`
+    expect(stripTrailingBoilerplate(text)).toBe(body.trimEnd())
+  })
+
+  it('複数の定型文言があれば一番手前で切る', () => {
+    const body = '本文の中身。'.repeat(50)
+    const text = `${body} Go to list of users who liked 1 Register as a new user and use Qiita more conveniently`
+    expect(stripTrailingBoilerplate(text)).toBe(body.trimEnd())
+  })
+
+  it('定型文言が前半に出た場合は本文とみなして削らない', () => {
+    const text = `Go to list of users who liked ${'本文の中身。'.repeat(50)}`
+    expect(stripTrailingBoilerplate(text)).toBe(text)
+  })
+
+  it('同じ文言がページ上部にもある場合は末尾側で切る (Qiita のいいねボタン)', () => {
+    const body = '本文の中身。'.repeat(50)
+    const text = `Go to list of users who liked ${body} Go to list of users who liked 2 comment`
+    expect(stripTrailingBoilerplate(text)).toBe(`Go to list of users who liked ${body}`.trimEnd())
+  })
+
+  it('定型文言が無ければそのまま返す', () => {
+    const text = '本文だけの記事。'
+    expect(stripTrailingBoilerplate(text)).toBe(text)
   })
 })
 
