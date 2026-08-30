@@ -50,19 +50,10 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 12,
-      "bodyHash": "84ae765e4df6d3b7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-      "normalizedTitle": "maximizing the value of your claude code sessions",
-      "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 2,
-      "bodyHash": "71494a94dab7a4ad",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 13,
+      "bodyHash": "4cf307941a351cb6",
+      "bodyLength": 20028
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
@@ -71,51 +62,6 @@
       "lastSeenDate": "2026-08-24",
       "occurrences": 9,
       "bodyHash": "f5a90ae8b1962309",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/ec718a60bd314c5d8c90",
-      "normalizedTitle": "claude code v2 1 232まとめ powershell権限バイパス等の重大修正と新機能",
-      "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 2,
-      "bodyHash": "d9edaf133b9fda89",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/3edbe42a107e43829788",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 14",
-      "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 2,
-      "bodyHash": "f3c9b1e69b978c2d",
-      "bodyLength": 1963
-    },
-    {
-      "normalizedUrl": "https://github.com/christensen143/claude-trofeo-hud",
-      "normalizedTitle": "show hn live claude usage hud for a 38 thermalright trofeo vision lcd",
-      "firstSeenDate": "2026-08-15",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 1,
-      "bodyHash": "431a47df4ce5488c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
-      "normalizedTitle": "anthropic shares details about how claude s new watermarks will work",
-      "firstSeenDate": "2026-08-15",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 1,
-      "bodyHash": "eccbfae947f06a8d",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/6bc03320b1d2873318db",
-      "normalizedTitle": "claude code v2 1 232 サブエージェントの fork がデフォルトon 毎日changelog解説",
-      "firstSeenDate": "2026-08-15",
-      "lastSeenDate": "2026-08-15",
-      "occurrences": 1,
-      "bodyHash": "3b53c3d8e78933ac",
       "bodyLength": 3500
     },
     {
@@ -933,8 +879,8 @@
       "normalizedUrl": "https://nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "normalizedTitle": "judge rules trump administration s blacklisting of anthropic was illegal",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4
     },
     {
       "normalizedUrl": "https://github.com/kelviq/tare",
@@ -963,8 +909,8 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
       "normalizedTitle": "expanding support for scientists",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
       "bodyHash": "c9d39833a3ef5247",
       "bodyLength": 3442
     },
@@ -972,10 +918,10 @@
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "189b420458f26162",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "e5c11aa7e3d07aba",
+      "bodyLength": 13643
     },
     {
       "normalizedUrl": "https://qiita.com/nohanaga/items/6f527a50b7961aefc6fa",
@@ -1026,8 +972,8 @@
       "normalizedUrl": "https://anthropic.com/news/ai-for-science-program",
       "normalizedTitle": "ai for science program",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
       "bodyHash": "9dd68014e813f0f2",
       "bodyLength": 2867
     },
@@ -1035,82 +981,82 @@
       "normalizedUrl": "https://anthropic.com/news/advancing-claude-for-education",
       "normalizedTitle": "advancing claude for education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "eba6a6ef516c1525",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "28ede6c48c4273fc",
+      "bodyLength": 6339
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-for-life-sciences",
       "normalizedTitle": "claude for life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "72f6987ad3b481bb",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "99948a21811ac68b",
+      "bodyLength": 12403
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
       "normalizedTitle": "anthropic and iceland announce one of the world s first national ai education pilots",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "5f7a1387d7698c96",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "aae8ab78b8a07a2b",
+      "bodyLength": 5730
     },
     {
       "normalizedUrl": "https://anthropic.com/news/healthcare-life-sciences",
       "normalizedTitle": "healthcare life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "b68b1dc2d9475a1d",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "4b861011e09a4287",
+      "bodyLength": 16835
     },
     {
       "normalizedUrl": "https://anthropic.com/news/accelerating-scientific-research",
       "normalizedTitle": "accelerating scientific research",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "fcc80c9f46bb1c69",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "eacfcb2494d97056",
+      "bodyLength": 14638
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-teach-for-all",
       "normalizedTitle": "anthropic teach for all",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "704859f811fa512d",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "e3a85e1248c948b8",
+      "bodyLength": 6368
     },
     {
       "normalizedUrl": "https://anthropic.com/news/rwandan-government-partnership-ai-education",
       "normalizedTitle": "rwandan government partnership ai education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "8279672195c92bb1",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "7450ea3d20808d63",
+      "bodyLength": 7112
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
       "normalizedTitle": "anthropic partners with allen institute and howard hughes medical institute",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "35af5cc98d2fd5a6",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "27d5d6ebb2fafc56",
+      "bodyLength": 5570
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-codepath-partnership",
       "normalizedTitle": "anthropic codepath partnership",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 3,
-      "bodyHash": "cc16aed86acda4b4",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 4,
+      "bodyHash": "6e75d332fcb3c6f2",
+      "bodyLength": 4782
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-rwanda-mou",
@@ -1143,19 +1089,19 @@
       "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "normalizedTitle": "automated researchers mitigate alignment failures",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 2,
-      "bodyHash": "957ff92126116656",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 3,
+      "bodyHash": "170183f2d12a00a7",
+      "bodyLength": 8703
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 2,
-      "bodyHash": "8b8c6233a8601e39",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 3,
+      "bodyHash": "f68787c9593038e1",
+      "bodyLength": 9282
     },
     {
       "normalizedUrl": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
@@ -1179,19 +1125,19 @@
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/71af4e891b2f8f1e7943",
       "normalizedTitle": "claude codeを 自走 させる4つの道具 goal loop cron workflow の使い分け",
       "firstSeenDate": "2026-08-29",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 1,
-      "bodyHash": "a9d7e0db86291100",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 2,
+      "bodyHash": "7bf78bb1a051f8b4",
+      "bodyLength": 5853
     },
     {
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/d5f4f1d4586f70512310",
       "normalizedTitle": "claude codeのフックがこの半年で別物になった 追加された13イベントと新しい書き方",
       "firstSeenDate": "2026-08-29",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 1,
-      "bodyHash": "8263597500e45204",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 2,
+      "bodyHash": "da5c2666155b0f12",
+      "bodyLength": 6597
     },
     {
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/7636068d678804fbda26",
@@ -1210,6 +1156,42 @@
       "occurrences": 1,
       "bodyHash": "8a9e432b89fe2653",
       "bodyLength": 3500
+    },
+    {
+      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/66504",
+      "normalizedTitle": "claude session url appended to commit messages and pr descriptions by default",
+      "firstSeenDate": "2026-08-30",
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 1,
+      "bodyHash": "ce399070d33b7904",
+      "bodyLength": 2994
+    },
+    {
+      "normalizedUrl": "https://qiita.com/frombit/items/188ecf806463ce3e5ca1",
+      "normalizedTitle": "claude code から 遠隔地のpcをマウス キーボードで操作する",
+      "firstSeenDate": "2026-08-30",
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 1,
+      "bodyHash": "0904a114d7f9ccb7",
+      "bodyLength": 2237
+    },
+    {
+      "normalizedUrl": "https://qiita.com/tomada/items/c46851da3aebb6b22066",
+      "normalizedTitle": "claude code 始める前に決める3つは 課金方式 プラン どこから使うか",
+      "firstSeenDate": "2026-08-30",
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 1,
+      "bodyHash": "b20ad29dabe5b9a8",
+      "bodyLength": 3169
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/216c8421cbe40a2b932f",
+      "normalizedTitle": "claude codeの権限とサンドボックスはどう変わったか auto mode restricted 認証情報マスキング",
+      "firstSeenDate": "2026-08-30",
+      "lastSeenDate": "2026-08-30",
+      "occurrences": 1,
+      "bodyHash": "705752cfcc62dfbd",
+      "bodyLength": 9418
     }
   ]
 }
