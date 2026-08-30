@@ -222,7 +222,7 @@ state 保存場所: `state/seen.json`（プロジェクトルート直下）。G
   ---
   date: 2026-06-01
   generated_by: dailyClaudeNews v0.1
-  model: claude-sonnet-4-6
+  model: claude-sonnet-5
   ---
   ```
 - 既存ファイルがあれば上書き（冪等性確保）。

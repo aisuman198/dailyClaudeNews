@@ -13,9 +13,14 @@ const envNum = (key: string, fallback: number): number => {
 }
 
 export const config = {
-  model: env('CLAUDE_MODEL', 'claude-sonnet-4-6'),
+  model: env('CLAUDE_MODEL', 'claude-sonnet-5'),
   fallbackModel: env('CLAUDE_FALLBACK_MODEL', 'claude-haiku-4-5-20251001'),
-  reviewerModel: env('REVIEWER_MODEL', 'claude-sonnet-4-6'),
+  reviewerModel: env('REVIEWER_MODEL', 'claude-sonnet-5'),
+  // authCheck は 'ping' を投げて OAuth が生きているかを見るだけで、出力品質を使わないため
+  // 最小コストのモデルでよい。認証はアカウント単位なので、プローブのモデルが summarize 本番と
+  // 違っても OAuth 失効は検出できる。ただし「本番モデル ID 自体が無効」なケースはこのプローブ
+  // では検出できない (トレードオフ)。
+  authCheckModel: env('AUTH_CHECK_MODEL', 'claude-haiku-4-5-20251001'),
   reviewEnabled: env('REVIEW_ENABLED', 'true').toLowerCase() === 'true',
   claudeTimeoutMs: envNum('CLAUDE_TIMEOUT_MS', 1_800_000),
   // summarize の出力が不完全 (先頭欠落など) だったときに何回まで呼び直すか。

@@ -1,6 +1,7 @@
 import { EventEmitter } from 'node:events'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { checkClaudeAuth } from './authCheck.js'
+import { config } from './config.js'
 
 const spawnMock = vi.hoisted(() => vi.fn())
 vi.mock('node:child_process', () => ({ spawn: spawnMock }))
@@ -33,6 +34,15 @@ describe('checkClaudeAuth', () => {
     const r = await checkClaudeAuth()
     expect(r.ok).toBe(true)
     expect(r.isAuth).toBe(false)
+  })
+
+  it('--model には config.authCheckModel を渡す（summarize 本番のモデルとは分離する）', async () => {
+    spawnMock.mockImplementation(() => fakeChild({ stdout: 'pong', code: 0 }))
+    await checkClaudeAuth()
+    const args = spawnMock.mock.calls[0][1] as string[]
+    const modelIndex = args.indexOf('--model')
+    expect(modelIndex).toBeGreaterThanOrEqual(0)
+    expect(args[modelIndex + 1]).toBe(config.authCheckModel)
   })
 
   it('401 認証エラーは ok=false / isAuth=true として検知する', async () => {

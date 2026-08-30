@@ -17,7 +17,7 @@
 | `--output-format text` | プレーンテキスト出力 | マークダウン本文をそのまま受け取る |
 | `--input-format text` | stdin をプレーンテキストとして扱う（デフォルト） | ニュース本文を stdin で渡すため |
 | `--no-session-persistence` | セッション保存を無効化 | 毎日の自動実行で履歴を溜めない |
-| `--model <name>` | モデル指定 | 要約タスクには `claude-sonnet-4-6` が妥当（コスト/品質バランス） |
+| `--model <name>` | モデル指定 | 要約タスクには `claude-sonnet-5` が妥当（コスト/品質バランス） |
 | `--fallback-model <name>` | フォールバック先 | 主モデル過負荷時に `claude-haiku-4-5-20251001` などへ自動切替 |
 | `--append-system-prompt <prompt>` | 役割指定の追加 | 「日本語で要約するエディター」役を注入 |
 | `--tools ""` | 全ツールを無効化 | 要約のみで Bash/Edit 等は不要。安全性向上 |
@@ -40,7 +40,7 @@ cat news_input.txt | claude -p \
   --output-format text \
   --no-session-persistence \
   --tools "" \
-  --model claude-sonnet-4-6 \
+  --model claude-sonnet-5 \
   --fallback-model claude-haiku-4-5-20251001 \
   --append-system-prompt "あなたは日本語で AI 業界ニュースを要約するエディターです。"
 ```
