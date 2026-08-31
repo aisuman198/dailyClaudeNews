@@ -1860,6 +1860,26 @@
       "examples": [
         "自動化研究者記事の人間比較節で半角スペースが欠落していた"
       ]
+    },
+    {
+      "term": "串行希釈",
+      "rule": "「serial dilution」の日本語科学用語は「連続希釈」と表記する",
+      "firstSeenDate": "2026-08-31",
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 1,
+      "examples": [
+        "中国語コンピュータ用語「串行」（シリアル通信の意）を誤用；MHS記事カーネギーメロン大学の事例で発見"
+      ]
+    },
+    {
+      "term": "Strands Robots",
+      "rule": "AWS製品名として要確認（正式名称は「Strands Agents」の可能性あり）",
+      "firstSeenDate": "2026-08-31",
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 1,
+      "examples": [
+        "MHS記事のAWS参加表記；原文ママで保持したが次回以降も注意"
+      ]
     }
   ]
 }

@@ -2,15 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-sonnet-5",
-      "normalizedTitle": "claude sonnet 5",
-      "firstSeenDate": "2026-07-22",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 12,
-      "bodyHash": "c9fbd01283e595dd",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "normalizedTitle": "improving fable 5 s biology safeguards",
       "firstSeenDate": "2026-08-07",
@@ -29,15 +20,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/engineering/building-effective-agents",
-      "normalizedTitle": "building effective agents",
-      "firstSeenDate": "2026-08-11",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 6,
-      "bodyHash": "96fec2d5a7202735",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
@@ -50,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 13,
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 14,
       "bodyHash": "4cf307941a351cb6",
       "bodyLength": 20028
     },
@@ -81,58 +63,6 @@
       "occurrences": 2,
       "bodyHash": "d7a67aaa8195a54e",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
-      "normalizedTitle": "anthropic ipo valuation hinges on 190 200b 2028 revenue forecast",
-      "firstSeenDate": "2026-08-16",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-      "normalizedTitle": "anthropic ceo says the way for ai to win over the public is to cure cancer",
-      "firstSeenDate": "2026-08-16",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 1,
-      "bodyHash": "29c368baedcd9d34",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/TaichiYamasaki/items/959378ebb76eda594807",
-      "normalizedTitle": "openai anthropic 向けに書いたコードを さくらのai engine に差し替えだけで載せてみた",
-      "firstSeenDate": "2026-08-16",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 1,
-      "bodyHash": "d106741f880c05e7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Tadataka_Takahashi/items/5ab03ce9b1d8c98dcc61",
-      "normalizedTitle": "備忘録 claude managed agentsを本番寄りに使う前に整理する effort webhooks initial events memory betaを見る",
-      "firstSeenDate": "2026-08-16",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 1,
-      "bodyHash": "2d386eb97573afb6",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/akira_papa_AI/items/911807011d56ccf7ec6e",
-      "normalizedTitle": "claude codeのインストールから最初の1タスクまで はじめてのaiエージェントを10分で動かす",
-      "firstSeenDate": "2026-08-16",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 1,
-      "bodyHash": "517424538ebd4100",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/68fd97a6545847860218",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 16",
-      "firstSeenDate": "2026-08-16",
-      "lastSeenDate": "2026-08-16",
-      "occurrences": 1,
-      "bodyHash": "e1c9e44d0a328b85",
-      "bodyLength": 1923
     },
     {
       "normalizedUrl": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
@@ -909,19 +839,19 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
       "normalizedTitle": "expanding support for scientists",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "c9d39833a3ef5247",
-      "bodyLength": 3442
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "7646f87cc861a658",
+      "bodyLength": 3260
     },
     {
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "e5c11aa7e3d07aba",
-      "bodyLength": 13643
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "281d6a8f3096e54d",
+      "bodyLength": 13461
     },
     {
       "normalizedUrl": "https://qiita.com/nohanaga/items/6f527a50b7961aefc6fa",
@@ -972,17 +902,17 @@
       "normalizedUrl": "https://anthropic.com/news/ai-for-science-program",
       "normalizedTitle": "ai for science program",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "9dd68014e813f0f2",
-      "bodyLength": 2867
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "02f995cf9cf9bd1c",
+      "bodyLength": 2747
     },
     {
       "normalizedUrl": "https://anthropic.com/news/advancing-claude-for-education",
       "normalizedTitle": "advancing claude for education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
       "bodyHash": "28ede6c48c4273fc",
       "bodyLength": 6339
     },
@@ -990,64 +920,64 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-life-sciences",
       "normalizedTitle": "claude for life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "99948a21811ac68b",
-      "bodyLength": 12403
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "4b0299c98aa607de",
+      "bodyLength": 12283
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
       "normalizedTitle": "anthropic and iceland announce one of the world s first national ai education pilots",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "aae8ab78b8a07a2b",
-      "bodyLength": 5730
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "f37fb45de3bd77f3",
+      "bodyLength": 5610
     },
     {
       "normalizedUrl": "https://anthropic.com/news/healthcare-life-sciences",
       "normalizedTitle": "healthcare life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "4b861011e09a4287",
-      "bodyLength": 16835
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "ea83a315dc1ffa32",
+      "bodyLength": 16715
     },
     {
       "normalizedUrl": "https://anthropic.com/news/accelerating-scientific-research",
       "normalizedTitle": "accelerating scientific research",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "eacfcb2494d97056",
-      "bodyLength": 14638
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "fa58a5688aebc130",
+      "bodyLength": 14518
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-teach-for-all",
       "normalizedTitle": "anthropic teach for all",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "e3a85e1248c948b8",
-      "bodyLength": 6368
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "58e46bda64b3955e",
+      "bodyLength": 6248
     },
     {
       "normalizedUrl": "https://anthropic.com/news/rwandan-government-partnership-ai-education",
       "normalizedTitle": "rwandan government partnership ai education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "7450ea3d20808d63",
-      "bodyLength": 7112
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "19175ee7157c7ea4",
+      "bodyLength": 6992
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
       "normalizedTitle": "anthropic partners with allen institute and howard hughes medical institute",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 4,
-      "bodyHash": "27d5d6ebb2fafc56",
-      "bodyLength": 5570
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 5,
+      "bodyHash": "06bf6791c956802f",
+      "bodyLength": 5450
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-codepath-partnership",
@@ -1089,8 +1019,8 @@
       "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "normalizedTitle": "automated researchers mitigate alignment failures",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 3,
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 4,
       "bodyHash": "170183f2d12a00a7",
       "bodyLength": 8703
     },
@@ -1098,10 +1028,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-30",
-      "occurrences": 3,
-      "bodyHash": "f68787c9593038e1",
-      "bodyLength": 9282
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 4,
+      "bodyHash": "f1855b297d71e6d9",
+      "bodyLength": 9162
     },
     {
       "normalizedUrl": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
@@ -1192,6 +1122,42 @@
       "occurrences": 1,
       "bodyHash": "705752cfcc62dfbd",
       "bodyLength": 9418
+    },
+    {
+      "normalizedUrl": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode",
+      "normalizedTitle": "breaking claude code opus 5 auto mode",
+      "firstSeenDate": "2026-08-31",
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 1,
+      "bodyHash": "f932264c7d65cb47",
+      "bodyLength": 15069
+    },
+    {
+      "normalizedUrl": "https://dmitrybrant.com/2026/08/23/claude-x-retrocomputing-emulating-a-qic-117-tape-drive",
+      "normalizedTitle": "claude retrocomputing emulating a qic 117 tape drive",
+      "firstSeenDate": "2026-08-31",
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 1,
+      "bodyHash": "abd4f1262fdb8068",
+      "bodyLength": 7027
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
+      "normalizedTitle": "improving alignment security efforts",
+      "firstSeenDate": "2026-08-31",
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 1,
+      "bodyHash": "0fef31d8fa681400",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/594957a69690a39c7f82",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 31",
+      "firstSeenDate": "2026-08-31",
+      "lastSeenDate": "2026-08-31",
+      "occurrences": 1,
+      "bodyHash": "ca08961c7fc13b1e",
+      "bodyLength": 839
     }
   ]
 }
