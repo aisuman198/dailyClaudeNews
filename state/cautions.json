@@ -1880,6 +1880,86 @@
       "examples": [
         "MHS記事のAWS参加表記；原文ママで保持したが次回以降も注意"
       ]
+    },
+    {
+      "term": "Claude Fable 5.1 / Claude Mythos 5.1",
+      "rule": "今号の主要発表モデル名として初出。既知注意「Claude Fable 5」「Mythos 5」の .1 サフィックス形として原文ママで保持",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "ハイライト・第1記事カードで初登場した新モデル名"
+      ]
+    },
+    {
+      "term": "EFS（Enterprise Frontier Safeguards）",
+      "rule": "今号から定着した新略称。次回以降も出現する可能性があるため認識しておく",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "EFS article および Fable 5.1 記事内で多用"
+      ]
+    },
+    {
+      "term": "xHigh",
+      "rule": "Anthropic が新たに導入したエフォートレベル名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "Fable 5.1 記事のエフォートレベル一覧に登場"
+      ]
+    },
+    {
+      "term": "Terminal-Bench / Terminal-Bench-Science / GDPval-AA v2",
+      "rule": "新ベンチマーク名として初出。外部未確認のため原文ママで保持",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "Fable 5.1 記事のベンチマーク表に登場"
+      ]
+    },
+    {
+      "term": "Biomni / MozzareLLM",
+      "rule": "科学研究記事に登場した新プラットフォーム名（スタンフォード・MIT）。原文ママで保持",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "「科学者が Claude を使って研究・発見を加速する方法」記事に登場"
+      ]
+    },
+    {
+      "term": "Bedrock Mantle",
+      "rule": "Amazon Bedrock のバリアント製品名として初出。AWS 正式名称要確認。原文ママで保持",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code v2.1.257 記事のサードパーティ認証修正箇所に登場"
+      ]
+    },
+    {
+      "term": "AI LCC（AI Literacy and Creator Collective）",
+      "rule": "Teach For All 記事に登場した新プログラム名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "「Anthropic と Teach For All」記事に登場"
+      ]
+    },
+    {
+      "term": "Ai For Science Program（原題）",
+      "rule": "既知ルール適用（スラグ由来「Ai」→「AI」）で修正済み。今後も同パターンに注意",
+      "firstSeenDate": "2026-09-01",
+      "lastSeenDate": "2026-09-01",
+      "occurrences": 1,
+      "examples": [
+        "原題フィールドに「Ai」のまま入力されていたため修正"
+      ]
     }
   ]
 }
