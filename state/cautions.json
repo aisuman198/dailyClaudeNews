@@ -1960,6 +1960,66 @@
       "examples": [
         "原題フィールドに「Ai」のまま入力されていたため修正"
       ]
+    },
+    {
+      "term": "発見・認定された（CVE発見の文脈）",
+      "rule": "AISLE が主語の場合、CVEを「認定した」のはcurlチームであるため「発見・報告して正式なCVE認定を受けた」と能動/受動を整理する",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "examples": [
+        "ハイライト3つ目で主語と受け身が不整合"
+      ]
+    },
+    {
+      "term": "展開開始までの期間は",
+      "rule": "時間的範囲には「〜までの間は」を使う。「期間は」は「ある」等の述語が必要",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "examples": [
+        "Fable 5.1 データ保持セクション"
+      ]
+    },
+    {
+      "term": "生成モデルより古いモデルへ",
+      "rule": "「生成モデル」は生成AIモデル全般を指すため曖昧。「生成元のモデルより」に統一",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "examples": [
+        "APIの破壊的変更セクション（thinkingブロック互換ルール）"
+      ]
+    },
+    {
+      "term": "何を違うことをしているのか",
+      "rule": "英語 \"what [X] is doing differently\" の直訳は不自然。「何を違う方法でやっているのか」と修正",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "examples": [
+        "Greg Kroah-Hartman 引用部分"
+      ]
+    },
+    {
+      "term": "〜する運用としては〜する運用が",
+      "rule": "「運用」の重複を避け、後半を「〜することが」と名詞→動詞節に変換する",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "examples": [
+        "Claude API 障害記事末文"
+      ]
+    },
+    {
+      "term": "Google's Agent Platform",
+      "rule": "日本語文中で英語所有格（'s）は使わない。「Google Agent Platform」と表記する",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "examples": [
+        "EFS 参加プラットフォーム一覧"
+      ]
     }
   ]
 }

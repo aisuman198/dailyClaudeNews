@@ -23,17 +23,17 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 9,
-      "bodyHash": "4bf5eca14d44aa42",
-      "bodyLength": 3500
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 10,
+      "bodyHash": "3319d1bf47f8d0b1",
+      "bodyLength": 3551
     },
     {
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
       "normalizedTitle": "multiagent systems",
       "firstSeenDate": "2026-08-13",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 15,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 16,
       "bodyHash": "4cf307941a351cb6",
       "bodyLength": 20028
     },
@@ -41,19 +41,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 10,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 11,
       "bodyHash": "ce2d2a2230b0560b",
       "bodyLength": 14229
-    },
-    {
-      "normalizedUrl": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "normalizedTitle": "claude code may august 2026 weekly limits promotion",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "2ab04938b8bc4852",
-      "bodyLength": 2557
     },
     {
       "normalizedUrl": "https://twitter.com/kuberwastaken/status/2089377982536388964",
@@ -65,66 +56,12 @@
       "bodyLength": 1342
     },
     {
-      "normalizedUrl": "https://status.claude.com/incidents/q7txxvbsftgq",
-      "normalizedTitle": "degraded performance for multiple models",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "631a0a80d6558016",
-      "bodyLength": 1094
-    },
-    {
-      "normalizedUrl": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
-      "normalizedTitle": "claude code teaching macos to natively print to the hp laser 1008a",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "84a82fb9085fbeb0",
-      "bodyLength": 501
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-08-18",
       "lastSeenDate": "2026-08-24",
       "occurrences": 7,
       "bodyHash": "b47fc7a65a294922",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/d535617f98f8331e0d1e",
-      "normalizedTitle": "claude opus 5 sonnet 5等の複数モデルで障害発生 エラー率上昇の顛末と対応",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "3050f6c643c5d4f1",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/db6ce6c0252a6ebb634b",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 19",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "553a124967ac4536",
-      "bodyLength": 2223
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/4f42b70fe11c9a2bac03",
-      "normalizedTitle": "claude code v2 1 234アップデート解説 ntlm認証情報漏洩対策など",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "2953678c6b60dcbc",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/vivinko/items/bdda0fcdeb53e45e5471",
-      "normalizedTitle": "claude windowsアプリを2アカウントで同時起動する user data dirでログイン環境を分ける",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-18",
-      "occurrences": 1,
-      "bodyHash": "67c0504df2070134",
       "bodyLength": 3500
     },
     {
@@ -767,8 +704,8 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
       "normalizedTitle": "expanding support for scientists",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "cfd60f30c29b8b47",
       "bodyLength": 3471
     },
@@ -776,8 +713,8 @@
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "dd512704ccd801f2",
       "bodyLength": 13672
     },
@@ -830,8 +767,8 @@
       "normalizedUrl": "https://anthropic.com/news/ai-for-science-program",
       "normalizedTitle": "ai for science program",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "449db19ec71d6a00",
       "bodyLength": 2807
     },
@@ -839,8 +776,8 @@
       "normalizedUrl": "https://anthropic.com/news/advancing-claude-for-education",
       "normalizedTitle": "advancing claude for education",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "36b302f46bd0c37e",
       "bodyLength": 6279
     },
@@ -848,8 +785,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-life-sciences",
       "normalizedTitle": "claude for life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "21d82e7216891a74",
       "bodyLength": 12343
     },
@@ -857,17 +794,17 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
       "normalizedTitle": "anthropic and iceland announce one of the world s first national ai education pilots",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
-      "bodyHash": "3ede42a547f60cd2",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
+      "bodyHash": "c97c6f4d3f09b259",
       "bodyLength": 5670
     },
     {
       "normalizedUrl": "https://anthropic.com/news/healthcare-life-sciences",
       "normalizedTitle": "healthcare life sciences",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "cc70b44cf348a54d",
       "bodyLength": 16775
     },
@@ -875,8 +812,8 @@
       "normalizedUrl": "https://anthropic.com/news/accelerating-scientific-research",
       "normalizedTitle": "accelerating scientific research",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 7,
       "bodyHash": "f4b39c410d16e830",
       "bodyLength": 14578
     },
@@ -947,8 +884,8 @@
       "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "normalizedTitle": "automated researchers mitigate alignment failures",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 6,
       "bodyHash": "170183f2d12a00a7",
       "bodyLength": 8703
     },
@@ -956,8 +893,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 6,
       "bodyHash": "cb2d6ec38bb2bf91",
       "bodyLength": 9222
     },
@@ -1073,8 +1010,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
       "normalizedTitle": "improving alignment security efforts",
       "firstSeenDate": "2026-08-31",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 3,
       "bodyHash": "a4f78f07e98d8b6e",
       "bodyLength": 20027
     },
@@ -1091,9 +1028,9 @@
       "normalizedUrl": "https://anthropic.com/claude-fable-and-mythos-5-1",
       "normalizedTitle": "claude fable 5 1 and claude mythos 5 1",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 1,
-      "bodyHash": "97931cb58df15411",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 2,
+      "bodyHash": "91892daf091d673f",
       "bodyLength": 20028
     },
     {
@@ -1109,10 +1046,10 @@
       "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
       "normalizedTitle": "enterprise frontier safeguards",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-01",
-      "occurrences": 1,
-      "bodyHash": "aed895cb2223be6d",
-      "bodyLength": 13893
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 2,
+      "bodyHash": "74698df9f8d52b6c",
+      "bodyLength": 14352
     },
     {
       "normalizedUrl": "https://qiita.com/homhom44/items/5d873d2481aca0525e8c",
@@ -1131,6 +1068,60 @@
       "occurrences": 1,
       "bodyHash": "6863a8e0b5f445dd",
       "bodyLength": 2364
+    },
+    {
+      "normalizedUrl": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "normalizedTitle": "six curl cves after openai and anthropic came back with zero",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "bodyHash": "a31e22d669acc04e",
+      "bodyLength": 3941
+    },
+    {
+      "normalizedUrl": "https://claude.com/check-content",
+      "normalizedTitle": "check if a file was made with claude",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "bodyHash": "761cfba5d82df5e0",
+      "bodyLength": 2051
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/01982e38dbe329f13bae",
+      "normalizedTitle": "claude fable 5 1 mythos 5 1リリースと破壊的変更まとめ",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "bodyHash": "7dc6f43f66781053",
+      "bodyLength": 4998
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/e9cded529f5c862f4210",
+      "normalizedTitle": "claude code v2 1 258で起動失敗リグレッションとセッション不具合を修正",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "bodyHash": "b7fcb0571e925f1d",
+      "bodyLength": 3382
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/62b7a746add10b154788",
+      "normalizedTitle": "claude apiで credit balance is too low 誤エラーが発生した障害の解説",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "bodyHash": "d9132c0372a9ac96",
+      "bodyLength": 3415
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/e7c167de1681317568bb",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 02",
+      "firstSeenDate": "2026-09-02",
+      "lastSeenDate": "2026-09-02",
+      "occurrences": 1,
+      "bodyHash": "c115ffafd42657f6",
+      "bodyLength": 1381
     }
   ]
 }
