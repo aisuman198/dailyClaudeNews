@@ -2020,6 +2020,26 @@
       "examples": [
         "EFS 参加プラットフォーム一覧"
       ]
+    },
+    {
+      "term": "Gemini 3.7 Flash",
+      "rule": "原文ママで保持。Googleのモデル名として知識カットオフ（2025年8月）以降リリースの可能性があり未確認",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "examples": [
+        "Armature調査記事でシミュレート人間役として使用されたモデル名として登場"
+      ]
+    },
+    {
+      "term": "Claudeの（スペース欠落）",
+      "rule": "「Claude の出力評価」と固有名詞と助詞「の」の間に半角スペースを入れて修正",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "examples": [
+        "CCDV-F記事「他のClaude資格との比較」節末尾に発生"
+      ]
     }
   ]
 }
