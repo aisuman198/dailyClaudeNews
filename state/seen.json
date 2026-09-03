@@ -23,8 +23,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 10,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 11,
       "bodyHash": "3319d1bf47f8d0b1",
       "bodyLength": 3551
     },
@@ -41,19 +41,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 11,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 12,
       "bodyHash": "ce2d2a2230b0560b",
       "bodyLength": 14229
-    },
-    {
-      "normalizedUrl": "https://twitter.com/kuberwastaken/status/2089377982536388964",
-      "normalizedTitle": "claude writing a macos driver for my obscure hp printer built only for windows",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-19",
-      "occurrences": 2,
-      "bodyHash": "30caf94678abd732",
-      "bodyLength": 1342
     },
     {
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
@@ -704,8 +695,8 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
       "normalizedTitle": "expanding support for scientists",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 7,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 8,
       "bodyHash": "cfd60f30c29b8b47",
       "bodyLength": 3471
     },
@@ -713,8 +704,8 @@
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 7,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 8,
       "bodyHash": "dd512704ccd801f2",
       "bodyLength": 13672
     },
@@ -884,8 +875,8 @@
       "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
       "normalizedTitle": "automated researchers mitigate alignment failures",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 7,
       "bodyHash": "170183f2d12a00a7",
       "bodyLength": 8703
     },
@@ -893,8 +884,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
       "normalizedTitle": "claude for teachers",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 7,
       "bodyHash": "cb2d6ec38bb2bf91",
       "bodyLength": 9222
     },
@@ -1010,8 +1001,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
       "normalizedTitle": "improving alignment security efforts",
       "firstSeenDate": "2026-08-31",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 4,
       "bodyHash": "a4f78f07e98d8b6e",
       "bodyLength": 20027
     },
@@ -1028,8 +1019,8 @@
       "normalizedUrl": "https://anthropic.com/claude-fable-and-mythos-5-1",
       "normalizedTitle": "claude fable 5 1 and claude mythos 5 1",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 3,
       "bodyHash": "91892daf091d673f",
       "bodyLength": 20028
     },
@@ -1046,8 +1037,8 @@
       "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
       "normalizedTitle": "enterprise frontier safeguards",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-02",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 3,
       "bodyHash": "74698df9f8d52b6c",
       "bodyLength": 14352
     },
@@ -1122,6 +1113,78 @@
       "occurrences": 1,
       "bodyHash": "c115ffafd42657f6",
       "bodyLength": 1381
+    },
+    {
+      "normalizedUrl": "https://claude.com/blog/claude-for-commerce-agents",
+      "normalizedTitle": "claude for commerce agents",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "b9f8c6e5f0918d66",
+      "bodyLength": 12721
+    },
+    {
+      "normalizedUrl": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "normalizedTitle": "which tools do claude codex and cursor choose we measured 17k runs to find out",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "dd99eefbee3ae5c1",
+      "bodyLength": 10931
+    },
+    {
+      "normalizedUrl": "https://claude.ai/public/artifacts/06fd26a5-403c-47c8-af49-dcf6c35ec55c",
+      "normalizedTitle": "the double matthew walker knot by fable 5 1",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "8b358a014bb857bf",
+      "bodyLength": 227
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
+      "normalizedTitle": "india brief economic index",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "e5704575536c392c",
+      "bodyLength": 10753
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Solbear/items/ad15ec59cc18cf9994c5",
+      "normalizedTitle": "claude certified developer foundations ccdv f に3日 8時間で970点合格した勉強法",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "10e2f8f50a78c672",
+      "bodyLength": 8142
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/abe3255cb2fcf8e586cd",
+      "normalizedTitle": "claude code v2 1 259まとめ mcp管理設定の破壊的変更と管理者向け対応ポイント",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "fca2aeb62b7c0c87",
+      "bodyLength": 3728
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/9c0258f146cf52fae643",
+      "normalizedTitle": "claude opus 5 mythos fable系で大規模エラー率上昇 影響モデルまとめ",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "c724c234c8bbc2cd",
+      "bodyLength": 4173
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/04c0713d6589f84c7580",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 03",
+      "firstSeenDate": "2026-09-03",
+      "lastSeenDate": "2026-09-03",
+      "occurrences": 1,
+      "bodyHash": "b9750d906a69aa73",
+      "bodyLength": 1516
     }
   ]
 }
