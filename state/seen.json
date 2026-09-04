@@ -11,22 +11,13 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
-      "normalizedTitle": "riemann zeta",
-      "firstSeenDate": "2026-08-10",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 11,
-      "bodyHash": "cc43daca85a95461",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 11,
-      "bodyHash": "3319d1bf47f8d0b1",
-      "bodyLength": 3551
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 12,
+      "bodyHash": "16865893bf509767",
+      "bodyLength": 3744
     },
     {
       "normalizedUrl": "https://anthropic.com/research/multiagent-systems",
@@ -41,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 12,
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 13,
       "bodyHash": "ce2d2a2230b0560b",
       "bodyLength": 14229
     },
@@ -54,78 +45,6 @@
       "occurrences": 7,
       "bodyHash": "b47fc7a65a294922",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/anthropics/claude-code/issues/6235",
-      "normalizedTitle": "anthropic refuses to support agents md",
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 2,
-      "bodyHash": "83ecf544a2a9c146",
-      "bodyLength": 1602
-    },
-    {
-      "normalizedUrl": "https://qiita.com/lhjjjk4/items/cf5431f07fd5e73a18a9",
-      "normalizedTitle": "ai daily digest 2026 08 20 anthropic 65b samsung 15 値上げ wrc2026",
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 2,
-      "bodyHash": "c8b12c9481b4e48b",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/572977c7ad8226fa2274",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 20",
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 2,
-      "bodyHash": "0079c86927c5da7b",
-      "bodyLength": 1419
-    },
-    {
-      "normalizedUrl": "https://qiita.com/megmogmog1965/items/4b668265025cf97ea843",
-      "normalizedTitle": "claude code に綺麗な日本語を書かせたい",
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 2,
-      "bodyHash": "4b8822d385ebf644",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/8a8fedd55552da4bc86c",
-      "normalizedTitle": "claude code v2 1 235 権限プロンプトの安全性修正と機能改善まとめ",
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 2,
-      "bodyHash": "7bcbb07558ba5c25",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/zachahn/vomit",
-      "normalizedTitle": "vomit clean up claude 5 s token output with a separate llm",
-      "firstSeenDate": "2026-08-20",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 1,
-      "bodyHash": "7571d8027671d28b",
-      "bodyLength": 2800
-    },
-    {
-      "normalizedUrl": "https://mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-      "normalizedTitle": "hacking with claude on a 27 smart watch",
-      "firstSeenDate": "2026-08-20",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 1,
-      "bodyHash": "2a500ea45201ce55",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/7ef9024b07a2c5a57a74",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 20",
-      "firstSeenDate": "2026-08-20",
-      "lastSeenDate": "2026-08-20",
-      "occurrences": 1,
-      "bodyHash": "7b6b6e27956a5349",
-      "bodyLength": 3090
     },
     {
       "normalizedUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
@@ -704,8 +623,8 @@
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 8,
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 9,
       "bodyHash": "dd512704ccd801f2",
       "bodyLength": 13672
     },
@@ -1001,8 +920,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
       "normalizedTitle": "improving alignment security efforts",
       "firstSeenDate": "2026-08-31",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 5,
       "bodyHash": "a4f78f07e98d8b6e",
       "bodyLength": 20027
     },
@@ -1037,8 +956,8 @@
       "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
       "normalizedTitle": "enterprise frontier safeguards",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 4,
       "bodyHash": "74698df9f8d52b6c",
       "bodyLength": 14352
     },
@@ -1127,8 +1046,8 @@
       "normalizedUrl": "https://armature.tech/blog/which-tools-coding-agents-install",
       "normalizedTitle": "which tools do claude codex and cursor choose we measured 17k runs to find out",
       "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 2,
       "bodyHash": "dd99eefbee3ae5c1",
       "bodyLength": 10931
     },
@@ -1145,10 +1064,10 @@
       "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
       "normalizedTitle": "india brief economic index",
       "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "e5704575536c392c",
-      "bodyLength": 10753
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 2,
+      "bodyHash": "5cb2586940c173cc",
+      "bodyLength": 10923
     },
     {
       "normalizedUrl": "https://qiita.com/Solbear/items/ad15ec59cc18cf9994c5",
@@ -1185,6 +1104,67 @@
       "occurrences": 1,
       "bodyHash": "b9750d906a69aa73",
       "bodyLength": 1516
+    },
+    {
+      "normalizedUrl": "https://nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "normalizedTitle": "corporate america is getting hooked on open source ai",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it",
+      "normalizedTitle": "fermat s last theorem anthropic has beaten me to it",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "bodyHash": "2f1b2c7c230046b4",
+      "bodyLength": 9662
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/69af532bc40c3e22e67d",
+      "normalizedTitle": "claude code v2 1 260の重大セキュリティ修正と diffパネル追加を解説",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "bodyHash": "6a6d060a1241fd21",
+      "bodyLength": 5073
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
+      "normalizedTitle": "formalizing fermats last theorem",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "bodyHash": "cf7fbaa1c8c5b059",
+      "bodyLength": 15279
+    },
+    {
+      "normalizedUrl": "https://qiita.com/natume_nat/items/2d33986ef028bb43511c",
+      "normalizedTitle": "claude code のシステムプロンプトは モデルごとに違いがある",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "bodyHash": "0cc10d67aac767da",
+      "bodyLength": 6205
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "normalizedTitle": "investigating incidents cybersecurity evals",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "bodyHash": "4ba289333f68bea8",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/13062b7c728ab0ccbd9a",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 04",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "bodyHash": "d762abb13e27e8ab",
+      "bodyLength": 1811
     }
   ]
 }

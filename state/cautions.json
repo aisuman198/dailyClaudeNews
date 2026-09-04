@@ -2040,6 +2040,36 @@
       "examples": [
         "CCDV-F記事「他のClaude資格との比較」節末尾に発生"
       ]
+    },
+    {
+      "term": "Prove2Me",
+      "rule": "原文ママで保持（新登場）",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "examples": [
+        "Columbia大学Tianyi Peng開発の数学形式化プラットフォーム名として初出"
+      ]
+    },
+    {
+      "term": "Irregular（社）",
+      "rule": "原文ママで保持（新登場）",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "examples": [
+        "Anthropicのサイバーセキュリティ評価パートナー企業として初出"
+      ]
+    },
+    {
+      "term": "ハイライト「1,340万行超」vs 本文「1,300万行」",
+      "rule": "数値不一致は両方保持（事実変更禁止ルール適用）",
+      "firstSeenDate": "2026-09-04",
+      "lastSeenDate": "2026-09-04",
+      "occurrences": 1,
+      "examples": [
+        "同一記事内でハイライトと本文の行数が異なる。次回原典確認推奨"
+      ]
     }
   ]
 }
