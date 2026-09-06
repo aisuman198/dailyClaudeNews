@@ -2070,6 +2070,26 @@
       "examples": [
         "同一記事内でハイライトと本文の行数が異なる。次回原典確認推奨"
       ]
+    },
+    {
+      "term": "AiKA",
+      "rule": "Spotifyのプロダクト機能名として混合大文字表記を原文ママで保持",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "examples": [
+        "既知ルール「Ai→AI」の対象外。「AIKA」に修正しないよう注意"
+      ]
+    },
+    {
+      "term": "「Autonomous mode is off by default」",
+      "rule": "引用内英文未訳ルール適用：「自律モードはデフォルトでオフになっている」と翻訳",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "examples": [
+        "Kiroの公式ドキュメントからの英語引用が未訳だった"
+      ]
     }
   ]
 }
