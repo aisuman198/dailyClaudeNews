@@ -14,8 +14,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 12,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 13,
       "bodyHash": "16865893bf509767",
       "bodyLength": 3744
     },
@@ -32,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 13,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 14,
       "bodyHash": "ce2d2a2230b0560b",
       "bodyLength": 14229
     },
@@ -47,15 +47,6 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-      "normalizedTitle": "claudette make claude stop talking like a buzzfeed article",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 2,
-      "bodyHash": "c1d1587bd54015bc",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
       "normalizedTitle": "quick impressions a week of using codex more than claude",
       "firstSeenDate": "2026-08-21",
@@ -63,60 +54,6 @@
       "occurrences": 3,
       "bodyHash": "7afd4b345f01942a",
       "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "normalizedTitle": "bringing the cybersecurity capabilities of claude mythos 5 to more defenders",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
-      "bodyHash": "8873ff5239c8e658",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/proliferate-ai/proliferate",
-      "normalizedTitle": "show hn proliferate open source self hostable codex for any coding agent",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
-      "bodyHash": "2ea07d01d446c522",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/shinji_bank/items/d374470edf72431d986a",
-      "normalizedTitle": "自作mcpサーバで tool poisoning を試す claude codeを騙してみた",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 2,
-      "bodyHash": "4c8c38cccfa254df",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/e2b9a324815c7ef21782",
-      "normalizedTitle": "claude code v2 1 238 メモリ無限増大の修正とmcp認証まわりの破壊的変更",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
-      "bodyHash": "86b0c49c15d46693",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kenimo49/items/e176fc126248a899646c",
-      "normalizedTitle": "claude codeでsonnet 4 6とopus 4 7を60日並走した 4割はsonnetが勝った",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-21",
-      "occurrences": 1,
-      "bodyHash": "007519197ef2b70c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://twitter.com/argofowl/status/2091150597374537729",
-      "normalizedTitle": "anthropic appears to be a b testing reduced effort levels in claude code",
-      "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-22",
-      "occurrences": 1,
-      "bodyHash": "9c6fc6e782a4b68c",
-      "bodyLength": 1561
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
@@ -920,8 +857,8 @@
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
       "normalizedTitle": "improving alignment security efforts",
       "firstSeenDate": "2026-08-31",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 6,
       "bodyHash": "a4f78f07e98d8b6e",
       "bodyLength": 20027
     },
@@ -956,8 +893,8 @@
       "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
       "normalizedTitle": "enterprise frontier safeguards",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 5,
       "bodyHash": "74698df9f8d52b6c",
       "bodyLength": 14352
     },
@@ -1064,8 +1001,8 @@
       "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
       "normalizedTitle": "india brief economic index",
       "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 3,
       "bodyHash": "5cb2586940c173cc",
       "bodyLength": 10923
     },
@@ -1134,8 +1071,8 @@
       "normalizedUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
       "normalizedTitle": "formalizing fermats last theorem",
       "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 2,
       "bodyHash": "cf7fbaa1c8c5b059",
       "bodyLength": 15279
     },
@@ -1152,8 +1089,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 2,
       "bodyHash": "4ba289333f68bea8",
       "bodyLength": 20028
     },
@@ -1165,6 +1102,60 @@
       "occurrences": 1,
       "bodyHash": "d762abb13e27e8ab",
       "bodyLength": 1811
+    },
+    {
+      "normalizedUrl": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "normalizedTitle": "portal by spotify cut my claude code token usage by 90",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "bodyHash": "6c375c2100a79874",
+      "bodyLength": 10911
+    },
+    {
+      "normalizedUrl": "https://qiita.com/nogataka/items/d6a54f3694726b9141f3",
+      "normalizedTitle": "claude mdをそろそろ見直す時期かも claude 5世代向けの最適化手順 スキル プロジェクト種類別の例",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "bodyHash": "5d5f78f7a940e7b8",
+      "bodyLength": 18230
+    },
+    {
+      "normalizedUrl": "https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5",
+      "normalizedTitle": "claude cursor devin manus aiエージェント14製品 社内システムを触らせて事故らないのはどれ 中小企業の導入判断ガイド",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "bodyHash": "35599f40f745b8f8",
+      "bodyLength": 18001
+    },
+    {
+      "normalizedUrl": "https://qiita.com/nogataka/items/24db436c1123ab3d4cb2",
+      "normalizedTitle": "claude code を大規模なコードベースに導入するためのベストプラクティス ハーネス7層を構築順に理解する",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "bodyHash": "2278c7be41f9cac3",
+      "bodyLength": 13546
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/229e92aba6fc5c17c4b0",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 09 06",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "bodyHash": "5f3663cdf3ebef28",
+      "bodyLength": 2426
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/586e1808e4e5b0f03d5a",
+      "normalizedTitle": "fable エイリアスの解決先とコスト内訳を claude code 2 1 258 で実測した",
+      "firstSeenDate": "2026-09-06",
+      "lastSeenDate": "2026-09-06",
+      "occurrences": 1,
+      "bodyHash": "08912fe0767f1fbd",
+      "bodyLength": 6560
     }
   ]
 }
