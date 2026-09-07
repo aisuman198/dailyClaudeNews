@@ -14,8 +14,8 @@
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 13,
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 14,
       "bodyHash": "16865893bf509767",
       "bodyLength": 3744
     },
@@ -32,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
       "normalizedTitle": "claude text watermark",
       "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 14,
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 15,
       "bodyHash": "ce2d2a2230b0560b",
       "bodyLength": 14229
     },
@@ -47,65 +47,11 @@
       "bodyLength": 3500
     },
     {
-      "normalizedUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
-      "normalizedTitle": "quick impressions a week of using codex more than claude",
-      "firstSeenDate": "2026-08-21",
-      "lastSeenDate": "2026-08-23",
-      "occurrences": 3,
-      "bodyHash": "7afd4b345f01942a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
-      "normalizedTitle": "claude code v2 1 239 bedrock二重課金バグ修正とpython sdk移行コマンド追加",
-      "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-23",
-      "occurrences": 2,
-      "bodyHash": "1d9927a5c4421b07",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/e308e5450508149fe883",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 22",
-      "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-23",
-      "occurrences": 2,
-      "bodyHash": "6ed8a0ccd11a00f6",
-      "bodyLength": 1648
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/b86ff8d0cb945da5194b",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 22",
-      "firstSeenDate": "2026-08-22",
-      "lastSeenDate": "2026-08-23",
-      "occurrences": 2,
-      "bodyHash": "ec6d9f232a7680d8",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
       "normalizedTitle": "anthropic s best ai model struggles to attract users as cheaper tools thrive",
       "firstSeenDate": "2026-08-23",
       "lastSeenDate": "2026-08-25",
       "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://startupfortune.com/a-paris-developers-open-source-tool-already-strips-anthropics-new-claude-watermark",
-      "normalizedTitle": "developer s open source tool strips anthropic s new claude watermark",
-      "firstSeenDate": "2026-08-23",
-      "lastSeenDate": "2026-08-23",
-      "occurrences": 1,
-      "bodyHash": "5e3f198f38606a20",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/phandinhloccb/items/582f7e9535434b4602b8",
-      "normalizedTitle": "claude certified architect foundationを取得して4ヶ月 学習から実務への活用まで",
-      "firstSeenDate": "2026-08-23",
-      "lastSeenDate": "2026-08-23",
-      "occurrences": 1,
-      "bodyHash": "3e0bd26112784c61",
-      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://github.com/l3a0/claude-plugins",
@@ -857,9 +803,9 @@
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
       "normalizedTitle": "improving alignment security efforts",
       "firstSeenDate": "2026-08-31",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 6,
-      "bodyHash": "a4f78f07e98d8b6e",
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 7,
+      "bodyHash": "84565440039246c1",
       "bodyLength": 20027
     },
     {
@@ -893,8 +839,8 @@
       "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
       "normalizedTitle": "enterprise frontier safeguards",
       "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 6,
       "bodyHash": "74698df9f8d52b6c",
       "bodyLength": 14352
     },
@@ -1001,8 +947,8 @@
       "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
       "normalizedTitle": "india brief economic index",
       "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 4,
       "bodyHash": "5cb2586940c173cc",
       "bodyLength": 10923
     },
@@ -1071,10 +1017,10 @@
       "normalizedUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
       "normalizedTitle": "formalizing fermats last theorem",
       "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 2,
-      "bodyHash": "cf7fbaa1c8c5b059",
-      "bodyLength": 15279
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 3,
+      "bodyHash": "8046739a4b9a3d55",
+      "bodyLength": 15267
     },
     {
       "normalizedUrl": "https://qiita.com/natume_nat/items/2d33986ef028bb43511c",
@@ -1089,8 +1035,8 @@
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 3,
       "bodyHash": "4ba289333f68bea8",
       "bodyLength": 20028
     },
@@ -1156,6 +1102,42 @@
       "occurrences": 1,
       "bodyHash": "08912fe0767f1fbd",
       "bodyLength": 6560
+    },
+    {
+      "normalizedUrl": "https://github.com/trailofbits/coop",
+      "normalizedTitle": "coop isolated vm environments for running claude code and codex",
+      "firstSeenDate": "2026-09-07",
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 1,
+      "bodyHash": "8dd209a88b774c6a",
+      "bodyLength": 3437
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/96603513d035660c5805",
+      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 09 07",
+      "firstSeenDate": "2026-09-07",
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 1,
+      "bodyHash": "e3db23b81922d535",
+      "bodyLength": 2654
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/e66de6f1cbae21cbd314",
+      "normalizedTitle": "claude api の message batches api で大量リクエストのコストを半額にする実装手順 結果の順序保証なし 24時間期限など3つのハマりどころ 2026",
+      "firstSeenDate": "2026-09-07",
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 1,
+      "bodyHash": "3dd645c51e742ddc",
+      "bodyLength": 3658
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/3c6eacf11a3870e1750e",
+      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 07",
+      "firstSeenDate": "2026-09-07",
+      "lastSeenDate": "2026-09-07",
+      "occurrences": 1,
+      "bodyHash": "01022a389458b5ff",
+      "bodyLength": 1402
     }
   ]
 }
