@@ -2,15 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "normalizedTitle": "improving fable 5 s biology safeguards",
-      "firstSeenDate": "2026-08-07",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 8,
-      "bodyHash": "713b7f3827789fdf",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "normalizedTitle": "reviewing the evidence on worker retraining programs",
       "firstSeenDate": "2026-08-12",
@@ -36,425 +27,6 @@
       "occurrences": 15,
       "bodyHash": "ce2d2a2230b0560b",
       "bodyLength": 14229
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
-      "normalizedTitle": "claude accelerates protein design",
-      "firstSeenDate": "2026-08-18",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 7,
-      "bodyHash": "b47fc7a65a294922",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "normalizedTitle": "anthropic s best ai model struggles to attract users as cheaper tools thrive",
-      "firstSeenDate": "2026-08-23",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://github.com/l3a0/claude-plugins",
-      "normalizedTitle": "a claude code skill that recovers export blocked kindle highlights",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "5dc0ddfe1e39508d",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/jqit_suwa/items/5edf6037203a15c3fdfd",
-      "normalizedTitle": "anthropic sdk が httpx をやめました 移行しても動くので気づけません",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "a54d07dbc0e7a4cd",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/tsugumic5/items/6a362e82bf2ce9ef0a08",
-      "normalizedTitle": "claude apiで毎晩cssアニメーションが増えていくサイトを作った",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "aee31bec7f171d16",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/57b0a8dec1ac85bbdae3",
-      "normalizedTitle": "claude fable 5のセーフガード改善とテキスト透かしの仕組みを解説",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "91fb82526db8ed09",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/team/economics",
-      "normalizedTitle": "economics",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "e60c98b113fb0ca3",
-      "bodyLength": 3354
-    },
-    {
-      "normalizedUrl": "https://qiita.com/leomarokun/items/92efccef414304ab87fe",
-      "normalizedTitle": "claude code の 5 つの output style を同じお題で実際にざっくり比較してみた",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "f2aa83d7b99c83af",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/fdf76f7f5da6a517abe8",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 24",
-      "firstSeenDate": "2026-08-24",
-      "lastSeenDate": "2026-08-24",
-      "occurrences": 1,
-      "bodyHash": "eb6ad5ca81e57037",
-      "bodyLength": 1790
-    },
-    {
-      "normalizedUrl": "https://reuters.com/business/media-telecom/anthropic-expected-tell-investors-it-sees-over-30-trillion-potential-revenue-wsj-2026-08-25",
-      "normalizedTitle": "anthropic expected to tell investors it sees over 30t in potential revenue",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/wellbeing-research-grants",
-      "normalizedTitle": "wellbeing research grants",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "ffc645a281f017e5",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-connector",
-      "normalizedTitle": "anthropic economic index connector",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "3dbcc08b4dcf08d5",
-      "bodyLength": 2582
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
-      "normalizedTitle": "anthropic economic index insights from claude sonnet 3 7",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "4aacb7497196f650",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/economic-futures-research-fund-agenda",
-      "normalizedTitle": "economic futures research fund agenda",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "b7ac4bdb311acc03",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/economic-futures-uk-europe",
-      "normalizedTitle": "economic futures uk europe",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "fb04bb3d09867729",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/the-anthropic-economic-index",
-      "normalizedTitle": "the anthropic economic index",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "e42a83d0d3f99662",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/81k-economics",
-      "normalizedTitle": "81k economics",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "aa57aac4d006792a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-january-2026-report",
-      "normalizedTitle": "anthropic economic index january 2026 report",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "444e28fef5d05830",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-september-2025-report",
-      "normalizedTitle": "anthropic economic index september 2025 report",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "68df3aaf00190997",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/claude-code-expertise",
-      "normalizedTitle": "claude code expertise",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "b3d6e0f82d7669c0",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
-      "normalizedTitle": "coding agents social sciences",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "411aa60c61276781",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/economic-index-geography",
-      "normalizedTitle": "economic index geography",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "c29a9835f88b38a6",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
-      "normalizedTitle": "economic index june 2026 report",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "965cf21bd8f1274f",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/economic-index-march-2026-report",
-      "normalizedTitle": "economic index march 2026 report",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "a450e5a64f4bad67",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/economic-index-primitives",
-      "normalizedTitle": "economic index primitives",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "039f8ec35e69c01c",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/18a1cc9c54a77605c0ea",
-      "normalizedTitle": "claude code v2 1 245 glibc 2 44環境での起動クラッシュを修正",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 2,
-      "bodyHash": "9160a8e6985b1ea3",
-      "bodyLength": 3316
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/51247eaa8f7437b014b3",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 25",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "9d41f7837fe752c5",
-      "bodyLength": 1928
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/e79c75cffda44e56dd34",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 25",
-      "firstSeenDate": "2026-08-25",
-      "lastSeenDate": "2026-08-25",
-      "occurrences": 1,
-      "bodyHash": "8e731e6cffc949fc",
-      "bodyLength": 3313
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/claude-plays-robotics",
-      "normalizedTitle": "claude plays robotics",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "d2a05bf4b8b6af29",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
-      "normalizedTitle": "anthropic signs pledge to americas youth investing in ai education",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "b5a2134193d14139",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
-      "normalizedTitle": "nuclear safeguards for ai",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "da049da8953a9660",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/usage-policy-update",
-      "normalizedTitle": "usage policy update",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "468265854d753107",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/persona-vectors",
-      "normalizedTitle": "persona vectors",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "92a8caf022993435",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
-      "normalizedTitle": "lawrence livermore national laboratory expands claude for enterprise to empower scientists and",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "2302ae4528f019a7",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
-      "normalizedTitle": "detecting and countering malicious uses of claude march 2025",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "5a0d395b11e8962a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/constitutional-classifiers",
-      "normalizedTitle": "constitutional classifiers",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "1237480520f5bd36",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
-      "normalizedTitle": "our approach to understanding and addressing ai harms",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "ca001824b5cbf1fc",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/crosscoder-model-diffing",
-      "normalizedTitle": "crosscoder model diffing",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "db858be9d4f5c6e3",
-      "bodyLength": 1403
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/us-elections-readiness",
-      "normalizedTitle": "us elections readiness",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "6ec92f7f274e99d2",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/challenges-in-red-teaming-ai-systems",
-      "normalizedTitle": "challenges in red teaming ai systems",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "91e81477ac8d76fe",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/measuring-model-persuasiveness",
-      "normalizedTitle": "measuring model persuasiveness",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "b32bfc8b307c8a9d",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/accenture-aws-anthropic",
-      "normalizedTitle": "accenture aws anthropic",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "6b48217820791b0d",
-      "bodyLength": 2605
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/skt-partnership-announcement",
-      "normalizedTitle": "skt partnership announcement",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "5fc2355f48a455fa",
-      "bodyLength": 2791
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/cbdf74a39fe26a9292d1",
-      "normalizedTitle": "claude code v2 1 246まとめ bash権限警告とapiキー漏洩修正など40件超の改善",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "f41145dcb76f8877",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yumicat/items/82234f3c77a707d46b52",
-      "normalizedTitle": "claude skillsとは何か mcp rules サブエージェントとの違いと 自作skillの作り方",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "7b7b083c419a3704",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/f7f056d26e81801be663",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 26",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "92ab5eea37b19f75",
-      "bodyLength": 2334
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/94f4f17767e20b2f98a4",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 08 26",
-      "firstSeenDate": "2026-08-26",
-      "lastSeenDate": "2026-08-26",
-      "occurrences": 1,
-      "bodyHash": "da72aef63b5cb118",
-      "bodyLength": 2779
     },
     {
       "normalizedUrl": "https://louisabraham.github.io/load-bearing",
@@ -1017,10 +589,10 @@
       "normalizedUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
       "normalizedTitle": "formalizing fermats last theorem",
       "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 3,
-      "bodyHash": "8046739a4b9a3d55",
-      "bodyLength": 15267
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 4,
+      "bodyHash": "12a5177ddf2c38b1",
+      "bodyLength": 15141
     },
     {
       "normalizedUrl": "https://qiita.com/natume_nat/items/2d33986ef028bb43511c",
@@ -1138,6 +710,159 @@
       "occurrences": 1,
       "bodyHash": "01022a389458b5ff",
       "bodyLength": 1402
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/threat-intelligence-report-september-2026",
+      "normalizedTitle": "detecting and countering misuse of ai september 2026",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "e1846782da46c6ae",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire",
+      "normalizedTitle": "anthropic ceos wife once asked epstein to fund porn venture now steers claude",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "2093ce367cf92e7b",
+      "bodyLength": 5777
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "normalizedTitle": "alignment assessment cybersecurity incidents",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "5affa13fd5e5289f",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/85222ea4e7e845e4523f",
+      "normalizedTitle": "claude managed agentsに権限自動判定 auto 追加 ant cliでセッション接続も可能に",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "bea1fdc176a4892d",
+      "bodyLength": 3758
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
+      "normalizedTitle": "nuclear safeguards for ai",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "feea6abf4f1cec34",
+      "bodyLength": 9034
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+      "normalizedTitle": "developing nuclear safeguards for ai through public private partnership",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "02976df47c687c1c",
+      "bodyLength": 3218
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-higher-education-initiatives",
+      "normalizedTitle": "anthropic higher education initiatives",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "22e76adac1a93a51",
+      "bodyLength": 5907
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
+      "normalizedTitle": "introducing the anthropic national security and public sector advisory council",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "2bb2bf631867de20",
+      "bodyLength": 8070
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/detecting-countering-misuse-aug-2025",
+      "normalizedTitle": "detecting countering misuse aug 2025",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "e52d18f4033891e8",
+      "bodyLength": 12291
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-education-report-how-educators-use-claude",
+      "normalizedTitle": "anthropic education report how educators use claude",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "2fcb51e4b7829135",
+      "bodyLength": 19120
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/updates-to-our-consumer-terms",
+      "normalizedTitle": "updates to our consumer terms",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "db89daa2166fda32",
+      "bodyLength": 7703
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "normalizedTitle": "anthropic raises series f at usd183b post money valuation",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "bf898aca501366d5",
+      "bodyLength": 4540
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+      "normalizedTitle": "updating restrictions of sales to unsupported regions",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "4f5d59f80218d3db",
+      "bodyLength": 3451
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+      "normalizedTitle": "anthropic signs pledge to americas youth investing in ai education",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "8786da13e92a20b8",
+      "bodyLength": 5838
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
+      "normalizedTitle": "strengthening our safeguards through collaboration with us caisi and uk aisi",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "aea33c7b74922fea",
+      "bodyLength": 8472
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-geography",
+      "normalizedTitle": "economic index geography",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "3033600f2af5647b",
+      "bodyLength": 17080
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-september-2025-report",
+      "normalizedTitle": "anthropic economic index september 2025 report",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "bodyHash": "6d2d5c6f07da8dd2",
+      "bodyLength": 20028
     }
   ]
 }

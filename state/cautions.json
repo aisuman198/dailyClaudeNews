@@ -2090,6 +2090,36 @@
       "examples": [
         "Kiroの公式ドキュメントからの英語引用が未訳だった"
       ]
+    },
+    {
+      "term": "UK AI 安全機関（AISI）",
+      "rule": "AISI = AI Safety Institute のため「安全」と訳す。「セキュリティ」は security の訳語であり safety とは別概念",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "examples": [
+        "本文中「UK AI セキュリティ機関（AISI）」を「UK AI 安全機関（AISI）」に修正"
+      ]
+    },
+    {
+      "term": "署名を深化させた",
+      "rule": "「署名を深化させる」は不自然。「誓約を深める」「コミットメントを深める」と表現する",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "examples": [
+        "ホワイトハウス誓約記事の本文で使用されていた不自然な表現"
+      ]
+    },
+    {
+      "term": "英語職位名の未訳（VP of applied AI and partnerships）",
+      "rule": "日本語本文中の英語職位名は日本語に訳す。「応用 AI・パートナーシップ担当 VP」と表記",
+      "firstSeenDate": "2026-09-10",
+      "lastSeenDate": "2026-09-10",
+      "occurrences": 1,
+      "examples": [
+        "その他カテゴリの Mira Murati 紹介文で英語職位名がそのまま使用されていた"
+      ]
     }
   ]
 }
