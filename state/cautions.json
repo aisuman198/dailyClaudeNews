@@ -2120,6 +2120,26 @@
       "examples": [
         "その他カテゴリの Mira Murati 紹介文で英語職位名がそのまま使用されていた"
       ]
+    },
+    {
+      "term": "Kimi K3",
+      "rule": "原文ママで表記（Moonshot のモデル名として初出）",
+      "firstSeenDate": "2026-09-11",
+      "lastSeenDate": "2026-09-11",
+      "occurrences": 1,
+      "examples": [
+        "情報・兵器能力評価記事に初登場したモデル名"
+      ]
+    },
+    {
+      "term": "PentAGI",
+      "rule": "原文ママで表記（公開攻撃エージェントフレームワーク名として初出）",
+      "firstSeenDate": "2026-09-11",
+      "lastSeenDate": "2026-09-11",
+      "occurrences": 1,
+      "examples": [
+        "AI悪用対策レポート記事に初登場したツール名"
+      ]
     }
   ]
 }
