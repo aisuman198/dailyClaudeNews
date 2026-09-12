@@ -29,41 +29,11 @@
       "bodyLength": 14229
     },
     {
-      "normalizedUrl": "https://louisabraham.github.io/load-bearing",
-      "normalizedTitle": "show hn the load bearing vocabulary of claude",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2
-    },
-    {
       "normalizedUrl": "https://nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "normalizedTitle": "judge rules trump administration s blacklisting of anthropic was illegal",
       "firstSeenDate": "2026-08-28",
       "lastSeenDate": "2026-08-30",
       "occurrences": 4
-    },
-    {
-      "normalizedUrl": "https://github.com/kelviq/tare",
-      "normalizedTitle": "show hn my claude quota ran out in 10 minutes so i made a tool to find out why",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
-      "bodyHash": "0ce862b4f8182c31",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
-      "normalizedTitle": "judge blocks pentagon blacklist of anthropic as supply chain risk",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28",
-      "normalizedTitle": "pentagon s blacklisting of anthropic was unlawful us judge rules",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1
     },
     {
       "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
@@ -82,51 +52,6 @@
       "occurrences": 9,
       "bodyHash": "dd512704ccd801f2",
       "bodyLength": 13672
-    },
-    {
-      "normalizedUrl": "https://qiita.com/nohanaga/items/6f527a50b7961aefc6fa",
-      "normalizedTitle": "microsoft foundry claude opus 5 structured outputs 実践 notebook",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
-      "bodyHash": "63250fa97f3e3411",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Solbear/items/2ba5ae5c67cbece68142",
-      "normalizedTitle": "claude certified architect professional ccar p に満点合格したので勉強法の振り返りをしてみる",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
-      "bodyHash": "8dd4b84eb565ce17",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/f6c4074a99d25f780122",
-      "normalizedTitle": "claude code v2 1 248まとめ restrictedモードとcachettlで安全性と速度が向上",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
-      "bodyHash": "f86680beea24fc36",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/okssusucha/items/df4bcd2353d754053f48",
-      "normalizedTitle": "claude gpt geminiが暗号化した推論は弱いモデルに復号させられる",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 2,
-      "bodyHash": "09ecec97a0471dd3",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/ea8ba5ebf89a77778180",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 08 28",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
-      "bodyHash": "f3823b9f76ef5428",
-      "bodyLength": 1565
     },
     {
       "normalizedUrl": "https://anthropic.com/news/ai-for-science-program",
@@ -217,33 +142,6 @@
       "occurrences": 4,
       "bodyHash": "6e75d332fcb3c6f2",
       "bodyLength": 4782
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/anthropic-rwanda-mou",
-      "normalizedTitle": "anthropic rwanda mou",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
-      "bodyHash": "202af35b2a92f9ae",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-for-small-business",
-      "normalizedTitle": "claude for small business",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
-      "bodyHash": "fa5d22c921233db0",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://github.com/nilbuild/rundown",
-      "normalizedTitle": "show hn hacker news client with claude code and codex integration",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-08-28",
-      "occurrences": 1,
-      "bodyHash": "25d8f9664a29ca83",
-      "bodyLength": 2573
     },
     {
       "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
@@ -733,8 +631,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 3,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -850,8 +748,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-geography",
       "normalizedTitle": "economic index geography",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 3,
       "bodyHash": "3033600f2af5647b",
       "bodyLength": 17080
     },
@@ -904,8 +802,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
       "normalizedTitle": "claude values models languages",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "a77f15bede3eb2fc",
       "bodyLength": 19519
     },
@@ -913,8 +811,8 @@
       "normalizedUrl": "https://anthropic.com/research/enabling-independent-research",
       "normalizedTitle": "enabling independent research",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "c3abd75ac0f1fd50",
       "bodyLength": 17068
     },
@@ -940,8 +838,8 @@
       "normalizedUrl": "https://anthropic.com/research/many-shot-jailbreaking",
       "normalizedTitle": "many shot jailbreaking",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "8598fc716d53207b",
       "bodyLength": 10647
     },
@@ -949,8 +847,8 @@
       "normalizedUrl": "https://anthropic.com/research/mapping-mind-language-model",
       "normalizedTitle": "mapping mind language model",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "f508c1fdacdbb4ba",
       "bodyLength": 13086
     },
@@ -958,8 +856,8 @@
       "normalizedUrl": "https://anthropic.com/research/AI-fluency-index",
       "normalizedTitle": "ai fluency index",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "6dd14a2beecb9fa0",
       "bodyLength": 15378
     },
@@ -967,8 +865,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
       "normalizedTitle": "economic index june 2026 report",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "44781d3a9dc33844",
       "bodyLength": 20027
     },
@@ -976,8 +874,8 @@
       "normalizedUrl": "https://anthropic.com/research/the-anthropic-economic-index",
       "normalizedTitle": "the anthropic economic index",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "79e1347e4aa0d9bc",
       "bodyLength": 13485
     },
@@ -985,8 +883,8 @@
       "normalizedUrl": "https://anthropic.com/research/impact-software-development",
       "normalizedTitle": "impact software development",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "5a0fa252b9e622ad",
       "bodyLength": 16409
     },
@@ -994,8 +892,8 @@
       "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
       "normalizedTitle": "anthropic economic index insights from claude sonnet 3 7",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "fd2d850c1ff21988",
       "bodyLength": 14973
     },
@@ -1003,8 +901,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-primitives",
       "normalizedTitle": "economic index primitives",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "81d3dd35c11a4b17",
       "bodyLength": 18037
     },
@@ -1012,8 +910,8 @@
       "normalizedUrl": "https://anthropic.com/research/anthropic-education-report-how-educators-use-claude",
       "normalizedTitle": "anthropic education report how educators use claude",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "2fcb51e4b7829135",
       "bodyLength": 19120
     },
@@ -1021,8 +919,8 @@
       "normalizedUrl": "https://anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
       "normalizedTitle": "intelligence targeting conventional weapons capabilities",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "426655749311b853",
       "bodyLength": 20028
     },
@@ -1030,10 +928,46 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 2,
       "bodyHash": "cfc0ff4a4cd86890",
       "bodyLength": 12281
+    },
+    {
+      "normalizedUrl": "https://qiita.com/moritalous/items/2168025729eb840d5143",
+      "normalizedTitle": "claude managed agentsにiac的に管理する機能が追加されたゾ",
+      "firstSeenDate": "2026-09-12",
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 1,
+      "bodyHash": "f0d31324bab2a46e",
+      "bodyLength": 7011
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/79135fe5ab81d8cea05b",
+      "normalizedTitle": "claude code v2 1 269 tee経由の権限迂回など重要修正とplugin eval追加",
+      "firstSeenDate": "2026-09-12",
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 1,
+      "bodyHash": "a6908826ec3a0804",
+      "bodyLength": 4215
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/24cc97468e67f2e021ba",
+      "normalizedTitle": "claude code の claude plugin eval で 自作スキルは本当に効いているのか を数値で確かめる",
+      "firstSeenDate": "2026-09-12",
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 1,
+      "bodyHash": "3c5ade522c539568",
+      "bodyLength": 11957
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/dc1643951c3a7bc2d173",
+      "normalizedTitle": "claude code v2 1 263 v2 1 269 リリースノートまとめ",
+      "firstSeenDate": "2026-09-12",
+      "lastSeenDate": "2026-09-12",
+      "occurrences": 1,
+      "bodyHash": "91c1a2ece9a2d131",
+      "bodyLength": 6923
     }
   ]
 }
