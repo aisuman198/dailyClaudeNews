@@ -162,24 +162,6 @@
       "bodyLength": 9222
     },
     {
-      "normalizedUrl": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-      "normalizedTitle": "warp builds self improving agents on claude",
-      "firstSeenDate": "2026-08-29",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 1,
-      "bodyHash": "bd979c902082ce6a",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/metabirdsdev/items/0abd98e104c84ab75811",
-      "normalizedTitle": "blender初心者でも大丈夫 claude desktop blender公式mcpで3dモデルを作成 threedive aiで公開する",
-      "firstSeenDate": "2026-08-29",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 1,
-      "bodyHash": "3763e603b348f74f",
-      "bodyLength": 3500
-    },
-    {
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/71af4e891b2f8f1e7943",
       "normalizedTitle": "claude codeを 自走 させる4つの道具 goal loop cron workflow の使い分け",
       "firstSeenDate": "2026-08-29",
@@ -196,24 +178,6 @@
       "occurrences": 2,
       "bodyHash": "da5c2666155b0f12",
       "bodyLength": 6597
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/7636068d678804fbda26",
-      "normalizedTitle": "claude codeのセッション同士が会話しはじめた sendmessage listagents 完全ガイド",
-      "firstSeenDate": "2026-08-29",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 1,
-      "bodyHash": "ce17e2ccb1876046",
-      "bodyLength": 3500
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/0acc467e15b9c2b69288",
-      "normalizedTitle": "claude code v2 1 248 v2 1 251 リリースノートまとめ",
-      "firstSeenDate": "2026-08-29",
-      "lastSeenDate": "2026-08-29",
-      "occurrences": 1,
-      "bodyHash": "8a9e432b89fe2653",
-      "bodyLength": 3500
     },
     {
       "normalizedUrl": "https://github.com/anthropics/claude-code/issues/66504",
@@ -631,8 +595,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 4,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -748,8 +712,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-geography",
       "normalizedTitle": "economic index geography",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 4,
       "bodyHash": "3033600f2af5647b",
       "bodyLength": 17080
     },
@@ -802,8 +766,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
       "normalizedTitle": "claude values models languages",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "a77f15bede3eb2fc",
       "bodyLength": 19519
     },
@@ -811,8 +775,8 @@
       "normalizedUrl": "https://anthropic.com/research/enabling-independent-research",
       "normalizedTitle": "enabling independent research",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "c3abd75ac0f1fd50",
       "bodyLength": 17068
     },
@@ -838,8 +802,8 @@
       "normalizedUrl": "https://anthropic.com/research/many-shot-jailbreaking",
       "normalizedTitle": "many shot jailbreaking",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "8598fc716d53207b",
       "bodyLength": 10647
     },
@@ -847,8 +811,8 @@
       "normalizedUrl": "https://anthropic.com/research/mapping-mind-language-model",
       "normalizedTitle": "mapping mind language model",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "f508c1fdacdbb4ba",
       "bodyLength": 13086
     },
@@ -856,8 +820,8 @@
       "normalizedUrl": "https://anthropic.com/research/AI-fluency-index",
       "normalizedTitle": "ai fluency index",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "6dd14a2beecb9fa0",
       "bodyLength": 15378
     },
@@ -865,8 +829,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
       "normalizedTitle": "economic index june 2026 report",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "44781d3a9dc33844",
       "bodyLength": 20027
     },
@@ -874,8 +838,8 @@
       "normalizedUrl": "https://anthropic.com/research/the-anthropic-economic-index",
       "normalizedTitle": "the anthropic economic index",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "79e1347e4aa0d9bc",
       "bodyLength": 13485
     },
@@ -883,8 +847,8 @@
       "normalizedUrl": "https://anthropic.com/research/impact-software-development",
       "normalizedTitle": "impact software development",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "5a0fa252b9e622ad",
       "bodyLength": 16409
     },
@@ -892,8 +856,8 @@
       "normalizedUrl": "https://anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
       "normalizedTitle": "anthropic economic index insights from claude sonnet 3 7",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "fd2d850c1ff21988",
       "bodyLength": 14973
     },
@@ -901,8 +865,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-primitives",
       "normalizedTitle": "economic index primitives",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "81d3dd35c11a4b17",
       "bodyLength": 18037
     },
@@ -910,8 +874,8 @@
       "normalizedUrl": "https://anthropic.com/research/anthropic-education-report-how-educators-use-claude",
       "normalizedTitle": "anthropic education report how educators use claude",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "2fcb51e4b7829135",
       "bodyLength": 19120
     },
@@ -919,8 +883,8 @@
       "normalizedUrl": "https://anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
       "normalizedTitle": "intelligence targeting conventional weapons capabilities",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "426655749311b853",
       "bodyLength": 20028
     },
@@ -928,8 +892,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 3,
       "bodyHash": "cfc0ff4a4cd86890",
       "bodyLength": 12281
     },
@@ -968,6 +932,51 @@
       "occurrences": 1,
       "bodyHash": "91c1a2ece9a2d131",
       "bodyLength": 6923
+    },
+    {
+      "normalizedUrl": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "normalizedTitle": "david sacks openai and anthropic don t need regulations to pace frontier models",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "bodyHash": "1cfd3e8e4ef75079",
+      "bodyLength": 7436
+    },
+    {
+      "normalizedUrl": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "normalizedTitle": "reverse engineering claude web s microvm uncovering anthropic s hidden antspace",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "bodyHash": "9c7b2e47c9a2af29",
+      "bodyLength": 19879
+    },
+    {
+      "normalizedUrl": "https://qiita.com/nobumory/items/ed33545ff828f004f89a",
+      "normalizedTitle": "youtubeチャンネル anthropic 視聴メモ 1 aiでデータ分析する前に 検証 する",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "bodyHash": "0ad65e909c72c3b0",
+      "bodyLength": 2614
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Takuya__/items/e3a602e5936538dfcbdb",
+      "normalizedTitle": "スマホから動かす claude code と codex デスクトップのコーディングエージェントをリモート操作する設定ガイド",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "bodyHash": "a9b6e15cecbdc3ca",
+      "bodyLength": 9225
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/d05419163b5d7bb46aa1",
+      "normalizedTitle": "claude codeでツール結果が消える原因と確認手順を一気に整理 claude code でつまずいたときの切り分けメモ 2026 09 13",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "bodyHash": "bf4ac91ed74e1769",
+      "bodyLength": 999
     }
   ]
 }
