@@ -2150,6 +2150,36 @@
       "examples": [
         "Card 2 の権限修正説明で「書き込まれた〜越えて」が不自然だったため修正"
       ]
+    },
+    {
+      "term": "〜からの復帰は自動再接続される",
+      "rule": "「復帰は」と「再接続される」の主述不一致。「復帰時には自動で再接続される」に修正する",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "examples": [
+        "Remote Controlセクションの復帰動作説明で主述が不一致"
+      ]
+    },
+    {
+      "term": "引用内英文「validation builds confidence...」",
+      "rule": "引用内英文未訳ルール適用：英語句を削除し日本語訳のみ「検証は自信をもたらすが、責任をなくすことはない」と表記",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "examples": [
+        "YouTubeメモ記事の英語原文引用に日本語訳が括弧内に留まっていた"
+      ]
+    },
+    {
+      "term": "プロジェクトフォルダで実施する必要がある",
+      "rule": "目的語のない「実施する」は曖昧。「行う」に改める",
+      "firstSeenDate": "2026-09-13",
+      "lastSeenDate": "2026-09-13",
+      "occurrences": 1,
+      "examples": [
+        "Remote Control設定手順中の信頼ダイアログ承認箇所"
+      ]
     }
   ]
 }
