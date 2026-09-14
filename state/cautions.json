@@ -2180,6 +2180,26 @@
       "examples": [
         "Remote Control設定手順中の信頼ダイアログ承認箇所"
       ]
+    },
+    {
+      "term": "opencode（小文字）→ OpenCode",
+      "rule": "同一記事内での大文字表記を統一する",
+      "firstSeenDate": "2026-09-14",
+      "lastSeenDate": "2026-09-14",
+      "occurrences": 1,
+      "examples": [
+        "「opencode でエージェントを作成する場合」が小文字のまま。冒頭の「OpenCode（原文ママ）」に合わせて修正"
+      ]
+    },
+    {
+      "term": "ツールコールを連続して同じものを呼び出す",
+      "rule": "目的語を文頭に置き「同じツールコールを連続して呼び出す」と整理する",
+      "firstSeenDate": "2026-09-14",
+      "lastSeenDate": "2026-09-14",
+      "occurrences": 1,
+      "examples": [
+        "症状リスト内で目的語位置が不自然な語順だったため修正"
+      ]
     }
   ]
 }
