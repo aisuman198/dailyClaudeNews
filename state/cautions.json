@@ -2200,6 +2200,36 @@
       "examples": [
         "症状リスト内で目的語位置が不自然な語順だったため修正"
       ]
+    },
+    {
+      "term": "ターゲットへハッキングする",
+      "rule": "「ターゲットをハッキングする」と目的格助詞「を」を使う",
+      "firstSeenDate": "2026-09-15",
+      "lastSeenDate": "2026-09-15",
+      "occurrences": 1,
+      "examples": [
+        "Article 1 で「実際のターゲットへハッキングする環境」と方向格「へ」が誤用されていたため修正"
+      ]
+    },
+    {
+      "term": "Coefficient Giving",
+      "rule": "原文ママで保持・要確認フラグ",
+      "firstSeenDate": "2026-09-15",
+      "lastSeenDate": "2026-09-15",
+      "occurrences": 1,
+      "examples": [
+        "Moskovitz の慈善財団名として登場。一般的な呼称「Open Philanthropy」と異なるため次回確認"
+      ]
+    },
+    {
+      "term": "Jacob Coxon",
+      "rule": "原文ママで保持・要確認フラグ",
+      "firstSeenDate": "2026-09-15",
+      "lastSeenDate": "2026-09-15",
+      "occurrences": 1,
+      "examples": [
+        "Hugging Face CEO の引用に登場。外部ソースなしでは実在・正確性を確認できない固有名詞"
+      ]
     }
   ]
 }
