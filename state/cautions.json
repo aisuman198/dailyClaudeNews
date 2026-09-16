@@ -2230,6 +2230,26 @@
       "examples": [
         "Hugging Face CEO の引用に登場。外部ソースなしでは実在・正確性を確認できない固有名詞"
       ]
+    },
+    {
+      "term": "Claude Science",
+      "rule": "Anthropic公式製品名として未掲載（Claude Cowork・Claude Cloud・Claude Cowork等と同パターン）。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-09-16",
+      "lastSeenDate": "2026-09-16",
+      "occurrences": 1,
+      "examples": [
+        "第4記事の製品リストに初出"
+      ]
+    },
+    {
+      "term": "Project Glasswing",
+      "rule": "Anthropic公式プログラム名として未確認の新固有名詞。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-09-16",
+      "lastSeenDate": "2026-09-16",
+      "occurrences": 1,
+      "examples": [
+        "第4記事のMythos 5.1提供プログラム名として初出"
+      ]
     }
   ]
 }
