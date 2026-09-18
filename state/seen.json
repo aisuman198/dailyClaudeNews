@@ -20,15 +20,6 @@
       "bodyLength": 14229
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/expanding-support-for-scientists",
-      "normalizedTitle": "expanding support for scientists",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 8,
-      "bodyHash": "cfd60f30c29b8b47",
-      "bodyLength": 3471
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
       "normalizedTitle": "model hardware standard research preview",
       "firstSeenDate": "2026-08-28",
@@ -36,24 +27,6 @@
       "occurrences": 9,
       "bodyHash": "dd512704ccd801f2",
       "bodyLength": 13672
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "normalizedTitle": "automated researchers mitigate alignment failures",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 7,
-      "bodyHash": "170183f2d12a00a7",
-      "bodyLength": 8703
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-for-teachers",
-      "normalizedTitle": "claude for teachers",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 7,
-      "bodyHash": "cb2d6ec38bb2bf91",
-      "bodyLength": 9222
     },
     {
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
@@ -65,15 +38,6 @@
       "bodyLength": 20027
     },
     {
-      "normalizedUrl": "https://anthropic.com/claude-fable-and-mythos-5-1",
-      "normalizedTitle": "claude fable 5 1 and claude mythos 5 1",
-      "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 3,
-      "bodyHash": "91892daf091d673f",
-      "bodyLength": 20028
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
       "normalizedTitle": "enterprise frontier safeguards",
       "firstSeenDate": "2026-09-01",
@@ -81,15 +45,6 @@
       "occurrences": 6,
       "bodyHash": "74698df9f8d52b6c",
       "bodyLength": 14352
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/claude-for-commerce-agents",
-      "normalizedTitle": "claude for commerce agents",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "b9f8c6e5f0918d66",
-      "bodyLength": 12721
     },
     {
       "normalizedUrl": "https://armature.tech/blog/which-tools-coding-agents-install",
@@ -101,15 +56,6 @@
       "bodyLength": 10931
     },
     {
-      "normalizedUrl": "https://claude.ai/public/artifacts/06fd26a5-403c-47c8-af49-dcf6c35ec55c",
-      "normalizedTitle": "the double matthew walker knot by fable 5 1",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "8b358a014bb857bf",
-      "bodyLength": 227
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
       "normalizedTitle": "india brief economic index",
       "firstSeenDate": "2026-09-03",
@@ -117,42 +63,6 @@
       "occurrences": 4,
       "bodyHash": "5cb2586940c173cc",
       "bodyLength": 10923
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Solbear/items/ad15ec59cc18cf9994c5",
-      "normalizedTitle": "claude certified developer foundations ccdv f に3日 8時間で970点合格した勉強法",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "10e2f8f50a78c672",
-      "bodyLength": 8142
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/abe3255cb2fcf8e586cd",
-      "normalizedTitle": "claude code v2 1 259まとめ mcp管理設定の破壊的変更と管理者向け対応ポイント",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "fca2aeb62b7c0c87",
-      "bodyLength": 3728
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/9c0258f146cf52fae643",
-      "normalizedTitle": "claude opus 5 mythos fable系で大規模エラー率上昇 影響モデルまとめ",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "c724c234c8bbc2cd",
-      "bodyLength": 4173
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/04c0713d6589f84c7580",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 03",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-03",
-      "occurrences": 1,
-      "bodyHash": "b9750d906a69aa73",
-      "bodyLength": 1516
     },
     {
       "normalizedUrl": "https://nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
@@ -327,8 +237,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 7,
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 8,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -829,19 +739,19 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-17",
-      "occurrences": 1,
-      "bodyHash": "68ee40cd0eaff1e0",
-      "bodyLength": 15162
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 2,
+      "bodyHash": "5fff66f0049c5ef0",
+      "bodyLength": 15194
     },
     {
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-17",
-      "occurrences": 1,
-      "bodyHash": "366e7d00dbab136c",
-      "bodyLength": 9777
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 2,
+      "bodyHash": "80e751d222ffe03c",
+      "bodyLength": 9570
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/dfdcdf35347823a2c81c",
@@ -869,6 +779,49 @@
       "occurrences": 1,
       "bodyHash": "2d906dc7ded1f02c",
       "bodyLength": 2606
+    },
+    {
+      "normalizedUrl": "https://code.claude.com/docs/en/changelog",
+      "normalizedTitle": "claude code now reads agents md if there is no claude md",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "bodyHash": "1794770a050f5e15",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://twitter.com/trq212/status/2101009392611278961",
+      "normalizedTitle": "anthropic finally adds agents md support to claude code",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "bodyHash": "f69f438fd75543fc",
+      "bodyLength": 1492
+    },
+    {
+      "normalizedUrl": "https://wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+      "normalizedTitle": "hackers used anthropic s claude to break into openai",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
+      "normalizedTitle": "accenture embedded evaluation",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "bodyHash": "270484fed0883654",
+      "bodyLength": 3835
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/4633ce110f09d6856461",
+      "normalizedTitle": "claude code v2 1 275 276の重要アップデートまとめ 破壊的変更に注意",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "bodyHash": "7c5fa93ac2be13b7",
+      "bodyLength": 3196
     }
   ]
 }
