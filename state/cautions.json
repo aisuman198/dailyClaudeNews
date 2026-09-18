@@ -2280,6 +2280,86 @@
       "examples": [
         "ライフサイエンス認証カードのデータ保持ポリシー説明部分"
       ]
+    },
+    {
+      "term": "We Must Pace the Frontier",
+      "rule": "本文中の英語記事タイトルは日本語に訳す（既知ルール適用）",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "Anthropic CEO エッセイタイトルが本文中で英語のまま記載されていたため「フロンティアを先導しなければならない」に翻訳"
+      ]
+    },
+    {
+      "term": "FlashPairformer",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "Claude が開発したカスタムカーネルセット名として初出"
+      ]
+    },
+    {
+      "term": "Adaptyv Bio",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "タンパク質設計コンペ共催企業名として初出"
+      ]
+    },
+    {
+      "term": "Modal",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "コンピュートクレジット提供クラウドサービス名として初出"
+      ]
+    },
+    {
+      "term": "Twist Bioscience",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "DNA 合成プロバイダー企業名として初出"
+      ]
+    },
+    {
+      "term": "BioNeMo Inference Runtime（BioNeMo-IR）",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "NVIDIA の生体分子推論ランタイム製品名として初出"
+      ]
+    },
+    {
+      "term": "Faculty（Accenture 事業部門）",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "Accenture の AI スペシャリスト事業部門名として初出"
+      ]
+    },
+    {
+      "term": "ipSAE",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-18",
+      "lastSeenDate": "2026-09-18",
+      "occurrences": 1,
+      "examples": [
+        "タンパク質設計の in silico 性能指標として初出"
+      ]
     }
   ]
 }
