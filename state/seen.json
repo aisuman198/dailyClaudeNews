@@ -20,15 +20,6 @@
       "bodyLength": 14229
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
-      "normalizedTitle": "model hardware standard research preview",
-      "firstSeenDate": "2026-08-28",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 9,
-      "bodyHash": "dd512704ccd801f2",
-      "bodyLength": 13672
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
       "normalizedTitle": "improving alignment security efforts",
       "firstSeenDate": "2026-08-31",
@@ -47,15 +38,6 @@
       "bodyLength": 14352
     },
     {
-      "normalizedUrl": "https://armature.tech/blog/which-tools-coding-agents-install",
-      "normalizedTitle": "which tools do claude codex and cursor choose we measured 17k runs to find out",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 2,
-      "bodyHash": "dd99eefbee3ae5c1",
-      "bodyLength": 10931
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
       "normalizedTitle": "india brief economic index",
       "firstSeenDate": "2026-09-03",
@@ -63,31 +45,6 @@
       "occurrences": 4,
       "bodyHash": "5cb2586940c173cc",
       "bodyLength": 10923
-    },
-    {
-      "normalizedUrl": "https://nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-      "normalizedTitle": "corporate america is getting hooked on open source ai",
-      "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it",
-      "normalizedTitle": "fermat s last theorem anthropic has beaten me to it",
-      "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1,
-      "bodyHash": "2f1b2c7c230046b4",
-      "bodyLength": 9662
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/69af532bc40c3e22e67d",
-      "normalizedTitle": "claude code v2 1 260の重大セキュリティ修正と diffパネル追加を解説",
-      "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1,
-      "bodyHash": "6a6d060a1241fd21",
-      "bodyLength": 5073
     },
     {
       "normalizedUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
@@ -99,15 +56,6 @@
       "bodyLength": 15141
     },
     {
-      "normalizedUrl": "https://qiita.com/natume_nat/items/2d33986ef028bb43511c",
-      "normalizedTitle": "claude code のシステムプロンプトは モデルごとに違いがある",
-      "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1,
-      "bodyHash": "0cc10d67aac767da",
-      "bodyLength": 6205
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "normalizedTitle": "investigating incidents cybersecurity evals",
       "firstSeenDate": "2026-09-04",
@@ -115,15 +63,6 @@
       "occurrences": 3,
       "bodyHash": "4ba289333f68bea8",
       "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/13062b7c728ab0ccbd9a",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 04",
-      "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-04",
-      "occurrences": 1,
-      "bodyHash": "d762abb13e27e8ab",
-      "bodyLength": 1811
     },
     {
       "normalizedUrl": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
@@ -237,8 +176,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 8,
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 9,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -739,8 +678,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 3,
       "bodyHash": "5fff66f0049c5ef0",
       "bodyLength": 15194
     },
@@ -748,8 +687,8 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 3,
       "bodyHash": "80e751d222ffe03c",
       "bodyLength": 9570
     },
@@ -784,9 +723,9 @@
       "normalizedUrl": "https://code.claude.com/docs/en/changelog",
       "normalizedTitle": "claude code now reads agents md if there is no claude md",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 1,
-      "bodyHash": "1794770a050f5e15",
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 2,
+      "bodyHash": "c7f33c6d1a0d5070",
       "bodyLength": 20028
     },
     {
@@ -809,8 +748,8 @@
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 2,
       "bodyHash": "270484fed0883654",
       "bodyLength": 3835
     },
@@ -822,6 +761,31 @@
       "occurrences": 1,
       "bodyHash": "7c5fa93ac2be13b7",
       "bodyLength": 3196
+    },
+    {
+      "normalizedUrl": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+      "normalizedTitle": "lawsuit says anthropic openai and others made illegal agreement on ai slowdown",
+      "firstSeenDate": "2026-09-19",
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/TakanobuSano/items/c3868ff0430b314ffbcf",
+      "normalizedTitle": "ついにclaude codeがagents mdに対応 claude mdとの優先順位 併用設定を公式実装から読み解く",
+      "firstSeenDate": "2026-09-19",
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 1,
+      "bodyHash": "93b9f3abac64c509",
+      "bodyLength": 6927
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/37a7f41bee49971c65e7",
+      "normalizedTitle": "claude code の auto モード分類器がサーバー実行に 課金対象外になった件を解説",
+      "firstSeenDate": "2026-09-19",
+      "lastSeenDate": "2026-09-19",
+      "occurrences": 1,
+      "bodyHash": "d49cb66032da166c",
+      "bodyLength": 3172
     }
   ]
 }
