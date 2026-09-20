@@ -2360,6 +2360,26 @@
       "examples": [
         "タンパク質設計の in silico 性能指標として初出"
       ]
+    },
+    {
+      "term": "GitHub Issue（単数形）",
+      "rule": "GitHub のイシュートラッカー機能を指す場合は公式機能名「GitHub Issues」と複数形で表記する",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "examples": [
+        "Card 1 本文「GitHub Issue では」→「GitHub Issues では」に修正"
+      ]
+    },
+    {
+      "term": "助詞後の余分スペース（スクリプトや バッチ）",
+      "rule": "「や」「と」などの並列助詞の直後に余分な半角スペースが混入しないよう注意する",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "examples": [
+        "Card 2 本文「スクリプトや バッチ処理」→「スクリプトやバッチ処理」に修正"
+      ]
     }
   ]
 }
