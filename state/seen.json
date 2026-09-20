@@ -176,8 +176,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 9,
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 10,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -678,8 +678,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 4,
       "bodyHash": "5fff66f0049c5ef0",
       "bodyLength": 15194
     },
@@ -687,8 +687,8 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 4,
       "bodyHash": "80e751d222ffe03c",
       "bodyLength": 9570
     },
@@ -748,8 +748,8 @@
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 3,
       "bodyHash": "270484fed0883654",
       "bodyLength": 3835
     },
@@ -786,6 +786,51 @@
       "occurrences": 1,
       "bodyHash": "d49cb66032da166c",
       "bodyLength": 3172
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/e1eff3b2b6e23800cdcc",
+      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 270 v2 1 278",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "bodyHash": "b1ae7ec7ac990344",
+      "bodyLength": 4196
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6648411c8caf63c9c40e",
+      "normalizedTitle": "claude code v2 1 270 v2 1 278 リリースノートまとめ",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "bodyHash": "4b64367caaac5915",
+      "bodyLength": 8364
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/d914397ba6d5bd11cfd3",
+      "normalizedTitle": "接続タイムアウトを回避する設定チェック手順 claude code でつまずいたときの切り分けメモ 2026 09 20",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "bodyHash": "e9509b0443777949",
+      "bodyLength": 1746
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/07c1c0e8356e639ef4f4",
+      "normalizedTitle": "外部審査でaiの安全性を担保する重みと設計の勘所 claude code開発者が押さえておきたいanthropicニュース 2026 09 20",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "bodyHash": "8154a2c91b496890",
+      "bodyLength": 2955
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/6da2502000f7c8dab403",
+      "normalizedTitle": "claude agent sdk python で claude code をスクリプトから動かす実装手順 cli が見つからない 許可待ちで止まる claude md が読まれない 3つのハマりどころ 2026",
+      "firstSeenDate": "2026-09-20",
+      "lastSeenDate": "2026-09-20",
+      "occurrences": 1,
+      "bodyHash": "e7c240d298797b23",
+      "bodyLength": 6288
     }
   ]
 }
