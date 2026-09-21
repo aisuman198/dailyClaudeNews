@@ -65,60 +65,6 @@
       "bodyLength": 20028
     },
     {
-      "normalizedUrl": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-      "normalizedTitle": "portal by spotify cut my claude code token usage by 90",
-      "firstSeenDate": "2026-09-06",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 1,
-      "bodyHash": "6c375c2100a79874",
-      "bodyLength": 10911
-    },
-    {
-      "normalizedUrl": "https://qiita.com/nogataka/items/d6a54f3694726b9141f3",
-      "normalizedTitle": "claude mdをそろそろ見直す時期かも claude 5世代向けの最適化手順 スキル プロジェクト種類別の例",
-      "firstSeenDate": "2026-09-06",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 1,
-      "bodyHash": "5d5f78f7a940e7b8",
-      "bodyLength": 18230
-    },
-    {
-      "normalizedUrl": "https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5",
-      "normalizedTitle": "claude cursor devin manus aiエージェント14製品 社内システムを触らせて事故らないのはどれ 中小企業の導入判断ガイド",
-      "firstSeenDate": "2026-09-06",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 1,
-      "bodyHash": "35599f40f745b8f8",
-      "bodyLength": 18001
-    },
-    {
-      "normalizedUrl": "https://qiita.com/nogataka/items/24db436c1123ab3d4cb2",
-      "normalizedTitle": "claude code を大規模なコードベースに導入するためのベストプラクティス ハーネス7層を構築順に理解する",
-      "firstSeenDate": "2026-09-06",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 1,
-      "bodyHash": "2278c7be41f9cac3",
-      "bodyLength": 13546
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/229e92aba6fc5c17c4b0",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 09 06",
-      "firstSeenDate": "2026-09-06",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 1,
-      "bodyHash": "5f3663cdf3ebef28",
-      "bodyLength": 2426
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kai_kou/items/586e1808e4e5b0f03d5a",
-      "normalizedTitle": "fable エイリアスの解決先とコスト内訳を claude code 2 1 258 で実測した",
-      "firstSeenDate": "2026-09-06",
-      "lastSeenDate": "2026-09-06",
-      "occurrences": 1,
-      "bodyHash": "08912fe0767f1fbd",
-      "bodyLength": 6560
-    },
-    {
       "normalizedUrl": "https://github.com/trailofbits/coop",
       "normalizedTitle": "coop isolated vm environments for running claude code and codex",
       "firstSeenDate": "2026-09-07",
@@ -176,8 +122,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 10,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 11,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -678,8 +624,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 5,
       "bodyHash": "5fff66f0049c5ef0",
       "bodyLength": 15194
     },
@@ -687,8 +633,8 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 5,
       "bodyHash": "80e751d222ffe03c",
       "bodyLength": 9570
     },
@@ -748,8 +694,8 @@
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 4,
       "bodyHash": "270484fed0883654",
       "bodyLength": 3835
     },
@@ -791,17 +737,17 @@
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/e1eff3b2b6e23800cdcc",
       "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 270 v2 1 278",
       "firstSeenDate": "2026-09-20",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 1,
-      "bodyHash": "b1ae7ec7ac990344",
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 2,
+      "bodyHash": "f98c7af3f979c904",
       "bodyLength": 4196
     },
     {
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6648411c8caf63c9c40e",
       "normalizedTitle": "claude code v2 1 270 v2 1 278 リリースノートまとめ",
       "firstSeenDate": "2026-09-20",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 2,
       "bodyHash": "4b64367caaac5915",
       "bodyLength": 8364
     },
@@ -809,8 +755,8 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/d914397ba6d5bd11cfd3",
       "normalizedTitle": "接続タイムアウトを回避する設定チェック手順 claude code でつまずいたときの切り分けメモ 2026 09 20",
       "firstSeenDate": "2026-09-20",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 2,
       "bodyHash": "e9509b0443777949",
       "bodyLength": 1746
     },
@@ -818,8 +764,8 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/07c1c0e8356e639ef4f4",
       "normalizedTitle": "外部審査でaiの安全性を担保する重みと設計の勘所 claude code開発者が押さえておきたいanthropicニュース 2026 09 20",
       "firstSeenDate": "2026-09-20",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 2,
       "bodyHash": "8154a2c91b496890",
       "bodyLength": 2955
     },
@@ -831,6 +777,24 @@
       "occurrences": 1,
       "bodyHash": "e7c240d298797b23",
       "bodyLength": 6288
+    },
+    {
+      "normalizedUrl": "https://tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
+      "normalizedTitle": "anthropic openai et al face antitrust suit for agreeing to slow ai development",
+      "firstSeenDate": "2026-09-21",
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 1,
+      "bodyHash": "cd610447501e97a0",
+      "bodyLength": 7463
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/af0a7e1710176d1e01e5",
+      "normalizedTitle": "自動判定が権限エラー表示するのに実は実行できる時の見分け方 claude code でつまずいたときの切り分けメモ 2026 09 21",
+      "firstSeenDate": "2026-09-21",
+      "lastSeenDate": "2026-09-21",
+      "occurrences": 1,
+      "bodyHash": "61f30467a8e5209f",
+      "bodyLength": 1390
     }
   ]
 }
