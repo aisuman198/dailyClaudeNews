@@ -2,51 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-      "normalizedTitle": "reviewing the evidence on worker retraining programs",
-      "firstSeenDate": "2026-08-12",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 14,
-      "bodyHash": "16865893bf509767",
-      "bodyLength": 3744
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-text-watermark",
-      "normalizedTitle": "claude text watermark",
-      "firstSeenDate": "2026-08-14",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 15,
-      "bodyHash": "ce2d2a2230b0560b",
-      "bodyLength": 14229
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/improving-alignment-security-efforts",
-      "normalizedTitle": "improving alignment security efforts",
-      "firstSeenDate": "2026-08-31",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 7,
-      "bodyHash": "84565440039246c1",
-      "bodyLength": 20027
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
-      "normalizedTitle": "enterprise frontier safeguards",
-      "firstSeenDate": "2026-09-01",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 6,
-      "bodyHash": "74698df9f8d52b6c",
-      "bodyLength": 14352
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/india-brief-economic-index",
-      "normalizedTitle": "india brief economic index",
-      "firstSeenDate": "2026-09-03",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 4,
-      "bodyHash": "5cb2586940c173cc",
-      "bodyLength": 10923
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/formalizing-fermats-last-theorem",
       "normalizedTitle": "formalizing fermats last theorem",
       "firstSeenDate": "2026-09-04",
@@ -54,51 +9,6 @@
       "occurrences": 4,
       "bodyHash": "12a5177ddf2c38b1",
       "bodyLength": 15141
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "normalizedTitle": "investigating incidents cybersecurity evals",
-      "firstSeenDate": "2026-09-04",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 3,
-      "bodyHash": "4ba289333f68bea8",
-      "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://github.com/trailofbits/coop",
-      "normalizedTitle": "coop isolated vm environments for running claude code and codex",
-      "firstSeenDate": "2026-09-07",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 1,
-      "bodyHash": "8dd209a88b774c6a",
-      "bodyLength": 3437
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/96603513d035660c5805",
-      "normalizedTitle": "claude code開発者が押さえておきたいanthropicニュース 2026 09 07",
-      "firstSeenDate": "2026-09-07",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 1,
-      "bodyHash": "e3db23b81922d535",
-      "bodyLength": 2654
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/e66de6f1cbae21cbd314",
-      "normalizedTitle": "claude api の message batches api で大量リクエストのコストを半額にする実装手順 結果の順序保証なし 24時間期限など3つのハマりどころ 2026",
-      "firstSeenDate": "2026-09-07",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 1,
-      "bodyHash": "3dd645c51e742ddc",
-      "bodyLength": 3658
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/3c6eacf11a3870e1750e",
-      "normalizedTitle": "claude code でつまずいたときの切り分けメモ 2026 09 07",
-      "firstSeenDate": "2026-09-07",
-      "lastSeenDate": "2026-09-07",
-      "occurrences": 1,
-      "bodyHash": "01022a389458b5ff",
-      "bodyLength": 1402
     },
     {
       "normalizedUrl": "https://anthropic.com/threat-intelligence-report-september-2026",
@@ -122,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-21",
-      "occurrences": 11,
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 12,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -624,8 +534,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-21",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 6,
       "bodyHash": "5fff66f0049c5ef0",
       "bodyLength": 15194
     },
@@ -633,8 +543,8 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-21",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 6,
       "bodyHash": "80e751d222ffe03c",
       "bodyLength": 9570
     },
@@ -694,8 +604,8 @@
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-21",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 5,
       "bodyHash": "270484fed0883654",
       "bodyLength": 3835
     },
@@ -791,10 +701,55 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/af0a7e1710176d1e01e5",
       "normalizedTitle": "自動判定が権限エラー表示するのに実は実行できる時の見分け方 claude code でつまずいたときの切り分けメモ 2026 09 21",
       "firstSeenDate": "2026-09-21",
-      "lastSeenDate": "2026-09-21",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 2,
       "bodyHash": "61f30467a8e5209f",
       "bodyLength": 1390
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/claude-opus-5-5",
+      "normalizedTitle": "claude opus 5 5",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "bodyHash": "58a7778e8da1c725",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "normalizedTitle": "claude opus 5 5 intelligence performance and price analysis max",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "bodyHash": "db85dc0db32e7765",
+      "bodyLength": 16950
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Takuya__/items/f1711865fa67e0b86cea",
+      "normalizedTitle": "シングル サブ マルチエージェントの違いを 作業机 で理解する claude codeで学ぶaiの分業入門",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "bodyHash": "d07a6a55e1c295fd",
+      "bodyLength": 8663
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/fb03e25cd414f4eb38a9",
+      "normalizedTitle": "輸出規制で止まったaiを18日で復活させた3手 claude fable 5",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "bodyHash": "f0d64615458431bd",
+      "bodyLength": 8196
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/2a565f07ae4b0bf3c169",
+      "normalizedTitle": "claude api の memory tool memory 20250818 でセッションをまたいで記憶させる実装手順 api側は何も保存しない パストラバーサル 指示がないと読みに来ない 3つのハマりどころ 2026",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "bodyHash": "60f1e015c9b3bf7c",
+      "bodyLength": 7473
     }
   ]
 }

@@ -2380,6 +2380,46 @@
       "examples": [
         "Card 2 本文「スクリプトや バッチ処理」→「スクリプトやバッチ処理」に修正"
       ]
+    },
+    {
+      "term": "xhigh → xHigh",
+      "rule": "Anthropic 既知エフォートレベル名は「xHigh」と大文字 H で表記する",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "examples": [
+        "ベンチマーク注記で「xhigh 努力レベル」と小文字になっていたため修正"
+      ]
+    },
+    {
+      "term": "51% コストが低かった → コストが 51% 低かった",
+      "rule": "数値を修飾する副詞句は述語の直前に置き「コストが 51% 低かった」とする",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "examples": [
+        "語順が不自然な「51% コストが低かった」を修正"
+      ]
+    },
+    {
+      "term": "Frontier Design",
+      "rule": "外部 AI 安全評価機関名として初出。既知リスト未掲載のため原文ママで保持し要確認フラグを立てる",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "examples": [
+        "METR と並んで外部評価機関として記載されているが組織実在未確認"
+      ]
+    },
+    {
+      "term": "GPT-6 Astra",
+      "rule": "OpenAI モデル名として初出（知識カットオフ 2025-08 以降の可能性）。原文ママで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-09-22",
+      "lastSeenDate": "2026-09-22",
+      "occurrences": 1,
+      "examples": [
+        "ベンチマーク比較対象として複数箇所に登場"
+      ]
     }
   ]
 }
