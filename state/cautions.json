@@ -2420,6 +2420,46 @@
       "examples": [
         "ベンチマーク比較対象として複数箇所に登場"
       ]
+    },
+    {
+      "term": "発売時のデフォルト effort",
+      "rule": "ソフトウェアのリリース基準を指す場合は「リリース時のデフォルト effort」と表記する",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code v2.1.280 記事内。「発売時」はハードウェア向けの語感が強い"
+      ]
+    },
+    {
+      "term": "組み合わせを注目した",
+      "rule": "「注目する」は格助詞「に」を取る自動詞。「組み合わせに注目した」と修正する",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "examples": [
+        "ART 酵素発見記事内。「を注目した」は格助詞誤り"
+      ]
+    },
+    {
+      "term": "今後数週間内に",
+      "rule": "期間表現の後は「以内に」が正しい。「今後数週間以内に」と表記する",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "examples": [
+        "Accenture パートナーシップ記事内"
+      ]
+    },
+    {
+      "term": "パイロット実施の対話を進めている",
+      "rule": "「実施の対話」は複合名詞の連結が不自然。「実施に向けた協議を進めている」と表記する",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "examples": [
+        "Accenture パートナーシップ記事内。METR との関係を説明する文"
+      ]
     }
   ]
 }
