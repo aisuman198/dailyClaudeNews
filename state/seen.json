@@ -32,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 12,
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 13,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -534,8 +534,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 7,
       "bodyHash": "5fff66f0049c5ef0",
       "bodyLength": 15194
     },
@@ -543,10 +543,10 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 6,
-      "bodyHash": "80e751d222ffe03c",
-      "bodyLength": 9570
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 7,
+      "bodyHash": "b77242512872d9f9",
+      "bodyLength": 9567
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/dfdcdf35347823a2c81c",
@@ -604,10 +604,10 @@
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 5,
-      "bodyHash": "270484fed0883654",
-      "bodyLength": 3835
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 6,
+      "bodyHash": "2b81943add0a4633",
+      "bodyLength": 3832
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/4633ce110f09d6856461",
@@ -710,8 +710,8 @@
       "normalizedUrl": "https://anthropic.com/claude-opus-5-5",
       "normalizedTitle": "claude opus 5 5",
       "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 2,
       "bodyHash": "58a7778e8da1c725",
       "bodyLength": 20028
     },
@@ -719,10 +719,10 @@
       "normalizedUrl": "https://artificialanalysis.ai/models/claude-opus-5-5",
       "normalizedTitle": "claude opus 5 5 intelligence performance and price analysis max",
       "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 1,
-      "bodyHash": "db85dc0db32e7765",
-      "bodyLength": 16950
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 2,
+      "bodyHash": "32e87c6dab9660b6",
+      "bodyLength": 16993
     },
     {
       "normalizedUrl": "https://qiita.com/Takuya__/items/f1711865fa67e0b86cea",
@@ -750,6 +750,69 @@
       "occurrences": 1,
       "bodyHash": "60f1e015c9b3bf7c",
       "bodyLength": 7473
+    },
+    {
+      "normalizedUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
+      "normalizedTitle": "claude code reads agents md only when telemetry is on fixed",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "009a2d8594a2106a",
+      "bodyLength": 5484
+    },
+    {
+      "normalizedUrl": "https://claude.dev/blog/how-we-made-claude-ai-faster",
+      "normalizedTitle": "once claude can measure something it can make it faster",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "84765af377251a71",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://npr.org/2026/09/23/nx-s1-5973306/ai-slowdown-debate-openai-anthropic",
+      "normalizedTitle": "an ai freeze could make big ai companies bigger and hurt smaller firms",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "5ecc790323ff159b",
+      "bodyLength": 6975
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "normalizedTitle": "claude discovers novel enzyme system",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "05833b7d6905be73",
+      "bodyLength": 10472
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/90c0a42e470a423d3383",
+      "normalizedTitle": "claude opus 5 5 と gpt 6 sol luna 同時発表 開発者が見るべき点",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "cdceb1b858a3be4f",
+      "bodyLength": 2370
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/0aa717e78dbd3ec56a3a",
+      "normalizedTitle": "claude code v2 1 280解説 opus 5 5追加とsymlink権限バイパス修正",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "660c9c1438d5b032",
+      "bodyLength": 3957
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/41a9012d13031a07a96d",
+      "normalizedTitle": "科学者の2年分の仕事が数週間に anthropic claude science の正体とその代償",
+      "firstSeenDate": "2026-09-23",
+      "lastSeenDate": "2026-09-23",
+      "occurrences": 1,
+      "bodyHash": "a1bd7efe5e5c7df0",
+      "bodyLength": 8086
     }
   ]
 }
