@@ -32,8 +32,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-23",
-      "occurrences": 13,
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 14,
       "bodyHash": "5affa13fd5e5289f",
       "bodyLength": 20028
     },
@@ -534,10 +534,10 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-23",
-      "occurrences": 7,
-      "bodyHash": "5fff66f0049c5ef0",
-      "bodyLength": 15194
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 8,
+      "bodyHash": "0301d6e85fe1496d",
+      "bodyLength": 15024
     },
     {
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
@@ -604,8 +604,8 @@
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-23",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 7,
       "bodyHash": "2b81943add0a4633",
       "bodyLength": 3832
     },
@@ -710,8 +710,8 @@
       "normalizedUrl": "https://anthropic.com/claude-opus-5-5",
       "normalizedTitle": "claude opus 5 5",
       "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-23",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 3,
       "bodyHash": "58a7778e8da1c725",
       "bodyLength": 20028
     },
@@ -782,10 +782,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-23",
-      "occurrences": 1,
-      "bodyHash": "05833b7d6905be73",
-      "bodyLength": 10472
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 2,
+      "bodyHash": "233d5faa367b9f7b",
+      "bodyLength": 10473
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/90c0a42e470a423d3383",
@@ -813,6 +813,60 @@
       "occurrences": 1,
       "bodyHash": "a1bd7efe5e5c7df0",
       "bodyLength": 8086
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/4c5ffe8aa526a819228e",
+      "normalizedTitle": "claude code v2 1 282 プロジェクト設定によるテレメトリ改ざんを封じる破壊的変更まとめ",
+      "firstSeenDate": "2026-09-24",
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 1,
+      "bodyHash": "a1f685d5d3c09238",
+      "bodyLength": 4398
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/f122174c9560ad0648f4",
+      "normalizedTitle": "claude api 2026年9月更新まとめ 拒否応答課金再開とcompliance api破壊的変更",
+      "firstSeenDate": "2026-09-24",
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 1,
+      "bodyHash": "ceff2649a40e8391",
+      "bodyLength": 5105
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/project-swap",
+      "normalizedTitle": "project swap",
+      "firstSeenDate": "2026-09-24",
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 1,
+      "bodyHash": "8d416b0a0d50fd3d",
+      "bodyLength": 18881
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ziffy/items/e7a7a595a5e67be03e19",
+      "normalizedTitle": "claude certified developer foundations ccdv f 受験した話",
+      "firstSeenDate": "2026-09-24",
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 1,
+      "bodyHash": "0c64a94a08c77f90",
+      "bodyLength": 3178
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/7898e9aac22353353cf0",
+      "normalizedTitle": "claude opus 5 5は本当に40 安い 名前だけ変えると損する落とし穴",
+      "firstSeenDate": "2026-09-24",
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 1,
+      "bodyHash": "3285c523b3cf74a1",
+      "bodyLength": 5546
+    },
+    {
+      "normalizedUrl": "https://qiita.com/sakutto-panda/items/fb3c3a65958338fa3ee7",
+      "normalizedTitle": "2026 9 1 claude fable 5 1 mythos 5 1登場 同じモデルを2段階セーフガードで出し分ける設計",
+      "firstSeenDate": "2026-09-24",
+      "lastSeenDate": "2026-09-24",
+      "occurrences": 1,
+      "bodyHash": "82ca2a6f84aa33ea",
+      "bodyLength": 4512
     }
   ]
 }
