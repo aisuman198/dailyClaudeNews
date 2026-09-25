@@ -2470,6 +2470,26 @@
       "examples": [
         "「6オフィス」「5時間あたり」「5時間枠」「壁時計24時間」にスペース欠落。カードタイトル内の既知ルールと同様に本文内でも適用が必要"
       ]
+    },
+    {
+      "term": "GPT-6",
+      "rule": "原文ママで保持・要注意フラグ",
+      "firstSeenDate": "2026-09-25",
+      "lastSeenDate": "2026-09-25",
+      "occurrences": 1,
+      "examples": [
+        "既知ルールは「GPT-6 Astra」だが、今号では「Astra」なしの単体形として Song He グループの利用文脈に初出"
+      ]
+    },
+    {
+      "term": "claude-opus-4-6",
+      "rule": "原文ママで保持・要注意フラグ",
+      "firstSeenDate": "2026-09-25",
+      "lastSeenDate": "2026-09-25",
+      "occurrences": 1,
+      "examples": [
+        "Anthropic Python SDK 1.8.0 の Literal 一覧に初出。既知注意リスト（4.7/4.8等）に未掲載のバージョン番号"
+      ]
     }
   ]
 }
