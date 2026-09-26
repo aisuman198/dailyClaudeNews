@@ -2490,6 +2490,36 @@
       "examples": [
         "Anthropic Python SDK 1.8.0 の Literal 一覧に初出。既知注意リスト（4.7/4.8等）に未掲載のバージョン番号"
       ]
+    },
+    {
+      "term": "Terminal-Bench 4.0",
+      "rule": "既知ルール（Terminal-Bench）に従い大文字 B で統一",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "examples": [
+        "入力では「Terminal-bench 4.0」と小文字 b で記載されていたため修正"
+      ]
+    },
+    {
+      "term": "Claude Opus 5.5",
+      "rule": "既知リスト未掲載の新モデル名として原文ママで保持",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5 は既知注意リストに未掲載のバージョン番号"
+      ]
+    },
+    {
+      "term": "C ドライブ全体が削除・再インストールが必要になった",
+      "rule": "「削除・再インストールが必要になった」は削除を「必要」と述べる点で不自然なため修正",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "examples": [
+        "「削除され、再インストールが必要になった」に修正"
+      ]
     }
   ]
 }
