@@ -2,15 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/threat-intelligence-report-september-2026",
-      "normalizedTitle": "detecting and countering misuse of ai september 2026",
-      "firstSeenDate": "2026-09-10",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 2,
-      "bodyHash": "12ac484431bb1c00",
-      "bodyLength": 20028
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "normalizedTitle": "alignment assessment cybersecurity incidents",
       "firstSeenDate": "2026-09-10",
@@ -29,42 +20,6 @@
       "bodyLength": 17357
     },
     {
-      "normalizedUrl": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "normalizedTitle": "claude is only available to people over 18 years",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
-      "bodyHash": "0c73e2cf5c59c1a1",
-      "bodyLength": 1922
-    },
-    {
-      "normalizedUrl": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
-      "normalizedTitle": "moonshot serves claude instead of kimi and collects exchanges for model training",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
-      "bodyHash": "5c0b50e3f62cd4dd",
-      "bodyLength": 7620
-    },
-    {
-      "normalizedUrl": "https://qiita.com/portalmatsuki/items/bef78a921f43e23692f9",
-      "normalizedTitle": "権限の93 は読まずに通っている claude code auto mode が何を見て止めているか",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
-      "bodyHash": "596c656309c9e84d",
-      "bodyLength": 6776
-    },
-    {
-      "normalizedUrl": "https://qiita.com/hikariclaude01/items/6aa5592e1f05075eefca",
-      "normalizedTitle": "claude codeのサブエージェント並列実行でモノレポ開発を回す タスク分割 品質管理 コンフリクト防止の実践ガイド",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
-      "bodyHash": "a2cfb50c3d03f627",
-      "bodyLength": 6337
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/claude-values-models-languages",
       "normalizedTitle": "claude values models languages",
       "firstSeenDate": "2026-09-11",
@@ -81,24 +36,6 @@
       "occurrences": 7,
       "bodyHash": "da070d50578c0ecf",
       "bodyLength": 17345
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/f12f4fb4f4fd8508fd78",
-      "normalizedTitle": "claude code v2 1 268の破壊的変更を解説 todowriteとartifact権限",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
-      "bodyHash": "8ae09d5dbfa30433",
-      "bodyLength": 4137
-    },
-    {
-      "normalizedUrl": "https://qiita.com/megmogmog1965/items/e9dd705f9985afc6c077",
-      "normalizedTitle": "claude は英語で考えて日本語に訳しているのか thinking の要約で検証",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-11",
-      "occurrences": 1,
-      "bodyHash": "926a8a0dce5c1be3",
-      "bodyLength": 4082
     },
     {
       "normalizedUrl": "https://anthropic.com/research/many-shot-jailbreaking",
@@ -399,8 +336,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 9,
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 10,
       "bodyHash": "9facd605d5d46f3e",
       "bodyLength": 15274
     },
@@ -647,8 +584,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 4,
       "bodyHash": "233d5faa367b9f7b",
       "bodyLength": 10473
     },
@@ -701,8 +638,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 3,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -737,15 +674,15 @@
       "normalizedUrl": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
       "normalizedTitle": "u s appeals court upholds designation of anthropic as supply chain risk",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 1
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
       "normalizedTitle": "yes claude can do nine loops",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 2,
       "bodyHash": "b4bbd85c32421795",
       "bodyLength": 19966
     },
@@ -766,6 +703,60 @@
       "occurrences": 1,
       "bodyHash": "c6386d423aa110a9",
       "bodyLength": 2940
+    },
+    {
+      "normalizedUrl": "https://github.com/brumar/chess-postmortem-skills",
+      "normalizedTitle": "show hn a claude code skill to analyze your chess games",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "bodyHash": "ef19d1376da9f729",
+      "bodyLength": 8573
+    },
+    {
+      "normalizedUrl": "https://qiita.com/satoshi_061/items/0ea5b53974504fc5f1c4",
+      "normalizedTitle": "claude code の完了通知がサブエージェントのせいで何度も鳴るので 全部終わったときだけ鳴らす",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "bodyHash": "9cc8953fa0cf4f24",
+      "bodyLength": 6061
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
+      "normalizedTitle": "riemann zeta",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "bodyHash": "80f19718b80f52ce",
+      "bodyLength": 8886
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/2362e6157c1ed56391f0",
+      "normalizedTitle": "claude code v2 1 283まとめ モデル管理強化とpowershell重大バグ修正に注意",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "bodyHash": "159455eca26cbeae",
+      "bodyLength": 3788
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6cbf554ecbf81a43e3c5",
+      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 280 v2 1 283",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "bodyHash": "296e6cd1f79fe12c",
+      "bodyLength": 6029
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Tadataka_Takahashi/items/0a5d81a445fceefe0e39",
+      "normalizedTitle": "その仕事に詳しい人ほど aiに任せられる claude code約40万セッションから見る人間とaiの役割分担",
+      "firstSeenDate": "2026-09-26",
+      "lastSeenDate": "2026-09-26",
+      "occurrences": 1,
+      "bodyHash": "7f2069ae4b8cf390",
+      "bodyLength": 6614
     }
   ]
 }
