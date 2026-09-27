@@ -2520,6 +2520,96 @@
       "examples": [
         "「削除され、再インストールが必要になった」に修正"
       ]
+    },
+    {
+      "term": "GPT-5.6 Sol（スペース区切り）",
+      "rule": "今号では「GPT-5.6 Sol」と表記されているが、既知ルールは「GPT-5.6-Sol」（ハイフン区切り）。原文ママで保持しつつ次回以降の表記統一に注意",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "表の英国AISI行に出現。既知ルールと区切り文字が異なる"
+      ]
+    },
+    {
+      "term": "FrontierCode v1.1",
+      "rule": "新ベンチマーク名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5ベンチマーク表に初登場"
+      ]
+    },
+    {
+      "term": "CursorBench 4.0",
+      "rule": "新ベンチマーク名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5ベンチマーク表に初登場"
+      ]
+    },
+    {
+      "term": "AutomationBench",
+      "rule": "新ベンチマーク名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5ベンチマーク表に初登場"
+      ]
+    },
+    {
+      "term": "OSWorld 2.0",
+      "rule": "新ベンチマーク名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5ベンチマーク表に初登場"
+      ]
+    },
+    {
+      "term": "Chartography",
+      "rule": "新ベンチマーク名として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5ベンチマーク表に初登場"
+      ]
+    },
+    {
+      "term": "Sonnet 5.5 / Haiku 5.5",
+      "rule": "今号で初めて予告されたモデル名。既知リスト未掲載のため原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Claude Codeユーザー向けセクションで予告として言及"
+      ]
+    },
+    {
+      "term": "GDPval-AA v2.1",
+      "rule": "既知の「GDPval-AA v2」の新バージョン表記として初出。原文ママで保持",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.5ベンチマーク表に出現"
+      ]
+    },
+    {
+      "term": "有効を確認した→有効と確認された",
+      "rule": "「有効を確認した」は不自然な日本語。「有効と確認された」に修正",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "examples": [
+        "GitGuardian調査の鍵有効期間の記述で修正"
+      ]
     }
   ]
 }
