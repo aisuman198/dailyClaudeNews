@@ -137,42 +137,6 @@
       "bodyLength": 12281
     },
     {
-      "normalizedUrl": "https://qiita.com/moritalous/items/2168025729eb840d5143",
-      "normalizedTitle": "claude managed agentsにiac的に管理する機能が追加されたゾ",
-      "firstSeenDate": "2026-09-12",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 1,
-      "bodyHash": "f0d31324bab2a46e",
-      "bodyLength": 7011
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/79135fe5ab81d8cea05b",
-      "normalizedTitle": "claude code v2 1 269 tee経由の権限迂回など重要修正とplugin eval追加",
-      "firstSeenDate": "2026-09-12",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 1,
-      "bodyHash": "a6908826ec3a0804",
-      "bodyLength": 4215
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/24cc97468e67f2e021ba",
-      "normalizedTitle": "claude code の claude plugin eval で 自作スキルは本当に効いているのか を数値で確かめる",
-      "firstSeenDate": "2026-09-12",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 1,
-      "bodyHash": "3c5ade522c539568",
-      "bodyLength": 11957
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/dc1643951c3a7bc2d173",
-      "normalizedTitle": "claude code v2 1 263 v2 1 269 リリースノートまとめ",
-      "firstSeenDate": "2026-09-12",
-      "lastSeenDate": "2026-09-12",
-      "occurrences": 1,
-      "bodyHash": "91c1a2ece9a2d131",
-      "bodyLength": 6923
-    },
-    {
       "normalizedUrl": "https://twitter.com/DavidSacks/status/2098973625252708460",
       "normalizedTitle": "david sacks openai and anthropic don t need regulations to pace frontier models",
       "firstSeenDate": "2026-09-13",
@@ -336,8 +300,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-26",
-      "occurrences": 10,
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 11,
       "bodyHash": "9facd605d5d46f3e",
       "bodyLength": 15274
     },
@@ -584,8 +548,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-26",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 5,
       "bodyHash": "233d5faa367b9f7b",
       "bodyLength": 10473
     },
@@ -638,8 +602,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-09-26",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 4,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -681,8 +645,8 @@
       "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
       "normalizedTitle": "yes claude can do nine loops",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-26",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 3,
       "bodyHash": "b4bbd85c32421795",
       "bodyLength": 19966
     },
@@ -726,8 +690,8 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-09-26",
-      "lastSeenDate": "2026-09-26",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 2,
       "bodyHash": "80f19718b80f52ce",
       "bodyLength": 8886
     },
@@ -757,6 +721,24 @@
       "occurrences": 1,
       "bodyHash": "7f2069ae4b8cf390",
       "bodyLength": 6614
+    },
+    {
+      "normalizedUrl": "https://qiita.com/songchong/items/97ba76b89c3840bc498e",
+      "normalizedTitle": "強い ai が実験室の外に出たら openai anthropic 英国 aisi の事故報告を読み比べてみた",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "bodyHash": "5db04c8cc05f5ab0",
+      "bodyLength": 11210
+    },
+    {
+      "normalizedUrl": "https://qiita.com/satoshi_061/items/599a871796ac6804d52d",
+      "normalizedTitle": "速報 claude opus 5 5 まとめ opus 5 fable 5 1との比較と 移行でハマる4つの破壊的変更",
+      "firstSeenDate": "2026-09-27",
+      "lastSeenDate": "2026-09-27",
+      "occurrences": 1,
+      "bodyHash": "422733a517e2b86d",
+      "bodyLength": 8041
     }
   ]
 }
