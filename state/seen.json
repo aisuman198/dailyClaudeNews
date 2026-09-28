@@ -137,51 +137,6 @@
       "bodyLength": 12281
     },
     {
-      "normalizedUrl": "https://twitter.com/DavidSacks/status/2098973625252708460",
-      "normalizedTitle": "david sacks openai and anthropic don t need regulations to pace frontier models",
-      "firstSeenDate": "2026-09-13",
-      "lastSeenDate": "2026-09-13",
-      "occurrences": 1,
-      "bodyHash": "1cfd3e8e4ef75079",
-      "bodyLength": 7436
-    },
-    {
-      "normalizedUrl": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-      "normalizedTitle": "reverse engineering claude web s microvm uncovering anthropic s hidden antspace",
-      "firstSeenDate": "2026-09-13",
-      "lastSeenDate": "2026-09-13",
-      "occurrences": 1,
-      "bodyHash": "9c7b2e47c9a2af29",
-      "bodyLength": 19879
-    },
-    {
-      "normalizedUrl": "https://qiita.com/nobumory/items/ed33545ff828f004f89a",
-      "normalizedTitle": "youtubeチャンネル anthropic 視聴メモ 1 aiでデータ分析する前に 検証 する",
-      "firstSeenDate": "2026-09-13",
-      "lastSeenDate": "2026-09-13",
-      "occurrences": 1,
-      "bodyHash": "0ad65e909c72c3b0",
-      "bodyLength": 2614
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Takuya__/items/e3a602e5936538dfcbdb",
-      "normalizedTitle": "スマホから動かす claude code と codex デスクトップのコーディングエージェントをリモート操作する設定ガイド",
-      "firstSeenDate": "2026-09-13",
-      "lastSeenDate": "2026-09-13",
-      "occurrences": 1,
-      "bodyHash": "a9b6e15cecbdc3ca",
-      "bodyLength": 9225
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/d05419163b5d7bb46aa1",
-      "normalizedTitle": "claude codeでツール結果が消える原因と確認手順を一気に整理 claude code でつまずいたときの切り分けメモ 2026 09 13",
-      "firstSeenDate": "2026-09-13",
-      "lastSeenDate": "2026-09-13",
-      "occurrences": 1,
-      "bodyHash": "bf4ac91ed74e1769",
-      "bodyLength": 999
-    },
-    {
       "normalizedUrl": "https://macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
       "normalizedTitle": "apple s siri ai can be swapped out for claude chatgpt code shows",
       "firstSeenDate": "2026-09-14",
@@ -300,10 +255,10 @@
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 11,
-      "bodyHash": "9facd605d5d46f3e",
-      "bodyLength": 15274
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 12,
+      "bodyHash": "9c80826b7b935925",
+      "bodyLength": 15146
     },
     {
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
@@ -548,8 +503,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 6,
       "bodyHash": "233d5faa367b9f7b",
       "bodyLength": 10473
     },
@@ -602,8 +557,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 4,
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 5,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -645,8 +600,8 @@
       "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
       "normalizedTitle": "yes claude can do nine loops",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 3,
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 4,
       "bodyHash": "b4bbd85c32421795",
       "bodyLength": 19966
     },
@@ -690,10 +645,10 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-09-26",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 2,
-      "bodyHash": "80f19718b80f52ce",
-      "bodyLength": 8886
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 3,
+      "bodyHash": "bc8f7a77af41dcfe",
+      "bodyLength": 8758
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/2362e6157c1ed56391f0",
@@ -739,6 +694,60 @@
       "occurrences": 1,
       "bodyHash": "422733a517e2b86d",
       "bodyLength": 8041
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/claude-sonnet-5-5",
+      "normalizedTitle": "sonnet 5 5",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "bodyHash": "be6219795040060e",
+      "bodyLength": 18450
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/874ab4adee5e33f34bd6",
+      "normalizedTitle": "claude sonnet 5 5がリリース sonnet 5からの5つの破壊的変更まとめ",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "bodyHash": "2334aab22a74351c",
+      "bodyLength": 4871
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/e5c402c5dbc88d709235",
+      "normalizedTitle": "claude sonnet 5 5登場 sonnet 5比で30 高速 コスト最大30 減",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "bodyHash": "1bb16bfb9e462f7c",
+      "bodyLength": 3496
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
+      "normalizedTitle": "anthropic infosys",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "bodyHash": "4f5472ae0c79d6ec",
+      "bodyLength": 4999
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/eea82cb30fd7648f571c",
+      "normalizedTitle": "起動後に端末連携できないエラーの原因と対処を解説 claude code でつまずいたときの切り分けメモ 2026 09 28",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "bodyHash": "c4a3faefad70ac04",
+      "bodyLength": 996
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/47617a563f913daf0858",
+      "normalizedTitle": "claude code の precompact hook でコンテキスト圧縮 compact 自動圧縮 の直前に作業状態を退避する実装手順 圧縮は止められない stdout は注入されない auto では custom instructions が空 3つのハマりどころ 2026",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "bodyHash": "4f83f5631b57810a",
+      "bodyLength": 6603
     }
   ]
 }

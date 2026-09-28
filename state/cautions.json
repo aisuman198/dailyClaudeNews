@@ -2610,6 +2610,66 @@
       "examples": [
         "GitGuardian調査の鍵有効期間の記述で修正"
       ]
+    },
+    {
+      "term": "Claude Sonnet 5.5 / claude-sonnet-5-5",
+      "rule": "原文ママで保持。カタカナ訳（「ソネット」等）は NG",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "examples": [
+        "今号主要モデルとして初出"
+      ]
+    },
+    {
+      "term": "Claude Haiku 5.5",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "examples": [
+        "今号で予告されたモデル名として初出"
+      ]
+    },
+    {
+      "term": "Infosys Topaz",
+      "rule": "原文ママで保持。「トパーズ」等と訳さない",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "examples": [
+        "Infosys の AI プラットフォーム名として初出"
+      ]
+    },
+    {
+      "term": "Cyber Verification Program",
+      "rule": "原文ママで保持。Life Sciences Verification Program と同系列",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "examples": [
+        "サイバーセキュリティ版の検証プログラム名として初出"
+      ]
+    },
+    {
+      "term": "OSWorld 2.1",
+      "rule": "原文ママで保持（既知 OSWorld 2.0 の新バージョン番号）",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "examples": [
+        "今号で初出。既知リストの 2.0 を更新"
+      ]
+    },
+    {
+      "term": "FrontierCode 1.1",
+      "rule": "原文ママで保持。既知リストの「FrontierCode v1.1」と v の有無が異なる",
+      "firstSeenDate": "2026-09-28",
+      "lastSeenDate": "2026-09-28",
+      "occurrences": 1,
+      "examples": [
+        "今号では v なし表記で登場。表記揺れに注意"
+      ]
     }
   ]
 }
