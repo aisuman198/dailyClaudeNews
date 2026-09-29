@@ -137,49 +137,6 @@
       "bodyLength": 12281
     },
     {
-      "normalizedUrl": "https://macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
-      "normalizedTitle": "apple s siri ai can be swapped out for claude chatgpt code shows",
-      "firstSeenDate": "2026-09-14",
-      "lastSeenDate": "2026-09-14",
-      "occurrences": 1,
-      "bodyHash": "83cb6f76a1ef2bff",
-      "bodyLength": 9092
-    },
-    {
-      "normalizedUrl": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
-      "normalizedTitle": "claude is a contrarian",
-      "firstSeenDate": "2026-09-14",
-      "lastSeenDate": "2026-09-14",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms",
-      "normalizedTitle": "notes on gotchas while migrating 35kb preprompts from opus to self hosted ollama",
-      "firstSeenDate": "2026-09-14",
-      "lastSeenDate": "2026-09-14",
-      "occurrences": 1,
-      "bodyHash": "d8087d576443e1f4",
-      "bodyLength": 11537
-    },
-    {
-      "normalizedUrl": "https://qiita.com/inoyu-qiita/items/f02c46fa50a78fe54573",
-      "normalizedTitle": "claude code artifactsとは 作ったhtmlをurlで共有できる機能",
-      "firstSeenDate": "2026-09-14",
-      "lastSeenDate": "2026-09-14",
-      "occurrences": 1,
-      "bodyHash": "c6b16515c347b05e",
-      "bodyLength": 4399
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/715741b0f3a8b8ecc680",
-      "normalizedTitle": "起動直後に落ちる原因をsigill系で切り分ける方法 claude code でつまずいたときの切り分けメモ 2026 09 14",
-      "firstSeenDate": "2026-09-14",
-      "lastSeenDate": "2026-09-14",
-      "occurrences": 1,
-      "bodyHash": "6f5b0186b24813f9",
-      "bodyLength": 1327
-    },
-    {
       "normalizedUrl": "https://effort.news/irregular",
       "normalizedTitle": "a single firm is behind openai anthropic and meta hacking scandals",
       "firstSeenDate": "2026-09-15",
@@ -503,8 +460,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-28",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 7,
       "bodyHash": "233d5faa367b9f7b",
       "bodyLength": 10473
     },
@@ -557,8 +514,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-09-28",
-      "occurrences": 5,
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 6,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -600,10 +557,10 @@
       "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
       "normalizedTitle": "yes claude can do nine loops",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-28",
-      "occurrences": 4,
-      "bodyHash": "b4bbd85c32421795",
-      "bodyLength": 19966
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 5,
+      "bodyHash": "5a9e61a8ba9d249e",
+      "bodyLength": 19939
     },
     {
       "normalizedUrl": "https://qiita.com/d_murata/items/80abfc93843b94e61053",
@@ -645,10 +602,10 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-09-26",
-      "lastSeenDate": "2026-09-28",
-      "occurrences": 3,
-      "bodyHash": "bc8f7a77af41dcfe",
-      "bodyLength": 8758
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 4,
+      "bodyHash": "30dbb6ea20dee644",
+      "bodyLength": 8539
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/2362e6157c1ed56391f0",
@@ -699,8 +656,8 @@
       "normalizedUrl": "https://anthropic.com/claude-sonnet-5-5",
       "normalizedTitle": "sonnet 5 5",
       "firstSeenDate": "2026-09-28",
-      "lastSeenDate": "2026-09-28",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 2,
       "bodyHash": "be6219795040060e",
       "bodyLength": 18450
     },
@@ -726,8 +683,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
       "normalizedTitle": "anthropic infosys",
       "firstSeenDate": "2026-09-28",
-      "lastSeenDate": "2026-09-28",
-      "occurrences": 1,
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 2,
       "bodyHash": "4f5472ae0c79d6ec",
       "bodyLength": 4999
     },
@@ -748,6 +705,67 @@
       "occurrences": 1,
       "bodyHash": "4f83f5631b57810a",
       "bodyLength": 6603
+    },
+    {
+      "normalizedUrl": "https://cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+      "normalizedTitle": "mistral ceo says u s ai safety debate masks competitors negligence",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/be88d8f92ce7e8a57e8b",
+      "normalizedTitle": "claude code v2 1 285 破壊的変更まとめ widgets予約 1m既定 bg30分上限 auto mode",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "bodyHash": "3cebdbe835632ede",
+      "bodyLength": 7819
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/bb1d4ea118fd3659b448",
+      "normalizedTitle": "anthropic research 更新 glm 5 3 のサイバー能力拡散分析など2記事を公開",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "bodyHash": "987a5e7e00bb729f",
+      "bodyLength": 3266
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "bodyHash": "fdea0778d294a2e5",
+      "bodyLength": 16176
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
+      "normalizedTitle": "your thoughts on ai",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "bodyHash": "cb7a9f7f1ecc6a29",
+      "bodyLength": 9764
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/58c3a462c500f8de491d",
+      "normalizedTitle": "claude障害まとめ claude ai claude code api coworkでエラー増加とサインイン不可 2026 09 29",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "bodyHash": "621afe3aaeba9e6e",
+      "bodyLength": 4300
+    },
+    {
+      "normalizedUrl": "https://qiita.com/GYact/items/96ba2c23fd6e27871362",
+      "normalizedTitle": "claude code agent skills skill mdの設計から自動発火 権限制御まで",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "bodyHash": "e78874b9c94e37ca",
+      "bodyLength": 6614
     }
   ]
 }
