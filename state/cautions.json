@@ -2670,6 +2670,106 @@
       "examples": [
         "今号では v なし表記で登場。表記揺れに注意"
       ]
+    },
+    {
+      "term": "ソウルを砕かれた→魂を砕かれた",
+      "rule": "感情・魂を表す文脈ではカタカナ語「ソウル」より漢語「魂」を使う",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "Dixon の心情を表す箇所でカタカナ英語が使われていたため修正"
+      ]
+    },
+    {
+      "term": "Anthropic 側の削除は可能だが",
+      "rule": "二重「は」構造を避け「Anthropic 側で削除することは可能だが」と整理する",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "AI調査記事内でダブル「は」の不自然な文構造が生じていたため修正"
+      ]
+    },
+    {
+      "term": "ポストが更新されたチェンジログが追記され",
+      "rule": "「2026年8月13日付のポスト更新チェンジログが追記され」と複合名詞に整理する",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "リーマン予想記事内で関係節の入れ子が不自然だったため修正"
+      ]
+    },
+    {
+      "term": "ExploitBench",
+      "rule": "新ベンチマーク名として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "GLM-5.3記事に初登場した外部ベンチマーク名"
+      ]
+    },
+    {
+      "term": "CyberGym",
+      "rule": "新ベンチマーク名として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "GLM-5.3記事に初登場した内部ベンチマーク名"
+      ]
+    },
+    {
+      "term": "CAISI（Center for AI Standards and Innovation）",
+      "rule": "NISTのAI安全基準・革新センターの略称として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "GLM-5.3記事に初登場した米政府機関略称"
+      ]
+    },
+    {
+      "term": "GLM-5.3-Flash",
+      "rule": "Zhipu AIの新モデルバリアント名として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "GLM-5.3の小規模版として記事内に初登場"
+      ]
+    },
+    {
+      "term": "Zhipu AI / Z.ai",
+      "rule": "中国AI企業名と海外向け呼称として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "GLM-5.3記事に初登場した企業名"
+      ]
+    },
+    {
+      "term": "Anthropic Interviewer",
+      "rule": "Anthropicの調査ツール名として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "AI調査記事に初登場したツール名"
+      ]
+    },
+    {
+      "term": "Agent Skills",
+      "rule": "Claude Codeの機能名として初出、原文ママで保持",
+      "firstSeenDate": "2026-09-29",
+      "lastSeenDate": "2026-09-29",
+      "occurrences": 1,
+      "examples": [
+        "Agent Skills記事に初登場したClaude Code機能名"
+      ]
     }
   ]
 }
