@@ -146,33 +146,6 @@
       "bodyLength": 9020
     },
     {
-      "normalizedUrl": "https://bbc.com/news/articles/cqgk5e2j0gg8o",
-      "normalizedTitle": "ai kill switch may need to be mandatory anthropic co founder tells bbc",
-      "firstSeenDate": "2026-09-15",
-      "lastSeenDate": "2026-09-15",
-      "occurrences": 1,
-      "bodyHash": "88b9faeda729943e",
-      "bodyLength": 5808
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/25659a9c207bd87d264c",
-      "normalizedTitle": "claude api に会話圧縮機能 compaction がベータ追加された",
-      "firstSeenDate": "2026-09-15",
-      "lastSeenDate": "2026-09-15",
-      "occurrences": 1,
-      "bodyHash": "652169c108b5c17d",
-      "bodyLength": 3906
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/9cd5adebe8b7303ac8f3",
-      "normalizedTitle": "claude code v2 1 271 272の重要アップデート総まとめ セキュリティ修正とmonitor永続オプション廃止",
-      "firstSeenDate": "2026-09-15",
-      "lastSeenDate": "2026-09-15",
-      "occurrences": 1,
-      "bodyHash": "1b21d403bb461947",
-      "bodyLength": 5720
-    },
-    {
       "normalizedUrl": "https://claude.com/blog/cowork-is-now-claude",
       "normalizedTitle": "claude cowork and chat are now one claude",
       "firstSeenDate": "2026-09-16",
@@ -221,10 +194,10 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-23",
-      "occurrences": 7,
-      "bodyHash": "b77242512872d9f9",
-      "bodyLength": 9567
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 8,
+      "bodyHash": "42b66101227c67fd",
+      "bodyLength": 9692
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/dfdcdf35347823a2c81c",
@@ -460,8 +433,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 7,
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 8,
       "bodyHash": "233d5faa367b9f7b",
       "bodyLength": 10473
     },
@@ -514,8 +487,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 6,
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 7,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -557,10 +530,10 @@
       "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
       "normalizedTitle": "yes claude can do nine loops",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 5,
-      "bodyHash": "5a9e61a8ba9d249e",
-      "bodyLength": 19939
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 6,
+      "bodyHash": "6ab0e2692fdb4fc7",
+      "bodyLength": 19938
     },
     {
       "normalizedUrl": "https://qiita.com/d_murata/items/80abfc93843b94e61053",
@@ -602,10 +575,10 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-09-26",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 4,
-      "bodyHash": "30dbb6ea20dee644",
-      "bodyLength": 8539
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 5,
+      "bodyHash": "1b2f87d23a013dca",
+      "bodyLength": 8564
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/2362e6157c1ed56391f0",
@@ -683,8 +656,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
       "normalizedTitle": "anthropic infosys",
       "firstSeenDate": "2026-09-28",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 2,
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 3,
       "bodyHash": "4f5472ae0c79d6ec",
       "bodyLength": 4999
     },
@@ -735,19 +708,19 @@
       "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 1,
-      "bodyHash": "fdea0778d294a2e5",
-      "bodyLength": 16176
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 2,
+      "bodyHash": "9a0f179b8cbbc324",
+      "bodyLength": 16246
     },
     {
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-09-29",
-      "occurrences": 1,
-      "bodyHash": "cb7a9f7f1ecc6a29",
-      "bodyLength": 9764
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 2,
+      "bodyHash": "2886e71c62619ff7",
+      "bodyLength": 9830
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/58c3a462c500f8de491d",
@@ -766,6 +739,58 @@
       "occurrences": 1,
       "bodyHash": "e78874b9c94e37ca",
       "bodyLength": 6614
+    },
+    {
+      "normalizedUrl": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "normalizedTitle": "anthropic s ipo prospectus is a fucking doozy",
+      "firstSeenDate": "2026-09-30",
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 1,
+      "bodyHash": "fb12a5a516b8569c",
+      "bodyLength": 3250
+    },
+    {
+      "normalizedUrl": "https://reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30",
+      "normalizedTitle": "ftc opens probe into ai giants including anthropic and openai",
+      "firstSeenDate": "2026-09-30",
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kenji_harada/items/7d8be259208cd3a5843f",
+      "normalizedTitle": "claude opus 5 5 比較 opus 5 fable 5 1 と実測 小さな課題で費用は opus 5 の 0 62 倍",
+      "firstSeenDate": "2026-09-30",
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 1,
+      "bodyHash": "769aaaf5cd63244d",
+      "bodyLength": 6772
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/ae1b6dbd22ba74683b54",
+      "normalizedTitle": "claude code v2 1 286 bare変更とプラグイン制限への対応",
+      "firstSeenDate": "2026-09-30",
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 1,
+      "bodyHash": "0002a8378bd3d4b1",
+      "bodyLength": 4588
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/42bb31e471a9a4a0097f",
+      "normalizedTitle": "claude sonnet 4 5 が非推奨に 2026年11月30日の提供終了までに sonnet 5 5 へ移行する手順",
+      "firstSeenDate": "2026-09-30",
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 1,
+      "bodyHash": "dc6a7ba52272be49",
+      "bodyLength": 3472
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
+      "normalizedTitle": "what work can robots do",
+      "firstSeenDate": "2026-09-30",
+      "lastSeenDate": "2026-09-30",
+      "occurrences": 1,
+      "bodyHash": "69f5822fa701c0fd",
+      "bodyLength": 20028
     }
   ]
 }
