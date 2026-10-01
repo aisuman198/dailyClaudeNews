@@ -128,60 +128,6 @@
       "bodyLength": 20028
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-corps",
-      "normalizedTitle": "claude corps",
-      "firstSeenDate": "2026-09-11",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 6,
-      "bodyHash": "cfc0ff4a4cd86890",
-      "bodyLength": 12281
-    },
-    {
-      "normalizedUrl": "https://effort.news/irregular",
-      "normalizedTitle": "a single firm is behind openai anthropic and meta hacking scandals",
-      "firstSeenDate": "2026-09-15",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 2,
-      "bodyHash": "f91abdf69d445de7",
-      "bodyLength": 9020
-    },
-    {
-      "normalizedUrl": "https://claude.com/blog/cowork-is-now-claude",
-      "normalizedTitle": "claude cowork and chat are now one claude",
-      "firstSeenDate": "2026-09-16",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 1,
-      "bodyHash": "f50560f50291471e",
-      "bodyLength": 5788
-    },
-    {
-      "normalizedUrl": "https://qiita.com/inoyu-qiita/items/1c95a3c8397070e67dcb",
-      "normalizedTitle": "artifact design skillで claude codeの成果物を 見せられるデザイン にする",
-      "firstSeenDate": "2026-09-16",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 1,
-      "bodyHash": "2565af7d8c4aa190",
-      "bodyLength": 6406
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/45a271fa5fd23c3abd43",
-      "normalizedTitle": "aiが 止める側の難しさ を露呈したclaudeの実態まとめ claude code開発者が押さえておきたいanthropicニュース 2026 09 16",
-      "firstSeenDate": "2026-09-16",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 1,
-      "bodyHash": "39c1c58fdcab8660",
-      "bodyLength": 2986
-    },
-    {
-      "normalizedUrl": "https://qiita.com/zzzzico/items/cd3098e503a1969f9b22",
-      "normalizedTitle": "claude関連ワード総まとめ claude ai claude code 料金プラン apiの違いを整理する 入門編",
-      "firstSeenDate": "2026-09-16",
-      "lastSeenDate": "2026-09-16",
-      "occurrences": 1,
-      "bodyHash": "9eabf293b34d36e0",
-      "bodyLength": 8527
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "normalizedTitle": "claude uplifts biomolecular modeling",
       "firstSeenDate": "2026-09-17",
@@ -194,10 +140,10 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 8,
-      "bodyHash": "42b66101227c67fd",
-      "bodyLength": 9692
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 9,
+      "bodyHash": "79de55ea784385bc",
+      "bodyLength": 9879
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/dfdcdf35347823a2c81c",
@@ -487,8 +433,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 7,
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 8,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -530,10 +476,10 @@
       "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
       "normalizedTitle": "yes claude can do nine loops",
       "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 6,
-      "bodyHash": "6ab0e2692fdb4fc7",
-      "bodyLength": 19938
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 7,
+      "bodyHash": "a6b2c4b4f75bf6b2",
+      "bodyLength": 17766
     },
     {
       "normalizedUrl": "https://qiita.com/d_murata/items/80abfc93843b94e61053",
@@ -575,10 +521,10 @@
       "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
       "normalizedTitle": "riemann zeta",
       "firstSeenDate": "2026-09-26",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 5,
-      "bodyHash": "1b2f87d23a013dca",
-      "bodyLength": 8564
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 6,
+      "bodyHash": "b1a56fb76570a8ae",
+      "bodyLength": 8683
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/2362e6157c1ed56391f0",
@@ -656,10 +602,10 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
       "normalizedTitle": "anthropic infosys",
       "firstSeenDate": "2026-09-28",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 3,
-      "bodyHash": "4f5472ae0c79d6ec",
-      "bodyLength": 4999
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 4,
+      "bodyHash": "0baba740eee6422b",
+      "bodyLength": 4993
     },
     {
       "normalizedUrl": "https://qiita.com/homhom44/items/eea82cb30fd7648f571c",
@@ -708,19 +654,19 @@
       "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 2,
-      "bodyHash": "9a0f179b8cbbc324",
-      "bodyLength": 16246
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 3,
+      "bodyHash": "aecb200837c66b7b",
+      "bodyLength": 16449
     },
     {
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 2,
-      "bodyHash": "2886e71c62619ff7",
-      "bodyLength": 9830
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 3,
+      "bodyHash": "351a40d606c71b8d",
+      "bodyLength": 10033
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/58c3a462c500f8de491d",
@@ -787,10 +733,71 @@
       "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
       "normalizedTitle": "what work can robots do",
       "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 2,
       "bodyHash": "69f5822fa701c0fd",
       "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "normalizedTitle": "ftc is investigating openai anthropic and other ai companies over product risks",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://qiita.com/sakutto-panda/items/45635af18926e60ab97b",
+      "normalizedTitle": "claude code 2026年9月アップデートまとめ diff skill doctor 無人運用の強化が地味に効く",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "bodyHash": "84bcc05810a16bf2",
+      "bodyLength": 3329
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/51b918442674e9302720",
+      "normalizedTitle": "起動できない時の原因究明 ワークツリー準備エラーを解決 claude code でつまずいたときの切り分けメモ 2026 10 01",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "bodyHash": "1ec34599959d4252",
+      "bodyLength": 1007
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/c78fb9b182bca71b5956",
+      "normalizedTitle": "claude code v2 1 287 解説 claude mods追加とセキュリティ修正 1mコンテキスト既定化",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "bodyHash": "a735217e860505b2",
+      "bodyLength": 5361
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-shaped-science",
+      "normalizedTitle": "claude shaped science",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "bodyHash": "fb1c83416dded8e5",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/dccb4710496f229dad66",
+      "normalizedTitle": "claude apiでクレジット購入の反映が遅延 残高不足エラーへの対処法",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "bodyHash": "7a67f5a2cd8072a6",
+      "bodyLength": 3679
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/barclays-scales-claude",
+      "normalizedTitle": "barclays scales claude",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "bodyHash": "160422ffdbcea258",
+      "bodyLength": 5661
     }
   ]
 }

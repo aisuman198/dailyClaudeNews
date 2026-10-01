@@ -2770,6 +2770,26 @@
       "examples": [
         "Agent Skills記事に初登場したClaude Code機能名"
       ]
+    },
+    {
+      "term": "サフガード（→セーフガード）",
+      "rule": "「safeguard」の音訳は「セーフガード」。「サフガード」と「セーフ」部分が短縮される誤りに注意",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "examples": [
+        "GLM記事末尾「サフガードされたClaudeモデル」を修正"
+      ]
+    },
+    {
+      "term": "GLM（原題の大文字表記）",
+      "rule": "GLMは略称につき原題スラグでも全大文字で表記。TCS/DXC/MOUと同パターン",
+      "firstSeenDate": "2026-10-01",
+      "lastSeenDate": "2026-10-01",
+      "occurrences": 1,
+      "examples": [
+        "原題「Glm 5 3 And...」→「GLM 5 3 And...」"
+      ]
     }
   ]
 }
