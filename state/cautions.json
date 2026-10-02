@@ -2790,6 +2790,36 @@
       "examples": [
         "原題「Glm 5 3 And...」→「GLM 5 3 And...」"
       ]
+    },
+    {
+      "term": "プロジェクトを事前に指名した",
+      "rule": "「指名」は人を指名する語。プロジェクトの選定・割り当てには「指定」を使う",
+      "firstSeenDate": "2026-10-02",
+      "lastSeenDate": "2026-10-02",
+      "occurrences": 1,
+      "examples": [
+        "Frontier Academy記事「プロジェクトを事前に指名した状態で」→「指定した」に修正"
+      ]
+    },
+    {
+      "term": "Mythos・Opus 要確認注記",
+      "rule": "Opus は確立したモデルファミリー名のため要確認対象外。注記は未確認の Mythos のみに限定する",
+      "firstSeenDate": "2026-10-02",
+      "lastSeenDate": "2026-10-02",
+      "occurrences": 1,
+      "examples": [
+        "LSVP記事の括弧注記「Mythos・Opus について」→「Mythos について」に修正"
+      ]
+    },
+    {
+      "term": "source（英語のまま）",
+      "rule": "日本語本文中の一般英語名詞は日本語に統一する。「source」→「出典」",
+      "firstSeenDate": "2026-10-02",
+      "lastSeenDate": "2026-10-02",
+      "occurrences": 1,
+      "examples": [
+        "Sonnet 5.5記事の本文に「source」が2箇所そのまま使われていた"
+      ]
     }
   ]
 }
