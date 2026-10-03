@@ -23,8 +23,8 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 10,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 11,
       "bodyHash": "d0d7a665bfc19d2d",
       "bodyLength": 10164
     },
@@ -38,22 +38,6 @@
       "bodyLength": 20028
     },
     {
-      "normalizedUrl": "https://twitter.com/trq212/status/2101009392611278961",
-      "normalizedTitle": "anthropic finally adds agents md support to claude code",
-      "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 1,
-      "bodyHash": "f69f438fd75543fc",
-      "bodyLength": 1492
-    },
-    {
-      "normalizedUrl": "https://wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-      "normalizedTitle": "hackers used anthropic s claude to break into openai",
-      "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 1
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
       "normalizedTitle": "accenture embedded evaluation",
       "firstSeenDate": "2026-09-18",
@@ -61,15 +45,6 @@
       "occurrences": 7,
       "bodyHash": "2b81943add0a4633",
       "bodyLength": 3832
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/4633ce110f09d6856461",
-      "normalizedTitle": "claude code v2 1 275 276の重要アップデートまとめ 破壊的変更に注意",
-      "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-18",
-      "occurrences": 1,
-      "bodyHash": "7c5fa93ac2be13b7",
-      "bodyLength": 3196
     },
     {
       "normalizedUrl": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
@@ -289,8 +264,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 9,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 10,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
     },
@@ -458,8 +433,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
       "normalizedTitle": "anthropic infosys",
       "firstSeenDate": "2026-09-28",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 6,
       "bodyHash": "44d20e1302742e26",
       "bodyLength": 5278
     },
@@ -510,8 +485,8 @@
       "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 5,
       "bodyHash": "aecb200837c66b7b",
       "bodyLength": 16449
     },
@@ -519,8 +494,8 @@
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 5,
       "bodyHash": "351a40d606c71b8d",
       "bodyLength": 10033
     },
@@ -589,8 +564,8 @@
       "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
       "normalizedTitle": "what work can robots do",
       "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 4,
       "bodyHash": "69f5822fa701c0fd",
       "bodyLength": 20028
     },
@@ -632,8 +607,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-shaped-science",
       "normalizedTitle": "claude shaped science",
       "firstSeenDate": "2026-10-01",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 3,
       "bodyHash": "fb1c83416dded8e5",
       "bodyLength": 20028
     },
@@ -650,8 +625,8 @@
       "normalizedUrl": "https://anthropic.com/news/barclays-scales-claude",
       "normalizedTitle": "barclays scales claude",
       "firstSeenDate": "2026-10-01",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 3,
       "bodyHash": "59969a806763ffc0",
       "bodyLength": 5741
     },
@@ -668,8 +643,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-frontier-academy",
       "normalizedTitle": "claude frontier academy",
       "firstSeenDate": "2026-10-02",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 2,
       "bodyHash": "8293875598befc09",
       "bodyLength": 8540
     },
@@ -681,6 +656,69 @@
       "occurrences": 1,
       "bodyHash": "95e1603fabd19f77",
       "bodyLength": 1446
+    },
+    {
+      "normalizedUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "normalizedTitle": "getting the most out of opus 5 5 in claude and claude code",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "888439e9a8aec71e",
+      "bodyLength": 13503
+    },
+    {
+      "normalizedUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "normalizedTitle": "lecun has zero concerns about ai wiping out humanity recent rogue incidents",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "d1d94dc1283f464d",
+      "bodyLength": 10571
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/bfadad87925d371e9c62",
+      "normalizedTitle": "aiエージェントに課金権を渡す設計のリスクと可能性を解説 claude code開発者が押さえておきたいanthropicニュース 2026 10 03",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "ba17d6b490b2efaa",
+      "bodyLength": 1466
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/46da46a4815d103865e2",
+      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 284 v2 1 288",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "f7d53aaac125177e",
+      "bodyLength": 5588
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6f0e8f02763dde520097",
+      "normalizedTitle": "claude code v2 1 284 v2 1 288 リリースノートまとめ",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "953e2382b90c2768",
+      "bodyLength": 8273
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/5ccbc90e7bb15a64aeac",
+      "normalizedTitle": "起動直後に失敗する原因と切り分けポイントを総まとめ claude code でつまずいたときの切り分けメモ 2026 10 02",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "f90a7904318c1245",
+      "bodyLength": 1009
+    },
+    {
+      "normalizedUrl": "https://qiita.com/chooser/items/2458aa6c8c02e3b7e1c7",
+      "normalizedTitle": "claude code の cloud session に最大 250 のクレジットが付きます 申請期限は日本時間 10月8日 15 59",
+      "firstSeenDate": "2026-10-03",
+      "lastSeenDate": "2026-10-03",
+      "occurrences": 1,
+      "bodyHash": "013650aee0705838",
+      "bodyLength": 10064
     }
   ]
 }
