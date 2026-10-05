@@ -2820,6 +2820,46 @@
       "examples": [
         "Sonnet 5.5記事の本文に「source」が2箇所そのまま使われていた"
       ]
+    },
+    {
+      "term": "Sheriff's office（引用内）",
+      "rule": "引用内英文未訳ルール適用：「保安官事務所」と訳す",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "examples": [
+        "ハイライトおよび記事本文内の引用句に英語のまま残存"
+      ]
+    },
+    {
+      "term": "LCSO インテリジェンス探偵",
+      "rule": "法執行機関の detective は「刑事」。「探偵」は私立探偵を指す誤訳",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "examples": [
+        "第1記事本文「LCSO インテリジェンス探偵が捜査を引き継いだ」"
+      ]
+    },
+    {
+      "term": "事件なく拘束した",
+      "rule": "「without incident」の訳は「問題なく」が自然。「事件なく」は非標準",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "examples": [
+        "第1記事本文「事件なく拘束した後」"
+      ]
+    },
+    {
+      "term": "White House（地名）",
+      "rule": "日本語本文中の地名は日本語表記。「ホワイトハウス」と訳す",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "examples": [
+        "第2記事本文「Anthropic と White House の関係については」"
+      ]
     }
   ]
 }
