@@ -23,19 +23,10 @@
       "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
       "normalizedTitle": "life sciences verification program",
       "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 11,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 12,
       "bodyHash": "d0d7a665bfc19d2d",
       "bodyLength": 10164
-    },
-    {
-      "normalizedUrl": "https://code.claude.com/docs/en/changelog",
-      "normalizedTitle": "claude code now reads agents md if there is no claude md",
-      "firstSeenDate": "2026-09-18",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 2,
-      "bodyHash": "c7f33c6d1a0d5070",
-      "bodyLength": 20028
     },
     {
       "normalizedUrl": "https://anthropic.com/news/accenture-embedded-evaluation",
@@ -45,31 +36,6 @@
       "occurrences": 7,
       "bodyHash": "2b81943add0a4633",
       "bodyLength": 3832
-    },
-    {
-      "normalizedUrl": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
-      "normalizedTitle": "lawsuit says anthropic openai and others made illegal agreement on ai slowdown",
-      "firstSeenDate": "2026-09-19",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/TakanobuSano/items/c3868ff0430b314ffbcf",
-      "normalizedTitle": "ついにclaude codeがagents mdに対応 claude mdとの優先順位 併用設定を公式実装から読み解く",
-      "firstSeenDate": "2026-09-19",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 1,
-      "bodyHash": "93b9f3abac64c509",
-      "bodyLength": 6927
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/37a7f41bee49971c65e7",
-      "normalizedTitle": "claude code の auto モード分類器がサーバー実行に 課金対象外になった件を解説",
-      "firstSeenDate": "2026-09-19",
-      "lastSeenDate": "2026-09-19",
-      "occurrences": 1,
-      "bodyHash": "d49cb66032da166c",
-      "bodyLength": 3172
     },
     {
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/e1eff3b2b6e23800cdcc",
@@ -106,15 +72,6 @@
       "occurrences": 2,
       "bodyHash": "8154a2c91b496890",
       "bodyLength": 2955
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/6da2502000f7c8dab403",
-      "normalizedTitle": "claude agent sdk python で claude code をスクリプトから動かす実装手順 cli が見つからない 許可待ちで止まる claude md が読まれない 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-09-20",
-      "lastSeenDate": "2026-09-20",
-      "occurrences": 1,
-      "bodyHash": "e7c240d298797b23",
-      "bodyLength": 6288
     },
     {
       "normalizedUrl": "https://tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
@@ -485,8 +442,8 @@
       "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 6,
       "bodyHash": "aecb200837c66b7b",
       "bodyLength": 16449
     },
@@ -494,8 +451,8 @@
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 6,
       "bodyHash": "351a40d606c71b8d",
       "bodyLength": 10033
     },
@@ -564,8 +521,8 @@
       "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
       "normalizedTitle": "what work can robots do",
       "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 5,
       "bodyHash": "69f5822fa701c0fd",
       "bodyLength": 20028
     },
@@ -607,8 +564,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-shaped-science",
       "normalizedTitle": "claude shaped science",
       "firstSeenDate": "2026-10-01",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 4,
       "bodyHash": "fb1c83416dded8e5",
       "bodyLength": 20028
     },
@@ -625,8 +582,8 @@
       "normalizedUrl": "https://anthropic.com/news/barclays-scales-claude",
       "normalizedTitle": "barclays scales claude",
       "firstSeenDate": "2026-10-01",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 4,
       "bodyHash": "59969a806763ffc0",
       "bodyLength": 5741
     },
@@ -643,8 +600,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-frontier-academy",
       "normalizedTitle": "claude frontier academy",
       "firstSeenDate": "2026-10-02",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 3,
       "bodyHash": "8293875598befc09",
       "bodyLength": 8540
     },
@@ -719,6 +676,60 @@
       "occurrences": 1,
       "bodyHash": "013650aee0705838",
       "bodyLength": 10064
+    },
+    {
+      "normalizedUrl": "https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "normalizedTitle": "anthropic reported diary entry to police woman faces felony charge",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "bodyHash": "cde6d9ac0cb608ea",
+      "bodyLength": 4207
+    },
+    {
+      "normalizedUrl": "https://techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
+      "normalizedTitle": "engineer says claude code has made his job soul sucking",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "bodyHash": "f9c506aaef89337e",
+      "bodyLength": 4451
+    },
+    {
+      "normalizedUrl": "https://bbc.co.uk/news/articles/c5j9x9pr0240o",
+      "normalizedTitle": "pentagon stops using anthropic ai tools after blacklisting company bbc told",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "bodyHash": "734be052e662c907",
+      "bodyLength": 6498
+    },
+    {
+      "normalizedUrl": "https://qiita.com/sakutto-panda/items/06193ea939863dacbfb2",
+      "normalizedTitle": "2026 9 28 claude sonnet 5 5リリース 単価据え置きで実コスト3割減 proプランのデフォルトはopusに交代",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "bodyHash": "77957f39abd0f48f",
+      "bodyLength": 3882
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/10f31453447c9d1e4d4c",
+      "normalizedTitle": "起動直後に落ちるときの調べ方と復旧の最短ルートを解説 claude code でつまずいたときの切り分けメモ 2026 10 05",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "bodyHash": "4c19dd6bc34aad9c",
+      "bodyLength": 981
+    },
+    {
+      "normalizedUrl": "https://qiita.com/leomarokun/items/c366498122b981f3903f",
+      "normalizedTitle": "claude code の code review の max findings オプションで指摘数を調整する",
+      "firstSeenDate": "2026-10-05",
+      "lastSeenDate": "2026-10-05",
+      "occurrences": 1,
+      "bodyHash": "cb08a2708914cc07",
+      "bodyLength": 1546
     }
   ]
 }
