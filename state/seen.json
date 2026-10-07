@@ -38,15 +38,6 @@
       "bodyLength": 3832
     },
     {
-      "normalizedUrl": "https://qiita.com/homhom44/items/af0a7e1710176d1e01e5",
-      "normalizedTitle": "自動判定が権限エラー表示するのに実は実行できる時の見分け方 claude code でつまずいたときの切り分けメモ 2026 09 21",
-      "firstSeenDate": "2026-09-21",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 2,
-      "bodyHash": "61f30467a8e5209f",
-      "bodyLength": 1390
-    },
-    {
       "normalizedUrl": "https://anthropic.com/claude-opus-5-5",
       "normalizedTitle": "claude opus 5 5",
       "firstSeenDate": "2026-09-22",
@@ -63,33 +54,6 @@
       "occurrences": 2,
       "bodyHash": "32e87c6dab9660b6",
       "bodyLength": 16993
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Takuya__/items/f1711865fa67e0b86cea",
-      "normalizedTitle": "シングル サブ マルチエージェントの違いを 作業机 で理解する claude codeで学ぶaiの分業入門",
-      "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 1,
-      "bodyHash": "d07a6a55e1c295fd",
-      "bodyLength": 8663
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/fb03e25cd414f4eb38a9",
-      "normalizedTitle": "輸出規制で止まったaiを18日で復活させた3手 claude fable 5",
-      "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 1,
-      "bodyHash": "f0d64615458431bd",
-      "bodyLength": 8196
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/2a565f07ae4b0bf3c169",
-      "normalizedTitle": "claude api の memory tool memory 20250818 でセッションをまたいで記憶させる実装手順 api側は何も保存しない パストラバーサル 指示がないと読みに来ない 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 1,
-      "bodyHash": "60f1e015c9b3bf7c",
-      "bodyLength": 7473
     },
     {
       "normalizedUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
@@ -122,10 +86,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 8,
-      "bodyHash": "233d5faa367b9f7b",
-      "bodyLength": 10473
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 9,
+      "bodyHash": "0a53dff4303c4ceb",
+      "bodyLength": 10928
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/90c0a42e470a423d3383",
@@ -406,8 +370,8 @@
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 7,
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 8,
       "bodyHash": "351a40d606c71b8d",
       "bodyLength": 10033
     },
@@ -476,8 +440,8 @@
       "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
       "normalizedTitle": "what work can robots do",
       "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 6,
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 7,
       "bodyHash": "69f5822fa701c0fd",
       "bodyLength": 20028
     },
@@ -519,8 +483,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-shaped-science",
       "normalizedTitle": "claude shaped science",
       "firstSeenDate": "2026-10-01",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 6,
       "bodyHash": "fb1c83416dded8e5",
       "bodyLength": 20028
     },
@@ -537,10 +501,10 @@
       "normalizedUrl": "https://anthropic.com/news/barclays-scales-claude",
       "normalizedTitle": "barclays scales claude",
       "firstSeenDate": "2026-10-01",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 5,
-      "bodyHash": "5f4ec9a6331d2f62",
-      "bodyLength": 5935
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 6,
+      "bodyHash": "e716657345094f99",
+      "bodyLength": 5877
     },
     {
       "normalizedUrl": "https://qiita.com/yureki_lab/items/fd65228d931a9c33cbde",
@@ -555,10 +519,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-frontier-academy",
       "normalizedTitle": "claude frontier academy",
       "firstSeenDate": "2026-10-02",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 4,
-      "bodyHash": "e9d6855a99869bab",
-      "bodyLength": 8734
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 5,
+      "bodyHash": "cc30f3d04d70654e",
+      "bodyLength": 8676
     },
     {
       "normalizedUrl": "https://qiita.com/homhom44/items/1f4c81c8a4639b792807",
@@ -706,10 +670,10 @@
       "normalizedUrl": "https://anthropic.com/news/cyber-verification-program",
       "normalizedTitle": "cyber verification program",
       "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 1,
-      "bodyHash": "a60de8b6bd32880d",
-      "bodyLength": 10515
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 2,
+      "bodyHash": "3075f1beee9172b7",
+      "bodyLength": 10463
     },
     {
       "normalizedUrl": "https://qiita.com/sorabcjanne1/items/0a8935becde94f15a6ed",
@@ -728,6 +692,87 @@
       "occurrences": 1,
       "bodyHash": "e2ad0dab7b3df873",
       "bodyLength": 5276
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/claude-haiku-5-5",
+      "normalizedTitle": "claude haiku 5 5",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "d4d593970e9d8ef1",
+      "bodyLength": 11007
+    },
+    {
+      "normalizedUrl": "https://rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
+      "normalizedTitle": "meta and microsoft take steps to reduce employee usage of claude ai",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "9fa571b61f670833",
+      "bodyLength": 6384
+    },
+    {
+      "normalizedUrl": "https://bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+      "normalizedTitle": "study claude chatgpt offer different shopping prices based on wealth",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "0cf34efa3e0c12fd",
+      "bodyLength": 1556
+    },
+    {
+      "normalizedUrl": "https://xda-developers.com/im-not-paying-20-for-chatgpt-claude-or-gemini-because-a-free-local-llm-does-everything-i-need",
+      "normalizedTitle": "i m not paying 20 for chatgpt or claude because a free local llm does",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "b93ba4a40cd325a0",
+      "bodyLength": 6546
+    },
+    {
+      "normalizedUrl": "https://github.com/lowenbjer/claude-terse",
+      "normalizedTitle": "show hn terse a claude code plugin that halves reply length by cutting filler",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "d06794a4a9d2b146",
+      "bodyLength": 16318
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/9df9897c2d1b70ad4b85",
+      "normalizedTitle": "claude haiku 5 5実測 100k超は単価5倍でeffort lowは誤答も",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "924b5102b7ac4502",
+      "bodyLength": 9989
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/428865674265064de14a",
+      "normalizedTitle": "anthropic cyber verification program 拡張版を解説 セキュリティ専門家向け",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "3a21cf26af49d6e8",
+      "bodyLength": 2988
+    },
+    {
+      "normalizedUrl": "https://qiita.com/htani0817/items/61233f474dc36f6cf1d0",
+      "normalizedTitle": "2026年9月 claude sonnet 5 5がリリース sonnet 5と同価格で30 高速 api破壊的変更5つまとめ",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "959e5ab68d2ebe0e",
+      "bodyLength": 13311
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/2786251224ab53c58625",
+      "normalizedTitle": "権限で拒否されたフォルダが原因で読み取りが止まらない瞬間を特定する方法 claude code でつまずいたときの切り分けメモ 2026 10 07",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "bodyHash": "6eda3b9b4e9982ac",
+      "bodyLength": 882
     }
   ]
 }

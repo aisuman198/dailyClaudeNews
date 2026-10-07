@@ -2900,6 +2900,86 @@
       "examples": [
         "LSVP記事の一文に読点が欠落"
       ]
+    },
+    {
+      "term": "GPT-6 Luna",
+      "rule": "原文ママで保持・要注意フラグ",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "GPT-6 Astraと同パターンの新バリアント名として初出"
+      ]
+    },
+    {
+      "term": "AA-Briefcase v1.1",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "Haiku 5.5ベンチマーク比較表に初出の新ベンチマーク名"
+      ]
+    },
+    {
+      "term": "CyScenarioBench",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "CVP記事内のセーフガード評価ベンチマーク名として初出"
+      ]
+    },
+    {
+      "term": "Devin Fusion",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "Cognitionの製品名として初出"
+      ]
+    },
+    {
+      "term": "MetaCode / Muse Code",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "Meta社内AIコーディングツール名として初出"
+      ]
+    },
+    {
+      "term": "FDE（Frontier Deployed Engineer）",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "Claude Frontier Academyの資格認定名として初出"
+      ]
+    },
+    {
+      "term": "Colleague Knowledge Assistant",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "Barclays社内ナレッジ支援ツール名として初出"
+      ]
+    },
+    {
+      "term": "少なくとも〜以上",
+      "rule": "冗長表現：「少なくとも N 倍」か「N 倍以上」のどちらかに統一",
+      "firstSeenDate": "2026-10-07",
+      "lastSeenDate": "2026-10-07",
+      "occurrences": 1,
+      "examples": [
+        "CVP記事「少なくとも5倍以上」を「少なくとも5倍」に修正"
+      ]
     }
   ]
 }
