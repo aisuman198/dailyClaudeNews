@@ -23,8 +23,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 11,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 12,
       "bodyHash": "15f19e5e2ed5fb2b",
       "bodyLength": 10614
     },
@@ -52,24 +52,6 @@
       "occurrences": 7,
       "bodyHash": "a6b2c4b4f75bf6b2",
       "bodyLength": 17766
-    },
-    {
-      "normalizedUrl": "https://qiita.com/d_murata/items/80abfc93843b94e61053",
-      "normalizedTitle": "claude opus 5 5の値下げで ec商品説明文1万件の生成コストはどう変わるか試算した",
-      "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 1,
-      "bodyHash": "32dfe9a977f43aad",
-      "bodyLength": 4943
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/132080c64305f1008e35",
-      "normalizedTitle": "ragとベクタdbとmcpをつなぐ設計で見えた 実運用の論点まとめ claude code開発者が押さえておきたいanthropicニュース 2026 09 25",
-      "firstSeenDate": "2026-09-25",
-      "lastSeenDate": "2026-09-25",
-      "occurrences": 1,
-      "bodyHash": "c6386d423aa110a9",
-      "bodyLength": 2940
     },
     {
       "normalizedUrl": "https://github.com/brumar/chess-postmortem-skills",
@@ -235,8 +217,8 @@
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 10,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 11,
       "bodyHash": "eca1026ada96dc9b",
       "bodyLength": 9797
     },
@@ -305,8 +287,8 @@
       "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
       "normalizedTitle": "what work can robots do",
       "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 9,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 10,
       "bodyHash": "69f5822fa701c0fd",
       "bodyLength": 20028
     },
@@ -535,8 +517,8 @@
       "normalizedUrl": "https://anthropic.com/news/cyber-verification-program",
       "normalizedTitle": "cyber verification program",
       "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 5,
       "bodyHash": "518bff8ea6f54ad8",
       "bodyLength": 10081
     },
@@ -643,8 +625,8 @@
       "normalizedUrl": "https://reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
       "normalizedTitle": "i think i found a planet nobody knew existed i used claude code to find it",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 2
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 3
     },
     {
       "normalizedUrl": "https://youtube.com/watch?v=3TNpOD6bov8",
@@ -668,8 +650,8 @@
       "normalizedUrl": "https://anthropic.com/research/the-missing-map-of-the-sky",
       "normalizedTitle": "the missing map of the sky",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 3,
       "bodyHash": "0aabcab1efd38441",
       "bodyLength": 10554
     },
@@ -677,8 +659,8 @@
       "normalizedUrl": "https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "normalizedTitle": "launching opt in vuln finding service for open source",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 3,
       "bodyHash": "48763b1a75d7c46c",
       "bodyLength": 7760
     },
@@ -686,8 +668,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-cyber-mission",
       "normalizedTitle": "anthropic cyber mission",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 3,
       "bodyHash": "822a530fbacf4f82",
       "bodyLength": 15401
     },
@@ -704,8 +686,8 @@
       "normalizedUrl": "https://anthropic.com/news/2026-usage-policy-update",
       "normalizedTitle": "2026 usage policy update",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 3,
       "bodyHash": "dba4b8c2618efb80",
       "bodyLength": 7946
     },
@@ -713,8 +695,8 @@
       "normalizedUrl": "https://anthropic.com/news/genesis-mission-commitment",
       "normalizedTitle": "genesis mission commitment",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 3,
       "bodyHash": "d9edc411f38af31c",
       "bodyLength": 3111
     },
@@ -758,17 +740,17 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-unintended-model-actions",
       "normalizedTitle": "investigating unintended model actions",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 1,
-      "bodyHash": "dfb7a62bd06ae233",
-      "bodyLength": 19944
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 2,
+      "bodyHash": "148cfef776fb5a38",
+      "bodyLength": 19940
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-09",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 2,
       "bodyHash": "aa5c31f5acabbd68",
       "bodyLength": 12106
     },
@@ -780,6 +762,51 @@
       "occurrences": 1,
       "bodyHash": "6b74252eda131e8f",
       "bodyLength": 5992
+    },
+    {
+      "normalizedUrl": "https://nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051",
+      "normalizedTitle": "anthropic ai model submits false tip on unsolved philly murder police say",
+      "firstSeenDate": "2026-10-10",
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 1,
+      "bodyHash": "e2961d04fb831cd0",
+      "bodyLength": 4937
+    },
+    {
+      "normalizedUrl": "https://bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
+      "normalizedTitle": "hackers abuse google ads bing redirects to push claude clickfix attacks",
+      "firstSeenDate": "2026-10-10",
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 1,
+      "bodyHash": "323d1c79fa2e7f8c",
+      "bodyLength": 6019
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Sidejob/items/23164cd9bd478d782a80",
+      "normalizedTitle": "claude code v2 1 296 で変わった6つのポイント shift jis誤書き換えバグ修正 allow large追加 529リトライ制御まとめ 構成v2",
+      "firstSeenDate": "2026-10-10",
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 1,
+      "bodyHash": "f23cf2ca9055b15a",
+      "bodyLength": 5115
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/da705f93cf370130225f",
+      "normalizedTitle": "claude api の公式cli ant 入門 インストールから ant apply による infrastructure as code まで",
+      "firstSeenDate": "2026-10-10",
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 1,
+      "bodyHash": "7d2b2e5b09e5f543",
+      "bodyLength": 9752
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/1cbec019d7d3285197a9",
+      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 289 v2 1 296",
+      "firstSeenDate": "2026-10-10",
+      "lastSeenDate": "2026-10-10",
+      "occurrences": 1,
+      "bodyHash": "22a863572036a7fa",
+      "bodyLength": 4144
     }
   ]
 }
