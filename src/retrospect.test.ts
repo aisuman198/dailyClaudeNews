@@ -1,5 +1,6 @@
+import { pathToFileURL } from 'node:url'
 import { describe, expect, it } from 'vitest'
-import { fingerprint, isFixable, todayJst, todaysIssueSearch } from './retrospect.js'
+import { fingerprint, isFixable, isInvokedDirectly, todayJst, todaysIssueSearch } from './retrospect.js'
 
 describe('todayJst', () => {
   it('returns the JST calendar date (UTC + 9h)', () => {
@@ -29,6 +30,29 @@ describe('todaysIssueSearch', () => {
     // 新しい下限 (JST 00:00 = 2026-06-22T15:00Z) ではヒットする。
     expect(issue58CreatedAt.getTime()).toBeGreaterThanOrEqual(lowerBound.getTime())
     expect(new Date('2026-06-23T00:00:00Z')).not.toEqual(lowerBound)
+  })
+})
+
+describe('isInvokedDirectly', () => {
+  it('matches when argv[1] and module URL point to the same plain path', () => {
+    const argv1 = '/Users/shuichi/git/dailyClaudeNews/dist/retrospect.js'
+    expect(isInvokedDirectly(argv1, pathToFileURL(argv1).href)).toBe(true)
+  })
+
+  it('matches even when the path contains a space (cron worktree: ".../Application Support/...")', () => {
+    // 回帰テスト: 旧実装 `import.meta.url === file://${argv1}` は空白を含むパスで
+    // 常に false になり、main() が呼ばれず retrospect が無言で何もせず終了していた。
+    const argv1 = '/Users/shuichi/Library/Application Support/dailyClaudeNews/worktree/dist/retrospect.js'
+    expect(isInvokedDirectly(argv1, pathToFileURL(argv1).href)).toBe(true)
+  })
+
+  it('does not match a different path', () => {
+    const argv1 = '/Users/shuichi/Library/Application Support/dailyClaudeNews/worktree/dist/retrospect.js'
+    expect(isInvokedDirectly(argv1, 'file:///somewhere/else/retrospect.js')).toBe(false)
+  })
+
+  it('returns false when argv[1] is undefined (e.g. imported as a module)', () => {
+    expect(isInvokedDirectly(undefined, 'file:///dist/retrospect.js')).toBe(false)
   })
 })
 

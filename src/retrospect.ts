@@ -1,6 +1,7 @@
 import { spawn } from 'node:child_process'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
+import { pathToFileURL } from 'node:url'
 import { config } from './config.js'
 import { createDraftPr, listIssues, type GhIssue } from './issueClient.js'
 import { redact } from './redact.js'
@@ -209,8 +210,17 @@ async function main(): Promise<void> {
   console.log(redact(`[retrospect] 完了`))
 }
 
-const invokedDirectly = import.meta.url === `file://${process.argv[1]}`
-if (invokedDirectly) {
+// process.argv[1] は素のファイルパス (空白等が未エンコード) なので、
+// 文字列結合ではなく pathToFileURL で正規の file:// URL に変換してから比較する。
+// cron 用 worktree パス (`.../Application Support/...`) は空白を含むため、
+// 素の文字列比較だと import.meta.url (空白は %20 にエンコードされる) と一致せず
+// main() が呼ばれないまま exit code 0 で終了するバグがあった。
+export function isInvokedDirectly(argv1: string | undefined, moduleUrl: string): boolean {
+  if (!argv1) return false
+  return moduleUrl === pathToFileURL(argv1).href
+}
+
+if (isInvokedDirectly(process.argv[1], import.meta.url)) {
   main().catch((err) => {
     console.error(redact(`[retrospect] 失敗: ${(err as Error).message}`))
     process.exit(1)
