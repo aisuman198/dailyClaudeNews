@@ -3010,6 +3010,26 @@
       "examples": [
         "「脆弱性を突き計算を実行した」→「突いて計算を実行した」"
       ]
+    },
+    {
+      "term": "human review",
+      "rule": "日本語本文中の一般英語句は日本語に統一する",
+      "firstSeenDate": "2026-10-11",
+      "lastSeenDate": "2026-10-11",
+      "occurrences": 1,
+      "examples": [
+        "「human review なしの」→「人間によるレビューなしの」と修正"
+      ]
+    },
+    {
+      "term": "tier",
+      "rule": "日本語本文中の一般英語名詞は日本語（カタカナ）に統一する",
+      "firstSeenDate": "2026-10-11",
+      "lastSeenDate": "2026-10-11",
+      "occurrences": 1,
+      "examples": [
+        "「tier を切って」→「ティアを設けて」と修正"
+      ]
     }
   ]
 }
