@@ -23,8 +23,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 13,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 14,
       "bodyHash": "15f19e5e2ed5fb2b",
       "bodyLength": 10614
     },
@@ -54,24 +54,6 @@
       "occurrences": 7,
       "bodyHash": "b1a56fb76570a8ae",
       "bodyLength": 8683
-    },
-    {
-      "normalizedUrl": "https://qiita.com/songchong/items/97ba76b89c3840bc498e",
-      "normalizedTitle": "強い ai が実験室の外に出たら openai anthropic 英国 aisi の事故報告を読み比べてみた",
-      "firstSeenDate": "2026-09-27",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 1,
-      "bodyHash": "5db04c8cc05f5ab0",
-      "bodyLength": 11210
-    },
-    {
-      "normalizedUrl": "https://qiita.com/satoshi_061/items/599a871796ac6804d52d",
-      "normalizedTitle": "速報 claude opus 5 5 まとめ opus 5 fable 5 1との比較と 移行でハマる4つの破壊的変更",
-      "firstSeenDate": "2026-09-27",
-      "lastSeenDate": "2026-09-27",
-      "occurrences": 1,
-      "bodyHash": "422733a517e2b86d",
-      "bodyLength": 8041
     },
     {
       "normalizedUrl": "https://anthropic.com/claude-sonnet-5-5",
@@ -165,10 +147,10 @@
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
       "normalizedTitle": "your thoughts on ai",
       "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 12,
-      "bodyHash": "eca1026ada96dc9b",
-      "bodyLength": 9797
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 13,
+      "bodyHash": "39314bb2833e0b42",
+      "bodyLength": 9777
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/58c3a462c500f8de491d",
@@ -465,8 +447,8 @@
       "normalizedUrl": "https://anthropic.com/news/cyber-verification-program",
       "normalizedTitle": "cyber verification program",
       "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 6,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 7,
       "bodyHash": "518bff8ea6f54ad8",
       "bodyLength": 10081
     },
@@ -598,8 +580,8 @@
       "normalizedUrl": "https://anthropic.com/research/the-missing-map-of-the-sky",
       "normalizedTitle": "the missing map of the sky",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 5,
       "bodyHash": "0aabcab1efd38441",
       "bodyLength": 10554
     },
@@ -607,17 +589,17 @@
       "normalizedUrl": "https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "normalizedTitle": "launching opt in vuln finding service for open source",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 4,
-      "bodyHash": "48763b1a75d7c46c",
-      "bodyLength": 7760
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 5,
+      "bodyHash": "9dbfd36f54cdb24c",
+      "bodyLength": 7604
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-cyber-mission",
       "normalizedTitle": "anthropic cyber mission",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 5,
       "bodyHash": "822a530fbacf4f82",
       "bodyLength": 15401
     },
@@ -634,8 +616,8 @@
       "normalizedUrl": "https://anthropic.com/news/2026-usage-policy-update",
       "normalizedTitle": "2026 usage policy update",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 5,
       "bodyHash": "dba4b8c2618efb80",
       "bodyLength": 7946
     },
@@ -643,8 +625,8 @@
       "normalizedUrl": "https://anthropic.com/news/genesis-mission-commitment",
       "normalizedTitle": "genesis mission commitment",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 5,
       "bodyHash": "d9edc411f38af31c",
       "bodyLength": 3111
     },
@@ -688,17 +670,17 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-unintended-model-actions",
       "normalizedTitle": "investigating unintended model actions",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 3,
-      "bodyHash": "148cfef776fb5a38",
-      "bodyLength": 19940
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 4,
+      "bodyHash": "39f2d18eca3b6230",
+      "bodyLength": 20027
     },
     {
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 4,
       "bodyHash": "aa5c31f5acabbd68",
       "bodyLength": 12106
     },
@@ -769,8 +751,8 @@
       "normalizedUrl": "https://qiita.com/yureki_lab/items/4fe98328f2cf173170d6",
       "normalizedTitle": "claude api の citations 引用機能 で回答の根拠箇所を返させる実装手順 回答が細切れの text ブロックで返る pdf のページ番号は end が排他 structured outputs と併用で 400 3つのハマりどころ 2026",
       "firstSeenDate": "2026-10-11",
-      "lastSeenDate": "2026-10-11",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 2,
       "bodyHash": "a3d9d9d557ff90fa",
       "bodyLength": 6234
     },
@@ -782,6 +764,51 @@
       "occurrences": 1,
       "bodyHash": "0c4548a0ce4b175c",
       "bodyLength": 1521
+    },
+    {
+      "normalizedUrl": "https://github.com/SaarthurR/atticus-mac",
+      "normalizedTitle": "show hn atticus hold to talk voice assistant for macos that runs on claude p",
+      "firstSeenDate": "2026-10-12",
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 1,
+      "bodyHash": "bc6cc151509c83f6",
+      "bodyLength": 9162
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kikuziro/items/53465eeb52b464757555",
+      "normalizedTitle": "claude haiku 5 5 は判断特化モデルの代わりになるのか",
+      "firstSeenDate": "2026-10-12",
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 1,
+      "bodyHash": "d5a21b64f1630dd8",
+      "bodyLength": 5270
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/1643c719fa1e4bc0e350",
+      "normalizedTitle": "anthropic frontier red team aiはデータセンターなしで自己複製できる可能性 研究を解説",
+      "firstSeenDate": "2026-10-12",
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 1,
+      "bodyHash": "5d66ca0f3449b9c1",
+      "bodyLength": 3456
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/self-replicating-ai",
+      "normalizedTitle": "self replicating ai",
+      "firstSeenDate": "2026-10-12",
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 1,
+      "bodyHash": "cc0d5a03376f6968",
+      "bodyLength": 20027
+    },
+    {
+      "normalizedUrl": "https://qiita.com/umezu_y/items/e4e0f71c9e61dbfb60bb",
+      "normalizedTitle": "claude motion で 困りごとと助かった瞬間をキャラクターのアニメーションで表現する",
+      "firstSeenDate": "2026-10-12",
+      "lastSeenDate": "2026-10-12",
+      "occurrences": 1,
+      "bodyHash": "d9b09ba12f476708",
+      "bodyLength": 4312
     }
   ]
 }
