@@ -3040,6 +3040,36 @@
       "examples": [
         "OSS Scanner記事の「低減された制限クラシファイアを提供する」が格不明瞭で不自然"
       ]
+    },
+    {
+      "term": "より速いサービングトークン数",
+      "rule": "速度を表す場合は「数（count）」でなく「速度（rate）」を使う。「より速いサービングトークン数」→「より速いトークン生成速度」",
+      "firstSeenDate": "2026-10-13",
+      "lastSeenDate": "2026-10-13",
+      "occurrences": 1,
+      "examples": [
+        "自己複製 AI 記事の推論セットアップ評価セクションで誤用を検出・修正"
+      ]
+    },
+    {
+      "term": "CAISSI（米国 AI 超知能基準・革新促進センター）",
+      "rule": "原文ママで保持。ただし前回セッションで記録された「CAISI（Center for AI Standards and Innovation）」とは略称・展開名ともに異なるため同一組織の誤記か別組織かを原文で要確認",
+      "firstSeenDate": "2026-10-13",
+      "lastSeenDate": "2026-10-13",
+      "occurrences": 1,
+      "examples": [
+        "ディスティレーション防御記事に初出。GLM-5.3 評価主体として登場"
+      ]
+    },
+    {
+      "term": "Zhipu（単体）",
+      "rule": "原文ママで保持。既知ルールは「Zhipu AI / Z.ai」だが今号は「Zhipu」単体のみ使用。原文が短縮形を使っているか要確認",
+      "firstSeenDate": "2026-10-13",
+      "lastSeenDate": "2026-10-13",
+      "occurrences": 1,
+      "examples": [
+        "ディスティレーション防御記事で「Zhipuが米国モデルをディスティレーション」と表記"
+      ]
     }
   ]
 }
