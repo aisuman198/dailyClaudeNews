@@ -3070,6 +3070,36 @@
       "examples": [
         "ディスティレーション防御記事で「Zhipuが米国モデルをディスティレーション」と表記"
       ]
+    },
+    {
+      "term": "chatbot",
+      "rule": "日本語文中では「チャットボット」と表記する",
+      "firstSeenDate": "2026-10-14",
+      "lastSeenDate": "2026-10-14",
+      "occurrences": 1,
+      "examples": [
+        "シンガポール記事「Shopee のカスタマーサービス chatbot」で英語のまま残っていた"
+      ]
+    },
+    {
+      "term": "prior art",
+      "rule": "日本語文中では「先行技術」と訳す",
+      "firstSeenDate": "2026-10-14",
+      "lastSeenDate": "2026-10-14",
+      "occurrences": 1,
+      "examples": [
+        "Scion批判記事で英語法律用語のまま残っていた"
+      ]
+    },
+    {
+      "term": "Mononoke の derived data",
+      "rule": "初出で「derived data（派生データ）」と訳を与えた後の再出現は「派生データ」と日本語に統一する",
+      "firstSeenDate": "2026-10-14",
+      "lastSeenDate": "2026-10-14",
+      "occurrences": 1,
+      "examples": [
+        "Scion批判記事2段落目に英語のまま再出現していた"
+      ]
     }
   ]
 }
