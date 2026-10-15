@@ -3100,6 +3100,46 @@
       "examples": [
         "Scion批判記事2段落目に英語のまま再出現していた"
       ]
+    },
+    {
+      "term": "2026 Us Midterms",
+      "rule": "原題スラグ内の国名略称「Us」は「US」と全大文字で表記する（TCS/DXC/MOU/GLMと同パターン）",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "examples": [
+        "原題 sub タグ内で「Us」と小文字になっていたため修正"
+      ]
+    },
+    {
+      "term": "hook の呼び出しの下で発生したイベント",
+      "rule": "「hook 呼び出し内部で発生したイベント」と表記する",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "examples": [
+        "「の下で」が技術的スコープの説明として不自然なため修正"
+      ]
+    },
+    {
+      "term": "キャッシュ古情報問題",
+      "rule": "「古いキャッシュ情報の問題」と助詞を補って表記する",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "examples": [
+        "複合名詞「キャッシュ古情報」が日本語として不自然なため修正"
+      ]
+    },
+    {
+      "term": "デフォルトデフォルト2回",
+      "rule": "「デフォルト2回」と重複を削除する",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "examples": [
+        "asyncio記事末尾の括弧内で「デフォルト」が2回連続していたため修正"
+      ]
     }
   ]
 }

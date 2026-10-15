@@ -14,10 +14,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 16,
-      "bodyHash": "ee9cd0b85e658349",
-      "bodyLength": 10655
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 17,
+      "bodyHash": "e570a2f6a831f902",
+      "bodyLength": 10805
     },
     {
       "normalizedUrl": "https://anthropic.com/research/project-swap",
@@ -72,49 +72,6 @@
       "occurrences": 14,
       "bodyHash": "e16561efcd07a002",
       "bodyLength": 9822
-    },
-    {
-      "normalizedUrl": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
-      "normalizedTitle": "anthropic s ipo prospectus is a fucking doozy",
-      "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 1,
-      "bodyHash": "fb12a5a516b8569c",
-      "bodyLength": 3250
-    },
-    {
-      "normalizedUrl": "https://reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30",
-      "normalizedTitle": "ftc opens probe into ai giants including anthropic and openai",
-      "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kenji_harada/items/7d8be259208cd3a5843f",
-      "normalizedTitle": "claude opus 5 5 比較 opus 5 fable 5 1 と実測 小さな課題で費用は opus 5 の 0 62 倍",
-      "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 1,
-      "bodyHash": "769aaaf5cd63244d",
-      "bodyLength": 6772
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/ae1b6dbd22ba74683b54",
-      "normalizedTitle": "claude code v2 1 286 bare変更とプラグイン制限への対応",
-      "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 1,
-      "bodyHash": "0002a8378bd3d4b1",
-      "bodyLength": 4588
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/42bb31e471a9a4a0097f",
-      "normalizedTitle": "claude sonnet 4 5 が非推奨に 2026年11月30日の提供終了までに sonnet 5 5 へ移行する手順",
-      "firstSeenDate": "2026-09-30",
-      "lastSeenDate": "2026-09-30",
-      "occurrences": 1,
-      "bodyHash": "dc6a7ba52272be49",
-      "bodyLength": 3472
     },
     {
       "normalizedUrl": "https://anthropic.com/research/what-work-can-robots-do",
@@ -483,8 +440,8 @@
       "normalizedUrl": "https://anthropic.com/research/the-missing-map-of-the-sky",
       "normalizedTitle": "the missing map of the sky",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 7,
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 8,
       "bodyHash": "0aabcab1efd38441",
       "bodyLength": 10554
     },
@@ -492,8 +449,8 @@
       "normalizedUrl": "https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "normalizedTitle": "launching opt in vuln finding service for open source",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 7,
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 8,
       "bodyHash": "8fcf4d5372ab8913",
       "bodyLength": 7649
     },
@@ -573,8 +530,8 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-unintended-model-actions",
       "normalizedTitle": "investigating unintended model actions",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 6,
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 7,
       "bodyHash": "173d3bd7f1c62174",
       "bodyLength": 20028
     },
@@ -582,10 +539,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-corps",
       "normalizedTitle": "claude corps",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 6,
-      "bodyHash": "0ee4872ba972cff8",
-      "bodyLength": 12147
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 7,
+      "bodyHash": "9307880568115723",
+      "bodyLength": 12297
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/f8f7577c94ffd24df43b",
@@ -699,8 +656,8 @@
       "normalizedUrl": "https://anthropic.com/research/self-replicating-ai",
       "normalizedTitle": "self replicating ai",
       "firstSeenDate": "2026-10-12",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 4,
       "bodyHash": "4820ade4d0e737fe",
       "bodyLength": 20028
     },
@@ -726,17 +683,17 @@
       "normalizedUrl": "https://anthropic.com/engineering/redesigning-source-control",
       "normalizedTitle": "redesigning source control",
       "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 2,
-      "bodyHash": "6205e6eecef23382",
-      "bodyLength": 19512
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 3,
+      "bodyHash": "5ffbfd3665f5e302",
+      "bodyLength": 19627
     },
     {
       "normalizedUrl": "https://anthropic.com/research/distillation-defenses",
       "normalizedTitle": "distillation defenses",
       "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 3,
       "bodyHash": "fa4abb6019f448d9",
       "bodyLength": 13952
     },
@@ -762,10 +719,10 @@
       "normalizedUrl": "https://sunshowers.io/posts/anthropic-mononoke",
       "normalizedTitle": "anthropic s scion is heavily inspired by mononoke",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 1,
-      "bodyHash": "bdb53ddb746a05a0",
-      "bodyLength": 2360
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 2,
+      "bodyHash": "7ab8aa3e6c6a7682",
+      "bodyLength": 2481
     },
     {
       "normalizedUrl": "https://cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
@@ -803,19 +760,19 @@
       "normalizedUrl": "https://anthropic.com/news/2026-us-midterms",
       "normalizedTitle": "2026 us midterms",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 1,
-      "bodyHash": "c07734becd258b55",
-      "bodyLength": 12371
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 2,
+      "bodyHash": "c0ebd1cdfc4452c1",
+      "bodyLength": 12425
     },
     {
       "normalizedUrl": "https://anthropic.com/news/singapore-office-opening",
       "normalizedTitle": "singapore office opening",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-14",
-      "occurrences": 1,
-      "bodyHash": "f1d75aea3579ce0f",
-      "bodyLength": 6467
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 2,
+      "bodyHash": "614010caa51094e2",
+      "bodyLength": 6521
     },
     {
       "normalizedUrl": "https://qiita.com/kenji_harada/items/1c7ad5b475f9cf1f1382",
@@ -834,6 +791,60 @@
       "occurrences": 1,
       "bodyHash": "927e67cfd58e4c6b",
       "bodyLength": 1583
+    },
+    {
+      "normalizedUrl": "https://sunshowers.io/posts/anthropic-mononoke-2",
+      "normalizedTitle": "more on anthropic s scion ripping off mononoke",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "bodyHash": "617dba80be22e56d",
+      "bodyLength": 7316
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+      "normalizedTitle": "offering expanded claude access across all three branches of government",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "bodyHash": "29949b67b58fded8",
+      "bodyLength": 4751
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/08bb24ef4da996d55d54",
+      "normalizedTitle": "claude code v2 1 301 変更点まとめ mod の catch と env set の挙動変更",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "bodyHash": "9e5e0b6183110214",
+      "bodyLength": 5286
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/an-update-on-independent-evaluators",
+      "normalizedTitle": "an update on independent evaluators",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "bodyHash": "ce666f0e1f289eea",
+      "bodyLength": 7110
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Sidejob/items/bcb4ff31d92898b64e78",
+      "normalizedTitle": "claude code v2 1 299 v2 1 300 変更点8選 アイドルコンパクション wsl2修正 エージェント制御強化まとめ",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "bodyHash": "b30e9fcd9190c542",
+      "bodyLength": 5167
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yureki_lab/items/fc487b7068cce3610340",
+      "normalizedTitle": "claude api を python の asyncio で並列に呼ぶ実装手順 asyncanthropic gather で1件の失敗が全件の結果を道連れ semaphore を関数内で作って同時実行数が絞れない クライアントを毎回作って接続を使い捨てる 3つのハマりどころ 2026",
+      "firstSeenDate": "2026-10-15",
+      "lastSeenDate": "2026-10-15",
+      "occurrences": 1,
+      "bodyHash": "a7cef3b1fbadb76b",
+      "bodyLength": 7059
     }
   ]
 }
