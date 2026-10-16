@@ -3140,6 +3140,56 @@
       "examples": [
         "asyncio記事末尾の括弧内で「デフォルト」が2回連続していたため修正"
       ]
+    },
+    {
+      "term": "ECDSA（原題）",
+      "rule": "略称は全大文字で表記",
+      "firstSeenDate": "2026-10-16",
+      "lastSeenDate": "2026-10-16",
+      "occurrences": 1,
+      "examples": [
+        "原題スラグ「Ecdsa」→「ECDSA」に修正"
+      ]
+    },
+    {
+      "term": "AI（原題スラグ）",
+      "rule": "スラグ由来の「Ai」は「AI」と大文字表記",
+      "firstSeenDate": "2026-10-16",
+      "lastSeenDate": "2026-10-16",
+      "occurrences": 1,
+      "examples": [
+        "原題スラグ「Ai Expectations Gap」→「AI Expectations Gap」に修正"
+      ]
+    },
+    {
+      "term": "米国 AI 超知能基準・革新促進センター（CAISSI）",
+      "rule": "既知の正式名称表記に合わせ「AI」を訳さない",
+      "firstSeenDate": "2026-10-16",
+      "lastSeenDate": "2026-10-16",
+      "occurrences": 1,
+      "examples": [
+        "「米国の人工超知能基準・革新促進センター」→「米国 AI 超知能基準・革新促進センター」に修正"
+      ]
+    },
+    {
+      "term": "助詞後の余分スペース（や コマンド）",
+      "rule": "「や」「と」等の並列助詞直後に余分スペースを入れない",
+      "firstSeenDate": "2026-10-16",
+      "lastSeenDate": "2026-10-16",
+      "occurrences": 1,
+      "examples": [
+        "「SQL インジェクションや コマンドインジェクション」の「や」直後スペースを削除"
+      ]
+    },
+    {
+      "term": "Anthropicの調査では（文脈の主語）",
+      "rule": "「Anthropicの調査では」と文脈の主語を明確にする",
+      "firstSeenDate": "2026-10-16",
+      "lastSeenDate": "2026-10-16",
+      "occurrences": 1,
+      "examples": [
+        "蒸留記事本文の「Anthropicの調査では」前段が「米国AI超知能基準センターは〜評価している」で終わっており、次段の主語を「Anthropicの調査では」と明示することで主語の混乱を避ける"
+      ]
     }
   ]
 }
