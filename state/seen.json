@@ -14,8 +14,8 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 18,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 19,
       "bodyHash": "e570a2f6a831f902",
       "bodyLength": 10805
     },
@@ -27,15 +27,6 @@
       "occurrences": 10,
       "bodyHash": "8d416b0a0d50fd3d",
       "bodyLength": 18881
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/riemann-zeta",
-      "normalizedTitle": "riemann zeta",
-      "firstSeenDate": "2026-09-26",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 7,
-      "bodyHash": "b1a56fb76570a8ae",
-      "bodyLength": 8683
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
@@ -92,15 +83,6 @@
       "bodyLength": 5877
     },
     {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/fd65228d931a9c33cbde",
-      "normalizedTitle": "claude code の mcp サーバー設定を mcp json でチームに配る実装手順 local project user スコープの優先順位 var 展開で起動失敗 プロジェクトサーバーが承認待ちで出てこない 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-10-02",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 1,
-      "bodyHash": "876ede6ffc4757d1",
-      "bodyLength": 5796
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-frontier-academy",
       "normalizedTitle": "claude frontier academy",
       "firstSeenDate": "2026-10-02",
@@ -108,15 +90,6 @@
       "occurrences": 6,
       "bodyHash": "8b88311e1c63cb07",
       "bodyLength": 8391
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/1f4c81c8a4639b792807",
-      "normalizedTitle": "claude sonnet 5 5の中間層厚め評価と実務目線の価格感 claude code開発者が押さえておきたいanthropicニュース 2026 10 02",
-      "firstSeenDate": "2026-10-02",
-      "lastSeenDate": "2026-10-02",
-      "occurrences": 1,
-      "bodyHash": "95e1603fabd19f77",
-      "bodyLength": 1446
     },
     {
       "normalizedUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
@@ -478,8 +451,8 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-unintended-model-actions",
       "normalizedTitle": "investigating unintended model actions",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 8,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 9,
       "bodyHash": "0659ef314cce01ab",
       "bodyLength": 19989
     },
@@ -604,8 +577,8 @@
       "normalizedUrl": "https://anthropic.com/research/self-replicating-ai",
       "normalizedTitle": "self replicating ai",
       "firstSeenDate": "2026-10-12",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 6,
       "bodyHash": "4820ade4d0e737fe",
       "bodyLength": 20028
     },
@@ -631,8 +604,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/redesigning-source-control",
       "normalizedTitle": "redesigning source control",
       "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 5,
       "bodyHash": "5ffbfd3665f5e302",
       "bodyLength": 19627
     },
@@ -640,8 +613,8 @@
       "normalizedUrl": "https://anthropic.com/research/distillation-defenses",
       "normalizedTitle": "distillation defenses",
       "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 5,
       "bodyHash": "a5aee5c9ba48278e",
       "bodyLength": 14052
     },
@@ -708,8 +681,8 @@
       "normalizedUrl": "https://anthropic.com/news/2026-us-midterms",
       "normalizedTitle": "2026 us midterms",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 4,
       "bodyHash": "c0ebd1cdfc4452c1",
       "bodyLength": 12425
     },
@@ -717,8 +690,8 @@
       "normalizedUrl": "https://anthropic.com/news/singapore-office-opening",
       "normalizedTitle": "singapore office opening",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 4,
       "bodyHash": "614010caa51094e2",
       "bodyLength": 6521
     },
@@ -753,8 +726,8 @@
       "normalizedUrl": "https://anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
       "normalizedTitle": "offering expanded claude access across all three branches of government",
       "firstSeenDate": "2026-10-15",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 3,
       "bodyHash": "29949b67b58fded8",
       "bodyLength": 4751
     },
@@ -771,8 +744,8 @@
       "normalizedUrl": "https://anthropic.com/news/an-update-on-independent-evaluators",
       "normalizedTitle": "an update on independent evaluators",
       "firstSeenDate": "2026-10-15",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 3,
       "bodyHash": "97b8970b67f12d13",
       "bodyLength": 7250
     },
@@ -798,15 +771,15 @@
       "normalizedUrl": "https://ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
       "normalizedTitle": "anthropic assigned highest junk credit rating in june",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://claude.dev/blog/solving-code-review-at-anthropic",
       "normalizedTitle": "how the claude code team does code review",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2,
       "bodyHash": "05e661cb3e40c2e2",
       "bodyLength": 18193
     },
@@ -814,28 +787,28 @@
       "normalizedUrl": "https://anthropic.com/research/ecdsa-curve-origins",
       "normalizedTitle": "ecdsa curve origins",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "f0aa653025bb236d",
-      "bodyLength": 16534
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2,
+      "bodyHash": "4dfb7e41571795b7",
+      "bodyLength": 16544
     },
     {
       "normalizedUrl": "https://anthropic.com/research/ai-expectations-gap",
       "normalizedTitle": "ai expectations gap",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "90c0a65c26f22e4b",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2,
+      "bodyHash": "8319e12b49072b91",
       "bodyLength": 20028
     },
     {
       "normalizedUrl": "https://anthropic.com/research/employment-at-anthropic",
       "normalizedTitle": "employment at anthropic",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "5dc6c7d46d98930d",
-      "bodyLength": 17653
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2,
+      "bodyHash": "995975af3de290f9",
+      "bodyLength": 17663
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/1f140e2881afc7291e4a",
@@ -850,18 +823,18 @@
       "normalizedUrl": "https://anthropic.com/research/expectations-for-the-future",
       "normalizedTitle": "expectations for the future",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "4c5bd39ab4b0a08b",
-      "bodyLength": 4302
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2,
+      "bodyHash": "0407ec1f8a3f8eeb",
+      "bodyLength": 4304
     },
     {
       "normalizedUrl": "https://anthropic.com/research/designing-efficient-quantum-circuits",
       "normalizedTitle": "designing efficient quantum circuits",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "20f877841def3ab0",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 2,
+      "bodyHash": "f2c56177732172db",
       "bodyLength": 20028
     },
     {
@@ -872,6 +845,51 @@
       "occurrences": 1,
       "bodyHash": "71e8f8f2bd4373a6",
       "bodyLength": 8927
+    },
+    {
+      "normalizedUrl": "https://qiita.com/TOSHIMITSU_MIYACHI/items/78d6804881b98ba4c912",
+      "normalizedTitle": "claude codeのフォルダ設計を手で組む ルートのclaude mdに 地図 部署フォルダにルール settings jsonで読み取り禁止",
+      "firstSeenDate": "2026-10-17",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 1,
+      "bodyHash": "44f5e9f8c62af4c0",
+      "bodyLength": 8164
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/0a79a9daf29ae7553f14",
+      "normalizedTitle": "要約 how the claude code team does code review 人間のレビュー時間を最小化 する7層の仕組み",
+      "firstSeenDate": "2026-10-17",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 1,
+      "bodyHash": "5af2e027fda7eb2c",
+      "bodyLength": 4241
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/9fbdf64b49b69a5f064a",
+      "normalizedTitle": "claude code v2 1 302 変更点まとめ claude p の権限モードと fork 既定化",
+      "firstSeenDate": "2026-10-17",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 1,
+      "bodyHash": "fddcc0faa66b3794",
+      "bodyLength": 5419
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/ef1eab9ad453b65989e2",
+      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 299 v2 1 302",
+      "firstSeenDate": "2026-10-17",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 1,
+      "bodyHash": "677ee13195566310",
+      "bodyLength": 4198
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/b37fd704cde62f2c6df1",
+      "normalizedTitle": "claude code v2 1 299 v2 1 302 リリースノートまとめ",
+      "firstSeenDate": "2026-10-17",
+      "lastSeenDate": "2026-10-17",
+      "occurrences": 1,
+      "bodyHash": "859832c0f667680d",
+      "bodyLength": 7879
     }
   ]
 }
