@@ -3190,6 +3190,106 @@
       "examples": [
         "蒸留記事本文の「Anthropicの調査では」前段が「米国AI超知能基準センターは〜評価している」で終わっており、次段の主語を「Anthropicの調査では」と明示することで主語の混乱を避ける"
       ]
+    },
+    {
+      "term": "SpaceXAI",
+      "rule": "xAI と表記する",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "Elon Musk のAI企業名はxAI。SpaceXとxAIの混同による誤記"
+      ]
+    },
+    {
+      "term": "制御的な減速",
+      "rule": "制御された減速 と表記する",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "「制御的な」はna形容詞として不自然。「制御された」が正しい"
+      ]
+    },
+    {
+      "term": "画面どうしで共有する",
+      "rule": "両者間で共有する と表記する",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "VS Code拡張とデスクトップアプリの共有を指す文脈で不自然"
+      ]
+    },
+    {
+      "term": "異なる形態の寄付の間で柔軟に対応",
+      "rule": "異なる形態の寄付に柔軟に対応 と表記する",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "「の間で」が冗長で不自然な助詞用法"
+      ]
+    },
+    {
+      "term": "研究進歩のスピード",
+      "rule": "研究の進歩速度 と表記する",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "複合名詞「研究進歩」+「スピード」は不自然な組み合わせ"
+      ]
+    },
+    {
+      "term": "Gemini 4 Argon",
+      "rule": "原文ままで保持・要注意フラグ",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "記事10に初出。知識カットオフ以降のGoogleモデル名として未確認"
+      ]
+    },
+    {
+      "term": "Antigravity CLI",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code・Codexと並ぶAIコーディングエージェントとして記事10に初出"
+      ]
+    },
+    {
+      "term": "Herdr",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "Pi-cowboyの動作基盤プラットフォーム名として記事8に初出"
+      ]
+    },
+    {
+      "term": "PiG / Pi-Bolt",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "Pi-cowboyがsubagentとして利用するツール名として記事8に初出"
+      ]
+    },
+    {
+      "term": "CoBench 2.1",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "examples": [
+        "Anthropic社内ベンチマーク名として記事12に初出"
+      ]
     }
   ]
 }

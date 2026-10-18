@@ -14,28 +14,10 @@
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 19,
-      "bodyHash": "e570a2f6a831f902",
-      "bodyLength": 10805
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/project-swap",
-      "normalizedTitle": "project swap",
-      "firstSeenDate": "2026-09-24",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 10,
-      "bodyHash": "8d416b0a0d50fd3d",
-      "bodyLength": 18881
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/anthropic-infosys",
-      "normalizedTitle": "anthropic infosys",
-      "firstSeenDate": "2026-09-28",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 6,
-      "bodyHash": "44d20e1302742e26",
-      "bodyLength": 5278
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 20,
+      "bodyHash": "9da54ff92c5ec9f2",
+      "bodyLength": 10787
     },
     {
       "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
@@ -90,69 +72,6 @@
       "occurrences": 6,
       "bodyHash": "8b88311e1c63cb07",
       "bodyLength": 8391
-    },
-    {
-      "normalizedUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
-      "normalizedTitle": "getting the most out of opus 5 5 in claude and claude code",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "888439e9a8aec71e",
-      "bodyLength": 13503
-    },
-    {
-      "normalizedUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
-      "normalizedTitle": "lecun has zero concerns about ai wiping out humanity recent rogue incidents",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "d1d94dc1283f464d",
-      "bodyLength": 10571
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/bfadad87925d371e9c62",
-      "normalizedTitle": "aiエージェントに課金権を渡す設計のリスクと可能性を解説 claude code開発者が押さえておきたいanthropicニュース 2026 10 03",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "ba17d6b490b2efaa",
-      "bodyLength": 1466
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/46da46a4815d103865e2",
-      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 284 v2 1 288",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "f7d53aaac125177e",
-      "bodyLength": 5588
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6f0e8f02763dde520097",
-      "normalizedTitle": "claude code v2 1 284 v2 1 288 リリースノートまとめ",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "953e2382b90c2768",
-      "bodyLength": 8273
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/5ccbc90e7bb15a64aeac",
-      "normalizedTitle": "起動直後に失敗する原因と切り分けポイントを総まとめ claude code でつまずいたときの切り分けメモ 2026 10 02",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "f90a7904318c1245",
-      "bodyLength": 1009
-    },
-    {
-      "normalizedUrl": "https://qiita.com/chooser/items/2458aa6c8c02e3b7e1c7",
-      "normalizedTitle": "claude code の cloud session に最大 250 のクレジットが付きます 申請期限は日本時間 10月8日 15 59",
-      "firstSeenDate": "2026-10-03",
-      "lastSeenDate": "2026-10-03",
-      "occurrences": 1,
-      "bodyHash": "013650aee0705838",
-      "bodyLength": 10064
     },
     {
       "normalizedUrl": "https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
@@ -451,8 +370,8 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-unintended-model-actions",
       "normalizedTitle": "investigating unintended model actions",
       "firstSeenDate": "2026-10-09",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 9,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 10,
       "bodyHash": "0659ef314cce01ab",
       "bodyLength": 19989
     },
@@ -577,8 +496,8 @@
       "normalizedUrl": "https://anthropic.com/research/self-replicating-ai",
       "normalizedTitle": "self replicating ai",
       "firstSeenDate": "2026-10-12",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 6,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 7,
       "bodyHash": "4820ade4d0e737fe",
       "bodyLength": 20028
     },
@@ -604,8 +523,8 @@
       "normalizedUrl": "https://anthropic.com/engineering/redesigning-source-control",
       "normalizedTitle": "redesigning source control",
       "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 6,
       "bodyHash": "5ffbfd3665f5e302",
       "bodyLength": 19627
     },
@@ -613,8 +532,8 @@
       "normalizedUrl": "https://anthropic.com/research/distillation-defenses",
       "normalizedTitle": "distillation defenses",
       "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 6,
       "bodyHash": "a5aee5c9ba48278e",
       "bodyLength": 14052
     },
@@ -681,19 +600,19 @@
       "normalizedUrl": "https://anthropic.com/news/2026-us-midterms",
       "normalizedTitle": "2026 us midterms",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 4,
-      "bodyHash": "c0ebd1cdfc4452c1",
-      "bodyLength": 12425
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 5,
+      "bodyHash": "615b8886b3ee6a85",
+      "bodyLength": 12493
     },
     {
       "normalizedUrl": "https://anthropic.com/news/singapore-office-opening",
       "normalizedTitle": "singapore office opening",
       "firstSeenDate": "2026-10-14",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 4,
-      "bodyHash": "614010caa51094e2",
-      "bodyLength": 6521
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 5,
+      "bodyHash": "4b124f4129e1a7b7",
+      "bodyLength": 6589
     },
     {
       "normalizedUrl": "https://qiita.com/kenji_harada/items/1c7ad5b475f9cf1f1382",
@@ -726,10 +645,10 @@
       "normalizedUrl": "https://anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
       "normalizedTitle": "offering expanded claude access across all three branches of government",
       "firstSeenDate": "2026-10-15",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 3,
-      "bodyHash": "29949b67b58fded8",
-      "bodyLength": 4751
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 4,
+      "bodyHash": "e8568219ca16b5a9",
+      "bodyLength": 4733
     },
     {
       "normalizedUrl": "https://qiita.com/picnic/items/08bb24ef4da996d55d54",
@@ -744,10 +663,10 @@
       "normalizedUrl": "https://anthropic.com/news/an-update-on-independent-evaluators",
       "normalizedTitle": "an update on independent evaluators",
       "firstSeenDate": "2026-10-15",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 3,
-      "bodyHash": "97b8970b67f12d13",
-      "bodyLength": 7250
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 4,
+      "bodyHash": "494dba07fba275f3",
+      "bodyLength": 7318
     },
     {
       "normalizedUrl": "https://qiita.com/Sidejob/items/bcb4ff31d92898b64e78",
@@ -787,8 +706,8 @@
       "normalizedUrl": "https://anthropic.com/research/ecdsa-curve-origins",
       "normalizedTitle": "ecdsa curve origins",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 3,
       "bodyHash": "4dfb7e41571795b7",
       "bodyLength": 16544
     },
@@ -796,8 +715,8 @@
       "normalizedUrl": "https://anthropic.com/research/ai-expectations-gap",
       "normalizedTitle": "ai expectations gap",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 3,
       "bodyHash": "8319e12b49072b91",
       "bodyLength": 20028
     },
@@ -805,8 +724,8 @@
       "normalizedUrl": "https://anthropic.com/research/employment-at-anthropic",
       "normalizedTitle": "employment at anthropic",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 3,
       "bodyHash": "995975af3de290f9",
       "bodyLength": 17663
     },
@@ -823,8 +742,8 @@
       "normalizedUrl": "https://anthropic.com/research/expectations-for-the-future",
       "normalizedTitle": "expectations for the future",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 3,
       "bodyHash": "0407ec1f8a3f8eeb",
       "bodyLength": 4304
     },
@@ -832,8 +751,8 @@
       "normalizedUrl": "https://anthropic.com/research/designing-efficient-quantum-circuits",
       "normalizedTitle": "designing efficient quantum circuits",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-17",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 3,
       "bodyHash": "f2c56177732172db",
       "bodyLength": 20028
     },
@@ -890,6 +809,69 @@
       "occurrences": 1,
       "bodyHash": "859832c0f667680d",
       "bodyLength": 7879
+    },
+    {
+      "normalizedUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "normalizedTitle": "anthropic s proposed ai safety bill only kicks in if 50 deaths or 1b in damages",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "11e4c3617c682dd7",
+      "bodyLength": 8715
+    },
+    {
+      "normalizedUrl": "https://qiita.com/songchong/items/351a939e2e1b673c2929",
+      "normalizedTitle": "2026年版 今日から使える ai との会話術 claude gemini codex に指示を守らせる 6 つの原則",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "48dc291e8add2ab8",
+      "bodyLength": 8264
+    },
+    {
+      "normalizedUrl": "https://github.com/electric-dragon-80000v/pi-cowboy",
+      "normalizedTitle": "show hn pi cowboy use codex claude code opencode as subagents",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "217f3ee81b9df338",
+      "bodyLength": 15886
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Sidejob/items/3586ed01dc46c2e31b47",
+      "normalizedTitle": "claude code の利用上限 429 が深夜に繰り返し発動した 5時間ローリング枠の仕組みを理解してスケジュールを組み直した記録",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "33598c726382ae94",
+      "bodyLength": 3514
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/public-benefit-fund",
+      "normalizedTitle": "public benefit fund",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "c19077db6c7c14cb",
+      "bodyLength": 3636
+    },
+    {
+      "normalizedUrl": "https://qiita.com/A-Rsuivivor/items/c43c67401e8c9c872b7e",
+      "normalizedTitle": "claude code vs code拡張とデスクトップアプリの違いと使い分け",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "ea80e571ddf33401",
+      "bodyLength": 2618
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kinamocchi_tech/items/deeb50f0f133eb443b9a",
+      "normalizedTitle": "なぜコードの8割超を書くclaudeが ai研究を 主導 するのは26 なのか anthropic",
+      "firstSeenDate": "2026-10-18",
+      "lastSeenDate": "2026-10-18",
+      "occurrences": 1,
+      "bodyHash": "7ea5da4b21a108a6",
+      "bodyLength": 5279
     }
   ]
 }
