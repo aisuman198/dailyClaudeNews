@@ -3290,6 +3290,66 @@
       "examples": [
         "Anthropic社内ベンチマーク名として記事12に初出"
       ]
+    },
+    {
+      "term": "OSS Scanner",
+      "rule": "Anthropicが発表した新サービス名として原文ママで保持",
+      "firstSeenDate": "2026-10-19",
+      "lastSeenDate": "2026-10-19",
+      "occurrences": 1,
+      "examples": [
+        "OSS Scanner 登録ガイド記事に初出"
+      ]
+    },
+    {
+      "term": "Defender Advantage Fund（0xDAF）",
+      "rule": "OSS Scanner の無料提供を支えるファンド名として原文ママで保持",
+      "firstSeenDate": "2026-10-19",
+      "lastSeenDate": "2026-10-19",
+      "occurrences": 1,
+      "examples": [
+        "OSS Scanner 記事に初出、既知リスト未掲載"
+      ]
+    },
+    {
+      "term": "Claude for Open Source",
+      "rule": "OSS メンテナー向け無料 Claude Max サブスクリプションプログラム名として原文ママで保持",
+      "firstSeenDate": "2026-10-19",
+      "lastSeenDate": "2026-10-19",
+      "occurrences": 1,
+      "examples": [
+        "OSS Scanner 記事の関連支援策として初出"
+      ]
+    },
+    {
+      "term": "Critical Infrastructure Defense Program",
+      "rule": "Anthropicが発表した重要インフラ向け防衛プログラム名として原文ママで保持",
+      "firstSeenDate": "2026-10-19",
+      "lastSeenDate": "2026-10-19",
+      "occurrences": 1,
+      "examples": [
+        "OSS Scanner 記事末尾に初出、創設パートナー11社"
+      ]
+    },
+    {
+      "term": "Alpha-Omega",
+      "rule": "OpenSSF配下のオープンソースセキュリティ支援イニシアティブ名として原文ママで保持",
+      "firstSeenDate": "2026-10-19",
+      "lastSeenDate": "2026-10-19",
+      "occurrences": 1,
+      "examples": [
+        "OSS Scanner 記事の関連支援策として初出"
+      ]
+    },
+    {
+      "term": "crystl",
+      "rule": "tmux記事で紹介された専用ターミナルの製品名として原文ママで保持",
+      "firstSeenDate": "2026-10-19",
+      "lastSeenDate": "2026-10-19",
+      "occurrences": 1,
+      "examples": [
+        "tmux記事後半でエージェント管理機能の代替として紹介"
+      ]
     }
   ]
 }
