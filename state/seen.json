@@ -83,51 +83,6 @@
       "bodyLength": 4215
     },
     {
-      "normalizedUrl": "https://techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
-      "normalizedTitle": "engineer says claude code has made his job soul sucking",
-      "firstSeenDate": "2026-10-05",
-      "lastSeenDate": "2026-10-05",
-      "occurrences": 1,
-      "bodyHash": "f9c506aaef89337e",
-      "bodyLength": 4451
-    },
-    {
-      "normalizedUrl": "https://bbc.co.uk/news/articles/c5j9x9pr0240o",
-      "normalizedTitle": "pentagon stops using anthropic ai tools after blacklisting company bbc told",
-      "firstSeenDate": "2026-10-05",
-      "lastSeenDate": "2026-10-05",
-      "occurrences": 1,
-      "bodyHash": "734be052e662c907",
-      "bodyLength": 6498
-    },
-    {
-      "normalizedUrl": "https://qiita.com/sakutto-panda/items/06193ea939863dacbfb2",
-      "normalizedTitle": "2026 9 28 claude sonnet 5 5リリース 単価据え置きで実コスト3割減 proプランのデフォルトはopusに交代",
-      "firstSeenDate": "2026-10-05",
-      "lastSeenDate": "2026-10-05",
-      "occurrences": 1,
-      "bodyHash": "77957f39abd0f48f",
-      "bodyLength": 3882
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/10f31453447c9d1e4d4c",
-      "normalizedTitle": "起動直後に落ちるときの調べ方と復旧の最短ルートを解説 claude code でつまずいたときの切り分けメモ 2026 10 05",
-      "firstSeenDate": "2026-10-05",
-      "lastSeenDate": "2026-10-05",
-      "occurrences": 1,
-      "bodyHash": "4c19dd6bc34aad9c",
-      "bodyLength": 981
-    },
-    {
-      "normalizedUrl": "https://qiita.com/leomarokun/items/c366498122b981f3903f",
-      "normalizedTitle": "claude code の code review の max findings オプションで指摘数を調整する",
-      "firstSeenDate": "2026-10-05",
-      "lastSeenDate": "2026-10-05",
-      "occurrences": 1,
-      "bodyHash": "cb08a2708914cc07",
-      "bodyLength": 1546
-    },
-    {
       "normalizedUrl": "https://zohaib.cc/blog/smartest-claude-code-feature",
       "normalizedTitle": "claude code s suggested message feature i think the real customer is the model",
       "firstSeenDate": "2026-10-06",
@@ -902,10 +857,206 @@
       "normalizedUrl": "https://qiita.com/picnic/items/97faa0dd4bf19819958a",
       "normalizedTitle": "claude code v2 1 304 変更点まとめ auto mode setup code review mod仕様変更",
       "firstSeenDate": "2026-10-19",
-      "lastSeenDate": "2026-10-19",
-      "occurrences": 1,
-      "bodyHash": "935ac263b5fd8389",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 2,
+      "bodyHash": "207a2455ec2de590",
       "bodyLength": 5969
+    },
+    {
+      "normalizedUrl": "https://reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
+      "normalizedTitle": "anthropic logged net loss of over 80b in first half of 2026",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://github.com/AbdullahAlhariri/penmentor",
+      "normalizedTitle": "show hn penmentor claude marks up your handwritten math like a teacher",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "814a802bf3bff3a8",
+      "bodyLength": 3525
+    },
+    {
+      "normalizedUrl": "https://twitter.com/Polymarket/status/2112634886070919426",
+      "normalizedTitle": "anthropic recorded a staggering 80b net loss in the first half of 2026",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "da351794f67d5518",
+      "bodyLength": 861
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/attack-surface-reduction",
+      "normalizedTitle": "attack surface reduction",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "52446bbabfeda576",
+      "bodyLength": 16258
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/14189e6a378e1875849f",
+      "normalizedTitle": "anthropic researchページ刷新まとめ oss scanner glm 5 3分析 claudeのフェルマー証明",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "fe19cbb2ec26c0c2",
+      "bodyLength": 5312
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/35a393c16e8b17c89279",
+      "normalizedTitle": "anthropic newsが全面リニューアル 蒸留攻撃対策 mythos fable 5 1 haiku 5 5の用途明記まとめ",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "8ac5b9346b25108a",
+      "bodyLength": 7037
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "normalizedTitle": "claude scorpion toxin binder design",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "b32903a08ac86245",
+      "bodyLength": 15371
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
+      "normalizedTitle": "evaluating and mitigating discrimination in language model decisions",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "5e388b14132a894b",
+      "bodyLength": 1645
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/teaching-claude-why",
+      "normalizedTitle": "teaching claude why",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "9e2956202f8dd781",
+      "bodyLength": 13595
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/AI-assistance-coding-skills",
+      "normalizedTitle": "ai assistance coding skills",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "46987c99fc4eb903",
+      "bodyLength": 13909
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/tracing-thoughts-language-model",
+      "normalizedTitle": "tracing thoughts language model",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "5e2f265c03b522a6",
+      "bodyLength": 19911
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/small-samples-poison",
+      "normalizedTitle": "small samples poison",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "f09e2957115c537f",
+      "bodyLength": 13343
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/auditing-hidden-objectives",
+      "normalizedTitle": "auditing hidden objectives",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "57620330727563b0",
+      "bodyLength": 18134
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/circuits-updates-august-2024",
+      "normalizedTitle": "circuits updates august 2024",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "0832cb861fd50048",
+      "bodyLength": 618
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/circuits-updates-sept-2024",
+      "normalizedTitle": "circuits updates sept 2024",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "96c330c0d09eb07a",
+      "bodyLength": 624
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/circuits-updates-june-2024",
+      "normalizedTitle": "circuits updates june 2024",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "4afd3a5502b84190",
+      "bodyLength": 619
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/circuits-updates-july-2024",
+      "normalizedTitle": "circuits updates july 2024",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "d3dd8d24be74b8a2",
+      "bodyLength": 616
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/transformer-circuits",
+      "normalizedTitle": "transformer circuits",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "869d5f2db2d28847",
+      "bodyLength": 311
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/circuits-updates-april-2024",
+      "normalizedTitle": "circuits updates april 2024",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "d0ed2b71aab85f4e",
+      "bodyLength": 620
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/81k-economics",
+      "normalizedTitle": "81k economics",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "8be4831e15ffddb8",
+      "bodyLength": 16097
+    },
+    {
+      "normalizedUrl": "https://qiita.com/sakutto-panda/items/ddefe3f4ddf42502e850",
+      "normalizedTitle": "2026 10 7 claude haiku 5 5リリース 入力 0 10で9割安 ただしid差し替えだけでは動かない",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "a0b18978854c7c67",
+      "bodyLength": 6957
+    },
+    {
+      "normalizedUrl": "https://qiita.com/y-morimatsu/items/4d7d57a65e808383b7fd",
+      "normalizedTitle": "claude code の mods とは 自分の作業に合わせて表示と動きを作り変える仕組みを 3つのサンプルで読み解く",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "bodyHash": "37bbf3dbad1479fa",
+      "bodyLength": 19733
     }
   ]
 }

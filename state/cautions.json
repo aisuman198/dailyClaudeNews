@@ -3350,6 +3350,46 @@
       "examples": [
         "tmux記事後半でエージェント管理機能の代替として紹介"
       ]
+    },
+    {
+      "term": "3Mトークン",
+      "rule": "「300 万トークン」と日本語単位に換算する",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "examples": [
+        "Teaching Claude Why記事内でM=millionルール未適用。8500万は正しく表記済み"
+      ]
+    },
+    {
+      "term": "コード生成を全面的に依存",
+      "rule": "「コード生成に全面的に依存」と格助詞を修正",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "examples": [
+        "AI支援コーディング記事の低スコアパターン説明内で助詞「を」→「に」"
+      ]
+    },
+    {
+      "term": "gpt-5.6-terra",
+      "rule": "原文ママで保持・要注意フラグ",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "examples": [
+        "Penmentor記事のモデル選択リストに初出。GPT-5.6の新サフィックス形（-terra）"
+      ]
+    },
+    {
+      "term": "トークナイザ（長音符なし）",
+      "rule": "「トークナイザー」と長音符付きで表記",
+      "firstSeenDate": "2026-10-20",
+      "lastSeenDate": "2026-10-20",
+      "occurrences": 1,
+      "examples": [
+        "Haiku 5.5記事本文に「新トークナイザの採用」とある（長音符欠落）"
+      ]
     }
   ]
 }
