@@ -3390,6 +3390,46 @@
       "examples": [
         "Haiku 5.5記事本文に「新トークナイザの採用」とある（長音符欠落）"
       ]
+    },
+    {
+      "term": "Claude Duet",
+      "rule": "Anthropic の新プロアクティブエージェントアプリ名として今号初出。原文ママで保持",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "examples": [
+        "今号トップ記事で初出の Anthropic 公式製品名（iOS/Android/claude.ai 向け）"
+      ]
+    },
+    {
+      "term": "ant CLI",
+      "rule": "今号初出のツール名。Anthropic SDK と並記されているが正式名称未確認のため原文ママで保持し要確認",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "examples": [
+        "User Profiles 記事で「Anthropic SDK と ant CLI」と並記"
+      ]
+    },
+    {
+      "term": "Claude for OSS",
+      "rule": "既知の「Claude for Open Source」の省略形として今号初出。次回以降は表記を統一するか要確認",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "examples": [
+        "OSS Scanner 記事の新プログラム紹介で使用"
+      ]
+    },
+    {
+      "term": "Public Benefit Report",
+      "rule": "Anthropic が初めて公開した公益報告書の名称として今号初出。原文ママで保持",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "examples": [
+        "Stubbs 記事で「最初の Public Benefit Report（公益報告書）」として初出"
+      ]
     }
   ]
 }

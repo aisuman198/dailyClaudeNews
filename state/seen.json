@@ -2,15 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "normalizedUrl": "https://anthropic.com/news/life-sciences-verification-program",
-      "normalizedTitle": "life sciences verification program",
-      "firstSeenDate": "2026-09-17",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 13,
-      "bodyHash": "dbbb43cd32704361",
-      "bodyLength": 10050
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-09-23",
@@ -18,15 +9,6 @@
       "occurrences": 21,
       "bodyHash": "9da54ff92c5ec9f2",
       "bodyLength": 10787
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-      "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
-      "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 7,
-      "bodyHash": "aecb200837c66b7b",
-      "bodyLength": 16449
     },
     {
       "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
@@ -74,31 +56,6 @@
       "bodyLength": 8391
     },
     {
-      "normalizedUrl": "https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "normalizedTitle": "anthropic reported diary entry to police woman faces felony charge",
-      "firstSeenDate": "2026-10-05",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 2,
-      "bodyHash": "4dfc0bce1e7fab6f",
-      "bodyLength": 4215
-    },
-    {
-      "normalizedUrl": "https://zohaib.cc/blog/smartest-claude-code-feature",
-      "normalizedTitle": "claude code s suggested message feature i think the real customer is the model",
-      "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/5ab097aeda074f0e73b7",
-      "normalizedTitle": "claude code v2 1 290 権限 サンドボックスのセキュリティ修正21件と挙動変更まとめ",
-      "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 1,
-      "bodyHash": "d089a1a4ab610c1e",
-      "bodyLength": 7519
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/cyber-verification-program",
       "normalizedTitle": "cyber verification program",
       "firstSeenDate": "2026-10-06",
@@ -106,24 +63,6 @@
       "occurrences": 8,
       "bodyHash": "518bff8ea6f54ad8",
       "bodyLength": 10081
-    },
-    {
-      "normalizedUrl": "https://qiita.com/sorabcjanne1/items/0a8935becde94f15a6ed",
-      "normalizedTitle": "claude code マルチエージェント タクト 実装ログ vol 2 本番死活チェック lp直し テスト追加のリハーサルを回して分かったこと",
-      "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 1,
-      "bodyHash": "145103415887e74c",
-      "bodyLength": 4657
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kenimo49/items/d3f80d995f47a440bf9f",
-      "normalizedTitle": "5つのllmを3ヶ月比較して claude code 1つに戻した",
-      "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-06",
-      "occurrences": 1,
-      "bodyHash": "e2ad0dab7b3df873",
-      "bodyLength": 5276
     },
     {
       "normalizedUrl": "https://anthropic.com/claude-haiku-5-5",
@@ -244,10 +183,10 @@
       "normalizedUrl": "https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "normalizedTitle": "launching opt in vuln finding service for open source",
       "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-15",
-      "occurrences": 8,
-      "bodyHash": "8fcf4d5372ab8913",
-      "bodyLength": 7649
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 9,
+      "bodyHash": "8354400aff572547",
+      "bodyLength": 6741
     },
     {
       "normalizedUrl": "https://anthropic.com/news/anthropic-cyber-mission",
@@ -451,9 +390,9 @@
       "normalizedUrl": "https://anthropic.com/research/self-replicating-ai",
       "normalizedTitle": "self replicating ai",
       "firstSeenDate": "2026-10-12",
-      "lastSeenDate": "2026-10-19",
-      "occurrences": 8,
-      "bodyHash": "4820ade4d0e737fe",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 9,
+      "bodyHash": "535444018530ede6",
       "bodyLength": 20028
     },
     {
@@ -661,10 +600,10 @@
       "normalizedUrl": "https://anthropic.com/research/ecdsa-curve-origins",
       "normalizedTitle": "ecdsa curve origins",
       "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-19",
-      "occurrences": 4,
-      "bodyHash": "4dfb7e41571795b7",
-      "bodyLength": 16544
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 5,
+      "bodyHash": "52599c53bdc0510b",
+      "bodyLength": 15432
     },
     {
       "normalizedUrl": "https://anthropic.com/research/ai-expectations-gap",
@@ -805,10 +744,10 @@
       "normalizedUrl": "https://anthropic.com/news/public-benefit-fund",
       "normalizedTitle": "public benefit fund",
       "firstSeenDate": "2026-10-18",
-      "lastSeenDate": "2026-10-19",
-      "occurrences": 2,
-      "bodyHash": "c19077db6c7c14cb",
-      "bodyLength": 3636
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 3,
+      "bodyHash": "3f28c0ebfa2ee55a",
+      "bodyLength": 2857
     },
     {
       "normalizedUrl": "https://qiita.com/A-Rsuivivor/items/c43c67401e8c9c872b7e",
@@ -891,8 +830,8 @@
       "normalizedUrl": "https://anthropic.com/research/attack-surface-reduction",
       "normalizedTitle": "attack surface reduction",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "52446bbabfeda576",
       "bodyLength": 16258
     },
@@ -900,8 +839,8 @@
       "normalizedUrl": "https://qiita.com/picnic/items/14189e6a378e1875849f",
       "normalizedTitle": "anthropic researchページ刷新まとめ oss scanner glm 5 3分析 claudeのフェルマー証明",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "fe19cbb2ec26c0c2",
       "bodyLength": 5312
     },
@@ -918,8 +857,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-scorpion-toxin-binder-design",
       "normalizedTitle": "claude scorpion toxin binder design",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "b32903a08ac86245",
       "bodyLength": 15371
     },
@@ -927,8 +866,8 @@
       "normalizedUrl": "https://anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
       "normalizedTitle": "evaluating and mitigating discrimination in language model decisions",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "5e388b14132a894b",
       "bodyLength": 1645
     },
@@ -936,8 +875,8 @@
       "normalizedUrl": "https://anthropic.com/research/teaching-claude-why",
       "normalizedTitle": "teaching claude why",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "9e2956202f8dd781",
       "bodyLength": 13595
     },
@@ -945,8 +884,8 @@
       "normalizedUrl": "https://anthropic.com/research/AI-assistance-coding-skills",
       "normalizedTitle": "ai assistance coding skills",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "46987c99fc4eb903",
       "bodyLength": 13909
     },
@@ -954,8 +893,8 @@
       "normalizedUrl": "https://anthropic.com/research/tracing-thoughts-language-model",
       "normalizedTitle": "tracing thoughts language model",
       "firstSeenDate": "2026-10-20",
-      "lastSeenDate": "2026-10-20",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 2,
       "bodyHash": "5e2f265c03b522a6",
       "bodyLength": 19911
     },
@@ -1057,6 +996,96 @@
       "occurrences": 1,
       "bodyHash": "37bbf3dbad1479fa",
       "bodyLength": 19733
+    },
+    {
+      "normalizedUrl": "https://claude.com/resources/articles/claude-duet",
+      "normalizedTitle": "claude duet",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "0abc4698c98459d6",
+      "bodyLength": 10301
+    },
+    {
+      "normalizedUrl": "https://github.com/omnara-ai/omnara",
+      "normalizedTitle": "show hn omnara open source alternative to claude managed agents",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "c8c371b42bc38e0e",
+      "bodyLength": 16636
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/enterprise-frontier-safeguards",
+      "normalizedTitle": "enterprise frontier safeguards",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "47585ce28d57fc8c",
+      "bodyLength": 14176
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "normalizedTitle": "christopher stubbs joins long term benefit trust",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "b1bf3d55f07c37c6",
+      "bodyLength": 3880
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "normalizedTitle": "intelligence targeting conventional weapons capabilities",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "0fe1a9df7448de3f",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
+      "normalizedTitle": "yes claude can do nine loops",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "ab58c0e313c1e811",
+      "bodyLength": 19866
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "normalizedTitle": "glm 5 3 and the spread of advanced cyber capabilities",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "420f8331d7a122ff",
+      "bodyLength": 15448
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/a76a0164a1e2db4f994d",
+      "normalizedTitle": "claude user profiles と組織webhook admin api 入門 エンドカスタマー単位の安全性措置",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "bae44023334a16f8",
+      "bodyLength": 4374
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/3be552ee1e80ef332c6e",
+      "normalizedTitle": "claude code projects 入門 コーディネーターと並列スレッドの使い方",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "c0737579928558d0",
+      "bodyLength": 8569
+    },
+    {
+      "normalizedUrl": "https://qiita.com/xiongyuanmeng1006/items/e59e0453ca27176b4c51",
+      "normalizedTitle": "claude code の settings json anthropic base url でゲートウェイにつなぐ設定とエラーの対処法",
+      "firstSeenDate": "2026-10-21",
+      "lastSeenDate": "2026-10-21",
+      "occurrences": 1,
+      "bodyHash": "869e5199b938edb8",
+      "bodyLength": 7266
     }
   ]
 }
