@@ -3430,6 +3430,56 @@
       "examples": [
         "Stubbs 記事で「最初の Public Benefit Report（公益報告書）」として初出"
       ]
+    },
+    {
+      "term": "Theorem（フォーマル検証企業）",
+      "rule": "原文ママで表記（「定理」と訳さない）",
+      "firstSeenDate": "2026-10-22",
+      "lastSeenDate": "2026-10-22",
+      "occurrences": 1,
+      "examples": [
+        "形式検証記事で初出。一般英語名詞と同形の企業名"
+      ]
+    },
+    {
+      "term": "Rocq",
+      "rule": "原文ママで表記（翻訳しない）",
+      "firstSeenDate": "2026-10-22",
+      "lastSeenDate": "2026-10-22",
+      "occurrences": 1,
+      "examples": [
+        "定理証明器名（旧称Coq）として初出"
+      ]
+    },
+    {
+      "term": "OpenAI dots",
+      "rule": "小文字 dots のまま保持",
+      "firstSeenDate": "2026-10-22",
+      "lastSeenDate": "2026-10-22",
+      "occurrences": 1,
+      "examples": [
+        "DevDay 2026 発表の OpenAI エージェント製品名として初出"
+      ]
+    },
+    {
+      "term": "Claude Marketplace",
+      "rule": "原文ママで表記",
+      "firstSeenDate": "2026-10-22",
+      "lastSeenDate": "2026-10-22",
+      "occurrences": 1,
+      "examples": [
+        "Anthropicのコネクタマーケットプレイス名として初出"
+      ]
+    },
+    {
+      "term": "Agentic AI Foundation（AAIF）",
+      "rule": "原文ママで表記",
+      "firstSeenDate": "2026-10-22",
+      "lastSeenDate": "2026-10-22",
+      "occurrences": 1,
+      "examples": [
+        "Linux Foundation 傘下の組織名として初出"
+      ]
     }
   ]
 }
