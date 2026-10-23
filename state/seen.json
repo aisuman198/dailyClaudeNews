@@ -29,15 +29,6 @@
       "bodyLength": 20028
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/claude-frontier-academy",
-      "normalizedTitle": "claude frontier academy",
-      "firstSeenDate": "2026-10-02",
-      "lastSeenDate": "2026-10-08",
-      "occurrences": 6,
-      "bodyHash": "8b88311e1c63cb07",
-      "bodyLength": 8391
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/cyber-verification-program",
       "normalizedTitle": "cyber verification program",
       "firstSeenDate": "2026-10-06",
@@ -47,38 +38,11 @@
       "bodyLength": 10081
     },
     {
-      "normalizedUrl": "https://anthropic.com/claude-haiku-5-5",
-      "normalizedTitle": "claude haiku 5 5",
-      "firstSeenDate": "2026-10-07",
-      "lastSeenDate": "2026-10-08",
-      "occurrences": 2,
-      "bodyHash": "d4d593970e9d8ef1",
-      "bodyLength": 11007
-    },
-    {
       "normalizedUrl": "https://reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
       "normalizedTitle": "i think i found a planet nobody knew existed i used claude code to find it",
       "firstSeenDate": "2026-10-08",
       "lastSeenDate": "2026-10-10",
       "occurrences": 3
-    },
-    {
-      "normalizedUrl": "https://youtube.com/watch?v=3TNpOD6bov8",
-      "normalizedTitle": "lgtm looks good to me claude opus 5 5 music video",
-      "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-08",
-      "occurrences": 1,
-      "bodyHash": "9d41ac8eec5f6fdc",
-      "bodyLength": 174
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/4c677da1c146932070a7",
-      "normalizedTitle": "claude code のカスタムスラッシュコマンド claude commands を自作する実装手順 cmd が展開されない 1 と arguments の分割 サブディレクトリで名前が衝突 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-08",
-      "occurrences": 1,
-      "bodyHash": "7bd2bee7839ea846",
-      "bodyLength": 4300
     },
     {
       "normalizedUrl": "https://anthropic.com/research/the-missing-map-of-the-sky",
@@ -108,15 +72,6 @@
       "bodyLength": 15358
     },
     {
-      "normalizedUrl": "https://qiita.com/picnic/items/39382bbb3d2077cafa1c",
-      "normalizedTitle": "anthropic 2026 usage policy update 公表 claude api利用者が確認すべき点",
-      "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-08",
-      "occurrences": 1,
-      "bodyHash": "54680a994b94dd64",
-      "bodyLength": 2974
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/2026-usage-policy-update",
       "normalizedTitle": "2026 usage policy update",
       "firstSeenDate": "2026-10-08",
@@ -133,15 +88,6 @@
       "occurrences": 7,
       "bodyHash": "e47c2ef2343f84a4",
       "bodyLength": 3139
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Sidejob/items/83ddc2d5d7f53ec97a2e",
-      "normalizedTitle": "claude code が3日間で3回アップデートされた v2 1 290 293 haiku 5 5 のデフォルト化 agent の effort 制御 5つのセキュリティ修正を整理する",
-      "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-08",
-      "occurrences": 1,
-      "bodyHash": "d9815c9466b2b811",
-      "bodyLength": 7124
     },
     {
       "normalizedUrl": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police",
@@ -1019,8 +965,8 @@
       "normalizedUrl": "https://anthropic.com/research/formal-verification",
       "normalizedTitle": "formal verification",
       "firstSeenDate": "2026-10-22",
-      "lastSeenDate": "2026-10-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 2,
       "bodyHash": "26b6c7e260f80820",
       "bodyLength": 20028
     },
@@ -1086,6 +1032,195 @@
       "occurrences": 1,
       "bodyHash": "a6fabeecc0324b7f",
       "bodyLength": 3344
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
+      "normalizedTitle": "an alignment assessment of the uk aisi cybertesting incident",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "f930a98bb7704a84",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kai_kou/items/de695c5bf89b3f16cb73",
+      "normalizedTitle": "claude duet速報 openai dotsとの違いは承認設計と提供地域",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "df14c25ae0e20b82",
+      "bodyLength": 8533
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Sidejob/items/440c8f91d5b1731ca38a",
+      "normalizedTitle": "claude code v2 1 305 変更点まとめ vertex bedrock toolsearch障害修正 sandbox拡張ほか",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "3abf200bd312ce80",
+      "bodyLength": 6315
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/a08bb9c3d19df0abf425",
+      "normalizedTitle": "claude code v2 1 309 セキュリティ修正まとめ サンドボックス脱出 権限チェック フックfail openを解説",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "45da50e839e95d17",
+      "bodyLength": 5703
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/b9e83bb4a57c0755233a",
+      "normalizedTitle": "claude mythos 5のuk aisiサイバー評価インシデントとは アライメント評価記事を解説",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "314911a919c4e39a",
+      "bodyLength": 4565
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/c54e35d91aa1eb920edc",
+      "normalizedTitle": "claude tag api がベータ公開 enterprise 向け slack 設定を api で管理する方法",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "5e47ac259ff04547",
+      "bodyLength": 3990
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/zero-days",
+      "normalizedTitle": "zero days",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "7775e8ebd2e510e4",
+      "bodyLength": 13687
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
+      "normalizedTitle": "nuclear safeguards for ai",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "1ae2146791b6a662",
+      "bodyLength": 8182
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/project-vend-2",
+      "normalizedTitle": "project vend 2",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "9176d7357ae6325e",
+      "bodyLength": 19214
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/property-based-testing",
+      "normalizedTitle": "property based testing",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "ef29033417134d13",
+      "bodyLength": 13561
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/smart-contracts",
+      "normalizedTitle": "smart contracts",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "2ae46ea24022cdbb",
+      "bodyLength": 16795
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits",
+      "normalizedTitle": "cyber toolkits",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "f9baebadb05d6414",
+      "bodyLength": 4438
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
+      "normalizedTitle": "cyber toolkits update",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "6962c84d2c186fa6",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/exploit",
+      "normalizedTitle": "exploit",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "84ecd0a63d9ee02d",
+      "bodyLength": 19570
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/biorisk",
+      "normalizedTitle": "biorisk",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "1c4f88fac17c2ddd",
+      "bodyLength": 15399
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-4-cyber",
+      "normalizedTitle": "claude 4 cyber",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "f8daf47ab6e11d9d",
+      "bodyLength": 1290
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/critical-infrastructure-defense",
+      "normalizedTitle": "critical infrastructure defense",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "a0ffd21072153ff1",
+      "bodyLength": 5157
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-competitions",
+      "normalizedTitle": "cyber competitions",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "4d5860b5e9aaa9f9",
+      "bodyLength": 17083
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
+      "normalizedTitle": "discovering cryptographic weaknesses",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "141682a34e83136d",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
+      "normalizedTitle": "economic index june 2026 report",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "d4f450bc6382311f",
+      "bodyLength": 20027
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/mythos-preview",
+      "normalizedTitle": "mythos preview",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "bodyHash": "a545ea0c55be41ca",
+      "bodyLength": 19641
     }
   ]
 }
