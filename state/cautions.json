@@ -3480,6 +3480,56 @@
       "examples": [
         "Linux Foundation 傘下の組織名として初出"
       ]
+    },
+    {
+      "term": "PyPi",
+      "rule": "Python Package Index の正式表記は全大文字「PyPI」",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "examples": [
+        "UK AISI 記事本文に「PyPi インシデント」と誤記"
+      ]
+    },
+    {
+      "term": "フォーマフォーマルトレーニング",
+      "rule": "「フォーマル」の重複タイプミス。「フォーマルトレーニング」と修正",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "examples": [
+        "Mythos Preview 記事冒頭段落で「フォーマ」が重複"
+      ]
+    },
+    {
+      "term": "370 万ドル相当に相当した",
+      "rule": "「相当」の重複冗長。「370 万ドル相当だった」と修正",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "examples": [
+        "スマートコントラクト記事で「相当に相当した」が発生"
+      ]
+    },
+    {
+      "term": "快適に超える",
+      "rule": "「comfortably exceeded」の訳として不自然。「余裕をもって上回る」が適切",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "examples": [
+        "Biorisk 記事の VCT 評価結果の説明に出現"
+      ]
+    },
+    {
+      "term": "英国 AI Security Institute",
+      "rule": "AISI の正式英語名は「AI Safety Institute」。「Security」は誤り（既知ルール補強）",
+      "firstSeenDate": "2026-10-23",
+      "lastSeenDate": "2026-10-23",
+      "occurrences": 1,
+      "examples": [
+        "UK AISI 記事本文で機関名の英語展開が誤記されていた"
+      ]
     }
   ]
 }
