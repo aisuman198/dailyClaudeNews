@@ -3530,6 +3530,26 @@
       "examples": [
         "UK AISI 記事本文で機関名の英語展開が誤記されていた"
       ]
+    },
+    {
+      "term": "identity crisis",
+      "rule": "引用内英文未訳ルール適用：「アイデンティティクライシス」と訳す",
+      "firstSeenDate": "2026-10-24",
+      "lastSeenDate": "2026-10-24",
+      "occurrences": 1,
+      "examples": [
+        "Cyber Competitions 記事内の英語引用句が未訳だった"
+      ]
+    },
+    {
+      "term": "spiritual bliss attractor state",
+      "rule": "引用内英文未訳ルール適用：「精神的至福のアトラクター状態」と訳す",
+      "firstSeenDate": "2026-10-24",
+      "lastSeenDate": "2026-10-24",
+      "occurrences": 1,
+      "examples": [
+        "同記事内でClaude 4システムカード由来の英語句が未訳だった"
+      ]
     }
   ]
 }
