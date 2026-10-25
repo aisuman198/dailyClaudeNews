@@ -38,13 +38,6 @@
       "bodyLength": 10081
     },
     {
-      "normalizedUrl": "https://reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "normalizedTitle": "i think i found a planet nobody knew existed i used claude code to find it",
-      "firstSeenDate": "2026-10-08",
-      "lastSeenDate": "2026-10-10",
-      "occurrences": 3
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/the-missing-map-of-the-sky",
       "normalizedTitle": "the missing map of the sky",
       "firstSeenDate": "2026-10-08",
@@ -106,51 +99,6 @@
       "occurrences": 7,
       "bodyHash": "9307880568115723",
       "bodyLength": 12297
-    },
-    {
-      "normalizedUrl": "https://nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051",
-      "normalizedTitle": "anthropic ai model submits false tip on unsolved philly murder police say",
-      "firstSeenDate": "2026-10-10",
-      "lastSeenDate": "2026-10-10",
-      "occurrences": 1,
-      "bodyHash": "e2961d04fb831cd0",
-      "bodyLength": 4937
-    },
-    {
-      "normalizedUrl": "https://bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
-      "normalizedTitle": "hackers abuse google ads bing redirects to push claude clickfix attacks",
-      "firstSeenDate": "2026-10-10",
-      "lastSeenDate": "2026-10-10",
-      "occurrences": 1,
-      "bodyHash": "323d1c79fa2e7f8c",
-      "bodyLength": 6019
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Sidejob/items/23164cd9bd478d782a80",
-      "normalizedTitle": "claude code v2 1 296 で変わった6つのポイント shift jis誤書き換えバグ修正 allow large追加 529リトライ制御まとめ 構成v2",
-      "firstSeenDate": "2026-10-10",
-      "lastSeenDate": "2026-10-10",
-      "occurrences": 1,
-      "bodyHash": "f23cf2ca9055b15a",
-      "bodyLength": 5115
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/da705f93cf370130225f",
-      "normalizedTitle": "claude api の公式cli ant 入門 インストールから ant apply による infrastructure as code まで",
-      "firstSeenDate": "2026-10-10",
-      "lastSeenDate": "2026-10-10",
-      "occurrences": 1,
-      "bodyHash": "7d2b2e5b09e5f543",
-      "bodyLength": 9752
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/1cbec019d7d3285197a9",
-      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 289 v2 1 296",
-      "firstSeenDate": "2026-10-10",
-      "lastSeenDate": "2026-10-10",
-      "occurrences": 1,
-      "bodyHash": "22a863572036a7fa",
-      "bodyLength": 4144
     },
     {
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/4f6188e11aed806a1ade",
@@ -1055,8 +1003,8 @@
       "normalizedUrl": "https://anthropic.com/research/zero-days",
       "normalizedTitle": "zero days",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "de9305c16e1e7880",
       "bodyLength": 13688
     },
@@ -1064,8 +1012,8 @@
       "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
       "normalizedTitle": "nuclear safeguards for ai",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "1ae2146791b6a662",
       "bodyLength": 8182
     },
@@ -1073,8 +1021,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-vend-2",
       "normalizedTitle": "project vend 2",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "baceb7ed73169278",
       "bodyLength": 19215
     },
@@ -1082,8 +1030,8 @@
       "normalizedUrl": "https://anthropic.com/research/property-based-testing",
       "normalizedTitle": "property based testing",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "ef29033417134d13",
       "bodyLength": 13561
     },
@@ -1091,8 +1039,8 @@
       "normalizedUrl": "https://anthropic.com/research/smart-contracts",
       "normalizedTitle": "smart contracts",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "2ae46ea24022cdbb",
       "bodyLength": 16795
     },
@@ -1100,8 +1048,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-toolkits",
       "normalizedTitle": "cyber toolkits",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "f9baebadb05d6414",
       "bodyLength": 4438
     },
@@ -1109,8 +1057,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
       "normalizedTitle": "cyber toolkits update",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "6962c84d2c186fa6",
       "bodyLength": 20028
     },
@@ -1118,8 +1066,8 @@
       "normalizedUrl": "https://anthropic.com/research/exploit",
       "normalizedTitle": "exploit",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "84ecd0a63d9ee02d",
       "bodyLength": 19570
     },
@@ -1127,8 +1075,8 @@
       "normalizedUrl": "https://anthropic.com/research/biorisk",
       "normalizedTitle": "biorisk",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "1c4f88fac17c2ddd",
       "bodyLength": 15399
     },
@@ -1136,8 +1084,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-4-cyber",
       "normalizedTitle": "claude 4 cyber",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "f8daf47ab6e11d9d",
       "bodyLength": 1290
     },
@@ -1145,8 +1093,8 @@
       "normalizedUrl": "https://anthropic.com/research/critical-infrastructure-defense",
       "normalizedTitle": "critical infrastructure defense",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "ee55c7372baf49a1",
       "bodyLength": 5158
     },
@@ -1154,8 +1102,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-competitions",
       "normalizedTitle": "cyber competitions",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "c7fe4fad8c9d8b2d",
       "bodyLength": 17084
     },
@@ -1163,8 +1111,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "normalizedTitle": "discovering cryptographic weaknesses",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "141682a34e83136d",
       "bodyLength": 20028
     },
@@ -1172,8 +1120,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
       "normalizedTitle": "economic index june 2026 report",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "d4f450bc6382311f",
       "bodyLength": 20027
     },
@@ -1181,8 +1129,8 @@
       "normalizedUrl": "https://anthropic.com/research/mythos-preview",
       "normalizedTitle": "mythos preview",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 3,
       "bodyHash": "a545ea0c55be41ca",
       "bodyLength": 19641
     },
@@ -1190,10 +1138,46 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/9a50e8fc034637d1a3e3",
       "normalizedTitle": "max pro 契約なのに claude code で credit balance is too low が出るのは 環境に残った anthropic api key のせい",
       "firstSeenDate": "2026-10-24",
-      "lastSeenDate": "2026-10-24",
-      "occurrences": 1,
-      "bodyHash": "e0500665d33da224",
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 2,
+      "bodyHash": "d68f064d90d1d79e",
       "bodyLength": 5293
+    },
+    {
+      "normalizedUrl": "https://minimaxir.com/2026/10/cheap-llms",
+      "normalizedTitle": "openai and anthropic cut their llm prices by up to 80 within a few months why",
+      "firstSeenDate": "2026-10-25",
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 1,
+      "bodyHash": "7af0aa1de1d756f4",
+      "bodyLength": 14628
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Sidejob/items/1ac689b79fd92be83f10",
+      "normalizedTitle": "claude code v2 1 310 リリース 企業ゲートウェイの互換性問題が直った話",
+      "firstSeenDate": "2026-10-25",
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 1,
+      "bodyHash": "6b75c1731f17b6d1",
+      "bodyLength": 6014
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/8ec10d50d106821f4673",
+      "normalizedTitle": "claude code で何を送っても api error 400 due to tool use concurrency issues になる詰んだセッションの直し方 rewind から順に",
+      "firstSeenDate": "2026-10-25",
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 1,
+      "bodyHash": "273ac064e1c0c0cd",
+      "bodyLength": 5075
+    },
+    {
+      "normalizedUrl": "https://qiita.com/sumitsuke/items/0e2a4909594d15911a66",
+      "normalizedTitle": "claude api の sdk 2 0 0 は temperature を引数で渡すと送る前に止まる 上げる前に探す行と 2 択",
+      "firstSeenDate": "2026-10-25",
+      "lastSeenDate": "2026-10-25",
+      "occurrences": 1,
+      "bodyHash": "56ea269a453560d1",
+      "bodyLength": 5862
     }
   ]
 }
