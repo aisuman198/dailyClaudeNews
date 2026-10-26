@@ -3550,6 +3550,46 @@
       "examples": [
         "同記事内でClaude 4システムカード由来の英語句が未訳だった"
       ]
+    },
+    {
+      "term": "DesignSync",
+      "rule": "原文ママで保持（Claude Code のデザイン同期機能名として初出）",
+      "firstSeenDate": "2026-10-26",
+      "lastSeenDate": "2026-10-26",
+      "occurrences": 1,
+      "examples": [
+        "既知リスト未掲載。次回以降も原文ママで保持"
+      ]
+    },
+    {
+      "term": "Claude Design",
+      "rule": "原文ママで保持（Claude の新プロダクト/機能名として初出）",
+      "firstSeenDate": "2026-10-26",
+      "lastSeenDate": "2026-10-26",
+      "occurrences": 1,
+      "examples": [
+        "Claude Tag・Claude Science等と同パターン。要確認フラグ"
+      ]
+    },
+    {
+      "term": "Long-Term Benefit Trust（LTBT）",
+      "rule": "原文ママで保持（Anthropic S-1 記載のガバナンス機関名として初出）",
+      "firstSeenDate": "2026-10-26",
+      "lastSeenDate": "2026-10-26",
+      "occurrences": 1,
+      "examples": [
+        "Anthropic IPO 関連の固有名詞群として登録"
+      ]
+    },
+    {
+      "term": "Founder LLC",
+      "rule": "原文ママで保持（Anthropic S-1 記載の創業者保有 LLC 名として初出）",
+      "firstSeenDate": "2026-10-26",
+      "lastSeenDate": "2026-10-26",
+      "occurrences": 1,
+      "examples": [
+        "Long-Term Benefit Trust と同系列の S-1 固有名詞"
+      ]
     }
   ]
 }
