@@ -49,6 +49,11 @@ describe('isPriorityItem', () => {
     expect(isPriorityItem(mk({ title: 'Gemini Ultra updates' }), ['Anthropic', 'Claude', 'Codex'])).toBe(false)
   })
 
+  it('matches Codex in a Japanese title followed by kana', async () => {
+    const { isPriorityItem } = await load()
+    expect(isPriorityItem(mk({ title: 'Codexでリポジトリ全体をリファクタリングする' }), ['Codex'])).toBe(true)
+  })
+
   it('is case-insensitive', async () => {
     const { isPriorityItem } = await load()
     expect(isPriorityItem(mk({ title: 'ANTHROPIC news' }), ['anthropic'])).toBe(true)

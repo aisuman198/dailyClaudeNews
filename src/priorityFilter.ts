@@ -1,16 +1,9 @@
 import { config } from './config.js'
+import { matchesAnyKeyword } from './keywordMatch.js'
 import type { NewsItem } from './types.js'
 
-function escapeRegex(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-}
-
 export function isPriorityItem(item: NewsItem, keywords: string[]): boolean {
-  const haystack = `${item.title} ${item.url}`
-  return keywords.some((k) => {
-    const re = new RegExp(`(?:^|[^\\p{L}\\p{N}])${escapeRegex(k)}(?:[^\\p{L}\\p{N}]|$)`, 'iu')
-    return re.test(haystack)
-  })
+  return matchesAnyKeyword(`${item.title} ${item.url}`, keywords)
 }
 
 function scoreOf(item: NewsItem): number {

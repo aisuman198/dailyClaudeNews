@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { fetchAnthropicBlog, fetchZenn, fetchQiita } from './fetcher.js'
+import { fetchAnthropicBlog, fetchOpenAiBlog, fetchZenn, fetchQiita, pickRoundRobin } from './fetcher.js'
+import type { NewsItem } from './types.js'
 
 // lookback 期間 (既定 7 日) の内側に入るよう、実行時刻からの相対で日付を作る
 function daysAgoIso(days: number): string {
@@ -167,5 +168,75 @@ describe('fetchQiita', () => {
   it('throws when HTTP error', async () => {
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false, status: 429 }))
     await expect(fetchQiita()).rejects.toThrow('429')
+  })
+})
+
+const OPENAI_RSS = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>OpenAI News</title>
+    <item>
+      <title><![CDATA[Introducing GPT-5-Codex]]></title>
+      <link>https://openai.com/index/introducing-gpt-5-codex</link>
+      <pubDate>${new Date(daysAgoIso(1)).toUTCString()}</pubDate>
+    </item>
+    <item>
+      <title>Codex is now generally available</title>
+      <link>https://openai.com/index/codex-now-generally-available</link>
+      <pubDate>${new Date(daysAgoIso(2)).toUTCString()}</pubDate>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Atlas</title>
+      <link>https://openai.com/index/introducing-chatgpt-atlas</link>
+      <pubDate>${new Date(daysAgoIso(1)).toUTCString()}</pubDate>
+    </item>
+    <item>
+      <title>Codex old announcement</title>
+      <link>https://openai.com/index/codex-old</link>
+      <pubDate>${new Date(daysAgoIso(365)).toUTCString()}</pubDate>
+    </item>
+  </channel>
+</rss>`
+
+describe('fetchOpenAiBlog', () => {
+  beforeEach(() => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+      ok: true,
+      text: async () => OPENAI_RSS,
+    }))
+  })
+  afterEach(() => { vi.unstubAllGlobals() })
+
+  it('Codex 関連の記事だけを source=openai-blog で返す', async () => {
+    const items = await fetchOpenAiBlog()
+    expect(items.map((i) => i.url)).toEqual([
+      'https://openai.com/index/introducing-gpt-5-codex',
+      'https://openai.com/index/codex-now-generally-available',
+    ])
+    expect(items[0]!.source).toBe('openai-blog')
+    expect(items[0]!.title).toBe('Introducing GPT-5-Codex')
+  })
+
+  it('throws when HTTP error', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false, status: 502 }))
+    await expect(fetchOpenAiBlog()).rejects.toThrow('502')
+  })
+})
+
+describe('pickRoundRobin', () => {
+  const mk = (url: string): NewsItem => ({ source: 'zenn', title: url, url, publishedAt: new Date() })
+
+  it('記事数の多いトピックが枠を独占せず、各トピックから順に取る', () => {
+    const claude = ['c1', 'c2', 'c3', 'c4', 'c5'].map(mk)
+    const codex = ['x1', 'x2'].map(mk)
+    const picked = pickRoundRobin([claude, codex], 4)
+    expect(picked.map((i) => i.url)).toEqual(['c1', 'x1', 'c2', 'x2'])
+  })
+
+  it('トピック間で重複する URL は 1 回だけ採用し、残りの枠は他で埋める', () => {
+    const a = ['dup', 'a2'].map(mk)
+    const b = ['dup', 'b2'].map(mk)
+    const picked = pickRoundRobin([a, b], 10)
+    expect(picked.map((i) => i.url)).toEqual(['dup', 'b2', 'a2'])
   })
 })

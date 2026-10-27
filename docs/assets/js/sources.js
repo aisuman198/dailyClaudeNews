@@ -19,6 +19,7 @@
   const SOURCE_LABELS = {
     'hacker-news': 'HACKER NEWS',
     'anthropic-blog': 'ANTHROPIC',
+    'openai-blog': 'OPENAI',
     'zenn': 'ZENN',
     'qiita': 'QIITA',
   };

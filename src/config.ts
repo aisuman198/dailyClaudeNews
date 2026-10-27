@@ -41,12 +41,20 @@ export const config = {
   hnTopStoriesApi: env('HN_TOP_STORIES_API', 'https://hacker-news.firebaseio.com/v0/topstories.json'),
   hnItemApi: env('HN_ITEM_API', 'https://hacker-news.firebaseio.com/v0/item'),
   hnMaxItems: envNum('HN_MAX_ITEMS', 100),
-  zennTopics: env('ZENN_TOPICS', 'claudecode,claude,anthropic').split(',').map((s) => s.trim()).filter(Boolean),
-  zennMaxItems: envNum('ZENN_MAX_ITEMS', 5),
-  qiitaTags: env('QIITA_TAGS', 'anthropic,claude').split(',').map((s) => s.trim()).filter(Boolean),
-  qiitaMaxItems: envNum('QIITA_MAX_ITEMS', 5),
+  zennTopics: env('ZENN_TOPICS', 'claudecode,claude,anthropic,codex').split(',').map((s) => s.trim()).filter(Boolean),
+  zennMaxItems: envNum('ZENN_MAX_ITEMS', 6),
+  qiitaTags: env('QIITA_TAGS', 'anthropic,claude,codex').split(',').map((s) => s.trim()).filter(Boolean),
+  qiitaMaxItems: envNum('QIITA_MAX_ITEMS', 6),
+  // OpenAI 公式ニュース (RSS)。OPENAI_KEYWORDS に一致する記事だけを取り込む (既定は Codex 関連のみ)。
+  openaiRss: env('OPENAI_RSS', 'https://openai.com/news/rss.xml'),
+  openaiLookbackDays: envNum('OPENAI_LOOKBACK_DAYS', 7),
+  openaiMaxItems: envNum('OPENAI_MAX_ITEMS', 5),
+  openaiKeywords: env('OPENAI_KEYWORDS', 'Codex')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean),
 
-  hnKeywords: env('HN_KEYWORDS', 'Claude,Anthropic,AI,LLM,GPT,Gemini')
+  hnKeywords: env('HN_KEYWORDS', 'Claude,Anthropic,Codex,AI,LLM,GPT,Gemini')
     .split(',')
     .map((s) => s.trim())
     .filter(Boolean),

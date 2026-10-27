@@ -2,7 +2,7 @@
 // 新しいニュースソースを追加したら、ここに足したうえで
 // docs/assets/js/sources.js の SOURCE_LABELS にも表示名を追加すること。
 // 追加漏れは src/sources.test.ts（contract test）が検出する。
-export const NEWS_SOURCES = ['anthropic-blog', 'hacker-news', 'zenn', 'qiita'] as const
+export const NEWS_SOURCES = ['anthropic-blog', 'openai-blog', 'hacker-news', 'zenn', 'qiita'] as const
 
 export type NewsSource = (typeof NEWS_SOURCES)[number]
 
