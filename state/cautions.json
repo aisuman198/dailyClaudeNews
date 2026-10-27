@@ -3590,6 +3590,46 @@
       "examples": [
         "Long-Term Benefit Trust と同系列の S-1 固有名詞"
       ]
+    },
+    {
+      "term": "著作者人格権",
+      "rule": "「著者人格権」は誤記。著作権法の正式用語は「著作者人格権」",
+      "firstSeenDate": "2026-10-27",
+      "lastSeenDate": "2026-10-27",
+      "occurrences": 1,
+      "examples": [
+        "第1記事末尾の Paul Goldstein コメント箇所"
+      ]
+    },
+    {
+      "term": "GSA（原題の大文字表記）",
+      "rule": "「Gsa」→「GSA」。政府機関略称は全大文字表記（TCS/DXC/MOUと同パターン）",
+      "firstSeenDate": "2026-10-27",
+      "lastSeenDate": "2026-10-27",
+      "occurrences": 1,
+      "examples": [
+        "GSA記事の <sub>原題</sub> 行"
+      ]
+    },
+    {
+      "term": "Claude Cowork のタイトル省略",
+      "rule": "原題「alternative to Claude Cowork and ChatGPT」の Cowork がカードタイトルで省略されていた。「Claude Cowork・ChatGPT 代替ツール」と記載する",
+      "firstSeenDate": "2026-10-27",
+      "lastSeenDate": "2026-10-27",
+      "occurrences": 1,
+      "examples": [
+        "Hob 記事のカードタイトル"
+      ]
+    },
+    {
+      "term": "ウィンドウをコンテキストを（格助詞二重）",
+      "rule": "「設定したウィンドウをコンテキストを小さくする方向にのみ有効」→「設定したウィンドウがコンテキストを小さくする方向にのみ有効」。二重 を は格助詞誤り",
+      "firstSeenDate": "2026-10-27",
+      "lastSeenDate": "2026-10-27",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code v2.1.312 記事の autoCompactWindow 説明文"
+      ]
     }
   ]
 }
