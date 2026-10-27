@@ -27,7 +27,7 @@
 ```typescript
 type NewsItem = {
   // --- アイデンティティ（fetch時に確定）---
-  source: 'anthropic-blog' | 'hacker-news' | 'zenn' | 'qiita'
+  source: 'anthropic-blog' | 'openai-blog' | 'hacker-news' | 'zenn' | 'qiita'
   title: string
   url: string
   publishedAt: Date

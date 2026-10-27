@@ -1,5 +1,6 @@
 import { XMLParser } from 'fast-xml-parser'
 import { config } from './config.js'
+import { matchesAnyKeyword } from './keywordMatch.js'
 import { redact } from './redact.js'
 import type { NewsItem } from './types.js'
 
@@ -95,11 +96,9 @@ export async function fetchHackerNews(keywords: string[], maxItems: number): Pro
     }),
   )
 
-  const escapeRe = (s: string): string => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const keywordRes = keywords.map((k) => new RegExp(`(?:^|[^\\p{L}\\p{N}])${escapeRe(k)}(?:[^\\p{L}\\p{N}]|$)`, 'iu'))
   return items
     .filter((i): i is HnItem => i !== null && i.type === 'story' && !!i.title && !!i.url)
-    .filter((i) => keywordRes.some((re) => re.test(i.title!) || re.test(i.url!)))
+    .filter((i) => matchesAnyKeyword(i.title!, keywords) || matchesAnyKeyword(i.url!, keywords))
     .map((i): NewsItem => ({
       source: 'hacker-news',
       title: i.title!.trim(),
@@ -109,42 +108,69 @@ export async function fetchHackerNews(keywords: string[], maxItems: number): Pro
     }))
 }
 
-export async function fetchZenn(): Promise<NewsItem[]> {
-  const allItems: NewsItem[] = []
-  for (const topic of config.zennTopics) {
-    const url = `https://zenn.dev/topics/${topic}/feed`
-    const res = await fetchWithTimeout(url, FETCH_TIMEOUT_MS)
-    if (!res.ok) throw new Error(`Zenn RSS HTTP ${res.status} (topic=${topic})`)
-    const xml = await res.text()
-    const parsed = RSS_PARSER.parse(xml) as { feed?: { entry?: unknown } }
-    const rawEntries = parsed.feed?.entry
-    const entries = Array.isArray(rawEntries) ? rawEntries : rawEntries ? [rawEntries] : []
-    for (const e of entries) {
-      const entry = e as { title?: unknown; link?: unknown; published?: string; updated?: string }
-      const titleRaw = entry.title
-      const title = typeof titleRaw === 'object' && titleRaw !== null
-        ? String((titleRaw as Record<string, unknown>)['#text'] ?? '')
-        : String(titleRaw ?? '').trim()
-      const linkRaw = entry.link
-      const link = typeof linkRaw === 'object' && linkRaw !== null
-        ? String((linkRaw as Record<string, unknown>)['href'] ?? '')
-        : String(linkRaw ?? '').trim()
-      if (!title || !link) continue
-      const dateStr = entry.published ?? entry.updated ?? ''
-      const publishedAt = dateStr ? new Date(dateStr) : new Date()
-      allItems.push({ source: 'zenn', title, url: link, publishedAt })
+/**
+ * トピック / タグごとの取得結果から、最大 `maxItems` 件を選ぶ。
+ * 各リストは「良い順」に並んでいる前提で、トピック間を 1 件ずつ巡回して取る (URL 重複は除外)。
+ * 全体を一括で並べて上位を切ると、記事数の多いトピック (claude 等) が枠を独占し、
+ * codex のような小さめのトピックの記事が 1 件も残らないため。
+ */
+export function pickRoundRobin(lists: NewsItem[][], maxItems: number): NewsItem[] {
+  const seen = new Set<string>()
+  const picked: NewsItem[] = []
+  const cursors = lists.map(() => 0)
+  let progressed = true
+  while (picked.length < maxItems && progressed) {
+    progressed = false
+    for (const [idx, list] of lists.entries()) {
+      if (picked.length >= maxItems) break
+      while (cursors[idx]! < list.length) {
+        const item = list[cursors[idx]!]!
+        cursors[idx]! += 1
+        if (seen.has(item.url)) continue
+        seen.add(item.url)
+        picked.push(item)
+        progressed = true
+        break
+      }
     }
   }
-  // dedupe by URL within Zenn results, sort by date, cap
-  const seen = new Set<string>()
-  return allItems
-    .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
-    .filter((item) => {
-      if (seen.has(item.url)) return false
-      seen.add(item.url)
-      return true
-    })
-    .slice(0, config.zennMaxItems)
+  return picked
+}
+
+const byDateDesc = (a: NewsItem, b: NewsItem): number => b.publishedAt.getTime() - a.publishedAt.getTime()
+const byScoreDesc = (a: NewsItem, b: NewsItem): number => (b.score ?? 0) - (a.score ?? 0)
+
+async function fetchZennTopic(topic: string): Promise<NewsItem[]> {
+  const allItems: NewsItem[] = []
+  const url = `https://zenn.dev/topics/${topic}/feed`
+  const res = await fetchWithTimeout(url, FETCH_TIMEOUT_MS)
+  if (!res.ok) throw new Error(`Zenn RSS HTTP ${res.status} (topic=${topic})`)
+  const xml = await res.text()
+  const parsed = RSS_PARSER.parse(xml) as { feed?: { entry?: unknown } }
+  const rawEntries = parsed.feed?.entry
+  const entries = Array.isArray(rawEntries) ? rawEntries : rawEntries ? [rawEntries] : []
+  for (const e of entries) {
+    const entry = e as { title?: unknown; link?: unknown; published?: string; updated?: string }
+    const titleRaw = entry.title
+    const title = typeof titleRaw === 'object' && titleRaw !== null
+      ? String((titleRaw as Record<string, unknown>)['#text'] ?? '')
+      : String(titleRaw ?? '').trim()
+    const linkRaw = entry.link
+    const link = typeof linkRaw === 'object' && linkRaw !== null
+      ? String((linkRaw as Record<string, unknown>)['href'] ?? '')
+      : String(linkRaw ?? '').trim()
+    if (!title || !link) continue
+    const dateStr = entry.published ?? entry.updated ?? ''
+    const publishedAt = dateStr ? new Date(dateStr) : new Date()
+    allItems.push({ source: 'zenn', title, url: link, publishedAt })
+  }
+  return allItems.sort(byDateDesc)
+}
+
+// トピックごとのフィードは並列に取得する (トピックを増やしても取得時間が伸びないように)。
+export async function fetchZenn(): Promise<NewsItem[]> {
+  const perTopic = await Promise.all(config.zennTopics.map(fetchZennTopic))
+  return pickRoundRobin(perTopic, config.zennMaxItems).sort(byDateDesc)
 }
 
 type QiitaItem = {
@@ -154,29 +180,60 @@ type QiitaItem = {
   likes_count?: number
 }
 
-export async function fetchQiita(): Promise<NewsItem[]> {
+async function fetchQiitaTag(tag: string): Promise<NewsItem[]> {
   const allItems: NewsItem[] = []
-  for (const tag of config.qiitaTags) {
-    const url = `https://qiita.com/api/v2/tags/${encodeURIComponent(tag)}/items?sort=stock&per_page=${config.qiitaMaxItems}`
-    const res = await fetchWithTimeout(url, FETCH_TIMEOUT_MS)
-    if (!res.ok) throw new Error(`Qiita API HTTP ${res.status} (tag=${tag})`)
-    const items = (await res.json()) as QiitaItem[]
-    for (const item of items) {
-      if (!item.title || !item.url) continue
-      const publishedAt = item.created_at ? new Date(item.created_at) : new Date()
-      allItems.push({ source: 'qiita', title: item.title.trim(), url: item.url.trim(), publishedAt, score: item.likes_count })
-    }
+  const url = `https://qiita.com/api/v2/tags/${encodeURIComponent(tag)}/items?sort=stock&per_page=${config.qiitaMaxItems}`
+  const res = await fetchWithTimeout(url, FETCH_TIMEOUT_MS)
+  if (!res.ok) throw new Error(`Qiita API HTTP ${res.status} (tag=${tag})`)
+  const items = (await res.json()) as QiitaItem[]
+  for (const item of items) {
+    if (!item.title || !item.url) continue
+    const publishedAt = item.created_at ? new Date(item.created_at) : new Date()
+    allItems.push({ source: 'qiita', title: item.title.trim(), url: item.url.trim(), publishedAt, score: item.likes_count })
   }
-  // dedupe by URL within Qiita results, sort by score desc, cap
-  const seen = new Set<string>()
-  return allItems
-    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
-    .filter((item) => {
-      if (seen.has(item.url)) return false
-      seen.add(item.url)
-      return true
+  return allItems.sort(byScoreDesc)
+}
+
+// タグごとの API 呼び出しは並列に行う。
+export async function fetchQiita(): Promise<NewsItem[]> {
+  const perTag = await Promise.all(config.qiitaTags.map(fetchQiitaTag))
+  return pickRoundRobin(perTag, config.qiitaMaxItems).sort(byScoreDesc)
+}
+
+type RssItem = { title?: unknown; link?: unknown; pubDate?: unknown }
+
+const rssText = (v: unknown): string => {
+  if (typeof v === 'object' && v !== null) return String((v as Record<string, unknown>)['#text'] ?? '').trim()
+  return String(v ?? '').trim()
+}
+
+// OpenAI 公式ニュースの RSS から、Codex 関連 (OPENAI_KEYWORDS) の記事だけを拾う。
+// OpenAI の発表全般は対象外にし、Codex の一次情報を取りこぼさないことを目的とする。
+export async function fetchOpenAiBlog(): Promise<NewsItem[]> {
+  const res = await fetchWithTimeout(config.openaiRss, FETCH_TIMEOUT_MS)
+  if (!res.ok) throw new Error(`OpenAI RSS HTTP ${res.status}`)
+  const xml = await res.text()
+  const parsed = RSS_PARSER.parse(xml) as { rss?: { channel?: { item?: unknown } } }
+  const rawItems = parsed.rss?.channel?.item
+  const entries = Array.isArray(rawItems) ? rawItems : rawItems ? [rawItems] : []
+
+  const cutoff = new Date()
+  cutoff.setDate(cutoff.getDate() - config.openaiLookbackDays)
+
+  return entries
+    .map((raw): NewsItem | null => {
+      const e = raw as RssItem
+      const title = rssText(e.title)
+      const link = rssText(e.link)
+      if (!title || !link) return null
+      if (!matchesAnyKeyword(`${title} ${link}`, config.openaiKeywords)) return null
+      const publishedAt = new Date(rssText(e.pubDate))
+      if (Number.isNaN(publishedAt.getTime()) || publishedAt < cutoff) return null
+      return { source: 'openai-blog', title, url: link, publishedAt }
     })
-    .slice(0, config.qiitaMaxItems)
+    .filter((i): i is NewsItem => i !== null)
+    .sort(byDateDesc)
+    .slice(0, config.openaiMaxItems)
 }
 
 export async function fetchAll(): Promise<NewsItem[]> {
@@ -185,9 +242,10 @@ export async function fetchAll(): Promise<NewsItem[]> {
     fetchHackerNews(config.hnKeywords, config.hnMaxItems),
     fetchZenn(),
     fetchQiita(),
+    fetchOpenAiBlog(),
   ])
 
-  const labels = ['anthropic-blog', 'hacker-news', 'zenn', 'qiita']
+  const labels = ['anthropic-blog', 'hacker-news', 'zenn', 'qiita', 'openai-blog']
   const items: NewsItem[] = []
   const errors: string[] = []
   for (const [idx, r] of results.entries()) {
