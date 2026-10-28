@@ -3630,6 +3630,26 @@
       "examples": [
         "Claude Code v2.1.312 記事の autoCompactWindow 説明文"
       ]
+    },
+    {
+      "term": "一人法人 Mithril Medicine を取得した",
+      "rule": "会社買収の述語は「買収した」が自然。「取得する」は資産取得に用いる語であり一人法人であっても法人の買収には「買収した」を使う",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "examples": [
+        "記事2本文「Mithril Medicineを取得した」→「買収した」に修正"
+      ]
+    },
+    {
+      "term": "実施された時点のものだが",
+      "rule": "「実施された時点のものだが」は冗長。「実施されたものだが」が自然な日本語",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "examples": [
+        "記事1本文「約2か月後に実施された時点のものだが」→「実施されたものだが」に修正"
+      ]
     }
   ]
 }

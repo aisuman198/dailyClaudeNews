@@ -11,24 +11,6 @@
       "bodyLength": 10787
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/your-thoughts-on-ai",
-      "normalizedTitle": "your thoughts on ai",
-      "firstSeenDate": "2026-09-29",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 14,
-      "bodyHash": "e16561efcd07a002",
-      "bodyLength": 9822
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/cyber-verification-program",
-      "normalizedTitle": "cyber verification program",
-      "firstSeenDate": "2026-10-06",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 8,
-      "bodyHash": "518bff8ea6f54ad8",
-      "bodyLength": 10081
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/the-missing-map-of-the-sky",
       "normalizedTitle": "the missing map of the sky",
       "firstSeenDate": "2026-10-08",
@@ -92,24 +74,6 @@
       "bodyLength": 12297
     },
     {
-      "normalizedUrl": "https://github.com/SaarthurR/atticus-mac",
-      "normalizedTitle": "show hn atticus hold to talk voice assistant for macos that runs on claude p",
-      "firstSeenDate": "2026-10-12",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 2,
-      "bodyHash": "b36c46e8800b8546",
-      "bodyLength": 12991
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/1643c719fa1e4bc0e350",
-      "normalizedTitle": "anthropic frontier red team aiはデータセンターなしで自己複製できる可能性 研究を解説",
-      "firstSeenDate": "2026-10-12",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 2,
-      "bodyHash": "5d66ca0f3449b9c1",
-      "bodyLength": 3456
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/self-replicating-ai",
       "normalizedTitle": "self replicating ai",
       "firstSeenDate": "2026-10-12",
@@ -117,15 +81,6 @@
       "occurrences": 10,
       "bodyHash": "535444018530ede6",
       "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "normalizedTitle": "how to engineer an ai harness for game development",
-      "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 1,
-      "bodyHash": "866662b0b7ab30c4",
-      "bodyLength": 19590
     },
     {
       "normalizedUrl": "https://anthropic.com/engineering/redesigning-source-control",
@@ -144,24 +99,6 @@
       "occurrences": 7,
       "bodyHash": "a5aee5c9ba48278e",
       "bodyLength": 14052
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ExcelTranslator/items/e41a997cc9be4b484d6c",
-      "normalizedTitle": "claude certified architect foundations ccar f に1週間で合格した勉強法とスコア分析",
-      "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 1,
-      "bodyHash": "c12bb7b228cee844",
-      "bodyLength": 9913
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kenji_harada/items/43f5348563728dea7e12",
-      "normalizedTitle": "claude sonnet 5 5 の性能を実測 5 モデル計 90 回で時間は opus 5 の 0 35 倍 成功数は差なし",
-      "firstSeenDate": "2026-10-13",
-      "lastSeenDate": "2026-10-13",
-      "occurrences": 1,
-      "bodyHash": "09faddc6543ac60d",
-      "bodyLength": 7538
     },
     {
       "normalizedUrl": "https://sunshowers.io/posts/anthropic-mononoke",
@@ -949,8 +886,8 @@
       "normalizedUrl": "https://anthropic.com/research/zero-days",
       "normalizedTitle": "zero days",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "de9305c16e1e7880",
       "bodyLength": 13688
     },
@@ -958,8 +895,8 @@
       "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
       "normalizedTitle": "nuclear safeguards for ai",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "1ae2146791b6a662",
       "bodyLength": 8182
     },
@@ -967,8 +904,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-vend-2",
       "normalizedTitle": "project vend 2",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "baceb7ed73169278",
       "bodyLength": 19215
     },
@@ -976,8 +913,8 @@
       "normalizedUrl": "https://anthropic.com/research/property-based-testing",
       "normalizedTitle": "property based testing",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "ef29033417134d13",
       "bodyLength": 13561
     },
@@ -985,8 +922,8 @@
       "normalizedUrl": "https://anthropic.com/research/smart-contracts",
       "normalizedTitle": "smart contracts",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "2ae46ea24022cdbb",
       "bodyLength": 16795
     },
@@ -994,8 +931,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-toolkits",
       "normalizedTitle": "cyber toolkits",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "f9baebadb05d6414",
       "bodyLength": 4438
     },
@@ -1003,8 +940,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-toolkits-update",
       "normalizedTitle": "cyber toolkits update",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "6962c84d2c186fa6",
       "bodyLength": 20028
     },
@@ -1012,8 +949,8 @@
       "normalizedUrl": "https://anthropic.com/research/exploit",
       "normalizedTitle": "exploit",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 6,
       "bodyHash": "84ecd0a63d9ee02d",
       "bodyLength": 19570
     },
@@ -1165,8 +1102,8 @@
       "normalizedUrl": "https://anthropic.com/news/s1-sec",
       "normalizedTitle": "s1 sec",
       "firstSeenDate": "2026-10-26",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 3,
       "bodyHash": "781123763abafe6e",
       "bodyLength": 1570
     },
@@ -1174,8 +1111,8 @@
       "normalizedUrl": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude",
       "normalizedTitle": "anthropic trained claude on illegally obtained stanford professors books",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2,
       "bodyHash": "a38a5ef44c28a865",
       "bodyLength": 6101
     },
@@ -1210,8 +1147,8 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-partnership-gsa",
       "normalizedTitle": "expanding partnership gsa",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2,
       "bodyHash": "c51baa4b26ea6592",
       "bodyLength": 4089
     },
@@ -1219,9 +1156,9 @@
       "normalizedUrl": "https://qiita.com/picnic/items/7183ad4e831bf8243897",
       "normalizedTitle": "claude code v2 1 312 bedrock vertex系の短いシステムプロンプト化と変更点まとめ",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1,
-      "bodyHash": "c0427d0593580144",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2,
+      "bodyHash": "e6c7240aaa0d1d02",
       "bodyLength": 5385
     },
     {
@@ -1237,10 +1174,10 @@
       "normalizedUrl": "https://anthropic.com/research/early-progress-drug-development",
       "normalizedTitle": "early progress drug development",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1,
-      "bodyHash": "4602fb3d473f2951",
-      "bodyLength": 11757
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2,
+      "bodyHash": "426b569a7909694e",
+      "bodyLength": 11849
     },
     {
       "normalizedUrl": "https://qiita.com/supportapp3/items/7286702cd178b16bd8e3",
@@ -1255,8 +1192,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-judgment-calls",
       "normalizedTitle": "agents judgment calls",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2,
       "bodyHash": "15367712d36d9269",
       "bodyLength": 20027
     },
@@ -1264,8 +1201,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-vulnerabilities-with-claude",
       "normalizedTitle": "discovering vulnerabilities with claude",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1,
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2,
       "bodyHash": "74b0678da3f9e1ae",
       "bodyLength": 12195
     },
@@ -1273,8 +1210,71 @@
       "normalizedUrl": "https://openai.com/index/greptile-code-review-codex-astra",
       "normalizedTitle": "greptile takes bug detection beyond code review with gpt 6 astra",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-27",
-      "occurrences": 1
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 2
+    },
+    {
+      "normalizedUrl": "https://twitter.com/coolerwave/status/2114088769112477849",
+      "normalizedTitle": "claude code found 145k photos i deleted from my iphone sitting in a hidden cache",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "3e2fe9b29f5bc0e8",
+      "bodyLength": 6938
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kaiyaku_iyada/items/f703fba0bb9bc76e3711",
+      "normalizedTitle": "medium 2件でも確認役が 可 なら止まる claude code の修正ループを空回しした結果",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "11a1e157f4c960db",
+      "bodyLength": 8404
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/6cd66e20358d554fb8b1",
+      "normalizedTitle": "claude code で prompt is too long と error during compaction conversation too long が出たときの戻し方 compact が効かない場合も",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "6583422dfdf97bdc",
+      "bodyLength": 5873
+    },
+    {
+      "normalizedUrl": "https://qiita.com/supportapp3/items/56cf6468be08e14c76dd",
+      "normalizedTitle": "codex は既定で openai api key などの環境変数を実行コマンドにそのまま渡す shell environment policy で外す設定 codex 0 165 0で確認",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "fca366acb3fcdaea",
+      "bodyLength": 6167
+    },
+    {
+      "normalizedUrl": "https://qiita.com/Yusg_6/items/35c21534ec128884360c",
+      "normalizedTitle": "codexの実行ログを効率的に分析するツールを作った",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "9f7979d063e503e1",
+      "bodyLength": 4638
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
+      "normalizedTitle": "coding agents social sciences",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "25bfa58a23f7f5e0",
+      "bodyLength": 17505
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-discovers-novel-enzyme-system",
+      "normalizedTitle": "claude discovers novel enzyme system",
+      "firstSeenDate": "2026-10-28",
+      "lastSeenDate": "2026-10-28",
+      "occurrences": 1,
+      "bodyHash": "7f82e9c8dfd0d987",
+      "bodyLength": 9900
     }
   ]
 }
