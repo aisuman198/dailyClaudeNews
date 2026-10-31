@@ -135,15 +135,6 @@
       "bodyLength": 17663
     },
     {
-      "normalizedUrl": "https://qiita.com/picnic/items/1f140e2881afc7291e4a",
-      "normalizedTitle": "claude opus 5 5のfast modeがmicrosoft foundry対応 レート制限ティア訂正",
-      "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "353e0536ba53e13b",
-      "bodyLength": 3255
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/expectations-for-the-future",
       "normalizedTitle": "expectations for the future",
       "firstSeenDate": "2026-10-16",
@@ -160,15 +151,6 @@
       "occurrences": 4,
       "bodyHash": "f2c56177732172db",
       "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yureki_lab/items/9cc1fc402166675c5629",
-      "normalizedTitle": "anthropic python sdk のタイムアウトを正しく効かせる実装手順 max tokens を上げると非ストリーミングが valueerror timeout 2 でも51秒返らない リトライ込みで待ち時間が3倍 3つのハマりどころ 2026",
-      "firstSeenDate": "2026-10-16",
-      "lastSeenDate": "2026-10-16",
-      "occurrences": 1,
-      "bodyHash": "71e8f8f2bd4373a6",
-      "bodyLength": 8927
     },
     {
       "normalizedUrl": "https://qiita.com/TOSHIMITSU_MIYACHI/items/78d6804881b98ba4c912",
@@ -962,8 +944,8 @@
       "normalizedUrl": "https://anthropic.com/news/s1-sec",
       "normalizedTitle": "s1 sec",
       "firstSeenDate": "2026-10-26",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 5,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 6,
       "bodyHash": "781123763abafe6e",
       "bodyLength": 1570
     },
@@ -1007,8 +989,8 @@
       "normalizedUrl": "https://anthropic.com/news/expanding-partnership-gsa",
       "normalizedTitle": "expanding partnership gsa",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 5,
       "bodyHash": "c51baa4b26ea6592",
       "bodyLength": 4089
     },
@@ -1034,8 +1016,8 @@
       "normalizedUrl": "https://anthropic.com/research/early-progress-drug-development",
       "normalizedTitle": "early progress drug development",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 5,
       "bodyHash": "426b569a7909694e",
       "bodyLength": 11849
     },
@@ -1052,8 +1034,8 @@
       "normalizedUrl": "https://anthropic.com/research/agents-judgment-calls",
       "normalizedTitle": "agents judgment calls",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 5,
       "bodyHash": "15367712d36d9269",
       "bodyLength": 20027
     },
@@ -1061,8 +1043,8 @@
       "normalizedUrl": "https://anthropic.com/research/discovering-vulnerabilities-with-claude",
       "normalizedTitle": "discovering vulnerabilities with claude",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 4,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 5,
       "bodyHash": "74b0678da3f9e1ae",
       "bodyLength": 12195
     },
@@ -1070,8 +1052,8 @@
       "normalizedUrl": "https://openai.com/index/greptile-code-review-codex-astra",
       "normalizedTitle": "greptile takes bug detection beyond code review with gpt 6 astra",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 4
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 5
     },
     {
       "normalizedUrl": "https://twitter.com/coolerwave/status/2114088769112477849",
@@ -1122,8 +1104,8 @@
       "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
       "normalizedTitle": "coding agents social sciences",
       "firstSeenDate": "2026-10-28",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 4,
       "bodyHash": "25bfa58a23f7f5e0",
       "bodyLength": 17505
     },
@@ -1131,8 +1113,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-discovers-novel-enzyme-system",
       "normalizedTitle": "claude discovers novel enzyme system",
       "firstSeenDate": "2026-10-28",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 3,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 4,
       "bodyHash": "7f82e9c8dfd0d987",
       "bodyLength": 9900
     },
@@ -1174,8 +1156,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-code-best-practices",
       "normalizedTitle": "claude code best practices",
       "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 3,
       "bodyHash": "3cf9fd90fa454ace",
       "bodyLength": 17028
     },
@@ -1183,8 +1165,8 @@
       "normalizedUrl": "https://anthropic.com/research/managed-agents",
       "normalizedTitle": "managed agents",
       "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 3,
       "bodyHash": "6a1d2fb6b880f792",
       "bodyLength": 12754
     },
@@ -1192,8 +1174,8 @@
       "normalizedUrl": "https://anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
       "normalizedTitle": "ai for science expands foundations research institutions",
       "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 2,
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 3,
       "bodyHash": "3aa2085ef7a7b528",
       "bodyLength": 8274
     },
@@ -1201,10 +1183,10 @@
       "normalizedUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
       "normalizedTitle": "backdoor in claude code for vs code extension on the cursor marketplace",
       "firstSeenDate": "2026-10-30",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 1,
-      "bodyHash": "09d860053a3c2bff",
-      "bodyLength": 19614
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 2,
+      "bodyHash": "edd3a7f106fd942b",
+      "bodyLength": 19973
     },
     {
       "normalizedUrl": "https://ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
@@ -1262,10 +1244,82 @@
       "normalizedUrl": "https://qiita.com/nezle02/items/1bea25898503056b95c2",
       "normalizedTitle": "claude code codex antigravity を1つのローカルチャットで協働させる方法 excalibur agent hub",
       "firstSeenDate": "2026-10-30",
-      "lastSeenDate": "2026-10-30",
-      "occurrences": 1,
-      "bodyHash": "8cb82888c3cf2dc9",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 2,
+      "bodyHash": "69937f499bd70407",
       "bodyLength": 2478
+    },
+    {
+      "normalizedUrl": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "normalizedTitle": "anthropic blocks users for anything touching training larger models",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "dad9799e77949869",
+      "bodyLength": 2799
+    },
+    {
+      "normalizedUrl": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "normalizedTitle": "anthropic takes steps to block claude from reverse engineering video games",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "9106963e3c9aa3fc",
+      "bodyLength": 4941
+    },
+    {
+      "normalizedUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "normalizedTitle": "anthropic s claude ai blocks video game cloning and reverse engineering",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "7190511af9b2578f",
+      "bodyLength": 13700
+    },
+    {
+      "normalizedUrl": "https://qiita.com/locallab/items/91e56a2e96744aa1bbe1",
+      "normalizedTitle": "claude code を使って開発速度を3倍にした7つの実践テクニック",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "4adbe7b6e2eaef05",
+      "bodyLength": 5051
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/d74fc44a0aa8ee403e21",
+      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 311 v2 1 316",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "26b039faec41a7d0",
+      "bodyLength": 4173
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kaiyaku_iyada/items/3366666a2a706f96fe7d",
+      "normalizedTitle": "claude code で qiita に投稿 3日とも1回目は空振り 二重投稿を避けて押し直す手順",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "abd4c43b70f3fa98",
+      "bodyLength": 9175
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/e9916dd9ff6753f2eecd",
+      "normalizedTitle": "claude code で api error rate limit reached と usage credits required for 1m context が出たときの直し方 使用率が低いのに止まる場合",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "8450bc46bdf6eb52",
+      "bodyLength": 5911
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/enabling-independent-research",
+      "normalizedTitle": "enabling independent research",
+      "firstSeenDate": "2026-10-31",
+      "lastSeenDate": "2026-10-31",
+      "occurrences": 1,
+      "bodyHash": "5ff2318430858b40",
+      "bodyLength": 16360
     }
   ]
 }
