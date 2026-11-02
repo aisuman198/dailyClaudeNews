@@ -3760,6 +3760,36 @@
       "examples": [
         "「ダウングレード、またはセッションの強制終了が発生する」で中間項の述語が脱落していた"
       ]
+    },
+    {
+      "term": "コリニア（collinear）",
+      "rule": "「collinear」の音訳は「コリニア」。「コロニア」は colonial の音訳に近く誤り",
+      "firstSeenDate": "2026-11-02",
+      "lastSeenDate": "2026-11-02",
+      "occurrences": 1,
+      "examples": [
+        "バイブ物理学記事の量子色力学用語「コリニアセクター」として修正"
+      ]
+    },
+    {
+      "term": "SpaceXSI Grok 4.7",
+      "rule": "既知ルール「SpaceXAI → xAI」との対応関係が不明。SpaceXSI が xAI 社を指す可能性あり、次回出現時に要確認",
+      "firstSeenDate": "2026-11-02",
+      "lastSeenDate": "2026-11-02",
+      "occurrences": 1,
+      "examples": [
+        "建築 AI テスト記事のモデルリスト内（Grok 4.7 の製造元表記）"
+      ]
+    },
+    {
+      "term": "San Francisco's（記事タイトル地名省略）",
+      "rule": "原題に含まれる地名「San Francisco's」が日本語タイトルから省略されていた誤訳。「サンフランシスコの」を補完",
+      "firstSeenDate": "2026-11-02",
+      "lastSeenDate": "2026-11-02",
+      "occurrences": 1,
+      "examples": [
+        "Bloomberg AI 失業記事のカードタイトルを「サンフランシスコの AI 好景気から〜」に修正"
+      ]
     }
   ]
 }
