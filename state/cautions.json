@@ -3790,6 +3790,26 @@
       "examples": [
         "Bloomberg AI 失業記事のカードタイトルを「サンフランシスコの AI 好景気から〜」に修正"
       ]
+    },
+    {
+      "term": "タスクを取り上げてから",
+      "rule": "「タスクに着手してから」と表記する。「取り上げる」はトピックを議題に挙げる意で、タスク着手の意では不自然",
+      "firstSeenDate": "2026-11-03",
+      "lastSeenDate": "2026-11-03",
+      "occurrences": 1,
+      "examples": [
+        "Revolut記事のリードタイム説明文で誤訳"
+      ]
+    },
+    {
+      "term": "out-of-the-box",
+      "rule": "日本語本文中の英語句は日本語に統一する既知ルール適用：「デフォルトのままの」に修正",
+      "firstSeenDate": "2026-11-03",
+      "lastSeenDate": "2026-11-03",
+      "occurrences": 1,
+      "examples": [
+        "Revolut記事のチューニング説明文に混入"
+      ]
     }
   ]
 }
