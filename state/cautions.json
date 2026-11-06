@@ -3840,6 +3840,46 @@
       "examples": [
         "LTBT記事で保護条項が通知の主体になる主述不一致を修正"
       ]
+    },
+    {
+      "term": "プロカリオート生物",
+      "rule": "原核生物と表記",
+      "firstSeenDate": "2026-11-06",
+      "lastSeenDate": "2026-11-06",
+      "occurrences": 1,
+      "examples": [
+        "####タイトルでprokaryoteのカタカナ音訳「プロカリオート生物」を使用。標準日本語訳「原核生物」に修正"
+      ]
+    },
+    {
+      "term": "〜の感情状態に相関パターン",
+      "rule": "「〜の感情状態の間に相関パターン」と表記",
+      "firstSeenDate": "2026-11-06",
+      "lastSeenDate": "2026-11-06",
+      "occurrences": 1,
+      "examples": [
+        "オックスフォードLabの記述で「状態に相関パターン」と格助詞「に」が不自然。「の間に」に修正"
+      ]
+    },
+    {
+      "term": "クロードが",
+      "rule": "Claude がと表記（固有名詞カタカナ表記禁止の適用）",
+      "firstSeenDate": "2026-11-06",
+      "lastSeenDate": "2026-11-06",
+      "occurrences": 1,
+      "examples": [
+        "Biomni節で「クロードが軌道を外れた際」とカタカナ表記されていた"
+      ]
+    },
+    {
+      "term": "2 ゲームで",
+      "rule": "「2 つのゲームで」と助数詞を補う",
+      "firstSeenDate": "2026-11-06",
+      "lastSeenDate": "2026-11-06",
+      "occurrences": 1,
+      "examples": [
+        "Project EVE節で「2 ゲームで Claude を動作させた」と助数詞なしの不自然な表記"
+      ]
     }
   ]
 }
