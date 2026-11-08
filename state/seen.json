@@ -5,8 +5,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
       "normalizedTitle": "an alignment assessment of the uk aisi cybertesting incident",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 4,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 5,
       "bodyHash": "2ec80ea16fe369af",
       "bodyLength": 20028
     },
@@ -302,8 +302,8 @@
       "normalizedUrl": "https://anthropic.com/research/early-progress-drug-development",
       "normalizedTitle": "early progress drug development",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 10,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 11,
       "bodyHash": "b90c442866d3b685",
       "bodyLength": 11839
     },
@@ -758,8 +758,8 @@
       "normalizedUrl": "https://anthropic.com/research/vibe-physics",
       "normalizedTitle": "vibe physics",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 6,
       "bodyHash": "dc93e41072c97f04",
       "bodyLength": 19256
     },
@@ -767,8 +767,8 @@
       "normalizedUrl": "https://anthropic.com/research/claude-shaped-science",
       "normalizedTitle": "claude shaped science",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 6,
       "bodyHash": "08f4ffbef03c8cad",
       "bodyLength": 20028
     },
@@ -776,8 +776,8 @@
       "normalizedUrl": "https://anthropic.com/research/Claude-accelerates-protein-design",
       "normalizedTitle": "claude accelerates protein design",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 6,
       "bodyHash": "e2e0d40d7e50b6fe",
       "bodyLength": 20028
     },
@@ -785,8 +785,8 @@
       "normalizedUrl": "https://openai.com/index/qodo-codex-plugin",
       "normalizedTitle": "qodo builds context into ai code review with codex",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 5
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 6
     },
     {
       "normalizedUrl": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai",
@@ -837,8 +837,8 @@
       "normalizedUrl": "https://anthropic.com/research/provable-inference",
       "normalizedTitle": "provable inference",
       "firstSeenDate": "2026-11-03",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 4,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 5,
       "bodyHash": "120a8a460be35690",
       "bodyLength": 20027
     },
@@ -853,10 +853,10 @@
       "normalizedUrl": "https://github.com/anthropics/claude-code/issues/107757",
       "normalizedTitle": "claude code sends your email address to websites",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 3,
-      "bodyHash": "187399b007966593",
-      "bodyLength": 12647
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 4,
+      "bodyHash": "4756ed0f39709443",
+      "bodyLength": 13287
     },
     {
       "normalizedUrl": "https://qiita.com/kaneko_desu/items/2504a760c3b9a6aa99e7",
@@ -889,8 +889,8 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-vault-particles-with-claude",
       "normalizedTitle": "investigating vault particles with claude",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 4,
       "bodyHash": "a529770b6655b758",
       "bodyLength": 15732
     },
@@ -907,8 +907,8 @@
       "normalizedUrl": "https://anthropic.com/research/how-researchers-use-claude",
       "normalizedTitle": "how researchers use claude",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 4,
       "bodyHash": "497f9f94abdf4dd8",
       "bodyLength": 20028
     },
@@ -916,8 +916,8 @@
       "normalizedUrl": "https://anthropic.com/news/the-long-term-benefit-trust",
       "normalizedTitle": "the long term benefit trust",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 4,
       "bodyHash": "022cd29c89fecba5",
       "bodyLength": 13410
     },
@@ -970,8 +970,8 @@
       "normalizedUrl": "https://anthropic.com/research/components-of-agent-memory",
       "normalizedTitle": "components of agent memory",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 3,
       "bodyHash": "130f5637a33d3eb1",
       "bodyLength": 20028
     },
@@ -979,8 +979,8 @@
       "normalizedUrl": "https://anthropic.com/research/teaching-ai-to-build-scientific-models",
       "normalizedTitle": "teaching ai to build scientific models",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 3,
       "bodyHash": "9e5acef2bd349d4b",
       "bodyLength": 18382
     },
@@ -997,8 +997,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-eve-claude-plays-mmorpgs",
       "normalizedTitle": "project eve claude plays mmorpgs",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 3,
       "bodyHash": "00fe5eddf5fc657d",
       "bodyLength": 20028
     },
@@ -1006,8 +1006,8 @@
       "normalizedUrl": "https://anthropic.com/research/accelerating-scientific-research",
       "normalizedTitle": "accelerating scientific research",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 3,
       "bodyHash": "237a97e85c9901f3",
       "bodyLength": 13833
     },
@@ -1015,8 +1015,8 @@
       "normalizedUrl": "https://anthropic.com/news/open-call-guest-investigators-life-sciences",
       "normalizedTitle": "open call guest investigators life sciences",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 3,
       "bodyHash": "48c2168d5ad4870a",
       "bodyLength": 2838
     },
@@ -1024,15 +1024,15 @@
       "normalizedUrl": "https://openai.com/index/cultfit-builds-with-codex",
       "normalizedTitle": "cult fit builds operational muscle with codex",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 2
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 3
     },
     {
       "normalizedUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "normalizedTitle": "claude code s don t ask again exposes passwords in 1 122 public github files",
       "firstSeenDate": "2026-11-07",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 1
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://qiita.com/homhom44/items/e8d89b70cba590ac0cd4",
@@ -1056,10 +1056,64 @@
       "normalizedUrl": "https://qiita.com/bestai/items/29557573c15b6eb833f5",
       "normalizedTitle": "codex cliをosfoundryのワーカーにする前に手元で確かめておくこと",
       "firstSeenDate": "2026-11-07",
-      "lastSeenDate": "2026-11-07",
-      "occurrences": 1,
-      "bodyHash": "b946fe0afbce43b8",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 2,
+      "bodyHash": "1bf3089829bcea23",
       "bodyLength": 5687
+    },
+    {
+      "normalizedUrl": "https://caleb.software/posts/claude-to-pi.html",
+      "normalizedTitle": "goodbye claude hello pi",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "bodyHash": "5b660112c19ea4ec",
+      "bodyLength": 6282
+    },
+    {
+      "normalizedUrl": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "normalizedTitle": "goldman sachs is pulling claude code from its bankers and traders",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "bodyHash": "7fb212c37ed977e3",
+      "bodyLength": 7618
+    },
+    {
+      "normalizedUrl": "https://qiita.com/shou-wordwright555501/items/00c5972f3819f87715bb",
+      "normalizedTitle": "security for ai 権限モデルの 2 つの軸 azure claude で検証 その 1",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "bodyHash": "00ace4e76d192e80",
+      "bodyLength": 8147
+    },
+    {
+      "normalizedUrl": "https://qiita.com/yosuke-suzuki/items/33fbcc44c1c219f7b104",
+      "normalizedTitle": "claude code サブエージェント まだ分けますか anthropicの 畳む ガイドからサブエージェントの要否を考える",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "bodyHash": "a4fcdf5fa448ed2b",
+      "bodyLength": 19981
+    },
+    {
+      "normalizedUrl": "https://qiita.com/bestai/items/2d920cfa225013d842a3",
+      "normalizedTitle": "codex cliからosfoundryのセッションに仕事を渡す前の確認ポイントまとめ",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "bodyHash": "d1a9452044e226f9",
+      "bodyLength": 4662
+    },
+    {
+      "normalizedUrl": "https://qiita.com/hisashi-ito/items/1fc0ee63487760daa7e2",
+      "normalizedTitle": "anthropic エージェントメモリの構成要素 を読む 記憶は未来への予測で ドリーミング が直す",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "bodyHash": "1a68d12f6c8b1968",
+      "bodyLength": 5681
     }
   ]
 }
