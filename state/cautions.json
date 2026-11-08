@@ -3880,6 +3880,66 @@
       "examples": [
         "Project EVE節で「2 ゲームで Claude を動作させた」と助数詞なしの不自然な表記"
       ]
+    },
+    {
+      "term": "Building agents: When to fold subagents into your main agent loop（本文内英語記事タイトル）",
+      "rule": "本文中の英語記事タイトルは日本語に訳す（既知ルール適用）",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "examples": [
+        "Article 7 本文中に英語タイトルが原文ままで残っていたため「エージェントの構築：サブエージェントをメインのエージェントループに畳むタイミング」と訳した"
+      ]
+    },
+    {
+      "term": "Confused deputy problem",
+      "rule": "日本語本文中の英語句は日本語に統一する原則があるが、括弧内の技術概念名として使用されており今号は原文ままで保持",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "examples": [
+        "Article 6 本文の括弧内に英語セキュリティ概念名として使用。次回以降は「Confused deputy 問題」等への半訳を検討"
+      ]
+    },
+    {
+      "term": "illicit consent grant",
+      "rule": "「同意フィッシング（illicit consent grant）」の形で日本語訳＋英語参照名の組み合わせで使用されており今号は原文ままで保持",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "examples": [
+        "Article 6 本文で日本語訳「同意フィッシング」の後に括弧内参照として出現。このパターンは許容範囲"
+      ]
+    },
+    {
+      "term": "Pi（コーディングハーネス）",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "examples": [
+        "Article 4 で初出のオープンソースコーディングハーネス名。「パイ」等とカタカナ表記しない"
+      ]
+    },
+    {
+      "term": "osFoundry",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "examples": [
+        "Articles 5・8 で初出のセッションオーケストレーションプラットフォーム名。カタカナ訳不要"
+      ]
+    },
+    {
+      "term": "strats（Goldman Sachs 社内職種略称）",
+      "rule": "原文ままで保持",
+      "firstSeenDate": "2026-11-08",
+      "lastSeenDate": "2026-11-08",
+      "occurrences": 1,
+      "examples": [
+        "Article 2 で初出。Goldman Sachs 内部の strategists の略称。「ストラッツ」等と訳さない"
+      ]
     }
   ]
 }
