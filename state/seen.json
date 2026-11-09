@@ -5,8 +5,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
       "normalizedTitle": "an alignment assessment of the uk aisi cybertesting incident",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 6,
       "bodyHash": "2ec80ea16fe369af",
       "bodyLength": 20028
     },
@@ -137,24 +137,6 @@
       "bodyLength": 20027
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/mythos-preview",
-      "normalizedTitle": "mythos preview",
-      "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-25",
-      "occurrences": 3,
-      "bodyHash": "a545ea0c55be41ca",
-      "bodyLength": 19641
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/9a50e8fc034637d1a3e3",
-      "normalizedTitle": "max pro 契約なのに claude code で credit balance is too low が出るのは 環境に残った anthropic api key のせい",
-      "firstSeenDate": "2026-10-24",
-      "lastSeenDate": "2026-10-25",
-      "occurrences": 2,
-      "bodyHash": "d68f064d90d1d79e",
-      "bodyLength": 5293
-    },
-    {
       "normalizedUrl": "https://minimaxir.com/2026/10/cheap-llms",
       "normalizedTitle": "openai and anthropic cut their llm prices by up to 80 within a few months why",
       "firstSeenDate": "2026-10-25",
@@ -171,24 +153,6 @@
       "occurrences": 2,
       "bodyHash": "e4c3e6e0fc3cb45d",
       "bodyLength": 6014
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/8ec10d50d106821f4673",
-      "normalizedTitle": "claude code で何を送っても api error 400 due to tool use concurrency issues になる詰んだセッションの直し方 rewind から順に",
-      "firstSeenDate": "2026-10-25",
-      "lastSeenDate": "2026-10-25",
-      "occurrences": 1,
-      "bodyHash": "273ac064e1c0c0cd",
-      "bodyLength": 5075
-    },
-    {
-      "normalizedUrl": "https://qiita.com/sumitsuke/items/0e2a4909594d15911a66",
-      "normalizedTitle": "claude api の sdk 2 0 0 は temperature を引数で渡すと送る前に止まる 上げる前に探す行と 2 択",
-      "firstSeenDate": "2026-10-25",
-      "lastSeenDate": "2026-10-25",
-      "occurrences": 1,
-      "bodyHash": "56ea269a453560d1",
-      "bodyLength": 5862
     },
     {
       "normalizedUrl": "https://sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
@@ -302,8 +266,8 @@
       "normalizedUrl": "https://anthropic.com/research/early-progress-drug-development",
       "normalizedTitle": "early progress drug development",
       "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 11,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 12,
       "bodyHash": "b90c442866d3b685",
       "bodyLength": 11839
     },
@@ -837,8 +801,8 @@
       "normalizedUrl": "https://anthropic.com/research/provable-inference",
       "normalizedTitle": "provable inference",
       "firstSeenDate": "2026-11-03",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 6,
       "bodyHash": "120a8a460be35690",
       "bodyLength": 20027
     },
@@ -889,8 +853,8 @@
       "normalizedUrl": "https://anthropic.com/research/investigating-vault-particles-with-claude",
       "normalizedTitle": "investigating vault particles with claude",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 5,
       "bodyHash": "a529770b6655b758",
       "bodyLength": 15732
     },
@@ -907,8 +871,8 @@
       "normalizedUrl": "https://anthropic.com/research/how-researchers-use-claude",
       "normalizedTitle": "how researchers use claude",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 5,
       "bodyHash": "497f9f94abdf4dd8",
       "bodyLength": 20028
     },
@@ -916,8 +880,8 @@
       "normalizedUrl": "https://anthropic.com/news/the-long-term-benefit-trust",
       "normalizedTitle": "the long term benefit trust",
       "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 4,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 5,
       "bodyHash": "022cd29c89fecba5",
       "bodyLength": 13410
     },
@@ -970,8 +934,8 @@
       "normalizedUrl": "https://anthropic.com/research/components-of-agent-memory",
       "normalizedTitle": "components of agent memory",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 4,
       "bodyHash": "130f5637a33d3eb1",
       "bodyLength": 20028
     },
@@ -979,8 +943,8 @@
       "normalizedUrl": "https://anthropic.com/research/teaching-ai-to-build-scientific-models",
       "normalizedTitle": "teaching ai to build scientific models",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 4,
       "bodyHash": "9e5acef2bd349d4b",
       "bodyLength": 18382
     },
@@ -997,8 +961,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-eve-claude-plays-mmorpgs",
       "normalizedTitle": "project eve claude plays mmorpgs",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 4,
       "bodyHash": "00fe5eddf5fc657d",
       "bodyLength": 20028
     },
@@ -1006,8 +970,8 @@
       "normalizedUrl": "https://anthropic.com/research/accelerating-scientific-research",
       "normalizedTitle": "accelerating scientific research",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 4,
       "bodyHash": "237a97e85c9901f3",
       "bodyLength": 13833
     },
@@ -1015,8 +979,8 @@
       "normalizedUrl": "https://anthropic.com/news/open-call-guest-investigators-life-sciences",
       "normalizedTitle": "open call guest investigators life sciences",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 4,
       "bodyHash": "48c2168d5ad4870a",
       "bodyLength": 2838
     },
@@ -1024,8 +988,8 @@
       "normalizedUrl": "https://openai.com/index/cultfit-builds-with-codex",
       "normalizedTitle": "cult fit builds operational muscle with codex",
       "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 3
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 4
     },
     {
       "normalizedUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
@@ -1074,8 +1038,8 @@
       "normalizedUrl": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "normalizedTitle": "goldman sachs is pulling claude code from its bankers and traders",
       "firstSeenDate": "2026-11-08",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 2,
       "bodyHash": "7fb212c37ed977e3",
       "bodyLength": 7618
     },
@@ -1114,6 +1078,121 @@
       "occurrences": 1,
       "bodyHash": "1a68d12f6c8b1968",
       "bodyLength": 5681
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/claude-fable-and-mythos-5-2",
+      "normalizedTitle": "claude fable 5 2 and mythos 5 2",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "c8c3def549a1a35b",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "normalizedTitle": "claude fable 5 2 scores 65 on artificial analysis highest so far",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "db8d85357ae6adfa",
+      "bodyLength": 19933
+    },
+    {
+      "normalizedUrl": "https://twitter.com/claudeai/status/2119867114450268322",
+      "normalizedTitle": "claude fable 5 2",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "c2d1e247272748a9",
+      "bodyLength": 4086
+    },
+    {
+      "normalizedUrl": "https://github.com/sshah03/recalc",
+      "normalizedTitle": "show hn recalc spreadsheet where cells can be claude code or codex terminals",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "43c433e2c543ada8",
+      "bodyLength": 10359
+    },
+    {
+      "normalizedUrl": "https://tomshardware.com/peripherals/docking-stations-hubs/synaptics-sends-cease-and-desist-order-to-creator-of-open-source-displaylink-driver-dares-him-to-publicize-its-threats-dev-reverse-engineers-displaylink-using-claude-ai-and-rust-synaptics-threatens-to-bill-creator-for-legal-documentation",
+      "normalizedTitle": "synaptics sends cease and desist order to open source displaylink hobbyist",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "5c8d178e545c81eb",
+      "bodyLength": 13483
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/claude-electronics-design",
+      "normalizedTitle": "testing claude on real world electronics design",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "0c7b2390fd275d12",
+      "bodyLength": 16990
+    },
+    {
+      "normalizedUrl": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers",
+      "normalizedTitle": "claude fable 5 2 launch offers",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "b7c2b32315b3cb4f",
+      "bodyLength": 7731
+    },
+    {
+      "normalizedUrl": "https://qiita.com/figueiredoluiz/items/1a043190d8f00d2ebda6",
+      "normalizedTitle": "ひとりで作るossを チームの基準でレビューする codex claude coderabbit",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "894a01e28af7e581",
+      "bodyLength": 12209
+    },
+    {
+      "normalizedUrl": "https://qiita.com/oikon48/items/9ac870cbabf23b819ba3",
+      "normalizedTitle": "claude codeで最近使っているtips 2026 11",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "c2f22ceb24ea5179",
+      "bodyLength": 9387
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/52a4da888952b42d6fbd",
+      "normalizedTitle": "claude code v2 1 321 解説 fable 5 2 既定化 mcp oauth 漏えい修正 mods 権限変更",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "1c2b0d5b5ee82801",
+      "bodyLength": 6463
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/702ae49576efd3a97d8b",
+      "normalizedTitle": "claude fable 5 2 リリース 20 値下げ fast mode 移行時の破壊的変更まとめ",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "8713779d1867375e",
+      "bodyLength": 6197
+    },
+    {
+      "normalizedUrl": "https://qiita.com/orca-forge/items/662d04d623e9bf5339c9",
+      "normalizedTitle": "codexで腫れた手が描けない症状をsvgで解決した方法",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "bodyHash": "fa655fd324d0937d",
+      "bodyLength": 2043
+    },
+    {
+      "normalizedUrl": "https://openai.com/index/coderabbit-codex-daybreak",
+      "normalizedTitle": "coderabbit scales agentic software development and ships 20x more",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1
     }
   ]
 }

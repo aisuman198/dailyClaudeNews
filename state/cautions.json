@@ -3940,6 +3940,16 @@
       "examples": [
         "Article 2 で初出。Goldman Sachs 内部の strategists の略称。「ストラッツ」等と訳さない"
       ]
+    },
+    {
+      "term": "BenchCAD スコアの単位（%）欠落",
+      "rule": "ベンチマークスコアの数値には単位記号 % を必ず付ける",
+      "firstSeenDate": "2026-11-09",
+      "lastSeenDate": "2026-11-09",
+      "occurrences": 1,
+      "examples": [
+        "「44.4）」と % なしで記載されており「44.4%）」に修正"
+      ]
     }
   ]
 }
