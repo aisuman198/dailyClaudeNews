@@ -3950,6 +3950,56 @@
       "examples": [
         "「44.4）」と % なしで記載されており「44.4%）」に修正"
       ]
+    },
+    {
+      "term": "Gemini 4 Carbon",
+      "rule": "原文ママで保持・要注意フラグ",
+      "firstSeenDate": "2026-11-10",
+      "lastSeenDate": "2026-11-10",
+      "occurrences": 1,
+      "examples": [
+        "既知の「Gemini 4 Argon」と異なる新バリアント名として今号初出"
+      ]
+    },
+    {
+      "term": "FrontierCode 2.0",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-11-10",
+      "lastSeenDate": "2026-11-10",
+      "occurrences": 1,
+      "examples": [
+        "既知の「FrontierCode v1.1 / 1.1」とは異なるメジャーバージョンとして今号初出"
+      ]
+    },
+    {
+      "term": "FrontierSWE v2",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-11-10",
+      "lastSeenDate": "2026-11-10",
+      "occurrences": 1,
+      "examples": [
+        "新ベンチマーク名として今号初出。既知リスト未掲載"
+      ]
+    },
+    {
+      "term": "Terminal-Bench-Science 0.1",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-11-10",
+      "lastSeenDate": "2026-11-10",
+      "occurrences": 1,
+      "examples": [
+        "既知の「Terminal-Bench-Science」の新バージョン番号として今号初出"
+      ]
+    },
+    {
+      "term": "Vani by Zoho",
+      "rule": "原文ママで保持",
+      "firstSeenDate": "2026-11-10",
+      "lastSeenDate": "2026-11-10",
+      "occurrences": 1,
+      "examples": [
+        "Zohのコラボツール名として今号初出。既知リスト未掲載"
+      ]
     }
   ]
 }
