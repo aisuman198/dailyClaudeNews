@@ -4010,6 +4010,46 @@
       "examples": [
         "CCAR-P記事の書き出しに「CCAR-Pを837点で合格した体験記」と誤記されていた"
       ]
+    },
+    {
+      "term": "近即応答",
+      "rule": "即時応答と表記する",
+      "firstSeenDate": "2026-11-12",
+      "lastSeenDate": "2026-11-12",
+      "occurrences": 1,
+      "examples": [
+        "Claude 4ハイブリッドモデルの通常応答モードを指す語として使用されていたが「近即応答」は非標準の日本語複合語"
+      ]
+    },
+    {
+      "term": "エージェント的シナリオ",
+      "rule": "エージェント型シナリオと表記する",
+      "firstSeenDate": "2026-11-12",
+      "lastSeenDate": "2026-11-12",
+      "occurrences": 1,
+      "examples": [
+        "既知の「エージェント型ワークフロー」ルールをシナリオにも適用。「エージェント的」は和製形容動詞で不自然"
+      ]
+    },
+    {
+      "term": "sales 経由で",
+      "rule": "営業チーム経由でと表記する",
+      "firstSeenDate": "2026-11-12",
+      "lastSeenDate": "2026-11-12",
+      "occurrences": 1,
+      "examples": [
+        "Developer Mode アクセス方法の説明文中に英語名詞「sales」がそのまま使用されていた"
+      ]
+    },
+    {
+      "term": "raw な思考の連鎖",
+      "rule": "生の思考の連鎖と表記する",
+      "firstSeenDate": "2026-11-12",
+      "lastSeenDate": "2026-11-12",
+      "occurrences": 1,
+      "examples": [
+        "英語形容詞「raw」が日本語文中に混在。chain-of-thought の生出力を指す文脈"
+      ]
     }
   ]
 }
