@@ -5,55 +5,10 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
       "normalizedTitle": "an alignment assessment of the uk aisi cybertesting incident",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 8,
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 9,
       "bodyHash": "2ec80ea16fe369af",
       "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/zero-days",
-      "normalizedTitle": "zero days",
-      "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 7,
-      "bodyHash": "de9305c16e1e7880",
-      "bodyLength": 13688
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/nuclear-safeguards-for-ai",
-      "normalizedTitle": "nuclear safeguards for ai",
-      "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 7,
-      "bodyHash": "1ae2146791b6a662",
-      "bodyLength": 8182
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/project-vend-2",
-      "normalizedTitle": "project vend 2",
-      "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 7,
-      "bodyHash": "baceb7ed73169278",
-      "bodyLength": 19215
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/property-based-testing",
-      "normalizedTitle": "property based testing",
-      "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 7,
-      "bodyHash": "ef29033417134d13",
-      "bodyLength": 13561
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/smart-contracts",
-      "normalizedTitle": "smart contracts",
-      "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 7,
-      "bodyHash": "2ae46ea24022cdbb",
-      "bodyLength": 16795
     },
     {
       "normalizedUrl": "https://anthropic.com/news/s1-sec",
@@ -124,40 +79,6 @@
       "occurrences": 7,
       "bodyHash": "7f82e9c8dfd0d987",
       "bodyLength": 9900
-    },
-    {
-      "normalizedUrl": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "normalizedTitle": "claude code regularly sends each background agent s transcript to its model",
-      "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 1,
-      "bodyHash": "25d05beaa4e771a9",
-      "bodyLength": 19866
-    },
-    {
-      "normalizedUrl": "https://fig.blue/posts/duet-is-the-future",
-      "normalizedTitle": "claude duet is the first personal assistant type harness that feels useful",
-      "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 1,
-      "bodyHash": "57c39d89d89cf363",
-      "bodyLength": 4830
-    },
-    {
-      "normalizedUrl": "https://divergencelabs.com/publications/ige-preprint.pdf",
-      "normalizedTitle": "ige disruptor for food allergy with claude enabled antibody design pdf",
-      "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/34211c5b1960ace4aa0c",
-      "normalizedTitle": "claude code で api error stream idle timeout partial response received が出たときの直し方 claude stream idle timeout ms と長い出力の分割",
-      "firstSeenDate": "2026-10-29",
-      "lastSeenDate": "2026-10-29",
-      "occurrences": 1,
-      "bodyHash": "48df5eb48c263966",
-      "bodyLength": 5266
     },
     {
       "normalizedUrl": "https://anthropic.com/research/claude-code-best-practices",
@@ -479,8 +400,8 @@
       "normalizedUrl": "https://anthropic.com/research/vibe-physics",
       "normalizedTitle": "vibe physics",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-08",
-      "occurrences": 6,
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 7,
       "bodyHash": "dc93e41072c97f04",
       "bodyLength": 19256
     },
@@ -948,8 +869,8 @@
       "normalizedUrl": "https://openai.com/index/coderabbit-codex-daybreak",
       "normalizedTitle": "coderabbit scales agentic software development and ships 20x more",
       "firstSeenDate": "2026-11-09",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 4
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 5
     },
     {
       "normalizedUrl": "https://claude.com/resources/articles/sheets-whiteboards-data",
@@ -1124,8 +1045,8 @@
       "normalizedUrl": "https://qiita.com/satouyoshiaki/items/73987257a1d001c9fe66",
       "normalizedTitle": "museとcodexの利用量を確認できるウィジェットを作った話",
       "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 2,
       "bodyHash": "8b336f2d52a84b16",
       "bodyLength": 1848
     },
@@ -1160,7 +1081,176 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "normalizedTitle": "holiday extras is rethinking what it can build with codex",
       "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 2
+    },
+    {
+      "normalizedUrl": "https://status.claude.com/incidents/nn11wk485zfn",
+      "normalizedTitle": "elevated errors on claude ai claude code and platform claude com",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "91a8d61b8fa180f8",
+      "bodyLength": 768
+    },
+    {
+      "normalizedUrl": "https://claude.com/resources/articles/claude-meetings",
+      "normalizedTitle": "claude meetings",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "a17c168f6ffbcf1d",
+      "bodyLength": 5277
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55",
+      "normalizedTitle": "claude fable 5 2はopusの単価2倍 でも1タスクは約半額 mythos5 2との違いと使いどころ",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "453a0c7d17d2d352",
+      "bodyLength": 8292
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ktdatascience/items/5130b6a457d762fe1113",
+      "normalizedTitle": "claude codeとcodexのスキルを二重管理しないためにsymlinkで共有した話",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "25f704d3b4b47ece",
+      "bodyLength": 5223
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kazutoyamaura/items/c6c77ee9f989d0bd5e4f",
+      "normalizedTitle": "claude opus 5 5 と fable 5 2 結局どっちを使う 違いと使い分けを整理した",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "94ccd68185091535",
+      "bodyLength": 4716
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/smart-contracts",
+      "normalizedTitle": "smart contracts",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "110d3901cccf52eb",
+      "bodyLength": 16785
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/cyber-competitions",
+      "normalizedTitle": "cyber competitions",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "67c4c570f82e9ee1",
+      "bodyLength": 17074
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/biorisk",
+      "normalizedTitle": "biorisk",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "f2ce01a641aeada6",
+      "bodyLength": 15389
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
+      "normalizedTitle": "economic index june 2026 report",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "469268efdf01cd78",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/project-vend-1",
+      "normalizedTitle": "project vend 1",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "a18fb292251b0d37",
+      "bodyLength": 17425
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
+      "normalizedTitle": "making claude a chemist",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "df00cd8d12558104",
+      "bodyLength": 15266
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/petri-open-source-auditing",
+      "normalizedTitle": "petri open source auditing",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "2197527164380c8a",
+      "bodyLength": 9550
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/persona-selection-model",
+      "normalizedTitle": "persona selection model",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "c97834f12de45fbf",
+      "bodyLength": 7680
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/project-fetch-robot-dog",
+      "normalizedTitle": "project fetch robot dog",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "22050ca4d63abe63",
+      "bodyLength": 16940
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/81k-economics",
+      "normalizedTitle": "81k economics",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "23fd5c7e884de564",
+      "bodyLength": 16088
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/evaluating-feature-steering",
+      "normalizedTitle": "evaluating feature steering",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "3cce2ccdb2e60ed8",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/project-swap",
+      "normalizedTitle": "project swap",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "71d568971e8425a3",
+      "bodyLength": 18775
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/teaching-claude-why",
+      "normalizedTitle": "teaching claude why",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
+      "occurrences": 1,
+      "bodyHash": "6f7d9c7363627447",
+      "bodyLength": 13585
+    },
+    {
+      "normalizedUrl": "https://openai.com/business/customer-stories/gondola",
+      "normalizedTitle": "gondola doubles revenue as its team builds more with codex",
+      "firstSeenDate": "2026-11-13",
+      "lastSeenDate": "2026-11-13",
       "occurrences": 1
     }
   ]
