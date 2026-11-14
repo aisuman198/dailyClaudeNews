@@ -4100,6 +4100,26 @@
       "examples": [
         "バイオリスク記事で「暗黙的・実施手順に関するアクセス困難な知識」と使用されていた"
       ]
+    },
+    {
+      "term": "Fable 5.2",
+      "rule": "原文ままで保持・要注意フラグ",
+      "firstSeenDate": "2026-11-14",
+      "lastSeenDate": "2026-11-14",
+      "occurrences": 1,
+      "examples": [
+        "既知「Claude Fable 5.1」の新パッチバージョンとして初出"
+      ]
+    },
+    {
+      "term": "agent teams",
+      "rule": "原文ままで保持・要確認フラグ",
+      "firstSeenDate": "2026-11-14",
+      "lastSeenDate": "2026-11-14",
+      "occurrences": 1,
+      "examples": [
+        "Code Mode の接続制限リストに初出、公式名称未確認"
+      ]
     }
   ]
 }
