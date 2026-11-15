@@ -5,8 +5,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
       "normalizedTitle": "an alignment assessment of the uk aisi cybertesting incident",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 10,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 11,
       "bodyHash": "2ec80ea16fe369af",
       "bodyLength": 20028
     },
@@ -117,15 +117,6 @@
       "bodyLength": 19973
     },
     {
-      "normalizedUrl": "https://qiita.com/nezle02/items/1bea25898503056b95c2",
-      "normalizedTitle": "claude code codex antigravity を1つのローカルチャットで協働させる方法 excalibur agent hub",
-      "firstSeenDate": "2026-10-30",
-      "lastSeenDate": "2026-10-31",
-      "occurrences": 2,
-      "bodyHash": "69937f499bd70407",
-      "bodyLength": 2478
-    },
-    {
       "normalizedUrl": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "normalizedTitle": "anthropic blocks users for anything touching training larger models",
       "firstSeenDate": "2026-10-31",
@@ -133,51 +124,6 @@
       "occurrences": 2,
       "bodyHash": "d9fe93362641b532",
       "bodyLength": 2813
-    },
-    {
-      "normalizedUrl": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-      "normalizedTitle": "anthropic takes steps to block claude from reverse engineering video games",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-10-31",
-      "occurrences": 1,
-      "bodyHash": "9106963e3c9aa3fc",
-      "bodyLength": 4941
-    },
-    {
-      "normalizedUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
-      "normalizedTitle": "anthropic s claude ai blocks video game cloning and reverse engineering",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-10-31",
-      "occurrences": 1,
-      "bodyHash": "7190511af9b2578f",
-      "bodyLength": 13700
-    },
-    {
-      "normalizedUrl": "https://qiita.com/locallab/items/91e56a2e96744aa1bbe1",
-      "normalizedTitle": "claude code を使って開発速度を3倍にした7つの実践テクニック",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-10-31",
-      "occurrences": 1,
-      "bodyHash": "4adbe7b6e2eaef05",
-      "bodyLength": 5051
-    },
-    {
-      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/d74fc44a0aa8ee403e21",
-      "normalizedTitle": "claude code 開発者が注目している5つのアップデート v2 1 311 v2 1 316",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-10-31",
-      "occurrences": 1,
-      "bodyHash": "26b039faec41a7d0",
-      "bodyLength": 4173
-    },
-    {
-      "normalizedUrl": "https://qiita.com/kaiyaku_iyada/items/3366666a2a706f96fe7d",
-      "normalizedTitle": "claude code で qiita に投稿 3日とも1回目は空振り 二重投稿を避けて押し直す手順",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-10-31",
-      "occurrences": 1,
-      "bodyHash": "abd4c43b70f3fa98",
-      "bodyLength": 9175
     },
     {
       "normalizedUrl": "https://qiita.com/homhom44/items/e9916dd9ff6753f2eecd",
@@ -348,8 +294,8 @@
       "normalizedUrl": "https://anthropic.com/research/vibe-physics",
       "normalizedTitle": "vibe physics",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 8,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 9,
       "bodyHash": "dc93e41072c97f04",
       "bodyLength": 19256
     },
@@ -817,8 +763,8 @@
       "normalizedUrl": "https://openai.com/index/coderabbit-codex-daybreak",
       "normalizedTitle": "coderabbit scales agentic software development and ships 20x more",
       "firstSeenDate": "2026-11-09",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 6
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 7
     },
     {
       "normalizedUrl": "https://claude.com/resources/articles/sheets-whiteboards-data",
@@ -1029,8 +975,8 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "normalizedTitle": "holiday extras is rethinking what it can build with codex",
       "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 3
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 4
     },
     {
       "normalizedUrl": "https://status.claude.com/incidents/nn11wk485zfn",
@@ -1081,8 +1027,8 @@
       "normalizedUrl": "https://anthropic.com/research/smart-contracts",
       "normalizedTitle": "smart contracts",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "110d3901cccf52eb",
       "bodyLength": 16785
     },
@@ -1090,8 +1036,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-competitions",
       "normalizedTitle": "cyber competitions",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "67c4c570f82e9ee1",
       "bodyLength": 17074
     },
@@ -1099,8 +1045,8 @@
       "normalizedUrl": "https://anthropic.com/research/biorisk",
       "normalizedTitle": "biorisk",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "f2ce01a641aeada6",
       "bodyLength": 15389
     },
@@ -1108,8 +1054,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
       "normalizedTitle": "economic index june 2026 report",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "469268efdf01cd78",
       "bodyLength": 20028
     },
@@ -1117,8 +1063,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-vend-1",
       "normalizedTitle": "project vend 1",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "a18fb292251b0d37",
       "bodyLength": 17425
     },
@@ -1126,8 +1072,8 @@
       "normalizedUrl": "https://anthropic.com/research/making-claude-a-chemist",
       "normalizedTitle": "making claude a chemist",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "df00cd8d12558104",
       "bodyLength": 15266
     },
@@ -1135,8 +1081,8 @@
       "normalizedUrl": "https://anthropic.com/research/petri-open-source-auditing",
       "normalizedTitle": "petri open source auditing",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "2197527164380c8a",
       "bodyLength": 9550
     },
@@ -1144,8 +1090,8 @@
       "normalizedUrl": "https://anthropic.com/research/persona-selection-model",
       "normalizedTitle": "persona selection model",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "c97834f12de45fbf",
       "bodyLength": 7680
     },
@@ -1153,8 +1099,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-fetch-robot-dog",
       "normalizedTitle": "project fetch robot dog",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "22050ca4d63abe63",
       "bodyLength": 16940
     },
@@ -1162,8 +1108,8 @@
       "normalizedUrl": "https://anthropic.com/research/81k-economics",
       "normalizedTitle": "81k economics",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "23fd5c7e884de564",
       "bodyLength": 16088
     },
@@ -1171,8 +1117,8 @@
       "normalizedUrl": "https://anthropic.com/research/evaluating-feature-steering",
       "normalizedTitle": "evaluating feature steering",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "3cce2ccdb2e60ed8",
       "bodyLength": 20028
     },
@@ -1180,8 +1126,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-swap",
       "normalizedTitle": "project swap",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "71d568971e8425a3",
       "bodyLength": 18775
     },
@@ -1189,8 +1135,8 @@
       "normalizedUrl": "https://anthropic.com/research/teaching-claude-why",
       "normalizedTitle": "teaching claude why",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3,
       "bodyHash": "6f7d9c7363627447",
       "bodyLength": 13585
     },
@@ -1198,8 +1144,8 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/gondola",
       "normalizedTitle": "gondola doubles revenue as its team builds more with codex",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 2
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 3
     },
     {
       "normalizedUrl": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc",
@@ -1223,9 +1169,9 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/d1987dc6a459b10701ae",
       "normalizedTitle": "claude code で pretooluse bash hook error stop hook error が出たときの見分け方 終了コードの意味と 成功しても error と表示される件",
       "firstSeenDate": "2026-11-14",
-      "lastSeenDate": "2026-11-14",
-      "occurrences": 1,
-      "bodyHash": "f282011d97271d01",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 2,
+      "bodyHash": "77ddf7ed87d9041b",
       "bodyLength": 5927
     },
     {
@@ -1236,6 +1182,49 @@
       "occurrences": 1,
       "bodyHash": "f3698191367028eb",
       "bodyLength": 7335
+    },
+    {
+      "normalizedUrl": "https://youtube.com/watch?v=WPj3aQ-xxpI",
+      "normalizedTitle": "claude code and codex reverse engineered my 1994 jeep s ecu over a 3 arduino video",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://claude.dev/blog/what-a-task-costs-on-opus-5-5",
+      "normalizedTitle": "what a task costs on opus 5 5",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "bodyHash": "162266c11eccfd46",
+      "bodyLength": 20028
+    },
+    {
+      "normalizedUrl": "https://qiita.com/TOSHIMITSU_MIYACHI/items/ca1a536ae69b0c1fd46c",
+      "normalizedTitle": "ai活用の8段階で 今のレベルを1つ上げる手順 claude mdに書いておいて 手順をskillsにして など 各段階でaiに伝える一言つき",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "bodyHash": "8815646d2af2b79f",
+      "bodyLength": 8990
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/af9b7802e0af1ad1ccd4",
+      "normalizedTitle": "claude code で api error 500 internal server error が出たときの切り分け status 確認と再送 ゲートウェイ経由なら enable tool search",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "bodyHash": "0b8e6f3b7138253d",
+      "bodyLength": 5045
+    },
+    {
+      "normalizedUrl": "https://qiita.com/picnic/items/0e7c5295c004f170dcd9",
+      "normalizedTitle": "claude障害まとめ 11 13の同時障害 認証エラー 利用上限誤判定と対処法",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "bodyHash": "11a6f749cd302676",
+      "bodyLength": 5039
     }
   ]
 }
