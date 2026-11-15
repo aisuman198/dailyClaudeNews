@@ -2383,12 +2383,13 @@
     },
     {
       "term": "xhigh → xHigh",
-      "rule": "Anthropic 既知エフォートレベル名は「xHigh」と大文字 H で表記する",
+      "rule": "Anthropic既知エフォートレベル名は「xHigh」と大文字Hで表記する（既知ルール適用）",
       "firstSeenDate": "2026-09-22",
-      "lastSeenDate": "2026-09-22",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 2,
       "examples": [
-        "ベンチマーク注記で「xhigh 努力レベル」と小文字になっていたため修正"
+        "ベンチマーク注記で「xhigh 努力レベル」と小文字になっていたため修正",
+        "effort レベル列挙内に「xhigh」と小文字表記されていたため修正"
       ]
     },
     {
@@ -4119,6 +4120,46 @@
       "occurrences": 1,
       "examples": [
         "Code Mode の接続制限リストに初出、公式名称未確認"
+      ]
+    },
+    {
+      "term": "報告が立ち → 報告が上がり",
+      "rule": "「報告が立つ」は不自然な日本語。「報告が上がる」が自然な表現",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "examples": [
+        "第4記事カード内「障害発生時に一斉に報告が立ち」の箇所"
+      ]
+    },
+    {
+      "term": "Claude Managed Agents",
+      "rule": "原文ままで保持・要注意フラグ",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "examples": [
+        "11/13障害の影響対象として初出。Anthropic公式製品名として既知リスト未掲載"
+      ]
+    },
+    {
+      "term": "Claude in Meetings",
+      "rule": "原文ままで保持・要注意フラグ",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "examples": [
+        "11/13障害の影響対象として初出。Anthropic公式製品名として既知リスト未掲載"
+      ]
+    },
+    {
+      "term": "「A hook blocked the turn from ending」（引用内英文）",
+      "rule": "ユーザーが実際のエラーメッセージとして識別する必要があるため英語のまま保持。引用内英文未訳ルールとの扱いを今後も注意",
+      "firstSeenDate": "2026-11-15",
+      "lastSeenDate": "2026-11-15",
+      "occurrences": 1,
+      "examples": [
+        "第3記事カード内のエラーメッセージ文字列として引用されている"
       ]
     }
   ]
