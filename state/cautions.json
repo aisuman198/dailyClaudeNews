@@ -4161,6 +4161,26 @@
       "examples": [
         "第3記事カード内のエラーメッセージ文字列として引用されている"
       ]
+    },
+    {
+      "term": "エージェンティックな",
+      "rule": "「agentic」の直接音訳「エージェンティックな」は「エージェント型の」に修正する。既知ルール「エージェント的→エージェント型」の新変種として扱う",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "examples": [
+        "Barclays 記事で Craig Bright のコメント中に混入"
+      ]
+    },
+    {
+      "term": "エディトリアルメタノートの本文混入",
+      "rule": "「（Anthropic 公式製品名として既知リスト未掲載のため原文ままで保持）」等のプロセス注釈が記事本文に混入した場合は削除する",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "examples": [
+        "Claude Frontier Academy 記事の Loic Giraud コメント文中に残存"
+      ]
     }
   ]
 }

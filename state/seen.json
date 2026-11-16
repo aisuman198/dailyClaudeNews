@@ -5,8 +5,8 @@
       "normalizedUrl": "https://anthropic.com/research/alignment-assessment-ukaisi",
       "normalizedTitle": "an alignment assessment of the uk aisi cybertesting incident",
       "firstSeenDate": "2026-10-23",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 11,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 12,
       "bodyHash": "2ec80ea16fe369af",
       "bodyLength": 20028
     },
@@ -56,13 +56,6 @@
       "bodyLength": 12195
     },
     {
-      "normalizedUrl": "https://openai.com/index/greptile-code-review-codex-astra",
-      "normalizedTitle": "greptile takes bug detection beyond code review with gpt 6 astra",
-      "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 6
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/coding-agents-social-sciences",
       "normalizedTitle": "coding agents social sciences",
       "firstSeenDate": "2026-10-28",
@@ -108,33 +101,6 @@
       "bodyLength": 8274
     },
     {
-      "normalizedUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
-      "normalizedTitle": "backdoor in claude code for vs code extension on the cursor marketplace",
-      "firstSeenDate": "2026-10-30",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 3,
-      "bodyHash": "edd3a7f106fd942b",
-      "bodyLength": 19973
-    },
-    {
-      "normalizedUrl": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-      "normalizedTitle": "anthropic blocks users for anything touching training larger models",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 2,
-      "bodyHash": "d9fe93362641b532",
-      "bodyLength": 2813
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/e9916dd9ff6753f2eecd",
-      "normalizedTitle": "claude code で api error rate limit reached と usage credits required for 1m context が出たときの直し方 使用率が低いのに止まる場合",
-      "firstSeenDate": "2026-10-31",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 2,
-      "bodyHash": "ed7269605940a482",
-      "bodyLength": 5911
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/enabling-independent-research",
       "normalizedTitle": "enabling independent research",
       "firstSeenDate": "2026-10-31",
@@ -142,40 +108,6 @@
       "occurrences": 6,
       "bodyHash": "f728e60451d99e35",
       "bodyLength": 16350
-    },
-    {
-      "normalizedUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-      "normalizedTitle": "chatgpt and codex usage limits merging",
-      "firstSeenDate": "2026-11-01",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 1
-    },
-    {
-      "normalizedUrl": "https://leonlins.com/writing/anthropic_ipo",
-      "normalizedTitle": "ant can unprecedented revenue growth outrun irresponsibly large investment",
-      "firstSeenDate": "2026-11-01",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 1,
-      "bodyHash": "b389e69c46a88353",
-      "bodyLength": 16735
-    },
-    {
-      "normalizedUrl": "https://qiita.com/picnic/items/ecdeca5775da6348c87b",
-      "normalizedTitle": "claude code v2 1 316 解説 opus 4 8 fast mode 11 30削除とセキュリティ修正",
-      "firstSeenDate": "2026-11-01",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 1,
-      "bodyHash": "f79b7c2ee6c454f0",
-      "bodyLength": 5709
-    },
-    {
-      "normalizedUrl": "https://qiita.com/moha0918_/items/83875a7189724b35bd91",
-      "normalizedTitle": "claude code v2 1 311 v2 1 316 ultrathink でそのターンだけ xhigh effort に 週刊changelog解説",
-      "firstSeenDate": "2026-11-01",
-      "lastSeenDate": "2026-11-01",
-      "occurrences": 1,
-      "bodyHash": "cf22403679e1f656",
-      "bodyLength": 3569
     },
     {
       "normalizedUrl": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
@@ -294,8 +226,8 @@
       "normalizedUrl": "https://anthropic.com/research/vibe-physics",
       "normalizedTitle": "vibe physics",
       "firstSeenDate": "2026-11-02",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 9,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 10,
       "bodyHash": "dc93e41072c97f04",
       "bodyLength": 19256
     },
@@ -975,8 +907,8 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "normalizedTitle": "holiday extras is rethinking what it can build with codex",
       "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 4
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 5
     },
     {
       "normalizedUrl": "https://status.claude.com/incidents/nn11wk485zfn",
@@ -1027,8 +959,8 @@
       "normalizedUrl": "https://anthropic.com/research/smart-contracts",
       "normalizedTitle": "smart contracts",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 4,
       "bodyHash": "110d3901cccf52eb",
       "bodyLength": 16785
     },
@@ -1036,8 +968,8 @@
       "normalizedUrl": "https://anthropic.com/research/cyber-competitions",
       "normalizedTitle": "cyber competitions",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 4,
       "bodyHash": "67c4c570f82e9ee1",
       "bodyLength": 17074
     },
@@ -1045,8 +977,8 @@
       "normalizedUrl": "https://anthropic.com/research/biorisk",
       "normalizedTitle": "biorisk",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 4,
       "bodyHash": "f2ce01a641aeada6",
       "bodyLength": 15389
     },
@@ -1054,8 +986,8 @@
       "normalizedUrl": "https://anthropic.com/research/economic-index-june-2026-report",
       "normalizedTitle": "economic index june 2026 report",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 4,
       "bodyHash": "469268efdf01cd78",
       "bodyLength": 20028
     },
@@ -1063,8 +995,8 @@
       "normalizedUrl": "https://anthropic.com/research/project-vend-1",
       "normalizedTitle": "project vend 1",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 4,
       "bodyHash": "a18fb292251b0d37",
       "bodyLength": 17425
     },
@@ -1144,8 +1076,8 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/gondola",
       "normalizedTitle": "gondola doubles revenue as its team builds more with codex",
       "firstSeenDate": "2026-11-13",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 3
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 4
     },
     {
       "normalizedUrl": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc",
@@ -1187,8 +1119,8 @@
       "normalizedUrl": "https://youtube.com/watch?v=WPj3aQ-xxpI",
       "normalizedTitle": "claude code and codex reverse engineered my 1994 jeep s ecu over a 3 arduino video",
       "firstSeenDate": "2026-11-15",
-      "lastSeenDate": "2026-11-15",
-      "occurrences": 1
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 2
     },
     {
       "normalizedUrl": "https://claude.dev/blog/what-a-task-costs-on-opus-5-5",
@@ -1225,6 +1157,123 @@
       "occurrences": 1,
       "bodyHash": "11a6f749cd302676",
       "bodyLength": 5039
+    },
+    {
+      "normalizedUrl": "https://qiita.com/inoyu-qiita/items/f2e2d1006407a4d5f28e",
+      "normalizedTitle": "kanaryの relay でclaude codex cursorを行き来するのが便利だったので コードレビューを往復させてみた",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "166671dfddfe49af",
+      "bodyLength": 7676
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/8f7e6e4b04257ea048cc",
+      "normalizedTitle": "claude code で string to replace not found in file error editing file が繰り返し出るとき タブインデントのファイルで起きる既知の不具合と回避策",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "0b1dca85a9f07747",
+      "bodyLength": 5039
+    },
+    {
+      "normalizedUrl": "https://qiita.com/tyamada22/items/6eaadfeec88035b91ad8",
+      "normalizedTitle": "第1回 windows用pdfユーティリティをcodexで開発し始めた 最初の仕様 apiエラー exe化",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "6da45e4911ad8b9d",
+      "bodyLength": 11167
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/canadian-ai-research",
+      "normalizedTitle": "canadian ai research",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "e6b73e0417d89284",
+      "bodyLength": 18097
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/singapore-office-opening",
+      "normalizedTitle": "singapore office opening",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "3cae449d00b2f821",
+      "bodyLength": 5779
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/wellbeing-research-grants",
+      "normalizedTitle": "wellbeing research grants",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "3a9c4b6be27fc317",
+      "bodyLength": 3564
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/barclays-scales-claude",
+      "normalizedTitle": "barclays scales claude",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "7b996809a58bc87d",
+      "bodyLength": 4875
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/claude-frontier-academy",
+      "normalizedTitle": "claude frontier academy",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "6f5717d8600089f3",
+      "bodyLength": 8179
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/public-benefit-fund",
+      "normalizedTitle": "public benefit fund",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "3f28c0ebfa2ee55a",
+      "bodyLength": 2857
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "normalizedTitle": "christopher stubbs joins long term benefit trust",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "b1bf3d55f07c37c6",
+      "bodyLength": 3880
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "normalizedTitle": "coordinated vulnerability disclosure timelines",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "b6297c0175435211",
+      "bodyLength": 3985
+    },
+    {
+      "normalizedUrl": "https://qiita.com/kenji_harada/items/40bb5b705ef00f8253b2",
+      "normalizedTitle": "claude code と claude api の高速モード比較 料金 速度 フォールバックの違い",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "d0dc40f57b352726",
+      "bodyLength": 6387
+    },
+    {
+      "normalizedUrl": "https://qiita.com/localai_lab/items/031a5824b0b06b08835d",
+      "normalizedTitle": "claude code のステータスライン 標準の statusline と 使用量の残りバーを出す自作スクリプト",
+      "firstSeenDate": "2026-11-16",
+      "lastSeenDate": "2026-11-16",
+      "occurrences": 1,
+      "bodyHash": "c8e0b7eae7b01c62",
+      "bodyLength": 16340
     }
   ]
 }
