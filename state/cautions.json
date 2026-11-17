@@ -4181,6 +4181,16 @@
       "examples": [
         "Claude Frontier Academy 記事の Loic Giraud コメント文中に残存"
       ]
+    },
+    {
+      "term": "実施してCEO（スペース欠落）",
+      "rule": "英字と日本語をつなぐ動詞形の直後にも半角スペースを入れる",
+      "firstSeenDate": "2026-11-17",
+      "lastSeenDate": "2026-11-17",
+      "occurrences": 1,
+      "examples": [
+        "ロビー記事内「実施してCEO の Alice Huang」→「実施して CEO の Alice Huang」に修正"
+      ]
     }
   ]
 }
