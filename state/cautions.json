@@ -4191,6 +4191,16 @@
       "examples": [
         "ロビー記事内「実施してCEO の Alice Huang」→「実施して CEO の Alice Huang」に修正"
       ]
+    },
+    {
+      "term": "テキストを受信",
+      "rule": "SMS・テキストメッセージを指す場合は「テキストメッセージを受信」と表記する",
+      "firstSeenDate": "2026-11-19",
+      "lastSeenDate": "2026-11-19",
+      "occurrences": 1,
+      "examples": [
+        "FBI捜査員記事：「テキストを受信」→「テキストメッセージを受信」に修正"
+      ]
     }
   ]
 }
