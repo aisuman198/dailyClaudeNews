@@ -4231,6 +4231,36 @@
       "examples": [
         "AI レビュー実験記事の第2段落「旧 7 セットの原稿に対し」"
       ]
+    },
+    {
+      "term": "Claude君",
+      "rule": "英字と日本語の間には半角スペースを入れる（カードタイトル内）",
+      "firstSeenDate": "2026-11-24",
+      "lastSeenDate": "2026-11-24",
+      "occurrences": 1,
+      "examples": [
+        "「Claude君」→「Claude 君」：スペース欠落を修正"
+      ]
+    },
+    {
+      "term": "APFSスナップショット",
+      "rule": "英字と日本語の間には半角スペースを入れる（本文内）",
+      "firstSeenDate": "2026-11-24",
+      "lastSeenDate": "2026-11-24",
+      "occurrences": 1,
+      "examples": [
+        "「APFSスナップショット」→「APFS スナップショット」"
+      ]
+    },
+    {
+      "term": "深い人間のサインオフ",
+      "rule": "「人間による詳細なサインオフ」と表記する",
+      "firstSeenDate": "2026-11-24",
+      "lastSeenDate": "2026-11-24",
+      "occurrences": 1,
+      "examples": [
+        "「deep human sign-off」の直訳で不自然な日本語になっていた"
+      ]
     }
   ]
 }
