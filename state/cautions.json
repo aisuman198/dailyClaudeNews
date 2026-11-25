@@ -4261,6 +4261,46 @@
       "examples": [
         "「deep human sign-off」の直訳で不自然な日本語になっていた"
       ]
+    },
+    {
+      "term": "Migrating API To Rust（原題）",
+      "rule": "スラグ由来の略称 Api は API と全大文字で表記（TCS/DXC/MOU/GLM と同パターン）",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "examples": [
+        "原題 'Migrating Api To Rust' の 'Api' を 'API' に修正"
+      ]
+    },
+    {
+      "term": "GPT-6 Sol",
+      "rule": "OpenAI モデル名として初出。原文ままで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "examples": [
+        "Clay 記事で GPT-6 Astra・GPT-6 Luna と並んで初登場"
+      ]
+    },
+    {
+      "term": "GPT-Live-1",
+      "rule": "OpenAI モデル名として初出。原文ままで保持し要注意フラグを立てる",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "examples": [
+        "Clay 記事の将来計画として言及"
+      ]
+    },
+    {
+      "term": "Claude Ship",
+      "rule": "Claude Code の /ship 機能セット名として初出。原文ままで保持",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "examples": [
+        "/ship コマンド記事で Code Review・PR Steward・Claude Approvals をまとめる呼称として使用"
+      ]
     }
   ]
 }
