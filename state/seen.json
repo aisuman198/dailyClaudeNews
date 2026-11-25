@@ -126,24 +126,6 @@
       "occurrences": 6
     },
     {
-      "normalizedUrl": "https://anthropic.com/claude-fable-and-mythos-5-2",
-      "normalizedTitle": "claude fable 5 2 and mythos 5 2",
-      "firstSeenDate": "2026-11-09",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 2,
-      "bodyHash": "57503fb6e8a64972",
-      "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://artificialanalysis.ai/models/claude-fable-5-2",
-      "normalizedTitle": "claude fable 5 2 scores 65 on artificial analysis highest so far",
-      "firstSeenDate": "2026-11-09",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 2,
-      "bodyHash": "0ada6daffa2e60d4",
-      "bodyLength": 19800
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/claude-electronics-design",
       "normalizedTitle": "testing claude on real world electronics design",
       "firstSeenDate": "2026-11-09",
@@ -169,22 +151,6 @@
       "bodyLength": 5853
     },
     {
-      "normalizedUrl": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
-      "normalizedTitle": "life on claude nine",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1,
-      "bodyHash": "014cf852fa800263",
-      "bodyLength": 19651
-    },
-    {
-      "normalizedUrl": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
-      "normalizedTitle": "saltline first person shooter built by fable 5 2",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1
-    },
-    {
       "normalizedUrl": "https://vulncheck.com/blog/anthropic-glasswing-november-update",
       "normalizedTitle": "after 7 months glasswing overwelms maintainers with underwhelming findings",
       "firstSeenDate": "2026-11-10",
@@ -192,51 +158,6 @@
       "occurrences": 2,
       "bodyHash": "e2e718c11346982b",
       "bodyLength": 10029
-    },
-    {
-      "normalizedUrl": "https://bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video",
-      "normalizedTitle": "anthropic targets 1 4t valuation in ipo",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1,
-      "bodyHash": "4e3b78c3dc9f7ea7",
-      "bodyLength": 869
-    },
-    {
-      "normalizedUrl": "https://qiita.com/charge0315/items/d68341cabd62e04cd1a7",
-      "normalizedTitle": "claude md agents md gemini mdの食い違いを 正本1つ 生成 ci検査でなくす 指示書を18 0kbから8 9kbへ",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1,
-      "bodyHash": "111e5e76e802eefd",
-      "bodyLength": 4930
-    },
-    {
-      "normalizedUrl": "https://qiita.com/quotidia/items/3fd1e9686609a066e009",
-      "normalizedTitle": "claude fable 5 2の要点 api料金8ドル 40ドル 出力最大30 高速 1 000エージェントでos試作",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1,
-      "bodyHash": "b1a02d7b6ef94913",
-      "bodyLength": 926
-    },
-    {
-      "normalizedUrl": "https://qiita.com/systemdesignsimple/items/ebe05ebf39cf11f0aab7",
-      "normalizedTitle": "claude fable 5 2とmythos 5 2を正直にレビューする",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1,
-      "bodyHash": "83c0c041b74ea0f1",
-      "bodyLength": 4814
-    },
-    {
-      "normalizedUrl": "https://qiita.com/Pulsar-K/items/3738cc5148370665ef84",
-      "normalizedTitle": "claude codeの 同意捏造 はどんな条件で起きるのか 200k未満では0件だった 解析2",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-10",
-      "occurrences": 1,
-      "bodyHash": "3ce1a7be06375e6b",
-      "bodyLength": 4526
     },
     {
       "normalizedUrl": "https://anthropic.com/news/roadshow-launch",
@@ -776,8 +697,8 @@
       "normalizedUrl": "https://anthropic.com/research/formal-verification",
       "normalizedTitle": "formal verification",
       "firstSeenDate": "2026-11-17",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 7,
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 8,
       "bodyHash": "cd061aa6804bade0",
       "bodyLength": 20027
     },
@@ -855,8 +776,8 @@
       "normalizedUrl": "https://anthropic.com/news/anthropic-prices-initial-public-offering",
       "normalizedTitle": "anthropic prices initial public offering",
       "firstSeenDate": "2026-11-19",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 6,
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 7,
       "bodyHash": "d2a6931220d4aeec",
       "bodyLength": 1801
     },
@@ -1006,8 +927,8 @@
       "normalizedUrl": "https://anthropic.com/news/ipo-close",
       "normalizedTitle": "ipo close",
       "firstSeenDate": "2026-11-20",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 6,
       "bodyHash": "6a57a9b11fc905e7",
       "bodyLength": 3687
     },
@@ -1015,8 +936,8 @@
       "normalizedUrl": "https://openai.com/business/learn/codex-security-plugin-demo",
       "normalizedTitle": "explore the codex security plugin",
       "firstSeenDate": "2026-11-20",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 5,
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 6,
       "bodyHash": "b32707cb53a34b54",
       "bodyLength": 246
     },
@@ -1157,8 +1078,8 @@
       "normalizedUrl": "https://anthropic.com/research/working-with-ai",
       "normalizedTitle": "working with ai",
       "firstSeenDate": "2026-11-23",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 3,
       "bodyHash": "fdcfa13713200ebe",
       "bodyLength": 16363
     },
@@ -1184,8 +1105,8 @@
       "normalizedUrl": "https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
       "normalizedTitle": "anthropic breaks below 83 ipo price",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 2,
       "bodyHash": "c7722da9b4b2d9f2",
       "bodyLength": 1751
     },
@@ -1225,9 +1146,9 @@
       "normalizedUrl": "https://qiita.com/tomokoro/items/bc9173741761a42fd1c3",
       "normalizedTitle": "合格体験記 claude certified developer professional ccdv p",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 1,
-      "bodyHash": "d9d2f934d2725b73",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 2,
+      "bodyHash": "d853547668c74aa3",
       "bodyLength": 6694
     },
     {
@@ -1261,19 +1182,80 @@
       "normalizedUrl": "https://anthropic.com/research/team/alignment",
       "normalizedTitle": "alignment",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 1,
-      "bodyHash": "d6ba349bf95aa64b",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 2,
+      "bodyHash": "b24980c3271958ef",
       "bodyLength": 4481
     },
     {
       "normalizedUrl": "https://anthropic.com/research/team/interpretability",
       "normalizedTitle": "interpretability",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-24",
-      "occurrences": 1,
-      "bodyHash": "9ec032aabebeda0a",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 2,
+      "bodyHash": "62e259ec859e3dd2",
       "bodyLength": 4540
+    },
+    {
+      "normalizedUrl": "https://reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to",
+      "normalizedTitle": "rumors swirling that labs might have cracked factoring in p",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1
+    },
+    {
+      "normalizedUrl": "https://github.com/lsernau/grh-lean",
+      "normalizedTitle": "much shorter version of grh lean verification from anthropic",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "bodyHash": "6dcdc60cd84d4e1b",
+      "bodyLength": 2120
+    },
+    {
+      "normalizedUrl": "https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc",
+      "normalizedTitle": "技術書典21 claudeと作った同人誌で初出展しました 部数の決め方と当日の売れ方の記録",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "bodyHash": "64f822d0c82481ff",
+      "bodyLength": 2488
+    },
+    {
+      "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6411b5861f40fe54694e",
+      "normalizedTitle": "要約 a practical guide to shipping with claude code prを開いた後の 後始末 を ship でclaudeに任せる実践ガイド",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "bodyHash": "bad7d3fb77efa09b",
+      "bodyLength": 12438
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/3685f059d5cc95451691",
+      "normalizedTitle": "anthropic sdk で streaming is strongly recommended for operations that may take longer than 10 minutes が出たときの直し方 hi だけでも出る理由と messages stream",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "bodyHash": "ba41c13eb8c3ab79",
+      "bodyLength": 6181
+    },
+    {
+      "normalizedUrl": "https://anthropic.com/research/migrating-api-to-rust",
+      "normalizedTitle": "migrating api to rust",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "bodyHash": "fb1bfc9d4df1f0b5",
+      "bodyLength": 20027
+    },
+    {
+      "normalizedUrl": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "normalizedTitle": "clay helps sales teams win with codex and chatgpt",
+      "firstSeenDate": "2026-11-25",
+      "lastSeenDate": "2026-11-25",
+      "occurrences": 1,
+      "bodyHash": "23fecadf81acb096",
+      "bodyLength": 4386
     }
   ]
 }
