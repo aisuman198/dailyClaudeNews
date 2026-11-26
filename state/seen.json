@@ -65,15 +65,6 @@
       "bodyLength": 20028
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/the-long-term-benefit-trust",
-      "normalizedTitle": "the long term benefit trust",
-      "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 7,
-      "bodyHash": "022cd29c89fecba5",
-      "bodyLength": 13410
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/components-of-agent-memory",
       "normalizedTitle": "components of agent memory",
       "firstSeenDate": "2026-11-06",
@@ -119,13 +110,6 @@
       "bodyLength": 2838
     },
     {
-      "normalizedUrl": "https://openai.com/index/cultfit-builds-with-codex",
-      "normalizedTitle": "cult fit builds operational muscle with codex",
-      "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 6
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/claude-electronics-design",
       "normalizedTitle": "testing claude on real world electronics design",
       "firstSeenDate": "2026-11-09",
@@ -142,24 +126,6 @@
       "occurrences": 7
     },
     {
-      "normalizedUrl": "https://claude.com/resources/articles/sheets-whiteboards-data",
-      "normalizedTitle": "claude whiteboards claude sheets and claude data",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 2,
-      "bodyHash": "5cee84e84876d4c2",
-      "bodyLength": 5853
-    },
-    {
-      "normalizedUrl": "https://vulncheck.com/blog/anthropic-glasswing-november-update",
-      "normalizedTitle": "after 7 months glasswing overwelms maintainers with underwhelming findings",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 2,
-      "bodyHash": "e2e718c11346982b",
-      "bodyLength": 10029
-    },
-    {
       "normalizedUrl": "https://anthropic.com/news/roadshow-launch",
       "normalizedTitle": "roadshow launch",
       "firstSeenDate": "2026-11-10",
@@ -169,15 +135,6 @@
       "bodyLength": 1913
     },
     {
-      "normalizedUrl": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit",
-      "normalizedTitle": "zlibrary my beloved anthropic staff chats extolling piracy cited in sony suit",
-      "firstSeenDate": "2026-11-11",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 1,
-      "bodyHash": "06f56dde14641aaa",
-      "bodyLength": 10885
-    },
-    {
       "normalizedUrl": "https://qiita.com/takeshi_Qiita/items/a84c8eab09c878071daa",
       "normalizedTitle": "改定前受験推奨 claude certified architect professional ccar p 本日受験してきました 合格体験記",
       "firstSeenDate": "2026-11-11",
@@ -185,42 +142,6 @@
       "occurrences": 2,
       "bodyHash": "3875d1ccb64128b2",
       "bodyLength": 2480
-    },
-    {
-      "normalizedUrl": "https://qiita.com/yuuki_nyanko/items/d42bae05ccfc86feaada",
-      "normalizedTitle": "muse codexで開発 人間がやったのは3つだけ",
-      "firstSeenDate": "2026-11-11",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 1,
-      "bodyHash": "388b0923f312120c",
-      "bodyLength": 2053
-    },
-    {
-      "normalizedUrl": "https://qiita.com/homhom44/items/b86ef3361bbcd67ca9a0",
-      "normalizedTitle": "claude code で oauth error timeout of 15000ms exceeded と invalid code が出てログインできないときの対処 ssh wsl でコードを貼る場合も",
-      "firstSeenDate": "2026-11-11",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 1,
-      "bodyHash": "27cb26fe32f9df38",
-      "bodyLength": 7414
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ISISI007/items/6c3d9a4e0b7ffffadf98",
-      "normalizedTitle": "codexで初めてマルチエージェント開発を動かせたので 設定と使い方をまとめてみた",
-      "firstSeenDate": "2026-11-11",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 1,
-      "bodyHash": "907c144c80a8f9e9",
-      "bodyLength": 5297
-    },
-    {
-      "normalizedUrl": "https://qiita.com/mt_caddi/items/098fabb0406929aa7060",
-      "normalizedTitle": "日替わりitトレンド ai claude fable 5 2が最大3割速く metaは格安ai muse ember 最新aiニュースと 会議 チャット デザインで使える ai連携 3選",
-      "firstSeenDate": "2026-11-11",
-      "lastSeenDate": "2026-11-11",
-      "occurrences": 1,
-      "bodyHash": "5bd40112055a7645",
-      "bodyLength": 5772
     },
     {
       "normalizedUrl": "https://ipo.anthropic.com/us",
@@ -697,8 +618,8 @@
       "normalizedUrl": "https://anthropic.com/research/formal-verification",
       "normalizedTitle": "formal verification",
       "firstSeenDate": "2026-11-17",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 8,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 9,
       "bodyHash": "cd061aa6804bade0",
       "bodyLength": 20027
     },
@@ -927,8 +848,8 @@
       "normalizedUrl": "https://anthropic.com/news/ipo-close",
       "normalizedTitle": "ipo close",
       "firstSeenDate": "2026-11-20",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 6,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 7,
       "bodyHash": "6a57a9b11fc905e7",
       "bodyLength": 3687
     },
@@ -1078,8 +999,8 @@
       "normalizedUrl": "https://anthropic.com/research/working-with-ai",
       "normalizedTitle": "working with ai",
       "firstSeenDate": "2026-11-23",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 4,
       "bodyHash": "fdcfa13713200ebe",
       "bodyLength": 16363
     },
@@ -1182,8 +1103,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/alignment",
       "normalizedTitle": "alignment",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 3,
       "bodyHash": "b24980c3271958ef",
       "bodyLength": 4481
     },
@@ -1191,8 +1112,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/interpretability",
       "normalizedTitle": "interpretability",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 3,
       "bodyHash": "62e259ec859e3dd2",
       "bodyLength": 4540
     },
@@ -1207,10 +1128,10 @@
       "normalizedUrl": "https://github.com/lsernau/grh-lean",
       "normalizedTitle": "much shorter version of grh lean verification from anthropic",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 1,
-      "bodyHash": "6dcdc60cd84d4e1b",
-      "bodyLength": 2120
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 2,
+      "bodyHash": "7db1eb4b7b7aa37b",
+      "bodyLength": 2123
     },
     {
       "normalizedUrl": "https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc",
@@ -1225,8 +1146,8 @@
       "normalizedUrl": "https://qiita.com/NaokiIshimura/items/6411b5861f40fe54694e",
       "normalizedTitle": "要約 a practical guide to shipping with claude code prを開いた後の 後始末 を ship でclaudeに任せる実践ガイド",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 2,
       "bodyHash": "bad7d3fb77efa09b",
       "bodyLength": 12438
     },
@@ -1234,17 +1155,17 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/3685f059d5cc95451691",
       "normalizedTitle": "anthropic sdk で streaming is strongly recommended for operations that may take longer than 10 minutes が出たときの直し方 hi だけでも出る理由と messages stream",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 1,
-      "bodyHash": "ba41c13eb8c3ab79",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 2,
+      "bodyHash": "d41197b3e0cacb1b",
       "bodyLength": 6181
     },
     {
       "normalizedUrl": "https://anthropic.com/research/migrating-api-to-rust",
       "normalizedTitle": "migrating api to rust",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 2,
       "bodyHash": "fb1bfc9d4df1f0b5",
       "bodyLength": 20027
     },
@@ -1252,10 +1173,82 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "normalizedTitle": "clay helps sales teams win with codex and chatgpt",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-25",
-      "occurrences": 1,
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 2,
       "bodyHash": "23fecadf81acb096",
       "bodyLength": 4386
+    },
+    {
+      "normalizedUrl": "https://twitter.com/skirano/status/2125371115979641188",
+      "normalizedTitle": "claude tries to sabotage research work at every stage",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "497ad9169826d310",
+      "bodyLength": 2020
+    },
+    {
+      "normalizedUrl": "https://testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6",
+      "normalizedTitle": "testers think they re hitting claude opus 5 6 through an opus 5 5 extra route",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "457ec55601e8f429",
+      "bodyLength": 4321
+    },
+    {
+      "normalizedUrl": "https://session-vault.dev/",
+      "normalizedTitle": "back up your claude code sessions and use them on any machine",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "487e809fe4437cde",
+      "bodyLength": 2220
+    },
+    {
+      "normalizedUrl": "https://github.com/batanus/lip-dictation",
+      "normalizedTitle": "show hn silent dictation for claude code via on device lip reading",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "0a144f8fd1af2162",
+      "bodyLength": 12855
+    },
+    {
+      "normalizedUrl": "https://qiita.com/ntaka329/items/2cfccd4bb5476e61ebe4",
+      "normalizedTitle": "markitdown で excel の設計書を claude に渡したら 取り消し線で消した機能を できます と答えた話 2026年版",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "eb913b82b2034305",
+      "bodyLength": 9510
+    },
+    {
+      "normalizedUrl": "https://qiita.com/koheip/items/477c4cd513b45bb47bc8",
+      "normalizedTitle": "mcpサーバーのつなぎ方 claude code codex cursorでの追加と確認",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "cd2da071a89c8078",
+      "bodyLength": 9822
+    },
+    {
+      "normalizedUrl": "https://qiita.com/homhom44/items/f61e4877d7400be7f4c8",
+      "normalizedTitle": "claude code action で sdk execution error と claude code native binary not found at home runner local bin claude が出たときの直し方 sha 固定と本当の原因の見つけ方",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "dedf7adac2152b97",
+      "bodyLength": 5958
+    },
+    {
+      "normalizedUrl": "https://qiita.com/supportapp3/items/8124ba9be236314cc5f2",
+      "normalizedTitle": "codex login with api key の api キーは codex auth json に平文で残る logout で消えるがコピーは残り keyring は secret service の無い linux で失敗 codex cli 0 171 0で確認",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "bodyHash": "2a5f0ab429d42e8a",
+      "bodyLength": 7519
     }
   ]
 }

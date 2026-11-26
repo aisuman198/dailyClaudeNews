@@ -4301,6 +4301,136 @@
       "examples": [
         "/ship コマンド記事で Code Review・PR Steward・Claude Approvals をまとめる呼称として使用"
       ]
+    },
+    {
+      "term": "tipster",
+      "rule": "日本語本文中の英語名詞は日本語に統一する既知ルール適用：「tipster」→「情報提供者」",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.6記事の「tipster の Chetaslua」を修正"
+      ]
+    },
+    {
+      "term": "（Opus 5 回）",
+      "rule": "「Opus 5」がモデル名と誤読される曖昧表記。読点を補い「（Opus、5 回）」と表記する",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "MarkItDown記事末尾の試行回数記述で発見"
+      ]
+    },
+    {
+      "term": "Claude Opus 5.6",
+      "rule": "原文ままで保持・要注意フラグ（Anthropic公式未確認の新モデル名として今号初出）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "プロダクト記事タイトルおよび本文に登場"
+      ]
+    },
+    {
+      "term": "Fable 5.5",
+      "rule": "原文ままで保持・要注意フラグ（Fable 5.1/5.2は既知、5.5は今号初出の新バリアント）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.6記事本文に登場"
+      ]
+    },
+    {
+      "term": "Mythos 5.2",
+      "rule": "原文ままで保持・要注意フラグ（Mythos 5.1は既知、5.2は今号初出の新バリアント）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.6記事本文に登場"
+      ]
+    },
+    {
+      "term": "GPT-6.2 Astra",
+      "rule": "原文ままで保持・要注意フラグ（既知「GPT-6 Astra」の新マイナーバージョン表記として今号初出）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.6記事末尾に登場"
+      ]
+    },
+    {
+      "term": "Sol（GPT-6.2文脈）",
+      "rule": "原文ままで保持・要注意フラグ（「GPT-6.2 Astra と Sol」の形で登場。GPT-6.2 Sol の可能性あり）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.6記事末尾に登場"
+      ]
+    },
+    {
+      "term": "Gemini 4 Neon",
+      "rule": "原文ままで保持・要注意フラグ（Gemini 4 Argon/Carbonは既知、Neonは今号初出の新バリアント）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "Opus 5.6記事末尾に登場"
+      ]
+    },
+    {
+      "term": "Inkling モデル",
+      "rule": "原文ままで保持・要注意フラグ（未知のAIモデル名、@nistenの投稿に登場）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "妨害報告記事本文に登場"
+      ]
+    },
+    {
+      "term": "Session Vault",
+      "rule": "原文ままで保持（Claude Codeプラグイン名として今号初出）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "開発者ツール記事のカードタイトルおよび本文"
+      ]
+    },
+    {
+      "term": "lip-dictation",
+      "rule": "原文ままで保持（Claude Codeリップリーディングプラグイン名として今号初出）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "開発者ツール記事のカードタイトルおよび本文"
+      ]
+    },
+    {
+      "term": "Auto-AVSR",
+      "rule": "原文ままで保持（視覚専用リップリーディングモデル名として今号初出）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "lip-dictation記事本文に登場"
+      ]
+    },
+    {
+      "term": "DoNotSabotage",
+      "rule": "原文ままで保持（Pietro Schiranoが作成したClaudeスキル名として今号初出）",
+      "firstSeenDate": "2026-11-26",
+      "lastSeenDate": "2026-11-26",
+      "occurrences": 1,
+      "examples": [
+        "妨害報告記事本文に登場"
+      ]
     }
   ]
 }
