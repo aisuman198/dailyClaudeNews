@@ -11,24 +11,6 @@
       "bodyLength": 20028
     },
     {
-      "normalizedUrl": "https://anthropic.com/news/s1-sec",
-      "normalizedTitle": "s1 sec",
-      "firstSeenDate": "2026-10-26",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 9,
-      "bodyHash": "781123763abafe6e",
-      "bodyLength": 1570
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/early-progress-drug-development",
-      "normalizedTitle": "early progress drug development",
-      "firstSeenDate": "2026-10-27",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 15,
-      "bodyHash": "b90c442866d3b685",
-      "bodyLength": 11839
-    },
-    {
       "normalizedUrl": "https://anthropic.com/research/vibe-physics",
       "normalizedTitle": "vibe physics",
       "firstSeenDate": "2026-11-02",
@@ -38,137 +20,11 @@
       "bodyLength": 19256
     },
     {
-      "normalizedUrl": "https://anthropic.com/research/provable-inference",
-      "normalizedTitle": "provable inference",
-      "firstSeenDate": "2026-11-03",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 9,
-      "bodyHash": "120a8a460be35690",
-      "bodyLength": 20027
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/investigating-vault-particles-with-claude",
-      "normalizedTitle": "investigating vault particles with claude",
-      "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 8,
-      "bodyHash": "a529770b6655b758",
-      "bodyLength": 15732
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/how-researchers-use-claude",
-      "normalizedTitle": "how researchers use claude",
-      "firstSeenDate": "2026-11-05",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 8,
-      "bodyHash": "497f9f94abdf4dd8",
-      "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/components-of-agent-memory",
-      "normalizedTitle": "components of agent memory",
-      "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 7,
-      "bodyHash": "130f5637a33d3eb1",
-      "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/teaching-ai-to-build-scientific-models",
-      "normalizedTitle": "teaching ai to build scientific models",
-      "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 7,
-      "bodyHash": "9e5acef2bd349d4b",
-      "bodyLength": 18382
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/project-eve-claude-plays-mmorpgs",
-      "normalizedTitle": "project eve claude plays mmorpgs",
-      "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 7,
-      "bodyHash": "00fe5eddf5fc657d",
-      "bodyLength": 20028
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/accelerating-scientific-research",
-      "normalizedTitle": "accelerating scientific research",
-      "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 7,
-      "bodyHash": "237a97e85c9901f3",
-      "bodyLength": 13833
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/open-call-guest-investigators-life-sciences",
-      "normalizedTitle": "open call guest investigators life sciences",
-      "firstSeenDate": "2026-11-06",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 7,
-      "bodyHash": "48c2168d5ad4870a",
-      "bodyLength": 2838
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/research/claude-electronics-design",
-      "normalizedTitle": "testing claude on real world electronics design",
-      "firstSeenDate": "2026-11-09",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 4,
-      "bodyHash": "0c7b2390fd275d12",
-      "bodyLength": 16990
-    },
-    {
       "normalizedUrl": "https://openai.com/index/coderabbit-codex-daybreak",
       "normalizedTitle": "coderabbit scales agentic software development and ships 20x more",
       "firstSeenDate": "2026-11-09",
       "lastSeenDate": "2026-11-15",
       "occurrences": 7
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/roadshow-launch",
-      "normalizedTitle": "roadshow launch",
-      "firstSeenDate": "2026-11-10",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 3,
-      "bodyHash": "3b98277f961549c9",
-      "bodyLength": 1913
-    },
-    {
-      "normalizedUrl": "https://qiita.com/takeshi_Qiita/items/a84c8eab09c878071daa",
-      "normalizedTitle": "改定前受験推奨 claude certified architect professional ccar p 本日受験してきました 合格体験記",
-      "firstSeenDate": "2026-11-11",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 2,
-      "bodyHash": "3875d1ccb64128b2",
-      "bodyLength": 2480
-    },
-    {
-      "normalizedUrl": "https://ipo.anthropic.com/us",
-      "normalizedTitle": "anthropic ipo",
-      "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
-      "bodyHash": "2c1ce91978f73ce7",
-      "bodyLength": 3514
-    },
-    {
-      "normalizedUrl": "https://qiita.com/MURAMASA2470/items/ad5a0cade2bd5b3165f9",
-      "normalizedTitle": "claude opus 5 5とfable 5 2はどちらを使うべきか claude codeで同じ課題を解かせて比べてみた",
-      "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
-      "bodyHash": "b8f0f2fcc35f6dbe",
-      "bodyLength": 7799
-    },
-    {
-      "normalizedUrl": "https://qiita.com/charge0315/items/029778580526067de714",
-      "normalizedTitle": "claude code の claude md が読み込まれたかを context all で確かめる windows powershell",
-      "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
-      "bodyHash": "86b6112e68ae8aef",
-      "bodyLength": 3492
     },
     {
       "normalizedUrl": "https://qiita.com/satouyoshiaki/items/73987257a1d001c9fe66",
@@ -178,33 +34,6 @@
       "occurrences": 2,
       "bodyHash": "8b336f2d52a84b16",
       "bodyLength": 1848
-    },
-    {
-      "normalizedUrl": "https://qiita.com/ussu_ussu_ussu/items/e3d3653b05e359e2dfbb",
-      "normalizedTitle": "claude code の sessionstart hook で渡していた 31 万字は 会話にほぼ入っていなかった 上限は 1 万字",
-      "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
-      "bodyHash": "341db177be961524",
-      "bodyLength": 8088
-    },
-    {
-      "normalizedUrl": "https://qiita.com/hisashi-ito/items/e654ea04c021251df7b1",
-      "normalizedTitle": "claude code codex muse grok bot みんなの ai エージェントの使い方を調べて おすすめのチートシートを作ってみた",
-      "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
-      "bodyHash": "289cfd8479560c25",
-      "bodyLength": 19992
-    },
-    {
-      "normalizedUrl": "https://anthropic.com/news/claude-4",
-      "normalizedTitle": "claude 4",
-      "firstSeenDate": "2026-11-12",
-      "lastSeenDate": "2026-11-12",
-      "occurrences": 1,
-      "bodyHash": "9e5eb4dd7d42d4fc",
-      "bodyLength": 10301
     },
     {
       "normalizedUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
@@ -999,8 +828,8 @@
       "normalizedUrl": "https://anthropic.com/research/working-with-ai",
       "normalizedTitle": "working with ai",
       "firstSeenDate": "2026-11-23",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 4,
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 5,
       "bodyHash": "fdcfa13713200ebe",
       "bodyLength": 16363
     },
@@ -1103,8 +932,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/alignment",
       "normalizedTitle": "alignment",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 4,
       "bodyHash": "b24980c3271958ef",
       "bodyLength": 4481
     },
@@ -1112,8 +941,8 @@
       "normalizedUrl": "https://anthropic.com/research/team/interpretability",
       "normalizedTitle": "interpretability",
       "firstSeenDate": "2026-11-24",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 3,
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 4,
       "bodyHash": "62e259ec859e3dd2",
       "bodyLength": 4540
     },
@@ -1128,10 +957,10 @@
       "normalizedUrl": "https://github.com/lsernau/grh-lean",
       "normalizedTitle": "much shorter version of grh lean verification from anthropic",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 2,
-      "bodyHash": "7db1eb4b7b7aa37b",
-      "bodyLength": 2123
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 3,
+      "bodyHash": "f13f948eff01072b",
+      "bodyLength": 2125
     },
     {
       "normalizedUrl": "https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc",
@@ -1155,8 +984,8 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/3685f059d5cc95451691",
       "normalizedTitle": "anthropic sdk で streaming is strongly recommended for operations that may take longer than 10 minutes が出たときの直し方 hi だけでも出る理由と messages stream",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 3,
       "bodyHash": "d41197b3e0cacb1b",
       "bodyLength": 6181
     },
@@ -1164,8 +993,8 @@
       "normalizedUrl": "https://anthropic.com/research/migrating-api-to-rust",
       "normalizedTitle": "migrating api to rust",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 3,
       "bodyHash": "fb1bfc9d4df1f0b5",
       "bodyLength": 20027
     },
@@ -1173,8 +1002,8 @@
       "normalizedUrl": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "normalizedTitle": "clay helps sales teams win with codex and chatgpt",
       "firstSeenDate": "2026-11-25",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 2,
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 3,
       "bodyHash": "23fecadf81acb096",
       "bodyLength": 4386
     },
@@ -1236,9 +1065,9 @@
       "normalizedUrl": "https://qiita.com/homhom44/items/f61e4877d7400be7f4c8",
       "normalizedTitle": "claude code action で sdk execution error と claude code native binary not found at home runner local bin claude が出たときの直し方 sha 固定と本当の原因の見つけ方",
       "firstSeenDate": "2026-11-26",
-      "lastSeenDate": "2026-11-26",
-      "occurrences": 1,
-      "bodyHash": "dedf7adac2152b97",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 2,
+      "bodyHash": "6b9db6491aa3f84f",
       "bodyLength": 5958
     },
     {
@@ -1249,6 +1078,51 @@
       "occurrences": 1,
       "bodyHash": "2a5f0ab429d42e8a",
       "bodyLength": 7519
+    },
+    {
+      "normalizedUrl": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "normalizedTitle": "claude sabotaging ml research tasks",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "bodyHash": "55f43d5ad1e7ddd8",
+      "bodyLength": 1579
+    },
+    {
+      "normalizedUrl": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona",
+      "normalizedTitle": "what s claude s fursona and other questions",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "bodyHash": "017a03a42a7cd0a2",
+      "bodyLength": 13925
+    },
+    {
+      "normalizedUrl": "https://emergent.sh/news/claude-code-skills-now-sharable-across-teams",
+      "normalizedTitle": "claude code skills now sharable across teams",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "bodyHash": "f1c561969c4091fc",
+      "bodyLength": 6335
+    },
+    {
+      "normalizedUrl": "https://qiita.com/tadanok/items/77fa2c7a9d0acd0e3cde",
+      "normalizedTitle": "特別編 ai と長編小説を 1 本書き上げるまで claude code codex claude ai とスキルで品質を支えた話",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "bodyHash": "722656bf150e3ce4",
+      "bodyLength": 8210
+    },
+    {
+      "normalizedUrl": "https://qiita.com/supportapp3/items/48ddf2dba69dc2382f41",
+      "normalizedTitle": "codex cli に貼った api キーは codex sessions と sqlite に平文で残る codex delete 後も db ファイルに文字列が残り ephemeral なら残らなかった codex cli 0 172 0で確認",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "bodyHash": "be377da20cb5e046",
+      "bodyLength": 8574
     }
   ]
 }
