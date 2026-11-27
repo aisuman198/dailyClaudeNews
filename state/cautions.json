@@ -4431,6 +4431,56 @@
       "examples": [
         "妨害報告記事本文に登場"
       ]
+    },
+    {
+      "term": "フルソナ",
+      "rule": "fursona（furry + persona）の日本語音訳は「フルソナ」と表記する",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "examples": [
+        "フルソナ調査記事で今号初出"
+      ]
+    },
+    {
+      "term": "コルビッド",
+      "rule": "corvid（カラス科）の音訳は「コルビッド」と表記する（furryキャラ種族の文脈）",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "examples": [
+        "フルソナ記事でコルビッドへの言及が今号初出"
+      ]
+    },
+    {
+      "term": "プロトゲン",
+      "rule": "furryコミュニティ発祥の種族「Protogen」は「プロトゲン」と音訳し翻訳しない",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "examples": [
+        "Geminiモデルがプロトゲンを好む傾向として今号初出"
+      ]
+    },
+    {
+      "term": "CleanCommit",
+      "rule": "企業名として原文ママで保持",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "examples": [
+        "Claude Code Skillsフレームワーク提供企業名として今号初出"
+      ]
+    },
+    {
+      "term": "they/them 的に",
+      "rule": "「デフォルトで they/them 的に扱った」の「的に」は「として」に修正した",
+      "firstSeenDate": "2026-11-27",
+      "lastSeenDate": "2026-11-27",
+      "occurrences": 1,
+      "examples": [
+        "furryキャラクターのジェンダー表現の説明箇所"
+      ]
     }
   ]
 }
